@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up – Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { background: #f7f7f5; }
+
+      .page {
+        min-height: calc(100vh - 70px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .card {
+        background: #fff;
+        border: 0.5px solid #e5e5e5;
+        border-radius: 16px;
+        padding: 2rem;
+        width: 100%;
+        max-width: 420px;
+      }
+
+      .card-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 0.25rem;
+      }
+
+      .card-sub {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 1.5rem;
+      }
+
+      .field {
+        margin-bottom: 1rem;
+      }
+
+      .field label {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        color: #555;
+        margin-bottom: 5px;
+      }
+
+      .field input {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        font-size: 14px;
+        color: #111;
+        font-family: inherit;
+        outline: none;
+        transition: border-color 0.15s;
+      }
+
+      .field input:focus {
+        border-color: #1D9E75;
+      }
+
+      .row2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .submit-btn {
+        width: 100%;
+        background: #1D9E75;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 11px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 0.5rem;
+        font-family: inherit;
+        transition: background 0.15s;
+      }
+
+      .submit-btn:hover { background: #0F6E56; }
+
+      .divider {
+        text-align: center;
+        font-size: 13px;
+        color: #aaa;
+        margin: 1rem 0;
+      }
+
+      .login-link {
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+        margin-top: 1rem;
+      }
+
+      .login-link a {
+        color: #1D9E75;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .login-link a:hover { text-decoration: underline; }
+
+      .terms {
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+        margin-top: 1rem;
+        line-height: 1.6;
+      }
+
+      .terms a { color: #888; }
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-logo">Lurker<span>.</span></div>
+      <div class="nav-center">
+        <button class="nav-btn">X</button>
+        <button class="nav-btn">XX</button>
+        <button class="nav-btn">XXX</button>
+      </div>
+      <button class="user-btn" onclick="window.location.href='signup.html'">
+        <span>Sign up</span>
+      </button>
+    </nav>
+
+    <div class="page">
+      <div class="card">
+        <div class="card-title">Create your account</div>
+        <div class="card-sub">Join Lurker today — it's free.</div>
+
+        <div class="row2">
+          <div class="field">
+            <label>First name</label>
+            <input type="text" placeholder="First" />
+          </div>
+          <div class="field">
+            <label>Last name</label>
+            <input type="text" placeholder="Last" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Email</label>
+          <input type="email" placeholder="you@example.com" />
+        </div>
+
+        <div class="field">
+          <label>Username</label>
+          <input type="text" placeholder="@username" />
+        </div>
+
+        <div class="field">
+          <label>Password</label>
+          <input type="password" placeholder="At least 8 characters" />
+        </div>
+
+        <div class="field">
+          <label>Confirm password</label>
+          <input type="password" placeholder="Repeat your password" />
+        </div>
+
+        <button class="submit-btn" onclick="handleSignup()">Create account</button>
+
+        <div class="terms">
+          By signing up you agree to our
+          <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+        </div>
+
+        <div class="login-link">
+          Already have an account? <a href="login.html">Log in</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function handleSignup() {
+        const inputs = document.querySelectorAll('input');
+        for (let input of inputs) {
+          if (!input.value.trim()) {
+            input.style.borderColor = '#E24B4A';
+            input.focus();
+            return;
+          }
+          input.style.borderColor = '#e5e5e5';
+        }
+        localStorage.setItem('loggedIn', 'true');
+        window.location.href = 'index.html';
+      }
+    </script>
+
+  </body>
+</html>
