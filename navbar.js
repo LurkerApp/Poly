@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
       '.dropdown-content a { color: #111; padding: 12px 16px; text-decoration: none; display: block; font-family: Poppins, sans-serif; font-size: 14px; }' +
       '.dropdown-content a:hover { background-color: #f0f0f0; }' +
       '.nav-dropdown:hover .dropdown-content { display: block; }' +
+      '.wave-container { width: 100%; height: 120px; overflow: hidden; position: relative; margin-top: 20px; }' +
+      '.wave-svg { width: 100%; height: 100%; display: block; }' +
+      '@keyframes waveAnimation { 0% { d: path("M0,60 Q180,20 360,60 T720,60 T1080,60 T1440,60 L1440,120 L0,120 Z"); } 25% { d: path("M0,40 Q180,80 360,40 T720,40 T1080,40 T1440,40 L1440,120 L0,120 Z"); } 50% { d: path("M0,60 Q180,20 360,60 T720,60 T1080,60 T1440,60 L1440,120 L0,120 Z"); } 75% { d: path("M0,80 Q180,30 360,80 T720,80 T1080,80 T1440,80 L1440,120 L0,120 Z"); } 100% { d: path("M0,60 Q180,20 360,60 T720,60 T1080,60 T1440,60 L1440,120 L0,120 Z"); } }' +
+      '.wave-path { animation: waveAnimation 4s ease-in-out infinite; fill: #1D9E75; opacity: 0.8; }' +
     '</style>' +
     '<nav>' +
       '<a href="index.html" style="text-decoration:none;">' +
@@ -48,6 +52,13 @@ document.addEventListener('DOMContentLoaded', function() {
         '<div class="avatar" style="' + avatarStyle + '">U</div>' +
         '<span>' + label + '</span>' +
       '</button>' +
-    '</nav>'
+    '</nav>' +
+    '<div class="wave-container" id="wave-container"></div>'
   );
+
+  // Add wave animation only on index.html
+  if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
+    var waveContainer = document.getElementById('wave-container');
+    waveContainer.innerHTML = '<svg class="wave-svg" viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path class="wave-path" d="M0,60 Q180,20 360,60 T720,60 T1080,60 T1440,60 L1440,120 L0,120 Z"></path></svg>';
+  }
 });
