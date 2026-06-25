@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Settings – Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { background: #f7f7f5; }
+      .page { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem; }
+      .page-title { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 1.5rem; }
+      .tabs { display: flex; gap: 2px; border-bottom: 1px solid #e5e5e5; margin-bottom: 1.5rem; }
+      .tab { font-size: 14px; font-weight: 500; color: #888; padding: 8px 16px; border: none; background: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+      .tab.active { color: #1D9E75; border-bottom-color: #1D9E75; }
+      .card { background: #fff; border: 0.5px solid #e5e5e5; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+      .card-title { font-size: 13px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 1rem; }
+      .profile-row { display: flex; align-items: center; gap: 16px; margin-bottom: 1.25rem; }
+      .avatar-lg { width: 64px; height: 64px; border-radius: 50%; background: #1D9E75; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 700; color: #fff; }
+      .field { margin-bottom: 1rem; }
+      .field label { display: block; font-size: 13px; font-weight: 500; color: #555; margin-bottom: 5px; }
+      .field input { width: 100%; padding: 9px 12px; border: 1px solid #e5e5e5; border-radius: 8px; font-size: 14px; color: #111; font-family: inherit; }
+      .field input:focus { border-color: #1D9E75; outline: none; }
+      .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 0.5px solid #f0f0f0; }
+      .toggle-row:last-child { border-bottom: none; }
+      .save-btn { background: #1D9E75; color: #fff; border: none; font-size: 14px; font-weight: 600; padding: 10px 24px; border-radius: 8px; cursor: pointer; }
+      .danger-btn { background: none; color: #E24B4A; border: 1px solid #E24B4A; font-size: 14px; padding: 9px 20px; border-radius: 8px; cursor: pointer; }
+      .change-btn { font-size: 13px; font-weight: 500; color: #1D9E75; background: #f0faf6; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">Lurker<span>.</span></div>
+      <div class="nav-center">
+        <button class="nav-btn">X</button>
+        <button class="nav-btn">XX</button>
+        <button class="nav-btn">XXX</button>
+      </div>
+      <button class="user-btn">
+        <div class="avatar">U</div>
+        Username
+      </button>
+    </nav>
+
+    <div class="page">
+      <div class="page-title">Settings</div>
+
+      <div class="tabs">
+        <button class="tab active">Profile</button>
+        <button class="tab">Account</button>
+        <button class="tab">Notifications</button>
+        <button class="tab">Privacy</button>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Profile info</div>
+        <div class="profile-row">
+          <div class="avatar-lg">U</div>
+          <div>
+            <div style="font-size:18px; font-weight:700; color:#111;">Username</div>
+            <div style="font-size:13px; color:#888;">@username · Member since 2024</div>
+          </div>
+          <button class="change-btn">Change photo</button>
+        </div>
+        <div class="row2">
+          <div class="field"><label>First name</label><input type="text" placeholder="First name" /></div>
+          <div class="field"><label>Last name</label><input type="text" placeholder="Last name" /></div>
+        </div>
+        <div class="field"><label>Username</label><input type="text" placeholder="@username" /></div>
+        <div class="field"><label>Bio</label><input type="text" placeholder="Tell people a little about yourself" /></div>
+        <button class="save-btn">Save changes</button>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Notifications</div>
+        <div class="toggle-row">
+          <div>
+            <div style="font-size:14px;">Email notifications</div>
+            <div style="font-size:12px; color:#aaa;">Receive updates via email</div>
+          </div>
+          <input type="checkbox" checked />
+        </div>
+        <div class="toggle-row">
+          <div>
+            <div style="font-size:14px;">Push notifications</div>
+            <div style="font-size:12px; color:#aaa;">Get alerts on your device</div>
+          </div>
+          <input type="checkbox" />
+        </div>
+        <div class="toggle-row">
+          <div>
+            <div style="font-size:14px;">Weekly digest</div>
+            <div style="font-size:12px; color:#aaa;">Summary of activity each week</div>
+          </div>
+          <input type="checkbox" checked />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Danger zone</div>
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <div>
+            <div style="font-size:14px; font-weight:500;">Delete account</div>
+            <div style="font-size:12px; color:#aaa;">Permanently remove your account and all data</div>
+          </div>
+          <button class="danger-btn">Delete account</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
