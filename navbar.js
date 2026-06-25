@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       '</a>' +
       '<div class="nav-center">' +
         '<div class="nav-dropdown">' +
-          '<button class="dropdown-btn">Category 1</button>' +
+          '<button class="dropdown-btn">Trading</button>' +
           '<div class="dropdown-content">' +
             '<a href="page1.html">Page 1</a>' +
             '<a href="page2.html">Page 2</a>' +
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
           '</div>' +
         '</div>' +
         '<div class="nav-dropdown">' +
-          '<button class="dropdown-btn">Category 2</button>' +
+          '<button class="dropdown-btn">Predictions</button>' +
           '<div class="dropdown-content">' +
             '<a href="page4.html">Page 4</a>' +
             '<a href="page5.html">Page 5</a>' +
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
           '</div>' +
         '</div>' +
         '<div class="nav-dropdown">' +
-          '<button class="dropdown-btn">Category 3</button>' +
+          '<button class="dropdown-btn">Insights</button>' +
           '<div class="dropdown-content">' +
             '<a href="page7.html">Page 7</a>' +
             '<a href="page8.html">Page 8</a>' +
