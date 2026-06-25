@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var label = isLoggedIn ? 'Username' : 'Sign up';
   document.body.insertAdjacentHTML('afterbegin',
     '<nav>' +
-      '<a href="index.html" style="display:flex; align-items:center; text-decoration:none;">' +
-        '<img src="Lurker.png" alt="Lurker" style="height:40px; width:auto;">' +
+      '<a href="index.html" style="text-decoration:none;">' +
+        '<span style="font-family: Poppins, sans-serif; font-size:22px; font-weight:800; color:#111; letter-spacing:-0.5px;">Lurker<span style="color:#1D9E75;">.</span></span>' +
       '</a>' +
       '<div class="nav-center">' +
         '<button class="nav-btn">X</button>' +
