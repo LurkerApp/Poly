@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  height: 70px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-logo {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #111;
+  margin-right: 8px;
+}
+
+.nav-logo span {
+  color: #1D9E75;
+}
+
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-btn:hover {
+  background: #f4f4f4;
+  color: #111;
+}
+
+.nav-btn.active {
+  background: #f0faf6;
+  color: #0F6E56;
+}
+
+.user-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1.5px solid #e5e5e5;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+  padding: 7px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-family: inherit;
+}
+
+.user-btn:hover {
+  border-color: #1D9E75;
+  background: #f0faf6;
+}
+
+.avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #1D9E75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+}
