@@ -3,10 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var destination = isLoggedIn ? 'settings.html' : 'signup.html';
   var avatarStyle = isLoggedIn ? '' : 'display:none';
   var label = isLoggedIn ? 'Username' : 'Sign up';
-
   document.body.insertAdjacentHTML('afterbegin',
     '<nav>' +
-      '<div class="nav-logo">Lurker<span>.</span></div>' +
+      '<img src="Lurker.png" alt="Lurker" onclick="window.location.href=\'index.html\'" style="height:40px; width:auto; cursor:pointer;">' +
       '<div class="nav-center">' +
         '<button class="nav-btn">X</button>' +
         '<button class="nav-btn">XX</button>' +
