@@ -7,100 +7,12 @@
       body { background: #f7f7f5; }
       .page { padding: 3rem 2rem; }
       .page h1 { font-size: 2.5rem; font-weight: 700; color: #111; letter-spacing: -1px; }
-      
-      /* Wave animation styles */
-      #wave-container {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 200px;
-        overflow: hidden;
-        pointer-events: none;
-        transition: opacity 0.5s ease-out;
-      }
-      
-      #wave-container.hide {
-        opacity: 0;
-      }
-      
-      svg#wave {
-        width: 100%;
-        height: 100%;
-      }
-      
-      .wave-path {
-        fill: #1ABC9C;
-        opacity: 0.8;
-      }
-      
-      .smiley-face {
-        fill: #2C3E50;
-      }
     </style>
   </head>
   <body>
-    <div id="wave-container">
-      <svg viewBox="0 0 1440 363" id="wave" xmlns="http://www.w3.org/2000/svg">
-        <!-- Main wave path -->
-        <path class="wave-path" id="wavePath"></path>
-        
-        <!-- Smiley face on the wave -->
-        <g class="smiley-face" id="smileyFace">
-          <!-- Head -->
-          <circle cx="720" cy="140" r="60" fill="none" stroke="#2C3E50" stroke-width="4"/>
-          <!-- Left eye -->
-          <circle cx="700" cy="125" r="6" fill="#2C3E50"/>
-          <!-- Right eye -->
-          <circle cx="740" cy="125" r="6" fill="#2C3E50"/>
-          <!-- Smile (arc) -->
-          <path d="M 705 145 Q 720 160 735 145" fill="none" stroke="#2C3E50" stroke-width="4" stroke-linecap="round"/>
-        </g>
-      </svg>
-    </div>
-
     <div class="page">
       <h1>Hello, World!</h1>
     </div>
     <script src="navbar.js"></script>
-    <script>
-      // Wave animation with smiley face
-      const canvas = document.getElementById('wave');
-      const wavePath = document.getElementById('wavePath');
-      const smileyFace = document.getElementById('smileyFace');
-      const waveContainer = document.getElementById('wave-container');
-
-      let time = 0;
-      const speed = 0.08;
-      const frequency = 0.015;
-      const amplitude = 40;
-
-      function drawWave() {
-        let path = 'M 0,180';
-
-        for (let x = 0; x <= 1440; x += 10) {
-          const y = 180 + Math.sin((x * frequency) + time) * amplitude;
-          path += ` L ${x},${y}`;
-        }
-
-        path += ' L 1440,363 L 0,363 Z';
-        wavePath.setAttribute('d', path);
-
-        // Animate smiley vertical position with wave
-        const smileyWaveHeight = 180 + Math.sin((720 * frequency) + time) * amplitude;
-        smileyFace.setAttribute('transform', `translate(0, ${Math.max(0, smileyWaveHeight - 140)})`);
-
-        time += speed;
-        requestAnimationFrame(drawWave);
-      }
-
-      // Start the wave animation
-      drawWave();
-
-      // Hide wave after 3 seconds
-      setTimeout(() => {
-        waveContainer.classList.add('hide');
-      }, 3000);
-    </script>
   </body>
 </html>
