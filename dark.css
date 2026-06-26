@@ -1,0 +1,101 @@
+/* Dark mode overrides for the site */
+/* Use variables so authors can extend if needed */
+:root {
+  --bg: #0b0e12;
+  --page-bg: #0f1519;
+  --muted-bg: #0b0f12;
+  --text: #e6eef6;
+  --muted-text: #b9c3cc;
+  --accent: #4da3ff;
+  --accent-strong: #2b7fda;
+  --border: rgba(255,255,255,0.06);
+  --shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* Global page background */
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Page container */
+.page {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  max-width: 980px;
+  margin: 2rem auto;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+/* Headings */
+.page h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -1px;
+  margin: 0 0 0.5rem 0;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, input[type="button"], .btn {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+}
+
+/* Navbar / header common styles: tweak to fit your navbar.js output */
+.navbar, header, nav {
+  background: transparent;
+  color: var(--text);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+/* Forms, inputs and textareas */
+input, textarea, select {
+  background: #0b0f12;
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  background: transparent;
+}
+th, td {
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  padding: 0.5rem;
+  color: var(--muted-text);
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Small screens adjustments */
+@media (max-width: 600px) {
+  .page { padding: 2rem 1rem; }
+  .page h1 { font-size: 1.6rem; }
+}
