@@ -95,6 +95,17 @@
       </div>
 
       <div class="card">
+        <div class="card-title">Session</div>
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <div>
+            <div style="font-size:14px; font-weight:500;">Sign out</div>
+            <div style="font-size:12px; color:#aaa;">End your current session</div>
+          </div>
+          <button class="danger-btn" onclick="handleSignOut()">Sign out</button>
+        </div>
+      </div>
+
+      <div class="card">
         <div class="card-title">Danger zone</div>
         <div style="display:flex; align-items:center; justify-content:space-between;">
           <div>
@@ -105,5 +116,13 @@
         </div>
       </div>
     </div>
+
+    <script src="navbar.js"></script>
+    <script>
+      function handleSignOut() {
+        localStorage.removeItem('loggedIn');
+        window.location.href = 'signup.html';
+      }
+    </script>
   </body>
 </html>
