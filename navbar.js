@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
   var isLoggedIn = localStorage.getItem('loggedIn') === 'true';
+  var username = localStorage.getItem('username') || 'User';
   var destination = isLoggedIn ? 'settings.html' : 'signup.html';
   var avatarStyle = isLoggedIn ? '' : 'display:none';
-  var label = isLoggedIn ? 'Username' : 'Sign up';
+  var label = isLoggedIn ? username : 'Sign up';
+  var avatarLetter = username.charAt(0).toUpperCase();
   
   document.body.insertAdjacentHTML('afterbegin',
     '<style>' +
@@ -45,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         '</div>' +
       '</div>' +
       '<button class="user-btn" onclick="window.location.href=\'' + destination + '\'">' +
-        '<div class="avatar" style="' + avatarStyle + '">U</div>' +
+        '<div class="avatar" style="' + avatarStyle + '">' + avatarLetter + '</div>' +
         '<span>' + label + '</span>' +
       '</button>' +
     '</nav>'
