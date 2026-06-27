@@ -54,6 +54,13 @@
         margin-top: 4px;
         display: none;
       }
+      .success-msg {
+        font-size: 13px;
+        color: #1D9E75;
+        margin-top: 4px;
+        display: none;
+        margin-bottom: 0.5rem;
+      }
       .submit-btn {
         width: 100%;
         background: #1D9E75;
@@ -121,6 +128,7 @@
           <div class="error-msg" id="confirm-error">Passwords do not match</div>
         </div>
 
+        <div class="success-msg" id="success-msg"></div>
         <div class="error-msg" id="supabase-error" style="margin-bottom:0.5rem;"></div>
 
         <button class="submit-btn" id="submitBtn" onclick="handleSignup()">Create account</button>
@@ -155,6 +163,7 @@
 
         // reset errors
         document.querySelectorAll('.error-msg').forEach(el => el.style.display = 'none')
+        document.querySelectorAll('.success-msg').forEach(el => el.style.display = 'none')
         document.querySelectorAll('input').forEach(el => el.style.borderColor = '#e5e5e5')
 
         // validate
@@ -185,7 +194,7 @@
         btn.disabled = true
         btn.textContent = 'Creating account...'
 
-        const { error } = await client.auth.signUp({
+        const { data, error } = await client.auth.signUp({
           email: email,
           password: password,
           options: {
@@ -199,10 +208,28 @@
           errEl.style.display = 'block'
           btn.disabled = false
           btn.textContent = 'Create account'
-        } else {
+        } else if (data && data.user) {
+          // User created successfully
           localStorage.setItem('loggedIn', 'true')
           localStorage.setItem('username', username)
-          window.location.href = 'index.html'
+          localStorage.setItem('userId', data.user.id)
+          
+          // Show success message and redirect
+          const successEl = document.getElementById('success-msg')
+          successEl.textContent = 'Account created successfully! Redirecting...'
+          successEl.style.display = 'block'
+          
+          // Wait 2 seconds then redirect
+          setTimeout(() => {
+            window.location.href = 'index.html'
+          }, 2000)
+        } else {
+          // Unexpected response
+          const errEl = document.getElementById('supabase-error')
+          errEl.textContent = 'Signup failed. Please try again.'
+          errEl.style.display = 'block'
+          btn.disabled = false
+          btn.textContent = 'Create account'
         }
       }
     </script>
