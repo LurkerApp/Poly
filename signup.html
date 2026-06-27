@@ -3,11 +3,11 @@
   <head>
     <title>Sign Up – Lurker</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
       body { 
         background: url('media/Lurker3.png') center/cover no-repeat fixed;
       }
-
       .page {
         min-height: calc(100vh - 70px);
         display: flex;
@@ -15,7 +15,6 @@
         justify-content: center;
         padding: 2rem;
       }
-
       .card {
         background: #fff;
         border: 0.5px solid #e5e5e5;
@@ -24,22 +23,13 @@
         width: 100%;
         max-width: 420px;
       }
-
       .card-title {
         font-size: 22px;
         font-weight: 700;
         color: #111;
         margin-bottom: 1.5rem;
       }
-
-      .card-sub {
-        font-size: 14px;
-        color: #888;
-        margin-bottom: 1.5rem;
-      }
-
       .field { margin-bottom: 1rem; }
-
       .field label {
         display: block;
         font-size: 13px;
@@ -47,7 +37,6 @@
         color: #555;
         margin-bottom: 5px;
       }
-
       .field input {
         width: 100%;
         padding: 10px 12px;
@@ -59,15 +48,13 @@
         outline: none;
         transition: border-color 0.15s;
       }
-
       .field input:focus { border-color: #1D9E75; }
-
-      .row2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 12px;
+      .error-msg {
+        font-size: 13px;
+        color: #E24B4A;
+        margin-top: 4px;
+        display: none;
       }
-
       .submit-btn {
         width: 100%;
         background: #1D9E75;
@@ -82,24 +69,20 @@
         font-family: inherit;
         transition: background 0.15s;
       }
-
       .submit-btn:hover { background: #0F6E56; }
-
+      .submit-btn:disabled { background: #aaa; cursor: not-allowed; }
       .login-link {
         text-align: center;
         font-size: 14px;
         color: #555;
         margin-top: 1rem;
       }
-
       .login-link a {
         color: #1D9E75;
         text-decoration: none;
         font-weight: 500;
       }
-
       .login-link a:hover { text-decoration: underline; }
-
       .terms {
         font-size: 12px;
         color: #aaa;
@@ -107,43 +90,46 @@
         margin-top: 1rem;
         line-height: 1.6;
       }
-
       .terms a { color: #888; }
     </style>
   </head>
   <body>
-
     <div class="page">
       <div class="card">
         <div class="card-title">Create your account</div>
 
         <div class="field">
           <label>Username</label>
-          <input type="text" placeholder="@username" />
+          <input id="username" type="text" placeholder="@username" />
+          <div class="error-msg" id="username-error">Please enter a username</div>
         </div>
 
         <div class="field">
           <label>Email</label>
-          <input type="email" placeholder="you@example.com" />
+          <input id="email" type="email" placeholder="you@example.com" />
+          <div class="error-msg" id="email-error">Please enter a valid email</div>
         </div>
 
         <div class="field">
           <label>Password</label>
-          <input type="password" placeholder="At least 8 characters" />
+          <input id="password" type="password" placeholder="At least 8 characters" />
+          <div class="error-msg" id="password-error">Password must be at least 8 characters</div>
         </div>
 
         <div class="field">
           <label>Confirm password</label>
-          <input type="password" placeholder="Repeat your password" />
+          <input id="confirm-password" type="password" placeholder="Repeat your password" />
+          <div class="error-msg" id="confirm-error">Passwords do not match</div>
         </div>
 
-        <button class="submit-btn" onclick="handleSignup()">Create account</button>
+        <div class="error-msg" id="supabase-error" style="margin-bottom:0.5rem;"></div>
+
+        <button class="submit-btn" id="submitBtn" onclick="handleSignup()">Create account</button>
 
         <div class="terms">
           By signing up you agree to our
           <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
         </div>
-
         <div class="login-link">
           Already have an account? <a href="login.html">Log in</a>
         </div>
@@ -152,20 +138,70 @@
 
     <script src="navbar.js"></script>
     <script>
-      function handleSignup() {
-        const inputs = document.querySelectorAll('input');
-        for (let input of inputs) {
-          if (!input.value.trim()) {
-            input.style.borderColor = '#E24B4A';
-            input.focus();
-            return;
-          }
-          input.style.borderColor = '#e5e5e5';
+      const supabase = window.supabase.createClient(
+        'https://your-project-id.supabase.co',
+        'your-anon-key'
+      )
+
+      async function handleSignup() {
+        const username = document.getElementById('username').value.trim()
+        const email = document.getElementById('email').value.trim()
+        const password = document.getElementById('password').value.trim()
+        const confirm = document.getElementById('confirm-password').value.trim()
+        const btn = document.getElementById('submitBtn')
+
+        // reset errors
+        document.querySelectorAll('.error-msg').forEach(el => el.style.display = 'none')
+        document.querySelectorAll('input').forEach(el => el.style.borderColor = '#e5e5e5')
+
+        // validate
+        let valid = true
+        if (!username) {
+          document.getElementById('username').style.borderColor = '#E24B4A'
+          document.getElementById('username-error').style.display = 'block'
+          valid = false
         }
-        localStorage.setItem('loggedIn', 'true');
-        window.location.href = 'index.html';
+        if (!email) {
+          document.getElementById('email').style.borderColor = '#E24B4A'
+          document.getElementById('email-error').style.display = 'block'
+          valid = false
+        }
+        if (password.length < 8) {
+          document.getElementById('password').style.borderColor = '#E24B4A'
+          document.getElementById('password-error').style.display = 'block'
+          valid = false
+        }
+        if (password !== confirm) {
+          document.getElementById('confirm-password').style.borderColor = '#E24B4A'
+          document.getElementById('confirm-error').style.display = 'block'
+          valid = false
+        }
+        if (!valid) return
+
+        // send to Supabase
+        btn.disabled = true
+        btn.textContent = 'Creating account...'
+
+        const { error } = await supabase.auth.signUp({
+          email: email,
+          password: password,
+          options: {
+            data: { username: username }
+          }
+        })
+
+        if (error) {
+          const errEl = document.getElementById('supabase-error')
+          errEl.textContent = error.message
+          errEl.style.display = 'block'
+          btn.disabled = false
+          btn.textContent = 'Create account'
+        } else {
+          localStorage.setItem('loggedIn', 'true')
+          localStorage.setItem('username', username)
+          window.location.href = 'index.html'
+        }
       }
     </script>
-
   </body>
 </html>
