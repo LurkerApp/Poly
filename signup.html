@@ -210,6 +210,15 @@
           btn.textContent = 'Create account'
         } else if (data && data.user) {
           // User created successfully
+          // Update user metadata with username as display_name
+          const { error: updateError } = await client.auth.updateUser({
+            data: { username: username, display_name: username }
+          })
+
+          if (updateError) {
+            console.warn('Warning: Could not update user metadata:', updateError.message)
+          }
+
           localStorage.setItem('loggedIn', 'true')
           localStorage.setItem('username', username)
           localStorage.setItem('userId', data.user.id)
