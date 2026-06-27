@@ -3,7 +3,6 @@
   <head>
     <title>Sign Up – Lurker</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
       body { 
         background: url('media/Lurker3.png') center/cover no-repeat fixed;
@@ -136,9 +135,13 @@
       </div>
     </div>
 
+    <!-- load Supabase first, then navbar, then your script -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="navbar.js"></script>
     <script>
-      const supabase = window.supabase.createClient(
+      const { createClient } = supabase
+
+      const client = createClient(
         'https://vhhfoedqioqdoaecxuwx.supabase.co',
         'sb_publishable_NmbPR4rRq3z5JmAGimeqBg_R1j6BCl-'
       )
@@ -182,7 +185,7 @@
         btn.disabled = true
         btn.textContent = 'Creating account...'
 
-        const { error } = await supabase.auth.signUp({
+        const { error } = await client.auth.signUp({
           email: email,
           password: password,
           options: {
