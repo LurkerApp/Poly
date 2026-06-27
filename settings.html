@@ -27,19 +27,6 @@
     </style>
   </head>
   <body>
-    <nav>
-      <div class="nav-logo">Lurker<span>.</span></div>
-      <div class="nav-center">
-        <button class="nav-btn">X</button>
-        <button class="nav-btn">XX</button>
-        <button class="nav-btn">XXX</button>
-      </div>
-      <button class="user-btn">
-        <div class="avatar">U</div>
-        Username
-      </button>
-    </nav>
-
     <div class="page">
       <div class="page-title">Settings</div>
 
@@ -53,10 +40,10 @@
       <div class="card">
         <div class="card-title">Profile info</div>
         <div class="profile-row">
-          <div class="avatar-lg">U</div>
+          <div class="avatar-lg" id="avatar-lg">U</div>
           <div>
-            <div style="font-size:18px; font-weight:700; color:#111;">Username</div>
-            <div style="font-size:13px; color:#888;">@username · Member since 2024</div>
+            <div style="font-size:18px; font-weight:700; color:#111;" id="display-username">Username</div>
+            <div style="font-size:13px; color:#888;" id="user-info">@username · Member since 2024</div>
           </div>
           <button class="change-btn">Change photo</button>
         </div>
@@ -64,7 +51,7 @@
           <div class="field"><label>First name</label><input type="text" placeholder="First name" /></div>
           <div class="field"><label>Last name</label><input type="text" placeholder="Last name" /></div>
         </div>
-        <div class="field"><label>Username</label><input type="text" placeholder="@username" /></div>
+        <div class="field"><label>Username</label><input type="text" placeholder="@username" id="username-input" /></div>
         <div class="field"><label>Bio</label><input type="text" placeholder="Tell people a little about yourself" /></div>
         <button class="save-btn">Save changes</button>
       </div>
@@ -119,8 +106,28 @@
 
     <script src="navbar.js"></script>
     <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var username = localStorage.getItem('username') || 'User';
+        var avatarLetter = username.charAt(0).toUpperCase();
+
+        // Update avatar with first letter
+        document.getElementById('avatar-lg').textContent = avatarLetter;
+        
+        // Update display name
+        document.getElementById('display-username').textContent = username;
+        
+        // Update user info with @username
+        var currentYear = new Date().getFullYear();
+        document.getElementById('user-info').textContent = '@' + username.toLowerCase() + ' · Member since ' + currentYear;
+        
+        // Pre-fill username input
+        document.getElementById('username-input').value = username;
+      });
+
       function handleSignOut() {
         localStorage.removeItem('loggedIn');
+        localStorage.removeItem('username');
+        localStorage.removeItem('userId');
         window.location.href = 'signup.html';
       }
     </script>
