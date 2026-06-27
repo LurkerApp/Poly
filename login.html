@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log In – Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { 
+        background: url('media/Lurker3.png') center/cover no-repeat fixed;
+      }
+      .page {
+        min-height: calc(100vh - 70px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+      .card {
+        background: #fff;
+        border: 0.5px solid #e5e5e5;
+        border-radius: 16px;
+        padding: 2rem;
+        width: 100%;
+        max-width: 420px;
+      }
+      .card-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 1.5rem;
+      }
+      .field { margin-bottom: 1rem; }
+      .field label {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        color: #555;
+        margin-bottom: 5px;
+      }
+      .field input {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        font-size: 14px;
+        color: #111;
+        font-family: inherit;
+        outline: none;
+        transition: border-color 0.15s;
+      }
+      .field input:focus { border-color: #1D9E75; }
+      .error-msg {
+        font-size: 13px;
+        color: #E24B4A;
+        margin-top: 4px;
+        display: none;
+      }
+      .success-msg {
+        font-size: 13px;
+        color: #1D9E75;
+        margin-top: 4px;
+        display: none;
+        margin-bottom: 0.5rem;
+      }
+      .submit-btn {
+        width: 100%;
+        background: #1D9E75;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 11px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 0.5rem;
+        font-family: inherit;
+        transition: background 0.15s;
+      }
+      .submit-btn:hover { background: #0F6E56; }
+      .submit-btn:disabled { background: #aaa; cursor: not-allowed; }
+      .signup-link {
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+        margin-top: 1rem;
+      }
+      .signup-link a {
+        color: #1D9E75;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .signup-link a:hover { text-decoration: underline; }
+      .forgot-password {
+        text-align: right;
+        font-size: 13px;
+        margin-top: -0.5rem;
+        margin-bottom: 1rem;
+      }
+      .forgot-password a {
+        color: #1D9E75;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .forgot-password a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="card">
+        <div class="card-title">Welcome back</div>
+
+        <div class="field">
+          <label>Email</label>
+          <input id="email" type="email" placeholder="you@example.com" />
+          <div class="error-msg" id="email-error">Please enter a valid email</div>
+        </div>
+
+        <div class="field">
+          <label>Password</label>
+          <input id="password" type="password" placeholder="Your password" />
+          <div class="error-msg" id="password-error">Please enter your password</div>
+        </div>
+
+        <div class="forgot-password">
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <div class="success-msg" id="success-msg"></div>
+        <div class="error-msg" id="supabase-error" style="margin-bottom:0.5rem;"></div>
+
+        <button class="submit-btn" id="submitBtn" onclick="handleLogin()">Log in</button>
+
+        <div class="signup-link">
+          Don't have an account? <a href="signup.html">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- load Supabase first, then navbar, then your script -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="navbar.js"></script>
+    <script>
+      const { createClient } = supabase
+
+      const client = createClient(
+        'https://vhhfoedqioqdoaecxuwx.supabase.co',
+        'sb_publishable_NmbPR4rRq3z5JmAGimeqBg_R1j6BCl-'
+      )
+
+      async function handleLogin() {
+        const email = document.getElementById('email').value.trim()
+        const password = document.getElementById('password').value.trim()
+        const btn = document.getElementById('submitBtn')
+
+        // reset errors
+        document.querySelectorAll('.error-msg').forEach(el => el.style.display = 'none')
+        document.querySelectorAll('.success-msg').forEach(el => el.style.display = 'none')
+        document.querySelectorAll('input').forEach(el => el.style.borderColor = '#e5e5e5')
+
+        // validate
+        let valid = true
+        if (!email) {
+          document.getElementById('email').style.borderColor = '#E24B4A'
+          document.getElementById('email-error').style.display = 'block'
+          valid = false
+        }
+        if (!password) {
+          document.getElementById('password').style.borderColor = '#E24B4A'
+          document.getElementById('password-error').style.display = 'block'
+          valid = false
+        }
+        if (!valid) return
+
+        // send to Supabase
+        btn.disabled = true
+        btn.textContent = 'Logging in...'
+
+        const { data, error } = await client.auth.signInWithPassword({
+          email: email,
+          password: password
+        })
+
+        if (error) {
+          const errEl = document.getElementById('supabase-error')
+          errEl.textContent = error.message
+          errEl.style.display = 'block'
+          btn.disabled = false
+          btn.textContent = 'Log in'
+        } else if (data && data.user) {
+          // User logged in successfully
+          // Get username from user metadata
+          const username = data.user.user_metadata?.username || data.user.user_metadata?.display_name || 'User'
+          
+          localStorage.setItem('loggedIn', 'true')
+          localStorage.setItem('username', username)
+          localStorage.setItem('userId', data.user.id)
+          
+          // Show success message and redirect
+          const successEl = document.getElementById('success-msg')
+          successEl.textContent = 'Logged in successfully! Redirecting...'
+          successEl.style.display = 'block'
+          
+          // Wait 2 seconds then redirect
+          setTimeout(() => {
+            window.location.href = 'index.html'
+          }, 2000)
+        } else {
+          // Unexpected response
+          const errEl = document.getElementById('supabase-error')
+          errEl.textContent = 'Login failed. Please try again.'
+          errEl.style.display = 'block'
+          btn.disabled = false
+          btn.textContent = 'Log in'
+        }
+      }
+    </script>
+  </body>
+</html>
