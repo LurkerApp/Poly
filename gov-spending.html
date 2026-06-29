@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Government Spending - Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { background: #f7f7f5; }
+      .page { padding: 3rem 2rem; }
+      .datetime-display {
+        position: fixed;
+        top: 80px;
+        right: 2rem;
+        font-size: 14px;
+        color: #888;
+        font-weight: 500;
+      }
+      .content-header {
+        margin-bottom: 2rem;
+      }
+      .content-header h1 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 0.5rem;
+      }
+      .content-header p {
+        font-size: 16px;
+        color: #666;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      .stat-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      .stat-label {
+        font-size: 14px;
+        color: #888;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .stat-value {
+        font-size: 28px;
+        font-weight: 600;
+        color: #1D9E75;
+      }
+      .chart-section {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+      }
+      .chart-section h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 1.5rem;
+      }
+      .chart-placeholder {
+        background: #f9f9f9;
+        height: 300px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 16px;
+        border: 2px dashed #e5e5e5;
+      }
+      .data-table {
+        width: 100%;
+        background: white;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      .data-table th {
+        background: #f9f9f9;
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: #111;
+        border-bottom: 1px solid #e5e5e5;
+        font-size: 14px;
+      }
+      .data-table td {
+        padding: 1rem;
+        border-bottom: 1px solid #e5e5e5;
+        font-size: 14px;
+        color: #555;
+      }
+      .data-table tr:last-child td {
+        border-bottom: none;
+      }
+      .data-table tr:hover {
+        background: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="datetime-display" id="datetimeDisplay"></div>
+    <div class="page">
+      <div class="content-header">
+        <h1>Government Spending</h1>
+        <p>Track and analyze federal government spending data</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-label">Total Annual Budget</div>
+          <div class="stat-value">$6.3T</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Defense Spending</div>
+          <div class="stat-value">$816B</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Social Programs</div>
+          <div class="stat-value">$2.1T</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Interest on Debt</div>
+          <div class="stat-value">$659B</div>
+        </div>
+      </div>
+
+      <div class="chart-section">
+        <h2>Spending by Category</h2>
+        <div class="chart-placeholder">
+          [Budget Breakdown Chart]
+        </div>
+      </div>
+
+      <div class="chart-section">
+        <h2>Top Spending Categories</h2>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Amount</th>
+              <th>% of Budget</th>
+              <th>Trend</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Social Security</td>
+              <td>$1.35T</td>
+              <td>21.4%</td>
+              <td>↑ 2.1%</td>
+            </tr>
+            <tr>
+              <td>Medicare</td>
+              <td>$848B</td>
+              <td>13.5%</td>
+              <td>↑ 5.2%</td>
+            </tr>
+            <tr>
+              <td>Defense</td>
+              <td>$816B</td>
+              <td>12.9%</td>
+              <td>↑ 3.8%</td>
+            </tr>
+            <tr>
+              <td>Medicaid</td>
+              <td>$616B</td>
+              <td>9.8%</td>
+              <td>↑ 1.7%</td>
+            </tr>
+            <tr>
+              <td>Veterans Benefits</td>
+              <td>$301B</td>
+              <td>4.8%</td>
+              <td>↑ 6.3%</td>
+            </tr>
+            <tr>
+              <td>Education</td>
+              <td>$238B</td>
+              <td>3.8%</td>
+              <td>↓ 0.5%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="chart-section">
+        <h2>Spending Trends (Last 5 Years)</h2>
+        <div class="chart-placeholder">
+          [Historical Spending Trends Chart]
+        </div>
+      </div>
+    </div>
+
+    <script src="navbar.js"></script>
+    <script>
+      // Update date and time display
+      function updateDateTime() {
+        const now = new Date();
+        const options = {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit'
+        };
+        const formatted = now.toLocaleDateString('en-US', options);
+        document.getElementById('datetimeDisplay').textContent = formatted;
+      }
+
+      // Update immediately and then every second
+      updateDateTime();
+      setInterval(updateDateTime, 1000);
+    </script>
+  </body>
+</html>
