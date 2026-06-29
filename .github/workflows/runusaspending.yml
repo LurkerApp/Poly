@@ -1,0 +1,28 @@
+name: Fetch Contract Awards
+
+on:
+  schedule:
+    - cron: "30 14 * * *"  # Every day at 9:30am EST (14:30 UTC)
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  fetch-contracts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pandas supabase rapidfuzz
+
+      - name: Run fetch contracts script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python scripts/fetch_contracts.py
