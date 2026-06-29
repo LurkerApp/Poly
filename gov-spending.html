@@ -1,120 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Government Awards</title>
-
-<link rel="stylesheet" href="style.css">
+<script src="navbar.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<style>
-
-body{
-    background:#f7f7f5;
-    font-family:Arial,sans-serif;
-}
-
-.page{
-    padding:30px;
-    max-width:1400px;
-    margin:auto;
-}
-
-.section{
-    background:white;
-    padding:24px;
-    margin-bottom:30px;
-    border-radius:8px;
-    border:1px solid #ddd;
-}
-
-h2{
-    margin-top:0;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-
-th{
-    background:#f5f5f5;
-    text-align:left;
-    padding:12px;
-}
-
-td{
-    padding:10px 12px;
-    border-top:1px solid #eee;
-}
-
-tbody tr:hover{
-    background:#fafafa;
-}
-
-canvas{
-    height:500px!important;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<script src="navbar.js"></script>
-
-<div class="page">
-
-<div class="section">
-<h2>Top 10 Recipients (Last 90 Days)</h2>
-<canvas id="recipientChart"></canvas>
-</div>
-
-<div class="section">
-<h2>Top 10 Recipients</h2>
-
-<table id="topRecipients">
-<thead>
-<tr>
-<th>Rank</th>
-<th>Recipient</th>
-<th>Total Awards</th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-
-</div>
-
-<div class="section">
-
-<h2>Latest 50 Awards</h2>
-
-<table id="latestAwards">
-
-<thead>
-
-<tr>
-<th>Created</th>
-<th>Recipient</th>
-<th>Award Amount</th>
-</tr>
-
-</thead>
-
-<tbody></tbody>
-
-</table>
-
-</div>
-
-</div>
-
 <script>
-
 const SUPABASE_URL = "{{ secrets.SUPABASE_URL }}";
 const SUPABASE_KEY = "{{ secrets.SUPABASE_KEY }}";
 
@@ -123,80 +12,87 @@ const supabase = window.supabase.createClient(
     SUPABASE_KEY
 );
 
-async function loadData(){
+async function loadData() {
 
     const cutoff = new Date();
-    cutoff.setDate(cutoff.getDate()-90);
+    cutoff.setDate(cutoff.getDate() - 90);
 
-    //----------------------------------
-    // Top Recipients
-    //----------------------------------
+    // ==========================
+    // Top recipients (Last 90 Days)
+    // ==========================
 
-    const {data:awards,error} = await supabase
+    const { data: awards, error } = await supabase
         .from("public_companies")
-        .select("recipient_name,award_amount,created_at")
-        .gte("created_at",cutoff.toISOString());
+        .select("recipient_name, award_amount, created_at")
+        .gte("created_at", cutoff.toISOString());
 
-    if(error){
+    if (error) {
         console.error(error);
         return;
     }
 
-    const totals={};
+    const totals = {};
 
-    awards.forEach(r=>{
+    awards.forEach(row => {
 
-        const recipient=r.recipient_name || "Unknown";
+        const recipient = row.recipient_name || "Unknown";
+        const amount = Number(row.award_amount) || 0;
 
-        const amount=Number(r.award_amount)||0;
-
-        totals[recipient]=(totals[recipient]||0)+amount;
+        totals[recipient] = (totals[recipient] || 0) + amount;
 
     });
 
-    const top10=Object.entries(totals)
-        .sort((a,b)=>b[1]-a[1])
-        .slice(0,10);
+    const top10 = Object.entries(totals)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
 
-    //----------------------------------
+    // ==========================
     // Chart
-    //----------------------------------
+    // ==========================
 
-    new Chart(document.getElementById("recipientChart"),{
+    new Chart(document.getElementById("recipientChart"), {
 
-        type:"bar",
+        type: "bar",
 
-        data:{
-            labels:top10.map(x=>x[0]),
-            datasets:[{
-                label:"Award Total",
-                data:top10.map(x=>x[1])
+        data: {
+            labels: top10.map(r => r[0]),
+            datasets: [{
+                label: "Total Awards",
+                data: top10.map(r => r[1])
             }]
         },
 
-        options:{
-            indexAxis:"y",
-            responsive:true,
-            plugins:{
-                legend:{
-                    display:false
+        options: {
+            indexAxis: "y",
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        callback: value =>
+                            "$" + Number(value).toLocaleString()
+                    }
                 }
             }
         }
 
     });
 
-    //----------------------------------
-    // Table 1
-    //----------------------------------
+    // ==========================
+    // Top 10 Table
+    // ==========================
 
-    const topBody=document.querySelector("#topRecipients tbody");
+    const topBody = document.querySelector("#topRecipients tbody");
 
-    top10.forEach((r,i)=>{
+    top10.forEach((r, index) => {
 
-        topBody.innerHTML+=`
+        topBody.innerHTML += `
         <tr>
-            <td>${i+1}</td>
+            <td>${index + 1}</td>
             <td>${r[0]}</td>
             <td>$${r[1].toLocaleString()}</td>
         </tr>
@@ -204,33 +100,30 @@ async function loadData(){
 
     });
 
-    //----------------------------------
+    // ==========================
     // Latest 50 Awards
-    //----------------------------------
+    // ==========================
 
-    const {data:latest,error:latestError}=await supabase
+    const { data: latest, error: latestError } = await supabase
         .from("public_companies")
-        .select("recipient_name,award_amount,created_at")
-        .order("created_at",{ascending:false})
+        .select("recipient_name, award_amount, created_at")
+        .order("created_at", { ascending: false })
         .limit(50);
 
-    if(latestError){
-
+    if (latestError) {
         console.error(latestError);
-
         return;
-
     }
 
-    const latestBody=document.querySelector("#latestAwards tbody");
+    const latestBody = document.querySelector("#latestAwards tbody");
 
-    latest.forEach(r=>{
+    latest.forEach(row => {
 
-        latestBody.innerHTML+=`
+        latestBody.innerHTML += `
         <tr>
-            <td>${new Date(r.created_at).toLocaleDateString()}</td>
-            <td>${r.recipient_name||""}</td>
-            <td>$${Number(r.award_amount||0).toLocaleString()}</td>
+            <td>${new Date(row.created_at).toLocaleString()}</td>
+            <td>${row.recipient_name || "Unknown"}</td>
+            <td>$${Number(row.award_amount || 0).toLocaleString()}</td>
         </tr>
         `;
 
@@ -241,6 +134,3 @@ async function loadData(){
 loadData();
 
 </script>
-
-</body>
-</html>
