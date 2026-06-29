@@ -16,6 +16,7 @@ from rapidfuzz import process, fuzz
 from datetime import datetime, timezone, timedelta
 import time
 import math
+import re
 
 # ── Config ───────────────────────────────────────────────────
 SUPABASE_URL    = os.environ.get("SUPABASE_URL")
@@ -28,8 +29,9 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 BASE_URL        = "https://api.usaspending.gov/api/v2"
 DAYS_BACK       = 2
 PAGE_LIMIT      = 100
-MATCH_THRESHOLD = 85
+MATCH_THRESHOLD = 90   # raised to reduce false positives
 BATCH_SIZE      = 500
+MIN_AMOUNT      = 1    # filter out awards below $1
 
 # ── Date range ───────────────────────────────────────────────
 end_date   = datetime.today()
@@ -66,44 +68,59 @@ while True:
 companies_df = pd.DataFrame(all_companies)
 print(f"  Loaded {len(companies_df):,} public companies")
 
-# Normalize titles for matching
-companies_df["title_clean"] = (
-    companies_df["title"]
-    .str.lower()
-    .str.replace(r"\b(inc|corp|llc|ltd|co|the|and|of|group|holdings|international|corporation|company)\b", "", regex=True)
-    .str.replace(r"[^a-z0-9\s]", "", regex=True)
-    .str.strip()
-)
+# ── Normalize company names for matching ─────────────────────
+STRIP_WORDS = r"\b(inc|corp|llc|ltd|co|the|and|of|group|holdings|international|corporation|company|federal|services|solutions|systems|technologies|technology|enterprises|partners|consulting)\b"
+
+def normalize(name: str) -> str:
+    if not name:
+        return ""
+    name = name.lower()
+    name = re.sub(STRIP_WORDS, "", name)
+    name = re.sub(r"[^a-z0-9\s]", "", name)
+    name = re.sub(r"\s+", " ", name).strip()
+    return name
+
+companies_df["title_clean"] = companies_df["title"].apply(normalize)
 company_titles = companies_df["title_clean"].tolist()
 
 # ── Fuzzy match helper ───────────────────────────────────────
 def match_company(recipient_name: str):
+    """
+    Match recipient name against SEC public companies.
+    Uses token_set_ratio for better substring matching,
+    and requires the cleaned name to be at least 4 chars
+    to avoid spurious short-string matches.
+    """
     if not recipient_name:
         return None, None
 
-    name_clean = (
-        recipient_name.lower()
-        .replace("inc", "").replace("corp", "").replace("llc", "")
-        .replace("ltd", "").replace("co", "").replace("the", "")
-        .replace(",", "").replace(".", "").strip()
-    )
+    name_clean = normalize(recipient_name)
+
+    if len(name_clean) < 4:
+        return None, None
 
     result = process.extractOne(
         name_clean,
         company_titles,
-        scorer=fuzz.token_sort_ratio,
+        scorer=fuzz.token_set_ratio,
         score_cutoff=MATCH_THRESHOLD
     )
 
     if result:
         matched_title, score, idx = result
+        # Extra guard: require at least 4 chars overlap to avoid
+        # short generic word matches (e.g. "micro" matching anything)
+        matched_clean = company_titles[idx]
+        if len(matched_clean) < 4:
+            return None, None
         ticker = companies_df.iloc[idx]["ticker"]
         title  = companies_df.iloc[idx]["title"]
+        print(f"    MATCH: '{recipient_name}' → {ticker} ({title}) [score: {score}]")
         return ticker, title
 
     return None, None
 
-# ── Fetch awards from USASpending ────────────────────────────
+# ── Fetch awards from USASpending (all pages) ────────────────
 def fetch_awards_page(page: int) -> dict:
     url     = f"{BASE_URL}/search/spending_by_award/"
     payload = {
@@ -142,7 +159,7 @@ page        = 1
 has_next    = True
 
 while has_next:
-    data     = fetch_awards_page(page)
+    data = fetch_awards_page(page)
     if not data:
         break
 
@@ -165,6 +182,11 @@ if not all_results:
 df = pd.DataFrame(all_results)
 df.columns = [c.strip() for c in df.columns]
 
+# ── Filter: award amount > $1 ────────────────────────────────
+before = len(df)
+df = df[df["Award Amount"].notna() & (df["Award Amount"] > MIN_AMOUNT)]
+print(f"\n  After amount filter (>${MIN_AMOUNT}): {len(df):,} of {before:,} records kept")
+
 # ── Fuzzy match against public companies ─────────────────────
 print("\nMatching recipients against public companies...")
 tickers, matched_names = [], []
@@ -178,7 +200,7 @@ df["ticker"]          = tickers
 df["matched_company"] = matched_names
 
 matched_count = df["ticker"].notna().sum()
-print(f"  Matched {matched_count:,} of {len(df):,} records to public companies")
+print(f"\n  Matched {matched_count:,} of {len(df):,} records to public companies")
 
 # ── Clean NaN → None for JSON serialization ──────────────────
 def clean(val):
@@ -217,10 +239,10 @@ for i in range(0, len(records), BATCH_SIZE):
     inserted += len(batch)
     print(f"  Batch {i // BATCH_SIZE + 1}: {inserted:,} / {len(records):,} upserted")
 
-print(f"\n✓ Done -- {inserted:,} records upserted into contract_awards")
+print(f"\n✓ Done — {inserted:,} records upserted into contract_awards")
 
-# ── Print matched public company summary ─────────────────────
-print("\n-- Matched Public Companies ---------------------")
+# ── Summary ──────────────────────────────────────────────────
+print("\n── Matched Public Companies ────────────────────────────")
 matched_df = df[df["ticker"].notna()].copy()
 
 if matched_df.empty:
