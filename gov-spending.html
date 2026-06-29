@@ -133,7 +133,7 @@ async function loadData(){
     //----------------------------------
 
     const {data:awards,error} = await supabase
-        .from("recipient_name")
+        .("recipient_name")
         .select("recipient_name,award_amount,created_at")
         .gte("created_at",cutoff.toISOString());
 
@@ -209,7 +209,7 @@ async function loadData(){
     //----------------------------------
 
     const {data:latest,error:latestError}=await supabase
-        .from("recipient_name")
+        .from("contract_awards")
         .select("recipient_name,award_amount,created_at")
         .order("created_at",{ascending:false})
         .limit(50);
