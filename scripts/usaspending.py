@@ -13,8 +13,9 @@ import requests
 import pandas as pd
 from supabase import create_client
 from rapidfuzz import process, fuzz
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 import time
+import math
 
 # ── Config ───────────────────────────────────────────────────
 SUPABASE_URL    = os.environ.get("SUPABASE_URL")
@@ -27,7 +28,7 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 BASE_URL        = "https://api.usaspending.gov/api/v2"
 DAYS_BACK       = 2
 PAGE_LIMIT      = 100
-MATCH_THRESHOLD = 85    # fuzzy match confidence %
+MATCH_THRESHOLD = 85
 BATCH_SIZE      = 500
 
 # ── Date range ───────────────────────────────────────────────
@@ -41,10 +42,29 @@ print("Connecting to Supabase...")
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 print("✓ Connected")
 
-# ── Load public companies from Supabase ──────────────────────
+# ── Load ALL public companies from Supabase (paginated) ──────
 print("\nLoading public companies from Supabase...")
-companies_resp = supabase.table("public_companies").select("ticker, title").execute()
-companies_df   = pd.DataFrame(companies_resp.data)
+all_companies = []
+page_size     = 1000
+offset        = 0
+
+while True:
+    resp = (
+        supabase.table("public_companies")
+        .select("ticker, title")
+        .range(offset, offset + page_size - 1)
+        .execute()
+    )
+    batch = resp.data
+    if not batch:
+        break
+    all_companies.extend(batch)
+    offset += page_size
+    if len(batch) < page_size:
+        break
+
+companies_df = pd.DataFrame(all_companies)
+print(f"  Loaded {len(companies_df):,} public companies")
 
 # Normalize titles for matching
 companies_df["title_clean"] = (
@@ -54,13 +74,10 @@ companies_df["title_clean"] = (
     .str.replace(r"[^a-z0-9\s]", "", regex=True)
     .str.strip()
 )
-
-company_titles  = companies_df["title_clean"].tolist()
-print(f"  Loaded {len(companies_df):,} public companies")
+company_titles = companies_df["title_clean"].tolist()
 
 # ── Fuzzy match helper ───────────────────────────────────────
 def match_company(recipient_name: str):
-    """Return (ticker, matched_title) or (None, None) if no match above threshold."""
     if not recipient_name:
         return None, None
 
@@ -163,23 +180,31 @@ df["matched_company"] = matched_names
 matched_count = df["ticker"].notna().sum()
 print(f"  Matched {matched_count:,} of {len(df):,} records to public companies")
 
+# ── Clean NaN → None for JSON serialization ──────────────────
+def clean(val):
+    if val is None:
+        return None
+    if isinstance(val, float) and math.isnan(val):
+        return None
+    return val
+
 # ── Prepare records for upsert ───────────────────────────────
 records = []
 for _, row in df.iterrows():
     records.append({
-        "award_id":             str(row.get("Award ID", "")),
-        "recipient_name":       row.get("Recipient Name"),
-        "award_amount":         row.get("Award Amount"),
-        "awarding_agency":      row.get("Awarding Agency"),
-        "awarding_sub_agency":  row.get("Awarding Sub Agency"),
-        "award_type":           row.get("Award Type"),
-        "start_date":           row.get("Start Date"),
-        "end_date":             row.get("End Date"),
-        "description":          row.get("Description"),
-        "place_of_performance": row.get("Place of Performance State Code"),
-        "ticker":               row.get("ticker"),
-        "matched_company":      row.get("matched_company"),
-        "updated_at":           datetime.utcnow().isoformat(),
+        "award_id":             clean(str(row.get("Award ID", ""))),
+        "recipient_name":       clean(row.get("Recipient Name")),
+        "award_amount":         clean(row.get("Award Amount")),
+        "awarding_agency":      clean(row.get("Awarding Agency")),
+        "awarding_sub_agency":  clean(row.get("Awarding Sub Agency")),
+        "award_type":           clean(row.get("Award Type")),
+        "start_date":           clean(row.get("Start Date")),
+        "end_date":             clean(row.get("End Date")),
+        "description":          clean(row.get("Description")),
+        "place_of_performance": clean(row.get("Place of Performance State Code")),
+        "ticker":               clean(row.get("ticker")),
+        "matched_company":      clean(row.get("matched_company")),
+        "updated_at":           datetime.now(timezone.utc).isoformat(),
     })
 
 # ── Upsert to Supabase ───────────────────────────────────────
@@ -187,12 +212,12 @@ print(f"\nUpserting {len(records):,} records to Supabase...")
 inserted = 0
 
 for i in range(0, len(records), BATCH_SIZE):
-    batch  = records[i : i + BATCH_SIZE]
+    batch = records[i : i + BATCH_SIZE]
     supabase.table("contract_awards").upsert(batch, on_conflict="award_id").execute()
     inserted += len(batch)
     print(f"  Batch {i // BATCH_SIZE + 1}: {inserted:,} / {len(records):,} upserted")
 
-print(f"\n Done -- {inserted:,} records upserted into contract_awards")
+print(f"\n✓ Done -- {inserted:,} records upserted into contract_awards")
 
 # ── Print matched public company summary ─────────────────────
 print("\n-- Matched Public Companies ---------------------")
