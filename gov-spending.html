@@ -1,122 +1,429 @@
-<script src="navbar.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Government Spending - Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <style>
+      body { background: #f7f7f5; }
+      .page { padding: 3rem 2rem; }
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      .datetime-display {
+        position: fixed;
+        top: 80px;
+        right: 2rem;
+        font-size: 14px;
+        color: #888;
+        font-weight: 500;
+      }
 
-<script>
-const SUPABASE_URL = "{{ secrets.SUPABASE_URL }}";
-const SUPABASE_KEY = "{{ secrets.SUPABASE_KEY }}";
+      .content-header {
+        margin-bottom: 2rem;
+      }
+      .content-header h1 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 0.5rem;
+      }
+      .content-header p {
+        font-size: 16px;
+        color: #666;
+      }
 
-const supabase = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_KEY
-);
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      .stat-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      .stat-label {
+        font-size: 13px;
+        color: #888;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .stat-value {
+        font-size: 28px;
+        font-weight: 600;
+        color: #1D9E75;
+      }
+      .stat-sub {
+        font-size: 12px;
+        color: #aaa;
+        margin-top: 4px;
+      }
 
-async function loadData() {
+      .chart-section {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+      }
+      .chart-section h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 0.4rem;
+      }
+      .section-sub {
+        font-size: 13px;
+        color: #999;
+        margin-bottom: 1.5rem;
+      }
 
-    try {
+      .chart-wrap {
+        position: relative;
+        height: 340px;
+      }
 
-        const cutoff = new Date();
-        cutoff.setDate(cutoff.getDate() - 90);
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        color: #aaa;
+        font-size: 15px;
+        gap: 10px;
+      }
+      .spinner {
+        width: 18px;
+        height: 18px;
+        border: 2px solid #e5e5e5;
+        border-top-color: #1D9E75;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
 
-        // ============================
-        // Top 10 Recipients (Last 90 Days)
-        // ============================
+      .data-table {
+        width: 100%;
+        background: white;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .data-table th {
+        background: #f9f9f9;
+        padding: 0.85rem 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: #111;
+        border-bottom: 1px solid #e5e5e5;
+        font-size: 13px;
+        white-space: nowrap;
+      }
+      .data-table td {
+        padding: 0.85rem 1rem;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 13px;
+        color: #555;
+      }
+      .data-table tr:last-child td { border-bottom: none; }
+      .data-table tr:hover td { background: #fafafa; }
 
-        const { data: awards, error } = await supabase
-            .from("contract_awards")
-            .select("recipient_name,award_amount,created_at")
-            .gte("created_at", cutoff.toISOString());
+      .ticker-badge {
+        display: inline-block;
+        background: #e8f7f2;
+        color: #1D9E75;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 2px 7px;
+        border-radius: 4px;
+        letter-spacing: 0.3px;
+      }
+      .rank-num {
+        font-weight: 700;
+        color: #bbb;
+        font-size: 13px;
+      }
+      .amount-cell {
+        font-weight: 600;
+        color: #111;
+        white-space: nowrap;
+      }
+      .no-data {
+        text-align: center;
+        color: #aaa;
+        padding: 2rem;
+        font-size: 14px;
+      }
+      .table-scroll {
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="datetime-display" id="datetimeDisplay"></div>
+    <div class="page">
 
-        if (error) throw error;
+      <div class="content-header">
+        <h1>Government Contract Awards</h1>
+        <p>Federal contract awards to publicly traded companies — live from USASpending.gov</p>
+      </div>
 
-        const totals = {};
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-label">Total Awards (90 days)</div>
+          <div class="stat-value" id="statTotal">—</div>
+          <div class="stat-sub">to publicly traded companies</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Contracts Tracked</div>
+          <div class="stat-value" id="statCount">—</div>
+          <div class="stat-sub">last 90 days</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Top Recipient</div>
+          <div class="stat-value" id="statTop" style="font-size:20px;">—</div>
+          <div class="stat-sub" id="statTopAmount"></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Data Last Updated</div>
+          <div class="stat-value" id="statUpdated" style="font-size:18px;">—</div>
+          <div class="stat-sub">via GitHub Actions daily at 9:30am</div>
+        </div>
+      </div>
 
-        awards.forEach(row => {
-            const recipient = row.recipient_name || "Unknown";
-            const amount = Number(row.award_amount) || 0;
+      <div class="chart-section">
+        <h2>Top 10 Recipients — Last 90 Days</h2>
+        <p class="section-sub">Sum of all contract award amounts by publicly traded company</p>
+        <div id="chartLoading" class="loading">
+          <div class="spinner"></div> Loading award data…
+        </div>
+        <div class="chart-wrap" id="chartWrap" style="display:none;">
+          <canvas id="awardsChart"></canvas>
+        </div>
+      </div>
 
-            totals[recipient] = (totals[recipient] || 0) + amount;
-        });
+      <div class="chart-section">
+        <h2>Top 10 Recipients</h2>
+        <p class="section-sub">Ranked by total award amount over the last 90 days</p>
+        <div id="top10Loading" class="loading">
+          <div class="spinner"></div> Loading…
+        </div>
+        <div id="top10Wrap" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Ticker</th>
+                <th>Company</th>
+                <th>Total Awarded</th>
+                <th>Contracts</th>
+              </tr>
+            </thead>
+            <tbody id="top10Body"></tbody>
+          </table>
+        </div>
+      </div>
 
-        const top10 = Object.entries(totals)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 10);
+      <div class="chart-section">
+        <h2>Latest 50 Awards</h2>
+        <p class="section-sub">Most recently recorded contract awards</p>
+        <div id="latestLoading" class="loading">
+          <div class="spinner"></div> Loading…
+        </div>
+        <div id="latestWrap" class="table-scroll" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Recipient</th>
+                <th>Ticker</th>
+                <th>Amount</th>
+                <th>Agency</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody id="latestBody"></tbody>
+          </table>
+        </div>
+      </div>
 
-        new Chart(document.getElementById("recipientChart"), {
-            type: "bar",
-            data: {
-                labels: top10.map(r => r[0]),
-                datasets: [{
-                    label: "Total Awards",
-                    data: top10.map(r => r[1])
-                }]
+    </div>
+
+    <script src="navbar.js"></script>
+    <script>
+      const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
+      const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
+
+      const headers = {
+        'apikey': SUPABASE_KEY,
+        'Authorization': 'Bearer ' + SUPABASE_KEY,
+        'Content-Type': 'application/json'
+      };
+
+      function fmt(amount) {
+        if (!amount) return '—';
+        if (amount >= 1e9) return '$' + (amount / 1e9).toFixed(1) + 'B';
+        if (amount >= 1e6) return '$' + (amount / 1e6).toFixed(1) + 'M';
+        if (amount >= 1e3) return '$' + (amount / 1e3).toFixed(0) + 'K';
+        return '$' + amount.toFixed(0);
+      }
+
+      function fmtDate(iso) {
+        if (!iso) return '—';
+        return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      }
+
+      function show(id) { document.getElementById(id).style.display = ''; }
+      function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+      const since = new Date();
+      since.setDate(since.getDate() - 90);
+      const sinceISO = since.toISOString();
+
+      async function loadTop10() {
+        const url = `${SUPABASE_URL}/rest/v1/contract_awards`
+          + `?select=ticker,matched_company,award_amount`
+          + `&ticker=not.is.null`
+          + `&award_amount=gt.0`
+          + `&created_at=gte.${sinceISO}`
+          + `&limit=10000`;
+
+        const resp = await fetch(url, { headers });
+        const data = await resp.json();
+
+        const agg = {};
+        for (const row of data) {
+          const key = row.ticker;
+          if (!agg[key]) agg[key] = { ticker: row.ticker, company: row.matched_company, total: 0, count: 0 };
+          agg[key].total += row.award_amount || 0;
+          agg[key].count += 1;
+        }
+
+        const sorted = Object.values(agg).sort((a, b) => b.total - a.total).slice(0, 10);
+        return { sorted, allData: data };
+      }
+
+      async function loadLatest() {
+        const url = `${SUPABASE_URL}/rest/v1/contract_awards`
+          + `?select=created_at,recipient_name,ticker,award_amount,awarding_agency,award_type`
+          + `&order=created_at.desc`
+          + `&limit=50`;
+
+        const resp = await fetch(url, { headers });
+        return await resp.json();
+      }
+
+      function renderChart(top10) {
+        hide('chartLoading');
+        show('chartWrap');
+
+        new Chart(document.getElementById('awardsChart'), {
+          type: 'bar',
+          data: {
+            labels: top10.map(r => r.ticker),
+            datasets: [{
+              label: 'Total Awarded',
+              data: top10.map(r => r.total),
+              backgroundColor: 'rgba(29, 158, 117, 0.85)',
+              borderRadius: 5,
+              borderSkipped: false,
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: { callbacks: { label: ctx => ' ' + fmt(ctx.parsed.y) } }
             },
-            options: {
-                indexAxis: "y",
-                responsive: true,
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                },
-                scales: {
-                    x: {
-                        ticks: {
-                            callback: value => "$" + Number(value).toLocaleString()
-                        }
-                    }
-                }
+            scales: {
+              x: { grid: { display: false }, ticks: { font: { size: 13, weight: '600' }, color: '#444' } },
+              y: { grid: { color: '#f0f0f0' }, ticks: { callback: v => fmt(v), font: { size: 12 }, color: '#999' } }
             }
+          }
         });
+      }
 
-        // ============================
-        // Top 10 Table
-        // ============================
+      function renderTop10(top10) {
+        hide('top10Loading');
+        show('top10Wrap');
+        const tbody = document.getElementById('top10Body');
+        if (!top10.length) {
+          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No data available for the last 90 days.</td></tr>';
+          return;
+        }
+        tbody.innerHTML = top10.map((r, i) => `
+          <tr>
+            <td><span class="rank-num">${i + 1}</span></td>
+            <td><span class="ticker-badge">${r.ticker}</span></td>
+            <td>${r.company || '—'}</td>
+            <td class="amount-cell">${fmt(r.total)}</td>
+            <td>${r.count.toLocaleString()}</td>
+          </tr>
+        `).join('');
+      }
 
-        const topBody = document.querySelector("#topRecipients tbody");
-        topBody.innerHTML = "";
+      function renderLatest(rows) {
+        hide('latestLoading');
+        show('latestWrap');
+        const tbody = document.getElementById('latestBody');
+        if (!rows.length) {
+          tbody.innerHTML = '<tr><td colspan="6" class="no-data">No awards found.</td></tr>';
+          return;
+        }
+        tbody.innerHTML = rows.map(r => `
+          <tr>
+            <td style="white-space:nowrap;">${fmtDate(r.created_at)}</td>
+            <td>${r.recipient_name || '—'}</td>
+            <td>${r.ticker ? `<span class="ticker-badge">${r.ticker}</span>` : '—'}</td>
+            <td class="amount-cell">${fmt(r.award_amount)}</td>
+            <td>${r.awarding_agency || '—'}</td>
+            <td>${r.award_type || '—'}</td>
+          </tr>
+        `).join('');
+      }
 
-        top10.forEach((row, index) => {
-            topBody.innerHTML += `
-                <tr>
-                    <td>${index + 1}</td>
-                    <td>${row[0]}</td>
-                    <td>$${row[1].toLocaleString()}</td>
-                </tr>
-            `;
-        });
+      function renderStats(top10, allData) {
+        const total = allData.reduce((s, r) => s + (r.award_amount || 0), 0);
+        const topRec = top10[0];
+        document.getElementById('statTotal').textContent     = fmt(total);
+        document.getElementById('statCount').textContent     = allData.length.toLocaleString();
+        document.getElementById('statTop').textContent       = topRec ? topRec.ticker : '—';
+        document.getElementById('statTopAmount').textContent = topRec ? fmt(topRec.total) : '';
+        document.getElementById('statUpdated').textContent   = fmtDate(new Date().toISOString());
+      }
 
-        // ============================
-        // Latest 50 Awards
-        // ============================
+      async function init() {
+        try {
+          const [{ sorted, allData }, latest] = await Promise.all([loadTop10(), loadLatest()]);
+          renderStats(sorted, allData);
+          renderChart(sorted);
+          renderTop10(sorted);
+          renderLatest(latest);
+        } catch (err) {
+          console.error('Failed to load data:', err);
+          ['chartLoading', 'top10Loading', 'latestLoading'].forEach(id => {
+            document.getElementById(id).innerHTML = 'Failed to load data. Check console for details.';
+          });
+        }
+      }
 
-        const { data: latest, error: latestError } = await supabase
-            .from("contract_awards")
-            .select("recipient_name,award_amount,created_at")
-            .order("created_at", { ascending: false })
-            .limit(50);
+      init();
 
-        if (latestError) throw latestError;
-
-        const latestBody = document.querySelector("#latestAwards tbody");
-        latestBody.innerHTML = "";
-
-        latest.forEach(row => {
-            latestBody.innerHTML += `
-                <tr>
-                    <td>${new Date(row.created_at).toLocaleString()}</td>
-                    <td>${row.recipient_name || "Unknown"}</td>
-                    <td>$${Number(row.award_amount || 0).toLocaleString()}</td>
-                </tr>
-            `;
-        });
-
-    } catch (err) {
-        console.error("Supabase Error:", err);
-        alert("Error loading data. Check the browser console (F12) for details.");
-    }
-}
-
-loadData();
-</script>
+      function updateDateTime() {
+        document.getElementById('datetimeDisplay').textContent =
+          new Date().toLocaleDateString('en-US', {
+            weekday: 'short', month: 'short', day: 'numeric',
+            year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'
+          });
+      }
+      updateDateTime();
+      setInterval(updateDateTime, 1000);
+    </script>
+  </body>
+</html>
