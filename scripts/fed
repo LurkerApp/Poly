@@ -1,0 +1,81 @@
+import requests
+from datetime import datetime, timezone
+import time
+
+# === CONFIG ===
+FRED_API_KEY = "61c47457e3ef23b4a1b54387fc20da0f"
+BUBBLE_ENDPOINT = "https://www.lurkerapp.com/api/1.1/wf/EconomicData"
+
+# === Define series to pull ===
+series_dict = {
+    "GDP": "Gross Domestic Product",
+    "PCEPI": "PCE Price Index",
+    "PCE": "Personal Consumption Expenditures",
+    "UNRATE": "Unemployment Rate",
+    "FEDFUNDS": "Federal Funds Effective Rate",
+    "IORB": "Interest Rate on Reserve Balances",
+    "RRPONTSYD": "Overnight Reverse Repo Rate",
+    "INTDSRUSM193N": "Discount Rate",
+    "M1SL": "M1 Money Stock",
+    "M2SL": "M2 Money Stock",
+    "TOTALSL": "Total Consumer Credit Owned by Fed",
+    "TOTBKCR": "Bank Credit",
+    "WALCL": "Total Assets of the Fed",
+    "WSHOMCB": "Mortgage-Backed Securities Held",
+    "WSTLTL": "U.S. Treasuries Held by Fed",
+    "WRBWFRBL": "Reserve Balances with Fed Banks",
+    "T5YIFR": "5-Year, 5-Year Forward Inflation Expectation Rate",
+    "EXPINF1YR": "1-Year Inflation Expectation (Cleveland Fed)",
+    "CPIFABSL": "Survey of Professional Forecasters: CPI",
+    "FDHBFRBN": "Federal Debt Held by Federal Reserve Banks",
+    "TREAST": "U.S. Treasury Securities Held Outright"
+}
+
+# === Fetch and send data ===
+for series_id, name in series_dict.items():
+    try:
+        url = "https://api.stlouisfed.org/fred/series/observations"
+        params = {
+            "series_id": series_id,
+            "api_key": FRED_API_KEY,
+            "file_type": "json",
+            "sort_order": "desc",
+            "limit": 1
+        }
+
+        r = requests.get(url, params=params, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        observations = data.get("observations", [])
+        
+        if not observations:
+            print(f"⚠️ No data for {series_id}")
+            continue
+
+        latest = observations[0]
+        value = latest.get("value")
+        date = latest.get("date")
+        retrieved_at = datetime.now(timezone.utc).isoformat()
+
+        # === Build Link ===
+        fred_link = f"https://fred.stlouisfed.org/series/{series_id}"
+
+        # === Send to Bubble ===
+        payload = {
+            "series_id": series_id,
+            "name": name,
+            "date": date,
+            "value": value,
+            "retrieved_at": retrieved_at,
+            "link": fred_link
+        }
+
+        res = requests.post(BUBBLE_ENDPOINT, data=payload, timeout=10)
+        res.raise_for_status()
+
+        print(f"✅ Sent {series_id} ({name}) — {value} on {date} | Link: {fred_link}")
+
+        time.sleep(0.5)
+
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Error fetching or sending {series_id}: {e}")
