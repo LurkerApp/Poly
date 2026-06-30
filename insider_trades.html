@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insider Trades - Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { background: #f7f7f5; }
+      .page { padding: 3rem 2rem; }
+
+      .datetime-display {
+        position: fixed;
+        top: 80px;
+        right: 2rem;
+        font-size: 14px;
+        color: #888;
+        font-weight: 500;
+      }
+
+      .content-header {
+        margin-bottom: 2rem;
+      }
+      .content-header h1 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 0.5rem;
+      }
+      .content-header p {
+        font-size: 16px;
+        color: #666;
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      .stat-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      .stat-label {
+        font-size: 13px;
+        color: #888;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .stat-value {
+        font-size: 28px;
+        font-weight: 600;
+        color: #1D9E75;
+      }
+      .stat-sub {
+        font-size: 12px;
+        color: #aaa;
+        margin-top: 4px;
+      }
+
+      .chart-section {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+      }
+      .chart-section h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 0.4rem;
+      }
+      .section-sub {
+        font-size: 13px;
+        color: #999;
+        margin-bottom: 1.5rem;
+      }
+
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        color: #aaa;
+        font-size: 15px;
+        gap: 10px;
+      }
+      .spinner {
+        width: 18px;
+        height: 18px;
+        border: 2px solid #e5e5e5;
+        border-top-color: #1D9E75;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+
+      .table-scroll { overflow-x: auto; }
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .data-table th {
+        background: #f9f9f9;
+        padding: 0.85rem 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: #111;
+        border-bottom: 1px solid #e5e5e5;
+        font-size: 13px;
+        white-space: nowrap;
+      }
+      .data-table td {
+        padding: 0.85rem 1rem;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 13px;
+        color: #555;
+      }
+      .data-table tr:last-child td { border-bottom: none; }
+      .data-table tr:hover td { background: #fafafa; }
+
+      .badge {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        letter-spacing: 0.3px;
+      }
+      .badge-buy {
+        background: #e8f7f2;
+        color: #1D9E75;
+      }
+      .badge-sell {
+        background: #fef0f0;
+        color: #e05252;
+      }
+      .ticker-badge {
+        display: inline-block;
+        background: #f0f0f0;
+        color: #444;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 2px 7px;
+        border-radius: 4px;
+      }
+      .amount-cell {
+        font-weight: 600;
+        color: #111;
+        white-space: nowrap;
+      }
+      .filing-link {
+        color: #1D9E75;
+        text-decoration: none;
+        font-size: 12px;
+      }
+      .filing-link:hover { text-decoration: underline; }
+      .no-data {
+        text-align: center;
+        color: #aaa;
+        padding: 2rem;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="datetime-display" id="datetimeDisplay"></div>
+    <div class="page">
+
+      <div class="content-header">
+        <h1>Insider Trades</h1>
+        <p>SEC Form 4 filings from high-profile insiders — updated daily Mon–Fri</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-label">Total Trades Tracked</div>
+          <div class="stat-value" id="statTotal">—</div>
+          <div class="stat-sub">across all insiders</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Total Buy Value</div>
+          <div class="stat-value" id="statBuyValue">—</div>
+          <div class="stat-sub">notional value of purchases</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Total Sell Value</div>
+          <div class="stat-value" id="statSellValue" style="color:#e05252;">—</div>
+          <div class="stat-sub">notional value of sales</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Most Active Insider</div>
+          <div class="stat-value" id="statTopInsider" style="font-size:18px;">—</div>
+          <div class="stat-sub" id="statTopInsiderSub"></div>
+        </div>
+      </div>
+
+      <div class="chart-section">
+        <h2>All Insider Trades</h2>
+        <p class="section-sub">Latest Form 4 filings ordered by trade date</p>
+        <div id="tableLoading" class="loading">
+          <div class="spinner"></div> Loading trades…
+        </div>
+        <div id="tableWrap" class="table-scroll" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Insider</th>
+                <th>Ticker</th>
+                <th>Company</th>
+                <th>Action</th>
+                <th>Shares</th>
+                <th>Notional Value</th>
+                <th>Security</th>
+                <th>Filing</th>
+              </tr>
+            </thead>
+            <tbody id="tradesBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="navbar.js"></script>
+    <script>
+      const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
+      const SUPABASE_KEY = 'YOUR_ANON_KEY_HERE';
+
+      const headers = {
+        'apikey': SUPABASE_KEY,
+        'Authorization': 'Bearer ' + SUPABASE_KEY,
+        'Content-Type': 'application/json'
+      };
+
+      function fmt(amount) {
+        if (!amount && amount !== 0) return '—';
+        if (amount >= 1e9) return '$' + (amount / 1e9).toFixed(1) + 'B';
+        if (amount >= 1e6) return '$' + (amount / 1e6).toFixed(1) + 'M';
+        if (amount >= 1e3) return '$' + (amount / 1e3).toFixed(0) + 'K';
+        return '$' + amount.toFixed(0);
+      }
+
+      function fmtDate(iso) {
+        if (!iso) return '—';
+        return new Date(iso).toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric', year: 'numeric'
+        });
+      }
+
+      function show(id) { document.getElementById(id).style.display = ''; }
+      function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+      async function loadTrades() {
+        const url = `${SUPABASE_URL}/rest/v1/insider_trades`
+          + `?select=*`
+          + `&order=trade_date.desc`
+          + `&limit=500`;
+        const resp = await fetch(url, { headers });
+        return await resp.json();
+      }
+
+      function renderStats(trades) {
+        const buyValue  = trades.filter(t => t.action === 'Buy').reduce((s, t) => s + (t.notional_value || 0), 0);
+        const sellValue = trades.filter(t => t.action === 'Sell').reduce((s, t) => s + (t.notional_value || 0), 0);
+
+        const counts = {};
+        for (const t of trades) {
+          counts[t.insider_name] = (counts[t.insider_name] || 0) + 1;
+        }
+        const topInsider = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+
+        document.getElementById('statTotal').textContent         = trades.length.toLocaleString();
+        document.getElementById('statBuyValue').textContent      = fmt(buyValue);
+        document.getElementById('statSellValue').textContent     = fmt(sellValue);
+        document.getElementById('statTopInsider').textContent    = topInsider ? topInsider[0].split(' ')[0] : '—';
+        document.getElementById('statTopInsiderSub').textContent = topInsider ? `${topInsider[1]} trade${topInsider[1] > 1 ? 's' : ''} filed` : '';
+      }
+
+      function renderTable(trades) {
+        hide('tableLoading');
+        show('tableWrap');
+
+        const tbody = document.getElementById('tradesBody');
+        if (!trades.length) {
+          tbody.innerHTML = '<tr><td colspan="9" class="no-data">No insider trades found.</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = trades.map(t => `
+          <tr>
+            <td style="white-space:nowrap;">${fmtDate(t.trade_date)}</td>
+            <td style="font-weight:500;color:#111;">${t.insider_name || '—'}</td>
+            <td><span class="ticker-badge">${t.ticker || '—'}</span></td>
+            <td>${t.issuer_name || '—'}</td>
+            <td><span class="badge ${t.action === 'Buy' ? 'badge-buy' : 'badge-sell'}">${t.action || '—'}</span></td>
+            <td>${t.shares ? Math.abs(t.shares).toLocaleString() : '—'}</td>
+            <td class="amount-cell">${fmt(t.notional_value)}</td>
+            <td>${t.security || '—'}</td>
+            <td><a class="filing-link" href="${t.filing_url}" target="_blank">View ↗</a></td>
+          </tr>
+        `).join('');
+      }
+
+      async function init() {
+        try {
+          const trades = await loadTrades();
+          renderStats(trades);
+          renderTable(trades);
+        } catch (err) {
+          console.error('Failed to load trades:', err);
+          document.getElementById('tableLoading').textContent = 'Failed to load data. Check console for details.';
+        }
+      }
+
+      init();
+
+      function updateDateTime() {
+        document.getElementById('datetimeDisplay').textContent =
+          new Date().toLocaleDateString('en-US', {
+            weekday: 'short', month: 'short', day: 'numeric',
+            year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'
+          });
+      }
+      updateDateTime();
+      setInterval(updateDateTime, 1000);
+    </script>
+  </body>
+</html>
