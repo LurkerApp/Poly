@@ -1,6 +1,13 @@
 # ============================================================
 # Polymarket Whale Tracker
 # ============================================================
+# Strategy:
+#   1. Pull top 50 traders from Data API leaderboard (MONTH/PNL)
+#   2. Enrich each wallet with positions + activity
+#   3. Qualify wallets against strict criteria
+#   4. Score using 5-factor model
+#   5. Write data/whales.json, markets.json, last_updated.json
+#
 # Wallet qualification (auto, no manual picking):
 #   >= 20 resolved bets
 #   >= $10k PnL
@@ -10,7 +17,7 @@
 #   30d win-rate >= 60%
 #   drawdown < 50% of PnL
 #
-# Signal labels per position:
+# Signal labels per open position:
 #   ENTER  — price near whale entry + real size + payoff worth it
 #   LATE   — drift 3-7% OR entry 0.75-0.90
 #   SKIP   — drift >7% OR size < $500
@@ -32,7 +39,6 @@ import json
 import time
 import os
 import math
-import statistics
 from datetime import datetime, timezone, timedelta
 from dataclasses import dataclass
 from collections import defaultdict
@@ -41,28 +47,28 @@ from collections import defaultdict
 @dataclass
 class Config:
     # Discovery
-    leaderboard_limit:   int   = 200     # wallets to pull from leaderboard
-    leaderboard_window:  str   = "1m"    # 1d | 7d | 1m | all
-    max_wallets_output:  int   = 50      # wallets in final JSON
-    max_markets:         int   = 30      # active markets in JSON
+    leaderboard_limit:   int   = 50       # max 50 per call (API hard limit)
+    leaderboard_window:  str   = "MONTH"  # DAY | WEEK | MONTH | ALL
+    max_wallets_output:  int   = 50
+    max_markets:         int   = 30
 
     # Wallet qualification thresholds
-    min_resolved_bets:   int   = 20      # >= 20 resolved bets
-    min_pnl:             float = 10_000  # >= $10k PnL
-    min_roi:             float = 0.10    # >= 10% ROI
-    min_z_score:         float = 1.5     # z >= 1.5 (statistical skill)
-    min_winrate_alt:     float = 0.80    # OR win_rate >= 80%
-    min_n_alt:           int   = 30      # with n >= 30
-    active_days:         int   = 14      # active within 14 days
-    min_winrate_30d:     float = 0.60    # 30d win-rate >= 60%
-    max_drawdown_ratio:  float = 0.50    # drawdown < 50% of PnL
+    min_resolved_bets:   int   = 20
+    min_pnl:             float = 10_000
+    min_roi:             float = 0.10
+    min_z_score:         float = 1.5
+    min_winrate_alt:     float = 0.80
+    min_n_alt:           int   = 30
+    active_days:         int   = 14
+    min_winrate_30d:     float = 0.60
+    max_drawdown_ratio:  float = 0.50
 
     # Signal thresholds
-    signal_min_size:     float = 500     # min USDC for ENTER signal
-    signal_late_min:     float = 0.03    # drift >= 3% = LATE
-    signal_late_max:     float = 0.07    # drift >= 7% = SKIP
-    signal_late_entry:   float = 0.75    # entry >= 0.75 = LATE
-    signal_drop_entry:   float = 0.90    # entry >= 0.90 = drop
+    signal_min_size:     float = 500
+    signal_late_min:     float = 0.03
+    signal_late_max:     float = 0.07
+    signal_late_entry:   float = 0.75
+    signal_drop_entry:   float = 0.90
 
     # Scoring bounds
     roi_floor:           float = -0.50
@@ -135,24 +141,19 @@ def z_score(wins, n):
     if n < 5:
         return 0.0
     p = wins / n
-    return (p - 0.5) / math.sqrt(0.5 * 0.5 / n)
+    return (p - 0.5) / math.sqrt(0.25 / n)
 
 # ── Step 1: Leaderboard ──────────────────────────────────────
 def fetch_leaderboard():
     print(f"Fetching leaderboard (window={CFG.leaderboard_window}, limit={CFG.leaderboard_limit})...")
-    data = get(f"{DATA_API}/leaderboard", params={
-        "window": CFG.leaderboard_window,
-        "limit":  CFG.leaderboard_limit,
-        "sortBy": "PROFIT"
+    data = get(f"{DATA_API}/v1/leaderboard", params={
+        "timePeriod": CFG.leaderboard_window,
+        "limit":      CFG.leaderboard_limit,
+        "orderBy":    "PNL"
     })
     if not data:
-        data = get(f"{DATA_API}/leaderboard", params={
-            "window": CFG.leaderboard_window,
-            "limit":  CFG.leaderboard_limit,
-        })
-    if not data:
         return []
-    entries = data if isinstance(data, list) else data.get("data", data.get("leaderboard", []))
+    entries = data if isinstance(data, list) else data.get("data", [])
     print(f"  Found {len(entries)} wallets")
     return entries
 
@@ -192,14 +193,8 @@ def fetch_resolved_lookup():
     print(f"  Built resolution lookup for {len(lookup)} markets")
     return lookup
 
-# ── Step 4: Signal label for a position ─────────────────────
+# ── Step 4: Signal label ─────────────────────────────────────
 def signal_label(avg_price, current_price, usdc_size):
-    """
-    ENTER  — near entry, real size, payoff worth it
-    LATE   — some drift or high entry price
-    SKIP   — too much drift, too small, or entry too high
-    DROP   — entries >= 0.90 dropped entirely
-    """
     if avg_price is None or current_price is None:
         return "SKIP"
     if avg_price >= CFG.signal_drop_entry:
@@ -213,11 +208,12 @@ def signal_label(avg_price, current_price, usdc_size):
         return "LATE"
     return "ENTER"
 
-# ── Step 5: Enrich + qualify + score ────────────────────────
+# ── Step 5: Enrich, qualify, score ───────────────────────────
 def enrich_and_score(leaderboard, resolved_lookup, active_markets):
     print(f"\nEnriching and qualifying {len(leaderboard)} wallets...")
 
-    mkt_created = {}
+    # Market creation times + current prices for signal labelling
+    mkt_created       = {}
     mkt_current_price = {}
     for m in active_markets:
         cid = m.get("conditionId") or m.get("condition_id", "")
@@ -230,50 +226,49 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             except Exception:
                 pass
 
-    now_utc     = datetime.now(timezone.utc)
-    cutoff_14d  = now_utc - timedelta(days=CFG.active_days)
-    cutoff_30d  = now_utc - timedelta(days=30)
+    now_utc    = datetime.now(timezone.utc)
+    cutoff_14d = now_utc - timedelta(days=CFG.active_days)
+    cutoff_30d = now_utc - timedelta(days=30)
 
     qualified = []
     skipped   = 0
 
     for entry in leaderboard:
-        wallet   = (entry.get("proxyWallet") or entry.get("proxy_wallet")
-                    or entry.get("address", ""))
+        wallet = (entry.get("proxyWallet")
+                  or entry.get("proxy_wallet")
+                  or entry.get("address", ""))
         if not wallet:
             continue
 
-        name      = entry.get("name") or entry.get("pseudonym") or ""
-        pseudonym = entry.get("pseudonym", "")
-        profit_lb = float(entry.get("profit") or entry.get("pnl") or 0)
-        volume_lb = float(entry.get("volume") or 0)
+        name      = entry.get("userName") or entry.get("name") or ""
+        profit_lb = float(entry.get("pnl") or entry.get("profit") or 0)
+        volume_lb = float(entry.get("vol") or entry.get("volume") or 0)
 
         # ── Positions ────────────────────────────────────────
         positions = get(f"{DATA_API}/positions", params={
             "user": wallet, "limit": 500, "sizeThreshold": 0
         }) or []
 
-        total_initial  = sum(float(p.get("initialValue") or 0) for p in positions)
-        total_current  = sum(float(p.get("currentValue") or 0) for p in positions)
-        cash_pnl       = sum(float(p.get("cashPnl") or 0) for p in positions)
-        realized_pnl   = sum(float(p.get("realizedPnl") or 0) for p in positions)
-        total_pnl      = cash_pnl or profit_lb
+        total_initial = sum(float(p.get("initialValue") or 0) for p in positions)
+        cash_pnl      = sum(float(p.get("cashPnl") or 0) for p in positions)
+        realized_pnl  = sum(float(p.get("realizedPnl") or 0) for p in positions)
+        total_pnl     = cash_pnl if cash_pnl != 0 else profit_lb
 
-        roi = cash_pnl / total_initial if total_initial > 0 else None
+        roi = (cash_pnl / total_initial) if total_initial > 0 else None
 
-        # Resolved position stats
-        brier_scores  = []
-        wins_all      = 0
-        resolved_cnt  = 0
-        wins_30d      = 0
-        resolved_30d  = 0
-        max_drawdown  = 0.0
+        # Calibration + consistency from resolved positions
+        brier_scores = []
+        wins_all     = 0
+        resolved_cnt = 0
+        wins_30d     = 0
+        resolved_30d = 0
+        max_drawdown = 0.0
 
         for p in positions:
-            cid        = p.get("conditionId", "")
-            avg_price  = float(p.get("avgPrice") or 0)
-            pnl_pos    = float(p.get("cashPnl") or 0)
-            end_date   = p.get("endDate") or p.get("end_date")
+            cid       = p.get("conditionId", "")
+            avg_price = float(p.get("avgPrice") or 0)
+            pnl_pos   = float(p.get("cashPnl") or 0)
+            end_date  = p.get("endDate") or p.get("end_date")
 
             if pnl_pos < 0:
                 max_drawdown += abs(pnl_pos)
@@ -284,8 +279,8 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             resolution = resolved_lookup[cid]
             brier_scores.append(1 - (avg_price - resolution) ** 2)
             resolved_cnt += 1
-            won = (resolution >= 0.5 and avg_price >= 0.5) or \
-                  (resolution < 0.5 and avg_price < 0.5)
+            won = ((resolution >= 0.5 and avg_price >= 0.5) or
+                   (resolution < 0.5 and avg_price < 0.5))
             if won:
                 wins_all += 1
 
@@ -305,18 +300,20 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             "type": "TRADE", "sortBy": "TIMESTAMP", "sortDirection": "DESC"
         }) or []
 
-        # Last active timestamp
-        last_active = None
+        last_active  = None
+        trade_count  = len(activity)
+        market_ids   = set()
+        usdc_volume  = 0.0
+
         for a in activity:
             ts = parse_ts(a.get("timestamp"))
-            if ts:
-                last_active = ts
-                break   # DESC order so first = most recent
+            if ts and last_active is None:
+                last_active = ts   # DESC so first = most recent
+            cid = a.get("conditionId", "")
+            if cid:
+                market_ids.add(cid)
+            usdc_volume += float(a.get("usdcSize") or a.get("cashAmount") or 0)
 
-        trade_count  = len(activity)
-        market_ids   = set(a.get("conditionId", "") for a in activity)
-        usdc_volume  = sum(float(a.get("usdcSize") or a.get("cashAmount") or 0)
-                          for a in activity)
         if usdc_volume == 0:
             usdc_volume = volume_lb
 
@@ -329,9 +326,10 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
         if roi is not None and roi < CFG.min_roi:
             reasons.append(f"ROI {roi*100:.1f}%<{CFG.min_roi*100:.0f}%")
         skilled = (z >= CFG.min_z_score or
-                   (win_rate_all >= CFG.min_winrate_alt and resolved_cnt >= CFG.min_n_alt))
+                   (win_rate_all >= CFG.min_winrate_alt
+                    and resolved_cnt >= CFG.min_n_alt))
         if not skilled:
-            reasons.append(f"not skilled (z={z:.1f})")
+            reasons.append(f"not skilled (z={z:.1f} wr={win_rate_all*100:.0f}%)")
         if last_active and last_active < cutoff_14d:
             reasons.append(f"inactive {(now_utc-last_active).days}d")
         if win_rate_30d < CFG.min_winrate_30d:
@@ -340,12 +338,13 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             reasons.append(f"drawdown {max_drawdown/total_pnl*100:.0f}%>50%")
 
         if reasons:
+            print(f"  ✗ {(name or wallet[:10]+'...'):<22} SKIP: {'; '.join(reasons)}")
             skipped += 1
             continue
 
-        # ── Early entry ───────────────────────────────────────
+        # ── Early entry score ─────────────────────────────────
         mkt_first = defaultdict(list)
-        for a in reversed(activity):   # ASC order
+        for a in reversed(activity):
             cid = a.get("conditionId", "")
             ts  = parse_ts(a.get("timestamp"))
             if cid and ts:
@@ -358,14 +357,14 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             if t_c and t_f and t_f >= t_c:
                 entry_hours.append((t_f - t_c).total_seconds() / 3600)
 
-        # Top markets
+        # Top markets by activity count
         mkt_counts = defaultdict(int)
         for a in activity:
             title = a.get("title") or ""
             if title:
                 mkt_counts[title] += 1
-        top_markets = [m for m, _ in sorted(mkt_counts.items(),
-                       key=lambda x: x[1], reverse=True)][:3]
+        top_markets = [m for m, _ in sorted(
+            mkt_counts.items(), key=lambda x: x[1], reverse=True)][:3]
 
         # ── Signals on open positions ─────────────────────────
         signals = []
@@ -375,39 +374,45 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             cur_price = mkt_current_price.get(cid)
             usdc_size = float(p.get("currentValue") or 0)
             title     = p.get("title") or p.get("slug", "")
+            outcome   = p.get("outcome", "")
             label     = signal_label(avg_price, cur_price, usdc_size)
             if label == "DROP":
                 continue
             signals.append({
-                "market":     title,
-                "signal":     label,
-                "avg_price":  round(avg_price, 4),
-                "cur_price":  round(cur_price, 4) if cur_price else None,
-                "usdc_size":  round(usdc_size, 2),
-                "outcome":    p.get("outcome", ""),
+                "market":    title,
+                "signal":    label,
+                "avg_price": round(avg_price, 4),
+                "cur_price": round(cur_price, 4) if cur_price else None,
+                "usdc_size": round(usdc_size, 2),
+                "outcome":   outcome,
             })
         signals.sort(key=lambda x: {"ENTER": 0, "LATE": 1, "SKIP": 2}[x["signal"]])
 
         # ── 5-Factor Scoring ─────────────────────────────────
+
+        # ROI Score (30%)
         roi_score = clamp(
             (roi - CFG.roi_floor) / (CFG.roi_cap - CFG.roi_floor) * 100
         ) if roi is not None else 50.0
 
+        # Calibration Score (25%)
         calib_score = clamp(
             sum(brier_scores) / len(brier_scores) * 100
         ) if brier_scores else 50.0
 
+        # Consistency Score (20%) — shrunken win rate toward 0.5
         shrunk = (wins_all + 0.5 * 5) / (resolved_cnt + 5) if resolved_cnt > 0 else 0.5
         consistency_score = clamp(shrunk * 100)
 
+        # Volume Score (10%)
         volume_score = clamp(
             math.log10(max(usdc_volume, 1)) / math.log10(CFG.volume_anchor) * 100
         ) if usdc_volume > 0 else 0.0
 
+        # Early Entry Score (15%)
         if entry_hours:
-            early_score = clamp(
-                (1 - sum(entry_hours) / len(entry_hours) / (CFG.early_days * 24)) * 100
-            )
+            avg_h       = sum(entry_hours) / len(entry_hours)
+            early_score = clamp((1 - avg_h / (CFG.early_days * 24)) * 100)
         else:
             early_score = 50.0
 
@@ -422,7 +427,6 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
         qualified.append({
             "wallet":             wallet,
             "name":               name,
-            "pseudonym":          pseudonym,
             "score":              round(final_score, 1),
             "roi_score":          round(roi_score, 1),
             "calibration_score":  round(calib_score, 1),
@@ -431,8 +435,8 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             "volume_score":       round(volume_score, 1),
             "roi":                round(roi * 100, 1) if roi is not None else None,
             "total_pnl":          round(total_pnl, 2),
-            "realized_pnl":       round(realized_pnl, 2),
             "cash_pnl":           round(cash_pnl, 2),
+            "realized_pnl":       round(realized_pnl, 2),
             "total_usdc":         round(usdc_volume, 2),
             "trade_count":        trade_count,
             "market_count":       len(market_ids),
@@ -446,9 +450,10 @@ def enrich_and_score(leaderboard, resolved_lookup, active_markets):
             "signals":            signals,
         })
 
-        roi_str = f"{roi*100:+.1f}%" if roi is not None else "n/a"
-        label   = name or wallet[:10] + "..."
-        print(f"  ✓ {label:<22} Score:{round(final_score,1):<6} WR:{win_rate_all*100:.0f}% ROI:{roi_str}")
+        roi_str  = f"{roi*100:+.1f}%" if roi is not None else "n/a"
+        sig_enter = sum(1 for s in signals if s["signal"] == "ENTER")
+        print(f"  ✓ {(name or wallet[:10]+'...'):<22} Score:{round(final_score,1):<6} "
+              f"WR:{win_rate_all*100:.0f}% ROI:{roi_str} ENTER:{sig_enter}")
 
     print(f"\n  Qualified: {len(qualified)} | Skipped: {skipped}")
     qualified.sort(key=lambda x: x["score"], reverse=True)
@@ -467,27 +472,28 @@ def write_output(ranked, active_markets):
         "end_date":  m.get("endDate") or m.get("end_date", ""),
     } for m in active_markets]
 
-    # Consensus markets: >= 2 whales on same side, no dissent
-    consensus = []
-    mkt_signals = defaultdict(lambda: defaultdict(list))
+    # Consensus: markets where >= 2 whales ENTER on same side, no dissent
+    consensus    = []
+    mkt_signals  = defaultdict(lambda: defaultdict(list))
     for w in ranked:
         for sig in w.get("signals", []):
             if sig["signal"] == "ENTER":
                 mkt_signals[sig["market"]][sig["outcome"]].append({
-                    "wallet": w["wallet"],
-                    "score":  w["score"],
+                    "wallet":    w["wallet"],
+                    "score":     w["score"],
                     "avg_price": sig["avg_price"],
                     "usdc_size": sig["usdc_size"],
                 })
     for market, sides in mkt_signals.items():
-        if len(sides) == 1:   # no dissent
+        if len(sides) == 1:
             side, wallets = list(sides.items())[0]
             if len(wallets) >= 2:
                 consensus.append({
                     "market":    market,
                     "side":      side,
                     "whales":    len(wallets),
-                    "avg_entry": round(sum(w["avg_price"] for w in wallets) / len(wallets), 4),
+                    "avg_entry": round(
+                        sum(w["avg_price"] for w in wallets) / len(wallets), 4),
                     "capital":   round(sum(w["usdc_size"] for w in wallets), 2),
                     "wallets":   [w["wallet"] for w in wallets],
                 })
@@ -508,10 +514,10 @@ def write_output(ranked, active_markets):
 
     with open(CFG.meta_file, "w") as f:
         json.dump({
-            "last_updated":      now,
-            "whale_count":       len(ranked),
-            "market_count":      len(market_list),
-            "consensus_count":   len(consensus),
+            "last_updated":       now,
+            "whale_count":        len(ranked),
+            "market_count":       len(market_list),
+            "consensus_count":    len(consensus),
             "leaderboard_window": CFG.leaderboard_window,
         }, f, indent=2)
 
@@ -535,16 +541,21 @@ def main():
         return
 
     ranked = enrich_and_score(leaderboard, resolved_lookup, active_markets)
+
     print(f"\nWriting output files...")
     write_output(ranked, active_markets)
 
     if ranked:
         print(f"\n── Top 5 Whales ──────────────────────────────────────")
         for i, w in enumerate(ranked[:5], 1):
-            label   = w["name"] or w["pseudonym"] or w["wallet"][:10] + "..."
-            roi_str = f"{w['roi']:+.1f}%" if w["roi"] is not None else "n/a"
-            sigs    = sum(1 for s in w["signals"] if s["signal"] == "ENTER")
-            print(f"  {i}. {label:<22} Score:{w['score']:<6} WR:{w['win_rate']}% ROI:{roi_str} ENTER signals:{sigs}")
+            label    = w["name"] or w["wallet"][:10] + "..."
+            roi_str  = f"{w['roi']:+.1f}%" if w["roi"] is not None else "n/a"
+            sig_e    = sum(1 for s in w["signals"] if s["signal"] == "ENTER")
+            print(f"  {i}. {label:<22} Score:{w['score']:<6} "
+                  f"WR:{w['win_rate']}% ROI:{roi_str} ENTER:{sig_e}")
+    else:
+        print("\n  No wallets passed qualification filters.")
+        print("  Consider loosening thresholds in Config if this persists.")
 
     print("\n✓ Done")
 
