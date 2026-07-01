@@ -30,6 +30,11 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/whales.json
-          git diff --staged --quiet || git commit -m "Update Polymarket whale data $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          if [ -f data/whales.json ]; then
+            git add data/whales.json
+            git diff --staged --quiet || git commit -m "Update Polymarket whale data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "whales.json not found — skipping commit"
+            exit 1
+          fi
