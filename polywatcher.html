@@ -167,20 +167,7 @@
         </div>
       </div>
 
-      <!-- Top 10 Accounts -->
-      <div class="chart-section">
-        <h2>Top 10 Accounts</h2>
-        <p class="section-sub">Highest PnL accounts and their current open bets</p>
-        <div id="accountsLoading" class="loading"><div class="spinner"></div> Loading…</div>
-        <div id="accountsWrap" class="table-scroll" style="display:none;">
-          <table class="data-table">
-            <thead>
-              <tr><th>#</th><th>Account</th><th>PnL</th><th>Volume</th><th>Open Bets</th></tr>
-            </thead>
-            <tbody id="accountsBody"></tbody>
-          </table>
-        </div>
-      </div>
+
 
     </div>
 
@@ -293,46 +280,6 @@
         }).join('');
       }
 
-      // ── Top 10 accounts ──────────────────────────────────────
-      function renderAccounts(accounts) {
-        hide('accountsLoading'); show('accountsWrap');
-        const tbody = document.getElementById('accountsBody');
-        if (!accounts?.length) {
-          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No accounts found.</td></tr>';
-          return;
-        }
-        tbody.innerHTML = accounts.slice(0, 10).map((a, i) => {
-          const pnlCls = a.pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
-          // Sort by size desc, take top 3
-          const top3 = (a.positions || [])
-            .sort((x, y) => (y.size || 0) - (x.size || 0))
-            .slice(0, 3);
-          const posHtml = top3.length
-            ? `<div class="position-list">${top3.map(p =>
-                `<div class="position-item">
-                  <span class="outcome-badge">${p.outcome||'YES'}</span>
-                  ${(p.market||'').slice(0,40)}
-                  <span style="color:#1D9E75;font-weight:600;"> · ${fmt(p.size)}</span>
-                  <span style="color:#888;"> @ ${p.avg_price}</span>
-                </div>`).join('')}
-                <div style="margin-top:4px;">
-                  <a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
-                    View all positions ↗
-                  </a>
-                </div>
-              </div>`
-            : `<a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">View profile ↗</a>`;
-          return `<tr>
-            <td style="font-weight:700;color:#bbb;">${i+1}</td>
-            <td><a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
-              ${a.name || shortWallet(a.wallet)}</a></td>
-            <td><span class="${pnlCls}">${a.pnl >= 0 ? '+' : ''}${fmt(a.pnl)}</span></td>
-            <td style="font-weight:600;color:#111;">${fmt(a.volume)}</td>
-            <td>${posHtml}</td>
-          </tr>`;
-        }).join('');
-      }
-
       // ── Stats ────────────────────────────────────────────────
       function renderStats(whalesData, signalsData) {
         const top = whalesData?.consensus?.[0];
@@ -359,8 +306,6 @@
           renderStats(whalesData, signalsData);
           renderTop5(whalesData?.consensus || []);
           renderSignals(signalsData?.whales || []);
-          renderAccounts(whalesData?.accounts || []);
-
         } catch (err) {
           console.error('Failed to load:', err);
         }
