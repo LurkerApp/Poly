@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
         '<div class="nav-dropdown">' +
           '<button class="dropdown-btn">Predictions</button>' +
           '<div class="dropdown-content">' +
-            '<a href="whalewatcher.html">Whale Watcher</a>' +
-            '<a href="page5.html">Page 5</a>' +
+            '<a href="polywatcher.html">Whale Watcher</a>' +
+            '<a href="polytopaccounts.html">Top Accounts</a>' +
             '<a href="page6.html">Page 6</a>' +
           '</div>' +
         '</div>' +
