@@ -4,18 +4,71 @@
     <title>Lurker</title>
     <link rel="stylesheet" href="style.css">
     <style>
+      .badge {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        letter-spacing: 0.3px;
+      }
+      .badge-buy  { background: #1e2e2a; color: #1ABC9C; }
+      .badge-sell { background: #2e1e1e; color: #e05252; }
       .ticker-badge {
         display: inline-block;
-        background: #1e2e2a;
-        color: #1ABC9C;
+        background: #252830;
+        color: #c0c0c0;
         font-weight: 600;
         font-size: 11px;
         padding: 2px 7px;
         border-radius: 4px;
-        letter-spacing: 0.3px;
       }
       .amount-cell { font-weight: 600; color: #e0e0e0; white-space: nowrap; }
-      .trade-type { font-size: 12px; color: #95a5a6; }
+      .top5-card {
+        flex: 0 0 210px;
+        border: 1px solid #2a2d30;
+        border-radius: 8px;
+        padding: 1rem;
+        background: #252830;
+        border-left: 3px solid #1ABC9C;
+        position: relative;
+      }
+      .top5-rank {
+        position: absolute; top: -10px; left: 12px;
+        background: #1ABC9C; color: #141618;
+        font-size: 10px; font-weight: 700;
+        padding: 1px 8px; border-radius: 20px;
+      }
+      .top5-market {
+        font-size: 12px; font-weight: 600; color: #e0e0e0;
+        margin-bottom: 0.6rem; line-height: 1.4; margin-top: 0.4rem;
+      }
+      .top5-outcome {
+        display: inline-block; font-size: 10px; font-weight: 700;
+        padding: 2px 8px; border-radius: 4px;
+        background: #2a2d30; color: #e0e0e0; margin-bottom: 0.6rem;
+      }
+      .top5-stats {
+        display: grid; grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+      }
+      .top5-stat-label {
+        font-size: 9px; color: #7F8C8D;
+        text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1px;
+      }
+      .top5-stat-value { font-size: 14px; font-weight: 700; color: #e0e0e0; }
+      .top5-stat-value.green { color: #1ABC9C; }
+      .top5-scroll {
+        display: flex;
+        gap: 0.75rem;
+        overflow-x: auto;
+        padding-bottom: 0.75rem;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+      }
+      .top5-scroll::-webkit-scrollbar { height: 4px; }
+      .top5-scroll::-webkit-scrollbar-track { background: #252830; border-radius: 2px; }
+      .top5-scroll::-webkit-scrollbar-thumb { background: #1ABC9C; border-radius: 2px; }
     </style>
   </head>
   <body>
@@ -41,9 +94,8 @@
                 <th>Insider</th>
                 <th>Ticker</th>
                 <th>Company</th>
-                <th>Type</th>
+                <th>Action</th>
                 <th>Shares</th>
-                <th>Price</th>
                 <th>Notional Value</th>
               </tr>
             </thead>
@@ -53,25 +105,13 @@
       </div>
 
       <div class="chart-section">
-        <h2>Top 5 Polymarket Trades</h2>
-        <p class="section-sub">Most active prediction market trades</p>
-        <div id="polymarketLoading" class="loading">
+        <h2>Top 5 Consensus Bets</h2>
+        <p class="section-sub">Ranked by number of top-50 accounts holding the same position</p>
+        <div id="top5Loading" class="loading">
           <div class="spinner"></div> Loading…
         </div>
-        <div id="polymarketWrap" class="table-scroll" style="display:none;">
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th>Market</th>
-                <th>Yes Probability</th>
-                <th>No Probability</th>
-                <th>Volume (24h)</th>
-                <th>Liquidity</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody id="polymarketBody"></tbody>
-          </table>
+        <div id="top5Wrap" style="display:none;">
+          <div id="top5Grid" class="top5-scroll"></div>
         </div>
       </div>
 
@@ -81,6 +121,7 @@
     <script>
       const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
       const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NG[...]
+      const WHALES_URL = './data/whales.json';
 
       const headers = {
         'apikey': SUPABASE_KEY,
@@ -89,11 +130,11 @@
       };
 
       function fmt(amount) {
-        if (!amount) return '—';
+        if (!amount && amount !== 0) return '—';
         if (amount >= 1e9) return '$' + (amount / 1e9).toFixed(1) + 'B';
         if (amount >= 1e6) return '$' + (amount / 1e6).toFixed(1) + 'M';
         if (amount >= 1e3) return '$' + (amount / 1e3).toFixed(0) + 'K';
-        return '$' + amount.toFixed(2);
+        return '$' + amount.toFixed(0);
       }
 
       function fmtDate(iso) {
@@ -113,7 +154,7 @@
           + `?select=*`
           + `&trade_date=gte.${sevenDaysISO}`
           + `&order=notional_value.desc`
-          + `&limit=50`;
+          + `&limit=20`;
         try {
           const resp = await fetch(url, { headers });
           return await resp.json();
@@ -123,16 +164,14 @@
         }
       }
 
-      async function loadPolymarketTrades() {
-        const url = `${SUPABASE_URL}/rest/v1/polymarket_trades`
-          + `?select=*`
-          + `&order=volume_24h.desc`
-          + `&limit=5`;
+      async function loadTop5Consensus() {
         try {
-          const resp = await fetch(url, { headers });
-          return await resp.json();
+          const resp = await fetch(WHALES_URL + '?t=' + Date.now());
+          if (!resp.ok) return [];
+          const data = await resp.json();
+          return data.consensus || [];
         } catch (err) {
-          console.error('Failed to load polymarket trades:', err);
+          console.error('Failed to load whales data:', err);
           return [];
         }
       }
@@ -142,52 +181,60 @@
         show('insiderWrap');
         const tbody = document.getElementById('insiderBody');
         if (!trades.length) {
-          tbody.innerHTML = '<tr><td colspan="8" class="no-data">No insider trades found in the last 7 days.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="7" class="no-data">No insider trades found in the last 7 days.</td></tr>';
           return;
         }
         tbody.innerHTML = trades.map(t => `
           <tr>
             <td style="white-space:nowrap;">${fmtDate(t.trade_date)}</td>
-            <td>${t.insider_name || '—'}</td>
+            <td style="font-weight:500;color:#e0e0e0;">${t.insider_name || '—'}</td>
             <td><span class="ticker-badge">${t.ticker || '—'}</span></td>
-            <td>${t.company_name || '—'}</td>
-            <td><span class="trade-type">${t.trade_type || '—'}</span></td>
-            <td style="white-space:nowrap;">${(t.shares || 0).toLocaleString()}</td>
-            <td class="amount-cell">${fmt(t.price)}</td>
+            <td>${t.issuer_name || '—'}</td>
+            <td><span class="badge ${t.action === 'Buy' ? 'badge-buy' : 'badge-sell'}">${t.action || '—'}</span></td>
+            <td>${t.shares ? Math.abs(t.shares).toLocaleString() : '—'}</td>
             <td class="amount-cell">${fmt(t.notional_value)}</td>
           </tr>
         `).join('');
       }
 
-      function renderPolymarketTrades(trades) {
-        hide('polymarketLoading');
-        show('polymarketWrap');
-        const tbody = document.getElementById('polymarketBody');
-        if (!trades.length) {
-          tbody.innerHTML = '<tr><td colspan="6" class="no-data">No polymarket trades found.</td></tr>';
+      function renderTop5(consensus) {
+        hide('top5Loading');
+        show('top5Wrap');
+        const grid = document.getElementById('top5Grid');
+        if (!consensus?.length) {
+          grid.innerHTML = '<div class="no-data">No shared bets found yet.</div>';
           return;
         }
-        tbody.innerHTML = trades.map(t => `
-          <tr>
-            <td>${t.market_name || '—'}</td>
-            <td>${(t.yes_probability || 0).toFixed(1)}%</td>
-            <td>${(t.no_probability || 0).toFixed(1)}%</td>
-            <td class="amount-cell">${fmt(t.volume_24h)}</td>
-            <td class="amount-cell">${fmt(t.liquidity)}</td>
-            <td>${t.status || '—'}</td>
-          </tr>
-        `).join('');
+        grid.innerHTML = consensus.slice(0, 5).map((c, i) => {
+          const payoffStr = c.payoff_pct != null ? `+${Number(c.payoff_pct).toFixed(1)}%` : '—';
+          return `
+            <div class="top5-card">
+              <div class="top5-rank">#${i+1}</div>
+              <div style="margin-top:0.5rem;"><span class="top5-outcome">${c.outcome}</span></div>
+              <div class="top5-market">${c.market}</div>
+              <div class="top5-stats">
+                <div><div class="top5-stat-label">Whales</div><div class="top5-stat-value green">${c.whale_count}</div></div>
+                <div><div class="top5-stat-label">Avg Entry</div><div class="top5-stat-value">${c.avg_price}</div></div>
+                <div><div class="top5-stat-label">Capital</div><div class="top5-stat-value">${fmt(c.total_capital)}</div></div>
+                <div><div class="top5-stat-label">Payoff</div><div class="top5-stat-value green">${payoffStr}</div></div>
+              </div>
+            </div>`;
+        }).join('');
       }
 
       async function init() {
         try {
-          const [insider, polymarket] = await Promise.all([loadInsiderTrades(), loadPolymarketTrades()]);
-          renderInsiderTrades(insider);
-          renderPolymarketTrades(polymarket);
+          const [trades, consensus] = await Promise.all([
+            loadInsiderTrades(),
+            loadTop5Consensus()
+          ]);
+          renderInsiderTrades(trades);
+          renderTop5(consensus);
         } catch (err) {
           console.error('Failed to initialize:', err);
-          ['insiderLoading', 'polymarketLoading'].forEach(id => {
-            document.getElementById(id).innerHTML = 'Failed to load data.';
+          ['insiderLoading', 'top5Loading'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.textContent = 'Failed to load data.';
           });
         }
       }
