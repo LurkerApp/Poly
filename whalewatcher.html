@@ -224,12 +224,6 @@
         }
         grid.innerHTML = consensus.slice(0, 5).map((c, i) => {
           const payoffStr = c.payoff_pct != null ? `+${Number(c.payoff_pct).toFixed(1)}%` : '—';
-          const chips = (c.whales || []).map(w =>
-            `<div class="whale-chip">
-              <a href="https://polymarket.com/profile/${w.wallet}" target="_blank">
-                ${w.name || shortWallet(w.wallet)}
-              </a> · ${w.avg_price} · ${fmt(w.size)}
-            </div>`).join('');
           return `
             <div class="top5-card">
               <div class="top5-rank">#${i+1}</div>
@@ -241,7 +235,6 @@
                 <div><div class="top5-stat-label">Total Capital</div><div class="top5-stat-value">${fmt(c.total_capital)}</div></div>
                 <div><div class="top5-stat-label">Max Payoff</div><div class="top5-stat-value green">${payoffStr}</div></div>
               </div>
-              <div class="top5-wallets">${chips}</div>
             </div>`;
         }).join('');
       }
@@ -310,15 +303,25 @@
         }
         tbody.innerHTML = accounts.slice(0, 10).map((a, i) => {
           const pnlCls = a.pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
-          const posHtml = (a.positions || []).length
-            ? `<div class="position-list">${(a.positions||[]).map(p =>
+          // Sort by size desc, take top 3
+          const top3 = (a.positions || [])
+            .sort((x, y) => (y.size || 0) - (x.size || 0))
+            .slice(0, 3);
+          const posHtml = top3.length
+            ? `<div class="position-list">${top3.map(p =>
                 `<div class="position-item">
                   <span class="outcome-badge">${p.outcome||'YES'}</span>
-                  ${(p.market||'').slice(0,45)}
+                  ${(p.market||'').slice(0,40)}
                   <span style="color:#1D9E75;font-weight:600;"> · ${fmt(p.size)}</span>
                   <span style="color:#888;"> @ ${p.avg_price}</span>
-                </div>`).join('')}</div>`
-            : '<span style="color:#bbb;font-size:12px;">No open positions</span>';
+                </div>`).join('')}
+                <div style="margin-top:4px;">
+                  <a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
+                    View all positions ↗
+                  </a>
+                </div>
+              </div>`
+            : `<a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">View profile ↗</a>`;
           return `<tr>
             <td style="font-weight:700;color:#bbb;">${i+1}</td>
             <td><a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
