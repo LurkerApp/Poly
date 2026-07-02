@@ -25,23 +25,40 @@ if not SUPABASE_URL or not SUPABASE_KEY:
     sys.exit(1)
 
 HEADERS = {"User-Agent": "MyInsiderApp/1.0 (contact: youremail@domain.com)"}
-REQUEST_TIMEOUT        = 15
+REQUEST_TIMEOUT         = 15
 SLEEP_BETWEEN_CALLS_SEC = 0.25
 
 INSIDERS = {
-    "Elon Musk":       "0001494730",
-    "Warren Buffett":  "0000315090",
-    "Bill Ackman":     "0001056513",
-    "Carl Icahn":      "0000921669",
-    "Jeff Bezos":      "0001043298",
-    "Tim Cook":        "0001214156",
-    "Mark Zuckerberg": "0001548760",
-    "Satya Nadella":   "0001513142",
-    "Jen-Hsun Huang":  "0001197649",
-    "Alex Karp":       "0001823951",
-    "Trump Eric":      "0002057754",
-    "Donald Trump":    "0000947033",
-    "Sam Altman":      "0001571705",
+    # ── Tech CEOs / Founders ─────────────────────────────────
+    "Elon Musk":           "0001494730",   # Tesla, SpaceX, xAI
+    "Jeff Bezos":          "0001043298",   # Amazon founder
+    "Andy Jassy":          "0001374545",   # Amazon CEO
+    "Mark Zuckerberg":     "0001548760",   # Meta CEO
+    "Sundar Pichai":       "0001534753",   # Alphabet CEO
+    "Sergey Brin":         "0001295032",   # Alphabet co-founder
+    "Satya Nadella":       "0001513142",   # Microsoft CEO
+    "Tim Cook":            "0001214156",   # Apple CEO
+    "Jensen Huang":        "0001197649",   # Nvidia CEO
+    "Lisa Su":             "0001227903",   # AMD CEO
+    "Michael Dell":        "0000908724",   # Dell founder
+    "Bob Iger":            "0001207394",   # Disney CEO
+    "Jack Dorsey":         "0001590945",   # Block / Square founder
+    "Alex Karp":           "0001823951",   # Palantir CEO
+    "Sam Altman":          "0001571705",   # OpenAI CEO (Okta board)
+    "Larry Ellison":       "0000901999",   # Oracle founder
+
+    # ── Investors ────────────────────────────────────────────
+    "Warren Buffett":      "0000315090",   # Berkshire Hathaway
+    "Bill Ackman":         "0001056513",   # Pershing Square
+    "Carl Icahn":          "0000921669",   # Icahn Enterprises
+    "Ken Griffin":         "0001255159",   # Citadel
+    "George Soros":        "0000900203",   # Soros Fund
+    "Michael Burry":       "0001649339",   # Scion Asset Management
+    "Dan Loeb":            "0001040570",   # Third Point
+
+    # ── Politics ─────────────────────────────────────────────
+    "Donald Trump":        "0000947033",
+    "Eric Trump":          "0002057754",
 }
 
 # ── Connect to Supabase ──────────────────────────────────────
@@ -140,20 +157,21 @@ def parse_form4_xml(xml_url):
         return None
 
     return {
-        "issuer_name":   issuer_name,
-        "ticker":        ticker,
-        "trade_date":    trade_date,
-        "action":        trade_action,
-        "shares":        int(total_shares),
+        "issuer_name":    issuer_name,
+        "ticker":         ticker,
+        "trade_date":     trade_date,
+        "action":         trade_action,
+        "shares":         int(total_shares),
         "notional_value": round(total_notional, 2),
-        "security":      security,
-        "filing_url":    xml_url,
+        "security":       security,
+        "filing_url":     xml_url,
     }
 
 def fetch_most_recent_trade_for_cik(cik):
+    """Only look at the single most recent Form 4 filing."""
     feed_url = "https://www.sec.gov/cgi-bin/browse-edgar"
     params   = {"action": "getcompany", "CIK": cik, "type": "4",
-                 "owner": "only", "count": "10", "output": "atom"}
+                 "owner": "only", "count": "5", "output": "atom"}
     resp = fetch(feed_url, params=params)
     if resp.status_code != 200:
         return None
@@ -167,33 +185,36 @@ def fetch_most_recent_trade_for_cik(cik):
     if not entries:
         return None
 
-    for entry in entries:
-        link = entry.find("atom:link", ns)
-        if link is None or "href" not in link.attrib:
-            continue
-        filing_index_url = link.attrib["href"]
-        xml_urls         = find_xml_urls(filing_index_url)
-        for xml_url in xml_urls:
-            trade = parse_form4_xml(xml_url)
-            if trade:
-                return trade
+    # Only check the most recent filing — don't fall back to old filings
+    entry = entries[0]
+    link  = entry.find("atom:link", ns)
+    if link is None or "href" not in link.attrib:
+        return None
+
+    filing_index_url = link.attrib["href"]
+    xml_urls         = find_xml_urls(filing_index_url)
+    for xml_url in xml_urls:
+        trade = parse_form4_xml(xml_url)
+        if trade:
+            return trade
     return None
 
 # ── Save to Supabase ─────────────────────────────────────────
 def save_to_supabase(trade: dict, insider_name: str):
     record = {
-        "insider_name":  insider_name,
-        "ticker":        trade["ticker"],
-        "issuer_name":   trade["issuer_name"],
-        "action":        trade["action"],
-        "shares":        trade["shares"],
+        "insider_name":   insider_name,
+        "ticker":         trade["ticker"],
+        "issuer_name":    trade["issuer_name"],
+        "action":         trade["action"],
+        "shares":         trade["shares"],
         "notional_value": trade["notional_value"],
-        "security":      trade["security"],
-        "trade_date":    trade["trade_date"],
-        "filing_url":    trade["filing_url"],
+        "security":       trade["security"],
+        "trade_date":     trade["trade_date"],
+        "filing_url":     trade["filing_url"],
     }
     supabase.table("insider_trades").upsert(record, on_conflict="filing_url").execute()
-    print(f"  ✓ Saved: {insider_name} — {trade['action']} {abs(trade['shares']):,} shares of {trade['ticker']}")
+    print(f"  ✓ Saved: {insider_name} — {trade['action']} "
+          f"{abs(trade['shares']):,} shares of {trade['ticker']}")
 
 # ── Main ─────────────────────────────────────────────────────
 def main():
@@ -205,7 +226,7 @@ def main():
             save_to_supabase(trade, name)
             saved += 1
         else:
-            print(f"  ✗ No Form 4 found")
+            print(f"  ✗ No buy/sell found in most recent filing")
 
     print(f"\n✓ Done — {saved} trades saved to Supabase")
 
