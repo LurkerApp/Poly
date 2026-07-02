@@ -3,96 +3,15 @@
   <head>
     <title>Top Accounts - Lurker</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-      body { background: #f7f7f5; }
-      .page { padding: 3rem 2rem; }
-
-      .datetime-display {
-        position: fixed; top: 80px; right: 2rem;
-        font-size: 14px; color: #888; font-weight: 500;
-      }
-
-      .content-header { margin-bottom: 2rem; }
-      .content-header h1 { font-size: 32px; font-weight: 600; color: #111; margin-bottom: 0.5rem; }
-      .content-header p { font-size: 16px; color: #666; }
-
-      .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 1.5rem; margin-bottom: 2rem;
-      }
-      .stat-card {
-        background: white; padding: 1.5rem; border-radius: 8px;
-        border: 1px solid #e5e5e5; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-      }
-      .stat-label { font-size: 13px; color: #888; font-weight: 500; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.5px; }
-      .stat-value { font-size: 28px; font-weight: 600; color: #1D9E75; }
-      .stat-sub { font-size: 12px; color: #aaa; margin-top: 4px; }
-
-      .chart-section {
-        background: white; padding: 2rem; border-radius: 8px;
-        border: 1px solid #e5e5e5; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        margin-bottom: 2rem;
-      }
-      .chart-section h2 { font-size: 20px; font-weight: 600; color: #111; margin-bottom: 0.4rem; }
-      .section-sub { font-size: 13px; color: #999; margin-bottom: 1.5rem; }
-
-      .loading {
-        display: flex; align-items: center; justify-content: center;
-        height: 160px; color: #aaa; font-size: 15px; gap: 10px;
-      }
-      .spinner {
-        width: 18px; height: 18px; border: 2px solid #e5e5e5;
-        border-top-color: #1D9E75; border-radius: 50%;
-        animation: spin 0.8s linear infinite;
-      }
-      @keyframes spin { to { transform: rotate(360deg); } }
-
-      .table-scroll { overflow-x: auto; }
-      .data-table { width: 100%; border-collapse: collapse; }
-      .data-table th {
-        background: #f9f9f9; padding: 0.85rem 1rem; text-align: left;
-        font-weight: 600; color: #111; border-bottom: 1px solid #e5e5e5;
-        font-size: 13px; white-space: nowrap;
-      }
-      .data-table td {
-        padding: 0.85rem 1rem; border-bottom: 1px solid #f0f0f0;
-        font-size: 13px; color: #555; vertical-align: top;
-      }
-      .data-table tr:last-child td { border-bottom: none; }
-      .data-table tr:hover td { background: #fafafa; }
-
-      .outcome-badge {
-        display: inline-block; font-size: 10px; font-weight: 700;
-        padding: 1px 6px; border-radius: 3px; margin-right: 4px;
-        background: #111; color: white;
-      }
-      .position-list { display: flex; flex-direction: column; gap: 4px; }
-      .position-item { font-size: 12px; color: #444; line-height: 1.4; }
-      .wallet-link { color: #1D9E75; text-decoration: none; font-family: monospace; font-size: 12px; }
-      .wallet-link:hover { text-decoration: underline; }
-      .view-link { color: #1D9E75; text-decoration: none; font-size: 12px; }
-      .view-link:hover { text-decoration: underline; }
-      .pnl-pos { color: #1D9E75; font-weight: 600; }
-      .pnl-neg { color: #e05252; font-weight: 600; }
-      .no-data { text-align: center; color: #aaa; padding: 2rem; font-size: 14px; }
-      .refresh-badge {
-        display: inline-block; font-size: 11px; background: #e8f7f2;
-        color: #1D9E75; padding: 2px 8px; border-radius: 4px;
-        margin-left: 8px; font-weight: 500;
-      }
-    </style>
   </head>
   <body>
     <div class="datetime-display" id="datetimeDisplay"></div>
     <div class="page">
-
       <div class="content-header">
-        <h1>🏆 Top Accounts</h1>
+        <h1>Top Accounts</h1>
         <p>Polymarket's top 50 leaderboard accounts and their current open positions</p>
       </div>
 
-      <!-- Stats -->
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-label">Accounts Tracked</div>
@@ -116,7 +35,6 @@
         </div>
       </div>
 
-      <!-- Accounts Table -->
       <div class="chart-section">
         <h2>Leaderboard <span class="refresh-badge">Live</span></h2>
         <p class="section-sub">Sorted by PnL — showing top 3 open positions per account</p>
@@ -138,7 +56,6 @@
           </table>
         </div>
       </div>
-
     </div>
 
     <script src="navbar.js"></script>
@@ -172,44 +89,38 @@
 
       function renderStats(data) {
         const accounts = data?.accounts || [];
-        const byPnl    = [...accounts].sort((a, b) => b.pnl - a.pnl);
-        const byVol    = [...accounts].sort((a, b) => b.volume - a.volume);
-        const topPnl   = byPnl[0];
-        const topVol   = byVol[0];
-
-        document.getElementById('statAccounts').textContent  = accounts.length;
-        document.getElementById('statUpdated').textContent   = fmtDate(data?.last_updated);
-        document.getElementById('statTopPnl').textContent    = topPnl ? fmt(topPnl.pnl) : '—';
-        document.getElementById('statTopName').textContent   = topPnl?.name || shortWallet(topPnl?.wallet);
-        document.getElementById('statTopVol').textContent    = topVol ? fmt(topVol.volume) : '—';
+        const byPnl  = [...accounts].sort((a, b) => b.pnl - a.pnl);
+        const byVol  = [...accounts].sort((a, b) => b.volume - a.volume);
+        const topPnl = byPnl[0];
+        const topVol = byVol[0];
+        document.getElementById('statAccounts').textContent   = accounts.length;
+        document.getElementById('statUpdated').textContent    = fmtDate(data?.last_updated);
+        document.getElementById('statTopPnl').textContent     = topPnl ? fmt(topPnl.pnl) : '—';
+        document.getElementById('statTopName').textContent    = topPnl?.name || shortWallet(topPnl?.wallet);
+        document.getElementById('statTopVol').textContent     = topVol ? fmt(topVol.volume) : '—';
         document.getElementById('statTopVolName').textContent = topVol?.name || shortWallet(topVol?.wallet);
       }
 
       function renderAccounts(accounts) {
         hide('accountsLoading'); show('accountsWrap');
         const tbody = document.getElementById('accountsBody');
-
         if (!accounts?.length) {
           tbody.innerHTML = '<tr><td colspan="5" class="no-data">No accounts found.</td></tr>';
           return;
         }
-
         tbody.innerHTML = accounts.map((a, i) => {
           const pnlCls = a.pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
-
-          // Sort positions by size desc, show top 3
           const top3 = (a.positions || [])
             .sort((x, y) => (y.size || 0) - (x.size || 0))
             .slice(0, 3);
-
           const posHtml = top3.length
             ? `<div class="position-list">
                 ${top3.map(p => `
                   <div class="position-item">
                     <span class="outcome-badge">${p.outcome || 'YES'}</span>
                     ${(p.market || '').slice(0, 45)}
-                    <span style="color:#1D9E75;font-weight:600;"> · ${fmt(p.size)}</span>
-                    <span style="color:#888;"> @ ${p.avg_price}</span>
+                    <span style="color:#1ABC9C;font-weight:600;"> · ${fmt(p.size)}</span>
+                    <span style="color:#5a6068;"> @ ${p.avg_price}</span>
                   </div>`).join('')}
                 <div style="margin-top:5px;">
                   <a class="view-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
@@ -220,14 +131,11 @@
             : `<a class="view-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">View profile ↗</a>`;
 
           return `<tr>
-            <td style="font-weight:700;color:#bbb;">${i + 1}</td>
-            <td>
-              <a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
-                ${a.name || shortWallet(a.wallet)}
-              </a>
-            </td>
+            <td style="font-weight:700;color:#5a6068;">${i + 1}</td>
+            <td><a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
+              ${a.name || shortWallet(a.wallet)}</a></td>
             <td><span class="${pnlCls}">${a.pnl >= 0 ? '+' : ''}${fmt(a.pnl)}</span></td>
-            <td style="font-weight:600;color:#111;">${fmt(a.volume)}</td>
+            <td style="font-weight:600;color:#e0e0e0;">${fmt(a.volume)}</td>
             <td>${posHtml}</td>
           </tr>`;
         }).join('');
