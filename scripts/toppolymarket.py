@@ -49,25 +49,18 @@ def get(url, params=None):
 # ── Step 1: Leaderboard ──────────────────────────────────────
 def fetch_leaderboard():
     print(f"Fetching top {CFG.leaderboard_limit} accounts from leaderboard...")
-    for sort in ["PNL", "VOLUME", "PROFIT"]:
-        data = get(f"{DATA_API}/leaderboard", params={
-            "limit":  CFG.leaderboard_limit,
-            "sortBy": sort,
-        })
-        if data:
-            entries = data if isinstance(data, list) else data.get("data", [])
-            if entries:
-                print(f"  Found {len(entries)} accounts (sortBy={sort})")
-                return entries
-
-    data = get(f"{DATA_API}/leaderboard", params={"limit": CFG.leaderboard_limit})
-    if data:
-        entries = data if isinstance(data, list) else data.get("data", [])
-        print(f"  Found {len(entries)} accounts")
-        return entries
-
-    print("  No leaderboard data found")
-    return []
+    data = get(f"{DATA_API}/v1/leaderboard", params={
+        "category":   "OVERALL",
+        "timePeriod": "MONTH",
+        "orderBy":    "PNL",
+        "limit":      CFG.leaderboard_limit,
+    })
+    if not data:
+        print("  No leaderboard data found")
+        return []
+    entries = data if isinstance(data, list) else data.get("data", [])
+    print(f"  Found {len(entries)} accounts")
+    return entries
 
 # ── Step 2: ALL open positions per account ───────────────────
 def fetch_all_open_positions(wallet):
