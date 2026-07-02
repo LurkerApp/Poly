@@ -3,13 +3,197 @@
   <head>
     <title>Lurker</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .ticker-badge {
+        display: inline-block;
+        background: #1e2e2a;
+        color: #1ABC9C;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 2px 7px;
+        border-radius: 4px;
+        letter-spacing: 0.3px;
+      }
+      .amount-cell { font-weight: 600; color: #e0e0e0; white-space: nowrap; }
+      .trade-type { font-size: 12px; color: #95a5a6; }
+    </style>
   </head>
   <body>
     <div class="datetime-display" id="datetimeDisplay"></div>
     <div class="page">
+
+      <div class="content-header">
+        <h1>Lurker</h1>
+        <p>Real-time market data and insights</p>
+      </div>
+
+      <div class="chart-section">
+        <h2>Insider Trades — Last 7 Days</h2>
+        <p class="section-sub">Recent insider trades ordered by notional value</p>
+        <div id="insiderLoading" class="loading">
+          <div class="spinner"></div> Loading…
+        </div>
+        <div id="insiderWrap" class="table-scroll" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Insider</th>
+                <th>Ticker</th>
+                <th>Company</th>
+                <th>Type</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Notional Value</th>
+              </tr>
+            </thead>
+            <tbody id="insiderBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="chart-section">
+        <h2>Top 5 Polymarket Trades</h2>
+        <p class="section-sub">Most active prediction market trades</p>
+        <div id="polymarketLoading" class="loading">
+          <div class="spinner"></div> Loading…
+        </div>
+        <div id="polymarketWrap" class="table-scroll" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Market</th>
+                <th>Yes Probability</th>
+                <th>No Probability</th>
+                <th>Volume (24h)</th>
+                <th>Liquidity</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="polymarketBody"></tbody>
+          </table>
+        </div>
+      </div>
+
     </div>
+
     <script src="navbar.js"></script>
     <script>
+      const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
+      const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NG[...]
+
+      const headers = {
+        'apikey': SUPABASE_KEY,
+        'Authorization': 'Bearer ' + SUPABASE_KEY,
+        'Content-Type': 'application/json'
+      };
+
+      function fmt(amount) {
+        if (!amount) return '—';
+        if (amount >= 1e9) return '$' + (amount / 1e9).toFixed(1) + 'B';
+        if (amount >= 1e6) return '$' + (amount / 1e6).toFixed(1) + 'M';
+        if (amount >= 1e3) return '$' + (amount / 1e3).toFixed(0) + 'K';
+        return '$' + amount.toFixed(2);
+      }
+
+      function fmtDate(iso) {
+        if (!iso) return '—';
+        return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      }
+
+      function show(id) { document.getElementById(id).style.display = ''; }
+      function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+      const sevenDaysAgo = new Date();
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+      const sevenDaysISO = sevenDaysAgo.toISOString();
+
+      async function loadInsiderTrades() {
+        const url = `${SUPABASE_URL}/rest/v1/insider_trades`
+          + `?select=*`
+          + `&trade_date=gte.${sevenDaysISO}`
+          + `&order=notional_value.desc`
+          + `&limit=50`;
+        try {
+          const resp = await fetch(url, { headers });
+          return await resp.json();
+        } catch (err) {
+          console.error('Failed to load insider trades:', err);
+          return [];
+        }
+      }
+
+      async function loadPolymarketTrades() {
+        const url = `${SUPABASE_URL}/rest/v1/polymarket_trades`
+          + `?select=*`
+          + `&order=volume_24h.desc`
+          + `&limit=5`;
+        try {
+          const resp = await fetch(url, { headers });
+          return await resp.json();
+        } catch (err) {
+          console.error('Failed to load polymarket trades:', err);
+          return [];
+        }
+      }
+
+      function renderInsiderTrades(trades) {
+        hide('insiderLoading');
+        show('insiderWrap');
+        const tbody = document.getElementById('insiderBody');
+        if (!trades.length) {
+          tbody.innerHTML = '<tr><td colspan="8" class="no-data">No insider trades found in the last 7 days.</td></tr>';
+          return;
+        }
+        tbody.innerHTML = trades.map(t => `
+          <tr>
+            <td style="white-space:nowrap;">${fmtDate(t.trade_date)}</td>
+            <td>${t.insider_name || '—'}</td>
+            <td><span class="ticker-badge">${t.ticker || '—'}</span></td>
+            <td>${t.company_name || '—'}</td>
+            <td><span class="trade-type">${t.trade_type || '—'}</span></td>
+            <td style="white-space:nowrap;">${(t.shares || 0).toLocaleString()}</td>
+            <td class="amount-cell">${fmt(t.price)}</td>
+            <td class="amount-cell">${fmt(t.notional_value)}</td>
+          </tr>
+        `).join('');
+      }
+
+      function renderPolymarketTrades(trades) {
+        hide('polymarketLoading');
+        show('polymarketWrap');
+        const tbody = document.getElementById('polymarketBody');
+        if (!trades.length) {
+          tbody.innerHTML = '<tr><td colspan="6" class="no-data">No polymarket trades found.</td></tr>';
+          return;
+        }
+        tbody.innerHTML = trades.map(t => `
+          <tr>
+            <td>${t.market_name || '—'}</td>
+            <td>${(t.yes_probability || 0).toFixed(1)}%</td>
+            <td>${(t.no_probability || 0).toFixed(1)}%</td>
+            <td class="amount-cell">${fmt(t.volume_24h)}</td>
+            <td class="amount-cell">${fmt(t.liquidity)}</td>
+            <td>${t.status || '—'}</td>
+          </tr>
+        `).join('');
+      }
+
+      async function init() {
+        try {
+          const [insider, polymarket] = await Promise.all([loadInsiderTrades(), loadPolymarketTrades()]);
+          renderInsiderTrades(insider);
+          renderPolymarketTrades(polymarket);
+        } catch (err) {
+          console.error('Failed to initialize:', err);
+          ['insiderLoading', 'polymarketLoading'].forEach(id => {
+            document.getElementById(id).innerHTML = 'Failed to load data.';
+          });
+        }
+      }
+
+      init();
+
       function updateDateTime() {
         const now = new Date();
         document.getElementById('datetimeDisplay').textContent =
