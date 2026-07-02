@@ -1,14 +1,13 @@
 # ============================================================
 # Polymarket Whale Tracker
 # ============================================================
-# Strategy (matches original project):
-#   1. Fetch top 10 active markets from Gamma API
-#   2. For each market, pull top 100 trades >= 500 USDC
-#   3. Collect unique whale wallets (capped at 30 for runtime)
+# Strategy:
+#   1. Fetch top 20 active markets by 24hr volume
+#   2. Pull top 100 trades >= $500 USDC per market
+#   3. Collect unique whale wallets (cap at 50)
 #   4. Enrich each wallet: positions + activity
-#   5. Filter: >= 3 resolved markets, >= 1k USDC volume, age >= 7d
-#   6. Score using 5-factor model
-#   7. Write data/whales.json, markets.json, last_updated.json
+#   5. Score using 5-factor model (no qualification filters)
+#   6. Write data/whales.json, markets.json, last_updated.json
 #
 # Scoring weights:
 #   ROI           30%
@@ -18,7 +17,7 @@
 #   Volume        10%
 # ============================================================
 # Dependencies: requests
-# No API key required — all public endpoints
+# No API key required
 # ============================================================
 
 import requests
@@ -34,16 +33,11 @@ from collections import defaultdict
 @dataclass
 class Config:
     # Discovery
-    max_markets:           int   = 10      # active markets to scan
-    whale_min_usdc:        float = 500     # min trade USDC to flag wallet
-    trades_per_market:     int   = 100     # trades to pull per market
-    max_wallets_to_enrich: int   = 30      # cap enrichment for runtime
-    max_wallets_output:    int   = 50      # top N in final JSON
-
-    # Wallet qualification
-    min_resolved_markets:  int   = 3       # >= 3 resolved markets
-    min_volume_usdc:       float = 1_000   # >= 1k USDC lifetime volume
-    min_account_age_days:  int   = 7       # account age >= 7 days
+    max_markets:           int   = 20      # top markets by 24hr volume
+    whale_min_usdc:        float = 500     # min trade size
+    trades_per_market:     int   = 100     # trades per market
+    max_wallets_to_enrich: int   = 50      # cap for runtime
+    max_wallets_output:    int   = 50      # top N in JSON
 
     # Scoring bounds
     roi_floor:             float = -0.50
@@ -59,7 +53,7 @@ class Config:
     w_volume:              float = 0.10
 
     # API
-    sleep:                 float = 0.25
+    sleep:                 float = 0.20
     timeout:               int   = 15
 
     # Output
@@ -157,9 +151,9 @@ def fetch_resolved_lookup():
 def discover_whales(markets):
     print(f"\nScanning {len(markets)} markets for trades >= ${CFG.whale_min_usdc}...")
 
-    wallet_profiles = {}   # wallet → profile info + first seen
-    wallet_markets  = defaultdict(set)  # wallet → market cids
-    market_meta     = {}   # cid → name + created_at
+    wallet_profiles = {}
+    wallet_markets  = defaultdict(set)
+    market_meta     = {}
 
     for m in markets:
         cid         = m.get("conditionId") or m.get("condition_id", "")
@@ -183,7 +177,7 @@ def discover_whales(markets):
         })
 
         if not trades:
-            print(f"  - {market_name[:50]} (no data)")
+            print(f"  - {market_name[:55]} (no data)")
             continue
 
         trade_list  = trades if isinstance(trades, list) else trades.get("data", [])
@@ -204,7 +198,6 @@ def discover_whales(markets):
                 wallet_profiles[wallet] = {
                     "name":       t.get("name") or t.get("pseudonym") or "",
                     "pseudonym":  t.get("pseudonym", ""),
-                    "icon":       t.get("profileImageOptimized") or t.get("profileImage", ""),
                     "first_seen": parse_ts(t.get("timestamp")),
                 }
                 new_wallets += 1
@@ -214,7 +207,7 @@ def discover_whales(markets):
                            ts < wallet_profiles[wallet]["first_seen"]):
                     wallet_profiles[wallet]["first_seen"] = ts
 
-        print(f"  ✓ {market_name[:50]} — {len(trade_list)} trades, {new_wallets} new wallets")
+        print(f"  ✓ {market_name[:55]} — {len(trade_list)} trades, {new_wallets} new wallets")
 
     # Cap to avoid timeout
     if len(wallet_profiles) > CFG.max_wallets_to_enrich:
@@ -224,7 +217,7 @@ def discover_whales(markets):
     print(f"\n  Total whale wallets to enrich: {len(wallet_profiles)}")
     return wallet_profiles, wallet_markets, market_meta
 
-# ── Step 4: Enrich, filter, score wallets ────────────────────
+# ── Step 4: Enrich and score wallets ─────────────────────────
 def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
                      resolved_lookup, active_markets):
     print(f"\nEnriching {len(wallet_profiles)} wallets...")
@@ -245,9 +238,7 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
         if cid not in mkt_created:
             mkt_created[cid] = meta.get("created_at")
 
-    now_utc   = datetime.now(timezone.utc)
-    qualified = []
-    skipped   = 0
+    scored = []
 
     for wallet, profile in wallet_profiles.items():
 
@@ -303,24 +294,6 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
                 all_market_ids.add(cid)
             usdc_volume += float(a.get("usdcSize") or a.get("cashAmount") or 0)
 
-        # ── Qualification ─────────────────────────────────────
-        reasons = []
-        if resolved_cnt < CFG.min_resolved_markets:
-            reasons.append(f"resolved {resolved_cnt}<{CFG.min_resolved_markets}")
-        if usdc_volume < CFG.min_volume_usdc:
-            reasons.append(f"vol {fmt(usdc_volume)}<{fmt(CFG.min_volume_usdc)}")
-        first_seen = profile.get("first_seen")
-        if first_seen:
-            age_days = (now_utc - first_seen).days
-            if age_days < CFG.min_account_age_days:
-                reasons.append(f"age {age_days}d<{CFG.min_account_age_days}d")
-
-        if reasons:
-            name = profile.get("name") or wallet[:10] + "..."
-            print(f"  ✗ {name:<22} SKIP: {'; '.join(reasons)}")
-            skipped += 1
-            continue
-
         # ── Early entry ───────────────────────────────────────
         mkt_first = defaultdict(list)
         for a in reversed(activity):
@@ -336,7 +309,7 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
             if t_c and t_f and t_f >= t_c:
                 entry_hours.append((t_f - t_c).total_seconds() / 3600)
 
-        # Top markets by trade frequency
+        # Top markets by frequency
         mkt_counts = defaultdict(int)
         for a in activity:
             title = a.get("title") or ""
@@ -387,7 +360,7 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
             sum(brier_scores) / len(brier_scores) * 100
         ) if brier_scores else 50.0
 
-        # Consistency Score (20%) — shrunken win rate toward 0.5
+        # Consistency Score (20%)
         shrunk = (wins_all + 0.5 * 5) / (resolved_cnt + 5) if resolved_cnt > 0 else 0.5
         consistency_score = clamp(shrunk * 100)
 
@@ -412,7 +385,7 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
         )
 
         name = profile.get("name") or profile.get("pseudonym") or ""
-        qualified.append({
+        scored.append({
             "wallet":             wallet,
             "name":               name,
             "score":              round(final_score, 1),
@@ -441,9 +414,9 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
         print(f"  ✓ {(name or wallet[:10]+'...'):<22} Score:{round(final_score,1):<6} "
               f"WR:{win_rate*100:.0f}% ROI:{roi_str} ENTER:{sig_enter}")
 
-    print(f"\n  Qualified: {len(qualified)} | Skipped: {skipped}")
-    qualified.sort(key=lambda x: x["score"], reverse=True)
-    return qualified[:CFG.max_wallets_output]
+    scored.sort(key=lambda x: x["score"], reverse=True)
+    print(f"\n  Scored {len(scored)} wallets")
+    return scored[:CFG.max_wallets_output]
 
 # ── Step 5: Write output files ────────────────────────────────
 def write_output(ranked, active_markets):
@@ -458,7 +431,7 @@ def write_output(ranked, active_markets):
         "end_date":  m.get("endDate") or m.get("end_date", ""),
     } for m in active_markets]
 
-    # Consensus: >= 2 whales ENTER same side with no dissent
+    # Consensus: >= 2 whales ENTER same side no dissent
     consensus   = []
     mkt_signals = defaultdict(lambda: defaultdict(list))
     for w in ranked:
@@ -548,7 +521,7 @@ def main():
             print(f"  {i}. {label:<22} Score:{w['score']:<6} "
                   f"WR:{w['win_rate']}% ROI:{roi_str} ENTER:{sig_e}")
     else:
-        print("\n  No wallets passed qualification filters.")
+        print("\n  No wallets scored.")
 
     print("\n✓ Done")
 
