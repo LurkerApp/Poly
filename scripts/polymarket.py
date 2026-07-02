@@ -1,13 +1,13 @@
 # ============================================================
-# Polymarket Whale Tracker
+# Polymarket Whale Tracker — Live Signals
 # ============================================================
 # Strategy:
 #   1. Fetch top 20 active markets by 24hr volume
 #   2. Pull top 100 trades >= $500 USDC per market
 #   3. Collect unique whale wallets (cap at 50)
 #   4. Enrich each wallet: positions + activity
-#   5. Score using 5-factor model (no qualification filters)
-#   6. Write data/whales.json, markets.json, last_updated.json
+#   5. Score using 5-factor model
+#   6. Write data/signals.json, data/markets.json
 #
 # Scoring weights:
 #   ROI           30%
@@ -25,7 +25,7 @@ import json
 import time
 import os
 import math
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from dataclasses import dataclass
 from collections import defaultdict
 
@@ -33,11 +33,11 @@ from collections import defaultdict
 @dataclass
 class Config:
     # Discovery
-    max_markets:           int   = 20      # top markets by 24hr volume
-    whale_min_usdc:        float = 500     # min trade size
-    trades_per_market:     int   = 100     # trades per market
-    max_wallets_to_enrich: int   = 50      # cap for runtime
-    max_wallets_output:    int   = 50      # top N in JSON
+    max_markets:           int   = 20
+    whale_min_usdc:        float = 500
+    trades_per_market:     int   = 100
+    max_wallets_to_enrich: int   = 50
+    max_wallets_output:    int   = 50
 
     # Scoring bounds
     roi_floor:             float = -0.50
@@ -56,11 +56,11 @@ class Config:
     sleep:                 float = 0.20
     timeout:               int   = 15
 
-    # Output
-    output_file:        str   = "data/signals.json"
-    meta_file:          str   = "data/signals_meta.json"
-    markets_file:       str   = "data/markets.json"
-    meta_file:             str   = "data/last_updated.json"
+    # Output — writes to signals.json, NOT whales.json
+    output_dir:            str   = "data"
+    output_file:           str   = "data/signals.json"
+    markets_file:          str   = "data/markets.json"
+    meta_file:             str   = "data/signals_meta.json"
 
 CFG = Config()
 
@@ -209,7 +209,6 @@ def discover_whales(markets):
 
         print(f"  ✓ {market_name[:55]} — {len(trade_list)} trades, {new_wallets} new wallets")
 
-    # Cap to avoid timeout
     if len(wallet_profiles) > CFG.max_wallets_to_enrich:
         print(f"\n  Capping to {CFG.max_wallets_to_enrich} wallets for runtime")
         wallet_profiles = dict(list(wallet_profiles.items())[:CFG.max_wallets_to_enrich])
@@ -349,27 +348,21 @@ def enrich_and_score(wallet_profiles, wallet_markets, market_meta,
         signals.sort(key=lambda x: {"ENTER": 0, "LATE": 1, "SKIP": 2}[x["signal"]])
 
         # ── 5-Factor Scoring ─────────────────────────────────
-
-        # ROI Score (30%)
         roi_score = clamp(
             (roi - CFG.roi_floor) / (CFG.roi_cap - CFG.roi_floor) * 100
         ) if roi is not None else 50.0
 
-        # Calibration Score (25%)
         calib_score = clamp(
             sum(brier_scores) / len(brier_scores) * 100
         ) if brier_scores else 50.0
 
-        # Consistency Score (20%)
         shrunk = (wins_all + 0.5 * 5) / (resolved_cnt + 5) if resolved_cnt > 0 else 0.5
         consistency_score = clamp(shrunk * 100)
 
-        # Volume Score (10%)
         volume_score = clamp(
             math.log10(max(usdc_volume, 1)) / math.log10(CFG.volume_anchor) * 100
         ) if usdc_volume > 0 else 0.0
 
-        # Early Entry Score (15%)
         if entry_hours:
             avg_h       = sum(entry_hours) / len(entry_hours)
             early_score = clamp((1 - avg_h / (CFG.early_days * 24)) * 100)
@@ -431,33 +424,6 @@ def write_output(ranked, active_markets):
         "end_date":  m.get("endDate") or m.get("end_date", ""),
     } for m in active_markets]
 
-    # Consensus: >= 2 whales ENTER same side no dissent
-    consensus   = []
-    mkt_signals = defaultdict(lambda: defaultdict(list))
-    for w in ranked:
-        for sig in w.get("signals", []):
-            if sig["signal"] == "ENTER":
-                mkt_signals[sig["market"]][sig["outcome"]].append({
-                    "wallet":    w["wallet"],
-                    "score":     w["score"],
-                    "avg_price": sig["avg_price"],
-                    "usdc_size": sig["usdc_size"],
-                })
-    for market, sides in mkt_signals.items():
-        if len(sides) == 1:
-            side, wallets = list(sides.items())[0]
-            if len(wallets) >= 2:
-                consensus.append({
-                    "market":    market,
-                    "side":      side,
-                    "whales":    len(wallets),
-                    "avg_entry": round(
-                        sum(w["avg_price"] for w in wallets) / len(wallets), 4),
-                    "capital":   round(sum(w["usdc_size"] for w in wallets), 2),
-                    "wallets":   [w["wallet"] for w in wallets],
-                })
-    consensus.sort(key=lambda x: x["whales"], reverse=True)
-
     with open(CFG.output_file, "w") as f:
         json.dump({
             "last_updated": now,
@@ -465,7 +431,6 @@ def write_output(ranked, active_markets):
             "market_count": len(market_list),
             "whales":       ranked,
             "markets":      market_list,
-            "consensus":    consensus,
         }, f, indent=2)
 
     with open(CFG.markets_file, "w") as f:
@@ -473,10 +438,9 @@ def write_output(ranked, active_markets):
 
     with open(CFG.meta_file, "w") as f:
         json.dump({
-            "last_updated":    now,
-            "whale_count":     len(ranked),
-            "market_count":    len(market_list),
-            "consensus_count": len(consensus),
+            "last_updated": now,
+            "whale_count":  len(ranked),
+            "market_count": len(market_list),
         }, f, indent=2)
 
     for path in [CFG.output_file, CFG.markets_file, CFG.meta_file]:
