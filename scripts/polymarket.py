@@ -57,9 +57,9 @@ class Config:
     timeout:               int   = 15
 
     # Output
-    output_dir:            str   = "data"
-    output_file:           str   = "data/whales.json"
-    markets_file:          str   = "data/markets.json"
+    output_file:        str   = "data/signals.json"
+    meta_file:          str   = "data/signals_meta.json"
+    markets_file:       str   = "data/markets.json"
     meta_file:             str   = "data/last_updated.json"
 
 CFG = Config()
