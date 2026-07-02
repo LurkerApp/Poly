@@ -4,32 +4,32 @@
     <title>Settings – Lurker</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      body { background: #f7f7f5; }
       .page { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem; }
-      .page-title { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 1.5rem; }
-      .tabs { display: flex; gap: 2px; border-bottom: 1px solid #e5e5e5; margin-bottom: 1.5rem; }
-      .tab { font-size: 14px; font-weight: 500; color: #888; padding: 8px 16px; border: none; background: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
-      .tab.active { color: #1D9E75; border-bottom-color: #1D9E75; }
-      .card { background: #fff; border: 0.5px solid #e5e5e5; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
-      .card-title { font-size: 13px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 1rem; }
+      .page-title { font-size: 22px; font-weight: 700; color: #e0e0e0; margin-bottom: 1.5rem; }
+      .tabs { display: flex; gap: 2px; border-bottom: 1px solid #2a2d30; margin-bottom: 1.5rem; }
+      .tab { font-size: 14px; font-weight: 500; color: #7F8C8D; padding: 8px 16px; border: none; background: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; font-family: inherit; }
+      .tab.active { color: #1ABC9C; border-bottom-color: #1ABC9C; }
+      .card { background: #1f2224; border: 1px solid #2a2d30; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+      .card-title { font-size: 11px; font-weight: 600; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 1rem; }
       .profile-row { display: flex; align-items: center; gap: 16px; margin-bottom: 1.25rem; }
-      .avatar-lg { width: 64px; height: 64px; border-radius: 50%; background: #1D9E75; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 700; color: #fff; }
+      .avatar-lg { width: 64px; height: 64px; border-radius: 50%; background: #1ABC9C; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 700; color: #141618; flex-shrink: 0; }
       .field { margin-bottom: 1rem; }
-      .field label { display: block; font-size: 13px; font-weight: 500; color: #555; margin-bottom: 5px; }
-      .field input { width: 100%; padding: 9px 12px; border: 1px solid #e5e5e5; border-radius: 8px; font-size: 14px; color: #111; font-family: inherit; }
-      .field input:focus { border-color: #1D9E75; outline: none; }
+      .field label { display: block; font-size: 13px; font-weight: 500; color: #7F8C8D; margin-bottom: 5px; }
+      .field input { width: 100%; padding: 9px 12px; border: 1px solid #2a2d30; border-radius: 8px; font-size: 14px; color: #e0e0e0; background: #252830; font-family: inherit; }
+      .field input:focus { border-color: #1ABC9C; outline: none; }
       .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-      .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 0.5px solid #f0f0f0; }
+      .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #252830; }
       .toggle-row:last-child { border-bottom: none; }
-      .save-btn { background: #1D9E75; color: #fff; border: none; font-size: 14px; font-weight: 600; padding: 10px 24px; border-radius: 8px; cursor: pointer; }
-      .danger-btn { background: none; color: #E24B4A; border: 1px solid #E24B4A; font-size: 14px; padding: 9px 20px; border-radius: 8px; cursor: pointer; }
-      .change-btn { font-size: 13px; font-weight: 500; color: #1D9E75; background: #f0faf6; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+      .save-btn { background: #1ABC9C; color: #141618; border: none; font-size: 14px; font-weight: 600; padding: 10px 24px; border-radius: 8px; cursor: pointer; font-family: inherit; }
+      .save-btn:hover { background: #17a589; }
+      .danger-btn { background: none; color: #e05252; border: 1px solid #e05252; font-size: 14px; padding: 9px 20px; border-radius: 8px; cursor: pointer; font-family: inherit; }
+      .danger-btn:hover { background: #2e1e1e; }
+      .change-btn { font-size: 13px; font-weight: 500; color: #1ABC9C; background: #1e2e2a; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-family: inherit; }
     </style>
   </head>
   <body>
     <div class="page">
       <div class="page-title">Settings</div>
-
       <div class="tabs">
         <button class="tab active">Profile</button>
         <button class="tab">Account</button>
@@ -42,8 +42,8 @@
         <div class="profile-row">
           <div class="avatar-lg" id="avatar-lg">U</div>
           <div>
-            <div style="font-size:18px; font-weight:700; color:#111;" id="display-username">Username</div>
-            <div style="font-size:13px; color:#888;" id="user-info">@username · Member since 2024</div>
+            <div style="font-size:18px;font-weight:700;color:#e0e0e0;" id="display-username">Username</div>
+            <div style="font-size:13px;color:#7F8C8D;" id="user-info">@username · Member since 2024</div>
           </div>
           <button class="change-btn">Change photo</button>
         </div>
@@ -60,22 +60,22 @@
         <div class="card-title">Notifications</div>
         <div class="toggle-row">
           <div>
-            <div style="font-size:14px;">Email notifications</div>
-            <div style="font-size:12px; color:#aaa;">Receive updates via email</div>
+            <div style="font-size:14px;color:#e0e0e0;">Email notifications</div>
+            <div style="font-size:12px;color:#5a6068;">Receive updates via email</div>
           </div>
           <input type="checkbox" checked />
         </div>
         <div class="toggle-row">
           <div>
-            <div style="font-size:14px;">Push notifications</div>
-            <div style="font-size:12px; color:#aaa;">Get alerts on your device</div>
+            <div style="font-size:14px;color:#e0e0e0;">Push notifications</div>
+            <div style="font-size:12px;color:#5a6068;">Get alerts on your device</div>
           </div>
           <input type="checkbox" />
         </div>
         <div class="toggle-row">
           <div>
-            <div style="font-size:14px;">Weekly digest</div>
-            <div style="font-size:12px; color:#aaa;">Summary of activity each week</div>
+            <div style="font-size:14px;color:#e0e0e0;">Weekly digest</div>
+            <div style="font-size:12px;color:#5a6068;">Summary of activity each week</div>
           </div>
           <input type="checkbox" checked />
         </div>
@@ -83,10 +83,10 @@
 
       <div class="card">
         <div class="card-title">Session</div>
-        <div style="display:flex; align-items:center; justify-content:space-between;">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
           <div>
-            <div style="font-size:14px; font-weight:500;">Sign out</div>
-            <div style="font-size:12px; color:#aaa;">End your current session</div>
+            <div style="font-size:14px;font-weight:500;color:#e0e0e0;">Sign out</div>
+            <div style="font-size:12px;color:#5a6068;">End your current session</div>
           </div>
           <button class="danger-btn" onclick="handleSignOut()">Sign out</button>
         </div>
@@ -94,10 +94,10 @@
 
       <div class="card">
         <div class="card-title">Danger zone</div>
-        <div style="display:flex; align-items:center; justify-content:space-between;">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
           <div>
-            <div style="font-size:14px; font-weight:500;">Delete account</div>
-            <div style="font-size:12px; color:#aaa;">Permanently remove your account and all data</div>
+            <div style="font-size:14px;font-weight:500;color:#e0e0e0;">Delete account</div>
+            <div style="font-size:12px;color:#5a6068;">Permanently remove your account and all data</div>
           </div>
           <button class="danger-btn">Delete account</button>
         </div>
@@ -107,21 +107,12 @@
     <script src="navbar.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        var username = localStorage.getItem('username') || 'User';
+        var username     = localStorage.getItem('username') || 'User';
         var avatarLetter = username.charAt(0).toUpperCase();
-
-        // Update avatar with first letter
-        document.getElementById('avatar-lg').textContent = avatarLetter;
-        
-        // Update display name
+        document.getElementById('avatar-lg').textContent        = avatarLetter;
         document.getElementById('display-username').textContent = username;
-        
-        // Update user info with @username
-        var currentYear = new Date().getFullYear();
-        document.getElementById('user-info').textContent = '@' + username.toLowerCase() + ' · Member since ' + currentYear;
-        
-        // Pre-fill username input
-        document.getElementById('username-input').value = username;
+        document.getElementById('user-info').textContent        = '@' + username.toLowerCase() + ' · Member since ' + new Date().getFullYear();
+        document.getElementById('username-input').value         = username;
       });
 
       function handleSignOut() {
