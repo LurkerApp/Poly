@@ -25,6 +25,7 @@
       }
       .content-header p { font-size: 16px; color: #666; }
 
+      /* ── Stats ── */
       .stats-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -39,20 +40,13 @@
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
       }
       .stat-label {
-        font-size: 13px;
-        color: #888;
-        font-weight: 500;
-        margin-bottom: 0.5rem;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
+        font-size: 13px; color: #888; font-weight: 500;
+        margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.5px;
       }
-      .stat-value {
-        font-size: 28px;
-        font-weight: 600;
-        color: #1D9E75;
-      }
+      .stat-value { font-size: 28px; font-weight: 600; color: #1D9E75; }
       .stat-sub { font-size: 12px; color: #aaa; margin-top: 4px; }
 
+      /* ── Sections ── */
       .chart-section {
         background: white;
         padding: 2rem;
@@ -61,115 +55,134 @@
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         margin-bottom: 2rem;
       }
-      .chart-section h2 {
-        font-size: 20px;
-        font-weight: 600;
-        color: #111;
-        margin-bottom: 0.4rem;
-      }
+      .chart-section h2 { font-size: 20px; font-weight: 600; color: #111; margin-bottom: 0.4rem; }
       .section-sub { font-size: 13px; color: #999; margin-bottom: 1.5rem; }
 
+      /* ── Loading ── */
       .loading {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 160px;
-        color: #aaa;
-        font-size: 15px;
-        gap: 10px;
+        display: flex; align-items: center; justify-content: center;
+        height: 160px; color: #aaa; font-size: 15px; gap: 10px;
       }
       .spinner {
         width: 18px; height: 18px;
-        border: 2px solid #e5e5e5;
-        border-top-color: #1D9E75;
-        border-radius: 50%;
-        animation: spin 0.8s linear infinite;
+        border: 2px solid #e5e5e5; border-top-color: #1D9E75;
+        border-radius: 50%; animation: spin 0.8s linear infinite;
       }
       @keyframes spin { to { transform: rotate(360deg); } }
 
+      /* ── Signal cards ── */
+      .signals-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        gap: 1rem;
+      }
+      .signal-card {
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        padding: 1.2rem;
+        background: white;
+        position: relative;
+      }
+      .signal-card.enter { border-left: 4px solid #1D9E75; }
+      .signal-card.late  { border-left: 4px solid #f0a500; }
+      .signal-card.skip  { border-left: 4px solid #ccc; }
+
+      .signal-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0.6rem;
+      }
+      .signal-label {
+        font-size: 11px; font-weight: 700; letter-spacing: 1px;
+        padding: 3px 8px; border-radius: 4px;
+      }
+      .label-enter { background: #e8f7f2; color: #1D9E75; }
+      .label-late  { background: #fff8e6; color: #f0a500; }
+      .label-skip  { background: #f5f5f5; color: #999; }
+
+      .signal-outcome {
+        font-size: 12px; font-weight: 700;
+        padding: 3px 8px; border-radius: 4px;
+        background: #111; color: white;
+      }
+      .signal-market {
+        font-size: 13px; font-weight: 600; color: #111;
+        margin-bottom: 0.5rem; line-height: 1.4;
+      }
+      .signal-meta {
+        display: flex; gap: 1rem; flex-wrap: wrap;
+        font-size: 12px; color: #666; margin-bottom: 0.5rem;
+      }
+      .signal-meta span { display: flex; align-items: center; gap: 4px; }
+      .signal-meta strong { color: #111; }
+      .signal-wallet {
+        font-family: monospace; font-size: 11px; color: #aaa;
+        margin-top: 0.4rem;
+      }
+      .signal-score {
+        font-size: 11px; color: #888;
+      }
+      .price-arrow {
+        color: #e05252; font-size: 11px;
+      }
+      .price-arrow.up { color: #1D9E75; }
+
+      /* ── Tables ── */
       .table-scroll { overflow-x: auto; }
       .data-table { width: 100%; border-collapse: collapse; }
       .data-table th {
-        background: #f9f9f9;
-        padding: 0.85rem 1rem;
-        text-align: left;
-        font-weight: 600;
-        color: #111;
-        border-bottom: 1px solid #e5e5e5;
-        font-size: 13px;
-        white-space: nowrap;
+        background: #f9f9f9; padding: 0.85rem 1rem;
+        text-align: left; font-weight: 600; color: #111;
+        border-bottom: 1px solid #e5e5e5; font-size: 13px; white-space: nowrap;
       }
       .data-table td {
-        padding: 0.85rem 1rem;
-        border-bottom: 1px solid #f0f0f0;
-        font-size: 13px;
-        color: #555;
+        padding: 0.85rem 1rem; border-bottom: 1px solid #f0f0f0;
+        font-size: 13px; color: #555; vertical-align: top;
       }
       .data-table tr:last-child td { border-bottom: none; }
       .data-table tr:hover td { background: #fafafa; }
 
+      /* ── Score bar ── */
       .score-wrap { display: flex; align-items: center; gap: 8px; min-width: 120px; }
-      .score-bar-bg {
-        flex: 1; height: 6px;
-        background: #f0f0f0;
-        border-radius: 3px;
-        overflow: hidden;
-      }
-      .score-bar-fill {
-        height: 100%;
-        border-radius: 3px;
-        background: #1D9E75;
-      }
+      .score-bar-bg { flex: 1; height: 6px; background: #f0f0f0; border-radius: 3px; overflow: hidden; }
+      .score-bar-fill { height: 100%; border-radius: 3px; }
       .score-num { font-weight: 700; color: #111; font-size: 13px; min-width: 32px; }
 
-      .sub-scores { display: flex; gap: 6px; flex-wrap: wrap; }
-      .sub-score {
-        font-size: 11px;
-        padding: 2px 6px;
-        border-radius: 4px;
-        background: #f5f5f5;
-        color: #666;
-        white-space: nowrap;
+      /* ── Inline signals in table ── */
+      .inline-signals { display: flex; flex-direction: column; gap: 4px; min-width: 220px; }
+      .inline-sig {
+        font-size: 11px; padding: 3px 6px; border-radius: 4px;
+        display: flex; align-items: center; gap: 6px;
       }
-      .sub-score span { font-weight: 600; color: #111; }
+      .inline-sig.enter { background: #e8f7f2; color: #1D9E75; }
+      .inline-sig.late  { background: #fff8e6; color: #f0a500; }
+      .inline-sig.skip  { background: #f5f5f5; color: #999; }
+      .inline-sig-outcome { font-weight: 700; min-width: 36px; }
+      .inline-sig-market { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 160px; }
 
       .wallet-link {
-        color: #1D9E75;
-        text-decoration: none;
-        font-family: monospace;
-        font-size: 12px;
+        color: #1D9E75; text-decoration: none;
+        font-family: monospace; font-size: 12px;
       }
       .wallet-link:hover { text-decoration: underline; }
-
-      .market-tags { display: flex; flex-wrap: wrap; gap: 4px; max-width: 280px; }
-      .market-tag {
-        font-size: 11px;
-        background: #f0f0f0;
-        color: #555;
-        padding: 2px 6px;
-        border-radius: 4px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 200px;
-      }
-
       .roi-pos { color: #1D9E75; font-weight: 600; }
       .roi-neg { color: #e05252; font-weight: 600; }
       .roi-na  { color: #bbb; }
-
-      .vol-cell { font-weight: 600; color: #111; }
+      .sub-scores { display: flex; gap: 4px; flex-wrap: wrap; }
+      .sub-score {
+        font-size: 11px; padding: 2px 5px; border-radius: 3px;
+        background: #f5f5f5; color: #666; white-space: nowrap;
+      }
+      .sub-score span { font-weight: 600; color: #111; }
       .no-data { text-align: center; color: #aaa; padding: 2rem; font-size: 14px; }
-
       .refresh-badge {
-        display: inline-block;
-        font-size: 11px;
-        background: #e8f7f2;
-        color: #1D9E75;
-        padding: 2px 8px;
-        border-radius: 4px;
-        margin-left: 8px;
-        font-weight: 500;
+        display: inline-block; font-size: 11px; background: #e8f7f2;
+        color: #1D9E75; padding: 2px 8px; border-radius: 4px;
+        margin-left: 8px; font-weight: 500;
+      }
+      .empty-signals {
+        text-align: center; color: #aaa; padding: 2rem; font-size: 14px;
       }
     </style>
   </head>
@@ -182,6 +195,7 @@
         <p>Top Polymarket wallets ranked by forecasting skill — refreshed every 30 minutes</p>
       </div>
 
+      <!-- Stats -->
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-label">Whales Tracked</div>
@@ -189,9 +203,9 @@
           <div class="stat-sub">wallets with ≥ $500 trades</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Active Markets</div>
-          <div class="stat-value" id="statMarkets">—</div>
-          <div class="stat-sub">scanned this run</div>
+          <div class="stat-label">Live ENTER Signals</div>
+          <div class="stat-value" id="statSignals">—</div>
+          <div class="stat-sub">open positions worth copying</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Top Whale Score</div>
@@ -205,13 +219,33 @@
         </div>
       </div>
 
+      <!-- Live Signals -->
       <div class="chart-section">
-        <h2>Whale Leaderboard <span class="refresh-badge">Live</span></h2>
+        <h2>🟢 Live Signals <span class="refresh-badge">Live</span></h2>
+        <p class="section-sub">
+          ENTER = price near whale's entry + real size + payoff worth it &nbsp;·&nbsp;
+          LATE = drift 3–7% or entry 0.75–0.90 &nbsp;·&nbsp;
+          SKIP = drift >7% or size &lt; $500
+        </p>
+        <div id="signalsLoading" class="loading">
+          <div class="spinner"></div> Loading signals…
+        </div>
+        <div id="signalsWrap" style="display:none;">
+          <div id="enterSignals" class="signals-grid"></div>
+          <div id="noSignals" class="empty-signals" style="display:none;">
+            No ENTER signals right now — check back soon.
+          </div>
+        </div>
+      </div>
+
+      <!-- Whale Leaderboard -->
+      <div class="chart-section">
+        <h2>Whale Leaderboard</h2>
         <p class="section-sub">
           Composite score: ROI 30% · Calibration 25% · Consistency 20% · Early Entry 15% · Volume 10%
         </p>
         <div id="whaleLoading" class="loading">
-          <div class="spinner"></div> Loading whale data…
+          <div class="spinner"></div> Loading leaderboard…
         </div>
         <div id="whaleWrap" class="table-scroll" style="display:none;">
           <table class="data-table">
@@ -223,9 +257,8 @@
                 <th>ROI</th>
                 <th>Volume</th>
                 <th>Trades</th>
-                <th>Markets</th>
                 <th>Sub-scores</th>
-                <th>Active In</th>
+                <th>Open Positions</th>
               </tr>
             </thead>
             <tbody id="whaleBody"></tbody>
@@ -233,9 +266,10 @@
         </div>
       </div>
 
+      <!-- Active Markets -->
       <div class="chart-section">
         <h2>Active Markets</h2>
-        <p class="section-sub">Currently open Polymarket prediction markets sorted by volume</p>
+        <p class="section-sub">Top Polymarket markets being scanned, sorted by 24hr volume</p>
         <div id="marketLoading" class="loading">
           <div class="spinner"></div> Loading markets…
         </div>
@@ -286,6 +320,11 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
+      function shortWallet(addr) {
+        if (!addr) return '—';
+        return addr.slice(0, 6) + '...' + addr.slice(-4);
+      }
+
       function scoreBar(score) {
         const color = score >= 70 ? '#1D9E75' : score >= 45 ? '#f0a500' : '#e05252';
         return `
@@ -304,93 +343,174 @@
       }
 
       function subScores(w) {
-        return `
-          <div class="sub-scores">
-            <div class="sub-score">ROI <span>${w.roi_score}</span></div>
-            <div class="sub-score">Cal <span>${w.calibration_score}</span></div>
-            <div class="sub-score">Con <span>${w.consistency_score}</span></div>
-            <div class="sub-score">Early <span>${w.early_entry_score}</span></div>
-            <div class="sub-score">Vol <span>${w.volume_score}</span></div>
-          </div>`;
+        return `<div class="sub-scores">
+          <div class="sub-score">ROI <span>${w.roi_score}</span></div>
+          <div class="sub-score">Cal <span>${w.calibration_score}</span></div>
+          <div class="sub-score">Con <span>${w.consistency_score}</span></div>
+          <div class="sub-score">Early <span>${w.early_entry_score}</span></div>
+          <div class="sub-score">Vol <span>${w.volume_score}</span></div>
+        </div>`;
       }
 
-      function shortWallet(addr) {
-        if (!addr) return '—';
-        return addr.slice(0, 6) + '...' + addr.slice(-4);
+      function driftColor(drift) {
+        const d = parseFloat(drift);
+        if (d > 0) return 'color:#e05252';
+        if (d < 0) return 'color:#1D9E75';
+        return 'color:#888';
       }
 
-      function renderStats(data) {
-        const top = data.whales[0];
-        document.getElementById('statWhales').textContent    = data.whale_count?.toLocaleString() || '—';
-        document.getElementById('statMarkets').textContent   = data.market_count?.toLocaleString() || '—';
-        document.getElementById('statTopScore').textContent  = top ? top.score : '—';
-        document.getElementById('statTopWallet').textContent = top ? shortWallet(top.wallet) : '';
-        document.getElementById('statUpdated').textContent   = fmtDate(data.last_updated);
+      // ── Render live signal cards ────────────────────────────
+      function renderSignals(whales) {
+        hide('signalsLoading');
+        show('signalsWrap');
+
+        // Collect all ENTER signals across all whales
+        const allSignals = [];
+        for (const w of whales) {
+          for (const sig of (w.signals || [])) {
+            if (sig.signal === 'ENTER') {
+              allSignals.push({ ...sig, whale: w });
+            }
+          }
+        }
+
+        // Also collect LATE signals if no ENTERs
+        const lateSignals = [];
+        for (const w of whales) {
+          for (const sig of (w.signals || [])) {
+            if (sig.signal === 'LATE') {
+              lateSignals.push({ ...sig, whale: w });
+            }
+          }
+        }
+
+        const toShow = allSignals.length > 0 ? allSignals : lateSignals;
+
+        document.getElementById('statSignals').textContent = allSignals.length;
+
+        if (!toShow.length) {
+          show('noSignals');
+          return;
+        }
+
+        const container = document.getElementById('enterSignals');
+        container.innerHTML = toShow.map(sig => {
+          const w       = sig.whale;
+          const drift   = sig.avg_price && sig.cur_price
+            ? (((sig.cur_price - sig.avg_price) / sig.avg_price) * 100).toFixed(1)
+            : null;
+          const driftStr = drift !== null
+            ? `<span style="${driftColor(drift)}">${drift > 0 ? '+' : ''}${drift}%</span>`
+            : '—';
+          const cls    = sig.signal.toLowerCase();
+          const lblCls = `label-${cls}`;
+          const payoff = sig.avg_price ? ((1 / sig.avg_price - 1) * 100).toFixed(0) : null;
+
+          return `
+            <div class="signal-card ${cls}">
+              <div class="signal-top">
+                <span class="signal-label ${lblCls}">${sig.signal}</span>
+                <span class="signal-outcome">${sig.outcome || 'YES'}</span>
+              </div>
+              <div class="signal-market">${sig.market || '—'}</div>
+              <div class="signal-meta">
+                <span>Entry <strong>${sig.avg_price ?? '—'}</strong></span>
+                <span>Now <strong>${sig.cur_price ?? '—'}</strong></span>
+                <span>Drift ${driftStr}</span>
+                <span>Size <strong>${fmt(sig.usdc_size)}</strong></span>
+                ${payoff ? `<span>Max payoff <strong>+${payoff}%</strong></span>` : ''}
+              </div>
+              <div class="signal-wallet">
+                <a class="wallet-link"
+                   href="https://polymarket.com/profile/${w.wallet}"
+                   target="_blank">${shortWallet(w.wallet)}</a>
+                <span class="signal-score"> · Score ${w.score} · WR ${w.win_rate}%</span>
+              </div>
+            </div>`;
+        }).join('');
       }
 
+      // ── Render leaderboard ──────────────────────────────────
       function renderWhales(whales) {
         hide('whaleLoading');
         show('whaleWrap');
         const tbody = document.getElementById('whaleBody');
         if (!whales?.length) {
-          tbody.innerHTML = '<tr><td colspan="9" class="no-data">No whale data available.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="8" class="no-data">No whale data available.</td></tr>';
           return;
         }
-        tbody.innerHTML = whales.map((w, i) => `
-          <tr>
+
+        tbody.innerHTML = whales.map((w, i) => {
+          // Inline signals — show up to 3
+          const sigHtml = (w.signals || []).slice(0, 3).map(s => {
+            const cls = s.signal.toLowerCase();
+            return `<div class="inline-sig ${cls}">
+              <span class="inline-sig-outcome">${s.outcome || 'YES'}</span>
+              <span class="inline-sig-market" title="${s.market}">${s.market}</span>
+              <span style="white-space:nowrap;">${s.avg_price} → ${s.cur_price ?? '?'}</span>
+            </div>`;
+          }).join('') || '<span style="color:#bbb;font-size:12px;">No open positions</span>';
+
+          return `<tr>
             <td style="font-weight:700;color:#bbb;">${i + 1}</td>
             <td>
               <a class="wallet-link"
                  href="https://polymarket.com/profile/${w.wallet}"
-                 target="_blank">${shortWallet(w.wallet)}</a>
+                 target="_blank">${w.name || shortWallet(w.wallet)}</a>
             </td>
             <td>${scoreBar(w.score)}</td>
             <td>${roiCell(w.roi)}</td>
             <td style="font-weight:600;color:#111;">${fmt(w.total_usdc)}</td>
             <td>${w.trade_count?.toLocaleString() || '—'}</td>
-            <td>${w.market_count || '—'}</td>
             <td>${subScores(w)}</td>
-            <td>
-              <div class="market-tags">
-                ${(w.top_markets || []).map(m =>
-                  `<span class="market-tag" title="${m}">${m}</span>`
-                ).join('')}
-              </div>
-            </td>
-          </tr>
-        `).join('');
+            <td><div class="inline-signals">${sigHtml}</div></td>
+          </tr>`;
+        }).join('');
       }
 
+      // ── Render markets ──────────────────────────────────────
       function renderMarkets(markets) {
         hide('marketLoading');
         show('marketWrap');
         const tbody = document.getElementById('marketBody');
         if (!markets?.length) {
-          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No market data available.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No market data.</td></tr>';
           return;
         }
         tbody.innerHTML = markets.map((m, i) => `
           <tr>
             <td style="font-weight:700;color:#bbb;">${i + 1}</td>
             <td style="max-width:400px;">${m.question || '—'}</td>
-            <td class="vol-cell">${fmt(m.volume)}</td>
+            <td style="font-weight:600;color:#111;">${fmt(m.volume)}</td>
             <td>${fmt(m.liquidity)}</td>
             <td style="white-space:nowrap;">${fmtClose(m.end_date)}</td>
-          </tr>
-        `).join('');
+          </tr>`).join('');
       }
 
+      // ── Render stats ────────────────────────────────────────
+      function renderStats(data) {
+        const top = data.whales?.[0];
+        document.getElementById('statWhales').textContent   = data.whale_count ?? '—';
+        document.getElementById('statTopScore').textContent = top ? top.score : '—';
+        document.getElementById('statTopWallet').textContent = top
+          ? (top.name || shortWallet(top.wallet)) : '';
+        document.getElementById('statUpdated').textContent  = fmtDate(data.last_updated);
+      }
+
+      // ── Init ────────────────────────────────────────────────
       async function init() {
         try {
           const resp = await fetch(DATA_URL + '?t=' + Date.now());
           if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
           const data = await resp.json();
+
           renderStats(data);
-          renderWhales(data.whales);
-          renderMarkets(data.markets);
+          renderSignals(data.whales || []);
+          renderWhales(data.whales || []);
+          renderMarkets(data.markets || []);
         } catch (err) {
           console.error('Failed to load whale data:', err);
-          ['whaleLoading', 'marketLoading'].forEach(id => {
+          ['signalsLoading', 'whaleLoading', 'marketLoading'].forEach(id => {
             document.getElementById(id).innerHTML =
               'No data yet — run the GitHub Action to generate whales.json';
           });
