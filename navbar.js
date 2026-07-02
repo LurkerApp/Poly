@@ -5,20 +5,20 @@ document.addEventListener('DOMContentLoaded', function() {
   var avatarStyle = isLoggedIn ? '' : 'display:none';
   var label = isLoggedIn ? username : 'Sign up';
   var avatarLetter = username.charAt(0).toUpperCase();
-  
+
   document.body.insertAdjacentHTML('afterbegin',
     '<style>' +
       '.nav-dropdown { position: relative; display: inline-block; }' +
-      '.dropdown-btn { background-color: transparent; border: none; padding: 8px 12px; cursor: pointer; font-family: Poppins, sans-serif; font-size: 14px; font-weight: 500; color: #111; }' +
-      '.dropdown-btn:hover { background-color: #f0f0f0; border-radius: 4px; }' +
-      '.dropdown-content { display: none; position: absolute; top: 100%; left: 0; background-color: white; min-width: 200px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); border-radius: 4px; z-index: 10; }' +
-      '.dropdown-content a { color: #111; padding: 12px 16px; text-decoration: none; display: block; font-family: Poppins, sans-serif; font-size: 14px; }' +
-      '.dropdown-content a:hover { background-color: #f0f0f0; }' +
+      '.dropdown-btn { background: none; border: none; padding: 8px 14px; cursor: pointer; font-family: Inter, sans-serif; font-size: 14px; font-weight: 500; color: #7F8C8D; border-radius: 6px; transition: background 0.15s, color 0.15s; }' +
+      '.dropdown-btn:hover { background: #2a2d30; color: #e0e0e0; }' +
+      '.dropdown-content { display: none; position: absolute; top: 100%; left: 0; background: #1f2224; min-width: 200px; box-shadow: 0 8px 24px rgba(0,0,0,0.4); border-radius: 8px; border: 1px solid #2a2d30; z-index: 200; overflow: hidden; }' +
+      '.dropdown-content a { color: #c0c0c0; padding: 11px 16px; text-decoration: none; display: block; font-family: Inter, sans-serif; font-size: 13px; font-weight: 500; transition: background 0.1s, color 0.1s; }' +
+      '.dropdown-content a:hover { background: #2a2d30; color: #1ABC9C; }' +
       '.nav-dropdown:hover .dropdown-content { display: block; }' +
     '</style>' +
     '<nav>' +
       '<a href="index.html" style="text-decoration:none;">' +
-        '<span style="font-family: Poppins, sans-serif; font-size:22px; font-weight:600; color:#111; letter-spacing:-0.5px;">Lurker<span style="color:#1D9E75;">.</span></span>' +
+        '<span style="font-family: Inter, sans-serif; font-size:22px; font-weight:700; color:#e0e0e0; letter-spacing:-0.5px;">Lurker<span style="color:#1ABC9C;">.</span></span>' +
       '</a>' +
       '<div class="nav-center">' +
         '<div class="nav-dropdown">' +
