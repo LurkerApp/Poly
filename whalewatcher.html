@@ -68,65 +68,50 @@
         font-size: 12px; font-weight: 700;
         padding: 2px 10px; border-radius: 20px;
       }
-      .top5-market {
-        font-size: 15px; font-weight: 600; color: #111;
-        margin-bottom: 0.8rem; line-height: 1.4;
-        margin-top: 0.5rem;
-      }
-      .top5-outcome {
-        display: inline-block; font-size: 12px; font-weight: 700;
-        padding: 3px 10px; border-radius: 4px;
-        background: #111; color: white; margin-bottom: 0.8rem;
-      }
-      .top5-stats {
-        display: grid; grid-template-columns: repeat(2, 1fr);
-        gap: 0.75rem; margin-bottom: 1rem;
-      }
+      .top5-market { font-size: 15px; font-weight: 600; color: #111; margin-bottom: 0.8rem; line-height: 1.4; margin-top: 0.5rem; }
+      .top5-outcome { display: inline-block; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 4px; background: #111; color: white; margin-bottom: 0.8rem; }
+      .top5-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1rem; }
       .top5-stat-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 2px; }
       .top5-stat-value { font-size: 18px; font-weight: 700; color: #111; }
       .top5-stat-value.green { color: #1D9E75; }
-      .top5-wallets {
-        display: flex; flex-wrap: wrap; gap: 5px; margin-top: 0.5rem;
-      }
-      .whale-chip {
-        font-size: 11px; background: #f0f0f0; color: #555;
-        padding: 3px 8px; border-radius: 4px;
-      }
+      .top5-wallets { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 0.5rem; }
+      .whale-chip { font-size: 11px; background: #f0f0f0; color: #555; padding: 3px 8px; border-radius: 4px; }
       .whale-chip a { color: #1D9E75; text-decoration: none; }
       .whale-chip a:hover { text-decoration: underline; }
+
+      /* Signal cards */
+      .signals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+      .signal-card { border: 1px solid #e5e5e5; border-radius: 8px; padding: 1.2rem; background: white; }
+      .signal-card.enter { border-left: 4px solid #1D9E75; }
+      .signal-card.late  { border-left: 4px solid #f0a500; }
+      .signal-card.skip  { border-left: 4px solid #ccc; }
+      .signal-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.6rem; }
+      .signal-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; padding: 3px 8px; border-radius: 4px; }
+      .label-enter { background: #e8f7f2; color: #1D9E75; }
+      .label-late  { background: #fff8e6; color: #f0a500; }
+      .label-skip  { background: #f5f5f5; color: #999; }
+      .signal-outcome { font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px; background: #111; color: white; }
+      .signal-market { font-size: 13px; font-weight: 600; color: #111; margin-bottom: 0.5rem; line-height: 1.4; }
+      .signal-meta { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 12px; color: #666; margin-bottom: 0.4rem; }
+      .signal-meta strong { color: #111; }
+      .signal-wallet { font-family: monospace; font-size: 11px; color: #aaa; }
+      .wallet-link { color: #1D9E75; text-decoration: none; font-family: monospace; font-size: 12px; }
+      .wallet-link:hover { text-decoration: underline; }
 
       /* Tables */
       .table-scroll { overflow-x: auto; }
       .data-table { width: 100%; border-collapse: collapse; }
-      .data-table th {
-        background: #f9f9f9; padding: 0.85rem 1rem; text-align: left;
-        font-weight: 600; color: #111; border-bottom: 1px solid #e5e5e5;
-        font-size: 13px; white-space: nowrap;
-      }
-      .data-table td {
-        padding: 0.85rem 1rem; border-bottom: 1px solid #f0f0f0;
-        font-size: 13px; color: #555; vertical-align: top;
-      }
+      .data-table th { background: #f9f9f9; padding: 0.85rem 1rem; text-align: left; font-weight: 600; color: #111; border-bottom: 1px solid #e5e5e5; font-size: 13px; white-space: nowrap; }
+      .data-table td { padding: 0.85rem 1rem; border-bottom: 1px solid #f0f0f0; font-size: 13px; color: #555; vertical-align: top; }
       .data-table tr:last-child td { border-bottom: none; }
       .data-table tr:hover td { background: #fafafa; }
-
-      .outcome-badge {
-        display: inline-block; font-size: 10px; font-weight: 700;
-        padding: 1px 6px; border-radius: 3px; margin-right: 4px;
-        background: #111; color: white;
-      }
+      .outcome-badge { display: inline-block; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; margin-right: 4px; background: #111; color: white; }
       .position-list { display: flex; flex-direction: column; gap: 4px; }
       .position-item { font-size: 12px; color: #444; line-height: 1.4; }
-      .wallet-link { color: #1D9E75; text-decoration: none; font-family: monospace; font-size: 12px; }
-      .wallet-link:hover { text-decoration: underline; }
       .pnl-pos { color: #1D9E75; font-weight: 600; }
       .pnl-neg { color: #e05252; font-weight: 600; }
       .no-data { text-align: center; color: #aaa; padding: 2rem; font-size: 14px; }
-      .refresh-badge {
-        display: inline-block; font-size: 11px; background: #e8f7f2;
-        color: #1D9E75; padding: 2px 8px; border-radius: 4px;
-        margin-left: 8px; font-weight: 500;
-      }
+      .refresh-badge { display: inline-block; font-size: 11px; background: #e8f7f2; color: #1D9E75; padding: 2px 8px; border-radius: 4px; margin-left: 8px; font-weight: 500; }
     </style>
   </head>
   <body>
@@ -135,7 +120,7 @@
 
       <div class="content-header">
         <h1>🐋 Whale Watcher</h1>
-        <p>The most common open bets among Polymarket's top 50 accounts — refreshed every 30 minutes</p>
+        <p>Top 5 consensus bets + live signals from Polymarket's top 50 accounts — refreshed every 30 minutes</p>
       </div>
 
       <!-- Stats -->
@@ -146,14 +131,14 @@
           <div class="stat-sub">top leaderboard accounts</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Shared Bets Found</div>
+          <div class="stat-label">Shared Bets</div>
           <div class="stat-value" id="statConsensus">—</div>
           <div class="stat-sub">held by 2+ whales</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Most Agreed Bet</div>
-          <div class="stat-value" id="statTopBet" style="font-size:16px;line-height:1.3;">—</div>
-          <div class="stat-sub" id="statTopBetSub"></div>
+          <div class="stat-label">Live ENTER Signals</div>
+          <div class="stat-value" id="statSignals">—</div>
+          <div class="stat-sub">from market scan</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Last Updated</div>
@@ -166,11 +151,19 @@
       <div class="chart-section">
         <h2>🔥 Top 5 Consensus Bets <span class="refresh-badge">Live</span></h2>
         <p class="section-sub">Ranked by number of top-50 accounts holding the same position</p>
-        <div id="top5Loading" class="loading">
-          <div class="spinner"></div> Loading top bets…
-        </div>
+        <div id="top5Loading" class="loading"><div class="spinner"></div> Loading…</div>
         <div id="top5Wrap" style="display:none;">
           <div id="top5Grid" class="top5-grid"></div>
+        </div>
+      </div>
+
+      <!-- Live Signals -->
+      <div class="chart-section">
+        <h2>⚡ Live Signals <span class="refresh-badge">Live</span></h2>
+        <p class="section-sub">ENTER = price near whale entry · LATE = drift 3–7% · SKIP = drift >7%</p>
+        <div id="signalsLoading" class="loading"><div class="spinner"></div> Loading…</div>
+        <div id="signalsWrap" style="display:none;">
+          <div id="signalsGrid" class="signals-grid"></div>
         </div>
       </div>
 
@@ -178,19 +171,11 @@
       <div class="chart-section">
         <h2>Top 10 Accounts</h2>
         <p class="section-sub">Highest PnL accounts and their current open bets</p>
-        <div id="accountsLoading" class="loading">
-          <div class="spinner"></div> Loading accounts…
-        </div>
+        <div id="accountsLoading" class="loading"><div class="spinner"></div> Loading…</div>
         <div id="accountsWrap" class="table-scroll" style="display:none;">
           <table class="data-table">
             <thead>
-              <tr>
-                <th>#</th>
-                <th>Account</th>
-                <th>PnL</th>
-                <th>Volume</th>
-                <th>Open Bets</th>
-              </tr>
+              <tr><th>#</th><th>Account</th><th>PnL</th><th>Volume</th><th>Open Bets</th></tr>
             </thead>
             <tbody id="accountsBody"></tbody>
           </table>
@@ -201,14 +186,15 @@
 
     <script src="navbar.js"></script>
     <script>
-      const DATA_URL = './data/whales.json';
+      const WHALES_URL  = './data/whales.json';   // toppolymarket.py → consensus
+      const SIGNALS_URL = './data/signals.json';  // polymarket.py → live signals
 
       function fmt(val) {
         if (!val && val !== 0) return '—';
-        if (Math.abs(val) >= 1e9) return '$' + (val / 1e9).toFixed(1) + 'B';
-        if (Math.abs(val) >= 1e6) return '$' + (val / 1e6).toFixed(1) + 'M';
-        if (Math.abs(val) >= 1e3) return '$' + (val / 1e3).toFixed(0) + 'K';
-        return '$' + val.toFixed(0);
+        if (Math.abs(val) >= 1e9) return '$' + (val/1e9).toFixed(1) + 'B';
+        if (Math.abs(val) >= 1e6) return '$' + (val/1e6).toFixed(1) + 'M';
+        if (Math.abs(val) >= 1e3) return '$' + (val/1e3).toFixed(0) + 'K';
+        return '$' + Number(val).toFixed(0);
       }
 
       function fmtDate(iso) {
@@ -228,132 +214,152 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // ── Top 5 consensus cards ───────────────────────────────
+      // ── Top 5 consensus ─────────────────────────────────────
       function renderTop5(consensus) {
-        hide('top5Loading');
-        show('top5Wrap');
-
+        hide('top5Loading'); show('top5Wrap');
         const grid = document.getElementById('top5Grid');
         if (!consensus?.length) {
           grid.innerHTML = '<div class="no-data">No shared bets found yet.</div>';
           return;
         }
-
-        const top5 = consensus.slice(0, 5);
-        const labels = ['#1', '#2', '#3', '#4', '#5'];
-
-        grid.innerHTML = top5.map((c, i) => {
-          const payoffStr = c.payoff_pct ? `+${c.payoff_pct.toFixed(1)}%` : '—';
-          const whaleChips = (c.whales || []).map(w =>
+        grid.innerHTML = consensus.slice(0, 5).map((c, i) => {
+          const payoffStr = c.payoff_pct != null ? `+${Number(c.payoff_pct).toFixed(1)}%` : '—';
+          const chips = (c.whales || []).map(w =>
             `<div class="whale-chip">
               <a href="https://polymarket.com/profile/${w.wallet}" target="_blank">
                 ${w.name || shortWallet(w.wallet)}
-              </a>
-              · ${w.avg_price} · ${fmt(w.size)}
-            </div>`
-          ).join('');
-
+              </a> · ${w.avg_price} · ${fmt(w.size)}
+            </div>`).join('');
           return `
             <div class="top5-card">
-              <div class="top5-rank">${labels[i]}</div>
-              <div style="margin-top:0.6rem;">
-                <span class="top5-outcome">${c.outcome}</span>
-              </div>
+              <div class="top5-rank">#${i+1}</div>
+              <div style="margin-top:0.6rem;"><span class="top5-outcome">${c.outcome}</span></div>
               <div class="top5-market">${c.market}</div>
               <div class="top5-stats">
-                <div>
-                  <div class="top5-stat-label">Whales Agree</div>
-                  <div class="top5-stat-value green">${c.whale_count}</div>
-                </div>
-                <div>
-                  <div class="top5-stat-label">Avg Entry</div>
-                  <div class="top5-stat-value">${c.avg_price}</div>
-                </div>
-                <div>
-                  <div class="top5-stat-label">Total Capital</div>
-                  <div class="top5-stat-value">${fmt(c.total_capital)}</div>
-                </div>
-                <div>
-                  <div class="top5-stat-label">Max Payoff</div>
-                  <div class="top5-stat-value green">${payoffStr}</div>
-                </div>
+                <div><div class="top5-stat-label">Whales Agree</div><div class="top5-stat-value green">${c.whale_count}</div></div>
+                <div><div class="top5-stat-label">Avg Entry</div><div class="top5-stat-value">${c.avg_price}</div></div>
+                <div><div class="top5-stat-label">Total Capital</div><div class="top5-stat-value">${fmt(c.total_capital)}</div></div>
+                <div><div class="top5-stat-label">Max Payoff</div><div class="top5-stat-value green">${payoffStr}</div></div>
               </div>
-              <div class="top5-wallets">${whaleChips}</div>
+              <div class="top5-wallets">${chips}</div>
             </div>`;
         }).join('');
       }
 
-      // ── Top 10 accounts table ───────────────────────────────
-      function renderAccounts(accounts) {
-        hide('accountsLoading');
-        show('accountsWrap');
+      // ── Live signals ─────────────────────────────────────────
+      function renderSignals(whales) {
+        hide('signalsLoading'); show('signalsWrap');
+        const grid = document.getElementById('signalsGrid');
 
+        // Collect all ENTER signals first, then LATE
+        const enters = [], lates = [];
+        for (const w of (whales || [])) {
+          for (const s of (w.signals || [])) {
+            if (s.signal === 'ENTER') enters.push({ ...s, whale: w });
+            if (s.signal === 'LATE')  lates.push({ ...s, whale: w });
+          }
+        }
+        document.getElementById('statSignals').textContent = enters.length;
+
+        const toShow = [...enters, ...lates].slice(0, 10);
+        if (!toShow.length) {
+          grid.innerHTML = '<div class="no-data">No live signals right now.</div>';
+          return;
+        }
+
+        grid.innerHTML = toShow.map(sig => {
+          const w     = sig.whale;
+          const cls   = sig.signal.toLowerCase();
+          const drift = sig.avg_price && sig.cur_price
+            ? (((sig.cur_price - sig.avg_price) / sig.avg_price) * 100).toFixed(1)
+            : null;
+          const driftStr = drift != null
+            ? `<span style="color:${drift > 0 ? '#e05252' : '#1D9E75'}">${drift > 0 ? '+' : ''}${drift}%</span>`
+            : '—';
+          const payoff = sig.avg_price ? ((1/sig.avg_price - 1)*100).toFixed(0) : null;
+          return `
+            <div class="signal-card ${cls}">
+              <div class="signal-top">
+                <span class="signal-label label-${cls}">${sig.signal}</span>
+                <span class="signal-outcome">${sig.outcome || 'YES'}</span>
+              </div>
+              <div class="signal-market">${sig.market || '—'}</div>
+              <div class="signal-meta">
+                <span>Entry <strong>${sig.avg_price ?? '—'}</strong></span>
+                <span>Now <strong>${sig.cur_price ?? '—'}</strong></span>
+                <span>Drift ${driftStr}</span>
+                <span>Size <strong>${fmt(sig.usdc_size)}</strong></span>
+                ${payoff ? `<span>Payoff <strong>+${payoff}%</strong></span>` : ''}
+              </div>
+              <div class="signal-wallet">
+                <a class="wallet-link" href="https://polymarket.com/profile/${w.wallet}" target="_blank">
+                  ${w.name || shortWallet(w.wallet)}
+                </a>
+              </div>
+            </div>`;
+        }).join('');
+      }
+
+      // ── Top 10 accounts ──────────────────────────────────────
+      function renderAccounts(accounts) {
+        hide('accountsLoading'); show('accountsWrap');
         const tbody = document.getElementById('accountsBody');
         if (!accounts?.length) {
           tbody.innerHTML = '<tr><td colspan="5" class="no-data">No accounts found.</td></tr>';
           return;
         }
-
-        // Limit to top 10
-        const top10 = accounts.slice(0, 10);
-
-        tbody.innerHTML = top10.map((a, i) => {
+        tbody.innerHTML = accounts.slice(0, 10).map((a, i) => {
           const pnlCls = a.pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
-          const pnlStr = `<span class="${pnlCls}">${a.pnl >= 0 ? '+' : ''}${fmt(a.pnl)}</span>`;
-
           const posHtml = (a.positions || []).length
-            ? `<div class="position-list">${(a.positions || []).map(p =>
+            ? `<div class="position-list">${(a.positions||[]).map(p =>
                 `<div class="position-item">
-                  <span class="outcome-badge">${p.outcome || 'YES'}</span>
-                  ${(p.market || '').slice(0, 45)}
+                  <span class="outcome-badge">${p.outcome||'YES'}</span>
+                  ${(p.market||'').slice(0,45)}
                   <span style="color:#1D9E75;font-weight:600;"> · ${fmt(p.size)}</span>
                   <span style="color:#888;"> @ ${p.avg_price}</span>
-                </div>`
-              ).join('')}</div>`
+                </div>`).join('')}</div>`
             : '<span style="color:#bbb;font-size:12px;">No open positions</span>';
-
           return `<tr>
-            <td style="font-weight:700;color:#bbb;">${i + 1}</td>
-            <td>
-              <a class="wallet-link"
-                 href="https://polymarket.com/profile/${a.wallet}"
-                 target="_blank">${a.name || shortWallet(a.wallet)}</a>
-            </td>
-            <td>${pnlStr}</td>
+            <td style="font-weight:700;color:#bbb;">${i+1}</td>
+            <td><a class="wallet-link" href="https://polymarket.com/profile/${a.wallet}" target="_blank">
+              ${a.name || shortWallet(a.wallet)}</a></td>
+            <td><span class="${pnlCls}">${a.pnl >= 0 ? '+' : ''}${fmt(a.pnl)}</span></td>
             <td style="font-weight:600;color:#111;">${fmt(a.volume)}</td>
             <td>${posHtml}</td>
           </tr>`;
         }).join('');
       }
 
-      // ── Stats ───────────────────────────────────────────────
-      function renderStats(data) {
-        const top = data.consensus?.[0];
-        document.getElementById('statAccounts').textContent  = data.account_count ?? '—';
-        document.getElementById('statConsensus').textContent = data.consensus_count ?? '—';
-        document.getElementById('statUpdated').textContent   = fmtDate(data.last_updated);
-        if (top) {
-          document.getElementById('statTopBet').textContent    = (top.market || '').slice(0, 40);
-          document.getElementById('statTopBetSub').textContent = `${top.whale_count} whales · ${top.outcome}`;
-        }
+      // ── Stats ────────────────────────────────────────────────
+      function renderStats(whalesData, signalsData) {
+        const top = whalesData?.consensus?.[0];
+        document.getElementById('statAccounts').textContent  = whalesData?.account_count ?? '—';
+        document.getElementById('statConsensus').textContent = whalesData?.consensus_count ?? '—';
+        document.getElementById('statUpdated').textContent   = fmtDate(whalesData?.last_updated);
+        // signal count set inside renderSignals
       }
 
-      // ── Init ────────────────────────────────────────────────
+      // ── Init ─────────────────────────────────────────────────
       async function init() {
         try {
-          const resp = await fetch(DATA_URL + '?t=' + Date.now());
-          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-          const data = await resp.json();
+          // Fetch both JSON files in parallel
+          const [whalesResp, signalsResp] = await Promise.allSettled([
+            fetch(WHALES_URL  + '?t=' + Date.now()),
+            fetch(SIGNALS_URL + '?t=' + Date.now()),
+          ]);
 
-          renderStats(data);
-          renderTop5(data.consensus || []);
-          renderAccounts(data.accounts || []);
+          const whalesData  = whalesResp.status  === 'fulfilled' && whalesResp.value.ok
+            ? await whalesResp.value.json()  : null;
+          const signalsData = signalsResp.status === 'fulfilled' && signalsResp.value.ok
+            ? await signalsResp.value.json() : null;
+
+          renderStats(whalesData, signalsData);
+          renderTop5(whalesData?.consensus || []);
+          renderSignals(signalsData?.whales || []);
+          renderAccounts(whalesData?.accounts || []);
+
         } catch (err) {
           console.error('Failed to load:', err);
-          ['top5Loading', 'accountsLoading'].forEach(id => {
-            document.getElementById(id).innerHTML =
-              'No data yet — run the GitHub Action to generate whales.json';
-          });
         }
       }
 
