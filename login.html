@@ -4,7 +4,7 @@
     <title>Log In – Lurker</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      body { 
+      body {
         background: url('media/Lurker3.png') center/cover no-repeat fixed;
       }
       .page {
@@ -15,8 +15,8 @@
         padding: 2rem;
       }
       .card {
-        background: #fff;
-        border: 0.5px solid #e5e5e5;
+        background: #1f2224;
+        border: 1px solid #2a2d30;
         border-radius: 16px;
         padding: 2rem;
         width: 100%;
@@ -25,7 +25,7 @@
       .card-title {
         font-size: 22px;
         font-weight: 700;
-        color: #111;
+        color: #e0e0e0;
         margin-bottom: 1.5rem;
       }
       .field { margin-bottom: 1rem; }
@@ -33,38 +33,39 @@
         display: block;
         font-size: 13px;
         font-weight: 500;
-        color: #555;
+        color: #7F8C8D;
         margin-bottom: 5px;
       }
       .field input {
         width: 100%;
         padding: 10px 12px;
-        border: 1px solid #e5e5e5;
+        border: 1px solid #2a2d30;
         border-radius: 8px;
         font-size: 14px;
-        color: #111;
+        color: #e0e0e0;
+        background: #252830;
         font-family: inherit;
         outline: none;
         transition: border-color 0.15s;
       }
-      .field input:focus { border-color: #1D9E75; }
+      .field input:focus { border-color: #1ABC9C; }
       .error-msg {
         font-size: 13px;
-        color: #E24B4A;
+        color: #e05252;
         margin-top: 4px;
         display: none;
       }
       .success-msg {
         font-size: 13px;
-        color: #1D9E75;
+        color: #1ABC9C;
         margin-top: 4px;
         display: none;
         margin-bottom: 0.5rem;
       }
       .submit-btn {
         width: 100%;
-        background: #1D9E75;
-        color: #fff;
+        background: #1ABC9C;
+        color: #141618;
         border: none;
         font-size: 15px;
         font-weight: 600;
@@ -75,16 +76,16 @@
         font-family: inherit;
         transition: background 0.15s;
       }
-      .submit-btn:hover { background: #0F6E56; }
-      .submit-btn:disabled { background: #aaa; cursor: not-allowed; }
+      .submit-btn:hover { background: #17a589; }
+      .submit-btn:disabled { background: #2a2d30; color: #5a6068; cursor: not-allowed; }
       .signup-link {
         text-align: center;
         font-size: 14px;
-        color: #555;
+        color: #7F8C8D;
         margin-top: 1rem;
       }
       .signup-link a {
-        color: #1D9E75;
+        color: #1ABC9C;
         text-decoration: none;
         font-weight: 500;
       }
@@ -96,7 +97,7 @@
         margin-bottom: 1rem;
       }
       .forgot-password a {
-        color: #1D9E75;
+        color: #1ABC9C;
         text-decoration: none;
         font-weight: 500;
       }
@@ -135,7 +136,6 @@
       </div>
     </div>
 
-    <!-- load Supabase first, then navbar, then your script -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="navbar.js"></script>
     <script>
@@ -147,37 +147,31 @@
       )
 
       async function handleLogin() {
-        const email = document.getElementById('email').value.trim()
+        const email    = document.getElementById('email').value.trim()
         const password = document.getElementById('password').value.trim()
-        const btn = document.getElementById('submitBtn')
+        const btn      = document.getElementById('submitBtn')
 
-        // reset errors
         document.querySelectorAll('.error-msg').forEach(el => el.style.display = 'none')
         document.querySelectorAll('.success-msg').forEach(el => el.style.display = 'none')
-        document.querySelectorAll('input').forEach(el => el.style.borderColor = '#e5e5e5')
+        document.querySelectorAll('input').forEach(el => el.style.borderColor = '#2a2d30')
 
-        // validate
         let valid = true
         if (!email) {
-          document.getElementById('email').style.borderColor = '#E24B4A'
+          document.getElementById('email').style.borderColor = '#e05252'
           document.getElementById('email-error').style.display = 'block'
           valid = false
         }
         if (!password) {
-          document.getElementById('password').style.borderColor = '#E24B4A'
+          document.getElementById('password').style.borderColor = '#e05252'
           document.getElementById('password-error').style.display = 'block'
           valid = false
         }
         if (!valid) return
 
-        // send to Supabase
         btn.disabled = true
         btn.textContent = 'Logging in...'
 
-        const { data, error } = await client.auth.signInWithPassword({
-          email: email,
-          password: password
-        })
+        const { data, error } = await client.auth.signInWithPassword({ email, password })
 
         if (error) {
           const errEl = document.getElementById('supabase-error')
@@ -186,25 +180,15 @@
           btn.disabled = false
           btn.textContent = 'Log in'
         } else if (data && data.user) {
-          // User logged in successfully
-          // Get username from user metadata
           const username = data.user.user_metadata?.username || data.user.user_metadata?.display_name || 'User'
-          
           localStorage.setItem('loggedIn', 'true')
           localStorage.setItem('username', username)
           localStorage.setItem('userId', data.user.id)
-          
-          // Show success message and redirect
           const successEl = document.getElementById('success-msg')
           successEl.textContent = 'Logged in successfully! Redirecting...'
           successEl.style.display = 'block'
-          
-          // Wait 2 seconds then redirect
-          setTimeout(() => {
-            window.location.href = 'index.html'
-          }, 2000)
+          setTimeout(() => { window.location.href = 'index.html' }, 2000)
         } else {
-          // Unexpected response
           const errEl = document.getElementById('supabase-error')
           errEl.textContent = 'Login failed. Please try again.'
           errEl.style.display = 'block'
