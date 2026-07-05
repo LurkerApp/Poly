@@ -1,128 +1,1297 @@
 {
-  "last_updated": "2026-07-05T17:36:56.772133+00:00",
+  "last_updated": "2026-07-05T19:15:40.174431+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x4fa9bbe99cdedd3ff05a2a679f0ec4ae706b7633",
-      "name": "bitcoinjackson",
-      "score": 50.0,
-      "roi_score": 61.3,
+      "wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
+      "name": "sleepy-panda",
+      "score": 51.4,
+      "roi_score": 33.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.9,
-      "roi": 41.9,
-      "cash_pnl": 1549.59,
-      "realized_pnl": -17.55,
-      "total_usdc": 150809.62,
-      "trade_count": 361,
-      "market_count": 209,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T14:53:31+00:00",
-      "top_markets": [
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Spread: Spain (-2.5)",
-        "Will Croatia win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0255,
-          "cur_price": 0.0245,
-          "usdc_size": 1007.03,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1525,
-          "cur_price": 0.3465,
-          "usdc_size": 2721.01,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1467,
-          "cur_price": 0.1685,
-          "usdc_size": 1148.26,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8d5d93af87298f1781fd96ba4ffa5d63e554191d",
-      "name": "DZC188",
-      "score": 49.3,
-      "roi_score": 32.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 48.5,
-      "volume_score": 96.8,
-      "roi": -0.7,
-      "cash_pnl": -172.44,
+      "early_entry_score": 59.3,
+      "volume_score": 100.0,
+      "roi": -0.1,
+      "cash_pnl": -381.73,
       "realized_pnl": 0.0,
-      "total_usdc": 328119.89,
+      "total_usdc": 560873.54,
       "trade_count": 500,
-      "market_count": 35,
-      "position_count": 2,
+      "market_count": 5,
+      "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:30:10+00:00",
+      "last_active": "2026-07-05T19:06:25+00:00",
       "top_markets": [
-        "Will Croatia win on 2026-06-27?",
-        "Netherlands vs. Morocco: O/U 2.5",
-        "Spread: England (-1.5)"
+        "Paraguay vs. France: Team to Advance",
+        "Mexico vs. England: Team to Advance",
+        "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)"
       ],
       "signals": [
         {
           "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.5287,
+          "signal": "ENTER",
+          "avg_price": 0.475,
           "cur_price": 0.475,
-          "usdc_size": 24389.3,
+          "usdc_size": 474999.96,
+          "outcome": "Mexico"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe0dbdb7f005f233f4510e4ef7e53a2f76a8df44e",
+      "name": "lug",
+      "score": 51.3,
+      "roi_score": 38.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 56.2,
+      "volume_score": 89.4,
+      "roi": 7.1,
+      "cash_pnl": 5596.41,
+      "realized_pnl": 9128.29,
+      "total_usdc": 125027.48,
+      "trade_count": 500,
+      "market_count": 45,
+      "position_count": 31,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:06:25+00:00",
+      "top_markets": [
+        "Seattle Storm vs. Phoenix Mercury",
+        "Australia vs. Egypt: Both Teams to Score",
+        "Spread: Dallas Wings (-8.5)"
+      ],
+      "signals": [
+        {
+          "market": "Brazil vs. Norway: O/U 2.5",
+          "signal": "ENTER",
+          "avg_price": 0.58,
+          "cur_price": 0.565,
+          "usdc_size": 2921.64,
+          "outcome": "Over"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.024,
+          "cur_price": 0.0185,
+          "usdc_size": 925.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Brazil vs. Norway: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.3307,
+          "cur_price": 0.705,
+          "usdc_size": 3186.0,
+          "outcome": "Norway"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 3150.0,
           "outcome": "England"
         }
       ]
     },
     {
-      "wallet": "0xb5db6abf19904c4f18daa9bcd753edb99b1f5800",
-      "name": "blket",
-      "score": 48.9,
-      "roi_score": 32.8,
+      "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "name": "surfandturf",
+      "score": 49.9,
+      "roi_score": 30.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 43.5,
+      "early_entry_score": 54.8,
       "volume_score": 100.0,
-      "roi": -0.8,
-      "cash_pnl": -67.21,
-      "realized_pnl": 0.0,
-      "total_usdc": 3043187.41,
+      "roi": -4.2,
+      "cash_pnl": -30502.46,
+      "realized_pnl": -0.0,
+      "total_usdc": 521598.99,
       "trade_count": 500,
-      "market_count": 191,
+      "market_count": 2,
       "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:27:25+00:00",
+      "last_active": "2026-07-05T19:13:13+00:00",
       "top_markets": [
-        "Minnesota Lynx vs. Dallas Wings",
-        "T20 Series Ireland vs India: Ireland vs India",
-        "ODI Series India vs Afghanistan: India vs Afghanistan"
+        "Mexico vs. England: Team to Advance",
+        "Wimbledon ATP: Jannik Sinner vs Shintaro Mochizuki"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.4746,
+          "cur_price": 0.475,
+          "usdc_size": 625140.44,
+          "outcome": "Mexico"
+        },
+        {
+          "market": "Wimbledon ATP: Hubert Hurkacz vs Jan-Lennard Struff",
+          "signal": "SKIP",
+          "avg_price": 0.7601,
+          "cur_price": 0.195,
+          "usdc_size": 58125.14,
+          "outcome": "Hubert Hurkacz"
+        },
+        {
+          "market": "Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davidovich Fokina",
+          "signal": "SKIP",
+          "avg_price": 0.6,
+          "cur_price": 0.994,
+          "usdc_size": 15768.4,
+          "outcome": "Felix Auger-Aliassime"
+        }
+      ]
+    },
+    {
+      "wallet": "0x38ce2bad14fd54a021ee90606b7d585f14081581",
+      "name": "IdentityV",
+      "score": 49.1,
+      "roi_score": 33.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.0,
+      "volume_score": 87.2,
+      "roi": 0.3,
+      "cash_pnl": 14.62,
+      "realized_pnl": 0.0,
+      "total_usdc": 93031.58,
+      "trade_count": 500,
+      "market_count": 15,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:09:19+00:00",
+      "top_markets": [
+        "Australia vs. Egypt: Team to Advance",
+        "Argentina vs. Cabo Verde: Team to Advance",
+        "Will Egypt win on 2026-07-03?"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 3843.0,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x907fbed5c365d0ee90fe066a3b5073bc9a7cbaee",
+      "name": "ConsensusSniper",
+      "score": 48.7,
+      "roi_score": 33.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 54.0,
+      "volume_score": 80.3,
+      "roi": 0.2,
+      "cash_pnl": 17.02,
+      "realized_pnl": 0.0,
+      "total_usdc": 37807.07,
+      "trade_count": 79,
+      "market_count": 5,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:34:28+00:00",
+      "top_markets": [
+        "Exact Score: Any Other Score?",
+        "Mexico vs. England: Team to Advance",
+        "Exact Score: Norway 1 - 3 France?"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.474,
+          "cur_price": 0.475,
+          "usdc_size": 8265.0,
+          "outcome": "Mexico"
+        }
+      ]
+    },
+    {
+      "wallet": "0x1fff150474225ec0636c407028db385fa76e8d1b",
+      "name": "Wholesalepeptides",
+      "score": 47.0,
+      "roi_score": 32.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.4,
+      "volume_score": 68.6,
+      "roi": -0.9,
+      "cash_pnl": -61.46,
+      "realized_pnl": 0.0,
+      "total_usdc": 8164.02,
+      "trade_count": 19,
+      "market_count": 7,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:36:56+00:00",
+      "top_markets": [
+        "Will England win on 2026-07-01?",
+        "Will England win on 2026-07-05?",
+        "Mexico vs. England: O/U 0.5"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 2575.47,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x476f4d5e410a33b016e72456e852be047d61f8b9",
+      "name": "jfsdk32kj34",
+      "score": 46.7,
+      "roi_score": 25.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 51.9,
+      "volume_score": 86.8,
+      "roi": -11.3,
+      "cash_pnl": -3268.05,
+      "realized_pnl": 0.0,
+      "total_usdc": 88898.74,
+      "trade_count": 9,
+      "market_count": 8,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:34:28+00:00",
+      "top_markets": [
+        "Will Croatia win on 2026-06-27?",
+        "Mexico vs. England: Team to Advance",
+        "Will Norway win on 2026-07-05?"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 24764.15,
+          "outcome": "England"
+        },
+        {
+          "market": "Will Norway win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.2099,
+          "cur_price": 0.185,
+          "usdc_size": 978.74,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x65986d49821e6207ecd3469e71318f5a448cc12b",
+      "name": "0x65986d49821e6207ECd3469e71318F5a448Cc12B-1783275190166",
+      "score": 45.4,
+      "roi_score": 32.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.3,
+      "volume_score": 52.6,
+      "roi": -1.0,
+      "cash_pnl": -10.19,
+      "realized_pnl": 0.0,
+      "total_usdc": 993.37,
+      "trade_count": 1,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:40:08+00:00",
+      "top_markets": [
+        "Mexico vs. England: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.4799,
+          "cur_price": 0.475,
+          "usdc_size": 967.92,
+          "outcome": "Mexico"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf83b52d7f5f86de4dc6870f46955bac038c844a2",
+      "name": "jiiivi655",
+      "score": 43.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 83.1,
+      "volume_score": 89.7,
+      "roi": -98.7,
+      "cash_pnl": -99028.42,
+      "realized_pnl": -108.1,
+      "total_usdc": 128826.75,
+      "trade_count": 500,
+      "market_count": 124,
+      "position_count": 223,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:32:55+00:00",
+      "top_markets": [
+        "Nottingham 2: Zhizhen Zhang vs Roman Safiullin",
+        "Grass Court Championships: Elise Mertens vs Liudmila Samsonova",
+        "Wimbledon ATP: Alex de Minaur vs Flavio Cobolli"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 1298.59,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc754a408bae814a02f5ff998415e0aee24624b1d",
+      "name": "6324lilaoba",
+      "score": 43.0,
+      "roi_score": 14.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.7,
+      "volume_score": 81.7,
+      "roi": -27.8,
+      "cash_pnl": -743.87,
+      "realized_pnl": 0.0,
+      "total_usdc": 45116.08,
+      "trade_count": 500,
+      "market_count": 187,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:12:14+00:00",
+      "top_markets": [
+        "Games Total: O/U 2.5",
+        "Counter-Strike: Alpha Dominion Nation vs Alpha Gaming (BO3) - United21 Group C",
+        "Game Handicap: T1.A (-1.5) vs Dplus KIA Challengers (+1.5)"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.53,
+          "cur_price": 0.475,
+          "usdc_size": 1073.53,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb2005013643ecf63e84e653726e1a38450acbc94",
+      "name": "aatf",
+      "score": 42.9,
+      "roi_score": 37.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.7,
+      "roi": 5.6,
+      "cash_pnl": 685.9,
+      "realized_pnl": -357885.95,
+      "total_usdc": 190616.58,
+      "trade_count": 500,
+      "market_count": 16,
+      "position_count": 40,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:13:46+00:00",
+      "top_markets": [
+        "Will France win the 2026 FIFA World Cup?",
+        "Will Spain win the 2026 FIFA World Cup?",
+        "Will Portugal win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.1685,
+          "usdc_size": 2493.68,
+          "outcome": "No"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0285,
+          "usdc_size": 1961.33,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0085,
+          "usdc_size": 1982.83,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0245,
+          "usdc_size": 1066.2,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xee1706b93845d50ea60e49219be7311a2ebb6ea1",
+      "name": "jwerhor",
+      "score": 42.5,
+      "roi_score": 34.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.1,
+      "roi": 1.8,
+      "cash_pnl": 1025.03,
+      "realized_pnl": -556.22,
+      "total_usdc": 298602.14,
+      "trade_count": 500,
+      "market_count": 50,
+      "position_count": 10,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:02:17+00:00",
+      "top_markets": [
+        "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+        "Will Thomas Massie be the Republican nominee for KY-04?",
+        "Will the San Antonio Spurs win the 2026 NBA Finals?"
+      ],
+      "signals": [
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.012,
+          "cur_price": 0.0285,
+          "usdc_size": 6122.96,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 990.57,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x09d28b5751be5c31ead3a7b68a5726c414c326ae",
+      "name": "",
+      "score": 41.8,
+      "roi_score": 32.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.3,
+      "roi": -2.0,
+      "cash_pnl": -13.57,
+      "realized_pnl": 219.15,
+      "total_usdc": 351989.37,
+      "trade_count": 500,
+      "market_count": 220,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:19:37+00:00",
+      "top_markets": [
+        "Will LeBron James play for the Miami Heat in 2026-27?",
+        "Israel closes its airspace by May 24?",
+        "Will Netherlands win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0249,
+          "cur_price": 0.0245,
+          "usdc_size": 666.4,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x02afdf21fc7d1f43bd29a71d43bb1be69a6daaa9",
+      "name": "minhui7788",
+      "score": 40.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 53.4,
+      "volume_score": 100.0,
+      "roi": -88.6,
+      "cash_pnl": -576967.44,
+      "realized_pnl": 0.0,
+      "total_usdc": 519269.65,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 48,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:06:25+00:00",
+      "top_markets": [
+        "Australia vs. Egypt: Team to Advance",
+        "England vs. DR Congo: Team to Advance",
+        "Argentina vs. Cabo Verde: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5241,
+          "cur_price": 0.475,
+          "usdc_size": 74561.52,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+      "name": "suntori",
+      "score": 40.5,
+      "roi_score": 33.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.2,
+      "roi": 0.6,
+      "cash_pnl": 13656.27,
+      "realized_pnl": 37786.5,
+      "total_usdc": 32652.12,
+      "trade_count": 500,
+      "market_count": 96,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:15:19+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - July 5, 3:05PM-3:10PM ET",
+        "Bitcoin Up or Down - July 5, 3:00PM-3:05PM ET",
+        "Bitcoin Up or Down - July 5, 2:55PM-3:00PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Will Brazil win on 2026-07-05?",
+          "signal": "ENTER",
+          "avg_price": 0.5482,
+          "cur_price": 0.545,
+          "usdc_size": 250643.66,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Brazil vs. Norway: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.7023,
+          "cur_price": 0.705,
+          "usdc_size": 180533.35,
+          "outcome": "Brazil"
+        },
+        {
+          "market": "Brazil vs. Norway: O/U 2.5",
+          "signal": "ENTER",
+          "avg_price": 0.5752,
+          "cur_price": 0.565,
+          "usdc_size": 100206.6,
+          "outcome": "Over"
+        },
+        {
+          "market": "Brazil vs. Norway: Both Teams to Score",
+          "signal": "ENTER",
+          "avg_price": 0.6078,
+          "cur_price": 0.625,
+          "usdc_size": 87709.3,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Mexico win on 2026-07-05?",
+          "signal": "ENTER",
+          "avg_price": 0.3065,
+          "cur_price": 0.305,
+          "usdc_size": 12589.96,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.4705,
+          "cur_price": 0.475,
+          "usdc_size": 7164.78,
+          "outcome": "Mexico"
+        },
+        {
+          "market": "Will Egypt win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0021,
+          "cur_price": 0.0025,
+          "usdc_size": 1928.06,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.008,
+          "cur_price": 0.0085,
+          "usdc_size": 5351.4,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0131,
+          "cur_price": 0.0125,
+          "usdc_size": 5219.82,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0267,
+          "cur_price": 0.0285,
+          "usdc_size": 7045.74,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0229,
+          "cur_price": 0.0185,
+          "usdc_size": 51037.38,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0753,
+          "cur_price": 0.0595,
+          "usdc_size": 60471.3,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Mexico win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0178,
+          "cur_price": 0.0335,
+          "usdc_size": 18631.37,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1009,
+          "cur_price": 0.0735,
+          "usdc_size": 33325.65,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0204,
+          "cur_price": 0.0245,
+          "usdc_size": 9513.91,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1364,
+          "cur_price": 0.1685,
+          "usdc_size": 59357.01,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.203,
+          "cur_price": 0.185,
+          "usdc_size": 30934.18,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5385,
+          "cur_price": 0.475,
+          "usdc_size": 36568.93,
+          "outcome": "England"
+        },
+        {
+          "market": "Brazil vs. Norway: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.3043,
+          "cur_price": 0.705,
+          "usdc_size": 9176.48,
+          "outcome": "Norway"
+        },
+        {
+          "market": "Will Brazil win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.4609,
+          "cur_price": 0.545,
+          "usdc_size": 2617.38,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.8022,
+          "cur_price": 0.185,
+          "usdc_size": 4158.63,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Mexico win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.7005,
+          "cur_price": 0.305,
+          "usdc_size": 3454.62,
+          "outcome": "No"
+        },
+        {
+          "market": "Wimbledon ATP: Hubert Hurkacz vs Jan-Lennard Struff",
+          "signal": "SKIP",
+          "avg_price": 0.8571,
+          "cur_price": 0.195,
+          "usdc_size": 1532.28,
+          "outcome": "Hubert Hurkacz"
+        },
+        {
+          "market": "Brazil vs. Norway: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.4339,
+          "cur_price": 0.565,
+          "usdc_size": 1084.46,
+          "outcome": "Under"
+        },
+        {
+          "market": "Brazil vs. Norway: Both Teams to Score",
+          "signal": "SKIP",
+          "avg_price": 0.4036,
+          "cur_price": 0.625,
+          "usdc_size": 709.08,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.8111,
+          "cur_price": 0.1685,
+          "usdc_size": 677.4,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "name": "curie",
+      "score": 40.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 58.6,
+      "volume_score": 90.5,
+      "roi": -94.1,
+      "cash_pnl": -961843.86,
+      "realized_pnl": 63883.15,
+      "total_usdc": 142951.0,
+      "trade_count": 500,
+      "market_count": 101,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:08:34+00:00",
+      "top_markets": [
+        "New York Mets vs. Atlanta Braves",
+        "Milwaukee Brewers vs. Arizona Diamondbacks",
+        "St. Louis Cardinals vs. Chicago Cubs"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "LATE",
+          "avg_price": 0.45,
+          "cur_price": 0.475,
+          "usdc_size": 45179.62,
+          "outcome": "Mexico"
+        }
+      ]
+    },
+    {
+      "wallet": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
+      "name": "thefakenick",
+      "score": 40.2,
+      "roi_score": 35.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 69.5,
+      "roi": 3.7,
+      "cash_pnl": 542.26,
+      "realized_pnl": 5152.96,
+      "total_usdc": 9170.87,
+      "trade_count": 500,
+      "market_count": 20,
+      "position_count": 43,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:13:49+00:00",
+      "top_markets": [
+        "Will Egypt win the 2026 FIFA World Cup?",
+        "Will USA win the 2026 FIFA World Cup?",
+        "Will Switzerland win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0229,
+          "cur_price": 0.0245,
+          "usdc_size": 1121.85,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0077,
+          "cur_price": 0.0085,
+          "usdc_size": 4249.99,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4cc3522b689a6bf1fb4a2444c523e7776db47552",
+      "name": "CrunchWrapoDeLaFuente",
+      "score": 39.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 53.4,
+      "volume_score": 92.6,
+      "roi": -74.2,
+      "cash_pnl": -95894.91,
+      "realized_pnl": 188.65,
+      "total_usdc": 190413.9,
+      "trade_count": 500,
+      "market_count": 11,
+      "position_count": 21,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:34:28+00:00",
+      "top_markets": [
+        "Harry Kane: 1+ goals",
+        "Mexico vs. England: Team to Advance",
+        "Lionel Messi: 1+ goals"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.47,
+          "cur_price": 0.475,
+          "usdc_size": 23750.12,
+          "outcome": "Mexico"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0f4f8386c57d9b8c3b650da815acbab93343d3b2",
+      "name": "0x0F4f8386c57d9b8c3b650DA815ACbAB93343d3b2-1782828199719",
+      "score": 39.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 74.7,
+      "volume_score": 59.2,
+      "roi": -57.2,
+      "cash_pnl": -738.73,
+      "realized_pnl": -27.46,
+      "total_usdc": 2358.62,
+      "trade_count": 36,
+      "market_count": 22,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:59:23+00:00",
+      "top_markets": [
+        "England vs. DR Congo: Team to Advance",
+        "Argentina vs. Cabo Verde: Team to Advance",
+        "Will Australia win on 2026-07-03?"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.4799,
+          "cur_price": 0.475,
+          "usdc_size": 504.91,
+          "outcome": "Mexico"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5faedf67dbf85202c91d7efc94ddf15c585d4079",
+      "name": "jws55556",
+      "score": 39.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.3,
+      "volume_score": 92.7,
+      "roi": -90.6,
+      "cash_pnl": -100846.31,
+      "realized_pnl": -44.21,
+      "total_usdc": 191562.93,
+      "trade_count": 500,
+      "market_count": 153,
+      "position_count": 488,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:38:55+00:00",
+      "top_markets": [
+        "Will DR Congo win on 2026-07-01?",
+        "Paraguay vs. France: O/U 2.5",
+        "Ethereum Up or Down - April 15, 10:10PM-10:15PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.53,
+          "cur_price": 0.475,
+          "usdc_size": 10500.0,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+      "name": "wr0ngw4yb3tt0r",
+      "score": 39.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 46.0,
+      "volume_score": 100.0,
+      "roi": -83.4,
+      "cash_pnl": -7961084.09,
+      "realized_pnl": 0.0,
+      "total_usdc": 741606.39,
+      "trade_count": 500,
+      "market_count": 14,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:13:35+00:00",
+      "top_markets": [
+        "Will Brazil win on 2026-07-05?",
+        "United States vs. Belgium: Team to Advance",
+        "Will France win on 2026-07-09?"
+      ],
+      "signals": [
+        {
+          "market": "Will Brazil win on 2026-07-05?",
+          "signal": "ENTER",
+          "avg_price": 0.53,
+          "cur_price": 0.545,
+          "usdc_size": 131342.92,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Brazil vs. Norway: O/U 2.5",
+          "signal": "LATE",
+          "avg_price": 0.54,
+          "cur_price": 0.565,
+          "usdc_size": 11853.04,
+          "outcome": "Over"
+        },
+        {
+          "market": "Brazil vs. Norway: Team to Advance",
+          "signal": "LATE",
+          "avg_price": 0.67,
+          "cur_price": 0.705,
+          "usdc_size": 2488.54,
+          "outcome": "Brazil"
+        },
+        {
+          "market": "Will Brazil win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.45,
+          "cur_price": 0.545,
+          "usdc_size": 98732.52,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.778,
+          "cur_price": 0.185,
+          "usdc_size": 123986.12,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Mexico win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.6899,
+          "cur_price": 0.305,
+          "usdc_size": 47398.2,
+          "outcome": "No"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 35786.51,
+          "outcome": "England"
+        },
+        {
+          "market": "Brazil vs. Norway: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.42,
+          "cur_price": 0.565,
+          "usdc_size": 12899.8,
+          "outcome": "Under"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa19df895ec6624b12d86ca3036648b85825f3909",
+      "name": "7ViziCapitale",
+      "score": 39.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.4,
+      "volume_score": 88.1,
+      "roi": -69.0,
+      "cash_pnl": -13355.69,
+      "realized_pnl": -123.76,
+      "total_usdc": 104855.3,
+      "trade_count": 500,
+      "market_count": 66,
+      "position_count": 47,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:06:25+00:00",
+      "top_markets": [
+        "Games Total: O/U 3.5",
+        "LoL: Karmine Corp vs Team Liquid - Game 4 Winner",
+        "Will a team from LCK (South Korea) win MSI 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 2493.73,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x45720deb102f700682bfcb19b5872b5022ad83ff",
+      "name": "papuas",
+      "score": 39.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 44.9,
+      "volume_score": 100.0,
+      "roi": -99.5,
+      "cash_pnl": -963376.74,
+      "realized_pnl": 1021.89,
+      "total_usdc": 816892.2,
+      "trade_count": 500,
+      "market_count": 190,
+      "position_count": 294,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:51:17+00:00",
+      "top_markets": [
+        "Dota 2: AVULUS vs Team Shpilit (BO3) - PREMIER SERIES Play-In Group A",
+        "Dota 2: Heroic vs BetBoom Team - Game 2 Winner",
+        "Counter-Strike: KOLESIE vs illwill - Map 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Will Brazil win on 2026-07-05?",
+          "signal": "ENTER",
+          "avg_price": 0.5499,
+          "cur_price": 0.545,
+          "usdc_size": 873.98,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 1953.27,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe719eb1e2bb799b5ceab7fcdf9ec2f8e8cdbb74d",
+      "name": "0xe719Eb1E2BB799B5CeaB7FCDF9ec2f8E8cDBB74d-1772826836425",
+      "score": 39.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.8,
+      "volume_score": 90.1,
+      "roi": -71.2,
+      "cash_pnl": -12815.24,
+      "realized_pnl": 0.0,
+      "total_usdc": 136341.31,
+      "trade_count": 95,
+      "market_count": 39,
+      "position_count": 10,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:38:43+00:00",
+      "top_markets": [
+        "Kylian Mbapp\u00e9: 1+ goals",
+        "Will Portugal win on 2026-06-17?",
+        "Will Morocco win on 2026-06-13?"
+      ],
+      "signals": [
+        {
+          "market": "Will Norway win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.2099,
+          "cur_price": 0.185,
+          "usdc_size": 2202.38,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 2971.7,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x83b040276693019508395c6ad19e2104f02b420f",
+      "name": "xyzvvv",
+      "score": 38.9,
+      "roi_score": 32.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 65.6,
+      "roi": -0.8,
+      "cash_pnl": -8.95,
+      "realized_pnl": 0.0,
+      "total_usdc": 5492.56,
+      "trade_count": 9,
+      "market_count": 5,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:11:28+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Brazil vs. Norway: Both Teams to Score",
+        "Erling Haaland: 3+ shots AND Brazil vs. Norway: Team to Advance AND Brazil vs. Norway: Norway O/U 3.5 Corners AND Erling Haaland: 1+ goals"
       ],
       "signals": [
         {
           "market": "Brazil vs. Norway: Both Teams to Score",
           "signal": "ENTER",
-          "avg_price": 0.6199,
-          "cur_price": 0.615,
-          "usdc_size": 2975.81,
+          "avg_price": 0.6299,
+          "cur_price": 0.625,
+          "usdc_size": 1118.55,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa577070d91f0fa2ebe8ed98b04bfef8c6af091e3",
+      "name": "Krang",
+      "score": 38.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 47.5,
+      "volume_score": 91.9,
+      "roi": -77.5,
+      "cash_pnl": -22999.17,
+      "realized_pnl": 0.0,
+      "total_usdc": 173631.93,
+      "trade_count": 113,
+      "market_count": 71,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:37:43+00:00",
+      "top_markets": [
+        "Knicks vs. Spurs",
+        "Will the Iranian regime fall by January 31?",
+        "Will Colombia win on 2026-06-23?"
+      ],
+      "signals": [
+        {
+          "market": "Will Mexico win on 2026-07-05?",
+          "signal": "ENTER",
+          "avg_price": 0.3099,
+          "cur_price": 0.305,
+          "usdc_size": 2459.68,
           "outcome": "Yes"
         },
         {
@@ -136,1009 +1305,161 @@
         {
           "market": "Mexico vs. England: Team to Advance",
           "signal": "ENTER",
-          "avg_price": 0.4799,
+          "avg_price": 0.48,
           "cur_price": 0.475,
-          "usdc_size": 989.58,
+          "usdc_size": 1484.38,
           "outcome": "Mexico"
         }
       ]
     },
     {
-      "wallet": "0xdec666674a78ff178668dd1fd034219827921d8e",
-      "name": "lalabihun",
-      "score": 48.5,
-      "roi_score": 32.7,
+      "wallet": "0x209b7ae1ca186e3e05c5d2dd2f504e6936e95706",
+      "name": "grinderwald",
+      "score": 38.6,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 53.0,
-      "volume_score": 82.8,
-      "roi": -0.9,
-      "cash_pnl": -9.43,
+      "early_entry_score": 47.7,
+      "volume_score": 89.3,
+      "roi": -81.3,
+      "cash_pnl": -353399.44,
       "realized_pnl": 0.0,
-      "total_usdc": 52492.17,
+      "total_usdc": 123289.66,
       "trade_count": 500,
-      "market_count": 45,
-      "position_count": 1,
+      "market_count": 7,
+      "position_count": 96,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:31:25+00:00",
+      "last_active": "2026-07-05T19:12:37+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - June 28, 11:30PM-11:35PM ET",
-        "Valorant: Evil Geniuses Academy vs Azure Dragon Gaming (BO3) - VCL North America: Stage 3 Group Stage",
-        "Bitcoin Up or Down - June 28, 9:25PM-9:30PM ET"
+        "Will Brazil win on 2026-07-05?",
+        "Colombia leading at halftime?",
+        "Spread: Argentina (-1.5)"
       ],
       "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.5299,
-          "cur_price": 0.475,
-          "usdc_size": 990.57,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6c1bd7274e46118a0407657cefd58eeb43a8116c",
-      "name": "Moroque",
-      "score": 43.5,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 59.7,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 2537.78,
-      "trade_count": 2,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T10:34:49+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
-      "name": "DerDon",
-      "score": 42.8,
-      "roi_score": 41.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": 12.1,
-      "cash_pnl": 8791.79,
-      "realized_pnl": 560.22,
-      "total_usdc": 30343.72,
-      "trade_count": 500,
-      "market_count": 47,
-      "position_count": 76,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:35:41+00:00",
-      "top_markets": [
-        "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.033,
-          "cur_price": 0.0335,
-          "usdc_size": 1005.0,
-          "outcome": "Yes"
-        },
         {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0866,
+          "signal": "LATE",
+          "avg_price": 0.1809,
           "cur_price": 0.1685,
-          "usdc_size": 5458.67,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.096,
-          "cur_price": 0.0715,
-          "usdc_size": 2142.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.105,
-          "cur_price": 0.0615,
-          "usdc_size": 1845.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.164,
-          "cur_price": 0.3465,
-          "usdc_size": 10421.99,
+          "usdc_size": 716.82,
           "outcome": "Yes"
         },
         {
           "market": "Mexico vs. England: Team to Advance",
           "signal": "SKIP",
-          "avg_price": 0.53,
+          "avg_price": 0.5276,
           "cur_price": 0.475,
-          "usdc_size": 2625.0,
+          "usdc_size": 57290.03,
           "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4f1af091d122e76fa5b1a8ec115c554ec481bc89",
-      "name": "johndegen",
-      "score": 42.2,
-      "roi_score": 32.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -1.5,
-      "cash_pnl": -2950.39,
-      "realized_pnl": 649.18,
-      "total_usdc": 1542616.35,
-      "trade_count": 500,
-      "market_count": 123,
-      "position_count": 17,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:35:07+00:00",
-      "top_markets": [
-        "Brazil vs. Norway: Both Teams to Score",
-        "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
-        "Paraguay vs. France: O/U 2.5"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.025,
-          "cur_price": 0.0245,
-          "usdc_size": 4290.5,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.072,
-          "cur_price": 0.0715,
-          "usdc_size": 12145.63,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Brazil vs. Norway: Both Teams to Score",
-          "signal": "ENTER",
-          "avg_price": 0.6099,
-          "cur_price": 0.615,
-          "usdc_size": 23331.99,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0644,
-          "cur_price": 0.0615,
-          "usdc_size": 10439.71,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.3334,
-          "cur_price": 0.3465,
-          "usdc_size": 53107.12,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.019,
-          "cur_price": 0.0165,
-          "usdc_size": 2890.05,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1981,
-          "cur_price": 0.1685,
-          "usdc_size": 26758.09,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb2005013643ecf63e84e653726e1a38450acbc94",
-      "name": "aatf",
-      "score": 42.1,
-      "roi_score": 34.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.5,
-      "roi": 2.0,
-      "cash_pnl": 265.41,
-      "realized_pnl": -188295.19,
-      "total_usdc": 186740.84,
-      "trade_count": 500,
-      "market_count": 16,
-      "position_count": 40,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:31:17+00:00",
-      "top_markets": [
-        "Will France win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will Portugal win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.3465,
-          "usdc_size": 1039.86,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.0265,
-          "usdc_size": 2921.46,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.1685,
-          "usdc_size": 2493.68,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.0245,
-          "usdc_size": 1951.01,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.0085,
-          "usdc_size": 1982.83,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.0615,
-          "usdc_size": 1636.64,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
-      "name": "Rin2x",
-      "score": 41.8,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.7,
-      "roi": -0.2,
-      "cash_pnl": -139.98,
-      "realized_pnl": 5.77,
-      "total_usdc": 218206.13,
-      "trade_count": 500,
-      "market_count": 193,
-      "position_count": 59,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:07:23+00:00",
-      "top_markets": [
-        "Will Bitcoin reach $62,500 in June?",
-        "Will Bitcoin reach $60,000 on June 30?",
-        "Will Bitcoin reach $75,000 in July?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc02147dee42356b7a4edbb1c35ac4ffa95f61fa8",
-      "name": "Eatpraylove",
-      "score": 41.8,
-      "roi_score": 34.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.0,
-      "roi": 1.9,
-      "cash_pnl": 7260.16,
-      "realized_pnl": 71659.42,
-      "total_usdc": 117338.62,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 249,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:34:43+00:00",
-      "top_markets": [
-        "Mexico vs. England: Team to Advance",
-        "Will England win on 2026-07-05?",
-        "Will England reach the Quarterfinals at the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.027,
-          "cur_price": 0.0265,
-          "usdc_size": 19393.81,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.4634,
-          "cur_price": 0.475,
-          "usdc_size": 33249.85,
-          "outcome": "Mexico"
-        },
-        {
-          "market": "Will Mexico win on 2026-07-05?",
-          "signal": "ENTER",
-          "avg_price": 0.3,
-          "cur_price": 0.305,
-          "usdc_size": 609.99,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0215,
-          "cur_price": 0.0335,
-          "usdc_size": 7962.77,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1471,
-          "cur_price": 0.1685,
-          "usdc_size": 14322.5,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.031,
-          "cur_price": 0.0245,
-          "usdc_size": 1715.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0234,
-          "cur_price": 0.0165,
-          "usdc_size": 897.08,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1609,
-          "cur_price": 0.3465,
-          "usdc_size": 6510.54,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
-      "name": "Parz1vaI",
-      "score": 41.6,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.3,
-      "roi": -0.1,
-      "cash_pnl": -398.17,
-      "realized_pnl": 23389.7,
-      "total_usdc": 158994.45,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 83,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:26:01+00:00",
-      "top_markets": [
-        "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?",
-        "Will Ousmane Dembele be the top goalscorer at the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.3441,
-          "cur_price": 0.3465,
-          "usdc_size": 15784.09,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.033,
-          "cur_price": 0.0335,
-          "usdc_size": 1058.57,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0307,
-          "cur_price": 0.0265,
-          "usdc_size": 1712.54,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0791,
-          "cur_price": 0.0715,
-          "usdc_size": 4152.42,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.125,
-          "cur_price": 0.1685,
-          "usdc_size": 9564.21,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1,
-          "cur_price": 0.0615,
-          "usdc_size": 1829.8,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6b5241c6b2e8d7445a4e0905be0a2230b96fa8a8",
-      "name": "jijobella",
-      "score": 40.9,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.3,
-      "roi": -0.2,
-      "cash_pnl": -28.27,
-      "realized_pnl": 3629.31,
-      "total_usdc": 63427.35,
-      "trade_count": 500,
-      "market_count": 72,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:01:05+00:00",
-      "top_markets": [
-        "Ethereum Up or Down - April 7, 4:00AM-4:05AM ET",
-        "Bitcoin Up or Down - April 7, 3:50AM-3:55AM ET",
-        "Bitcoin Up or Down - April 7, 5:05AM-5:10AM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0127,
-          "cur_price": 0.0245,
-          "usdc_size": 9113.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa37d459ac3d0632c3e77dec5dd43ff857ce50c67",
-      "name": "katie26",
-      "score": 40.6,
-      "roi_score": 27.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -9.3,
-      "cash_pnl": -3643.72,
-      "realized_pnl": 1001.97,
-      "total_usdc": 578670.96,
-      "trade_count": 500,
-      "market_count": 33,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:26:01+00:00",
-      "top_markets": [
-        "Spread: Morocco (-2.5)",
-        "Canada vs. Morocco: O/U 5.5",
-        "Paraguay vs. France: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.109,
-          "cur_price": 0.0615,
-          "usdc_size": 6586.65,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.014,
-          "cur_price": 0.0085,
-          "usdc_size": 667.85,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.014,
-          "cur_price": 0.0335,
-          "usdc_size": 2193.75,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.012,
-          "cur_price": 0.0265,
-          "usdc_size": 1129.85,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.085,
-          "cur_price": 0.1685,
-          "usdc_size": 6145.19,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.161,
-          "cur_price": 0.3465,
-          "usdc_size": 11452.33,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc3acf5878a03523d09a3ac859943445d7baeb964",
-      "name": "mentionmarket",
-      "score": 40.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 53.9,
-      "volume_score": 100.0,
-      "roi": -83.7,
-      "cash_pnl": -1461973.34,
-      "realized_pnl": -12148.85,
-      "total_usdc": 1904580.73,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 41,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:30:01+00:00",
-      "top_markets": [
-        "Mexico vs. England: Team to Advance",
-        "Norway vs. Senegal: O/U 2.5",
-        "Lexus Eastbourne Open: Tatjana Maria vs Tereza Valentova"
-      ],
-      "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.47,
-          "cur_price": 0.475,
-          "usdc_size": 284999.55,
-          "outcome": "Mexico"
-        }
-      ]
-    },
-    {
-      "wallet": "0x02afdf21fc7d1f43bd29a71d43bb1be69a6daaa9",
-      "name": "minhui7788",
-      "score": 40.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 53.4,
-      "volume_score": 100.0,
-      "roi": -92.4,
-      "cash_pnl": -576861.82,
-      "realized_pnl": 0.0,
-      "total_usdc": 507339.94,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 48,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:33:49+00:00",
-      "top_markets": [
-        "Australia vs. Egypt: Team to Advance",
-        "England vs. DR Congo: Team to Advance",
-        "Argentina vs. Cabo Verde: O/U 2.5"
-      ],
-      "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.5225,
-          "cur_price": 0.475,
-          "usdc_size": 47401.2,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfe032d6324fd345a5c0569424a0207349964f14f",
-      "name": "KKchallenge",
-      "score": 40.3,
-      "roi_score": 33.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.4,
-      "roi": -0.0,
-      "cash_pnl": -1.46,
-      "realized_pnl": -271.2,
-      "total_usdc": 29186.73,
-      "trade_count": 500,
-      "market_count": 20,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:13:28+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Belgium win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.013,
-          "cur_price": 0.0135,
-          "usdc_size": 1350.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0347,
-          "cur_price": 0.0335,
-          "usdc_size": 1340.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x12afddef5bc473db74aa37b63a1119f34572ff78",
-      "name": "isp",
-      "score": 40.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 51.6,
-      "volume_score": 99.4,
-      "roi": -95.0,
-      "cash_pnl": -682407.31,
-      "realized_pnl": 0.0,
-      "total_usdc": 463444.02,
-      "trade_count": 500,
-      "market_count": 77,
-      "position_count": 76,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:34:43+00:00",
-      "top_markets": [
-        "O/U 2.5 Rounds",
-        "UFC 327: Mateusz Gamrot vs. Esteban Ribovics (Lightweight, Prelims)",
-        "Spread: Nuggets (-8.5)"
-      ],
-      "signals": [
-        {
-          "market": "Brazil vs. Norway: O/U 2.5",
-          "signal": "LATE",
-          "avg_price": 0.55,
-          "cur_price": 0.585,
-          "usdc_size": 7020.0,
-          "outcome": "Over"
-        },
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.52,
-          "cur_price": 0.475,
-          "usdc_size": 7349.99,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc44f432b014f36679e13615f95996eac32bbd49f",
-      "name": "Zywoo123",
-      "score": 40.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 53.0,
-      "volume_score": 97.2,
-      "roi": -97.3,
-      "cash_pnl": -2153233.16,
-      "realized_pnl": -2293.77,
-      "total_usdc": 348281.05,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 279,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:30:01+00:00",
-      "top_markets": [
-        "LoL: T1 vs Team Liquid - Game 2 Winner",
-        "LoL: T1 vs Team Liquid - Game 3 Winner",
-        "LoL: Hanwha Life Esports vs G2 Esports - Game 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.475,
-          "usdc_size": 25032.0,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5a6653e01cb8105e64f466141a7546aa3a62cdf6",
-      "name": "Xenous",
-      "score": 40.1,
-      "roi_score": 35.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.6,
-      "roi": 2.7,
-      "cash_pnl": 131.69,
-      "realized_pnl": 129.12,
-      "total_usdc": 10506.36,
-      "trade_count": 85,
-      "market_count": 26,
-      "position_count": 16,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T10:19:10+00:00",
-      "top_markets": [
-        "Will USA win the 2026 FIFA World Cup?",
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Cabo Verde win on 2026-07-03?"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0204,
-          "cur_price": 0.0245,
-          "usdc_size": 4528.97,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "name": "VeryLucky888",
-      "score": 39.9,
-      "roi_score": 3.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 48.5,
-      "volume_score": 90.1,
-      "roi": -44.3,
-      "cash_pnl": -243131.9,
-      "realized_pnl": 12471.92,
-      "total_usdc": 137004.27,
-      "trade_count": 500,
-      "market_count": 59,
-      "position_count": 484,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:36:44+00:00",
-      "top_markets": [
-        "Will Mexico win on 2026-07-05?",
-        "Detroit Tigers vs. Texas Rangers",
-        "United States vs. Belgium: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davidovich Fokina",
-          "signal": "LATE",
-          "avg_price": 0.6071,
-          "cur_price": 0.565,
-          "usdc_size": 2154.55,
-          "outcome": "Felix Auger-Aliassime"
-        },
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.5257,
-          "cur_price": 0.475,
-          "usdc_size": 39374.97,
-          "outcome": "England"
-        },
-        {
-          "market": "Will Norway win on 2026-07-05?",
-          "signal": "SKIP",
-          "avg_price": 0.7999,
-          "cur_price": 0.195,
-          "usdc_size": 32199.99,
-          "outcome": "No"
         },
         {
           "market": "Will Brazil win on 2026-07-05?",
           "signal": "SKIP",
           "avg_price": 0.45,
           "cur_price": 0.545,
-          "usdc_size": 9100.0,
+          "usdc_size": 23337.04,
           "outcome": "No"
-        },
-        {
-          "market": "Will Mexico win on 2026-07-05?",
-          "signal": "SKIP",
-          "avg_price": 0.6896,
-          "cur_price": 0.305,
-          "usdc_size": 13450.58,
-          "outcome": "No"
-        },
-        {
-          "market": "Brazil vs. Norway: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.29,
-          "cur_price": 0.705,
-          "usdc_size": 4147.45,
-          "outcome": "Norway"
-        },
-        {
-          "market": "Brazil vs. Norway: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4146,
-          "cur_price": 0.585,
-          "usdc_size": 3319.97,
-          "outcome": "Under"
         }
       ]
     },
     {
-      "wallet": "0xf0d57092d1f66c4298eafc8208c3901c52504527",
-      "name": "0xF0D57092D1F66C4298eAfc8208c3901c52504527-1780767648062",
-      "score": 39.8,
-      "roi_score": 34.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 67.7,
-      "roi": 2.4,
-      "cash_pnl": 82.62,
-      "realized_pnl": 666.73,
-      "total_usdc": 7222.62,
-      "trade_count": 14,
-      "market_count": 8,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T13:56:17+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Netherlands win the 2026 FIFA World Cup?",
-        "Will Brazil win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0339,
-          "cur_price": 0.0335,
-          "usdc_size": 738.97,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0259,
-          "cur_price": 0.0245,
-          "usdc_size": 706.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0219,
-          "cur_price": 0.0265,
-          "usdc_size": 835.08,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4cc3522b689a6bf1fb4a2444c523e7776db47552",
-      "name": "CrunchWrapoDeLaFuente",
-      "score": 39.7,
+      "wallet": "0x87256d0406f876184a66cc158415903bb242eb10",
+      "name": "-Guapo--",
+      "score": 38.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 53.4,
-      "volume_score": 91.8,
-      "roi": -84.1,
-      "cash_pnl": -96138.65,
-      "realized_pnl": 188.66,
-      "total_usdc": 169880.52,
+      "early_entry_score": 53.3,
+      "volume_score": 80.5,
+      "roi": -97.5,
+      "cash_pnl": -542848.75,
+      "realized_pnl": -185.66,
+      "total_usdc": 38495.4,
       "trade_count": 500,
-      "market_count": 11,
-      "position_count": 21,
+      "market_count": 77,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:36:19+00:00",
+      "last_active": "2026-07-05T19:14:02+00:00",
       "top_markets": [
-        "England vs. DR Congo: Team to Advance",
-        "Harry Kane: 1+ goals",
-        "Lionel Messi: 1+ goals"
+        "Counter-Strike: BetBoom Team vs Team Nemesis - Map 1 Winner",
+        "France to win the second half?",
+        "Map Handicap: BB (-1.5) vs Team Nemesis (+1.5)"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5287,
+          "cur_price": 0.475,
+          "usdc_size": 3688.65,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0xba861bb6c4d0fe74135a2256d676c724d377a66a",
+      "name": "danclarkie",
+      "score": 38.4,
+      "roi_score": 2.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 44.9,
+      "volume_score": 85.1,
+      "roi": -46.6,
+      "cash_pnl": -897.89,
+      "realized_pnl": 0.0,
+      "total_usdc": 70306.16,
+      "trade_count": 384,
+      "market_count": 247,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:09:05+00:00",
+      "top_markets": [
+        "Who will win the VP debate according to polls?",
+        "UFC Fight Night: Renato Moicano vs. Chris Duncan (Lightweight, Main Card)",
+        "Oregon State Beavers vs. Oregon Ducks"
+      ],
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.53,
+          "cur_price": 0.475,
+          "usdc_size": 532.5,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5be672e955b0dba983ebe67803a149b36ae500f2",
+      "name": "0x5be672e955B0dba983eBE67803a149b36Ae500f2-1720571093254",
+      "score": 38.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 52.2,
+      "volume_score": 80.2,
+      "roi": -90.4,
+      "cash_pnl": -9803.14,
+      "realized_pnl": 560.0,
+      "total_usdc": 37070.59,
+      "trade_count": 110,
+      "market_count": 58,
+      "position_count": 42,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:51:11+00:00",
+      "top_markets": [
+        "Knicks vs. Spurs",
+        "Will Jordan win on 2026-06-22?",
+        "Will Bosnia and Herzegovina win on 2026-06-18?"
       ],
       "signals": [
         {
@@ -1146,453 +1467,299 @@
           "signal": "ENTER",
           "avg_price": 0.48,
           "cur_price": 0.475,
-          "usdc_size": 8525.08,
+          "usdc_size": 962.35,
           "outcome": "Mexico"
         }
       ]
     },
     {
-      "wallet": "0x73bcd24d510ff4e4d5feac6aec763c5511e246ce",
-      "name": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
-      "score": 39.4,
-      "roi_score": 1.9,
+      "wallet": "0x617b46903eaadc7dfb4f94e18408e2033ee3a499",
+      "name": "Weebay",
+      "score": 38.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 47.4,
-      "volume_score": 92.2,
-      "roi": -47.1,
-      "cash_pnl": -190768.2,
+      "early_entry_score": 48.4,
+      "volume_score": 83.0,
+      "roi": -89.0,
+      "cash_pnl": -63905.29,
       "realized_pnl": 0.0,
-      "total_usdc": 179783.18,
+      "total_usdc": 53860.65,
       "trade_count": 500,
-      "market_count": 8,
-      "position_count": 29,
+      "market_count": 46,
+      "position_count": 109,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:33:49+00:00",
+      "last_active": "2026-07-05T19:06:25+00:00",
       "top_markets": [
-        "Mexico vs. England: Team to Advance",
-        "Brazil vs. Norway: Team to Advance",
-        "Brazil vs. Norway: O/U 2.5"
+        "Will France win on 2026-07-04?",
+        "Milwaukee Brewers vs. Arizona Diamondbacks",
+        "Spain vs. Austria: Team to Advance"
       ],
       "signals": [
         {
-          "market": "Brazil vs. Norway: Team to Advance",
+          "market": "Will Brazil win on 2026-07-05?",
           "signal": "ENTER",
-          "avg_price": 0.7,
-          "cur_price": 0.705,
-          "usdc_size": 49349.85,
-          "outcome": "Brazil"
+          "avg_price": 0.53,
+          "cur_price": 0.545,
+          "usdc_size": 708.49,
+          "outcome": "Yes"
         },
         {
           "market": "Mexico vs. England: Team to Advance",
           "signal": "SKIP",
-          "avg_price": 0.5328,
+          "avg_price": 0.52,
           "cur_price": 0.475,
-          "usdc_size": 119426.69,
+          "usdc_size": 1050.0,
           "outcome": "England"
         },
         {
           "market": "Brazil vs. Norway: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.42,
-          "cur_price": 0.585,
-          "usdc_size": 8299.94,
+          "avg_price": 0.41,
+          "cur_price": 0.565,
+          "usdc_size": 609.0,
           "outcome": "Under"
         }
       ]
     },
     {
-      "wallet": "0xd52af0b94c65c4383f3b11588ef1f35ca731864e",
-      "name": "0xd52AF0B",
-      "score": 39.2,
-      "roi_score": 31.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 73.7,
-      "roi": -3.1,
-      "cash_pnl": -84.11,
-      "realized_pnl": -9.08,
-      "total_usdc": 15832.03,
-      "trade_count": 172,
-      "market_count": 100,
-      "position_count": 38,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:35:22+00:00",
-      "top_markets": [
-        "Will the Iran ceasefire continue through May 24?",
-        "Will France win on 2026-06-22?",
-        "Will Mexico win on 2026-06-11?"
-      ],
-      "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.4799,
-          "cur_price": 0.475,
-          "usdc_size": 2373.55,
-          "outcome": "Mexico"
-        }
-      ]
-    },
-    {
-      "wallet": "0x41b0ee514df0c43652d28323292776bedff29801",
-      "name": "casandra13",
-      "score": 39.0,
-      "roi_score": 28.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.4,
-      "roi": -7.4,
-      "cash_pnl": -380.48,
-      "realized_pnl": -89.02,
-      "total_usdc": 33504.15,
-      "trade_count": 74,
-      "market_count": 30,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T16:29:04+00:00",
-      "top_markets": [
-        "Khamenei out as Supreme Leader of Iran by February 28?",
-        "Khamenei out as Supreme Leader of Iran in 2026?",
-        "Will Silver (SI) hit (HIGH) $170 by end of June?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x42477970683d4d0a52ec7082fee5d760cc5591c4",
-      "name": "",
-      "score": 38.8,
-      "roi_score": 26.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.5,
-      "roi": -9.9,
-      "cash_pnl": -7273.35,
-      "realized_pnl": -58146.93,
-      "total_usdc": 50348.67,
-      "trade_count": 500,
-      "market_count": 193,
-      "position_count": 218,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:27:22+00:00",
-      "top_markets": [
-        "Will Portugal win the 2026 FIFA World Cup?",
-        "Will Cabo Verde win on 2026-07-03?",
-        "Will Argentina win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0238,
-          "cur_price": 0.0335,
-          "usdc_size": 11588.13,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0187,
-          "cur_price": 0.0245,
-          "usdc_size": 5952.06,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.089,
-          "cur_price": 0.1685,
-          "usdc_size": 27894.7,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0825,
-          "cur_price": 0.0615,
-          "usdc_size": 2135.48,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0292,
-          "cur_price": 0.0265,
-          "usdc_size": 512.9,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1699,
-          "cur_price": 0.3465,
-          "usdc_size": 1678.41,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x16dd1fa438500c3603a68004438a349cde43adf5",
-      "name": "Guest288228",
-      "score": 38.3,
-      "roi_score": 26.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.2,
-      "roi": -10.9,
-      "cash_pnl": -160.58,
-      "realized_pnl": 146.63,
-      "total_usdc": 37067.15,
-      "trade_count": 500,
-      "market_count": 12,
-      "position_count": 41,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:32:17+00:00",
-      "top_markets": [
-        "Will the Chicago Bears win the 2027 NFL league championship?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.3504,
-          "cur_price": 0.3465,
-          "usdc_size": 867.1,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xe1a076180d1c852a4d65fa74c764bf1ffcc1faaa",
-      "name": "chriswowo",
-      "score": 38.2,
+      "wallet": "0xa81b52f843017a1c587b7a07a6744d04874a4d36",
+      "name": "fffffifa",
+      "score": 37.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 45.9,
-      "volume_score": 88.1,
-      "roi": -51.9,
-      "cash_pnl": -7462.42,
-      "realized_pnl": -77.09,
-      "total_usdc": 104678.61,
-      "trade_count": 66,
-      "market_count": 42,
+      "early_entry_score": 45.1,
+      "volume_score": 86.8,
+      "roi": -59.9,
+      "cash_pnl": -14826.53,
+      "realized_pnl": 0.0,
+      "total_usdc": 87919.91,
+      "trade_count": 96,
+      "market_count": 41,
       "position_count": 16,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:28:40+00:00",
+      "last_active": "2026-07-05T18:42:26+00:00",
       "top_markets": [
-        "Will Gemini 3.0 be released by November 15?",
-        "Bitcoin Up or Down - February 13, 4:35PM-4:40PM ET",
-        "Bitcoin Up or Down - February 12, 12:40AM-12:45AM ET"
+        "Exact Score: Paraguay 0 - 1 France?",
+        "Valorant: EDward Gaming vs Paper Rex (BO3) - VCT Masters London Playoffs",
+        "Exact Score: Spain 1 - 0 Austria?"
       ],
       "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.4799,
-          "cur_price": 0.475,
-          "usdc_size": 1979.17,
-          "outcome": "Mexico"
-        },
-        {
-          "market": "Brazil vs. Norway: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2999,
-          "cur_price": 0.705,
-          "usdc_size": 983.33,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4cdda29c0591259755ee5df76013afef624ceaf2",
-      "name": "Biggambler",
-      "score": 37.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 45.8,
-      "volume_score": 78.3,
-      "roi": -53.5,
-      "cash_pnl": -2278.45,
-      "realized_pnl": 0.0,
-      "total_usdc": 29002.14,
-      "trade_count": 42,
-      "market_count": 27,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:32:20+00:00",
-      "top_markets": [
-        "Will Mark Carney be the next Canadian Prime Minister?",
-        "Dodgers vs. Blue Jays",
-        "Over $5M committed to the Infinex public sale?"
-      ],
-      "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.4799,
-          "cur_price": 0.475,
-          "usdc_size": 989.58,
-          "outcome": "Mexico"
-        },
         {
           "market": "Brazil vs. Norway: Team to Advance",
           "signal": "ENTER",
           "avg_price": 0.7099,
           "cur_price": 0.705,
-          "usdc_size": 992.96,
+          "usdc_size": 4964.79,
           "outcome": "Brazil"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.475,
+          "usdc_size": 4952.83,
+          "outcome": "England"
         }
       ]
     },
     {
-      "wallet": "0x29673aa650e09fa8aeb920dde3c333b32d4fbd09",
-      "name": "Thalantyr",
-      "score": 37.0,
-      "roi_score": 23.1,
+      "wallet": "0x9703676286b93c2eca71ca96e8757104519a69c2",
+      "name": "AnonymousUsername",
+      "score": 37.9,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.3,
-      "roi": -15.3,
-      "cash_pnl": -8579.84,
-      "realized_pnl": 10855.72,
-      "total_usdc": 19518.21,
+      "early_entry_score": 41.4,
+      "volume_score": 91.5,
+      "roi": -84.6,
+      "cash_pnl": -3975232.86,
+      "realized_pnl": 4351756.91,
+      "total_usdc": 163517.05,
       "trade_count": 500,
-      "market_count": 5,
-      "position_count": 15,
+      "market_count": 27,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T16:54:40+00:00",
+      "last_active": "2026-07-05T19:15:29+00:00",
       "top_markets": [
-        "Will Canada win the 2026 FIFA World Cup?",
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?"
+        "Brazil vs. Norway: Team to Advance",
+        "Will Brazil win on 2026-07-05?",
+        "Will Mexico vs. England end in a draw?"
       ],
       "signals": [
         {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "market": "Brazil vs. Norway: Team to Advance",
           "signal": "ENTER",
-          "avg_price": 0.0239,
-          "cur_price": 0.0245,
-          "usdc_size": 3127.47,
+          "avg_price": 0.6955,
+          "cur_price": 0.705,
+          "usdc_size": 65360.41,
+          "outcome": "Brazil"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "LATE",
+          "avg_price": 0.4608,
+          "cur_price": 0.475,
+          "usdc_size": 143606.48,
+          "outcome": "Mexico"
+        },
+        {
+          "market": "Will Mexico win on 2026-07-05?",
+          "signal": "LATE",
+          "avg_price": 0.3237,
+          "cur_price": 0.305,
+          "usdc_size": 37884.81,
           "outcome": "Yes"
         },
         {
-          "market": "Will Egypt win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.001,
-          "cur_price": 0.0025,
-          "usdc_size": 8455.39,
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0177,
+          "cur_price": 0.0185,
+          "usdc_size": 552.12,
           "outcome": "Yes"
         },
         {
           "market": "Will Belgium win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0077,
-          "cur_price": 0.0135,
-          "usdc_size": 9473.0,
+          "avg_price": 0.0166,
+          "cur_price": 0.0125,
+          "usdc_size": 562.41,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0341,
+          "cur_price": 0.0595,
+          "usdc_size": 2070.96,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0165,
+          "cur_price": 0.0285,
+          "usdc_size": 937.42,
           "outcome": "Yes"
         },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1012,
-          "cur_price": 0.0715,
-          "usdc_size": 7837.27,
+          "avg_price": 0.0338,
+          "cur_price": 0.0735,
+          "usdc_size": 2228.54,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Mexico win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0335,
+          "usdc_size": 961.88,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0387,
+          "cur_price": 0.1685,
+          "usdc_size": 4089.59,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0245,
+          "usdc_size": 573.12,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win on 2026-07-05?",
+          "signal": "SKIP",
+          "avg_price": 0.2378,
+          "cur_price": 0.185,
+          "usdc_size": 3783.88,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x0c7247a228d5864289410f1ca7950be6b9d8a042",
-      "name": "celery-cactus",
-      "score": 36.5,
-      "roi_score": 16.0,
+      "wallet": "0x70a6798edbf21eb25cbb749569796d1e641aa2eb",
+      "name": "buckspredicts",
+      "score": 36.8,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.8,
-      "roi": -26.0,
-      "cash_pnl": -6202.52,
-      "realized_pnl": -106.66,
-      "total_usdc": 170859.67,
-      "trade_count": 500,
-      "market_count": 107,
-      "position_count": 48,
+      "early_entry_score": 52.0,
+      "volume_score": 64.9,
+      "roi": -81.2,
+      "cash_pnl": -3164.94,
+      "realized_pnl": 0.0,
+      "total_usdc": 5001.74,
+      "trade_count": 20,
+      "market_count": 10,
+      "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T16:30:23+00:00",
+      "last_active": "2026-07-05T19:06:25+00:00",
       "top_markets": [
-        "Will Lando Norris be the 2025 Drivers Champion?",
-        "Will Audi be the 2026 F1 Constructors' Champion?",
-        "Nothing Ever Happens: November"
+        "Erling Haaland: 1+ goals",
+        "Will Uzbekistan win on 2026-06-08?",
+        "World Championships: USA vs. Switzerland"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 735.0,
+          "outcome": "England"
+        }
+      ]
     },
     {
       "wallet": "0x2663daca3cecf3767ca1c3b126002a8578a8ed1f",
       "name": "Q96s3kwozynxpau",
-      "score": 36.2,
-      "roi_score": 19.2,
+      "score": 36.5,
+      "roi_score": 20.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 79.7,
-      "roi": -21.2,
-      "cash_pnl": -31861.75,
-      "realized_pnl": 737199.9,
-      "total_usdc": 34932.66,
+      "volume_score": 79.3,
+      "roi": -19.5,
+      "cash_pnl": -34064.07,
+      "realized_pnl": -1129228.73,
+      "total_usdc": 32899.7,
       "trade_count": 500,
-      "market_count": 25,
-      "position_count": 127,
+      "market_count": 26,
+      "position_count": 163,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:35:22+00:00",
+      "last_active": "2026-07-05T19:14:53+00:00",
       "top_markets": [
-        "Will USA win the 2026 FIFA World Cup?",
-        "Will Mexico win the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?"
+        "Will Greg Abbott win the 2028 US Presidential Election?",
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will USA win the 2026 FIFA World Cup?"
       ],
       "signals": [
         {
           "market": "Will Belgium win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0138,
-          "cur_price": 0.0135,
-          "usdc_size": 3420.56,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0239,
-          "cur_price": 0.0245,
-          "usdc_size": 551.48,
+          "signal": "SKIP",
+          "avg_price": 0.0137,
+          "cur_price": 0.0125,
+          "usdc_size": 5488.89,
           "outcome": "Yes"
         },
         {
@@ -1600,111 +1767,111 @@
           "signal": "SKIP",
           "avg_price": 0.0166,
           "cur_price": 0.0085,
-          "usdc_size": 1009.61,
+          "usdc_size": 1228.65,
           "outcome": "Yes"
         },
         {
           "market": "Will Mexico win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0307,
+          "avg_price": 0.0279,
           "cur_price": 0.0335,
-          "usdc_size": 2968.16,
+          "usdc_size": 2762.89,
           "outcome": "Yes"
         },
         {
-          "market": "Will France win the 2026 FIFA World Cup?",
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.3465,
-          "usdc_size": 25171.02,
+          "avg_price": 0.0223,
+          "cur_price": 0.0245,
+          "usdc_size": 2020.48,
           "outcome": "Yes"
         },
         {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1416,
+          "avg_price": 0.0744,
           "cur_price": 0.1685,
-          "usdc_size": 4620.73,
+          "usdc_size": 8075.31,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0312,
+          "cur_price": 0.0595,
+          "usdc_size": 2287.52,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0735,
+          "usdc_size": 1424.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6b5241c6b2e8d7445a4e0905be0a2230b96fa8a8",
+      "name": "jijobella",
+      "score": 36.1,
+      "roi_score": 16.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.1,
+      "roi": -25.2,
+      "cash_pnl": -4449.94,
+      "realized_pnl": 1120.0,
+      "total_usdc": 80218.21,
+      "trade_count": 500,
+      "market_count": 73,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T17:56:52+00:00",
+      "top_markets": [
+        "Ethereum Up or Down - April 7, 4:00AM-4:05AM ET",
+        "Bitcoin Up or Down - April 7, 5:05AM-5:10AM ET",
+        "Bitcoin Up or Down - April 7, 4:55AM-5:00AM ET"
+      ],
+      "signals": [
+        {
+          "market": "Brazil vs. Norway: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.71,
+          "cur_price": 0.705,
+          "usdc_size": 8259.93,
+          "outcome": "Brazil"
         }
       ]
     },
     {
       "wallet": "0xb886580698ede4b18de3e446b2d8da8bcedd81b3",
       "name": "0xB886580698eDE4b18DE3E446b2D8Da8bCEdd81B3-1767532547794",
-      "score": 33.0,
-      "roi_score": 10.6,
+      "score": 33.9,
+      "roi_score": 11.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 73.1,
-      "roi": -34.1,
-      "cash_pnl": -65834.55,
-      "realized_pnl": 31977.72,
-      "total_usdc": 14695.77,
+      "volume_score": 78.3,
+      "roi": -32.1,
+      "cash_pnl": -64281.62,
+      "realized_pnl": 32248.65,
+      "total_usdc": 29084.34,
       "trade_count": 500,
-      "market_count": 43,
-      "position_count": 173,
+      "market_count": 38,
+      "position_count": 172,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:34:35+00:00",
+      "last_active": "2026-07-05T19:14:41+00:00",
       "top_markets": [
-        "Will Eduardo Bolsonaro win the 2026 Brazilian presidential election?",
+        "Brazil vs. Norway: Team to Advance",
         "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Helder Barbalho win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0247,
-          "cur_price": 0.0245,
-          "usdc_size": 1932.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0172,
-          "cur_price": 0.0165,
-          "usdc_size": 996.59,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Brazil vs. Norway: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.29,
-          "cur_price": 0.705,
-          "usdc_size": 2556.17,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1fce4555b1283f10048a78e72c465dd7b850a7c8",
-      "name": "pronigga",
-      "score": 32.9,
-      "roi_score": 3.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.9,
-      "roi": -44.7,
-      "cash_pnl": -16225.0,
-      "realized_pnl": -2624.79,
-      "total_usdc": 225762.33,
-      "trade_count": 258,
-      "market_count": 74,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T16:45:49+00:00",
-      "top_markets": [
-        "US x Iran ceasefire by April 15?",
-        "US x Iran ceasefire by April 7?",
-        "Bitcoin Up or Down - June 5, 1:05PM-1:10PM ET"
+        "Will Norway win the 2026 FIFA World Cup?"
       ],
       "signals": [
         {
@@ -1712,186 +1879,171 @@
           "signal": "ENTER",
           "avg_price": 0.0242,
           "cur_price": 0.0245,
-          "usdc_size": 7216.06,
+          "usdc_size": 3564.74,
           "outcome": "Yes"
         },
         {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.3513,
-          "cur_price": 0.3465,
-          "usdc_size": 9860.51,
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0173,
+          "cur_price": 0.0185,
+          "usdc_size": 9313.15,
           "outcome": "Yes"
-        },
-        {
-          "market": "Brazil vs. Norway: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.7099,
-          "cur_price": 0.705,
-          "usdc_size": 2978.87,
-          "outcome": "Brazil"
         }
       ]
     },
     {
-      "wallet": "0xf3a4710f66a6d9eeb081af71dc7b7fb5d1ac097f",
-      "name": "comfyinyes",
+      "wallet": "0x94e4c271a84d72f9efc8326606cee80b6e7c87e0",
+      "name": "todouzai",
+      "score": 32.7,
+      "roi_score": 0.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -49.1,
+      "cash_pnl": -69085.2,
+      "realized_pnl": -199.54,
+      "total_usdc": 522704.69,
+      "trade_count": 500,
+      "market_count": 35,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:06:49+00:00",
+      "top_markets": [
+        "Will Algeria win Group J in the 2026 FIFA World Cup?",
+        "Will Argentina win Group J in the 2026 FIFA World Cup?",
+        "Saudi Arabia vs. Uruguay: O/U 0.5"
+      ],
+      "signals": [
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0349,
+          "cur_price": 0.0285,
+          "usdc_size": 6515.13,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0916,
+          "cur_price": 0.0735,
+          "usdc_size": 14431.25,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.5357,
+          "cur_price": 0.475,
+          "usdc_size": 50622.27,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc31d0a0d63d760d72a1236d16beaa6a71c854ebe",
+      "name": "FootballFan98",
       "score": 32.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -89.3,
-      "cash_pnl": -191015.76,
-      "realized_pnl": -7972.7,
-      "total_usdc": 805523.99,
-      "trade_count": 315,
-      "market_count": 107,
-      "position_count": 34,
+      "roi": -71.0,
+      "cash_pnl": -1634650.75,
+      "realized_pnl": -13342.8,
+      "total_usdc": 514625.02,
+      "trade_count": 500,
+      "market_count": 5,
+      "position_count": 22,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:31:25+00:00",
+      "last_active": "2026-07-05T19:06:25+00:00",
       "top_markets": [
-        "MicroStrategy sells any Bitcoin by May 31, 2026?",
-        "Paraguay vs. France: Will the Match Go to a Penalty Shootout?",
-        "Thunder vs. Spurs"
+        "Spread: Argentina (-1.5)",
+        "Spread: Spain (-1.5)",
+        "Spread: France (-1.5)"
       ],
       "signals": [
         {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.347,
-          "cur_price": 0.3465,
-          "usdc_size": 16501.89,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Brazil vs. Norway: Both Teams to Score",
-          "signal": "ENTER",
-          "avg_price": 0.6099,
-          "cur_price": 0.615,
-          "usdc_size": 1536.89,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Brazil win on 2026-07-05?",
+          "market": "Mexico vs. England: Team to Advance",
           "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.545,
-          "usdc_size": 2472.83,
-          "outcome": "No"
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 131249.92,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x51c7d30511ed096b39a9392bad97e0dc76c298aa",
+      "name": "Chopperyyy",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -98.0,
+      "cash_pnl": -253626.78,
+      "realized_pnl": -4066.29,
+      "total_usdc": 669698.03,
+      "trade_count": 500,
+      "market_count": 366,
+      "position_count": 221,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T18:52:56+00:00",
+      "top_markets": [
+        "Counter-Strike: TheMongolz vs EYEBALLERS (BO3) - PGL Bucharest Group Stage",
+        "Counter-Strike: NRG vs MOUZ (BO3) - CS Asia Championships Group A",
+        "Counter-Strike: TheMongolz vs PARIVISION (BO3) - PGL Bucharest Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Brazil vs. Norway: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.7099,
+          "cur_price": 0.705,
+          "usdc_size": 1985.92,
+          "outcome": "Brazil"
         },
         {
           "market": "Mexico vs. England: Team to Advance",
           "signal": "SKIP",
           "avg_price": 0.5299,
           "cur_price": 0.475,
-          "usdc_size": 2476.41,
+          "usdc_size": 2912.26,
           "outcome": "England"
         }
       ]
-    },
-    {
-      "wallet": "0x4e56f1ddaa8f5328036c449b89e731ec748cdee1",
-      "name": "BreadGet",
-      "score": 32.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.7,
-      "roi": -94.1,
-      "cash_pnl": -141725.93,
-      "realized_pnl": 746.78,
-      "total_usdc": 370608.85,
-      "trade_count": 500,
-      "market_count": 61,
-      "position_count": 43,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:07:49+00:00",
-      "top_markets": [
-        "Will Rory McIlroy win the 2026 Masters tournament?",
-        "Will England win on 2026-07-01?",
-        "76ers vs. Celtics"
-      ],
-      "signals": [
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0245,
-          "cur_price": 0.0265,
-          "usdc_size": 2804.49,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.475,
-          "usdc_size": 5250.0,
-          "outcome": "England"
-        },
-        {
-          "market": "Brazil vs. Norway: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.3,
-          "cur_price": 0.705,
-          "usdc_size": 885.0,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x665b39291b0fec221c03f85d29135e3e835873ba",
-      "name": "LIQUID8dCAP",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.2,
-      "roi": -80.1,
-      "cash_pnl": -34924.46,
-      "realized_pnl": 370.81,
-      "total_usdc": 266946.48,
-      "trade_count": 500,
-      "market_count": 107,
-      "position_count": 56,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T15:43:11+00:00",
-      "top_markets": [
-        "Will Elon Musk post 480-499 tweets from February 3 to February 10, 2026?",
-        "Will Elon Musk post 460-479 tweets from February 13 to February 20, 2026?",
-        "Will Bitcoin dip to $70,000 in February?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x90ed5bffbffbfc344aa1195572d89719a398b5bc",
       "name": "failstober",
-      "score": 31.9,
-      "roi_score": 0.9,
+      "score": 32.0,
+      "roi_score": 1.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.2,
-      "roi": -48.6,
-      "cash_pnl": -135026.8,
+      "volume_score": 91.3,
+      "roi": -47.9,
+      "cash_pnl": -133702.41,
       "realized_pnl": 67053.38,
-      "total_usdc": 157671.2,
+      "total_usdc": 158630.38,
       "trade_count": 500,
       "market_count": 23,
       "position_count": 144,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:33:49+00:00",
+      "last_active": "2026-07-05T17:54:29+00:00",
       "top_markets": [
         "Will Donald Trump win the 2028 Republican presidential nomination?",
         "Will England win the 2026 FIFA World Cup?",
@@ -1899,19 +2051,19 @@
       ],
       "signals": [
         {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0234,
-          "cur_price": 0.0245,
-          "usdc_size": 3538.85,
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0589,
+          "cur_price": 0.0595,
+          "usdc_size": 594.94,
           "outcome": "Yes"
         },
         {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "LATE",
-          "avg_price": 0.0589,
-          "cur_price": 0.0615,
-          "usdc_size": 614.94,
+          "avg_price": 0.0233,
+          "cur_price": 0.0245,
+          "usdc_size": 4899.95,
           "outcome": "Yes"
         },
         {
@@ -1926,16 +2078,16 @@
           "market": "Will Norway win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0255,
-          "cur_price": 0.0165,
-          "usdc_size": 6850.33,
+          "cur_price": 0.0185,
+          "usdc_size": 7680.67,
           "outcome": "Yes"
         },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.104,
-          "cur_price": 0.0715,
-          "usdc_size": 16598.56,
+          "cur_price": 0.0735,
+          "usdc_size": 16827.5,
           "outcome": "Yes"
         },
         {
@@ -1950,36 +2102,36 @@
           "market": "Brazil vs. Norway: O/U 2.5",
           "signal": "SKIP",
           "avg_price": 0.42,
-          "cur_price": 0.585,
-          "usdc_size": 922.13,
+          "cur_price": 0.565,
+          "usdc_size": 966.57,
           "outcome": "Under"
         }
       ]
     },
     {
-      "wallet": "0x02401f7c65ed0d3cc39db73de727991bea6678f2",
+      "wallet": "0xed3e550a9c4f17b9fe7ac1f4ed3e900ee6102a9e",
       "name": "",
       "score": 31.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.6,
-      "roi": -77.0,
-      "cash_pnl": -14407.21,
-      "realized_pnl": -602.05,
-      "total_usdc": 188279.23,
+      "volume_score": 92.8,
+      "roi": -97.0,
+      "cash_pnl": -15746.88,
+      "realized_pnl": -247.48,
+      "total_usdc": 194480.59,
       "trade_count": 500,
-      "market_count": 31,
-      "position_count": 159,
+      "market_count": 26,
+      "position_count": 220,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:30:52+00:00",
+      "last_active": "2026-07-05T19:12:59+00:00",
       "top_markets": [
         "Will the Los Angeles Chargers win the 2027 NFL league championship?",
         "Will USA win the 2026 FIFA World Cup?",
-        "Will the Houston Texans win the 2027 NFL league championship?"
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
@@ -1991,310 +2143,130 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.9,
-      "roi": -89.4,
-      "cash_pnl": -13412.09,
-      "realized_pnl": -444.47,
-      "total_usdc": 198042.67,
+      "volume_score": 93.1,
+      "roi": -89.3,
+      "cash_pnl": -13411.66,
+      "realized_pnl": -466.9,
+      "total_usdc": 202084.86,
       "trade_count": 500,
-      "market_count": 27,
+      "market_count": 29,
       "position_count": 164,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:26:43+00:00",
+      "last_active": "2026-07-05T19:13:10+00:00",
       "top_markets": [
         "Will the Los Angeles Chargers win the 2027 NFL league championship?",
         "Will USA win the 2026 FIFA World Cup?",
-        "Will the Houston Texans win the 2027 NFL league championship?"
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
     {
       "wallet": "0xe76a0238ec1a495b989150ebef08353dfd1737c4",
       "name": "",
-      "score": 31.7,
+      "score": 31.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.9,
+      "volume_score": 92.6,
       "roi": -61.9,
-      "cash_pnl": -10947.64,
-      "realized_pnl": -1650.92,
-      "total_usdc": 171694.96,
+      "cash_pnl": -10983.51,
+      "realized_pnl": -1673.12,
+      "total_usdc": 188797.52,
       "trade_count": 500,
-      "market_count": 35,
-      "position_count": 164,
+      "market_count": 34,
+      "position_count": 165,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:32:38+00:00",
+      "last_active": "2026-07-05T19:07:34+00:00",
       "top_markets": [
         "Will the Los Angeles Chargers win the 2027 NFL league championship?",
         "Will USA win the 2026 FIFA World Cup?",
-        "Bitcoin Up or Down - July 5, 8:10AM-8:15AM ET"
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xed3e550a9c4f17b9fe7ac1f4ed3e900ee6102a9e",
+      "wallet": "0x02401f7c65ed0d3cc39db73de727991bea6678f2",
       "name": "",
-      "score": 31.7,
+      "score": 31.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.2,
-      "roi": -97.0,
-      "cash_pnl": -15746.89,
-      "realized_pnl": -226.45,
-      "total_usdc": 180009.58,
+      "volume_score": 93.1,
+      "roi": -76.7,
+      "cash_pnl": -14419.84,
+      "realized_pnl": -622.83,
+      "total_usdc": 202825.64,
       "trade_count": 500,
-      "market_count": 28,
-      "position_count": 220,
+      "market_count": 30,
+      "position_count": 160,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:28:37+00:00",
+      "last_active": "2026-07-05T19:14:53+00:00",
       "top_markets": [
         "Will the Los Angeles Chargers win the 2027 NFL league championship?",
         "Will USA win the 2026 FIFA World Cup?",
-        "Bitcoin Up or Down - July 5, 9:50AM-9:55AM ET"
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
     {
       "wallet": "0xbe1a30a04d67adc316fabab3d31a4280512b03a9",
       "name": "",
-      "score": 31.6,
+      "score": 31.7,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.2,
-      "roi": -88.8,
-      "cash_pnl": -13833.43,
-      "realized_pnl": -614.56,
-      "total_usdc": 156872.73,
+      "volume_score": 91.8,
+      "roi": -88.9,
+      "cash_pnl": -13834.21,
+      "realized_pnl": -636.25,
+      "total_usdc": 169879.08,
       "trade_count": 500,
-      "market_count": 34,
+      "market_count": 36,
       "position_count": 183,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:35:28+00:00",
+      "last_active": "2026-07-05T19:10:19+00:00",
       "top_markets": [
         "Will the Los Angeles Chargers win the 2027 NFL league championship?",
         "Will USA win the 2026 FIFA World Cup?",
-        "Bitcoin Up or Down - July 5, 12:25PM-12:30PM ET"
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
-      "name": "neutralwave23",
-      "score": 31.5,
-      "roi_score": 3.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.3,
-      "roi": -44.1,
-      "cash_pnl": -527079.17,
-      "realized_pnl": -23020.6,
-      "total_usdc": 29129.87,
-      "trade_count": 500,
-      "market_count": 156,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:36:25+00:00",
-      "top_markets": [
-        "Pittsburgh Pirates vs. Washington Nationals",
-        "Will Brazil win on 2026-07-05?",
-        "Will Norway win on 2026-07-05?"
-      ],
-      "signals": [
-        {
-          "market": "Will Brazil win on 2026-07-05?",
-          "signal": "ENTER",
-          "avg_price": 0.5434,
-          "cur_price": 0.545,
-          "usdc_size": 7385.24,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win on 2026-07-05?",
-          "signal": "ENTER",
-          "avg_price": 0.3094,
-          "cur_price": 0.305,
-          "usdc_size": 3009.85,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.4727,
-          "cur_price": 0.475,
-          "usdc_size": 3969.07,
-          "outcome": "Mexico"
-        },
-        {
-          "market": "Brazil vs. Norway: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.7056,
-          "cur_price": 0.705,
-          "usdc_size": 4949.21,
-          "outcome": "Brazil"
-        },
-        {
-          "market": "Brazil vs. Norway: Both Teams to Score",
-          "signal": "ENTER",
-          "avg_price": 0.602,
-          "cur_price": 0.615,
-          "usdc_size": 4245.92,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0259,
-          "cur_price": 0.0245,
-          "usdc_size": 18988.85,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0092,
-          "cur_price": 0.0085,
-          "usdc_size": 1112.32,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davidovich Fokina",
-          "signal": "LATE",
-          "avg_price": 0.5876,
-          "cur_price": 0.565,
-          "usdc_size": 9788.32,
-          "outcome": "Felix Auger-Aliassime"
-        },
-        {
-          "market": "Will Norway win on 2026-07-05?",
-          "signal": "LATE",
-          "avg_price": 0.2035,
-          "cur_price": 0.195,
-          "usdc_size": 2390.17,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.3014,
-          "cur_price": 0.3465,
-          "usdc_size": 296317.76,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0241,
-          "cur_price": 0.0165,
-          "usdc_size": 8093.42,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1028,
-          "cur_price": 0.0715,
-          "usdc_size": 31868.98,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0741,
-          "cur_price": 0.0615,
-          "usdc_size": 18911.59,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0242,
-          "cur_price": 0.0265,
-          "usdc_size": 4714.94,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1498,
-          "cur_price": 0.1685,
-          "usdc_size": 28620.74,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0167,
-          "cur_price": 0.0335,
-          "usdc_size": 3000.12,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Belgium win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0176,
-          "cur_price": 0.0135,
-          "usdc_size": 726.4,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.5389,
-          "cur_price": 0.475,
-          "usdc_size": 3893.86,
-          "outcome": "England"
-        },
-        {
-          "market": "Will Brazil win on 2026-07-05?",
-          "signal": "SKIP",
-          "avg_price": 0.4691,
-          "cur_price": 0.545,
-          "usdc_size": 2584.62,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
       "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
       "name": "GC-P",
-      "score": 31.2,
+      "score": 31.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.2,
-      "roi": -53.1,
-      "cash_pnl": -189900.55,
-      "realized_pnl": 498566.1,
-      "total_usdc": 93283.85,
+      "volume_score": 88.9,
+      "roi": -54.8,
+      "cash_pnl": -193962.33,
+      "realized_pnl": 432931.09,
+      "total_usdc": 115756.05,
       "trade_count": 500,
-      "market_count": 91,
+      "market_count": 89,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:35:47+00:00",
+      "last_active": "2026-07-05T19:14:56+00:00",
       "top_markets": [
-        "Brazil vs. Norway: Both Teams to Score",
-        "Exact Score: Mexico 0 - 1 England?",
-        "Exact Score: Brazil 1 - 1 Norway?"
+        "Exact Score: Brazil 1 - 1 Norway?",
+        "Brazil vs. Norway: 1st Half O/U 1.5",
+        "Exact Score: Brazil 0 - 2 Norway?"
       ],
       "signals": [
         {
@@ -2306,27 +2278,11 @@
           "outcome": "England"
         },
         {
-          "market": "Brazil vs. Norway: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4101,
-          "cur_price": 0.585,
-          "usdc_size": 3548.19,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will Norway win on 2026-07-05?",
-          "signal": "SKIP",
-          "avg_price": 0.7999,
-          "cur_price": 0.195,
-          "usdc_size": 5164.21,
-          "outcome": "No"
-        },
-        {
           "market": "Brazil vs. Norway: Both Teams to Score",
           "signal": "SKIP",
-          "avg_price": 0.384,
-          "cur_price": 0.615,
-          "usdc_size": 2051.34,
+          "avg_price": 0.37,
+          "cur_price": 0.625,
+          "usdc_size": 937.49,
           "outcome": "No"
         },
         {
@@ -2338,12 +2294,56 @@
           "outcome": "No"
         },
         {
-          "market": "Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davidovich Fokina",
+          "market": "Will Brazil win on 2026-07-05?",
           "signal": "SKIP",
-          "avg_price": 0.624,
-          "cur_price": 0.565,
-          "usdc_size": 817.5,
-          "outcome": "Felix Auger-Aliassime"
+          "avg_price": 0.45,
+          "cur_price": 0.545,
+          "usdc_size": 910.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x87531c465a5a729850e1e2c4fd4af3dcb87d85ad",
+      "name": "Trotz.85",
+      "score": 31.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.3,
+      "roi": -96.9,
+      "cash_pnl": -508582.63,
+      "realized_pnl": -214.06,
+      "total_usdc": 108216.71,
+      "trade_count": 500,
+      "market_count": 113,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T19:00:49+00:00",
+      "top_markets": [
+        "United States vs. Bosnia and Herzegovina: Bosnia and Herzegovina O/U 3.5 Corners",
+        "Will Canada vs. Morocco end in a draw?",
+        "Spread: Seattle Mariners (-1.5)"
+      ],
+      "signals": [
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.076,
+          "cur_price": 0.0735,
+          "usdc_size": 774.69,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Mexico vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.52,
+          "cur_price": 0.475,
+          "usdc_size": 1750.35,
+          "outcome": "England"
         }
       ]
     },
@@ -2355,18 +2355,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.7,
-      "roi": -73.5,
-      "cash_pnl": -18848.5,
+      "volume_score": 87.0,
+      "roi": -63.2,
+      "cash_pnl": -18443.34,
       "realized_pnl": -3345.46,
-      "total_usdc": 86831.76,
+      "total_usdc": 90283.09,
       "trade_count": 500,
-      "market_count": 9,
+      "market_count": 8,
       "position_count": 167,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T17:02:49+00:00",
+      "last_active": "2026-07-05T17:54:29+00:00",
       "top_markets": [
         "Will Morocco win the 2026 FIFA World Cup?",
         "Will USA win the 2026 FIFA World Cup?",
@@ -2375,337 +2375,207 @@
       "signals": [
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.024,
+          "signal": "LATE",
+          "avg_price": 0.0234,
           "cur_price": 0.0245,
-          "usdc_size": 2827.7,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.3539,
-          "cur_price": 0.3465,
-          "usdc_size": 784.01,
+          "usdc_size": 6568.79,
           "outcome": "Yes"
         },
         {
           "market": "Will USA win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0233,
-          "cur_price": 0.0265,
-          "usdc_size": 1459.63,
+          "cur_price": 0.0285,
+          "usdc_size": 1637.77,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xcfed71750bfb9f0af569f318e8f1ba9628d79980",
-      "name": "0xcfED71750bFB9F0aF569f318e8F1ba9628D79980-1724244857690",
-      "score": 31.0,
-      "roi_score": 2.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.7,
-      "roi": -46.8,
-      "cash_pnl": -1055.55,
-      "realized_pnl": 310.36,
-      "total_usdc": 30615.15,
-      "trade_count": 63,
-      "market_count": 47,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T14:08:08+00:00",
-      "top_markets": [
-        "Will Jake Paul win his boxing match against Mike Tyson?",
-        "Counter-Strike: FURIA vs Team Falcons (BO3) - PGL Cluj-Napoca Group Stage",
-        "Will Putin meet with Zelenskyy in 2025?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x20c6959a19427d373e3ce3397e54dd1d9d1745ae",
-      "name": "0x20c6959A19427D373E3Ce3397e54dD1D9d1745Ae-1770881427955",
-      "score": 31.0,
+      "wallet": "0x092f92b2b8bd825d7e0f668e324a95cc20132ff1",
+      "name": "0x092F92B2b8Bd825D7e0f668E324A95cc20132ff1-1779282871255",
+      "score": 31.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.7,
-      "roi": -51.8,
-      "cash_pnl": -19935.99,
-      "realized_pnl": 873.27,
-      "total_usdc": 67555.76,
-      "trade_count": 130,
-      "market_count": 86,
-      "position_count": 53,
+      "volume_score": 86.3,
+      "roi": -60.0,
+      "cash_pnl": -12161.62,
+      "realized_pnl": -799.8,
+      "total_usdc": 82341.73,
+      "trade_count": 261,
+      "market_count": 152,
+      "position_count": 94,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T12:44:01+00:00",
+      "last_active": "2026-07-05T19:09:28+00:00",
       "top_markets": [
-        "Spread: Argentina (-1.5)",
-        "Will Japan win on 2026-06-14?",
-        "Spread: France (-1.5)"
+        "Will Portugal win the 2026 FIFA World Cup?",
+        "Will Spain win on 2026-06-26?",
+        "Will Saudi Arabia win on 2026-06-15?"
       ],
       "signals": [
         {
-          "market": "Brazil vs. Norway: Both Teams to Score",
-          "signal": "ENTER",
-          "avg_price": 0.6099,
-          "cur_price": 0.615,
-          "usdc_size": 1512.3,
-          "outcome": "Yes"
-        },
-        {
           "market": "Mexico vs. England: Team to Advance",
           "signal": "ENTER",
-          "avg_price": 0.4699,
+          "avg_price": 0.4799,
           "cur_price": 0.475,
-          "usdc_size": 505.32,
+          "usdc_size": 1979.17,
           "outcome": "Mexico"
         },
         {
-          "market": "Brazil vs. Norway: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.5799,
-          "cur_price": 0.585,
-          "usdc_size": 605.17,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2229,
-          "cur_price": 0.3465,
-          "usdc_size": 9643.7,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.015,
-          "cur_price": 0.0245,
-          "usdc_size": 600.25,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0994,
-          "cur_price": 0.1685,
-          "usdc_size": 1693.63,
+          "avg_price": 0.0647,
+          "cur_price": 0.0595,
+          "usdc_size": 6056.64,
           "outcome": "Yes"
         }
       ]
-    },
-    {
-      "wallet": "0x1b2b0c00bb86f4d8931feb0f5e9c520d9323bedb",
-      "name": "MakeBank101",
-      "score": 30.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.9,
-      "roi": -62.8,
-      "cash_pnl": -1093.08,
-      "realized_pnl": 0.0,
-      "total_usdc": 21193.31,
-      "trade_count": 157,
-      "market_count": 76,
-      "position_count": 12,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T17:09:17+00:00",
-      "top_markets": [
-        "Trump ends Ukraine war before inauguration?",
-        "Will Kamala Harris win the 2024 US Presidential Election?",
-        "Will Jake Paul win his boxing match against Mike Tyson?"
-      ],
-      "signals": [
-        {
-          "market": "Mexico vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.475,
-          "usdc_size": 590.38,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xe67d672e74dac9a09f0d20f3b443090d1a4c8180",
-      "name": "Raikage",
-      "score": 29.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 71.9,
-      "roi": -77.0,
-      "cash_pnl": -270.7,
-      "realized_pnl": -0.62,
-      "total_usdc": 12589.19,
-      "trade_count": 500,
-      "market_count": 248,
-      "position_count": 14,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T16:32:16+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Senegal win the 2026 FIFA World Cup?",
-        "Will Mexico win the 2026 FIFA World Cup?"
-      ],
-      "signals": []
     }
   ],
   "markets": [
     {
       "id": "0x37a6de1b21803e5f3fb1965116218215d79963af4f7e51659696366267a63a03",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "volume": "126422010.81185935",
-      "liquidity": "1859246.08892",
+      "volume": "126980352.098623",
+      "liquidity": "1691114.88485",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x94e50623d3cfdc1256e16ff372062d42c282bec8af620bb732a19fb4b0dce580",
       "question": "Mexico vs. England: Team to Advance",
-      "volume": "6616192.810710076",
-      "liquidity": "2591942.6004",
+      "volume": "7352994.341888108",
+      "liquidity": "3124116.2361",
       "end_date": "2026-07-06T00:00:00Z"
     },
     {
       "id": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe",
       "question": "Will Egypt win the 2026 FIFA World Cup?",
-      "volume": "122724345.43764222",
-      "liquidity": "12306927.66047",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "volume": "131246842.72364742",
-      "liquidity": "1952046.92244",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xa1b9197a70166b28f64766c468da80dbfced6e64efac9b80d87cac9c0e1540aa",
-      "question": "Will Volodymyr Zelenskyy be the next leader out before 2027?",
-      "volume": "11086743.396083001",
-      "liquidity": "72787.96387",
-      "end_date": "2026-12-31T00:00:00Z"
-    },
-    {
-      "id": "0x2a0e8ce7c309ec8015c4c721dec574ff100b0512ef412a54bb733dc5bef740dc",
-      "question": "Will Brazil win on 2026-07-05?",
-      "volume": "3940998.9991276884",
-      "liquidity": "4548692.4345",
-      "end_date": "2026-07-05T20:00:00Z"
-    },
-    {
-      "id": "0x5ccfe1b69a582d2985db08a8481a0d74c314b1fce9b4711ae2efb2c6467fe6aa",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "volume": "130000871.55821714",
-      "liquidity": "1150730.46912",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
-      "question": "Will Norway win the 2026 FIFA World Cup?",
-      "volume": "96836296.61606352",
-      "liquidity": "2957566.31365",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
-      "question": "Will Belgium win the 2026 FIFA World Cup?",
-      "volume": "104640068.29194048",
-      "liquidity": "3831674.26872",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xad9e90bf3ccd05f9c3d4a25f49109d5f860225c26faec54b52edec93c4ba4e62",
-      "question": "Brazil vs. Norway: Team to Advance",
-      "volume": "2703340.487278957",
-      "liquidity": "2060827.1978",
-      "end_date": "2026-07-05T20:00:00Z"
-    },
-    {
-      "id": "0x4da73e81ca85a3d9715340bea8dc38c102fe0bf63ba6aa1f3efd8a54d56e9d0d",
-      "question": "Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davidovich Fokina",
-      "volume": "2057839.3378859987",
-      "liquidity": "244166.9407",
-      "end_date": "2026-07-12T10:00:00Z"
-    },
-    {
-      "id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
-      "question": "Will Switzerland win the 2026 FIFA World Cup?",
-      "volume": "95539141.3108636",
-      "liquidity": "9347882.47205",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
-      "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "volume": "100138072.10767391",
-      "liquidity": "5428816.82141",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "volume": "94734393.88982373",
-      "liquidity": "5279722.96782",
+      "volume": "123250585.66647221",
+      "liquidity": "11211171.77404",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0xf134b5d6d31ea59fe65cb22961ec1120e41a2451ef9311d6b750d6638a1c9322",
       "question": "Brazil vs. Norway: O/U 2.5",
-      "volume": "2281520.67354101",
-      "liquidity": "787861.0517",
+      "volume": "4452696.194061008",
+      "liquidity": "1874720.4526",
       "end_date": "2026-07-05T20:00:00Z"
     },
     {
-      "id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
-      "question": "Will England win the 2026 FIFA World Cup?",
-      "volume": "78879360.40975909",
-      "liquidity": "4157616.77977",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x32046bdc03d13d916351bd2178cc20c5f268802d4ae60c0d8383ae91d2dd1d41",
-      "question": "Will Mexico win on 2026-07-05?",
-      "volume": "2951324.3314999724",
-      "liquidity": "1809084.0987",
-      "end_date": "2026-07-06T00:00:00Z"
-    },
-    {
-      "id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "volume": "98671076.44393161",
-      "liquidity": "3702362.54436",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xe81ec0ca7357d9e91e9b95e1ecf60606f8b1686290464758b9a3595aeae11a1a",
-      "question": "Brazil vs. Norway: Both Teams to Score",
-      "volume": "1815307.808494004",
-      "liquidity": "866914.9651",
+      "id": "0x2a0e8ce7c309ec8015c4c721dec574ff100b0512ef412a54bb733dc5bef740dc",
+      "question": "Will Brazil win on 2026-07-05?",
+      "volume": "4529631.7960776575",
+      "liquidity": "4884622.0898",
       "end_date": "2026-07-05T20:00:00Z"
+    },
+    {
+      "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "volume": "97890880.87805848",
+      "liquidity": "2468188.86937",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "volume": "131769080.7200464",
+      "liquidity": "1870927.87736",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0xa1b9197a70166b28f64766c468da80dbfced6e64efac9b80d87cac9c0e1540aa",
+      "question": "Will Volodymyr Zelenskyy be the next leader out before 2027?",
+      "volume": "11087514.616083",
+      "liquidity": "70133.68023",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0x4da73e81ca85a3d9715340bea8dc38c102fe0bf63ba6aa1f3efd8a54d56e9d0d",
+      "question": "Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davidovich Fokina",
+      "volume": "3243939.662487997",
+      "liquidity": "137163.66724",
+      "end_date": "2026-07-12T10:00:00Z"
+    },
+    {
+      "id": "0x5ccfe1b69a582d2985db08a8481a0d74c314b1fce9b4711ae2efb2c6467fe6aa",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "volume": "130285836.59876117",
+      "liquidity": "1103763.77257",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
+      "question": "Will Belgium win the 2026 FIFA World Cup?",
+      "volume": "104860409.01455747",
+      "liquidity": "3780454.19992",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0xad9e90bf3ccd05f9c3d4a25f49109d5f860225c26faec54b52edec93c4ba4e62",
+      "question": "Brazil vs. Norway: Team to Advance",
+      "volume": "3093500.507667928",
+      "liquidity": "2110525.5647",
+      "end_date": "2026-07-05T20:00:00Z"
+    },
+    {
+      "id": "0xacb0eed77d09803271dbd3c4bd48e36e7db3bce93d9f9e7b41698c5b374ae726",
+      "question": "Wimbledon ATP: Hubert Hurkacz vs Jan-Lennard Struff",
+      "volume": "2338103.4662169935",
+      "liquidity": "52818.3292",
+      "end_date": "2026-07-12T10:00:00Z"
     },
     {
       "id": "0xe6f040d202cefefe47bdc9d192303905418223fec440f96eb2abe98f3b701bd4",
       "question": "Will Norway win on 2026-07-05?",
-      "volume": "2086025.7350220073",
-      "liquidity": "2791680.9994",
+      "volume": "2722989.3166370047",
+      "liquidity": "2196484.0065",
       "end_date": "2026-07-05T20:00:00Z"
+    },
+    {
+      "id": "0xe81ec0ca7357d9e91e9b95e1ecf60606f8b1686290464758b9a3595aeae11a1a",
+      "question": "Brazil vs. Norway: Both Teams to Score",
+      "volume": "2261213.657356005",
+      "liquidity": "861729.2988",
+      "end_date": "2026-07-05T20:00:00Z"
+    },
+    {
+      "id": "0x32046bdc03d13d916351bd2178cc20c5f268802d4ae60c0d8383ae91d2dd1d41",
+      "question": "Will Mexico win on 2026-07-05?",
+      "volume": "3156195.5860559815",
+      "liquidity": "1640491.1794",
+      "end_date": "2026-07-06T00:00:00Z"
+    },
+    {
+      "id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "volume": "79119658.53339209",
+      "liquidity": "4126532.91548",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
+      "question": "Will Switzerland win the 2026 FIFA World Cup?",
+      "volume": "95573665.32319358",
+      "liquidity": "9481962.77214",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
+      "volume": "100179952.59573893",
+      "liquidity": "5454648.90564",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "volume": "98761313.59110172",
+      "liquidity": "3670274.89814",
+      "end_date": "2026-07-20T00:00:00Z"
     }
   ]
 }
