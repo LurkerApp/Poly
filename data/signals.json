@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-07-05T02:54:47.306759+00:00",
+  "last_updated": "2026-07-05T06:40:42.980920+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
       "wallet": "0x81ef8cb9f75921beda5a0a6cd3c5c508ac6347f7",
       "name": "Rrrrffff",
-      "score": 56.4,
-      "roi_score": 83.3,
+      "score": 56.6,
+      "roi_score": 84.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 89.0,
-      "roi": 74.9,
-      "cash_pnl": 44370.39,
+      "roi": 76.0,
+      "cash_pnl": 44978.08,
       "realized_pnl": 7831.1,
       "total_usdc": 117738.96,
       "trade_count": 6,
@@ -32,8 +32,8 @@
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "LATE",
           "avg_price": 0.0273,
-          "cur_price": 0.0255,
-          "usdc_size": 4979.2,
+          "cur_price": 0.0285,
+          "usdc_size": 5586.9,
           "outcome": "Yes"
         },
         {
@@ -49,14 +49,14 @@
     {
       "wallet": "0xf4d1d1c3a5691b14246b7406f54fa5bf6624ab5b",
       "name": "",
-      "score": 50.7,
-      "roi_score": 73.8,
+      "score": 54.6,
+      "roi_score": 86.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 60.8,
-      "roi": 60.7,
-      "cash_pnl": 247.33,
+      "roi": 80.3,
+      "cash_pnl": 327.26,
       "realized_pnl": 214.55,
       "total_usdc": 2930.86,
       "trade_count": 9,
@@ -76,8 +76,8 @@
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0158,
-          "cur_price": 0.0255,
-          "usdc_size": 654.87,
+          "cur_price": 0.0285,
+          "usdc_size": 734.8,
           "outcome": "Yes"
         }
       ]
@@ -108,16 +108,116 @@
       "signals": []
     },
     {
+      "wallet": "0xb2005013643ecf63e84e653726e1a38450acbc94",
+      "name": "aatf",
+      "score": 44.9,
+      "roi_score": 43.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.8,
+      "roi": 15.8,
+      "cash_pnl": 2725.13,
+      "realized_pnl": -363583.89,
+      "total_usdc": 171240.56,
+      "trade_count": 500,
+      "market_count": 15,
+      "position_count": 46,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:37:22+00:00",
+      "top_markets": [
+        "Will France win the 2026 FIFA World Cup?",
+        "Will Spain win the 2026 FIFA World Cup?",
+        "Will Portugal win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.1675,
+          "usdc_size": 502.66,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0255,
+          "usdc_size": 2924.26,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.1675,
+          "usdc_size": 2497.51,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0285,
+          "usdc_size": 2914.32,
+          "outcome": "No"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.3575,
+          "usdc_size": 1481.57,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0085,
+          "usdc_size": 1982.83,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0165,
+          "usdc_size": 1966.49,
+          "outcome": "No"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.0675,
+          "usdc_size": 932.94,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.1245,
+          "usdc_size": 607.37,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
       "wallet": "0xa52b785a5510117ac3ae03d75d029f89a36c9480",
       "name": "Hashbrown",
-      "score": 44.6,
-      "roi_score": 40.4,
+      "score": 44.7,
+      "roi_score": 40.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": 10.7,
-      "cash_pnl": 18208.21,
+      "roi": 10.9,
+      "cash_pnl": 18620.15,
       "realized_pnl": -10570.42,
       "total_usdc": 782000.95,
       "trade_count": 500,
@@ -145,8 +245,8 @@
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.168,
-          "cur_price": 0.1255,
-          "usdc_size": 12801.0,
+          "cur_price": 0.1245,
+          "usdc_size": 12699.0,
           "outcome": "Yes"
         },
         {
@@ -155,14 +255,6 @@
           "avg_price": 0.079,
           "cur_price": 0.1675,
           "usdc_size": 16917.5,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.084,
-          "cur_price": 0.0645,
-          "usdc_size": 6514.5,
           "outcome": "Yes"
         },
         {
@@ -177,53 +269,141 @@
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0234,
-          "cur_price": 0.0255,
-          "usdc_size": 2565.4,
+          "cur_price": 0.0285,
+          "usdc_size": 2878.5,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xc931d4289add90e51177cfc2bfc69a446efac416",
-      "name": "Lotfi009",
-      "score": 44.1,
-      "roi_score": 43.3,
+      "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "name": "mooseborzoi",
+      "score": 42.9,
+      "roi_score": 40.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.1,
-      "roi": 14.9,
-      "cash_pnl": 3817.99,
-      "realized_pnl": 773.15,
-      "total_usdc": 80689.51,
-      "trade_count": 24,
-      "market_count": 7,
-      "position_count": 3,
+      "volume_score": 81.6,
+      "roi": 11.3,
+      "cash_pnl": 157385.84,
+      "realized_pnl": 254268.15,
+      "total_usdc": 44771.87,
+      "trade_count": 500,
+      "market_count": 20,
+      "position_count": 223,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-04T19:34:59+00:00",
+      "last_active": "2026-07-05T06:39:56+00:00",
       "top_markets": [
-        "Will Netherlands win the 2026 FIFA World Cup?",
-        "Will Norway win the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?"
+        "LoL: Team Secret Whales vs Top Esports (BO5) - Mid-Season Invitational Playoffs",
+        "Will Mexico win on 2026-07-05?",
+        "Will Brazil win on 2026-07-05?"
       ],
       "signals": [
         {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.2829,
-          "cur_price": 0.3575,
-          "usdc_size": 23360.67,
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.176,
+          "cur_price": 0.1675,
+          "usdc_size": 213074.32,
           "outcome": "Yes"
         },
         {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "market": "Will Mexico win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.194,
-          "cur_price": 0.1675,
-          "usdc_size": 6044.35,
+          "avg_price": 0.0177,
+          "cur_price": 0.0335,
+          "usdc_size": 88821.86,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0187,
+          "cur_price": 0.0255,
+          "usdc_size": 52449.81,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0771,
+          "cur_price": 0.0595,
+          "usdc_size": 115498.6,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.2582,
+          "cur_price": 0.3575,
+          "usdc_size": 447600.51,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0242,
+          "cur_price": 0.0285,
+          "usdc_size": 33722.85,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1438,
+          "cur_price": 0.1245,
+          "usdc_size": 113497.04,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Colombia win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0248,
+          "cur_price": 0.0315,
+          "usdc_size": 27073.29,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0218,
+          "cur_price": 0.0165,
+          "usdc_size": 9324.63,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0106,
+          "cur_price": 0.0085,
+          "usdc_size": 2208.2,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1002,
+          "cur_price": 0.0675,
+          "usdc_size": 8076.73,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.014,
+          "cur_price": 0.0125,
+          "usdc_size": 1342.76,
+          "outcome": "Yes"
+        },
+        {
+          "market": "LoL: Team Secret Whales vs Top Esports (BO5) - Mid-Season Invitational Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.1497,
+          "cur_price": 0.9995,
+          "usdc_size": 53231.11,
+          "outcome": "Team Secret Whales"
         }
       ]
     },
@@ -237,7 +417,7 @@
       "early_entry_score": 0.0,
       "volume_score": 97.8,
       "roi": -0.5,
-      "cash_pnl": -922.27,
+      "cash_pnl": -1032.51,
       "realized_pnl": -4.56,
       "total_usdc": 373060.67,
       "trade_count": 321,
@@ -274,29 +454,89 @@
     {
       "wallet": "0x99f849e6f645287651e5202eff648c2ac44738b5",
       "name": "Thdhjdjdj",
-      "score": 42.0,
-      "roi_score": 38.8,
+      "score": 41.6,
+      "roi_score": 37.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.9,
-      "roi": 8.2,
-      "cash_pnl": 334.9,
+      "volume_score": 79.1,
+      "roi": 6.2,
+      "cash_pnl": 315.65,
       "realized_pnl": 0.0,
-      "total_usdc": 31237.04,
-      "trade_count": 92,
-      "market_count": 12,
-      "position_count": 4,
+      "total_usdc": 32387.96,
+      "trade_count": 101,
+      "market_count": 18,
+      "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T01:17:58+00:00",
+      "last_active": "2026-07-05T03:41:16+00:00",
       "top_markets": [
         "Will Morocco win the 2026 FIFA World Cup?",
         "Will France win on 2026-07-04?",
         "Canada vs. Morocco: Team to Advance"
       ],
       "signals": []
+    },
+    {
+      "wallet": "0x0c3e65c785df3d739b0c9f9fe8bcc05477fc502c",
+      "name": "xc4022",
+      "score": 41.2,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.9,
+      "roi": 0.0,
+      "cash_pnl": 5.53,
+      "realized_pnl": -7908.35,
+      "total_usdc": 89322.48,
+      "trade_count": 500,
+      "market_count": 8,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:38:17+00:00",
+      "top_markets": [
+        "Will Spain win the 2026 FIFA World Cup?",
+        "Will Portugal win the 2026 FIFA World Cup?",
+        "Will China invade Taiwan by end of 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.167,
+          "cur_price": 0.1675,
+          "usdc_size": 502.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.3569,
+          "cur_price": 0.3575,
+          "usdc_size": 715.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.8749,
+          "cur_price": 0.1245,
+          "usdc_size": 5253.0,
+          "outcome": "No"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.643,
+          "cur_price": 0.3575,
+          "usdc_size": 1285.3,
+          "outcome": "No"
+        }
+      ]
     },
     {
       "wallet": "0x6a678ca367432d28cb6aa55bb6bc57d8f53bdf6f",
@@ -306,18 +546,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.6,
+      "volume_score": 78.0,
       "roi": 4.7,
-      "cash_pnl": 2005.45,
-      "realized_pnl": 14706.56,
-      "total_usdc": 26424.42,
+      "cash_pnl": 1949.88,
+      "realized_pnl": 14998.29,
+      "total_usdc": 27856.97,
       "trade_count": 500,
-      "market_count": 20,
+      "market_count": 19,
       "position_count": 35,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:54:01+00:00",
+      "last_active": "2026-07-05T05:58:47+00:00",
       "top_markets": [
         "Will Morocco win the 2026 FIFA World Cup?",
         "Will Norway win the 2026 FIFA World Cup?",
@@ -325,19 +565,11 @@
       ],
       "signals": [
         {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0629,
-          "cur_price": 0.0645,
-          "usdc_size": 2651.36,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Norway win the 2026 FIFA World Cup?",
           "signal": "LATE",
-          "avg_price": 0.0176,
+          "avg_price": 0.0175,
           "cur_price": 0.0165,
-          "usdc_size": 7859.23,
+          "usdc_size": 8324.58,
           "outcome": "Yes"
         },
         {
@@ -360,16 +592,16 @@
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0218,
-          "cur_price": 0.0255,
-          "usdc_size": 1902.97,
+          "cur_price": 0.0285,
+          "usdc_size": 674.24,
           "outcome": "Yes"
         },
         {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.1158,
-          "cur_price": 0.1255,
-          "usdc_size": 1624.92,
+          "cur_price": 0.1245,
+          "usdc_size": 1611.97,
           "outcome": "Yes"
         }
       ]
@@ -377,27 +609,27 @@
     {
       "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
       "name": "suntori",
-      "score": 41.0,
-      "roi_score": 35.7,
+      "score": 41.2,
+      "roi_score": 35.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.4,
-      "roi": 3.6,
-      "cash_pnl": 36679.35,
-      "realized_pnl": 37602.33,
-      "total_usdc": 25873.87,
+      "volume_score": 80.3,
+      "roi": 3.2,
+      "cash_pnl": 37307.9,
+      "realized_pnl": 41227.0,
+      "total_usdc": 37615.61,
       "trade_count": 500,
-      "market_count": 138,
+      "market_count": 109,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:53:55+00:00",
+      "last_active": "2026-07-05T06:40:11+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - July 4, 10:45PM-10:50PM ET",
-        "Bitcoin Up or Down - July 4, 10:40PM-10:45PM ET",
-        "Bitcoin Up or Down - July 4, 10:50PM-10:55PM ET"
+        "Bitcoin Up or Down - July 5, 2:30AM-2:35AM ET",
+        "Bitcoin Up or Down - July 5, 2:35AM-2:40AM ET",
+        "Bitcoin Up or Down - July 5, 2:25AM-2:30AM ET"
       ],
       "signals": [
         {
@@ -421,63 +653,71 @@
           "signal": "LATE",
           "avg_price": 0.0131,
           "cur_price": 0.0125,
-          "usdc_size": 5045.12,
+          "usdc_size": 5042.85,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0267,
+          "cur_price": 0.0255,
+          "usdc_size": 6254.23,
           "outcome": "Yes"
         },
         {
           "market": "Will Norway win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0237,
+          "avg_price": 0.0236,
           "cur_price": 0.0165,
-          "usdc_size": 40488.66,
+          "usdc_size": 40530.15,
           "outcome": "Yes"
         },
         {
           "market": "Will Portugal win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.076,
+          "avg_price": 0.0759,
           "cur_price": 0.0595,
-          "usdc_size": 58182.95,
+          "usdc_size": 58276.68,
           "outcome": "Yes"
         },
         {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.1384,
-          "cur_price": 0.1255,
-          "usdc_size": 84097.0,
+          "cur_price": 0.1245,
+          "usdc_size": 79399.73,
           "outcome": "Yes"
         },
         {
           "market": "Will France win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2377,
+          "avg_price": 0.2383,
           "cur_price": 0.3575,
-          "usdc_size": 226565.61,
+          "usdc_size": 226310.7,
           "outcome": "Yes"
         },
         {
           "market": "Will Mexico win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0175,
-          "cur_price": 0.0345,
-          "usdc_size": 19086.06,
+          "cur_price": 0.0335,
+          "usdc_size": 18463.6,
           "outcome": "Yes"
         },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1016,
+          "avg_price": 0.1011,
           "cur_price": 0.0675,
-          "usdc_size": 30547.79,
+          "usdc_size": 30973.94,
           "outcome": "Yes"
         },
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.02,
-          "cur_price": 0.0255,
-          "usdc_size": 9541.74,
+          "cur_price": 0.0285,
+          "usdc_size": 10705.12,
           "outcome": "Yes"
         },
         {
@@ -485,23 +725,7 @@
           "signal": "SKIP",
           "avg_price": 0.1354,
           "cur_price": 0.1675,
-          "usdc_size": 57675.05,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0704,
-          "cur_price": 0.0645,
-          "usdc_size": 19486.12,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0267,
-          "cur_price": 0.0235,
-          "usdc_size": 5798.15,
+          "usdc_size": 57775.69,
           "outcome": "Yes"
         },
         {
@@ -513,11 +737,27 @@
           "outcome": "Yes"
         },
         {
+          "market": "LoL: Team Secret Whales vs Top Esports (BO5) - Mid-Season Invitational Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.3765,
+          "cur_price": 0.9995,
+          "usdc_size": 36579.86,
+          "outcome": "Team Secret Whales"
+        },
+        {
+          "market": "LoL: Team Secret Whales vs Top Esports - Game 4 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6262,
+          "cur_price": 0.9995,
+          "usdc_size": 6631.87,
+          "outcome": "Team Secret Whales"
+        },
+        {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.8973,
           "cur_price": 0.0675,
-          "usdc_size": 890.38,
+          "usdc_size": 875.76,
           "outcome": "No"
         },
         {
@@ -533,7 +773,7 @@
           "signal": "SKIP",
           "avg_price": 0.8111,
           "cur_price": 0.1675,
-          "usdc_size": 692.73,
+          "usdc_size": 678.22,
           "outcome": "No"
         }
       ]
@@ -566,31 +806,226 @@
       "signals": []
     },
     {
-      "wallet": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
-      "name": "thefakenick",
-      "score": 40.7,
-      "roi_score": 33.8,
+      "wallet": "0x90f8178da468e001d9e62f664f01eb20c46b64c9",
+      "name": "ThatMohamedOmar",
+      "score": 40.6,
+      "roi_score": 29.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 80.1,
-      "roi": 0.7,
-      "cash_pnl": 140.52,
-      "realized_pnl": 5548.97,
-      "total_usdc": 36766.65,
-      "trade_count": 500,
-      "market_count": 29,
-      "position_count": 37,
+      "volume_score": 93.5,
+      "roi": -6.5,
+      "cash_pnl": -243.53,
+      "realized_pnl": -59.61,
+      "total_usdc": 212933.61,
+      "trade_count": 327,
+      "market_count": 183,
+      "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:53:05+00:00",
+      "last_active": "2026-07-05T06:30:52+00:00",
       "top_markets": [
-        "Will Norway win the 2026 FIFA World Cup?",
-        "Will Belgium win the 2026 FIFA World Cup?",
-        "Will Canada win the 2026 FIFA World Cup?"
+        "Will Cabo Verde win on 2026-07-03?",
+        "Portugal vs. Croatia: Team to Advance",
+        "Will Egypt win the 2026 FIFA World Cup?"
       ],
       "signals": [
+        {
+          "market": "Will Egypt win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.002,
+          "cur_price": 0.0015,
+          "usdc_size": 750.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0265,
+          "cur_price": 0.0285,
+          "usdc_size": 536.95,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.6529,
+          "cur_price": 0.3575,
+          "usdc_size": 1229.9,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+      "name": "abura2025",
+      "score": 40.3,
+      "roi_score": 29.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.4,
+      "roi": -5.7,
+      "cash_pnl": -4331.05,
+      "realized_pnl": 9182.25,
+      "total_usdc": 124399.66,
+      "trade_count": 500,
+      "market_count": 10,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:36:05+00:00",
+      "top_markets": [
+        "Brazil vs. Norway: Team to Advance",
+        "Portugal vs. Spain: Team to Advance",
+        "Mexico vs. England: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.028,
+          "cur_price": 0.0285,
+          "usdc_size": 1732.37,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x06b6cdaf7aad1dc399c5cf0e78f05c843b4d09ce",
+      "name": "calimero86",
+      "score": 40.2,
+      "roi_score": 34.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 73.6,
+      "roi": 1.8,
+      "cash_pnl": 276.48,
+      "realized_pnl": 0.0,
+      "total_usdc": 15713.01,
+      "trade_count": 4,
+      "market_count": 3,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T04:45:28+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Brazil win the 2026 FIFA World Cup?",
+        "Will Morocco win on 2026-06-13?"
+      ],
+      "signals": [
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0201,
+          "cur_price": 0.0285,
+          "usdc_size": 14374.02,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x85a85805bcbdf2e629788adac1420b6b53949281",
+      "name": "LJa7io23MCv954j",
+      "score": 40.1,
+      "roi_score": 27.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.1,
+      "roi": -8.5,
+      "cash_pnl": -6574.55,
+      "realized_pnl": 50.32,
+      "total_usdc": 201411.21,
+      "trade_count": 500,
+      "market_count": 62,
+      "position_count": 27,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-04T21:16:56+00:00",
+      "top_markets": [
+        "Strait of Hormuz traffic returns to normal by end of June?",
+        "Strait of Hormuz traffic returns to normal by July 15?",
+        "US-Iran nuclear deal by June 30?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf0d57092d1f66c4298eafc8208c3901c52504527",
+      "name": "0xF0D57092D1F66C4298eAfc8208c3901c52504527-1780767648062",
+      "score": 39.5,
+      "roi_score": 34.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 65.9,
+      "roi": 2.1,
+      "cash_pnl": 40.82,
+      "realized_pnl": 0.0,
+      "total_usdc": 5678.97,
+      "trade_count": 12,
+      "market_count": 7,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T02:45:04+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Netherlands win the 2026 FIFA World Cup?",
+        "Will Brazil win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0219,
+          "cur_price": 0.0255,
+          "usdc_size": 800.41,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
+      "name": "thefakenick",
+      "score": 39.3,
+      "roi_score": 33.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 68.3,
+      "roi": 0.0,
+      "cash_pnl": 0.69,
+      "realized_pnl": 2134.53,
+      "total_usdc": 7853.23,
+      "trade_count": 500,
+      "market_count": 13,
+      "position_count": 36,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:39:37+00:00",
+      "top_markets": [
+        "Will Switzerland win the 2026 FIFA World Cup?",
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Belgium win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0249,
+          "cur_price": 0.0255,
+          "usdc_size": 1270.0,
+          "outcome": "Yes"
+        },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "ENTER",
@@ -616,176 +1051,11 @@
           "outcome": "Yes"
         },
         {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0249,
-          "cur_price": 0.0235,
-          "usdc_size": 1175.0,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Switzerland win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0076,
+          "avg_price": 0.0077,
           "cur_price": 0.0085,
-          "usdc_size": 2477.04,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.021,
-          "cur_price": 0.0255,
-          "usdc_size": 1755.9,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x85a85805bcbdf2e629788adac1420b6b53949281",
-      "name": "LJa7io23MCv954j",
-      "score": 40.1,
-      "roi_score": 27.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.1,
-      "roi": -8.5,
-      "cash_pnl": -6596.14,
-      "realized_pnl": 50.32,
-      "total_usdc": 201411.21,
-      "trade_count": 500,
-      "market_count": 62,
-      "position_count": 27,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T21:16:56+00:00",
-      "top_markets": [
-        "Strait of Hormuz traffic returns to normal by end of June?",
-        "Strait of Hormuz traffic returns to normal by July 15?",
-        "US-Iran nuclear deal by June 30?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xcfe0c7ac8f82b61d6284d46c8720ad9471ca507c",
-      "name": "RKSLastHope",
-      "score": 39.5,
-      "roi_score": 31.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.0,
-      "roi": -3.3,
-      "cash_pnl": -130.63,
-      "realized_pnl": 5.07,
-      "total_usdc": 24286.54,
-      "trade_count": 500,
-      "market_count": 203,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T19:35:10+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - May 19, 2:20PM-2:25PM ET",
-        "Bitcoin Up or Down - July 3, 3:00PM-3:05PM ET",
-        "Bitcoin Up or Down - June 5, 6:25PM-6:30PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.1189,
-          "cur_price": 0.1255,
-          "usdc_size": 2109.24,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1899,
-          "cur_price": 0.1675,
-          "usdc_size": 1763.16,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf0d57092d1f66c4298eafc8208c3901c52504527",
-      "name": "0xF0D57092D1F66C4298eAfc8208c3901c52504527-1780767648062",
-      "score": 38.5,
-      "roi_score": 31.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 65.9,
-      "roi": -2.8,
-      "cash_pnl": -54.14,
-      "realized_pnl": 0.0,
-      "total_usdc": 5678.97,
-      "trade_count": 12,
-      "market_count": 7,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T02:45:04+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Netherlands win the 2026 FIFA World Cup?",
-        "Will Brazil win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0219,
-          "cur_price": 0.0235,
-          "usdc_size": 740.54,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0702,
-          "cur_price": 0.0645,
-          "usdc_size": 1131.4,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0420aabce10428b1654c77cc6e5f98535d30135c",
-      "name": "0x0420AaBCE10428b1654C77cc6e5f98535d30135C-1783122672093",
-      "score": 37.6,
-      "roi_score": 34.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 48.0,
-      "roi": 1.6,
-      "cash_pnl": 8.46,
-      "realized_pnl": 0.0,
-      "total_usdc": 544.24,
-      "trade_count": 1,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T18:59:16+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.025,
-          "cur_price": 0.0255,
-          "usdc_size": 537.23,
+          "usdc_size": 3266.35,
           "outcome": "Yes"
         }
       ]
@@ -793,14 +1063,14 @@
     {
       "wallet": "0xcfcabcd88df9e0bebfc4347a86c4686e7cb78b3a",
       "name": "DumbMoney2222",
-      "score": 35.4,
-      "roi_score": 13.0,
+      "score": 36.7,
+      "roi_score": 17.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 90.2,
-      "roi": -30.5,
-      "cash_pnl": -2503.31,
+      "roi": -24.3,
+      "cash_pnl": -1991.79,
       "realized_pnl": 2.52,
       "total_usdc": 138109.48,
       "trade_count": 500,
@@ -818,10 +1088,10 @@
       "signals": [
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.0258,
-          "cur_price": 0.0255,
-          "usdc_size": 4227.87,
+          "cur_price": 0.0285,
+          "usdc_size": 4743.87,
           "outcome": "Yes"
         },
         {
@@ -837,14 +1107,14 @@
     {
       "wallet": "0x29673aa650e09fa8aeb920dde3c333b32d4fbd09",
       "name": "Thalantyr",
-      "score": 35.3,
-      "roi_score": 19.2,
+      "score": 35.6,
+      "roi_score": 20.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 70.4,
-      "roi": -21.2,
-      "cash_pnl": -12397.82,
+      "roi": -19.6,
+      "cash_pnl": -11421.45,
       "realized_pnl": 10172.81,
       "total_usdc": 10287.54,
       "trade_count": 500,
@@ -868,14 +1138,6 @@
           "outcome": "Yes"
         },
         {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0239,
-          "cur_price": 0.0255,
-          "usdc_size": 9024.08,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Belgium win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0077,
@@ -884,11 +1146,19 @@
           "outcome": "Yes"
         },
         {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0239,
+          "cur_price": 0.0285,
+          "usdc_size": 10125.45,
+          "outcome": "Yes"
+        },
+        {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.1057,
-          "cur_price": 0.1255,
-          "usdc_size": 15687.5,
+          "cur_price": 0.1245,
+          "usdc_size": 15562.5,
           "outcome": "Yes"
         },
         {
@@ -902,25 +1172,123 @@
       ]
     },
     {
-      "wallet": "0x89fcb0f6e53e6c70be7ceab209c8521fb0e6b5c2",
-      "name": "marksoc",
-      "score": 34.0,
-      "roi_score": 12.2,
+      "wallet": "0xef9fb7322631ecb96f40c7210006ccb4066d8924",
+      "name": "Sai28",
+      "score": 34.1,
+      "roi_score": 12.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.5,
-      "roi": -31.6,
-      "cash_pnl": -3416.75,
-      "realized_pnl": 8659.11,
-      "total_usdc": 29776.74,
+      "volume_score": 77.9,
+      "roi": -31.0,
+      "cash_pnl": -5790.88,
+      "realized_pnl": -49.33,
+      "total_usdc": 27482.63,
+      "trade_count": 500,
+      "market_count": 81,
+      "position_count": 45,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:34:13+00:00",
+      "top_markets": [
+        "Will Senegal win the 2026 FIFA World Cup?",
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Exact Score: Canada 0 - 1 Morocco?"
+      ],
+      "signals": [
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0182,
+          "cur_price": 0.0285,
+          "usdc_size": 9975.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0104,
+          "cur_price": 0.0085,
+          "usdc_size": 1700.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xbafba9a1f11f68692f42349b04a0a5452ef12468",
+      "name": "0xbaFba9a1F11f68692f42349b04A0A5452eF12468-1772375318083",
+      "score": 34.0,
+      "roi_score": 13.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.0,
+      "roi": -30.4,
+      "cash_pnl": -249.64,
+      "realized_pnl": -24.27,
+      "total_usdc": 21320.97,
+      "trade_count": 148,
+      "market_count": 28,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T04:01:56+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will USA win the 2026 FIFA World Cup?",
+        "Will Netherlands win the 2026 FIFA World Cup?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7bea0e73d5a0bb331d843c739c6e74fa4750a4a9",
+      "name": "72137",
+      "score": 34.0,
+      "roi_score": 10.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.7,
+      "roi": -34.1,
+      "cash_pnl": -4280.31,
+      "realized_pnl": 0.0,
+      "total_usdc": 51976.7,
+      "trade_count": 500,
+      "market_count": 54,
+      "position_count": 53,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:38:50+00:00",
+      "top_markets": [
+        "Will Paraguay win the 2026 FIFA World Cup?",
+        "Exact Score: Paraguay 0 - 3 France?",
+        "Argentina vs. Cabo Verde: Will the Match Go to a Penalty Shootout?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x89fcb0f6e53e6c70be7ceab209c8521fb0e6b5c2",
+      "name": "marksoc",
+      "score": 34.0,
+      "roi_score": 12.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": -32.0,
+      "cash_pnl": -3354.21,
+      "realized_pnl": 8724.13,
+      "total_usdc": 30153.66,
       "trade_count": 500,
       "market_count": 13,
       "position_count": 40,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-04T22:34:08+00:00",
+      "last_active": "2026-07-05T04:54:55+00:00",
       "top_markets": [
         "Will Switzerland win the 2026 FIFA World Cup?",
         "Will Belgium win the 2026 FIFA World Cup?",
@@ -928,11 +1296,11 @@
       ],
       "signals": [
         {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
+          "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "ENTER",
-          "avg_price": 0.0638,
-          "cur_price": 0.0645,
-          "usdc_size": 1779.59,
+          "avg_price": 0.1218,
+          "cur_price": 0.1245,
+          "usdc_size": 2543.1,
           "outcome": "Yes"
         },
         {
@@ -941,22 +1309,6 @@
           "avg_price": 0.1726,
           "cur_price": 0.1675,
           "usdc_size": 502.51,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0239,
-          "cur_price": 0.0255,
-          "usdc_size": 660.4,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.1218,
-          "cur_price": 0.1255,
-          "usdc_size": 2563.52,
           "outcome": "Yes"
         },
         {
@@ -972,95 +1324,43 @@
     {
       "wallet": "0xb886580698ede4b18de3e446b2d8da8bcedd81b3",
       "name": "0xB886580698eDE4b18DE3E446b2D8Da8bCEdd81B3-1767532547794",
-      "score": 32.9,
+      "score": 32.8,
       "roi_score": 10.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 73.6,
+      "volume_score": 73.0,
       "roi": -34.9,
-      "cash_pnl": -67192.51,
-      "realized_pnl": 27682.17,
-      "total_usdc": 15735.44,
+      "cash_pnl": -66592.73,
+      "realized_pnl": 27982.5,
+      "total_usdc": 14523.82,
       "trade_count": 500,
       "market_count": 30,
       "position_count": 171,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:53:46+00:00",
+      "last_active": "2026-07-05T06:39:16+00:00",
       "top_markets": [
         "Will Paraguay win on 2026-07-04?",
         "Will Eduardo Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Helder Barbalho win the 2026 Brazilian presidential election?"
+        "Will Tereza Cristina win the 2026 Brazilian presidential election?"
       ],
       "signals": [
         {
           "market": "Will Norway win the 2026 FIFA World Cup?",
           "signal": "LATE",
-          "avg_price": 0.0175,
+          "avg_price": 0.0172,
           "cur_price": 0.0165,
-          "usdc_size": 813.26,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0228,
-          "cur_price": 0.0235,
-          "usdc_size": 704.98,
+          "usdc_size": 996.59,
           "outcome": "Yes"
         },
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0237,
-          "cur_price": 0.0255,
-          "usdc_size": 5882.35,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xef9fb7322631ecb96f40c7210006ccb4066d8924",
-      "name": "Sai28",
-      "score": 32.9,
-      "roi_score": 8.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.1,
-      "roi": -37.3,
-      "cash_pnl": -6886.32,
-      "realized_pnl": -49.33,
-      "total_usdc": 28355.32,
-      "trade_count": 500,
-      "market_count": 81,
-      "position_count": 44,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T02:51:05+00:00",
-      "top_markets": [
-        "Will Senegal win the 2026 FIFA World Cup?",
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Exact Score: Canada 0 - 1 Morocco?"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0182,
-          "cur_price": 0.0255,
-          "usdc_size": 8890.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0104,
-          "cur_price": 0.0085,
-          "usdc_size": 1700.0,
+          "cur_price": 0.0285,
+          "usdc_size": 4545.19,
           "outcome": "Yes"
         }
       ]
@@ -1075,7 +1375,7 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": -79.4,
-      "cash_pnl": -78919.95,
+      "cash_pnl": -78937.98,
       "realized_pnl": 563.73,
       "total_usdc": 958802.0,
       "trade_count": 500,
@@ -1101,8 +1401,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -80.9,
-      "cash_pnl": -215699.99,
+      "roi": -81.0,
+      "cash_pnl": -215943.47,
       "realized_pnl": 0.0,
       "total_usdc": 794833.66,
       "trade_count": 500,
@@ -1119,22 +1419,6 @@
       ],
       "signals": [
         {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.065,
-          "cur_price": 0.0645,
-          "usdc_size": 2322.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.026,
-          "cur_price": 0.0255,
-          "usdc_size": 635.0,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Colombia win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.023,
@@ -1146,8 +1430,8 @@
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.1087,
-          "cur_price": 0.1255,
-          "usdc_size": 6400.5,
+          "cur_price": 0.1245,
+          "usdc_size": 6349.5,
           "outcome": "Yes"
         },
         {
@@ -1156,6 +1440,14 @@
           "avg_price": 0.104,
           "cur_price": 0.0675,
           "usdc_size": 2700.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.026,
+          "cur_price": 0.0285,
+          "usdc_size": 712.5,
           "outcome": "Yes"
         }
       ]
@@ -1169,8 +1461,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.6,
-      "roi": -74.4,
-      "cash_pnl": -14866.56,
+      "roi": -74.0,
+      "cash_pnl": -14772.96,
       "realized_pnl": 102.08,
       "total_usdc": 318585.34,
       "trade_count": 500,
@@ -1196,10 +1488,10 @@
         },
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.024,
-          "cur_price": 0.0255,
-          "usdc_size": 766.9,
+          "cur_price": 0.0285,
+          "usdc_size": 860.5,
           "outcome": "Yes"
         }
       ]
@@ -1213,8 +1505,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.2,
-      "roi": -97.8,
-      "cash_pnl": -32602.02,
+      "roi": -97.6,
+      "cash_pnl": -32514.93,
       "realized_pnl": -112.1,
       "total_usdc": 303401.06,
       "trade_count": 493,
@@ -1232,10 +1524,10 @@
       "signals": [
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.025,
-          "cur_price": 0.0255,
-          "usdc_size": 715.24,
+          "cur_price": 0.0285,
+          "usdc_size": 802.54,
           "outcome": "Yes"
         }
       ]
@@ -1249,8 +1541,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.2,
-      "roi": -81.1,
-      "cash_pnl": -40565.44,
+      "roi": -81.0,
+      "cash_pnl": -40479.4,
       "realized_pnl": -7.19,
       "total_usdc": 301955.97,
       "trade_count": 500,
@@ -1266,14 +1558,6 @@
         "Wales vs. Ghana: Both Teams to Score"
       ],
       "signals": [
-        {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0583,
-          "cur_price": 0.0645,
-          "usdc_size": 2774.72,
-          "outcome": "Yes"
-        },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
@@ -1294,7 +1578,7 @@
       "early_entry_score": 0.0,
       "volume_score": 95.1,
       "roi": -98.1,
-      "cash_pnl": -106607.31,
+      "cash_pnl": -106624.7,
       "realized_pnl": 0.0,
       "total_usdc": 261985.5,
       "trade_count": 206,
@@ -1322,8 +1606,8 @@
           "market": "Will Mexico win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0143,
-          "cur_price": 0.0345,
-          "usdc_size": 599.89,
+          "cur_price": 0.0335,
+          "usdc_size": 582.5,
           "outcome": "Yes"
         }
       ]
@@ -1337,12 +1621,12 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 94.5,
-      "roi": -59.6,
-      "cash_pnl": -156272.58,
+      "roi": -58.9,
+      "cash_pnl": -154452.14,
       "realized_pnl": 4008.72,
       "total_usdc": 243621.26,
       "trade_count": 500,
-      "market_count": 34,
+      "market_count": 33,
       "position_count": 50,
       "resolved_count": 0,
       "win_rate": 0,
@@ -1363,19 +1647,11 @@
           "outcome": "Yes"
         },
         {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.037,
-          "cur_price": 0.0345,
-          "usdc_size": 683.1,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0201,
-          "cur_price": 0.0255,
-          "usdc_size": 17048.05,
+          "cur_price": 0.0285,
+          "usdc_size": 19128.71,
           "outcome": "Yes"
         },
         {
@@ -1398,8 +1674,8 @@
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.136,
-          "cur_price": 0.1255,
-          "usdc_size": 22339.0,
+          "cur_price": 0.1245,
+          "usdc_size": 22161.0,
           "outcome": "Yes"
         },
         {
@@ -1433,60 +1709,41 @@
           "cur_price": 0.3575,
           "usdc_size": 21369.69,
           "outcome": "No"
+        },
+        {
+          "market": "Will Mexico win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.037,
+          "cur_price": 0.0335,
+          "usdc_size": 663.3,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x5cc6dce17ee19eb2df9f4510e9b764fff8d5f0f8",
-      "name": "Fastlife",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.5,
-      "roi": -98.3,
-      "cash_pnl": -19016.74,
-      "realized_pnl": 1254.57,
-      "total_usdc": 187243.79,
-      "trade_count": 386,
-      "market_count": 263,
-      "position_count": 82,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T22:16:55+00:00",
-      "top_markets": [
-        "Will Backpack launch a token by March 31?",
-        "Bears vs. Lions",
-        "Will Morocco win the 2026 FIFA World Cup?"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x90ed5bffbffbfc344aa1195572d89719a398b5bc",
       "name": "failstober",
-      "score": 31.6,
-      "roi_score": 0.0,
+      "score": 31.8,
+      "roi_score": 0.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.3,
-      "roi": -50.0,
-      "cash_pnl": -136905.73,
-      "realized_pnl": 67109.33,
-      "total_usdc": 159341.13,
+      "volume_score": 91.4,
+      "roi": -49.3,
+      "cash_pnl": -135872.57,
+      "realized_pnl": 67098.01,
+      "total_usdc": 161798.04,
       "trade_count": 500,
-      "market_count": 21,
+      "market_count": 20,
       "position_count": 141,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:44:17+00:00",
+      "last_active": "2026-07-05T06:36:20+00:00",
       "top_markets": [
         "Will Donald Trump win the 2028 Republican presidential nomination?",
         "US x Iran permanent peace deal by June 15, 2026?",
-        "Will Morocco win on 2026-07-04?"
+        "Will England win the 2026 FIFA World Cup?"
       ],
       "signals": [
         {
@@ -1498,19 +1755,11 @@
           "outcome": "Yes"
         },
         {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0684,
-          "cur_price": 0.0645,
-          "usdc_size": 2079.29,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "LATE",
           "avg_price": 0.1304,
-          "cur_price": 0.1255,
-          "usdc_size": 3067.6,
+          "cur_price": 0.1245,
+          "usdc_size": 3043.15,
           "outcome": "Yes"
         },
         {
@@ -1532,17 +1781,17 @@
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1122,
+          "avg_price": 0.1047,
           "cur_price": 0.0675,
-          "usdc_size": 12839.56,
+          "usdc_size": 15388.32,
           "outcome": "Yes"
         },
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0234,
-          "cur_price": 0.0255,
-          "usdc_size": 3668.85,
+          "cur_price": 0.0285,
+          "usdc_size": 4116.62,
           "outcome": "Yes"
         }
       ]
@@ -1575,56 +1824,56 @@
       "signals": []
     },
     {
-      "wallet": "0x49f25611eeeff52d582180ade9acda9113f5b3c3",
-      "name": "ethyydsz",
-      "score": 31.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.8,
-      "roi": -100.0,
-      "cash_pnl": -633.68,
-      "realized_pnl": 0.0,
-      "total_usdc": 148868.12,
-      "trade_count": 500,
-      "market_count": 303,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T23:07:37+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will France win on 2026-06-16?",
-        "Bitcoin Up or Down - July 3, 7:00AM-7:05AM ET"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0xd2617031c8b5623ade5b28079d83982abf6bb663",
       "name": "garsv",
-      "score": 31.4,
-      "roi_score": 5.4,
+      "score": 31.3,
+      "roi_score": 5.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 73.3,
-      "roi": -41.9,
-      "cash_pnl": -795.63,
-      "realized_pnl": 303.48,
-      "total_usdc": 15057.59,
+      "roi": -42.5,
+      "cash_pnl": -786.06,
+      "realized_pnl": 305.36,
+      "total_usdc": 15105.68,
       "trade_count": 500,
       "market_count": 11,
       "position_count": 21,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:15:52+00:00",
+      "last_active": "2026-07-05T06:10:43+00:00",
       "top_markets": [
         "Will Colombia win the 2026 FIFA World Cup?",
         "Will Morocco win the 2026 FIFA World Cup?",
         "World Cup: Goalkeeper to Score?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x8e2b2d3d57afdbd6256321ec350f92694fc897b2",
+      "name": "ringo555",
+      "score": 31.3,
+      "roi_score": 0.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.9,
+      "roi": -48.9,
+      "cash_pnl": -975.63,
+      "realized_pnl": 79.51,
+      "total_usdc": 78534.78,
+      "trade_count": 500,
+      "market_count": 125,
+      "position_count": 10,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T05:11:28+00:00",
+      "top_markets": [
+        "Will Japan win the 2026 FIFA World Cup?",
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Anthony Joshua win his boxing match against Jake Paul?"
       ],
       "signals": []
     },
@@ -1636,18 +1885,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.9,
-      "roi": -57.8,
-      "cash_pnl": -338913.27,
-      "realized_pnl": 32219.18,
-      "total_usdc": 90064.12,
+      "volume_score": 86.8,
+      "roi": -57.1,
+      "cash_pnl": -334797.2,
+      "realized_pnl": 32221.98,
+      "total_usdc": 88392.19,
       "trade_count": 500,
       "market_count": 20,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-05T02:37:38+00:00",
+      "last_active": "2026-07-05T05:48:22+00:00",
       "top_markets": [
         "Will Paraguay win the 2026 FIFA World Cup?",
         "Will Croatia win the 2026 FIFA World Cup?",
@@ -1663,19 +1912,11 @@
           "outcome": "Yes"
         },
         {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0628,
-          "cur_price": 0.0645,
-          "usdc_size": 35221.82,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "ENTER",
           "avg_price": 0.1259,
-          "cur_price": 0.1255,
-          "usdc_size": 14281.6,
+          "cur_price": 0.1245,
+          "usdc_size": 14167.8,
           "outcome": "Yes"
         },
         {
@@ -1698,8 +1939,8 @@
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0151,
-          "cur_price": 0.0255,
-          "usdc_size": 25862.8,
+          "cur_price": 0.0285,
+          "usdc_size": 29019.29,
           "outcome": "Yes"
         },
         {
@@ -1721,6 +1962,58 @@
       ]
     },
     {
+      "wallet": "0x482bf5accdecfaffa67c14d4d4fbb59f428a3266",
+      "name": "Winry",
+      "score": 31.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.2,
+      "roi": -58.1,
+      "cash_pnl": -19434.89,
+      "realized_pnl": 44298.46,
+      "total_usdc": 81276.74,
+      "trade_count": 500,
+      "market_count": 6,
+      "position_count": 161,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:36:23+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Mexico win the 2026 FIFA World Cup?",
+        "Will Belgium win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Colombia win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0319,
+          "cur_price": 0.0315,
+          "usdc_size": 1088.87,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Mexico win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0348,
+          "cur_price": 0.0335,
+          "usdc_size": 10506.23,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0129,
+          "cur_price": 0.0125,
+          "usdc_size": 799.21,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
       "wallet": "0xaa075924e1dc7cff3b9fab67401126338c4d2125",
       "name": "rustin",
       "score": 31.1,
@@ -1730,7 +2023,7 @@
       "early_entry_score": 0.0,
       "volume_score": 85.5,
       "roi": -85.4,
-      "cash_pnl": -719861.33,
+      "cash_pnl": -719386.1,
       "realized_pnl": 0.0,
       "total_usdc": 74776.51,
       "trade_count": 500,
@@ -1750,8 +2043,8 @@
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "ENTER",
           "avg_price": 0.122,
-          "cur_price": 0.1255,
-          "usdc_size": 4337.06,
+          "cur_price": 0.1245,
+          "usdc_size": 4302.5,
           "outcome": "Yes"
         },
         {
@@ -1774,421 +2067,8 @@
           "market": "Will Morocco win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0207,
-          "cur_price": 0.0255,
-          "usdc_size": 9555.58,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8e2b2d3d57afdbd6256321ec350f92694fc897b2",
-      "name": "ringo555",
-      "score": 31.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.9,
-      "roi": -54.0,
-      "cash_pnl": -1023.24,
-      "realized_pnl": 79.51,
-      "total_usdc": 78499.2,
-      "trade_count": 500,
-      "market_count": 123,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T22:50:44+00:00",
-      "top_markets": [
-        "Will Japan win the 2026 FIFA World Cup?",
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Anthony Joshua win his boxing match against Jake Paul?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x482bf5accdecfaffa67c14d4d4fbb59f428a3266",
-      "name": "Winry",
-      "score": 30.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 83.3,
-      "roi": -58.0,
-      "cash_pnl": -18898.31,
-      "realized_pnl": 45300.82,
-      "total_usdc": 55793.4,
-      "trade_count": 500,
-      "market_count": 7,
-      "position_count": 163,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T02:53:28+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Mexico win the 2026 FIFA World Cup?",
-        "Will Belgium win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0339,
-          "cur_price": 0.0345,
-          "usdc_size": 6527.55,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0249,
-          "cur_price": 0.0255,
-          "usdc_size": 1706.04,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Colombia win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0319,
-          "cur_price": 0.0315,
-          "usdc_size": 1959.15,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.023,
-          "cur_price": 0.0235,
-          "usdc_size": 932.7,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Belgium win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0129,
-          "cur_price": 0.0125,
-          "usdc_size": 947.91,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x37ee3bceb4fbf028fb90d1463a4a5354da02f86f",
-      "name": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
-      "score": 30.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.8,
-      "roi": -99.4,
-      "cash_pnl": -2031420.4,
-      "realized_pnl": -296539.05,
-      "total_usdc": 52063.64,
-      "trade_count": 500,
-      "market_count": 14,
-      "position_count": 44,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T02:53:50+00:00",
-      "top_markets": [
-        "Will Portugal win the 2026 FIFA World Cup?",
-        "Will England win the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0166,
-          "cur_price": 0.0165,
-          "usdc_size": 4115.68,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0085,
-          "usdc_size": 1339.31,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0235,
-          "usdc_size": 2072.04,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Belgium win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0125,
-          "usdc_size": 1102.15,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0675,
-          "usdc_size": 1959.66,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0595,
-          "usdc_size": 1456.83,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7bea0e73d5a0bb331d843c739c6e74fa4750a4a9",
-      "name": "72137",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.7,
-      "roi": -100.0,
-      "cash_pnl": -4234.87,
-      "realized_pnl": 0.0,
-      "total_usdc": 45375.26,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T00:53:08+00:00",
-      "top_markets": [
-        "Will Paraguay win the 2026 FIFA World Cup?",
-        "Exact Score: Paraguay 0 - 3 France?",
-        "Argentina vs. Cabo Verde: Will the Match Go to a Penalty Shootout?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe40971c251732552c556720bd9357af924794c39",
-      "name": "LaurentADA",
-      "score": 30.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.2,
-      "roi": -65.3,
-      "cash_pnl": -684.47,
-      "realized_pnl": -0.97,
-      "total_usdc": 37038.88,
-      "trade_count": 487,
-      "market_count": 300,
-      "position_count": 37,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T20:43:50+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "US x Iran permanent peace deal by May 31, 2026?",
-        "Will Manchester United FC win on 2026-04-13?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x8b7136b29d8b450b13a763c7eae83cc8cf62c33e",
-      "name": "Rasconi",
-      "score": 30.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.7,
-      "roi": -89.4,
-      "cash_pnl": -10742.12,
-      "realized_pnl": 0.0,
-      "total_usdc": 30430.05,
-      "trade_count": 275,
-      "market_count": 74,
-      "position_count": 41,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T00:15:49+00:00",
-      "top_markets": [
-        "Will the Detroit Pistons win the 2026 NBA Finals?",
-        "Bitcoin Up or Down - July 4, 7:45PM-7:50PM ET",
-        "Bitcoin Up or Down - July 4, 8:00PM-8:05PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.024,
-          "cur_price": 0.0255,
-          "usdc_size": 1272.67,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2663daca3cecf3767ca1c3b126002a8578a8ed1f",
-      "name": "Q96s3kwozynxpau",
-      "score": 30.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.9,
-      "roi": -74.6,
-      "cash_pnl": -433955.6,
-      "realized_pnl": -691807.79,
-      "total_usdc": 21293.68,
-      "trade_count": 500,
-      "market_count": 28,
-      "position_count": 163,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-05T02:53:26+00:00",
-      "top_markets": [
-        "Will France win the 2026 FIFA World Cup?",
-        "Will Portugal win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0166,
-          "cur_price": 0.0165,
-          "usdc_size": 1835.69,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.019,
-          "cur_price": 0.0235,
-          "usdc_size": 9612.68,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0576,
-          "cur_price": 0.1675,
-          "usdc_size": 19247.99,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Colombia win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0244,
-          "cur_price": 0.0315,
-          "usdc_size": 3521.26,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.4929,
-          "cur_price": 0.1255,
-          "usdc_size": 13768.59,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0085,
-          "usdc_size": 765.04,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Brazil win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.019,
-          "cur_price": 0.0645,
-          "usdc_size": 5326.5,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.3575,
-          "usdc_size": 26169.45,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0416,
-          "cur_price": 0.0675,
-          "usdc_size": 4891.16,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0222,
-          "cur_price": 0.0595,
-          "usdc_size": 3006.91,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Mexico win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0182,
-          "cur_price": 0.0345,
-          "usdc_size": 1376.95,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x454c8364b06d56df31531b1fc5bc083f5c1ebd22",
-      "name": "borja13",
-      "score": 29.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 74.2,
-      "roi": -77.6,
-      "cash_pnl": -16371.65,
-      "realized_pnl": 19010.94,
-      "total_usdc": 17020.93,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 156,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T23:58:53+00:00",
-      "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will USA win the 2026 FIFA World Cup?",
-        "Will Alexander Bublik be the 2026 Men\u2019s Wimbledon winner?"
-      ],
-      "signals": [
-        {
-          "market": "Will USA win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0241,
-          "cur_price": 0.0235,
-          "usdc_size": 4453.49,
+          "cur_price": 0.0285,
+          "usdc_size": 10721.82,
           "outcome": "Yes"
         }
       ]
@@ -2196,14 +2076,14 @@
     {
       "wallet": "0x163657bab809f05e099bf07e15c8a14b68fa2e05",
       "name": "brianlow",
-      "score": 29.7,
-      "roi_score": 0.4,
+      "score": 31.0,
+      "roi_score": 4.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 71.4,
-      "roi": -49.5,
-      "cash_pnl": -1381.13,
+      "roi": -43.3,
+      "cash_pnl": -1208.87,
       "realized_pnl": 262.5,
       "total_usdc": 11742.91,
       "trade_count": 27,
@@ -2221,40 +2101,297 @@
       "signals": [
         {
           "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.0259,
-          "cur_price": 0.0255,
-          "usdc_size": 1411.37,
+          "cur_price": 0.0285,
+          "usdc_size": 1583.62,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xa754b9f02812185dda469c30acb39f146806d8cf",
-      "name": "0xa754B9F02812185Dda469C30Acb39f146806d8CF-1760915463113",
-      "score": 29.7,
+      "wallet": "0x656152aca7927e6675dd5aa57ef46e7f6f8de3c2",
+      "name": "Melampus",
+      "score": 30.7,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 71.5,
-      "roi": -100.0,
-      "cash_pnl": -147.7,
-      "realized_pnl": 0.0,
-      "total_usdc": 11938.78,
-      "trade_count": 163,
-      "market_count": 65,
-      "position_count": 2,
+      "volume_score": 82.0,
+      "roi": -67.4,
+      "cash_pnl": -10751.93,
+      "realized_pnl": -2121.08,
+      "total_usdc": 47106.72,
+      "trade_count": 96,
+      "market_count": 69,
+      "position_count": 33,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-04T19:17:43+00:00",
+      "last_active": "2026-07-05T06:37:22+00:00",
       "top_markets": [
-        "Will Switzerland win the 2026 FIFA World Cup?",
-        "Will the highest temperature in London be 11\u00b0C on March 30?",
-        "Will the highest temperature in London be 16\u00b0C on March 23?"
+        "Kharg Island no longer under Iranian control by April 30?",
+        "Kharg Island no longer under Iranian control by May 31?",
+        "Fight to Go the Distance?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.1291,
+          "cur_price": 0.1245,
+          "usdc_size": 2278.12,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.2129,
+          "cur_price": 0.1675,
+          "usdc_size": 908.04,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x681b3e42aaafc3357ea43522774833b94f192f73",
+      "name": "atle28",
+      "score": 30.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.8,
+      "roi": -53.0,
+      "cash_pnl": -31821.22,
+      "realized_pnl": 0.0,
+      "total_usdc": 40421.97,
+      "trade_count": 500,
+      "market_count": 7,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T05:04:07+00:00",
+      "top_markets": [
+        "Will Egypt win the 2026 FIFA World Cup?",
+        "Will Norway win the 2026 FIFA World Cup?",
+        "Will Morocco win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Egypt win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.002,
+          "cur_price": 0.0015,
+          "usdc_size": 5250.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0252,
+          "cur_price": 0.0165,
+          "usdc_size": 8926.99,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0178,
+          "cur_price": 0.0285,
+          "usdc_size": 14053.11,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8b7136b29d8b450b13a763c7eae83cc8cf62c33e",
+      "name": "Rasconi",
+      "score": 30.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.7,
+      "roi": -88.1,
+      "cash_pnl": -10591.8,
+      "realized_pnl": 0.0,
+      "total_usdc": 30435.38,
+      "trade_count": 276,
+      "market_count": 75,
+      "position_count": 42,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T04:02:49+00:00",
+      "top_markets": [
+        "Will the Detroit Pistons win the 2026 NBA Finals?",
+        "Bitcoin Up or Down - July 4, 7:45PM-7:50PM ET",
+        "Bitcoin Up or Down - July 4, 8:00PM-8:05PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.024,
+          "cur_price": 0.0285,
+          "usdc_size": 1427.99,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2663daca3cecf3767ca1c3b126002a8578a8ed1f",
+      "name": "Q96s3kwozynxpau",
+      "score": 30.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 75.7,
+      "roi": -75.4,
+      "cash_pnl": -442617.56,
+      "realized_pnl": -686263.48,
+      "total_usdc": 20713.56,
+      "trade_count": 500,
+      "market_count": 29,
+      "position_count": 163,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:39:59+00:00",
+      "top_markets": [
+        "Will France win the 2026 FIFA World Cup?",
+        "Will Brazil win the 2026 FIFA World Cup?",
+        "Will Portugal win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0166,
+          "cur_price": 0.0165,
+          "usdc_size": 2024.89,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Mexico win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.032,
+          "cur_price": 0.0335,
+          "usdc_size": 3254.62,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Colombia win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0248,
+          "cur_price": 0.0315,
+          "usdc_size": 4587.22,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0188,
+          "cur_price": 0.0255,
+          "usdc_size": 3597.97,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0539,
+          "cur_price": 0.1675,
+          "usdc_size": 21168.71,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.4936,
+          "cur_price": 0.1245,
+          "usdc_size": 13774.6,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0085,
+          "usdc_size": 862.51,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0382,
+          "cur_price": 0.0675,
+          "usdc_size": 5665.18,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.3575,
+          "usdc_size": 25471.22,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Portugal win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0358,
+          "cur_price": 0.0595,
+          "usdc_size": 3730.01,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0125,
+          "usdc_size": 540.45,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x454c8364b06d56df31531b1fc5bc083f5c1ebd22",
+      "name": "borja13",
+      "score": 29.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.2,
+      "roi": -77.4,
+      "cash_pnl": -15998.42,
+      "realized_pnl": 19044.45,
+      "total_usdc": 16977.7,
+      "trade_count": 500,
+      "market_count": 8,
+      "position_count": 156,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-05T06:39:49+00:00",
+      "top_markets": [
+        "Will USA win the 2026 FIFA World Cup?",
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Alexander Bublik be the 2026 Men\u2019s Wimbledon winner?"
+      ],
+      "signals": [
+        {
+          "market": "Will USA win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.0241,
+          "cur_price": 0.0255,
+          "usdc_size": 4364.09,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
       "wallet": "0xb988ffa22cda89fc2fa2d34ed39a3473b0731297",
@@ -2266,7 +2403,7 @@
       "early_entry_score": 0.0,
       "volume_score": 70.7,
       "roi": -84.5,
-      "cash_pnl": -581.25,
+      "cash_pnl": -580.79,
       "realized_pnl": -3.86,
       "total_usdc": 10676.39,
       "trade_count": 152,
@@ -2282,42 +2419,6 @@
         "Bitcoin Up or Down - June 1, 2:15PM-2:30PM ET"
       ],
       "signals": []
-    },
-    {
-      "wallet": "0x3b592240300ec700571ad482228db032eb3358e6",
-      "name": "SirJoe222",
-      "score": 29.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.1,
-      "roi": -94.4,
-      "cash_pnl": -17936.75,
-      "realized_pnl": 585.67,
-      "total_usdc": 9924.08,
-      "trade_count": 500,
-      "market_count": 95,
-      "position_count": 190,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-04T21:26:13+00:00",
-      "top_markets": [
-        "Will Portugal win the 2026 FIFA World Cup?",
-        "Will XRP reach $3.00 in May?",
-        "Will XRP reach $1.50 April 27-May 3?"
-      ],
-      "signals": [
-        {
-          "market": "Will Portugal win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0743,
-          "cur_price": 0.0595,
-          "usdc_size": 797.71,
-          "outcome": "Yes"
-        }
-      ]
     },
     {
       "wallet": "0x9a4fdcf7297dca6ec84c2c1aca2709c894cb04bb",
@@ -2374,31 +2475,64 @@
       "signals": []
     },
     {
-      "wallet": "0xb790feed4ccf793e7795f73254139a69c97516e5",
-      "name": "Polkash",
-      "score": 28.9,
+      "wallet": "0x37ee3bceb4fbf028fb90d1463a4a5354da02f86f",
+      "name": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+      "score": 28.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 64.0,
-      "roi": -88.1,
-      "cash_pnl": -1225.74,
-      "realized_pnl": 5.13,
-      "total_usdc": 4454.14,
+      "volume_score": 63.0,
+      "roi": -99.6,
+      "cash_pnl": -2031115.93,
+      "realized_pnl": -296715.58,
+      "total_usdc": 3876.68,
       "trade_count": 500,
-      "market_count": 347,
-      "position_count": 215,
+      "market_count": 13,
+      "position_count": 44,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-04T19:22:05+00:00",
+      "last_active": "2026-07-05T06:39:59+00:00",
       "top_markets": [
-        "Will Morocco win the 2026 FIFA World Cup?",
-        "Will Manchester United FC win on 2026-04-27?",
-        "Will Morocco win on 2026-07-04?"
+        "Will Switzerland win the 2026 FIFA World Cup?",
+        "Will USA win the 2026 FIFA World Cup?",
+        "Will Egypt win the 2026 FIFA World Cup?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0166,
+          "cur_price": 0.0165,
+          "usdc_size": 4115.68,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0085,
+          "usdc_size": 1081.54,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0125,
+          "usdc_size": 1102.15,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0166,
+          "cur_price": 0.0675,
+          "usdc_size": 1959.66,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
       "wallet": "0x6bf99a94d98686f16a4df69339c7b31b21aff178",
@@ -2432,142 +2566,142 @@
     {
       "id": "0x37a6de1b21803e5f3fb1965116218215d79963af4f7e51659696366267a63a03",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "volume": "123916616.2616334",
-      "liquidity": "1832272.03075",
+      "volume": "124481658.50468554",
+      "liquidity": "1828607.05385",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe",
+      "question": "Will Egypt win the 2026 FIFA World Cup?",
+      "volume": "120636717.23265249",
+      "liquidity": "10249633.01644",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x2a598263abf5b0818a17d403d38193d11d64cbf08e3af4805ce08c23b3729670",
       "question": "Will Javier Milei be the next leader out before 2027?",
       "volume": "4806191.795382985",
-      "liquidity": "37337.93012",
+      "liquidity": "37318.49912",
       "end_date": "2026-12-31T00:00:00Z"
     },
     {
       "id": "0xb6d6f15a1b5d08753653f1867ccd6126badfbe182a75159a330dc7b15336b309",
       "question": "Will Gedion Timothewos be the next Prime Minister of Ethiopia?",
       "volume": "38097625.916430995",
-      "liquidity": "27826.53092",
+      "liquidity": "30912.30286",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
-      "id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
-      "question": "Will Belgium win the 2026 FIFA World Cup?",
-      "volume": "102597053.66896632",
-      "liquidity": "3097596.08633",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe",
-      "question": "Will Egypt win the 2026 FIFA World Cup?",
-      "volume": "119214875.03565243",
-      "liquidity": "11735255.17475",
-      "end_date": "2026-07-20T00:00:00Z"
+      "id": "0x34432ae59cf61fa9e03bf2813b5f7ed6511fe08bb44434ded994df48701d4234",
+      "question": "LoL: Team Secret Whales vs Top Esports (BO5) - Mid-Season Invitational Playoffs",
+      "volume": "3181361.2944399943",
+      "liquidity": "1895838.39551",
+      "end_date": "2026-07-05T09:00:00Z"
     },
     {
       "id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
       "question": "Will Switzerland win the 2026 FIFA World Cup?",
-      "volume": "94695663.70032027",
-      "liquidity": "9411556.76393",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "volume": "94196817.3719576",
-      "liquidity": "2008293.82687",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
-      "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "volume": "99254621.40026674",
-      "liquidity": "4768777.26291",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x84a45609bfdb644a15be71d679fbb4f115dea9109d9bac96e1bc049853e002f6",
-      "question": "Will no listed leader be out before 2027?",
-      "volume": "5564136.335356002",
-      "liquidity": "102241.73934",
-      "end_date": "2026-12-31T00:00:00Z"
-    },
-    {
-      "id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
-      "question": "Will Colombia win the 2026 FIFA World Cup?",
-      "volume": "94344607.39207172",
-      "liquidity": "1718404.0683",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
-      "question": "Will England win the 2026 FIFA World Cup?",
-      "volume": "77747643.6315908",
-      "liquidity": "1834381.47392",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "volume": "128797073.66134848",
-      "liquidity": "2952071.05248",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "volume": "97439570.07159595",
-      "liquidity": "1548935.23969",
+      "volume": "94821030.60741453",
+      "liquidity": "9379104.20006",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x5ccfe1b69a582d2985db08a8481a0d74c314b1fce9b4711ae2efb2c6467fe6aa",
       "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "volume": "127928454.38443881",
-      "liquidity": "1174440.65417",
+      "volume": "128901716.49560796",
+      "liquidity": "1529202.88305",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x84a45609bfdb644a15be71d679fbb4f115dea9109d9bac96e1bc049853e002f6",
+      "question": "Will no listed leader be out before 2027?",
+      "volume": "5564140.238356002",
+      "liquidity": "93877.6296",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "volume": "129389206.04860541",
+      "liquidity": "2704479.28421",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "volume": "94275695.80469166",
+      "liquidity": "4489984.42964",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
+      "volume": "99460091.64143534",
+      "liquidity": "4683743.54992",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "volume": "77866068.45182799",
+      "liquidity": "2003756.66782",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+      "question": "Will Colombia win the 2026 FIFA World Cup?",
+      "volume": "94582232.44351375",
+      "liquidity": "1702458.89336",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "volume": "97620417.12772618",
+      "liquidity": "1653356.75977",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0xc72ed30b70492a1016d6eb24342324cb37e41eef229b81320217658a81f5a3bb",
+      "question": "LoL: Team Secret Whales vs Top Esports - Game 4 Winner",
+      "volume": "1499788.0195460042",
+      "liquidity": "808184.09136",
+      "end_date": "2026-07-05T09:00:00Z"
+    },
+    {
+      "id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
+      "question": "Will Belgium win the 2026 FIFA World Cup?",
+      "volume": "102616361.15419336",
+      "liquidity": "3125641.7507",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x8c3334704624545380abd862f7199c52a918084cc7037c614d4d543d10d2c9a4",
+      "question": "Will Luiz In\u00e1cio Lula da Silva be the next leader out before 2027?",
+      "volume": "5963691.9874070035",
+      "liquidity": "65390.53236",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "volume": "94963044.91495942",
+      "liquidity": "3301167.51262",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x4e9460ea6d2a4f26fbb8bd8d30f8b825e6b8016e4a645f407cf38497e19ba523",
       "question": "Will Alesa Mengesha be the next Prime Minister of Ethiopia?",
       "volume": "11474851.133",
-      "liquidity": "23452.58451",
+      "liquidity": "23817.20764",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
       "question": "Will Spain win the 2026 FIFA World Cup?",
-      "volume": "84755867.39001541",
-      "liquidity": "4364971.10278",
+      "volume": "84814309.21222447",
+      "liquidity": "4341875.52962",
       "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x6c9407f7841e7507ba435d540af237d742674ba05bac48998cf94f4b7ef5d909",
-      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
-      "volume": "2296057.5178929437",
-      "liquidity": "144602.07651",
-      "end_date": "2027-03-31T23:55:00Z"
-    },
-    {
-      "id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
-      "question": "Will Brazil win the 2026 FIFA World Cup?",
-      "volume": "77018286.59197575",
-      "liquidity": "945506.32622",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
-      "question": "Will Norway win the 2026 FIFA World Cup?",
-      "volume": "94676940.31141743",
-      "liquidity": "3307871.6333",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x6236614eb098a045f3268a7044215d2b9aaff3fa4444117658ba20fde49f3918",
-      "question": "Will Xiyu Wang win the 2026 Women\u2019s US Open?",
-      "volume": "1019322.7984730001",
-      "liquidity": "16600.1014",
-      "end_date": "2026-09-13T00:00:00Z"
     }
   ]
 }
