@@ -29,9 +29,10 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 BASE_URL        = "https://api.usaspending.gov/api/v2"
 DAYS_BACK       = 2
 PAGE_LIMIT      = 100
-MATCH_THRESHOLD = 90   # raised to reduce false positives
+MATCH_THRESHOLD = 92    # higher = fewer false positives
 BATCH_SIZE      = 500
-MIN_AMOUNT      = 1    # filter out awards below $1
+MIN_AMOUNT      = 1     # filter out awards below $1
+MIN_LEN_RATIO   = 0.6   # cleaned names must be within 60% length of each other
 
 # ── Date range ───────────────────────────────────────────────
 end_date   = datetime.today()
@@ -69,7 +70,9 @@ companies_df = pd.DataFrame(all_companies)
 print(f"  Loaded {len(companies_df):,} public companies")
 
 # ── Normalize company names for matching ─────────────────────
-STRIP_WORDS = r"\b(inc|corp|llc|ltd|co|the|and|of|group|holdings|international|corporation|company|federal|services|solutions|systems|technologies|technology|enterprises|partners|consulting)\b"
+# Note: "federal" and "security" removed from strip list intentionally —
+# stripping them causes short generic tokens that produce false positives
+STRIP_WORDS = r"\b(inc|corp|llc|ltd|co|the|and|of|group|holdings|international|corporation|company|services|solutions|systems|technologies|technology|enterprises|partners|consulting)\b"
 
 def normalize(name: str) -> str:
     if not name:
@@ -87,35 +90,48 @@ company_titles = companies_df["title_clean"].tolist()
 def match_company(recipient_name: str):
     """
     Match recipient name against SEC public companies.
-    Uses token_set_ratio for better substring matching,
-    and requires the cleaned name to be at least 4 chars
-    to avoid spurious short-string matches.
+
+    Guards against false positives:
+    1. Minimum cleaned name length of 5 chars
+    2. token_sort_ratio scorer (respects word order, less aggressive than token_set)
+    3. Length ratio guard: cleaned names must be within 60% length of each other
+       — prevents "security" matching "security federal corp"
+    4. Matched company name must also be >= 5 chars
     """
     if not recipient_name:
         return None, None
 
     name_clean = normalize(recipient_name)
 
-    if len(name_clean) < 4:
+    if len(name_clean) < 5:
         return None, None
 
     result = process.extractOne(
         name_clean,
         company_titles,
-        scorer=fuzz.token_set_ratio,
+        scorer=fuzz.token_sort_ratio,
         score_cutoff=MATCH_THRESHOLD
     )
 
     if result:
         matched_title, score, idx = result
-        # Extra guard: require at least 4 chars overlap to avoid
-        # short generic word matches (e.g. "micro" matching anything)
         matched_clean = company_titles[idx]
-        if len(matched_clean) < 4:
+
+        # Length ratio guard
+        max_len   = max(len(name_clean), len(matched_clean), 1)
+        min_len   = min(len(name_clean), len(matched_clean))
+        len_ratio = min_len / max_len
+        if len_ratio < MIN_LEN_RATIO:
             return None, None
+
+        # Minimum matched name length
+        if len(matched_clean) < 5:
+            return None, None
+
         ticker = companies_df.iloc[idx]["ticker"]
         title  = companies_df.iloc[idx]["title"]
-        print(f"    MATCH: '{recipient_name}' → {ticker} ({title}) [score: {score}]")
+        print(f"    MATCH: '{recipient_name}' → {ticker} ({title}) "
+              f"[score: {score}, len_ratio: {len_ratio:.2f}]")
         return ticker, title
 
     return None, None
