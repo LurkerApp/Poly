@@ -1,349 +1,443 @@
 {
-  "last_updated": "2026-07-09T21:03:57.147765+00:00",
+  "last_updated": "2026-07-09T22:50:21.394408+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
-      "name": "",
-      "score": 57.8,
-      "roi_score": 65.0,
+      "wallet": "0x14c32680ffc318892e0d019181e4161aa34cdf68",
+      "name": "borntoolate.eth",
+      "score": 48.9,
+      "roi_score": 33.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 38.7,
-      "volume_score": 100.0,
-      "roi": 47.5,
-      "cash_pnl": 493819.51,
-      "realized_pnl": 0.0,
-      "total_usdc": 1374798.67,
+      "early_entry_score": 50.0,
+      "volume_score": 89.7,
+      "roi": -0.5,
+      "cash_pnl": -1386.87,
+      "realized_pnl": 39387.67,
+      "total_usdc": 129442.3,
       "trade_count": 500,
-      "market_count": 62,
+      "market_count": 2,
       "position_count": 10,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:56+00:00",
+      "last_active": "2026-07-09T22:05:50+00:00",
       "top_markets": [
-        "Spread: France (-1.5)",
-        "Switzerland vs. Colombia: O/U 2.5",
-        "Spread: Belgium (-2.5)"
+        "Will France win on 2026-07-09?"
       ],
       "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4973,
-          "cur_price": 0.2575,
-          "usdc_size": 1480102.93,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3331,
-          "cur_price": 0.2762,
-          "usdc_size": 1128.8,
-          "outcome": "France"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb113dc3fbd32b6f8d0a5c13c48a13c6a8c678bc6",
-      "name": "johannsi19",
-      "score": 50.8,
-      "roi_score": 35.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 59.9,
-      "volume_score": 85.8,
-      "roi": 3.8,
-      "cash_pnl": 693.54,
-      "realized_pnl": 547.46,
-      "total_usdc": 77149.46,
-      "trade_count": 500,
-      "market_count": 14,
-      "position_count": 27,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:16+00:00",
-      "top_markets": [
-        "France vs. Morocco: Both Teams to Score",
-        "France vs. Morocco: O/U 2.5",
-        "France vs. Morocco: Morocco O/U 0.5"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.78,
-          "cur_price": 0.7812,
-          "usdc_size": 1171.8,
-          "outcome": "France"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.7099,
-          "cur_price": 0.285,
-          "usdc_size": 2860.0,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.7424,
-          "cur_price": 0.2575,
-          "usdc_size": 2499.14,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "name": "swisstony",
-      "score": 49.7,
-      "roi_score": 35.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 45.7,
-      "volume_score": 96.8,
-      "roi": 3.2,
-      "cash_pnl": 328643.0,
-      "realized_pnl": -25475.51,
-      "total_usdc": 327209.0,
-      "trade_count": 500,
-      "market_count": 34,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:31+00:00",
-      "top_markets": [
-        "Exact Score: France 1 - 0 Morocco?",
-        "Exact Score: France 2 - 0 Morocco?",
-        "Exact Score: France 1 - 1 Morocco?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.5984,
-          "cur_price": 0.5988,
-          "usdc_size": 8304.09,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "LATE",
-          "avg_price": 0.1202,
-          "cur_price": 0.1138,
-          "usdc_size": 1256.53,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.8898,
-          "cur_price": 0.085,
-          "usdc_size": 786769.57,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.5874,
-          "cur_price": 0.285,
-          "usdc_size": 196786.38,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.6499,
-          "cur_price": 0.2762,
-          "usdc_size": 170796.05,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3811,
-          "cur_price": 0.5988,
-          "usdc_size": 87551.76,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4714,
-          "cur_price": 0.2575,
-          "usdc_size": 43465.35,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.2449,
-          "cur_price": 0.2888,
-          "usdc_size": 38085.25,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7134,
-          "cur_price": 0.2888,
-          "usdc_size": 14951.23,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.7378,
-          "cur_price": 0.2575,
-          "usdc_size": 542.11,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6be049212477c106df53248dcd5c7ec338539ac7",
-      "name": "0x6BE049212477c106Df53248DCd5C7EC338539Ac7-1768888145859",
-      "score": 47.9,
-      "roi_score": 33.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.8,
-      "volume_score": 94.3,
-      "roi": 0.9,
-      "cash_pnl": 0.41,
-      "realized_pnl": 329206.52,
-      "total_usdc": 236633.7,
-      "trade_count": 500,
-      "market_count": 5,
-      "position_count": 25,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:01:37+00:00",
-      "top_markets": [
-        "France vs. Morocco: O/U 2.5",
-        "France vs. Morocco: O/U 3.5",
-        "France vs. Morocco: O/U 1.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf7429705e25b619338412967f0a70260b6e1e039",
-      "name": "unbribeableref",
-      "score": 46.9,
-      "roi_score": 50.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.0,
-      "roi": 25.1,
-      "cash_pnl": 45414.16,
-      "realized_pnl": 488.41,
-      "total_usdc": 227338.79,
-      "trade_count": 500,
-      "market_count": 12,
-      "position_count": 14,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:34+00:00",
-      "top_markets": [
-        "France vs. Morocco: O/U 2.5",
-        "Spain vs. Belgium: O/U 2.5",
-        "Wimbledon ATP: Flavio Cobolli vs Arthur Fery"
-      ],
-      "signals": [
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1141,
-          "cur_price": 0.1875,
-          "usdc_size": 56509.15,
-          "outcome": "Yes"
-        },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.09,
-          "cur_price": 0.1605,
-          "usdc_size": 40306.01,
+          "avg_price": 0.1387,
+          "cur_price": 0.1595,
+          "usdc_size": 3619.85,
           "outcome": "Yes"
         },
         {
           "market": "Will France win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2446,
-          "cur_price": 0.3195,
-          "usdc_size": 39881.76,
+          "avg_price": 0.6232,
+          "cur_price": 0.3875,
+          "usdc_size": 6125.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7eb89b08c2e85fca25bc824bf46f7871324f902a",
+      "name": "0x7eB89b08c2E85FcA25bC824bF46f7871324F902a-1766332861253",
+      "score": 48.0,
+      "roi_score": 54.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.1,
+      "roi": 32.2,
+      "cash_pnl": 10849.99,
+      "realized_pnl": -341.35,
+      "total_usdc": 136406.6,
+      "trade_count": 500,
+      "market_count": 246,
+      "position_count": 39,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:45:23+00:00",
+      "top_markets": [
+        "Trove FDV above $20M one day after launch?",
+        "Predict.fun FDV above $600M one day after launch?",
+        "Predict.fun FDV above $1B one day after launch?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.1609,
+          "cur_price": 0.1595,
+          "usdc_size": 693.48,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0359,
+          "cur_price": 0.0585,
+          "usdc_size": 895.58,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1609,
+          "cur_price": 0.3875,
+          "usdc_size": 2406.83,
           "outcome": "Yes"
         },
         {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1529,
-          "cur_price": 0.1875,
-          "usdc_size": 18750.01,
+          "avg_price": 0.2037,
+          "cur_price": 0.1785,
+          "usdc_size": 700.82,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x5bfe8016a64a74b8db5d1cb7ab198a9ecbad7391",
-      "name": "Immanuelkant09",
-      "score": 44.5,
-      "roi_score": 33.4,
+      "wallet": "0x09d28b5751be5c31ead3a7b68a5726c414c326ae",
+      "name": "",
+      "score": 47.2,
+      "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 37.8,
-      "volume_score": 63.2,
-      "roi": 0.1,
-      "cash_pnl": 1.03,
-      "realized_pnl": 0.0,
-      "total_usdc": 3992.77,
-      "trade_count": 4,
-      "market_count": 2,
-      "position_count": 1,
+      "early_entry_score": 0.0,
+      "volume_score": 97.4,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 357164.62,
+      "trade_count": 500,
+      "market_count": 217,
+      "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T20:55:59+00:00",
+      "last_active": "2026-07-09T21:24:17+00:00",
       "top_markets": [
-        "France vs. Morocco: O/U 1.5",
-        "France vs. Morocco: O/U 2.5"
+        "Will LeBron James play for the Miami Heat in 2026-27?",
+        "Israel closes its airspace by May 24?",
+        "Will Netherlands win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
-      "name": "bahibahibahi",
-      "score": 43.0,
-      "roi_score": 34.9,
+      "wallet": "0xffa7667edfbd043f48aa12fa3831629cbb7428f8",
+      "name": "rthiden",
+      "score": 45.8,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 83.5,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 57111.58,
+      "trade_count": 216,
+      "market_count": 61,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:29:59+00:00",
+      "top_markets": [
+        "Will Bitcoin dip to $90k in October?",
+        "Will WTI Crude Oil (WTI) hit (HIGH) $150 in April?",
+        "Will Bitcoin reach $114k November 3-9?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x04c04a3c0bc826074b1272606566dd2db98f4f3d",
+      "name": "demon42",
+      "score": 45.5,
+      "roi_score": 43.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.9,
+      "roi": 15.6,
+      "cash_pnl": 8675.86,
+      "realized_pnl": 0.0,
+      "total_usdc": 434351.55,
+      "trade_count": 434,
+      "market_count": 138,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:32:10+00:00",
+      "top_markets": [
+        "Will Netherlands win the 2026 FIFA World Cup?",
+        "Will Argentina win the 2026 FIFA World Cup?",
+        "Will Morocco be the furthest advancing CAF nation at the World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.133,
+          "cur_price": 0.1785,
+          "usdc_size": 59177.54,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+      "name": "suntori",
+      "score": 44.2,
+      "roi_score": 45.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.9,
+      "roi": 18.0,
+      "cash_pnl": 182625.14,
+      "realized_pnl": 88672.1,
+      "total_usdc": 40847.61,
+      "trade_count": 500,
+      "market_count": 156,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:50:04+00:00",
+      "top_markets": [
+        "Will Spain win on 2026-07-10?",
+        "Ethereum Up or Down - July 9, 6:30PM-6:45PM ET",
+        "Exact Score: Spain 2 - 1 Belgium?"
+      ],
+      "signals": [
+        {
+          "market": "Will Spain win on 2026-07-10?",
+          "signal": "ENTER",
+          "avg_price": 0.5968,
+          "cur_price": 0.5938,
+          "usdc_size": 54047.45,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.7959,
+          "cur_price": 0.845,
+          "usdc_size": 145121.67,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0312,
+          "cur_price": 0.0585,
+          "usdc_size": 164304.42,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0109,
+          "cur_price": 0.0195,
+          "usdc_size": 16312.49,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0175,
+          "cur_price": 0.0215,
+          "usdc_size": 14051.06,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1239,
+          "cur_price": 0.1595,
+          "usdc_size": 102414.54,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.2644,
+          "cur_price": 0.3875,
+          "usdc_size": 247528.06,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1479,
+          "cur_price": 0.1725,
+          "usdc_size": 97971.29,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1407,
+          "cur_price": 0.1785,
+          "usdc_size": 48298.38,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.8162,
+          "cur_price": 0.1785,
+          "usdc_size": 7260.73,
+          "outcome": "No"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.8924,
+          "cur_price": 0.1595,
+          "usdc_size": 1088.5,
+          "outcome": "No"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.7134,
+          "cur_price": 0.3875,
+          "usdc_size": 640.85,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.832,
+          "cur_price": 0.1725,
+          "usdc_size": 756.42,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Ronaldo Cry at the World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.2183,
+          "cur_price": 0.9995,
+          "usdc_size": 591.47,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b",
+      "name": "0xrc",
+      "score": 43.8,
+      "roi_score": 38.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.6,
+      "roi": 7.5,
+      "cash_pnl": 27515.79,
+      "realized_pnl": 36.98,
+      "total_usdc": 363297.06,
+      "trade_count": 500,
+      "market_count": 101,
+      "position_count": 44,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:09:53+00:00",
+      "top_markets": [
+        "China x Taiwan military clash before 2027?",
+        "Will France win on 2026-07-09?",
+        "Will Paraguay win on 2026-07-04?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc829e4bb10868dc8fc3520505b433c372bd1cad3",
+      "name": "inari.poly",
+      "score": 43.3,
+      "roi_score": 39.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.0,
+      "roi": 9.8,
+      "cash_pnl": 79.91,
+      "realized_pnl": -18.97,
+      "total_usdc": 103768.65,
+      "trade_count": 500,
+      "market_count": 173,
+      "position_count": 53,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:09:58+00:00",
+      "top_markets": [
+        "Spurs vs. Thunder",
+        "Roland Garros ATP: Cristian Garin vs Learner Tien",
+        "Will United States win on 2026-06-19?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7e97bd09c2ccc632fb728d91b7c37d8ec5f34d54",
+      "name": "lfg321",
+      "score": 42.5,
+      "roi_score": 33.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": 2.4,
-      "cash_pnl": 26152.19,
-      "realized_pnl": 32644.21,
-      "total_usdc": 655940.72,
+      "roi": 0.2,
+      "cash_pnl": 772.53,
+      "realized_pnl": 0.0,
+      "total_usdc": 8188776.39,
       "trade_count": 500,
-      "market_count": 25,
-      "position_count": 100,
+      "market_count": 17,
+      "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T20:17:02+00:00",
+      "last_active": "2026-07-09T22:48:49+00:00",
       "top_markets": [
-        "Will Ronaldo Cry at the World Cup?",
-        "Will Trump acquire Greenland before 2027?",
-        "Will LeBron James play for the Cleveland Cavaliers in 2026-27?"
+        "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "US x Iran ceasefire extended by April 22, 2026?",
+        "Will Trump say \"Iran\" during events with Xi Jinping?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x429332d3f1620f7e17d11f4fcdfc8355bfea5d25",
+      "name": "f4fCdFc8355bfEa5D25-1783479027538",
+      "score": 42.5,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": 0.1,
+      "cash_pnl": 585.02,
+      "realized_pnl": 0.0,
+      "total_usdc": 789595.98,
+      "trade_count": 37,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:40:10+00:00",
+      "top_markets": [
+        "Will Ronaldo Cry at the World Cup?"
       ],
       "signals": []
     },
@@ -357,16 +451,16 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": 0.1,
-      "cash_pnl": 517.83,
+      "cash_pnl": 750.0,
       "realized_pnl": 0.0,
-      "total_usdc": 1034617.92,
-      "trade_count": 129,
+      "total_usdc": 1498500.0,
+      "trade_count": 173,
       "market_count": 1,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:35+00:00",
+      "last_active": "2026-07-09T22:11:50+00:00",
       "top_markets": [
         "Will Ronaldo Cry at the World Cup?"
       ],
@@ -400,567 +494,312 @@
       "signals": []
     },
     {
-      "wallet": "0xa102b434ce441a3119e146f75ed6276ee1a836d9",
-      "name": "tf2",
+      "wallet": "0x01fcd73db90e216ccd0cb2a5a4fce94d5e4a90fe",
+      "name": "pedrosanchez69",
       "score": 42.5,
-      "roi_score": 33.4,
+      "roi_score": 33.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 202.86,
-      "realized_pnl": -132.28,
-      "total_usdc": 6184993.33,
+      "volume_score": 99.9,
+      "roi": -0.1,
+      "cash_pnl": -2.4,
+      "realized_pnl": 0.0,
+      "total_usdc": 492421.68,
       "trade_count": 500,
-      "market_count": 51,
-      "position_count": 77,
+      "market_count": 115,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T19:00:04+00:00",
+      "last_active": "2026-07-09T21:31:23+00:00",
       "top_markets": [
-        "US government shutdown Saturday?",
-        "Russia x Ukraine ceasefire by May 31, 2026?",
-        "Will Trump nominate Judy Shelton as the next Fed chair?"
+        "Will the price of Bitcoin be between $82,000 and $84,000 on January 27?",
+        "Will the price of Bitcoin be between $70,000 and $72,000 on March 2?",
+        "Games Total: O/U 3.5"
       ],
       "signals": []
     },
     {
-      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
-      "name": "rwo",
-      "score": 42.1,
-      "roi_score": 33.4,
+      "wallet": "0x8a4c788f043023b8b28a762216d037e9f148532b",
+      "name": "theo5",
+      "score": 42.3,
+      "roi_score": 34.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 95.8,
-      "roi": 0.0,
-      "cash_pnl": 92.75,
-      "realized_pnl": -0.01,
-      "total_usdc": 289460.69,
+      "volume_score": 95.4,
+      "roi": 1.3,
+      "cash_pnl": 3115.03,
+      "realized_pnl": 16489.26,
+      "total_usdc": 274717.49,
       "trade_count": 500,
-      "market_count": 58,
-      "position_count": 3,
+      "market_count": 17,
+      "position_count": 55,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T18:39:22+00:00",
+      "last_active": "2026-07-09T21:48:19+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - July 9, 1:10AM-1:15AM ET",
-        "Bitcoin Up or Down - July 8, 8:15PM-8:20PM ET",
-        "Bitcoin Up or Down - July 8, 8:00PM-8:05PM ET"
+        "Will Jesus Christ return before GTA VI?",
+        "Will Germany vs. C\u00f4te d'Ivoire end in a draw?",
+        "Will Nigel Farage win the Clacton by-election?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "wallet": "0xc34b01c51c987180f19242bc45c8044ab476cbe2",
+      "name": "ssxji",
       "score": 42.1,
-      "roi_score": 11.4,
+      "roi_score": 33.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 44.7,
-      "volume_score": 94.5,
-      "roi": -33.0,
-      "cash_pnl": -3743923.87,
-      "realized_pnl": 897421.39,
-      "total_usdc": 242490.52,
+      "early_entry_score": 0.0,
+      "volume_score": 95.5,
+      "roi": 0.3,
+      "cash_pnl": 60.01,
+      "realized_pnl": 32.27,
+      "total_usdc": 275601.9,
       "trade_count": 500,
-      "market_count": 20,
-      "position_count": 352,
+      "market_count": 34,
+      "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:22+00:00",
+      "last_active": "2026-07-09T21:30:13+00:00",
       "top_markets": [
-        "Will France win on 2026-07-09?",
-        "Will France vs. Morocco end in a draw?",
-        "France vs. Morocco: O/U 1.5"
+        "Will China invade Taiwan by June 30, 2026?",
+        "Putin out as President of Russia by June 30?",
+        "Will there be no change in Fed interest rates after the June 2026 meeting?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xef57444bd5774aec993d234450b220595b15827d",
+      "name": "lilik",
+      "score": 41.9,
+      "roi_score": 33.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.3,
+      "roi": 0.4,
+      "cash_pnl": 91.06,
+      "realized_pnl": 18.75,
+      "total_usdc": 207387.38,
+      "trade_count": 500,
+      "market_count": 90,
+      "position_count": 10,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:59:26+00:00",
+      "top_markets": [
+        "Will Ciryl Gane win by KO or TKO?",
+        "Brazil vs. Japan: 1st Half O/U 0.5",
+        "O/U 1.5 Rounds"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2a1410533fe6abeeff9d124a51f023539b64e0fb",
+      "name": "psychicpsychic",
+      "score": 41.7,
+      "roi_score": 33.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.0,
+      "roi": -0.1,
+      "cash_pnl": -19.14,
+      "realized_pnl": 0.0,
+      "total_usdc": 174333.29,
+      "trade_count": 500,
+      "market_count": 40,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:20:10+00:00",
+      "top_markets": [
+        "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+        "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+        "Will Greg Abbott win the 2028 Republican presidential nomination?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc931d4289add90e51177cfc2bfc69a446efac416",
+      "name": "Lotfi009",
+      "score": 41.6,
+      "roi_score": 33.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.2,
+      "roi": 0.6,
+      "cash_pnl": 145.79,
+      "realized_pnl": -439.49,
+      "total_usdc": 138655.65,
+      "trade_count": 178,
+      "market_count": 9,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:28:31+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Switzerland win the 2026 FIFA World Cup?",
+        "Will Argentina win the 2026 FIFA World Cup?"
       ],
       "signals": [
         {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.2525,
-          "cur_price": 0.2575,
-          "usdc_size": 17068.95,
-          "outcome": "Over"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4912,
-          "cur_price": 0.2575,
-          "usdc_size": 1028604.13,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0397,
-          "cur_price": 0.1605,
-          "usdc_size": 130853.45,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0375,
-          "cur_price": 0.1875,
-          "usdc_size": 151222.96,
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.1859,
+          "cur_price": 0.1785,
+          "usdc_size": 19293.29,
           "outcome": "Yes"
         },
         {
           "market": "Will Switzerland win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0205,
-          "usdc_size": 16400.0,
+          "avg_price": 0.009,
+          "cur_price": 0.0195,
+          "usdc_size": 5850.0,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0285,
-          "usdc_size": 22400.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0281,
-          "cur_price": 0.3195,
-          "usdc_size": 187980.08,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.8576,
-          "cur_price": 0.1138,
-          "usdc_size": 412587.81,
-          "outcome": "No"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.88,
-          "cur_price": 0.085,
-          "usdc_size": 350449.11,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0351,
-          "cur_price": 0.0635,
-          "usdc_size": 26554.17,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1283,
-          "cur_price": 0.1875,
-          "usdc_size": 45766.39,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.3333,
-          "cur_price": 0.2888,
-          "usdc_size": 53526.37,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3999,
-          "cur_price": 0.5988,
-          "usdc_size": 50267.63,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.6302,
-          "cur_price": 0.285,
-          "usdc_size": 66872.96,
-          "outcome": "No"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7116,
-          "cur_price": 0.2888,
-          "usdc_size": 58799.37,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3507,
-          "cur_price": 0.2762,
-          "usdc_size": 21061.51,
-          "outcome": "France"
         }
       ]
     },
     {
-      "wallet": "0xb184c7a0e5172b5bedbf4492d702220f5522b6c6",
-      "name": "0xB184c7a0e5172b5BEdbf4492d702220F5522b6C6-1775929411929",
-      "score": 42.1,
-      "roi_score": 0.0,
+      "wallet": "0x900e3c7bc26b51dfd607cd152e8ffadbe11aa4d3",
+      "name": "ivanx4k",
+      "score": 41.5,
+      "roi_score": 33.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 64.2,
-      "volume_score": 99.6,
-      "roi": -97.7,
-      "cash_pnl": -270928.11,
-      "realized_pnl": 866.36,
-      "total_usdc": 471696.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.4,
+      "roi": -0.4,
+      "cash_pnl": -17.41,
+      "realized_pnl": 70.38,
+      "total_usdc": 142241.82,
       "trade_count": 500,
-      "market_count": 158,
-      "position_count": 404,
+      "market_count": 123,
+      "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T20:54:16+00:00",
+      "last_active": "2026-07-09T22:20:17+00:00",
       "top_markets": [
-        "Dallas Wings vs. Los Angeles Sparks",
-        "\u014cita Trinita vs. Montedio Yamagata: O/U 1.5",
-        "Knicks vs. Spurs"
+        "Will Bitcoin reach $67,500 in June?",
+        "Will Bitcoin reach $75,000 in July?",
+        "Will Bitcoin dip to $50,000 in June?"
       ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "LATE",
-          "avg_price": 0.2999,
-          "cur_price": 0.285,
-          "usdc_size": 6314.33,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0x1a71e5b282d1d13cfff8a0b37e87c75a2435a47e",
-      "name": "",
-      "score": 41.6,
+      "wallet": "0xf0074ef760ba7c1b3f43a0d378a866246445d94a",
+      "name": "ke1pie",
+      "score": 41.3,
+      "roi_score": 33.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.6,
+      "roi": -0.6,
+      "cash_pnl": -43.36,
+      "realized_pnl": 2.51,
+      "total_usdc": 128068.21,
+      "trade_count": 500,
+      "market_count": 178,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:34:07+00:00",
+      "top_markets": [
+        "Bitcoin all time high by June 30, 2026?",
+        "Putin out as President of Russia by June 30?",
+        "Will CZ post 0-19 posts from May 15 to May 22, 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x60260a1b3eaefef3781fe0c3c3141d7f4b42ad50",
+      "name": "Sajous",
+      "score": 41.1,
       "roi_score": 33.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.6,
+      "volume_score": 86.5,
       "roi": -0.2,
-      "cash_pnl": -5.14,
-      "realized_pnl": 0.0,
-      "total_usdc": 166629.58,
-      "trade_count": 423,
-      "market_count": 118,
-      "position_count": 3,
+      "cash_pnl": -4.55,
+      "realized_pnl": 3.8,
+      "total_usdc": 85197.49,
+      "trade_count": 500,
+      "market_count": 84,
+      "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:40+00:00",
+      "last_active": "2026-07-09T22:40:10+00:00",
       "top_markets": [
-        "Will Algeria vs. Austria end in a draw?",
-        "Will South Africa win on 2026-06-24?",
-        "Will England win on 2026-07-05?"
+        "Will Reza Pahlavi lead Iran in 2026?",
+        "Jeffrey Epstein confirmed to be alive before 2027?",
+        "Will Silver (SI) hit (HIGH) $150 by end of June?"
       ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.5999,
-          "cur_price": 0.5988,
-          "usdc_size": 2893.72,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
-      "name": "suntori",
-      "score": 41.4,
-      "roi_score": 37.0,
+      "wallet": "0xbbdfcf53ff9f4eddf5f460662eb7db08131eee72",
+      "name": "Sadmonkeynoises",
+      "score": 41.1,
+      "roi_score": 33.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.0,
-      "roi": 5.5,
-      "cash_pnl": 108558.78,
-      "realized_pnl": 85376.36,
-      "total_usdc": 27872.25,
+      "volume_score": 85.9,
+      "roi": 0.3,
+      "cash_pnl": 3.96,
+      "realized_pnl": 0.0,
+      "total_usdc": 78248.71,
       "trade_count": 500,
-      "market_count": 104,
-      "position_count": 500,
+      "market_count": 126,
+      "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:38+00:00",
+      "last_active": "2026-07-09T22:00:16+00:00",
       "top_markets": [
-        "Will France win on 2026-07-09?",
-        "Exact Score: France 1 - 0 Morocco?",
-        "Exact Score: France 2 - 0 Morocco?"
+        "Will NVIDIA be the largest company in the world by market cap on June 30?",
+        "Will the price of Bitcoin be greater than $78,000 on March 16?",
+        "Will the price of Bitcoin be above $72,000 on March 3?"
       ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.6159,
-          "cur_price": 0.5988,
-          "usdc_size": 311408.22,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.0268,
-          "cur_price": 0.0285,
-          "usdc_size": 22272.92,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.7801,
-          "cur_price": 0.7812,
-          "usdc_size": 195499.59,
-          "outcome": "France"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0311,
-          "cur_price": 0.0635,
-          "usdc_size": 194999.05,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0109,
-          "cur_price": 0.0205,
-          "usdc_size": 17150.26,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 3 - 3 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.0106,
-          "cur_price": 0.003,
-          "usdc_size": 2110.15,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1238,
-          "cur_price": 0.1605,
-          "usdc_size": 103016.13,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.2609,
-          "cur_price": 0.3195,
-          "usdc_size": 202082.18,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1479,
-          "cur_price": 0.1875,
-          "usdc_size": 107057.18,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 3 - 2 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.0308,
-          "cur_price": 0.009,
-          "usdc_size": 5090.99,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1405,
-          "cur_price": 0.1875,
-          "usdc_size": 50633.76,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.1129,
-          "cur_price": 0.085,
-          "usdc_size": 21123.5,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.1378,
-          "cur_price": 0.1138,
-          "usdc_size": 22927.4,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4761,
-          "cur_price": 0.2575,
-          "usdc_size": 20276.76,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3482,
-          "cur_price": 0.2762,
-          "usdc_size": 22148.58,
-          "outcome": "France"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.2502,
-          "cur_price": 0.2888,
-          "usdc_size": 19857.4,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.4846,
-          "cur_price": 0.285,
-          "usdc_size": 15531.07,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3997,
-          "cur_price": 0.5988,
-          "usdc_size": 19058.1,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2242,
-          "cur_price": 0.7812,
-          "usdc_size": 8579.0,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.5236,
-          "cur_price": 0.2575,
-          "usdc_size": 11471.83,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.8162,
-          "cur_price": 0.1875,
-          "usdc_size": 7181.19,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.6566,
-          "cur_price": 0.2762,
-          "usdc_size": 6044.55,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.5236,
-          "cur_price": 0.285,
-          "usdc_size": 3155.19,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.8627,
-          "cur_price": 0.1138,
-          "usdc_size": 1908.1,
-          "outcome": "No"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7518,
-          "cur_price": 0.2888,
-          "usdc_size": 1202.44,
-          "outcome": "No"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.7134,
-          "cur_price": 0.3195,
-          "usdc_size": 872.89,
-          "outcome": "No"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.8975,
-          "cur_price": 0.1605,
-          "usdc_size": 990.3,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.832,
-          "cur_price": 0.1875,
-          "usdc_size": 741.79,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Ronaldo Cry at the World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.2183,
-          "cur_price": 0.9995,
-          "usdc_size": 591.47,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
       "name": "Bertapotamous",
-      "score": 41.3,
-      "roi_score": 30.4,
+      "score": 41.0,
+      "roi_score": 29.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 97.2,
-      "roi": -4.4,
-      "cash_pnl": -30352.75,
+      "roi": -6.1,
+      "cash_pnl": -41898.69,
       "realized_pnl": 119524.82,
-      "total_usdc": 345597.92,
+      "total_usdc": 345654.91,
       "trade_count": 500,
-      "market_count": 20,
-      "position_count": 26,
+      "market_count": 21,
+      "position_count": 27,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T20:01:58+00:00",
+      "last_active": "2026-07-09T22:13:16+00:00",
       "top_markets": [
         "Will Ronaldo Cry at the World Cup?",
         "Will Morocco win the 2026 FIFA World Cup?",
@@ -971,25 +810,25 @@
           "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "ENTER",
           "avg_price": 0.1828,
-          "cur_price": 0.1875,
-          "usdc_size": 19184.74,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.029,
-          "cur_price": 0.0285,
-          "usdc_size": 2850.14,
+          "cur_price": 0.1785,
+          "usdc_size": 18263.87,
           "outcome": "Yes"
         },
         {
           "market": "Will Norway win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.0482,
-          "cur_price": 0.0635,
-          "usdc_size": 27816.11,
+          "cur_price": 0.0585,
+          "usdc_size": 22444.72,
           "outcome": "Yes"
+        },
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "SKIP",
+          "avg_price": 0.35,
+          "cur_price": 0.665,
+          "usdc_size": 53599.99,
+          "outcome": "Conor McGregor"
         },
         {
           "market": "Will Ronaldo Cry at the World Cup?",
@@ -998,141 +837,160 @@
           "cur_price": 0.9995,
           "usdc_size": 138994.46,
           "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.225,
-          "cur_price": 0.7812,
-          "usdc_size": 2329.21,
-          "outcome": "Morocco"
         }
       ]
     },
     {
-      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-      "name": "cigarettes",
-      "score": 41.2,
-      "roi_score": 36.6,
+      "wallet": "0x43440ab002eaac9fede6f9d21bea96d84228f90d",
+      "name": "M888",
+      "score": 40.9,
+      "roi_score": 31.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.5,
-      "roi": 5.0,
-      "cash_pnl": 26663.49,
-      "realized_pnl": 367569.51,
-      "total_usdc": 25991.07,
+      "volume_score": 89.0,
+      "roi": -2.7,
+      "cash_pnl": -3329.13,
+      "realized_pnl": 835.78,
+      "total_usdc": 117700.62,
       "trade_count": 500,
-      "market_count": 78,
-      "position_count": 500,
+      "market_count": 40,
+      "position_count": 52,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:17+00:00",
+      "last_active": "2026-07-09T22:40:10+00:00",
       "top_markets": [
-        "Will France win the 2026 FIFA World Cup?",
-        "Newport: Adrian Mannarino vs Alexis Galarneau",
-        "France leading at halftime?"
+        "Will Shabana Mahmood be the next Chancellor of the Exchequer of the UK in 2026?",
+        "Will the Republicans win the North Carolina Senate race in 2026?",
+        "Will Putin meet with Zelenskyy by June 30, 2026?"
       ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.2597,
-          "cur_price": 0.2575,
-          "usdc_size": 3618.34,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.1815,
-          "cur_price": 0.1875,
-          "usdc_size": 7633.16,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.3322,
-          "cur_price": 0.3195,
-          "usdc_size": 9354.1,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.828,
-          "cur_price": 0.7812,
-          "usdc_size": 4166.14,
-          "outcome": "France"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.7909,
-          "cur_price": 0.1875,
-          "usdc_size": 216984.44,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0205,
-          "usdc_size": 793.92,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0635,
-          "usdc_size": 2535.1,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.0285,
-          "usdc_size": 1017.02,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.7594,
-          "cur_price": 0.1605,
-          "usdc_size": 7912.45,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3377,
-          "cur_price": 0.2762,
-          "usdc_size": 1462.64,
-          "outcome": "France"
-        }
-      ]
+      "signals": []
+    },
+    {
+      "wallet": "0x9c9c7523f363f6ab3ae1aebca11be4d6bc75c3b3",
+      "name": "FirstPick",
+      "score": 40.8,
+      "roi_score": 32.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.6,
+      "roi": -1.7,
+      "cash_pnl": -62.2,
+      "realized_pnl": -1.77,
+      "total_usdc": 85906.45,
+      "trade_count": 500,
+      "market_count": 183,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:42:38+00:00",
+      "top_markets": [
+        "Will Los Angeles Lakers win the 2027 NBA Finals?",
+        "Will Miami Heat win the 2027 NBA Finals?",
+        "Will Spain win the 2026 FIFA World Cup?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0e4ce3d8b32ddab2e864555a53f20a532949c962",
+      "name": "h00neyballzsports",
+      "score": 40.8,
+      "roi_score": 30.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.4,
+      "roi": -4.0,
+      "cash_pnl": -1272.34,
+      "realized_pnl": 68.0,
+      "total_usdc": 161114.35,
+      "trade_count": 500,
+      "market_count": 136,
+      "position_count": 30,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:58:10+00:00",
+      "top_markets": [
+        "Will NVIDIA be the largest company in the world by market cap on June 30?",
+        "Kharg Island no longer under Iranian control by June 30?",
+        "Will Apple be the largest company in the world by market cap on June 30?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x45ce63a05b1662b67c632025efa37ab8315aef95",
+      "name": "Michal654",
+      "score": 40.7,
+      "roi_score": 33.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.1,
+      "roi": -0.2,
+      "cash_pnl": -2.85,
+      "realized_pnl": 0.0,
+      "total_usdc": 47825.88,
+      "trade_count": 319,
+      "market_count": 81,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:40:10+00:00",
+      "top_markets": [
+        "US obtains Iranian enriched uranium by June 30?",
+        "Will Kimi Antonelli win the 2026 F1 Canadian Grand Prix?",
+        "Will the Iranian regime fall by April 30?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc9751b5f25e1ecd88ec4630d19422b58d0562c68",
+      "name": "NeoSay10",
+      "score": 40.6,
+      "roi_score": 33.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 81.3,
+      "roi": 0.0,
+      "cash_pnl": 0.85,
+      "realized_pnl": 173.53,
+      "total_usdc": 43145.36,
+      "trade_count": 500,
+      "market_count": 180,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:47:34+00:00",
+      "top_markets": [
+        "Will the announcers say \"Fan\" 10+ times during the Japan vs Sweden FIFA World Cup Match?",
+        "Will anyone say \"Drama\" during Love Island E21?",
+        "Will no Fed rate cuts happen in 2026?"
+      ],
+      "signals": []
     },
     {
       "wallet": "0x366600e2990af0bd4abc962f70b85a605fceaab6",
       "name": "0x366600E2990Af0BD4ABC962F70b85A605FCeAab6-1778632856637",
-      "score": 41.0,
-      "roi_score": 31.8,
+      "score": 40.6,
+      "roi_score": 30.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 89.4,
-      "roi": -2.3,
-      "cash_pnl": -451.96,
+      "roi": -4.3,
+      "cash_pnl": -513.96,
       "realized_pnl": 3.89,
       "total_usdc": 124156.26,
       "trade_count": 206,
       "market_count": 67,
-      "position_count": 4,
+      "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
@@ -1142,1374 +1000,550 @@
         "Will Donald Trump publicly insult Elon Musk by June 30, 2026?",
         "Will Donald Trump publicly insult someone on May 28, 2026?"
       ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.775,
-          "cur_price": 0.7812,
-          "usdc_size": 7812.12,
-          "outcome": "France"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0x54af6568af97664b8c2a6370d21110469ad1a9ef",
-      "name": "Knark",
-      "score": 40.3,
-      "roi_score": 34.4,
+      "wallet": "0xb357a25753713068df334e1607230cd22e52ff05",
+      "name": "kirillostrovski",
+      "score": 40.6,
+      "roi_score": 30.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 74.7,
-      "roi": 1.6,
-      "cash_pnl": 45.05,
+      "volume_score": 88.7,
+      "roi": -3.8,
+      "cash_pnl": -1274.72,
       "realized_pnl": 0.0,
-      "total_usdc": 18008.09,
+      "total_usdc": 113041.49,
       "trade_count": 500,
-      "market_count": 79,
-      "position_count": 10,
+      "market_count": 45,
+      "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T17:29:11+00:00",
+      "last_active": "2026-07-09T21:39:02+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - April 8, 9AM ET",
-        "Bitcoin Up or Down - April 10, 10AM ET",
-        "Ethereum Up or Down - April 8, 12PM ET"
+        "EdgeX FDV above $4B one day after launch?",
+        "Will Russia invade a NATO country by June 30, 2026?",
+        "MegaETH market cap (FDV) >$2B one day after launch?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x94d71d0d28709da91fd44c7d89da272fe86dbef5",
-      "name": "JMMMMM",
-      "score": 39.8,
-      "roi_score": 0.0,
+      "wallet": "0x5c704d02b553471c47035f4698dc2fc7702dccbb",
+      "name": "0x5C704D02b553471c47035f4698DC2fc7702dCcBB-1763014355185",
+      "score": 39.9,
+      "roi_score": 29.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 48.6,
-      "volume_score": 100.0,
-      "roi": -95.0,
-      "cash_pnl": -2131552.31,
-      "realized_pnl": 57575.16,
-      "total_usdc": 610666.12,
+      "early_entry_score": 0.0,
+      "volume_score": 85.4,
+      "roi": -5.6,
+      "cash_pnl": -251.78,
+      "realized_pnl": 32.75,
+      "total_usdc": 73728.11,
       "trade_count": 500,
-      "market_count": 65,
+      "market_count": 289,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:34:16+00:00",
+      "top_markets": [
+        "Will France win the 2026 FIFA World Cup?",
+        "Exact Score: Portugal 1 - 2 Spain?",
+        "Will Morocco win the 2026 FIFA World Cup?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xdc4f08727c65afc4731b75cf1ed265666b7b4652",
+      "name": "third-eye",
+      "score": 39.6,
+      "roi_score": 25.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.7,
+      "roi": -11.1,
+      "cash_pnl": -20652.56,
+      "realized_pnl": -5087.67,
+      "total_usdc": 218782.61,
+      "trade_count": 500,
+      "market_count": 112,
+      "position_count": 128,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:49:22+00:00",
+      "top_markets": [
+        "Will LeBron James play for the Golden State Warriors in 2026-27?",
+        "Will USA win the 2026 FIFA World Cup?",
+        "Will Alexander Zverev be the 2026 Men\u2019s Wimbledon winner?"
+      ],
+      "signals": [
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "ENTER",
+          "avg_price": 0.6631,
+          "cur_price": 0.665,
+          "usdc_size": 3008.77,
+          "outcome": "Max Holloway"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.2725,
+          "cur_price": 0.3875,
+          "usdc_size": 3874.82,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc105fac1e796b87e002d374657a3621bdda99dd9",
+      "name": "giroumcnahets",
+      "score": 39.6,
+      "roi_score": 32.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 72.8,
+      "roi": -0.7,
+      "cash_pnl": -1.0,
+      "realized_pnl": 0.0,
+      "total_usdc": 14127.22,
+      "trade_count": 177,
+      "market_count": 36,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:23:44+00:00",
+      "top_markets": [
+        "Will Bitcoin reach $135k in October?",
+        "Will Bitcoin reach $110,000 in April?",
+        "Will Solana reach $250 in October?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb4f2f0c858566fef705edf8efc1a5e9fba307862",
+      "name": "Desy-1725192185234",
+      "score": 39.2,
+      "roi_score": 31.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 73.8,
+      "roi": -3.5,
+      "cash_pnl": -1051.1,
+      "realized_pnl": 11770.32,
+      "total_usdc": 16000.58,
+      "trade_count": 500,
+      "market_count": 9,
+      "position_count": 39,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:40:23+00:00",
+      "top_markets": [
+        "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
+        "Will Cl\u00e9mentine Autain win the 2027 French presidential election?",
+        "Will Fran\u00e7ois Bayrou win the 2027 French presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc2dbb83dd39f9d604dbc5eee1f541baaee996865",
+      "name": "Noteagle",
+      "score": 39.1,
+      "roi_score": 26.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.4,
+      "roi": -10.1,
+      "cash_pnl": -1048.69,
+      "realized_pnl": 2.93,
+      "total_usdc": 84270.9,
+      "trade_count": 500,
+      "market_count": 165,
+      "position_count": 109,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:36:22+00:00",
+      "top_markets": [
+        "Will Bitcoin reach $64,000 June 29-July 5?",
+        "Bitcoin Up or Down on July 9?",
+        "Bitcoin Up or Down - July 8, 4PM ET"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x52d8da46bcc56e3d9f9b2099ad16904fb0b599ae",
+      "name": "Baosen0412",
+      "score": 39.1,
+      "roi_score": 26.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.0,
+      "roi": -11.1,
+      "cash_pnl": -2018.48,
+      "realized_pnl": 98.16,
+      "total_usdc": 103605.07,
+      "trade_count": 500,
+      "market_count": 29,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:19:47+00:00",
+      "top_markets": [
+        "Will Canada win the 2026 FIFA World Cup?",
+        "Will Colombia win on 2026-07-07?",
+        "Will Mexico win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0114,
+          "cur_price": 0.0195,
+          "usdc_size": 780.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.025,
+          "cur_price": 0.0585,
+          "usdc_size": 1170.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.8,
+          "cur_price": 0.1785,
+          "usdc_size": 14222.63,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x012117729450d19b22018ad8c6e9357bcd34f722",
+      "name": "MenacingTurtle",
+      "score": 38.9,
+      "roi_score": 23.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.7,
+      "roi": -14.3,
+      "cash_pnl": -13927.39,
+      "realized_pnl": 79155.57,
+      "total_usdc": 190988.8,
+      "trade_count": 500,
+      "market_count": 41,
+      "position_count": 93,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:42:55+00:00",
+      "top_markets": [
+        "Will Argentina win the 2026 FIFA World Cup?",
+        "Will Argentina reach the 2026 FIFA World Cup final?",
+        "Will Switzerland win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.6434,
+          "cur_price": 0.3875,
+          "usdc_size": 4215.61,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6a01a5d9f98affc0a2c709ea8f82e930304e7c0a",
+      "name": "sheeni",
+      "score": 38.3,
+      "roi_score": 22.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.3,
+      "roi": -16.0,
+      "cash_pnl": -5294.68,
+      "realized_pnl": 985.11,
+      "total_usdc": 139729.29,
+      "trade_count": 500,
+      "market_count": 41,
+      "position_count": 13,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:20:43+00:00",
+      "top_markets": [
+        "Will the next diplomatic US-Iran meeting be in Pakistan?",
+        "Will Colombia win on 2026-07-03?",
+        "US x Iran permanent peace deal by July 31, 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.8525,
+          "cur_price": 0.1595,
+          "usdc_size": 4202.45,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8b016395230775d54a3cd81d2e254653549124a9",
+      "name": "ac009",
+      "score": 38.2,
+      "roi_score": 25.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 81.9,
+      "roi": -12.4,
+      "cash_pnl": -179.12,
+      "realized_pnl": -55.85,
+      "total_usdc": 46708.97,
+      "trade_count": 500,
+      "market_count": 9,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:44:31+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will Argentina win the 2026 FIFA World Cup?",
+        "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.827,
+          "cur_price": 0.1725,
+          "usdc_size": 600.35,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa32db54ed36a5dc07fc6bd1c192a60f8703d777f",
+      "name": "165cm",
+      "score": 37.8,
+      "roi_score": 23.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.0,
+      "roi": -14.4,
+      "cash_pnl": -901.1,
+      "realized_pnl": -158.69,
+      "total_usdc": 47384.85,
+      "trade_count": 500,
+      "market_count": 331,
       "position_count": 371,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T20:56:14+00:00",
+      "last_active": "2026-07-09T22:35:16+00:00",
       "top_markets": [
-        "Portugal vs. Spain: Team to Advance",
-        "France vs. Morocco: O/U 2.5",
-        "Exact Score: Argentina 1 - 1 Cabo Verde?"
+        "Iran closes its airspace by May 24?",
+        "Mojtaba Khamenei seen in public by July 15?",
+        "Kharg Island no longer under Iranian control by May 31?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x903221b1098263779ae19486028c844e8c338717",
+      "name": "0x903221b1",
+      "score": 33.1,
+      "roi_score": 4.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.5,
+      "roi": -43.2,
+      "cash_pnl": -103968.03,
+      "realized_pnl": 0.0,
+      "total_usdc": 188007.25,
+      "trade_count": 500,
+      "market_count": 9,
+      "position_count": 20,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:39:20+00:00",
+      "top_markets": [
+        "Kylian Mbapp\u00e9: 1+ goals",
+        "Will Egypt win on 2026-07-07?",
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": [
         {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.5999,
-          "cur_price": 0.5988,
-          "usdc_size": 19956.67,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.4777,
-          "cur_price": 0.2575,
-          "usdc_size": 49416.48,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1649,
-          "cur_price": 0.3195,
-          "usdc_size": 39151.52,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 3 - 2 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.0313,
-          "cur_price": 0.009,
-          "usdc_size": 797.96,
+          "avg_price": 0.1089,
+          "cur_price": 0.1785,
+          "usdc_size": 40098.41,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-      "name": "mooseborzoi",
-      "score": 39.7,
-      "roi_score": 32.8,
+      "wallet": "0x4e8bd0ddaca3204bf58ef00736ec2a1d068005bd",
+      "name": "0x4E8Bd0dDacA3204BF58eF00736eC2a1D068005bd-1767983357089",
+      "score": 32.5,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 73.9,
-      "roi": -0.9,
-      "cash_pnl": -24350.4,
-      "realized_pnl": 322938.75,
-      "total_usdc": 16235.4,
+      "volume_score": 100.0,
+      "roi": -69.0,
+      "cash_pnl": -55398.49,
+      "realized_pnl": -375.7,
+      "total_usdc": 1075331.22,
       "trade_count": 500,
-      "market_count": 32,
-      "position_count": 269,
+      "market_count": 84,
+      "position_count": 10,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:20+00:00",
+      "last_active": "2026-07-09T21:30:01+00:00",
       "top_markets": [
-        "Exact Score: France 1 - 0 Morocco?",
+        "Wimbledon ATP: Rafael Jodar vs Felix Gill",
+        "Roland Garros ATP: Rinky Hijikata vs Tommy Paul",
+        "Roland Garros WTA: Elina Svitolina vs Kaitlin Quevedo"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x44a1159b925c145e70f746bb3f0f58380553bd21",
+      "name": "yupiiiiiiiii",
+      "score": 32.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.2,
+      "roi": -77.8,
+      "cash_pnl": -253821.29,
+      "realized_pnl": -46284.59,
+      "total_usdc": 452842.41,
+      "trade_count": 500,
+      "market_count": 13,
+      "position_count": 144,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T22:49:19+00:00",
+      "top_markets": [
         "France vs. Morocco: Both Teams to Score",
-        "Exact Score: France 2 - 1 Morocco?"
+        "France vs. Morocco: 1st Half O/U 1.5",
+        "Chicago Cubs vs. Baltimore Orioles"
       ],
       "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.6119,
-          "cur_price": 0.5988,
-          "usdc_size": 109844.39,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "ENTER",
-          "avg_price": 0.2849,
-          "cur_price": 0.2888,
-          "usdc_size": 756.22,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.1755,
-          "cur_price": 0.1875,
-          "usdc_size": 262146.74,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0453,
-          "cur_price": 0.0635,
-          "usdc_size": 144011.9,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.2818,
-          "cur_price": 0.3195,
-          "usdc_size": 619134.53,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0251,
-          "cur_price": 0.0285,
-          "usdc_size": 43541.56,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1492,
-          "cur_price": 0.1875,
-          "usdc_size": 187458.53,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.4993,
-          "cur_price": 0.285,
-          "usdc_size": 141065.21,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 3 - 2 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.032,
-          "cur_price": 0.009,
-          "usdc_size": 5351.36,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2192,
-          "cur_price": 0.7812,
-          "usdc_size": 80319.82,
-          "outcome": "Morocco"
-        },
         {
           "market": "Will Switzerland win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.016,
-          "cur_price": 0.0205,
-          "usdc_size": 7153.24,
+          "avg_price": 0.0086,
+          "cur_price": 0.0195,
+          "usdc_size": 3588.0,
           "outcome": "Yes"
         },
         {
-          "market": "France vs. Morocco: O/U 2.5",
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.4848,
-          "cur_price": 0.2575,
-          "usdc_size": 73239.7,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3455,
-          "cur_price": 0.2762,
-          "usdc_size": 61535.65,
-          "outcome": "France"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.1137,
-          "cur_price": 0.085,
-          "usdc_size": 16020.37,
+          "avg_price": 0.0155,
+          "cur_price": 0.0215,
+          "usdc_size": 3659.4,
           "outcome": "Yes"
         },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1098,
-          "cur_price": 0.1605,
-          "usdc_size": 16496.63,
+          "avg_price": 0.0847,
+          "cur_price": 0.1595,
+          "usdc_size": 17545.08,
           "outcome": "Yes"
         },
         {
-          "market": "Will Morocco win on 2026-07-09?",
+          "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1313,
-          "cur_price": 0.1138,
-          "usdc_size": 2658.4,
+          "avg_price": 0.1319,
+          "cur_price": 0.1725,
+          "usdc_size": 4827.28,
           "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.737,
-          "cur_price": 0.2575,
-          "usdc_size": 7978.17,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3805,
-          "cur_price": 0.5988,
-          "usdc_size": 800.05,
-          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xb2808f72a20d51e5687196da252e187280b366e0",
-      "name": "bb1232",
-      "score": 39.7,
-      "roi_score": 17.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.0,
-      "volume_score": 61.1,
-      "roi": -23.3,
-      "cash_pnl": -698.76,
-      "realized_pnl": 0.0,
-      "total_usdc": 3051.67,
-      "trade_count": 3,
-      "market_count": 2,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:53:20+00:00",
-      "top_markets": [
-        "France vs. Morocco: O/U 2.5",
-        "France vs. Morocco: O/U 9.5 Total Corners"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.3422,
-          "cur_price": 0.2575,
-          "usdc_size": 1497.3,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "name": "RN1",
-      "score": 38.3,
+      "wallet": "0x06f22ff6d9362ce82243f8ca594c97485d9c1269",
+      "name": "vkvkgjerkgk",
+      "score": 32.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 43.6,
-      "volume_score": 92.4,
-      "roi": -89.1,
-      "cash_pnl": -3387934.71,
-      "realized_pnl": 1308393.04,
-      "total_usdc": 184986.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.9,
+      "roi": -100.0,
+      "cash_pnl": -50388.77,
+      "realized_pnl": 392621.37,
+      "total_usdc": 430923.31,
       "trade_count": 500,
-      "market_count": 34,
-      "position_count": 500,
+      "market_count": 26,
+      "position_count": 138,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:44+00:00",
+      "last_active": "2026-07-09T21:48:23+00:00",
       "top_markets": [
-        "France leading at halftime?",
-        "France vs. Morocco: 1st Half O/U 0.5",
-        "Morocco leading at halftime?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.6172,
-          "cur_price": 0.5988,
-          "usdc_size": 67164.03,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "LATE",
-          "avg_price": 0.1198,
-          "cur_price": 0.1138,
-          "usdc_size": 3005.3,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3789,
-          "cur_price": 0.5988,
-          "usdc_size": 49456.8,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.5699,
-          "cur_price": 0.285,
-          "usdc_size": 34190.29,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.875,
-          "cur_price": 0.1138,
-          "usdc_size": 22420.95,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.6471,
-          "cur_price": 0.2762,
-          "usdc_size": 9920.03,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2133,
-          "cur_price": 0.7812,
-          "usdc_size": 2981.09,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.887,
-          "cur_price": 0.085,
-          "usdc_size": 10738.96,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
-      "name": "UpTheBlues",
-      "score": 38.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 45.1,
-      "volume_score": 89.7,
-      "roi": -95.4,
-      "cash_pnl": -2725727.29,
-      "realized_pnl": 0.0,
-      "total_usdc": 128928.46,
-      "trade_count": 500,
-      "market_count": 91,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:10+00:00",
-      "top_markets": [
-        "Spread: France (-2.5)",
-        "Spread: France (-1.5)",
-        "Will FK \u017dalgiris Vilnius win on 2026-07-09?"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.5459,
-          "cur_price": 0.285,
-          "usdc_size": 15385.7,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.5911,
-          "cur_price": 0.2575,
-          "usdc_size": 15708.56,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.6367,
-          "cur_price": 0.2762,
-          "usdc_size": 15108.86,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.141,
-          "cur_price": 0.1138,
-          "usdc_size": 1485.81,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x40b4afa7a82a8b3607a69b77520feaf2a9c21483",
-      "name": "Luckandload",
-      "score": 38.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 39.1,
-      "volume_score": 96.6,
-      "roi": -97.4,
-      "cash_pnl": -95087.25,
-      "realized_pnl": 0.0,
-      "total_usdc": 319714.97,
-      "trade_count": 359,
-      "market_count": 279,
-      "position_count": 106,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:57:02+00:00",
-      "top_markets": [
-        "Magic vs. 76ers",
-        "OG Anunoby: Points O/U 16.5",
-        "Spread: Manchester City FC (-1.5)"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x00c419b3f6415911abe859fcb70b7a3cf2f492c2",
-      "name": "kitty118",
-      "score": 37.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.9,
-      "volume_score": 96.1,
-      "roi": -75.2,
-      "cash_pnl": -9.37,
-      "realized_pnl": 96773.64,
-      "total_usdc": 299922.14,
-      "trade_count": 500,
-      "market_count": 5,
-      "position_count": 37,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:17+00:00",
-      "top_markets": [
-        "France vs. Morocco: O/U 2.5",
+        "Will France win the 2026 FIFA World Cup?",
         "Will France win on 2026-07-09?",
-        "France vs. Morocco: O/U 1.5"
+        "Argentina vs. Egypt: Team to Advance"
       ],
       "signals": []
     },
     {
-      "wallet": "0x22f9c2f4358bd6fbc4ab20fd8ca62006b11af814",
-      "name": "fffuiu",
-      "score": 37.9,
+      "wallet": "0xc3c3b3ef304ddbea39fa2246e683a71da5d0eec8",
+      "name": "comon119",
+      "score": 32.0,
       "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.3,
-      "volume_score": 97.0,
-      "roi": -93.5,
-      "cash_pnl": -36964.56,
-      "realized_pnl": -0.0,
-      "total_usdc": 335541.17,
-      "trade_count": 500,
-      "market_count": 44,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:57:47+00:00",
-      "top_markets": [
-        "Will Cabo Verde win on 2026-06-26?",
-        "Will Egypt win on 2026-06-26?",
-        "Pisa SC vs. SSC Napoli: O/U 2.5"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4342,
-          "cur_price": 0.2575,
-          "usdc_size": 2562.0,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x03b876c12bdcba1bde02d664a4ae20b2aed1b4ae",
-      "name": "0x03b876C12BDCba1BdE02D664a4aE20B2aEd1b4aE-1758035857861",
-      "score": 37.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.0,
-      "volume_score": 98.5,
-      "roi": -82.2,
-      "cash_pnl": -53226.39,
-      "realized_pnl": -8505.26,
-      "total_usdc": 409575.38,
-      "trade_count": 500,
-      "market_count": 58,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:55:13+00:00",
-      "top_markets": [
-        "Portugal vs. Spain: Draw at halftime?",
-        "Brazil vs. Norway: Draw at halftime?",
-        "Switzerland vs. Colombia: Draw at halftime?"
-      ],
-      "signals": [
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "ENTER",
-          "avg_price": 0.2899,
-          "cur_price": 0.2888,
-          "usdc_size": 2582.65,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-      "name": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-      "score": 37.5,
-      "roi_score": 16.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -25.2,
-      "cash_pnl": -46615.63,
-      "realized_pnl": -24389.14,
-      "total_usdc": 538551.38,
+      "volume_score": 94.9,
+      "roi": -99.4,
+      "cash_pnl": -11762576.62,
+      "realized_pnl": 53617.61,
+      "total_usdc": 256499.98,
       "trade_count": 500,
-      "market_count": 14,
-      "position_count": 22,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:05+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
-        "Valorant: Team Heretics vs BBL Esports (BO3) - Esports World Cup Playoffs",
-        "LoL: G2 Esports vs T1 (BO5) - Mid-Season Invitational Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.186,
-          "cur_price": 0.1875,
-          "usdc_size": 17138.78,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.187,
-          "cur_price": 0.1875,
-          "usdc_size": 15864.03,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.06,
-          "cur_price": 0.0635,
-          "usdc_size": 13600.16,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.79,
-          "cur_price": 0.7812,
-          "usdc_size": 47486.64,
-          "outcome": "France"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "LATE",
-          "avg_price": 0.2719,
-          "cur_price": 0.2575,
-          "usdc_size": 12732.79,
-          "outcome": "Over"
-        },
-        {
-          "market": "France vs. Morocco: Both Teams to Score",
-          "signal": "SKIP",
-          "avg_price": 0.4317,
-          "cur_price": 0.285,
-          "usdc_size": 13668.86,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.2475,
-          "cur_price": 0.2888,
-          "usdc_size": 12451.64,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
-      "name": "ZaiZoiBele",
-      "score": 37.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.0,
-      "volume_score": 93.7,
-      "roi": -98.6,
-      "cash_pnl": -246064.64,
-      "realized_pnl": -1612.47,
-      "total_usdc": 219376.29,
-      "trade_count": 500,
-      "market_count": 49,
+      "market_count": 35,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:00:52+00:00",
+      "last_active": "2026-07-09T22:48:50+00:00",
       "top_markets": [
-        "Wimbledon WTA: Karolina Muchova vs Coco Gauff",
-        "Switzerland vs. Colombia: Team to Advance",
-        "Wimbledon WTA: Marta Kostyuk vs Linda Noskova"
+        "Exact Score: France 3 - 2 Morocco?",
+        "New York Yankees vs. Tampa Bay Rays",
+        "Exact Score: France 1 - 1 Morocco?"
       ],
       "signals": []
-    },
-    {
-      "wallet": "0x4154ffdc11d057087ea5b67fda6e1388ac8ee7a8",
-      "name": "acfc8",
-      "score": 37.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.5,
-      "volume_score": 91.9,
-      "roi": -92.0,
-      "cash_pnl": -227419.84,
-      "realized_pnl": 4195.11,
-      "total_usdc": 172491.12,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 169,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:32+00:00",
-      "top_markets": [
-        "Argentina vs. Cabo Verde: Team to Advance",
-        "France vs. Morocco: Team to Advance",
-        "Colombia vs. Ghana: O/U 8.5 Total Corners"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.7932,
-          "cur_price": 0.7812,
-          "usdc_size": 10155.59,
-          "outcome": "France"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-      "name": "ferrariChampions2026",
-      "score": 37.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.0,
-      "volume_score": 90.1,
-      "roi": -97.0,
-      "cash_pnl": -13820149.64,
-      "realized_pnl": 550088.8,
-      "total_usdc": 136745.62,
-      "trade_count": 500,
-      "market_count": 22,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:05+00:00",
-      "top_markets": [
-        "Counter-Strike: Yawara Esports vs Sharks (BO3) - RES Showdown South America Playoffs",
-        "Will Morocco win on 2026-07-09?",
-        "Newport: Adrian Mannarino vs Alexis Galarneau"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.5164,
-          "cur_price": 0.2575,
-          "usdc_size": 157962.53,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3763,
-          "cur_price": 0.5988,
-          "usdc_size": 25153.09,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.142,
-          "cur_price": 0.1138,
-          "usdc_size": 5038.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2044,
-          "cur_price": 0.7812,
-          "usdc_size": 8159.34,
-          "outcome": "Morocco"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
-      "name": "GoalLineGhost",
-      "score": 37.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.8,
-      "volume_score": 89.5,
-      "roi": -58.6,
-      "cash_pnl": -775623.94,
-      "realized_pnl": -4067.79,
-      "total_usdc": 126660.14,
-      "trade_count": 500,
-      "market_count": 54,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:38+00:00",
-      "top_markets": [
-        "Spread: France (-1.5)",
-        "France vs. Morocco: O/U 3.5",
-        "France vs. Morocco: O/U 1.5"
-      ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.373,
-          "cur_price": 0.5988,
-          "usdc_size": 33521.06,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3492,
-          "cur_price": 0.2762,
-          "usdc_size": 15421.06,
-          "outcome": "France"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4737,
-          "cur_price": 0.2575,
-          "usdc_size": 13787.89,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.14,
-          "cur_price": 0.1138,
-          "usdc_size": 4377.83,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.5712,
-          "cur_price": 0.2575,
-          "usdc_size": 27224.47,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.75,
-          "cur_price": 0.2888,
-          "usdc_size": 20703.91,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.6543,
-          "cur_price": 0.2762,
-          "usdc_size": 1172.83,
-          "outcome": "Morocco"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4a44b7334fdec76d7c6a60894f95cce3b7ecd5a5",
-      "name": "coffeenocreamerman",
-      "score": 36.8,
-      "roi_score": 18.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.6,
-      "roi": -22.0,
-      "cash_pnl": -480.07,
-      "realized_pnl": -2.31,
-      "total_usdc": 86667.87,
-      "trade_count": 386,
-      "market_count": 198,
-      "position_count": 23,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:47+00:00",
-      "top_markets": [
-        "Netherlands vs. Sweden: O/U 5.5",
-        "France vs. Morocco: Both Teams to Score",
-        "Switzerland vs. Colombia: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.745,
-          "cur_price": 0.2575,
-          "usdc_size": 1363.62,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2bcab991aafdcfdb27aa429816bbade24b12835d",
-      "name": "ppddaa",
-      "score": 36.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.2,
-      "volume_score": 87.5,
-      "roi": -77.9,
-      "cash_pnl": -6325.39,
-      "realized_pnl": 243.5,
-      "total_usdc": 97356.04,
-      "trade_count": 500,
-      "market_count": 95,
-      "position_count": 50,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:40:25+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - June 9, 11:30AM-11:45AM ET",
-        "Bitcoin Up or Down - July 1, 9:15AM-9:30AM ET",
-        "Bitcoin Up or Down - June 9, 10:15AM-10:30AM ET"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xabcf5c2671cb02c61963484bdc30aaad76c05b58",
-      "name": "0xBEf81d42fb199cFB8Cd775eE1E4f7C2Ffb9bd25E-1775137514584",
-      "score": 36.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 41.0,
-      "volume_score": 80.8,
-      "roi": -78.7,
-      "cash_pnl": -9882.02,
-      "realized_pnl": 239.48,
-      "total_usdc": 40251.7,
-      "trade_count": 500,
-      "market_count": 449,
-      "position_count": 168,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:52:29+00:00",
-      "top_markets": [
-        "France vs. Morocco: O/U 2.5",
-        "Brazil vs. Norway: Team to Advance",
-        "Will Switzerland vs. Colombia end in a draw?"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.525,
-          "cur_price": 0.2575,
-          "usdc_size": 2209.09,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0x95f51617e900f7d4df2894d77a73c1b2b269779f",
-      "name": "0x95F51617E900F7d4df2894D77A73c1b2B269779F-1767804195553",
-      "score": 36.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.0,
-      "volume_score": 86.1,
-      "roi": -84.6,
-      "cash_pnl": -420237.52,
-      "realized_pnl": 1208399.9,
-      "total_usdc": 80659.0,
-      "trade_count": 500,
-      "market_count": 15,
-      "position_count": 278,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:35+00:00",
-      "top_markets": [
-        "France vs. Morocco: Team to Advance",
-        "Spread: France (-1.5)",
-        "Will France win on 2026-07-09?"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2075,
-          "cur_price": 0.7812,
-          "usdc_size": 21202.96,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.6543,
-          "cur_price": 0.5988,
-          "usdc_size": 34736.3,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3581,
-          "cur_price": 0.2762,
-          "usdc_size": 6336.61,
-          "outcome": "France"
-        },
-        {
-          "market": "Will France vs. Morocco end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7361,
-          "cur_price": 0.2888,
-          "usdc_size": 2880.65,
-          "outcome": "No"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.3743,
-          "cur_price": 0.2575,
-          "usdc_size": 681.87,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.8837,
-          "cur_price": 0.1138,
-          "usdc_size": 1209.6,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5415e0326703e29a16f6b260ce3c85692ef0f764",
-      "name": "0x5415e0326703e29A16f6B260Ce3C85692EF0F764-1781687530226",
-      "score": 35.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.3,
-      "volume_score": 78.1,
-      "roi": -87.5,
-      "cash_pnl": -8844.34,
-      "realized_pnl": 0.0,
-      "total_usdc": 28227.85,
-      "trade_count": 123,
-      "market_count": 99,
-      "position_count": 45,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:50+00:00",
-      "top_markets": [
-        "Samsonova vs. Bouzkova: Match O/U 23.5",
-        "Portugal vs. Spain: Spain 2nd Half O/U 1.5",
-        "Spread: Belgium (-1.5)"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.2599,
-          "cur_price": 0.2575,
-          "usdc_size": 756.54,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0xec593b3c1a9a0ed15e597dc4ea09cafbffe3bb35",
-      "name": "iamkrisas",
-      "score": 34.2,
-      "roi_score": 10.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.3,
-      "roi": -34.6,
-      "cash_pnl": -5928.08,
-      "realized_pnl": 0.0,
-      "total_usdc": 82977.71,
-      "trade_count": 500,
-      "market_count": 58,
-      "position_count": 15,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:58:23+00:00",
-      "top_markets": [
-        "Will Jannik Sinner be the 2026 Men\u2019s Wimbledon winner?",
-        "Wimbledon ATP: Jannik Sinner vs Jan-Lennard Struff",
-        "Switzerland vs. Colombia: Switzerland 1st Half O/U 0.5"
-      ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.615,
-          "cur_price": 0.5988,
-          "usdc_size": 2574.41,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.86,
-          "cur_price": 0.1138,
-          "usdc_size": 2651.1,
-          "outcome": "No"
-        },
-        {
-          "market": "Spread: France (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.33,
-          "cur_price": 0.2762,
-          "usdc_size": 847.2,
-          "outcome": "France"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4424,
-          "cur_price": 0.2575,
-          "usdc_size": 768.6,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1cd24cc49782240413903b4b7e7694779f917f85",
-      "name": "bitterfish",
-      "score": 33.0,
-      "roi_score": 1.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.7,
-      "roi": -47.1,
-      "cash_pnl": -34910.32,
-      "realized_pnl": 0.0,
-      "total_usdc": 480488.1,
-      "trade_count": 173,
-      "market_count": 105,
-      "position_count": 43,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:46:44+00:00",
-      "top_markets": [
-        "Will Bitcoin reach $100,000 in January?",
-        "Will Portugal reach the Quarterfinals at the 2026 FIFA World Cup?",
-        "Will Bitcoin hit $80k or $100k first?"
-      ],
-      "signals": [
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1639,
-          "cur_price": 0.1875,
-          "usdc_size": 2298.78,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1709,
-          "cur_price": 0.3195,
-          "usdc_size": 3777.78,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa4fd70a8d79c3433ca2eb967ee605a356986748b",
-      "name": "alexdave888",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -97.2,
-      "cash_pnl": -944707.34,
-      "realized_pnl": 5736.97,
-      "total_usdc": 684277.43,
-      "trade_count": 500,
-      "market_count": 135,
-      "position_count": 295,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:05+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - June 25, 10:45AM-10:50AM ET",
-        "Bitcoin Up or Down - June 26, 7:30PM-7:35PM ET",
-        "Bitcoin Up or Down - June 26, 7:20PM-7:25PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.2009,
-          "cur_price": 0.1875,
-          "usdc_size": 1768.66,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "LATE",
-          "avg_price": 0.0899,
-          "cur_price": 0.085,
-          "usdc_size": 661.11,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0334,
-          "cur_price": 0.0285,
-          "usdc_size": 2604.19,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.2299,
-          "cur_price": 0.7812,
-          "usdc_size": 6656.09,
-          "outcome": "Morocco"
-        },
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "SKIP",
-          "avg_price": 0.3899,
-          "cur_price": 0.5988,
-          "usdc_size": 8229.74,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xecb14ac6e9ca447ce2f2912e6217b43d7b655da3",
-      "name": "SaylorMoon",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -53.5,
-      "cash_pnl": -229362.2,
-      "realized_pnl": -14701.34,
-      "total_usdc": 736523.78,
-      "trade_count": 500,
-      "market_count": 36,
-      "position_count": 78,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:39:11+00:00",
-      "top_markets": [
-        "Will LeBron James play for the Los Angeles Lakers in 2026-27?",
-        "US x Iran permanent peace deal by June 15, 2026?",
-        "Will Ronaldo Cry at the World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Ronaldo Cry at the World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.4889,
-          "cur_price": 0.9995,
-          "usdc_size": 6046.82,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf5198df69e13937a40d1c76d6f72d9aa067d906b",
-      "name": "sbimbg",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.2,
-      "roi": -71.6,
-      "cash_pnl": -642307.07,
-      "realized_pnl": 316447.08,
-      "total_usdc": 233778.5,
-      "trade_count": 500,
-      "market_count": 23,
-      "position_count": 190,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:05+00:00",
-      "top_markets": [
-        "Exact Score: Spain 2 - 1 Belgium?",
-        "Wimbledon WTA: Karolina Muchova vs Coco Gauff",
-        "Exact Score: Spain 3 - 1 Belgium?"
-      ],
-      "signals": [
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.1635,
-          "cur_price": 0.1605,
-          "usdc_size": 6927.34,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.3287,
-          "cur_price": 0.3195,
-          "usdc_size": 12869.52,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.775,
-          "cur_price": 0.7812,
-          "usdc_size": 19530.0,
-          "outcome": "France"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1274,
-          "cur_price": 0.1875,
-          "usdc_size": 8149.08,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 Morocco?",
-          "signal": "SKIP",
-          "avg_price": 0.89,
-          "cur_price": 0.085,
-          "usdc_size": 10979.96,
-          "outcome": "No"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.775,
-          "cur_price": 0.3195,
-          "usdc_size": 1349.56,
-          "outcome": "No"
-        }
-      ]
     },
     {
       "wallet": "0xb8b5e38fbda69269e604153500f4a2c4fe3a280c",
@@ -2520,8 +1554,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 91.6,
-      "roi": -75.3,
-      "cash_pnl": -6430.92,
+      "roi": -99.9,
+      "cash_pnl": -8524.19,
       "realized_pnl": 0.0,
       "total_usdc": 166130.44,
       "trade_count": 269,
@@ -2536,235 +1570,170 @@
         "Will the price of Bitcoin be greater than $106K on June 24?",
         "Strait of Hormuz traffic returns to normal by end of May?"
       ],
+      "signals": []
+    },
+    {
+      "wallet": "0xadec0c1c1991e9dd0bdcf9401479614b65b43c7b",
+      "name": "DoubleDip",
+      "score": 31.3,
+      "roi_score": 0.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.7,
+      "roi": -49.2,
+      "cash_pnl": -24306.43,
+      "realized_pnl": 13292.8,
+      "total_usdc": 87021.37,
+      "trade_count": 500,
+      "market_count": 49,
+      "position_count": 222,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:46:58+00:00",
+      "top_markets": [
+        "Will Morocco win the 2026 FIFA World Cup?",
+        "Will France win the 2026 FIFA World Cup?",
+        "Will USA win the 2026 FIFA World Cup?"
+      ],
       "signals": [
         {
-          "market": "Will Morocco win the 2026 FIFA World Cup?",
+          "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.0326,
-          "cur_price": 0.0285,
-          "usdc_size": 599.83,
+          "avg_price": 0.1544,
+          "cur_price": 0.1725,
+          "usdc_size": 4137.6,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xf32f6dc011797916fbc87ea206730fd4aeb0ef80",
-      "name": "0xf32F6DC011797916FBc87eA206730FD4AeB0ef80-1782114475493",
-      "score": 31.6,
+      "wallet": "0x1ea06ea7143d3b8e2431f9cab7011619c269950a",
+      "name": "0x1EA06EA7143D3b8e2431f9CAB7011619C269950a-1736584377931",
+      "score": 31.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.0,
-      "roi": -74.4,
-      "cash_pnl": -23832.47,
-      "realized_pnl": 194.75,
-      "total_usdc": 153193.22,
-      "trade_count": 148,
-      "market_count": 109,
-      "position_count": 49,
+      "volume_score": 86.9,
+      "roi": -99.9,
+      "cash_pnl": -13185.58,
+      "realized_pnl": 0.0,
+      "total_usdc": 89631.48,
+      "trade_count": 500,
+      "market_count": 11,
+      "position_count": 5,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:40+00:00",
+      "last_active": "2026-07-09T21:17:25+00:00",
       "top_markets": [
-        "Will Canada win on 2026-07-04?",
-        "Spread: Portugal (-1.5)",
-        "Kylian Mbapp\u00e9: 1+ goals"
+        "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "Will Cardi B perform during the Super Bowl LX halftime show?",
+        "Will Shai Gilgeous-Alexander win the 2025\u20132026 NBA MVP?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xec593b3c1a9a0ed15e597dc4ea09cafbffe3bb35",
+      "name": "iamkrisas",
+      "score": 31.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.5,
+      "roi": -100.0,
+      "cash_pnl": -4535.92,
+      "realized_pnl": 0.0,
+      "total_usdc": 84536.25,
+      "trade_count": 500,
+      "market_count": 57,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:22:43+00:00",
+      "top_markets": [
+        "Will Jannik Sinner be the 2026 Men\u2019s Wimbledon winner?",
+        "Wimbledon ATP: Jannik Sinner vs Jan-Lennard Struff",
+        "Switzerland vs. Colombia: Switzerland 1st Half O/U 0.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+      "name": "tsihkodiives",
+      "score": 30.1,
+      "roi_score": 0.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 75.7,
+      "roi": -49.8,
+      "cash_pnl": -368279.89,
+      "realized_pnl": 214188.16,
+      "total_usdc": 20722.14,
+      "trade_count": 500,
+      "market_count": 9,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-09T21:33:16+00:00",
+      "top_markets": [
+        "Will Switzerland win the 2026 FIFA World Cup?",
+        "Exact Score: France 1 - 0 Morocco?",
+        "Will Morocco win the 2026 FIFA World Cup?"
       ],
       "signals": [
         {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.5999,
-          "cur_price": 0.5988,
-          "usdc_size": 1995.67,
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "LATE",
+          "avg_price": 0.1629,
+          "cur_price": 0.1725,
+          "usdc_size": 69649.11,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0081,
+          "cur_price": 0.0195,
+          "usdc_size": 43312.69,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Belgium win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.017,
+          "cur_price": 0.0215,
+          "usdc_size": 21458.91,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1309,
+          "cur_price": 0.1595,
+          "usdc_size": 53215.71,
           "outcome": "Yes"
         },
         {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.1773,
-          "cur_price": 0.1875,
-          "usdc_size": 1030.79,
+          "signal": "SKIP",
+          "avg_price": 0.131,
+          "cur_price": 0.1785,
+          "usdc_size": 39913.53,
           "outcome": "Yes"
         },
         {
           "market": "Will France win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1949,
-          "cur_price": 0.3195,
-          "usdc_size": 1325.13,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137",
-      "name": "0xfC0847fe2Ea938D6e2624650eB29eF8d8142A137-1771999665274",
-      "score": 31.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.7,
-      "roi": -99.6,
-      "cash_pnl": -8801.22,
-      "realized_pnl": 50696.54,
-      "total_usdc": 129701.21,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 133,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:56:50+00:00",
-      "top_markets": [
-        "Atlanta Braves vs. Pittsburgh Pirates",
-        "Will France vs. Morocco end in a draw?",
-        "Will France reach the Semifinals at the 2026 FIFA World Cup?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xeb5d04d1f174927c5221db50e7ebe63cb18c0c35",
-      "name": "WhEternal",
-      "score": 30.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.3,
-      "roi": -86.9,
-      "cash_pnl": -7716.03,
-      "realized_pnl": 84.23,
-      "total_usdc": 29173.43,
-      "trade_count": 98,
-      "market_count": 79,
-      "position_count": 28,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:55:23+00:00",
-      "top_markets": [
-        "Spread: England (-1.5)",
-        "Exact Score: Any Other Score?",
-        "Spread: Belgium (-1.5)"
-      ],
-      "signals": [
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.2578,
-          "cur_price": 0.2575,
-          "usdc_size": 1084.12,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x25f99c85a2dcd6344fb376f52a4dadfb2e441cfa",
-      "name": "angularcitizen",
-      "score": 30.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.3,
-      "roi": -76.3,
-      "cash_pnl": -3391.86,
-      "realized_pnl": 74.91,
-      "total_usdc": 29030.08,
-      "trade_count": 170,
-      "market_count": 66,
-      "position_count": 27,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T20:53:07+00:00",
-      "top_markets": [
-        "Will \u00c9ric Zemmour win the 2027 French presidential election?",
-        "Will Ronaldo Cry at the World Cup?",
-        "Roland Garros ATP: Jannik Sinner vs Juan Manuel Cerundolo"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xbfba06280db29761d681f3257b1fa283441c583c",
-      "name": "predict008",
-      "score": 30.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.3,
-      "roi": -88.3,
-      "cash_pnl": -46213.09,
-      "realized_pnl": -2902.73,
-      "total_usdc": 22179.67,
-      "trade_count": 500,
-      "market_count": 168,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:03:31+00:00",
-      "top_markets": [
-        "Will France win on 2026-07-09?",
-        "Will Argentina win on 2026-07-07?",
-        "Will Egypt win on 2026-07-07?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "LATE",
-          "avg_price": 0.6212,
-          "cur_price": 0.5988,
-          "usdc_size": 509.74,
-          "outcome": "Yes"
-        },
-        {
-          "market": "France vs. Morocco: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.313,
-          "cur_price": 0.2575,
-          "usdc_size": 1060.97,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdcd3e420c1f28dd5cedf171fae2a0e41e64547b6",
-      "name": "0xdCd3E420C1f28dd5CEDF171FAe2A0e41E64547b6-1770601538017",
-      "score": 29.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.8,
-      "roi": -68.3,
-      "cash_pnl": -2744.13,
-      "realized_pnl": 13.45,
-      "total_usdc": 10895.74,
-      "trade_count": 267,
-      "market_count": 122,
-      "position_count": 66,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-09T21:02:26+00:00",
-      "top_markets": [
-        "Duke Blue Devils vs. Pittsburgh Panthers",
-        "Ethereum Up or Down - February 10, 6:45PM-7:00PM ET",
-        "Northern Iowa Panthers vs. Murray State Racers"
-      ],
-      "signals": [
-        {
-          "market": "Will France win on 2026-07-09?",
-          "signal": "ENTER",
-          "avg_price": 0.6,
-          "cur_price": 0.5988,
-          "usdc_size": 1275.96,
+          "avg_price": 0.3275,
+          "cur_price": 0.3875,
+          "usdc_size": 78900.09,
           "outcome": "Yes"
         }
       ]
@@ -2774,142 +1743,142 @@
     {
       "id": "0x86f5b0f1934bb39421651ad2ba0f04494700ba9e95663a5c141a8674c4978c15",
       "question": "Will Ronaldo Cry at the World Cup?",
-      "volume": "87222621.45233911",
-      "liquidity": "10218961.52882",
+      "volume": "88591323.14233911",
+      "liquidity": "9336907.1066",
       "end_date": ""
-    },
-    {
-      "id": "0x2037b257e602784d35e800c8c7880f56331791e03aaacae5864d8a78db303948",
-      "question": "France vs. Morocco: O/U 2.5",
-      "volume": "19969417.851636305",
-      "liquidity": "240290.315525",
-      "end_date": "2026-07-09T20:00:00Z"
-    },
-    {
-      "id": "0xc09537a0976d0927901432859fbb6dfe5d23d1d69bb4e8355253e7b142a44e83",
-      "question": "Will France win on 2026-07-09?",
-      "volume": "15705593.766309027",
-      "liquidity": "1193701.814525",
-      "end_date": "2026-07-09T20:00:00Z"
     },
     {
       "id": "0x37a6de1b21803e5f3fb1965116218215d79963af4f7e51659696366267a63a03",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "volume": "148602559.44806778",
-      "liquidity": "1281369.93363",
+      "volume": "152238591.7957818",
+      "liquidity": "3154578.39104",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
-      "id": "0x9918c9f426379e48d5e6a6fbf591e75e5b4a9cd33807b097810fdbaf3aebd1b4",
-      "question": "France vs. Morocco: Team to Advance",
-      "volume": "8714924.91847506",
-      "liquidity": "950227.914875",
-      "end_date": "2026-07-09T20:00:00Z"
-    },
-    {
-      "id": "0x17e6ca6b83b4937b4cd575f2acbbefa194b3d52b62e8af192feae6f1c38da0c1",
-      "question": "Will Morocco win on 2026-07-09?",
-      "volume": "6445144.112276077",
-      "liquidity": "789872.12345",
-      "end_date": "2026-07-09T20:00:00Z"
+      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "volume": "106815464.64287019",
+      "liquidity": "5895103.59198",
+      "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0xf426c69674c6637f2b458c76d9920faa814d4daa8c308e0b8ba554dda509cb8b",
       "question": "Will Shimelis Abdisa be the next Prime Minister of Ethiopia?",
       "volume": "41256895.87713003",
-      "liquidity": "30653.77855",
+      "liquidity": "30978.34337",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
-      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "volume": "105408068.81352125",
-      "liquidity": "1012085.80887",
+      "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "volume": "122900408.6659534",
+      "liquidity": "4768710.9033",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
       "question": "Will Switzerland win the 2026 FIFA World Cup?",
-      "volume": "120251402.53221357",
-      "liquidity": "4180277.50429",
+      "volume": "120526611.67307961",
+      "liquidity": "5825268.07887",
       "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x14d0bc78d2702e01524424db8b03686ebd257a0baf3c691b2cda80088a7bdc87",
-      "question": "Exact Score: France 3 - 3 Morocco?",
-      "volume": "4093979.9102400127",
-      "liquidity": "160896.69589",
-      "end_date": "2026-07-09T20:00:00Z"
-    },
-    {
-      "id": "0x1cbfc85edce5c2ac987214953c73d072fca766c05fe1e6cabaf920da5bf040e1",
-      "question": "Spread: France (-1.5)",
-      "volume": "3103481.1551560033",
-      "liquidity": "140470.810175",
-      "end_date": "2026-07-09T20:00:00Z"
-    },
-    {
-      "id": "0x759e414f4b72fa205b122593fb2f7269e82f9c1e508d2bbc14d7adb5eb6abd44",
-      "question": "France vs. Morocco: Both Teams to Score",
-      "volume": "2867789.3192739952",
-      "liquidity": "311181.045",
-      "end_date": "2026-07-09T20:00:00Z"
     },
     {
       "id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
       "question": "Will Spain win the 2026 FIFA World Cup?",
-      "volume": "96322283.43414341",
-      "liquidity": "825134.27415",
+      "volume": "96856957.08867945",
+      "liquidity": "6424957.0919",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
-      "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
-      "question": "Will Norway win the 2026 FIFA World Cup?",
-      "volume": "121873738.12215854",
-      "liquidity": "751880.05152",
+      "id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
+      "question": "Will Belgium win the 2026 FIFA World Cup?",
+      "volume": "121548537.18113424",
+      "liquidity": "6198333.86317",
       "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xbac8a0b371a85e10ba1714ebf1a7de81337ea0df73b0f7ef77847ab989706d04",
-      "question": "Exact Score: France 3 - 2 Morocco?",
-      "volume": "3404245.4312029826",
-      "liquidity": "80008.3387",
-      "end_date": "2026-07-09T20:00:00Z"
-    },
-    {
-      "id": "0x821f357da390a32347e4df0c3fb0aa4a8eadf4af72730c8dc7a7f1ab58798a02",
-      "question": "Will Seyed Hossein Mousavian be head of state in Iran end of 2026?",
-      "volume": "2798655.711215",
-      "liquidity": "58366.11076",
-      "end_date": "2026-12-31T00:00:00Z"
     },
     {
       "id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
       "question": "Will England win the 2026 FIFA World Cup?",
-      "volume": "91007556.12994383",
-      "liquidity": "763186.66034",
+      "volume": "91394940.2072678",
+      "liquidity": "5380088.06672",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
       "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "volume": "120945393.36549619",
-      "liquidity": "1025048.05657",
+      "volume": "121309799.99253544",
+      "liquidity": "6197852.02447",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
-      "id": "0x8a3ca97b10cab04b078e5a8ff0f88c3d406c9468d766f194e3e062aa72a9b539",
-      "question": "Will France vs. Morocco end in a draw?",
-      "volume": "2271080.815276982",
-      "liquidity": "985419.441225",
-      "end_date": "2026-07-09T20:00:00Z"
+      "id": "0x821f357da390a32347e4df0c3fb0aa4a8eadf4af72730c8dc7a7f1ab58798a02",
+      "question": "Will Seyed Hossein Mousavian be head of state in Iran end of 2026?",
+      "volume": "2798690.711215",
+      "liquidity": "59536.00635",
+      "end_date": "2026-12-31T00:00:00Z"
     },
     {
-      "id": "0xfb929062b7f5acf5a7c0255d27dfa54cb3d7164ad9c1ff36fb9f6c8dda5dc1f6",
-      "question": "Exact Score: France 2 - 1 Morocco?",
-      "volume": "2564624.2211409975",
-      "liquidity": "90684.9195",
-      "end_date": "2026-07-09T20:00:00Z"
+      "id": "0x2c37e07b722442c2381fac76f8564d580660aa028066e08bad1b32bd11813e9d",
+      "question": "Will Spain win on 2026-07-10?",
+      "volume": "1471029.6707270097",
+      "liquidity": "2455590.330875",
+      "end_date": "2026-07-10T19:00:00Z"
+    },
+    {
+      "id": "0xc851fc5ae688d3d67bccb7c8f0ca475f61ebda796cfcddca7230042de6b48cfd",
+      "question": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+      "volume": "2967570.1648700056",
+      "liquidity": "1359432.6053",
+      "end_date": "2026-07-12T03:59:59.999Z"
+    },
+    {
+      "id": "0x068b8f7779e1f0a778778cd4e4add33b6c5076fc7350c32f11785bae56c4cd7b",
+      "question": "Will Miguel D\u00edaz-Canel be the next leader out before 2027?",
+      "volume": "1529841.2731669997",
+      "liquidity": "76975.67512",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0x9ca9ea6bcad843f3e94c213ad978b4f21d712d90f9a28372d9248ec99bb7193a",
+      "question": "Will Sergio P\u00e9rez be the 2026 F1 Drivers' Champion?",
+      "volume": "11694540.73213832",
+      "liquidity": "917385.85329",
+      "end_date": "2026-12-06T00:00:00Z"
+    },
+    {
+      "id": "0x87c9134e18d318a68a48326b8d7492efd08efc2324e5b4414f6bfa512b88b115",
+      "question": "Spain vs. Belgium: O/U 2.5",
+      "volume": "1173079.9540859999",
+      "liquidity": "768698.610575",
+      "end_date": "2026-07-10T19:00:00Z"
+    },
+    {
+      "id": "0xa2b7d292821eafb97059947b9d834512deda11b7866e0f7b299bcb035071d626",
+      "question": "Will Oliver Bearman be the 2026 F1 Drivers' Champion?",
+      "volume": "12814813.796555417",
+      "liquidity": "951559.62132",
+      "end_date": "2026-12-06T00:00:00Z"
+    },
+    {
+      "id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "volume": "12655364.010049997",
+      "liquidity": "449270.1675",
+      "end_date": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "0x3d675f1c88099a57c12abca632cf926be1bf430125168321de06234e9930fe1a",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
+      "volume": "8474077.36014897",
+      "liquidity": "1486124.59137",
+      "end_date": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "0x88d573d2ba5e43e1320cf0eb733452feb4cb4a1d4780dcb05ac6ee6830c2e4c3",
+      "question": "Will Pierre Gasly be the 2026 F1 Drivers' Champion?",
+      "volume": "11446769.78143151",
+      "liquidity": "900377.49242",
+      "end_date": "2026-12-06T00:00:00Z"
     }
   ]
 }
