@@ -3,17 +3,313 @@
   <head>
     <title>Lurker</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      /* Breaking headline banner */
+      .headline-bar {
+        background: #1f2224;
+        border: 1px solid #2a2d30;
+        border-radius: 8px;
+        padding: 0.9rem 1.25rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        min-height: 52px;
+      }
+      .headline-tag {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #141618;
+        background: #1ABC9C;
+        padding: 2px 8px;
+        border-radius: 4px;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .headline-source {
+        font-size: 11px;
+        color: #5a6068;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .headline-text {
+        font-size: 13px;
+        font-weight: 600;
+        color: #e0e0e0;
+        line-height: 1.4;
+        flex: 1;
+        text-decoration: none;
+      }
+      .headline-text:hover { color: #1ABC9C; }
+      .headline-time {
+        font-size: 11px;
+        color: #5a6068;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      /* Home grid */
+      .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+      }
+      @media (max-width: 900px) {
+        .home-grid { grid-template-columns: 1fr; }
+      }
+
+      /* Consensus cards */
+      .top5-scroll {
+        display: flex;
+        gap: 0.75rem;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+        scroll-snap-type: x mandatory;
+      }
+      .top5-scroll::-webkit-scrollbar { height: 3px; }
+      .top5-scroll::-webkit-scrollbar-track { background: #252830; }
+      .top5-scroll::-webkit-scrollbar-thumb { background: #1ABC9C; border-radius: 2px; }
+      .top5-card {
+        flex: 0 0 190px;
+        scroll-snap-align: start;
+        border: 1px solid #2a2d30;
+        border-left: 3px solid #1ABC9C;
+        border-radius: 8px;
+        padding: 0.9rem;
+        background: #252830;
+      }
+      .top5-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.4rem;
+      }
+      .top5-rank {
+        font-size: 11px;
+        font-weight: 700;
+        color: #5a6068;
+      }
+      .top5-outcome {
+        display: inline-block; font-size: 10px; font-weight: 700;
+        padding: 2px 7px; border-radius: 3px;
+        background: #2a2d30; color: #e0e0e0;
+      }
+      .top5-market {
+        font-size: 12px; font-weight: 600; color: #e0e0e0;
+        line-height: 1.4; margin-bottom: 0.5rem;
+      }
+      .top5-meta {
+        display: flex; justify-content: space-between;
+        font-size: 11px; color: #7F8C8D;
+      }
+      .top5-meta strong { color: #1ABC9C; }
+
+      /* Badges */
+      .badge-buy  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2e2a; color:#1ABC9C; }
+      .badge-sell { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#2e1e1e; color:#e05252; }
+      .amount-cell { font-weight:600; color:#e0e0e0; }
+    </style>
   </head>
   <body>
     <div class="datetime-display" id="datetimeDisplay"></div>
     <div class="page">
+
+      <div class="content-header">
+        <h1>Lurker</h1>
+        <p>Your edge in markets — insider trades, government contracts, and prediction markets</p>
+      </div>
+
+      <!-- Breaking headline -->
+      <div class="headline-bar" id="headlineBar">
+        <span class="headline-tag">BREAKING</span>
+        <span class="headline-source" id="headlineSource">Reuters</span>
+        <a class="headline-text" id="headlineText" href="#" target="_blank">Loading top headline…</a>
+        <span class="headline-time" id="headlineTime"></span>
+      </div>
+
+      <div class="home-grid">
+
+        <!-- Insider Trades (last 7 days) -->
+        <div class="chart-section">
+          <h2>Insider Trades <span class="refresh-badge">7 days</span></h2>
+          <p class="section-sub">Recent buys & sells ordered by notional value</p>
+          <div id="tradesLoading" class="loading">
+            <div class="spinner"></div> Loading…
+          </div>
+          <div id="tradesWrap" class="table-scroll" style="display:none;">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Insider</th>
+                  <th>Ticker</th>
+                  <th>Action</th>
+                  <th>Notional</th>
+                </tr>
+              </thead>
+              <tbody id="tradesBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Top 5 Consensus Bets -->
+        <div class="chart-section">
+          <h2>Whale Consensus <span class="refresh-badge">Live</span></h2>
+          <p class="section-sub">Most agreed Polymarket bets among top 50 accounts</p>
+          <div id="whaleLoading" class="loading">
+            <div class="spinner"></div> Loading…
+          </div>
+          <div id="whaleWrap" style="display:none;">
+            <div id="whaleScroll" class="top5-scroll"></div>
+          </div>
+        </div>
+
+      </div>
     </div>
+
     <script src="navbar.js"></script>
     <script>
+      const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
+      const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
+      const WHALES_URL   = './data/whales.json';
+      const RSS_URL      = 'https://api.rss2json.com/v1/api.json?rss_url=https://feeds.reuters.com/reuters/businessNews&count=1';
+
+      const headers = {
+        'apikey': SUPABASE_KEY,
+        'Authorization': 'Bearer ' + SUPABASE_KEY,
+        'Content-Type': 'application/json'
+      };
+
+      function fmt(val) {
+        if (!val && val !== 0) return '—';
+        if (Math.abs(val) >= 1e9) return '$' + (val/1e9).toFixed(1) + 'B';
+        if (Math.abs(val) >= 1e6) return '$' + (val/1e6).toFixed(1) + 'M';
+        if (Math.abs(val) >= 1e3) return '$' + (val/1e3).toFixed(0) + 'K';
+        return '$' + Number(val).toFixed(0);
+      }
+
+      function fmtDate(iso) {
+        if (!iso) return '—';
+        return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      }
+
+      function timeAgo(dateStr) {
+        if (!dateStr) return '';
+        const diff = Math.floor((Date.now() - new Date(dateStr)) / 60000);
+        if (diff < 1)  return 'just now';
+        if (diff < 60) return `${diff}m ago`;
+        const h = Math.floor(diff / 60);
+        if (h < 24)    return `${h}h ago`;
+        return `${Math.floor(h / 24)}d ago`;
+      }
+
+      function show(id) { document.getElementById(id).style.display = ''; }
+      function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+      // ── Breaking headline ─────────────────────────────────
+      async function loadHeadline() {
+        try {
+          const resp = await fetch(RSS_URL);
+          const data = await resp.json();
+          const item = data?.items?.[0];
+          if (!item) return;
+
+          document.getElementById('headlineText').textContent = item.title;
+          document.getElementById('headlineText').href        = item.link;
+          document.getElementById('headlineTime').textContent = timeAgo(item.pubDate);
+        } catch (err) {
+          document.getElementById('headlineText').textContent = 'Could not load headline.';
+        }
+      }
+
+      // ── Insider trades: last 7 days, ordered by notional ──
+      async function loadTrades() {
+        const since = new Date();
+        since.setDate(since.getDate() - 7);
+        const sinceISO = since.toISOString().split('T')[0];
+        const url = `${SUPABASE_URL}/rest/v1/insider_trades`
+          + `?select=trade_date,insider_name,ticker,action,notional_value`
+          + `&trade_date=gte.${sinceISO}`
+          + `&order=notional_value.desc`
+          + `&limit=20`;
+        const resp = await fetch(url, { headers });
+        return await resp.json();
+      }
+
+      function renderTrades(trades) {
+        hide('tradesLoading'); show('tradesWrap');
+        const tbody = document.getElementById('tradesBody');
+        if (!trades?.length) {
+          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No trades in the last 7 days.</td></tr>';
+          return;
+        }
+        tbody.innerHTML = trades.map(t => `
+          <tr>
+            <td style="white-space:nowrap;">${fmtDate(t.trade_date)}</td>
+            <td style="font-weight:500;color:#e0e0e0;">${t.insider_name || '—'}</td>
+            <td style="font-family:monospace;font-size:12px;color:#1ABC9C;">${t.ticker || '—'}</td>
+            <td><span class="${t.action === 'Buy' ? 'badge-buy' : 'badge-sell'}">${t.action || '—'}</span></td>
+            <td class="amount-cell">${fmt(t.notional_value)}</td>
+          </tr>`).join('');
+      }
+
+      // ── Top 5 whale consensus ─────────────────────────────
+      async function loadWhales() {
+        const resp = await fetch(WHALES_URL + '?t=' + Date.now());
+        if (!resp.ok) throw new Error('No whale data');
+        return await resp.json();
+      }
+
+      function renderWhales(consensus) {
+        hide('whaleLoading'); show('whaleWrap');
+        const scroll = document.getElementById('whaleScroll');
+        if (!consensus?.length) {
+          scroll.innerHTML = '<div class="no-data">No consensus data yet.</div>';
+          return;
+        }
+        scroll.innerHTML = consensus.slice(0, 5).map((c, i) => {
+          const payoff = c.payoff_pct != null ? `+${Number(c.payoff_pct).toFixed(1)}%` : '—';
+          return `
+            <div class="top5-card">
+              <div class="top5-card-header">
+                <span class="top5-outcome">${c.outcome}</span>
+                <span class="top5-rank">#${i+1}</span>
+              </div>
+              <div class="top5-market">${c.market}</div>
+              <div class="top5-meta">
+                <span><strong>${c.whale_count}</strong> whales</span>
+                <span>Payoff <strong>${payoff}</strong></span>
+              </div>
+            </div>`;
+        }).join('');
+      }
+
+      // ── Init ─────────────────────────────────────────────
+      async function init() {
+        loadHeadline();
+        try {
+          const [trades, whaleData] = await Promise.allSettled([
+            loadTrades(),
+            loadWhales()
+          ]);
+          if (trades.status === 'fulfilled') renderTrades(trades.value);
+          else document.getElementById('tradesLoading').textContent = 'Failed to load.';
+          if (whaleData.status === 'fulfilled') renderWhales(whaleData.value?.consensus || []);
+          else document.getElementById('whaleLoading').textContent = 'No data yet.';
+        } catch (err) {
+          console.error(err);
+        }
+      }
+
+      init();
+      setInterval(init, 5 * 60 * 1000);
+      // Refresh headline every 10 minutes
+      setInterval(loadHeadline, 10 * 60 * 1000);
+
       function updateDateTime() {
-        const now = new Date();
         document.getElementById('datetimeDisplay').textContent =
-          now.toLocaleDateString('en-US', {
+          new Date().toLocaleDateString('en-US', {
             weekday: 'short', month: 'short', day: 'numeric',
             year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'
           });
