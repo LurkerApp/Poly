@@ -4,7 +4,6 @@
     <title>Lurker</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      /* Breaking headline banner */
       .headline-bar {
         background: #1f2224;
         border: 1px solid #2a2d30;
@@ -49,7 +48,6 @@
         flex-shrink: 0;
       }
 
-      /* Home grid */
       .home-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -59,7 +57,6 @@
         .home-grid { grid-template-columns: 1fr; }
       }
 
-      /* Consensus cards */
       .top5-scroll {
         display: flex;
         gap: 0.75rem;
@@ -85,11 +82,7 @@
         align-items: center;
         margin-bottom: 0.4rem;
       }
-      .top5-rank {
-        font-size: 11px;
-        font-weight: 700;
-        color: #5a6068;
-      }
+      .top5-rank { font-size: 11px; font-weight: 700; color: #5a6068; }
       .top5-outcome {
         display: inline-block; font-size: 10px; font-weight: 700;
         padding: 2px 7px; border-radius: 3px;
@@ -99,13 +92,9 @@
         font-size: 12px; font-weight: 600; color: #e0e0e0;
         line-height: 1.4; margin-bottom: 0.5rem;
       }
-      .top5-meta {
-        display: flex; justify-content: space-between;
-        font-size: 11px; color: #7F8C8D;
-      }
+      .top5-meta { display: flex; justify-content: space-between; font-size: 11px; color: #7F8C8D; }
       .top5-meta strong { color: #1ABC9C; }
 
-      /* Badges */
       .badge-buy  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2e2a; color:#1ABC9C; }
       .badge-sell { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#2e1e1e; color:#e05252; }
       .amount-cell { font-weight:600; color:#e0e0e0; }
@@ -115,16 +104,11 @@
     <div class="datetime-display" id="datetimeDisplay"></div>
     <div class="page">
 
-      <div class="content-header">
-        <h1>Lurker</h1>
-        <p>Your edge in markets — insider trades, government contracts, and prediction markets</p>
-      </div>
-
       <!-- Breaking headline -->
-      <div class="headline-bar" id="headlineBar">
+      <div class="headline-bar">
         <span class="headline-tag">BREAKING</span>
-        <span class="headline-source" id="headlineSource">Reuters</span>
-        <a class="headline-text" id="headlineText" href="#" target="_blank">Loading top headline…</a>
+        <span class="headline-source">AP News</span>
+        <a class="headline-text" id="headlineText" href="#" target="_blank">Loading…</a>
         <span class="headline-time" id="headlineTime"></span>
       </div>
 
@@ -173,7 +157,14 @@
       const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
       const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
       const WHALES_URL   = './data/whales.json';
-      const RSS_URL      = 'https://api.rss2json.com/v1/api.json?rss_url=https://feeds.reuters.com/reuters/businessNews&count=1';
+
+      // AP News top news via Yahoo Finance RSS (reliable, no CORS issues)
+      // Fallback chain: try multiple free RSS sources
+      const RSS_SOURCES = [
+        'https://api.rss2json.com/v1/api.json?rss_url=https://finance.yahoo.com/news/rssindex&count=1',
+        'https://api.rss2json.com/v1/api.json?rss_url=https://feeds.content.dowjones.io/public/rss/mw_topstories&count=1',
+        'https://api.rss2json.com/v1/api.json?rss_url=https://www.cnbc.com/id/100003114/device/rss/rss.html&count=1',
+      ];
 
       const headers = {
         'apikey': SUPABASE_KEY,
@@ -207,23 +198,28 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // ── Breaking headline ─────────────────────────────────
+      // ── Breaking headline — try sources in order ──────────
       async function loadHeadline() {
-        try {
-          const resp = await fetch(RSS_URL);
-          const data = await resp.json();
-          const item = data?.items?.[0];
-          if (!item) return;
+        for (const url of RSS_SOURCES) {
+          try {
+            const resp = await fetch(url);
+            if (!resp.ok) continue;
+            const data = await resp.json();
+            const item = data?.items?.[0];
+            if (!item?.title) continue;
 
-          document.getElementById('headlineText').textContent = item.title;
-          document.getElementById('headlineText').href        = item.link;
-          document.getElementById('headlineTime').textContent = timeAgo(item.pubDate);
-        } catch (err) {
-          document.getElementById('headlineText').textContent = 'Could not load headline.';
+            document.getElementById('headlineText').textContent = item.title;
+            document.getElementById('headlineText').href        = item.link || '#';
+            document.getElementById('headlineTime').textContent = timeAgo(item.pubDate);
+            return; // success — stop trying
+          } catch (e) {
+            continue;
+          }
         }
+        document.getElementById('headlineText').textContent = 'Could not load headline — check back soon.';
       }
 
-      // ── Insider trades: last 7 days, ordered by notional ──
+      // ── Insider trades ────────────────────────────────────
       async function loadTrades() {
         const since = new Date();
         since.setDate(since.getDate() - 7);
@@ -254,7 +250,7 @@
           </tr>`).join('');
       }
 
-      // ── Top 5 whale consensus ─────────────────────────────
+      // ── Whale consensus ───────────────────────────────────
       async function loadWhales() {
         const resp = await fetch(WHALES_URL + '?t=' + Date.now());
         if (!resp.ok) throw new Error('No whale data');
@@ -304,7 +300,6 @@
 
       init();
       setInterval(init, 5 * 60 * 1000);
-      // Refresh headline every 10 minutes
       setInterval(loadHeadline, 10 * 60 * 1000);
 
       function updateDateTime() {
