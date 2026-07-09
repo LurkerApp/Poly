@@ -69,8 +69,10 @@
       .signal-card.late  { border-left: 3px solid #f0a500; }
       .signal-card.skip  { border-left: 3px solid #3a3d40; }
       .signal-top {
-        display: flex; align-items: center;
-        justify-content: space-between; margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
       }
       .signal-label {
         font-size: 10px; font-weight: 700;
@@ -230,8 +232,8 @@
           return `
             <div class="signal-card ${cls}">
               <div class="signal-top">
-                <span class="signal-label label-${cls}">${sig.signal}</span>
                 <span class="signal-outcome">${sig.outcome || 'YES'}</span>
+                <span class="signal-label label-${cls}">${sig.signal}</span>
               </div>
               <div class="signal-market">${sig.market || '—'}</div>
               <div class="signal-meta">
