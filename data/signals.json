@@ -1,40 +1,432 @@
 {
-  "last_updated": "2026-07-11T17:32:51.484468+00:00",
+  "last_updated": "2026-07-11T19:01:05.638911+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x256818aca89f3b3012e82831ecf856bf6055ef92",
-      "name": "LimitOrderLarry",
-      "score": 48.1,
-      "roi_score": 33.5,
+      "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "name": "GamblingIsAllYouNeed",
+      "score": 50.3,
+      "roi_score": 33.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 47.9,
-      "volume_score": 83.7,
-      "roi": 0.2,
-      "cash_pnl": 5.34,
-      "realized_pnl": 780.29,
-      "total_usdc": 58914.93,
+      "early_entry_score": 63.9,
+      "volume_score": 82.0,
+      "roi": -0.1,
+      "cash_pnl": -4028.65,
+      "realized_pnl": 0.0,
+      "total_usdc": 47295.66,
       "trade_count": 500,
-      "market_count": 9,
-      "position_count": 4,
+      "market_count": 6,
+      "position_count": 15,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:24:25+00:00",
+      "last_active": "2026-07-11T18:40:44+00:00",
       "top_markets": [
-        "Will Argentina win on 2026-07-11?",
-        "Will Norway win on 2026-07-11?",
-        "Will Switzerland win on 2026-07-11?"
+        "Will France win on 2026-07-09?",
+        "Will Spain vs. Belgium end in a draw?",
+        "Will England win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4869,
+          "cur_price": 0.5138,
+          "usdc_size": 12175.59,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.76,
+          "cur_price": 0.2412,
+          "usdc_size": 19332.89,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.73,
+          "cur_price": 0.2512,
+          "usdc_size": 2967.21,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x01e77ae5721580cfeab86185dfd049b6930ed932",
+      "name": "0x01E77aE5721580CfeAb86185DFd049b6930Ed932-1768811795548",
+      "score": 47.9,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 46.5,
+      "volume_score": 84.4,
+      "roi": 0.1,
+      "cash_pnl": 1.4,
+      "realized_pnl": 7.43,
+      "total_usdc": 64843.05,
+      "trade_count": 500,
+      "market_count": 153,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:51:35+00:00",
+      "top_markets": [
+        "Will the price of Bitcoin be above $62,000 on July 3?",
+        "Bitcoin Up or Down - July 4, 4AM ET",
+        "Bitcoin Up or Down - June 25, 4AM ET"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.4974,
-          "cur_price": 0.5012,
-          "usdc_size": 997.4,
+          "avg_price": 0.5124,
+          "cur_price": 0.5138,
+          "usdc_size": 1541.1,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf1ef8705e9f63c790c6fffd6329aea7011718cd6",
+      "name": "Outsid3rTrading",
+      "score": 47.0,
+      "roi_score": 34.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 33.9,
+      "volume_score": 89.5,
+      "roi": 2.3,
+      "cash_pnl": 8117.0,
+      "realized_pnl": 499.07,
+      "total_usdc": 125473.67,
+      "trade_count": 500,
+      "market_count": 33,
+      "position_count": 44,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:48:53+00:00",
+      "top_markets": [
+        "Erling Haaland: 1+ goals",
+        "US-Iran Final Nuclear Deal by December 31, 2026?",
+        "Will England win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4875,
+          "cur_price": 0.5138,
+          "usdc_size": 2917.11,
+          "outcome": "No"
+        },
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "LATE",
+          "avg_price": 0.6899,
+          "cur_price": 0.715,
+          "usdc_size": 3574.86,
+          "outcome": "Max Holloway"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.105,
+          "cur_price": 0.1435,
+          "usdc_size": 2870.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.274,
+          "cur_price": 0.3835,
+          "usdc_size": 5752.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.77,
+          "cur_price": 0.2412,
+          "usdc_size": 4552.15,
+          "outcome": "No"
+        },
+        {
+          "market": "Norway vs. England: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.445,
+          "cur_price": 0.5787,
+          "usdc_size": 2527.15,
+          "outcome": "Under"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.169,
+          "cur_price": 0.2095,
+          "usdc_size": 1047.5,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x972bf37cae72a169e17ae0e6179821d5778b78ba",
+      "name": "k-maniac",
+      "score": 46.4,
+      "roi_score": 34.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 42.4,
+      "volume_score": 72.4,
+      "roi": 1.6,
+      "cash_pnl": 206.8,
+      "realized_pnl": 0.0,
+      "total_usdc": 13309.68,
+      "trade_count": 500,
+      "market_count": 34,
+      "position_count": 47,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:44:46+00:00",
+      "top_markets": [
+        "Major League Cricket: San Francisco Unicorns vs Los Angeles Knight Riders",
+        "Major League Cricket: Mi New York vs Seattle Orcas",
+        "T20 Series England vs India: England vs India"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5699,
+          "cur_price": 0.5737,
+          "usdc_size": 791.13,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4861,
+          "cur_price": 0.5138,
+          "usdc_size": 3044.05,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7548,
+          "cur_price": 0.2412,
+          "usdc_size": 2939.14,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.42,
+          "cur_price": 0.5737,
+          "usdc_size": 1325.67,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe405483ff60ab58ce973479d3317045549fec67e",
+      "name": "RacoonVision",
+      "score": 46.4,
+      "roi_score": 37.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 91.2,
+      "roi": 6.5,
+      "cash_pnl": 1368.15,
+      "realized_pnl": 1463.87,
+      "total_usdc": 158075.97,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:44:43+00:00",
+      "top_markets": [
+        "LoL: Bilibili Gaming vs Hanwha Life Esports - Game 2 Winner",
+        "Will France reach the 2026 FIFA World Cup final?",
+        "Spain vs. Belgium: Both Teams to Score"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 4862.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
+      "name": "AlphaBetaGamma2357",
+      "score": 46.2,
+      "roi_score": 29.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 42.3,
+      "volume_score": 84.0,
+      "roi": -5.4,
+      "cash_pnl": -6184.29,
+      "realized_pnl": 366.11,
+      "total_usdc": 61586.39,
+      "trade_count": 500,
+      "market_count": 26,
+      "position_count": 38,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:53:52+00:00",
+      "top_markets": [
+        "Spread: France (-2.5)",
+        "Will Norway win on 2026-07-11?",
+        "Will England win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.485,
+          "cur_price": 0.5138,
+          "usdc_size": 1944.69,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1187,
+          "cur_price": 0.2095,
+          "usdc_size": 8380.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1052,
+          "cur_price": 0.1435,
+          "usdc_size": 5739.99,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.6353,
+          "cur_price": 0.3835,
+          "usdc_size": 3082.46,
+          "outcome": "No"
+        },
+        {
+          "market": "Norway vs. England: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.4425,
+          "cur_price": 0.5787,
+          "usdc_size": 1684.8,
+          "outcome": "Under"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7725,
+          "cur_price": 0.2412,
+          "usdc_size": 3034.55,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.42,
+          "cur_price": 0.5737,
+          "usdc_size": 852.4,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.7375,
+          "cur_price": 0.2512,
+          "usdc_size": 1497.38,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814",
+      "name": "sbsigner",
+      "score": 46.2,
+      "roi_score": 31.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 36.4,
+      "volume_score": 88.6,
+      "roi": -2.9,
+      "cash_pnl": -5355.86,
+      "realized_pnl": 0.0,
+      "total_usdc": 112112.68,
+      "trade_count": 500,
+      "market_count": 13,
+      "position_count": 30,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:59:19+00:00",
+      "top_markets": [
+        "Norway vs. England: Both Teams to Score",
+        "Will England win on 2026-07-11?",
+        "Will Norway win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4961,
+          "cur_price": 0.5138,
+          "usdc_size": 29691.27,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.4225,
+          "cur_price": 0.5737,
+          "usdc_size": 48378.4,
+          "outcome": "No"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.6453,
+          "cur_price": 0.3835,
+          "usdc_size": 13228.2,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7515,
+          "cur_price": 0.2412,
+          "usdc_size": 10700.92,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.7409,
+          "cur_price": 0.2512,
+          "usdc_size": 1635.4,
           "outcome": "No"
         }
       ]
@@ -42,2300 +434,1578 @@
     {
       "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
       "name": "swisstony",
-      "score": 47.3,
-      "roi_score": 33.5,
+      "score": 46.0,
+      "roi_score": 33.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 37.5,
-      "volume_score": 91.6,
-      "roi": 0.2,
-      "cash_pnl": 16124.56,
-      "realized_pnl": 22649.76,
-      "total_usdc": 165142.4,
+      "early_entry_score": 23.5,
+      "volume_score": 100.0,
+      "roi": -0.1,
+      "cash_pnl": -7065.35,
+      "realized_pnl": 11852.28,
+      "total_usdc": 584104.61,
       "trade_count": 500,
-      "market_count": 69,
+      "market_count": 58,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:01+00:00",
+      "last_active": "2026-07-11T19:00:07+00:00",
       "top_markets": [
-        "Exact Score: Norway 1 - 2 England?",
-        "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-        "Athens Open, Qualification: Qianhui Tang vs Elina Nepliy"
+        "Exact Score: Norway 2 - 2 England?",
+        "Exact Score: Norway 1 - 1 England?",
+        "New York Liberty vs. Minnesota Lynx"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.489,
-          "cur_price": 0.5012,
-          "usdc_size": 477227.21,
+          "signal": "LATE",
+          "avg_price": 0.4899,
+          "cur_price": 0.5138,
+          "usdc_size": 587513.97,
           "outcome": "No"
         },
         {
           "market": "Will Norway win on 2026-07-11?",
           "signal": "SKIP",
           "avg_price": 0.7542,
-          "cur_price": 0.2512,
-          "usdc_size": 941166.61,
-          "outcome": "No"
-        },
-        {
-          "market": "Exact Score: Norway 1 - 2 England?",
-          "signal": "SKIP",
-          "avg_price": 0.8814,
-          "cur_price": 0.115,
-          "usdc_size": 391230.42,
+          "cur_price": 0.2412,
+          "usdc_size": 953737.29,
           "outcome": "No"
         },
         {
           "market": "Norway vs. England: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.4377,
+          "avg_price": 0.4374,
           "cur_price": 0.5787,
-          "usdc_size": 173492.08,
+          "usdc_size": 177115.64,
           "outcome": "Under"
-        },
-        {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-          "signal": "SKIP",
-          "avg_price": 0.7985,
-          "cur_price": 0.163,
-          "usdc_size": 204229.39,
-          "outcome": "Linda Noskova"
         },
         {
           "market": "Will Norway vs. England end in a draw?",
           "signal": "SKIP",
           "avg_price": 0.7399,
-          "cur_price": 0.2537,
-          "usdc_size": 87401.69,
+          "cur_price": 0.2512,
+          "usdc_size": 87694.51,
           "outcome": "No"
         },
         {
           "market": "Will Argentina win on 2026-07-11?",
           "signal": "SKIP",
           "avg_price": 0.4218,
-          "cur_price": 0.5787,
-          "usdc_size": 28410.44,
+          "cur_price": 0.5737,
+          "usdc_size": 28747.7,
           "outcome": "No"
         }
       ]
-    },
-    {
-      "wallet": "0x7923d4ff806b231b3276592391de5d0953356c0b",
-      "name": "JambonMogettes",
-      "score": 46.6,
-      "roi_score": 34.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 25.1,
-      "volume_score": 100.0,
-      "roi": 1.9,
-      "cash_pnl": 294.57,
-      "realized_pnl": 1561.86,
-      "total_usdc": 750187.34,
-      "trade_count": 500,
-      "market_count": 4,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:41:47+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-07-11?",
-        "Argentina vs. Egypt: O/U 2.5",
-        "Will Egypt win on 2026-07-07?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
       "name": "maz26",
-      "score": 45.7,
-      "roi_score": 33.4,
+      "score": 46.0,
+      "roi_score": 33.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 24.3,
-      "volume_score": 95.2,
-      "roi": 0.2,
-      "cash_pnl": 51.32,
+      "early_entry_score": 23.6,
+      "volume_score": 100.0,
+      "roi": -0.4,
+      "cash_pnl": -4521.85,
       "realized_pnl": 0.0,
-      "total_usdc": 265220.77,
+      "total_usdc": 931805.93,
       "trade_count": 500,
       "market_count": 3,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:02+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-07-11?",
-        "Will Belgium win on 2026-07-10?",
-        "Will Spain win on 2026-07-10?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.7475,
-          "cur_price": 0.2512,
-          "usdc_size": 32020.57,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-      "name": "mooseborzoi",
-      "score": 45.7,
-      "roi_score": 41.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.2,
-      "volume_score": 72.7,
-      "roi": 11.7,
-      "cash_pnl": 314109.8,
-      "realized_pnl": 246241.89,
-      "total_usdc": 13848.78,
-      "trade_count": 500,
-      "market_count": 27,
-      "position_count": 224,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:25+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance",
-        "Argentina vs. Switzerland: Team to Advance",
-        "Exact Score: Norway 1 - 2 England?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3499,
-          "cur_price": 0.3538,
-          "usdc_size": 640971.12,
-          "outcome": "Norway"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.0163,
-          "cur_price": 0.0165,
-          "usdc_size": 10077.89,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.4869,
-          "cur_price": 0.5012,
-          "usdc_size": 41212.7,
-          "outcome": "No"
-        },
-        {
-          "market": "Exact Score: Norway 2 - 3 England?",
-          "signal": "LATE",
-          "avg_price": 0.041,
-          "cur_price": 0.043,
-          "usdc_size": 9458.49,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: Norway 1 - 2 England?",
-          "signal": "LATE",
-          "avg_price": 0.1187,
-          "cur_price": 0.115,
-          "usdc_size": 17318.97,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "LATE",
-          "avg_price": 0.239,
-          "cur_price": 0.2512,
-          "usdc_size": 4863.69,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0467,
-          "cur_price": 0.0605,
-          "usdc_size": 142774.22,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.2818,
-          "cur_price": 0.3815,
-          "usdc_size": 731268.8,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1509,
-          "cur_price": 0.2095,
-          "usdc_size": 213724.18,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: Norway 3 - 2 England?",
-          "signal": "SKIP",
-          "avg_price": 0.0277,
-          "cur_price": 0.031,
-          "usdc_size": 11786.52,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1195,
-          "cur_price": 0.1445,
-          "usdc_size": 18462.03,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.74,
-          "cur_price": 0.2537,
-          "usdc_size": 49919.98,
-          "outcome": "No"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4388,
-          "cur_price": 0.5787,
-          "usdc_size": 8008.47,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will Argentina win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.4225,
-          "cur_price": 0.5787,
-          "usdc_size": 3967.13,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6c08208c8f6c69b7198eea0f9fcd1dc2f5f15c69",
-      "name": "zoltar02",
-      "score": 45.4,
-      "roi_score": 33.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 27.4,
-      "volume_score": 87.8,
-      "roi": -0.0,
-      "cash_pnl": -0.34,
-      "realized_pnl": 32501.43,
-      "total_usdc": 101339.74,
-      "trade_count": 500,
-      "market_count": 6,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:10+00:00",
-      "top_markets": [
-        "LoL: Hanwha Life Esports vs LYON (BO5) - Mid-Season Invitational Playoffs",
-        "Will England win on 2026-07-11?",
-        "Will Norway win on 2026-07-11?"
-      ],
-      "signals": [
-        {
-          "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.4972,
-          "cur_price": 0.5012,
-          "usdc_size": 2781.09,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xab93dd191ea4de7dacc4b25731837c39ea5eb17d",
-      "name": "Tang-to-A10",
-      "score": 45.4,
-      "roi_score": 33.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 26.9,
-      "volume_score": 89.0,
-      "roi": -0.0,
-      "cash_pnl": -13.77,
-      "realized_pnl": 0.0,
-      "total_usdc": 118819.22,
-      "trade_count": 500,
-      "market_count": 85,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:09:56+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs T1 - Game 2 Winner",
-        "Will Norway win on 2026-07-11?",
-        "Spread: Portugal (-1.5)"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.2525,
-          "cur_price": 0.2512,
-          "usdc_size": 1193.2,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "ENTER",
-          "avg_price": 0.2575,
-          "cur_price": 0.2537,
-          "usdc_size": 507.4,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6be049212477c106df53248dcd5c7ec338539ac7",
-      "name": "0x6BE049212477c106Df53248DCd5C7EC338539Ac7-1768888145859",
-      "score": 44.8,
-      "roi_score": 32.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 25.4,
-      "volume_score": 87.9,
-      "roi": -1.8,
-      "cash_pnl": -160.96,
-      "realized_pnl": 327887.53,
-      "total_usdc": 101803.67,
-      "trade_count": 500,
-      "market_count": 7,
-      "position_count": 40,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:29:43+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-07-11?",
-        "Will England win on 2026-07-11?",
-        "Norway vs. England: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.253,
-          "cur_price": 0.2512,
-          "usdc_size": 1326.27,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4225,
-          "cur_price": 0.5787,
-          "usdc_size": 2420.41,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdae8f58e4828cd686dd85fa16d4c0b0091ad7c9c",
-      "name": "0xdae8f58E4828Cd686DD85Fa16D4C0B0091AD7C9c-1781512959730",
-      "score": 44.8,
-      "roi_score": 47.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.7,
-      "roi": 21.1,
-      "cash_pnl": 3296.6,
-      "realized_pnl": 219.11,
-      "total_usdc": 39485.99,
-      "trade_count": 29,
-      "market_count": 16,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:56:29+00:00",
-      "top_markets": [
-        "Will England win the 2026 FIFA World Cup?",
-        "Norway vs. England: Team to Advance",
-        "Will Argentina win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0844,
-          "cur_price": 0.1445,
-          "usdc_size": 1501.7,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 2993.98,
-          "outcome": "England"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.3269,
-          "cur_price": 0.3815,
-          "usdc_size": 1166.67,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1039,
-          "cur_price": 0.2095,
-          "usdc_size": 503.61,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x00c419b3f6415911abe859fcb70b7a3cf2f492c2",
-      "name": "kitty118",
-      "score": 44.6,
-      "roi_score": 32.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 25.7,
-      "volume_score": 85.7,
-      "roi": -1.8,
-      "cash_pnl": -235.55,
-      "realized_pnl": 151061.65,
-      "total_usdc": 76242.66,
-      "trade_count": 500,
-      "market_count": 7,
-      "position_count": 54,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:30:38+00:00",
-      "top_markets": [
-        "Will England win on 2026-07-11?",
-        "Norway vs. England: Team to Advance",
-        "Norway vs. England: O/U 2.5"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.255,
-          "cur_price": 0.2512,
-          "usdc_size": 1507.16,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6449,
-          "cur_price": 0.3538,
-          "usdc_size": 3877.75,
-          "outcome": "England"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4225,
-          "cur_price": 0.5787,
-          "usdc_size": 2527.19,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0x29b7a9a6ce50f394b3f1a1ee4d8874e7576f4108",
-      "name": "alexchintakis",
-      "score": 44.2,
-      "roi_score": 39.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.0,
-      "roi": 9.0,
-      "cash_pnl": 2221.87,
-      "realized_pnl": 0.0,
-      "total_usdc": 438711.56,
-      "trade_count": 328,
-      "market_count": 78,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T16:46:25+00:00",
+      "last_active": "2026-07-11T19:00:37+00:00",
       "top_markets": [
-        "Spurs vs. Timberwolves",
-        "United States vs. Bosnia and Herzegovina: Team to Advance",
-        "Will Morocco reach the Round of 16 at the 2026 FIFA World Cup?"
+        "Will Norway win on 2026-07-11?",
+        "Norway vs. England: O/U 2.5",
+        "Will England win on 2026-07-11?"
       ],
       "signals": [
         {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.161,
-          "cur_price": 0.3815,
-          "usdc_size": 11847.86,
-          "outcome": "Yes"
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4911,
+          "cur_price": 0.5138,
+          "usdc_size": 754339.17,
+          "outcome": "No"
         },
         {
           "market": "Will Norway win on 2026-07-11?",
           "signal": "SKIP",
-          "avg_price": 0.745,
-          "cur_price": 0.2512,
-          "usdc_size": 14974.0,
+          "avg_price": 0.7509,
+          "cur_price": 0.2412,
+          "usdc_size": 312035.79,
+          "outcome": "No"
+        },
+        {
+          "market": "Norway vs. England: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.42,
+          "cur_price": 0.5787,
+          "usdc_size": 8546.03,
+          "outcome": "Under"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6a2a7c69dc7acc02906a52ae3f2dd8a8b0131fca",
+      "name": "NatdadFred",
+      "score": 45.8,
+      "roi_score": 31.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 26.6,
+      "volume_score": 97.4,
+      "roi": -2.1,
+      "cash_pnl": -133.56,
+      "realized_pnl": 8.21,
+      "total_usdc": 355791.67,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:44:46+00:00",
+      "top_markets": [
+        "Will United States win on 2026-06-25?",
+        "Will Paraguay vs. Australia end in a draw?",
+        "Will Egypt win on 2026-07-03?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4959,
+          "cur_price": 0.5138,
+          "usdc_size": 6245.46,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xa2bce031efa03d368963be5cdee3dddd7d1b0821",
-      "name": "YEEHAW111",
-      "score": 44.1,
-      "roi_score": 33.1,
+      "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "name": "surfandturf",
+      "score": 45.2,
+      "roi_score": 33.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 24.8,
-      "volume_score": 79.8,
-      "roi": -0.4,
-      "cash_pnl": -3.52,
+      "early_entry_score": 23.3,
+      "volume_score": 91.8,
+      "roi": 0.2,
+      "cash_pnl": 55.09,
       "realized_pnl": 0.0,
-      "total_usdc": 35134.92,
-      "trade_count": 12,
-      "market_count": 6,
+      "total_usdc": 170130.84,
+      "trade_count": 500,
+      "market_count": 3,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T16:50:34+00:00",
+      "last_active": "2026-07-11T19:00:01+00:00",
       "top_markets": [
-        "Bulls vs. Nets",
-        "Miami vs. Indiana",
-        "Grizzlies vs. Magic"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3549,
-          "cur_price": 0.3538,
-          "usdc_size": 958.09,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1fabb6dd4b986db76434d454abff8e44ca34232f",
-      "name": "allx1001",
-      "score": 43.1,
-      "roi_score": 19.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 42.2,
-      "volume_score": 83.8,
-      "roi": -20.6,
-      "cash_pnl": -23111.47,
-      "realized_pnl": 0.0,
-      "total_usdc": 59962.21,
-      "trade_count": 500,
-      "market_count": 3,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:54:32+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-07-11?",
-        "Will England win on 2026-07-11?",
-        "Wimbledon WTA: Karolina Muchova vs Linda Noskova"
+        "Spain vs. Belgium: Team to Advance",
+        "Colorado Rockies vs. San Francisco Giants",
+        "Will England win on 2026-07-11?"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.4964,
-          "cur_price": 0.5012,
-          "usdc_size": 25931.55,
+          "avg_price": 0.5125,
+          "cur_price": 0.5138,
+          "usdc_size": 23582.93,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc4245ea9fa02177de47842408b4d3a134f3161ef",
+      "name": "yinshi96",
+      "score": 44.2,
+      "roi_score": 22.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 39.4,
+      "volume_score": 90.6,
+      "roi": -16.3,
+      "cash_pnl": -1202.34,
+      "realized_pnl": 0.0,
+      "total_usdc": 144701.16,
+      "trade_count": 112,
+      "market_count": 74,
+      "position_count": 27,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:49:58+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - June 27, 11:40PM-11:45PM ET",
+        "Bitcoin Up or Down - June 27, 11:30PM-11:35PM ET",
+        "Will England win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5024,
+          "cur_price": 0.5138,
+          "usdc_size": 4165.08,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5749,
+          "cur_price": 0.5737,
+          "usdc_size": 632.57,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4899,
+          "cur_price": 0.5138,
+          "usdc_size": 1373.27,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x83884bbee2bf6022c520a8a986839f20c5241161",
+      "name": "divuaiuerhgerg",
+      "score": 43.2,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 71.8,
+      "roi": 0.1,
+      "cash_pnl": 0.07,
+      "realized_pnl": 0.0,
+      "total_usdc": 12406.83,
+      "trade_count": 45,
+      "market_count": 35,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:47:32+00:00",
+      "top_markets": [
+        "Will England win on 2026-07-11?",
+        "Will Elon Musk win the 2028 US Presidential Election?",
+        "Will Eric Trump win the 2028 US Presidential Election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x50f0a0fc7364d3c10fc4578b9b1d955368335355",
+      "name": "bettguy",
+      "score": 42.9,
+      "roi_score": 34.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.9,
+      "roi": 2.0,
+      "cash_pnl": 4772.05,
+      "realized_pnl": 0.0,
+      "total_usdc": 493081.76,
+      "trade_count": 500,
+      "market_count": 6,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:45:08+00:00",
+      "top_markets": [
+        "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+        "Will England win on 2026-07-11?",
+        "United States vs. Belgium: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "ENTER",
+          "avg_price": 0.7,
+          "cur_price": 0.715,
+          "usdc_size": 200199.48,
+          "outcome": "Max Holloway"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5074,
+          "cur_price": 0.5138,
+          "usdc_size": 47397.93,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "name": "VeryLucky888",
+      "score": 41.9,
+      "roi_score": 22.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.7,
+      "volume_score": 91.2,
+      "roi": -16.6,
+      "cash_pnl": -73841.06,
+      "realized_pnl": 715.96,
+      "total_usdc": 157479.54,
+      "trade_count": 500,
+      "market_count": 68,
+      "position_count": 444,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:01:02+00:00",
+      "top_markets": [
+        "Norway vs. England: Team to Advance",
+        "Norway leading at halftime?",
+        "Will England win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.34,
+          "cur_price": 0.3387,
+          "usdc_size": 11854.43,
+          "outcome": "Norway"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4898,
+          "cur_price": 0.5138,
+          "usdc_size": 6741.19,
           "outcome": "No"
         },
         {
           "market": "Will Norway win on 2026-07-11?",
           "signal": "SKIP",
-          "avg_price": 0.7517,
-          "cur_price": 0.2512,
-          "usdc_size": 49937.92,
+          "avg_price": 0.7608,
+          "cur_price": 0.2412,
+          "usdc_size": 112558.48,
           "outcome": "No"
         },
         {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
+          "market": "Argentina vs. Switzerland: Team to Advance",
           "signal": "SKIP",
-          "avg_price": 0.4576,
-          "cur_price": 0.163,
-          "usdc_size": 12970.44,
-          "outcome": "Linda Noskova"
+          "avg_price": 0.2493,
+          "cur_price": 0.7488,
+          "usdc_size": 33911.95,
+          "outcome": "Switzerland"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.42,
+          "cur_price": 0.5737,
+          "usdc_size": 14916.64,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
-      "name": "suntori",
-      "score": 42.2,
-      "roi_score": 39.7,
+      "wallet": "0xe105ee40934b8cd887b26e499a78a722b1c16416",
+      "name": "0xE105EE40934B8Cd887B26E499a78a722b1C16416-1762688170794",
+      "score": 41.4,
+      "roi_score": 27.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.3,
+      "volume_score": 72.6,
+      "roi": -9.3,
+      "cash_pnl": -102.52,
+      "realized_pnl": 0.0,
+      "total_usdc": 13717.05,
+      "trade_count": 14,
+      "market_count": 8,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:50:55+00:00",
+      "top_markets": [
+        "Will Argentina win on 2026-07-07?",
+        "Will France win on 2026-07-09?",
+        "Will England win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5149,
+          "cur_price": 0.5138,
+          "usdc_size": 997.48,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa8b7f8b34185e9cc62c471e1d353595148a3ee3c",
+      "name": "anciano",
+      "score": 40.5,
+      "roi_score": 32.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.9,
-      "roi": 9.5,
-      "cash_pnl": 179871.19,
-      "realized_pnl": 97876.42,
-      "total_usdc": 27627.86,
+      "volume_score": 81.9,
+      "roi": -0.8,
+      "cash_pnl": -435.84,
+      "realized_pnl": 4014.68,
+      "total_usdc": 46222.66,
       "trade_count": 500,
-      "market_count": 132,
+      "market_count": 67,
+      "position_count": 183,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:59:35+00:00",
+      "top_markets": [
+        "Will Argentina reach the Semifinals at the 2026 FIFA World Cup?",
+        "Belgium to score first vs. Spain?",
+        "2026 Balance of Power: D Senate, D House"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.495,
+          "cur_price": 0.5138,
+          "usdc_size": 1069.64,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x657e4d348d0db0d9814d3adbe059c0b119649781",
+      "name": "Gueedeszz",
+      "score": 40.2,
+      "roi_score": 9.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 47.2,
+      "volume_score": 77.9,
+      "roi": -36.1,
+      "cash_pnl": -9927.13,
+      "realized_pnl": -0.01,
+      "total_usdc": 27536.32,
+      "trade_count": 237,
+      "market_count": 6,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:45:11+00:00",
+      "top_markets": [
+        "Will Argentina win on 2026-07-11?",
+        "Portugal vs. Spain: O/U 3.5",
+        "France vs. Morocco: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 3969.34,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.42,
+          "cur_price": 0.5737,
+          "usdc_size": 9782.35,
+          "outcome": "No"
+        },
+        {
+          "market": "Argentina vs. Switzerland: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.25,
+          "cur_price": 0.7488,
+          "usdc_size": 3855.42,
+          "outcome": "Switzerland"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd2559017db0e5566ae550c0c52f0c92618ed4676",
+      "name": "pang33",
+      "score": 39.0,
+      "roi_score": 5.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 38.3,
+      "volume_score": 91.5,
+      "roi": -42.0,
+      "cash_pnl": -20167.12,
+      "realized_pnl": -323.11,
+      "total_usdc": 163265.35,
+      "trade_count": 500,
+      "market_count": 87,
+      "position_count": 53,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:00:41+00:00",
+      "top_markets": [
+        "Spain vs. Belgium: Both Teams to Score",
+        "Norway vs. England: Norway O/U 1.5",
+        "Spain vs. Belgium: Draw at halftime?"
+      ],
+      "signals": [
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.3449,
+          "cur_price": 0.3387,
+          "usdc_size": 1354.8,
+          "outcome": "Norway"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.58,
+          "cur_price": 0.5737,
+          "usdc_size": 1147.4,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5,
+          "cur_price": 0.5138,
+          "usdc_size": 1027.4,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 1944.8,
+          "outcome": "No"
+        },
+        {
+          "market": "Argentina vs. Switzerland: Team to Advance",
+          "signal": "LATE",
+          "avg_price": 0.75,
+          "cur_price": 0.7488,
+          "usdc_size": 1497.4,
+          "outcome": "Argentina"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "LATE",
+          "avg_price": 0.26,
+          "cur_price": 0.2512,
+          "usdc_size": 502.4,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.64,
+          "cur_price": 0.3387,
+          "usdc_size": 1322.4,
+          "outcome": "England"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.76,
+          "cur_price": 0.2412,
+          "usdc_size": 1517.31,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+      "name": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+      "score": 37.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 38.5,
+      "volume_score": 95.2,
+      "roi": -96.4,
+      "cash_pnl": -2117240.73,
+      "realized_pnl": 749844.28,
+      "total_usdc": 266137.05,
+      "trade_count": 500,
+      "market_count": 39,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:14+00:00",
+      "last_active": "2026-07-11T18:55:58+00:00",
       "top_markets": [
-        "Exact Score: Norway 1 - 2 England?",
         "Will England win on 2026-07-11?",
-        "Counter-Strike: PARIVISION vs FaZe (BO3) - XSE Pro League Playoffs"
+        "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
+        "Swiss Open, Qualification: Thiago Monteiro vs Pierre-Hugues Herbert"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.507,
-          "cur_price": 0.5012,
-          "usdc_size": 142433.21,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3562,
-          "cur_price": 0.3538,
-          "usdc_size": 54713.25,
-          "outcome": "Norway"
-        },
-        {
-          "market": "Will Argentina win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.5779,
-          "cur_price": 0.5787,
-          "usdc_size": 56561.92,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "ENTER",
-          "avg_price": 0.2595,
-          "cur_price": 0.2537,
-          "usdc_size": 22713.28,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.5726,
-          "cur_price": 0.5787,
-          "usdc_size": 32341.08,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.4987,
-          "cur_price": 0.5012,
-          "usdc_size": 9773.55,
-          "outcome": "No"
-        },
-        {
-          "market": "Exact Score: Norway 2 - 3 England?",
-          "signal": "LATE",
-          "avg_price": 0.0411,
-          "cur_price": 0.043,
-          "usdc_size": 12826.15,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: Norway 3 - 2 England?",
-          "signal": "LATE",
-          "avg_price": 0.0293,
-          "cur_price": 0.031,
-          "usdc_size": 8158.89,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Exact Score: Norway 1 - 2 England?",
-          "signal": "LATE",
-          "avg_price": 0.119,
-          "cur_price": 0.115,
-          "usdc_size": 26274.9,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "LATE",
-          "avg_price": 0.2414,
-          "cur_price": 0.2512,
-          "usdc_size": 57204.46,
-          "outcome": "Yes"
-        },
-        {
-          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-          "signal": "LATE",
-          "avg_price": 0.6911,
-          "cur_price": 0.715,
-          "usdc_size": 841.68,
-          "outcome": "Max Holloway"
-        },
-        {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0335,
-          "cur_price": 0.0605,
-          "usdc_size": 178502.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Switzerland win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0118,
-          "cur_price": 0.0165,
-          "usdc_size": 15598.92,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.2745,
-          "cur_price": 0.3815,
-          "usdc_size": 255615.77,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1265,
-          "cur_price": 0.1445,
-          "usdc_size": 93900.22,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1508,
-          "cur_price": 0.2095,
-          "usdc_size": 98575.11,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6464,
-          "cur_price": 0.3538,
-          "usdc_size": 64824.82,
-          "outcome": "England"
-        },
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.765,
-          "cur_price": 0.2512,
-          "usdc_size": 4322.61,
-          "outcome": "No"
-        },
-        {
-          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-          "signal": "SKIP",
-          "avg_price": 0.3233,
-          "cur_price": 0.715,
-          "usdc_size": 1357.22,
-          "outcome": "Conor McGregor"
-        },
-        {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-          "signal": "SKIP",
-          "avg_price": 0.7266,
-          "cur_price": 0.163,
-          "usdc_size": 3072.79,
-          "outcome": "Linda Noskova"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.8761,
-          "cur_price": 0.1445,
-          "usdc_size": 1748.52,
-          "outcome": "No"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.428,
-          "cur_price": 0.5787,
-          "usdc_size": 678.3,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.7087,
-          "cur_price": 0.3815,
-          "usdc_size": 662.23,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xbe7c6564ea2c4d827d774c0393358bc70fe2181d",
-      "name": "jv12343",
-      "score": 42.2,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.4,
-      "volume_score": 61.1,
-      "roi": -0.2,
-      "cash_pnl": -5.91,
-      "realized_pnl": 0.0,
-      "total_usdc": 3016.48,
-      "trade_count": 6,
-      "market_count": 2,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:17:23+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-07-11?",
-        "Norway vs. England: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6475,
-          "cur_price": 0.3538,
-          "usdc_size": 2938.67,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb11143eb5d721109d5315ce4cc205cbcbfea32ce",
-      "name": "",
-      "score": 42.1,
-      "roi_score": 32.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.3,
-      "volume_score": 63.0,
-      "roi": -1.5,
-      "cash_pnl": -13.36,
-      "realized_pnl": 0.0,
-      "total_usdc": 3870.12,
-      "trade_count": 9,
-      "market_count": 4,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:06:52+00:00",
-      "top_markets": [
-        "Will France win on 2026-06-26?",
-        "Will Norway win on 2026-07-05?",
-        "Will Norway win on 2026-07-11?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.2549,
-          "cur_price": 0.2512,
-          "usdc_size": 883.71,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd133d98e41e0be0016d559ac90182ad95db6ef27",
-      "name": "NX-Trading",
-      "score": 41.7,
-      "roi_score": 35.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.3,
-      "roi": 3.2,
-      "cash_pnl": 305.35,
-      "realized_pnl": -1744.59,
-      "total_usdc": 72355.31,
-      "trade_count": 500,
-      "market_count": 31,
-      "position_count": 33,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:10+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance",
-        "Will Norway win on 2026-07-11?",
-        "Will Norway win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.2518,
-          "cur_price": 0.2512,
-          "usdc_size": 1683.9,
+          "avg_price": 0.5099,
+          "cur_price": 0.5138,
+          "usdc_size": 1774.38,
           "outcome": "Yes"
         },
         {
           "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.5027,
-          "cur_price": 0.5012,
-          "usdc_size": 1308.43,
-          "outcome": "Yes"
+          "signal": "LATE",
+          "avg_price": 0.493,
+          "cur_price": 0.5138,
+          "usdc_size": 28453.88,
+          "outcome": "No"
         },
         {
-          "market": "Will Argentina win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.5799,
-          "cur_price": 0.5787,
-          "usdc_size": 844.95,
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.2274,
+          "cur_price": 0.2412,
+          "usdc_size": 1874.22,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.745,
-          "cur_price": 0.2537,
-          "usdc_size": 2348.63,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd410ddf625bbfc1952eef4c5973b50acd9393a1b",
-      "name": "Viacheslav92",
-      "score": 41.4,
-      "roi_score": 36.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.2,
-      "roi": 4.3,
-      "cash_pnl": 134.49,
-      "realized_pnl": 329.08,
-      "total_usdc": 37187.07,
-      "trade_count": 500,
-      "market_count": 28,
-      "position_count": 11,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:09:28+00:00",
-      "top_markets": [
-        "Will Argentina win on 2026-07-11?",
-        "Will Switzerland win on 2026-07-11?",
-        "Will Colombia win on 2026-07-07?"
-      ],
-      "signals": [
-        {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.6174,
-          "cur_price": 0.3815,
-          "usdc_size": 618.51,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7526fe96c3c843daa607bc614c040fb1eb475c85",
-      "name": "Yvhdjfkbkvkcjz",
-      "score": 41.3,
-      "roi_score": 33.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.4,
-      "volume_score": 51.9,
-      "roi": -0.4,
-      "cash_pnl": -3.21,
-      "realized_pnl": 0.0,
-      "total_usdc": 904.57,
-      "trade_count": 1,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:28:56+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3549,
-          "cur_price": 0.3538,
-          "usdc_size": 873.1,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7c59082cf8b27999a5374b035a0d3d472c1761cd",
-      "name": "0xAcbF07173F52C8C83F56DA60975E47123f835377-1762537897644",
-      "score": 41.3,
-      "roi_score": 33.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.6,
-      "volume_score": 52.2,
-      "roi": -0.4,
-      "cash_pnl": -3.33,
-      "realized_pnl": 0.0,
-      "total_usdc": 940.7,
-      "trade_count": 1,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:09:13+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3549,
-          "cur_price": 0.3538,
-          "usdc_size": 907.97,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x633e96a4b7ae543522358282eafa023fe61bd305",
-      "name": "0x633e96a4b7ae543522358282eafa023fe61bd305-1783406206089",
-      "score": 41.1,
-      "roi_score": 37.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 74.7,
-      "roi": 5.7,
-      "cash_pnl": 383.12,
-      "realized_pnl": -0.85,
-      "total_usdc": 18152.05,
-      "trade_count": 500,
-      "market_count": 149,
-      "position_count": 81,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:27:14+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - July 10, 11:45PM-11:50PM ET",
-        "Will Spain win on 2026-07-10?",
-        "Will England win on 2026-07-11?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3554,
-          "cur_price": 0.3538,
-          "usdc_size": 722.09,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x714b8a6e115fe36061a2b5922964b654b82a6c2f",
-      "name": "benj002",
-      "score": 40.7,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.6,
-      "roi": -0.2,
-      "cash_pnl": -12.94,
-      "realized_pnl": 0.0,
-      "total_usdc": 51032.12,
-      "trade_count": 181,
-      "market_count": 8,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:10:40+00:00",
-      "top_markets": [
-        "Will Gold (GC) hit (LOW) $4,200 by end of June?",
-        "Will England win the 2026 FIFA World Cup?",
-        "Russia x Ukraine ceasefire by end of 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 6438.99,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa5175c95b491d927b75332813643970ceeeef23b",
-      "name": "Ymir.ash",
-      "score": 40.5,
-      "roi_score": 34.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.3,
-      "roi": 2.3,
-      "cash_pnl": 83.91,
-      "realized_pnl": 728.82,
-      "total_usdc": 19565.9,
-      "trade_count": 149,
-      "market_count": 20,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:50:28+00:00",
-      "top_markets": [
-        "Will England reach the Semifinals at the 2026 FIFA World Cup?",
-        "Will Norway reach the Semifinals at the 2026 FIFA World Cup?",
-        "Will Colombia win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.192,
-          "cur_price": 0.2095,
-          "usdc_size": 832.84,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 1353.18,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc46368a3374e87566eff1ffae7e6ec0163509a2f",
-      "name": "NewTeamSosed2",
-      "score": 38.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 44.9,
-      "volume_score": 91.5,
-      "roi": -79.1,
-      "cash_pnl": -238086.15,
-      "realized_pnl": 1494.37,
-      "total_usdc": 163093.84,
-      "trade_count": 500,
-      "market_count": 30,
-      "position_count": 185,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:58:40+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-07-11?",
-        "LoL: Hanwha Life Esports vs LYON (BO5) - Mid-Season Invitational Playoffs",
-        "Will England win on 2026-07-11?"
-      ],
-      "signals": [
-        {
-          "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.4975,
-          "cur_price": 0.5012,
-          "usdc_size": 12467.19,
-          "outcome": "No"
         },
         {
           "market": "Will Norway win on 2026-07-11?",
           "signal": "SKIP",
           "avg_price": 0.7449,
-          "cur_price": 0.2512,
-          "usdc_size": 28029.0,
+          "cur_price": 0.2412,
+          "usdc_size": 19516.82,
           "outcome": "No"
-        },
-        {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-          "signal": "SKIP",
-          "avg_price": 0.4464,
-          "cur_price": 0.163,
-          "usdc_size": 3247.93,
-          "outcome": "Linda Noskova"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc36c108b46f48bf0b35d3a0a01fd8868c651b39d",
-      "name": "",
-      "score": 38.1,
-      "roi_score": 13.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.4,
-      "volume_score": 79.6,
-      "roi": -30.3,
-      "cash_pnl": -1264.92,
-      "realized_pnl": 0.0,
-      "total_usdc": 34471.88,
-      "trade_count": 43,
-      "market_count": 38,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:27:25+00:00",
-      "top_markets": [
-        "Will England vs. Ghana end in a draw?",
-        "Will Portugal win on 2026-07-06?",
-        "Will T\u00fcrkiye win on 2026-06-25?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3549,
-          "cur_price": 0.3538,
-          "usdc_size": 1910.0,
-          "outcome": "Norway"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "ENTER",
-          "avg_price": 0.5799,
-          "cur_price": 0.5787,
-          "usdc_size": 997.76,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0914c946a8e2843113494be5676c0c82c02b9c93",
-      "name": "LT1",
-      "score": 37.5,
-      "roi_score": 8.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.6,
-      "volume_score": 87.7,
-      "roi": -37.2,
-      "cash_pnl": -2404.05,
-      "realized_pnl": 0.0,
-      "total_usdc": 98998.71,
-      "trade_count": 500,
-      "market_count": 43,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:11:26+00:00",
-      "top_markets": [
-        "Will Netherlands win the 2026 FIFA World Cup?",
-        "Will Portugal win the 2026 FIFA World Cup?",
-        "Will Portugal vs. DR Congo end in a draw?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3549,
-          "cur_price": 0.3538,
-          "usdc_size": 4060.02,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
-      "name": "",
-      "score": 37.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.8,
-      "volume_score": 88.3,
-      "roi": -91.9,
-      "cash_pnl": -1224674.94,
-      "realized_pnl": 0.0,
-      "total_usdc": 108251.62,
-      "trade_count": 500,
-      "market_count": 161,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:27:52+00:00",
-      "top_markets": [
-        "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-        "Croatia Open, Qualification: Raul Brancaccio vs Federico Agustin Gomez",
-        "France vs. Spain: O/U 9.5 Total Corners"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "LATE",
-          "avg_price": 0.3399,
-          "cur_price": 0.3538,
-          "usdc_size": 9484.03,
-          "outcome": "Norway"
-        },
-        {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-          "signal": "SKIP",
-          "avg_price": 0.5475,
-          "cur_price": 0.163,
-          "usdc_size": 17446.99,
-          "outcome": "Linda Noskova"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4504,
-          "cur_price": 0.5787,
-          "usdc_size": 5022.8,
-          "outcome": "Under"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.65,
-          "cur_price": 0.3538,
-          "usdc_size": 6200.99,
-          "outcome": "England"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7399,
-          "cur_price": 0.2537,
-          "usdc_size": 1100.89,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.7472,
-          "cur_price": 0.2512,
-          "usdc_size": 815.62,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd44e6b6fde4d2fb60eea277c518a12c18b1a72d9",
-      "name": "0x8647EAfEB546659D939b175CeeeaE60c2bD1814d-1762342393600",
-      "score": 37.0,
-      "roi_score": 10.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.3,
-      "volume_score": 78.1,
-      "roi": -34.8,
-      "cash_pnl": -2858.81,
-      "realized_pnl": 0.0,
-      "total_usdc": 28405.08,
-      "trade_count": 38,
-      "market_count": 32,
-      "position_count": 15,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:23:05+00:00",
-      "top_markets": [
-        "Will Germany win on 2026-06-20?",
-        "Will United States win on 2026-06-12?",
-        "Will United States vs. Paraguay end in a draw?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 4490.97,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2114c6395bb0c3c2129339785e54a48ca1d984c5",
-      "name": "uyyan395",
-      "score": 36.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.8,
-      "volume_score": 100.0,
-      "roi": -93.8,
-      "cash_pnl": -99335.88,
-      "realized_pnl": 0.0,
-      "total_usdc": 1342376.57,
-      "trade_count": 460,
-      "market_count": 273,
-      "position_count": 16,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:18:52+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance",
-        "Mexico vs. Ecuador: O/U 7.5 Total Corners",
-        "Will Austin FC win on 2026-04-18?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.645,
-          "cur_price": 0.3538,
-          "usdc_size": 6461.99,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa2354a48cc7a0e2511b8c59e1203995010a634bb",
-      "name": "kikdw",
-      "score": 35.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.7,
-      "volume_score": 96.9,
-      "roi": -96.5,
-      "cash_pnl": -935434.09,
-      "realized_pnl": 0.0,
-      "total_usdc": 331829.19,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 12,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:29+00:00",
-      "top_markets": [
-        "Switzerland vs. Colombia: Team to Advance",
-        "Norway vs. England: Team to Advance",
-        "United States vs. Belgium: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3525,
-          "cur_price": 0.3538,
-          "usdc_size": 33493.74,
-          "outcome": "Norway"
-        }
-      ]
-    },
-    {
-      "wallet": "0x635c08df7427bb18768a921cabe8eb4c33ec905e",
-      "name": "martin.peace",
-      "score": 35.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 36.0,
-      "volume_score": 76.9,
-      "roi": -58.0,
-      "cash_pnl": -6115.88,
-      "realized_pnl": 0.0,
-      "total_usdc": 24128.49,
-      "trade_count": 78,
-      "market_count": 53,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:27:49+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - July 9, 3:20PM-3:25PM ET",
-        "Bitcoin Up or Down - July 10, 1:35PM-1:40PM ET",
-        "Bitcoin Up or Down - July 10, 1:25PM-1:30PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.2524,
-          "cur_price": 0.2512,
-          "usdc_size": 1591.76,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.5024,
-          "cur_price": 0.5012,
-          "usdc_size": 2493.53,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x18d82b02860c2e774bcd400e516af9b3f8427e2e",
-      "name": "PlayBlind-com",
-      "score": 35.6,
-      "roi_score": 10.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.0,
-      "roi": -34.1,
-      "cash_pnl": -141579.25,
-      "realized_pnl": 1843.54,
-      "total_usdc": 439176.0,
-      "trade_count": 26,
-      "market_count": 6,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:12:25+00:00",
-      "top_markets": [
-        "Will Belgium win on 2026-07-10?",
-        "Spain vs. Belgium: Team to Advance",
-        "Will Norway win on 2026-07-11?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.2568,
-          "cur_price": 0.2512,
-          "usdc_size": 273480.2,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfe3f957bd91bab09a4ce7e0fb833e128409c0fcf",
-      "name": "0xFE3f957bD91bAB09A4Ce7E0fb833E128409C0FCf-1765371666097",
-      "score": 35.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.5,
-      "volume_score": 92.6,
-      "roi": -92.5,
-      "cash_pnl": -36715.7,
-      "realized_pnl": 72.82,
-      "total_usdc": 189291.88,
-      "trade_count": 500,
-      "market_count": 112,
-      "position_count": 49,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:19:07+00:00",
-      "top_markets": [
-        "Dota 2: Execration vs Mentality Monster (BO3) - The International Southeast Asia Closed Qualifier Playoffs",
-        "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - The International Southeast Asia Closed Qualifier Playoffs",
-        "Dota 2: Grind Back vs Mentality Monster - Game 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 2993.98,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xda4a4577e55a78e2ee47a09fa8a8af0508d21c05",
-      "name": "xiaobin131",
-      "score": 35.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.8,
-      "volume_score": 91.4,
-      "roi": -90.1,
-      "cash_pnl": -106432.51,
-      "realized_pnl": -957.45,
-      "total_usdc": 161248.32,
-      "trade_count": 500,
-      "market_count": 33,
-      "position_count": 99,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:54:55+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance",
-        "Argentina vs. Cabo Verde: 1st Half O/U 1.5",
-        "South Africa vs. Canada: O/U 9.5 Total Corners"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.645,
-          "cur_price": 0.3538,
-          "usdc_size": 11025.07,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0x135098cf001826608023de690a2377d65d250841",
-      "name": "ooohhyeah",
-      "score": 35.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.4,
-      "volume_score": 91.3,
-      "roi": -97.3,
-      "cash_pnl": -636796.24,
-      "realized_pnl": -100.11,
-      "total_usdc": 159740.36,
-      "trade_count": 500,
-      "market_count": 10,
-      "position_count": 68,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:07:44+00:00",
-      "top_markets": [
-        "Will Egypt win on 2026-07-03?",
-        "Will Brazil win on 2026-07-05?",
-        "Will Norway win on 2026-07-11?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.745,
-          "cur_price": 0.2512,
-          "usdc_size": 17968.45,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
-      "name": "NM-P",
-      "score": 35.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.9,
-      "volume_score": 89.2,
-      "roi": -69.7,
-      "cash_pnl": -286449.27,
-      "realized_pnl": 701548.96,
-      "total_usdc": 121551.99,
-      "trade_count": 500,
-      "market_count": 89,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:31:35+00:00",
-      "top_markets": [
-        "Argentina vs. Switzerland: O/U 2.5",
-        "Spread: Norway (-1.5)",
-        "Exact Score: Norway 3 - 2 England?"
-      ],
-      "signals": [
-        {
-          "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.4974,
-          "cur_price": 0.5012,
-          "usdc_size": 5377.04,
-          "outcome": "No"
-        },
-        {
-          "market": "Exact Score: Norway 1 - 2 England?",
-          "signal": "SKIP",
-          "avg_price": 0.8781,
-          "cur_price": 0.115,
-          "usdc_size": 12040.18,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.7442,
-          "cur_price": 0.2512,
-          "usdc_size": 3107.18,
-          "outcome": "No"
-        },
-        {
-          "market": "Norway vs. England: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.4232,
-          "cur_price": 0.5787,
-          "usdc_size": 1467.19,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.3333,
-          "cur_price": 0.2537,
-          "usdc_size": 630.13,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6449,
-          "cur_price": 0.3538,
-          "usdc_size": 1292.18,
-          "outcome": "England"
         },
         {
           "market": "Will Argentina win on 2026-07-11?",
           "signal": "SKIP",
-          "avg_price": 0.4201,
-          "cur_price": 0.5787,
-          "usdc_size": 753.79,
+          "avg_price": 0.42,
+          "cur_price": 0.5737,
+          "usdc_size": 1154.45,
           "outcome": "No"
-        },
-        {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-          "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.163,
-          "usdc_size": 1383.0,
-          "outcome": "Linda Noskova"
         }
       ]
     },
     {
-      "wallet": "0x8716b7d734c908637cace50bee9c918d714257c8",
-      "name": "hollowPebble",
-      "score": 35.2,
+      "wallet": "0xc70121076a2204430d1e7ce1eb7ddfa2ecd233c1",
+      "name": "Dreybeck",
+      "score": 37.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 26.8,
-      "volume_score": 86.7,
-      "roi": -100.0,
-      "cash_pnl": -640.34,
-      "realized_pnl": 5.34,
-      "total_usdc": 87617.42,
-      "trade_count": 500,
-      "market_count": 42,
-      "position_count": 5,
+      "early_entry_score": 37.5,
+      "volume_score": 92.9,
+      "roi": -83.6,
+      "cash_pnl": -27840.56,
+      "realized_pnl": -333.37,
+      "total_usdc": 197814.97,
+      "trade_count": 448,
+      "market_count": 128,
+      "position_count": 46,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:22:58+00:00",
+      "last_active": "2026-07-11T18:59:44+00:00",
       "top_markets": [
-        "France vs. Morocco: O/U 2.5",
-        "Portugal vs. Spain: O/U 2.5",
-        "Will Argentina win on 2026-07-07?"
+        "Will USD.AI launch a token by March 31?",
+        "MegaETH market cap (FDV) >$600M one day after launch?",
+        "Will Uruguay win on 2026-06-15?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5749,
+          "cur_price": 0.5737,
+          "usdc_size": 1995.48,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5149,
+          "cur_price": 0.5138,
+          "usdc_size": 1496.21,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
-      "wallet": "0x224f7ef690d952cf551a471846d5afb4892e514a",
-      "name": "WeBuyHighWeSelllow",
-      "score": 35.0,
+      "wallet": "0xee4b9d64e963c292e9e5fac189fcddfbc16cc2e4",
+      "name": "12..",
+      "score": 37.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 26.4,
-      "volume_score": 85.8,
-      "roi": -91.9,
-      "cash_pnl": -1565093.51,
-      "realized_pnl": 3640.56,
-      "total_usdc": 77898.53,
+      "early_entry_score": 35.8,
+      "volume_score": 91.6,
+      "roi": -52.6,
+      "cash_pnl": -8398.77,
+      "realized_pnl": -689.76,
+      "total_usdc": 166244.02,
       "trade_count": 500,
-      "market_count": 31,
-      "position_count": 500,
+      "market_count": 97,
+      "position_count": 24,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:29:52+00:00",
+      "last_active": "2026-07-11T18:56:25+00:00",
       "top_markets": [
-        "Exact Score: Argentina 1 - 1 Switzerland?",
-        "Norway vs. England: Both Teams to Score",
-        "Argentina vs. Switzerland: Argentina O/U 1.5"
+        "Bitcoin Up or Down - July 3, 9:15AM-9:20AM ET",
+        "Bitcoin Up or Down - July 3, 9:20AM-9:25AM ET",
+        "Bitcoin Up or Down - July 11, 12:55PM-1:00PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5799,
+          "cur_price": 0.5737,
+          "usdc_size": 5934.83,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5149,
+          "cur_price": 0.5138,
+          "usdc_size": 651.22,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x191f77486cb1c5af42e54734621804936a204a8d",
+      "name": "LaarsY",
+      "score": 36.5,
+      "roi_score": 7.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 25.0,
+      "volume_score": 79.9,
+      "roi": -38.7,
+      "cash_pnl": -75270.93,
+      "realized_pnl": 10259.12,
+      "total_usdc": 35569.0,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 142,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:59:49+00:00",
+      "top_markets": [
+        "Croatia Open, Qualification: Raul Brancaccio vs Federico Agustin Gomez",
+        "Norway vs. England: Draw at halftime?",
+        "Will England win on 2026-07-11?"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.4961,
-          "cur_price": 0.5012,
-          "usdc_size": 5635.22,
+          "signal": "LATE",
+          "avg_price": 0.4953,
+          "cur_price": 0.5138,
+          "usdc_size": 11241.0,
           "outcome": "No"
         },
         {
-          "market": "Exact Score: Norway 1 - 2 England?",
+          "market": "Will Norway win on 2026-07-11?",
           "signal": "SKIP",
-          "avg_price": 0.88,
-          "cur_price": 0.115,
-          "usdc_size": 15487.38,
+          "avg_price": 0.7596,
+          "cur_price": 0.2412,
+          "usdc_size": 26058.46,
           "outcome": "No"
         },
         {
           "market": "Norway vs. England: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.4346,
+          "avg_price": 0.4308,
           "cur_price": 0.5787,
-          "usdc_size": 2388.38,
+          "usdc_size": 10957.77,
           "outcome": "Under"
+        },
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.64,
+          "cur_price": 0.3387,
+          "usdc_size": 6612.0,
+          "outcome": "England"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.3014,
+          "cur_price": 0.2512,
+          "usdc_size": 2509.14,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x7ff32b9c91e5ba686e9fb5b544c7cb7a27cda0e8",
-      "name": "ozale",
-      "score": 34.9,
-      "roi_score": 1.0,
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 36.2,
+      "roi_score": 2.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 24.5,
-      "volume_score": 84.4,
-      "roi": -48.5,
-      "cash_pnl": -7057.12,
+      "early_entry_score": 23.4,
+      "volume_score": 96.4,
+      "roi": -47.0,
+      "cash_pnl": -5037021.69,
+      "realized_pnl": 1456446.46,
+      "total_usdc": 312404.19,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 386,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:00:41+00:00",
+      "top_markets": [
+        "Exact Score: Norway 2 - 1 England?",
+        "Erling Haaland: 1+ goals",
+        "Will Norway vs. England end in a draw?"
+      ],
+      "signals": [
+        {
+          "market": "Will Switzerland win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.0166,
+          "cur_price": 0.0165,
+          "usdc_size": 13200.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4901,
+          "cur_price": 0.5138,
+          "usdc_size": 99532.42,
+          "outcome": "No"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0397,
+          "cur_price": 0.1435,
+          "usdc_size": 116993.59,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0375,
+          "cur_price": 0.2095,
+          "usdc_size": 167639.61,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0281,
+          "cur_price": 0.3835,
+          "usdc_size": 223189.97,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.0351,
+          "cur_price": 0.0605,
+          "usdc_size": 23115.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "SKIP",
+          "avg_price": 0.32,
+          "cur_price": 0.715,
+          "usdc_size": 80312.55,
+          "outcome": "Conor McGregor"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7504,
+          "cur_price": 0.2412,
+          "usdc_size": 93209.76,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.7475,
+          "cur_price": 0.2512,
+          "usdc_size": 76919.1,
+          "outcome": "No"
+        },
+        {
+          "market": "Argentina vs. Switzerland: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.245,
+          "cur_price": 0.7488,
+          "usdc_size": 20776.03,
+          "outcome": "Switzerland"
+        },
+        {
+          "market": "Counter-Strike: PARIVISION vs FaZe (BO3) - XSE Pro League Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.48,
+          "cur_price": 0.9995,
+          "usdc_size": 44894.17,
+          "outcome": "PARIVISION"
+        }
+      ]
+    },
+    {
+      "wallet": "0x82282154463e7423d4d157f78a3d92fd08d5b2fb",
+      "name": "qq888",
+      "score": 36.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.3,
+      "volume_score": 100.0,
+      "roi": -98.9,
+      "cash_pnl": -216942.1,
       "realized_pnl": 0.0,
-      "total_usdc": 64381.23,
-      "trade_count": 40,
-      "market_count": 28,
+      "total_usdc": 540390.47,
+      "trade_count": 500,
+      "market_count": 228,
+      "position_count": 101,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:50:16+00:00",
+      "top_markets": [
+        "Will Czechia win on 2026-05-31?",
+        "Will FBC Melgar win on 2026-05-22?",
+        "Jeju SK FC vs. FC Anyang: Both Teams to Score"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4875,
+          "cur_price": 0.5138,
+          "usdc_size": 972.4,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3028380ab00705e754521c3bc61a6b537014b6f8",
+      "name": "LS88878",
+      "score": 36.0,
+      "roi_score": 11.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.3,
+      "volume_score": 66.0,
+      "roi": -33.2,
+      "cash_pnl": -497.65,
+      "realized_pnl": 0.0,
+      "total_usdc": 5744.6,
+      "trade_count": 6,
+      "market_count": 5,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:49:23+00:00",
+      "top_markets": [
+        "Will Argentina win on 2026-07-07?",
+        "Will England win on 2026-07-11?",
+        "Will Morocco win on 2026-07-09?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5124,
+          "cur_price": 0.5138,
+          "usdc_size": 1002.34,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x639cc0217f6d513f77cbe7cf3cb8e4d6115531e2",
+      "name": "pkkga755",
+      "score": 36.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.3,
+      "volume_score": 100.0,
+      "roi": -89.2,
+      "cash_pnl": -80605.55,
+      "realized_pnl": 0.0,
+      "total_usdc": 839310.37,
+      "trade_count": 259,
+      "market_count": 162,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:48:56+00:00",
+      "top_markets": [
+        "United States vs. Bosnia and Herzegovina: O/U 9.5 Total Corners",
+        "Mexico vs. Ecuador: O/U 7.5 Total Corners",
+        "Jordan vs. Argentina: 1st Half O/U 1.5"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 9724.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x709e8dcb133555794decc598e07f2c923b8366f5",
+      "name": "0xd4aa6f8e91cfea29b66a48ebff52814",
+      "score": 36.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 100.0,
+      "roi": -69.8,
+      "cash_pnl": -99713.29,
+      "realized_pnl": 85249.07,
+      "total_usdc": 1285491.17,
+      "trade_count": 500,
+      "market_count": 12,
       "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:03:05+00:00",
+      "last_active": "2026-07-11T18:49:46+00:00",
       "top_markets": [
-        "Will Spain win on 2026-07-06?",
-        "Will England win on 2026-07-05?",
+        "Will Belgium win on 2026-07-10?",
+        "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
         "Will Spain win on 2026-07-10?"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.5024,
-          "cur_price": 0.5012,
-          "usdc_size": 4488.36,
+          "avg_price": 0.5074,
+          "cur_price": 0.5138,
+          "usdc_size": 41716.83,
           "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 2993.98,
-          "outcome": "England"
         }
       ]
     },
     {
-      "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
-      "name": "GC-P",
-      "score": 34.8,
+      "wallet": "0x09b428f7c2b469786286214aa5c90dd9015f7320",
+      "name": "DEEDDIT",
+      "score": 36.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 24.6,
-      "volume_score": 85.8,
-      "roi": -66.2,
-      "cash_pnl": -287322.38,
-      "realized_pnl": 871375.24,
-      "total_usdc": 77980.28,
+      "early_entry_score": 23.6,
+      "volume_score": 100.0,
+      "roi": -88.0,
+      "cash_pnl": -11651507.53,
+      "realized_pnl": 0.0,
+      "total_usdc": 4925416.51,
       "trade_count": 500,
-      "market_count": 68,
-      "position_count": 500,
+      "market_count": 7,
+      "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:05+00:00",
+      "last_active": "2026-07-11T18:44:46+00:00",
       "top_markets": [
-        "Argentina vs. Switzerland: Both Teams to Score",
-        "Argentina vs. Switzerland: Team to Advance",
-        "Norway vs. England: Draw at halftime?"
+        "Will Spain win on 2026-07-10?",
+        "Switzerland vs. Colombia: Team to Advance",
+        "Will Switzerland vs. Colombia end in a draw?"
       ],
       "signals": [
         {
           "market": "Will England win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.4964,
-          "cur_price": 0.5012,
-          "usdc_size": 5674.42,
-          "outcome": "No"
+          "avg_price": 0.5086,
+          "cur_price": 0.5138,
+          "usdc_size": 1156833.46,
+          "outcome": "Yes"
         },
         {
           "market": "Norway vs. England: Team to Advance",
           "signal": "SKIP",
-          "avg_price": 0.6449,
-          "cur_price": 0.3538,
-          "usdc_size": 6293.39,
+          "avg_price": 0.6496,
+          "cur_price": 0.3387,
+          "usdc_size": 436807.74,
           "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
+      "name": "Cannae",
+      "score": 35.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 30.4,
+      "volume_score": 88.4,
+      "roi": -97.5,
+      "cash_pnl": -8337285.6,
+      "realized_pnl": 0.0,
+      "total_usdc": 109470.59,
+      "trade_count": 500,
+      "market_count": 32,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:00:31+00:00",
+      "top_markets": [
+        "Will England win on 2026-07-11?",
+        "Norway vs. England: O/U 2.5",
+        "Will Norway vs. England end in a draw?"
+      ],
+      "signals": [
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "ENTER",
+          "avg_price": 0.254,
+          "cur_price": 0.2512,
+          "usdc_size": 4186.28,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4916,
+          "cur_price": 0.5138,
+          "usdc_size": 34635.08,
+          "outcome": "No"
         },
         {
           "market": "Will Norway win on 2026-07-11?",
           "signal": "SKIP",
-          "avg_price": 0.7436,
-          "cur_price": 0.2512,
-          "usdc_size": 4928.41,
+          "avg_price": 0.7521,
+          "cur_price": 0.2412,
+          "usdc_size": 72353.2,
           "outcome": "No"
         },
         {
           "market": "Will Argentina win on 2026-07-11?",
           "signal": "SKIP",
-          "avg_price": 0.4207,
-          "cur_price": 0.5787,
-          "usdc_size": 1245.2,
+          "avg_price": 0.4202,
+          "cur_price": 0.5737,
+          "usdc_size": 11453.46,
           "outcome": "No"
+        },
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.6443,
+          "cur_price": 0.3387,
+          "usdc_size": 17036.25,
+          "outcome": "England"
         },
         {
           "market": "Norway vs. England: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.4231,
+          "avg_price": 0.4281,
           "cur_price": 0.5787,
-          "usdc_size": 818.87,
+          "usdc_size": 10354.7,
           "outcome": "Under"
-        },
-        {
-          "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-          "signal": "SKIP",
-          "avg_price": 0.4305,
-          "cur_price": 0.163,
-          "usdc_size": 1383.01,
-          "outcome": "Linda Noskova"
         }
       ]
     },
     {
-      "wallet": "0x38f1cfeceedc974a52e8e9d554f5e0beb4fe9ff1",
-      "name": "Luckyball",
-      "score": 34.6,
+      "wallet": "0x23d81ba9371e576015c1e562db09c689f56b0288",
+      "name": "flawfence",
+      "score": 35.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 24.3,
-      "volume_score": 84.7,
-      "roi": -99.7,
-      "cash_pnl": -236240.68,
-      "realized_pnl": -10043.42,
-      "total_usdc": 66794.59,
+      "volume_score": 96.9,
+      "roi": -92.4,
+      "cash_pnl": -1696074.88,
+      "realized_pnl": 6172.39,
+      "total_usdc": 334567.74,
       "trade_count": 500,
-      "market_count": 113,
-      "position_count": 305,
+      "market_count": 10,
+      "position_count": 157,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:08:14+00:00",
+      "last_active": "2026-07-11T18:46:29+00:00",
       "top_markets": [
-        "Wimbledon WTA: Jessica Pegula vs Iva Jovic",
-        "Wimbledon WTA: Liudmila Samsonova vs Marie Bouzkova",
-        "Will Brazil win on 2026-07-05?"
+        "Norway vs. England: O/U 2.5",
+        "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+        "Spain vs. Belgium: O/U 2.5"
       ],
       "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.7475,
-          "cur_price": 0.2512,
-          "usdc_size": 747.95,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
-      "name": "wr0ngw4yb3tt0r",
-      "score": 34.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.5,
-      "volume_score": 79.2,
-      "roi": -92.5,
-      "cash_pnl": -8634307.95,
-      "realized_pnl": 0.0,
-      "total_usdc": 32546.26,
-      "trade_count": 500,
-      "market_count": 5,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:01+00:00",
-      "top_markets": [
-        "Norway vs. England: Team to Advance",
-        "Spread: Minnesota Lynx (-5.5)",
-        "Will Conor McGregor win by KO or TKO?"
-      ],
-      "signals": [
-        {
-          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-          "signal": "SKIP",
-          "avg_price": 0.6502,
-          "cur_price": 0.715,
-          "usdc_size": 416074.21,
-          "outcome": "Max Holloway"
-        },
         {
           "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6435,
-          "cur_price": 0.3538,
-          "usdc_size": 87922.33,
-          "outcome": "England"
+          "signal": "ENTER",
+          "avg_price": 0.34,
+          "cur_price": 0.3387,
+          "usdc_size": 1054.14,
+          "outcome": "Norway"
         },
         {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.7716,
-          "cur_price": 0.2512,
-          "usdc_size": 11244.12,
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 48620.0,
           "outcome": "No"
         },
         {
           "market": "Norway vs. England: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.45,
+          "avg_price": 0.42,
           "cur_price": 0.5787,
-          "usdc_size": 2131.28,
+          "usdc_size": 42518.3,
           "outcome": "Under"
         }
       ]
     },
     {
-      "wallet": "0xc9ef22875436cc45a3c6434ca872f077c235eb67",
-      "name": "JuaJ",
-      "score": 33.4,
+      "wallet": "0x8c818a866e6a4e5821a4faac8418903e33e3dcd3",
+      "name": "Sharkbets.pro",
+      "score": 35.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 24.8,
-      "volume_score": 72.2,
-      "roi": -74.3,
-      "cash_pnl": -4317.53,
-      "realized_pnl": 0.0,
-      "total_usdc": 13103.61,
-      "trade_count": 198,
-      "market_count": 152,
-      "position_count": 79,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:50:31+00:00",
-      "top_markets": [
-        "Will Brazil win on 2026-06-29?",
-        "Will Portugal win on 2026-07-02?",
-        "Will AFC Bournemouth win on 2026-05-03?"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 1496.99,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xcbba64cddd05171925ffd05d8f8abd38c83fdbff",
-      "name": "HOG993",
-      "score": 32.5,
-      "roi_score": 5.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 83.3,
-      "roi": -41.5,
-      "cash_pnl": -58935.5,
-      "realized_pnl": -1106309.63,
-      "total_usdc": 55958.94,
+      "early_entry_score": 23.4,
+      "volume_score": 97.7,
+      "roi": -98.8,
+      "cash_pnl": -590359.33,
+      "realized_pnl": -1692.3,
+      "total_usdc": 368668.67,
       "trade_count": 500,
-      "market_count": 10,
-      "position_count": 182,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T17:29:55+00:00",
-      "top_markets": [
-        "Argentina vs. Switzerland: Team to Advance",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Norway vs. England: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3525,
-          "cur_price": 0.3538,
-          "usdc_size": 19649.86,
-          "outcome": "Norway"
-        },
-        {
-          "market": "Will Norway vs. England end in a draw?",
-          "signal": "ENTER",
-          "avg_price": 0.2533,
-          "cur_price": 0.2537,
-          "usdc_size": 10138.39,
-          "outcome": "Yes"
-        },
-        {
-          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-          "signal": "SKIP",
-          "avg_price": 0.2949,
-          "cur_price": 0.715,
-          "usdc_size": 20576.03,
-          "outcome": "Conor McGregor"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0236,
-          "cur_price": 0.2095,
-          "usdc_size": 10252.98,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will England win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.0166,
-          "cur_price": 0.1445,
-          "usdc_size": 3464.36,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
-      "name": "ic4cream",
-      "score": 32.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.6,
-      "roi": -97.7,
-      "cash_pnl": -4485113.66,
-      "realized_pnl": 2682.64,
-      "total_usdc": 364135.32,
-      "trade_count": 500,
-      "market_count": 53,
+      "market_count": 57,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:12:05+00:00",
+      "last_active": "2026-07-11T18:40:44+00:00",
       "top_markets": [
-        "Spread: Spain (-1.5)",
-        "Will Norway win on 2026-07-11?",
-        "Will Belgium win on 2026-07-10?"
+        "Will South Africa win on 2026-06-28?",
+        "Will France win on 2026-06-26?",
+        "Spread: Belgium (-1.5)"
       ],
       "signals": [
         {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.749,
-          "cur_price": 0.2512,
-          "usdc_size": 61766.25,
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 6938.07,
           "outcome": "No"
-        },
+        }
+      ]
+    },
+    {
+      "wallet": "0xe2d0f0580716e47979206dcff5220695e7967bbf",
+      "name": "0xe2D0f0580716E47979206dcFF5220695e7967BbF-1763023416239",
+      "score": 35.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 96.5,
+      "roi": -90.9,
+      "cash_pnl": -76078.64,
+      "realized_pnl": 0.0,
+      "total_usdc": 314986.48,
+      "trade_count": 421,
+      "market_count": 68,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:44:46+00:00",
+      "top_markets": [
+        "Valorant: BBL Esports vs NRG (BO3) - Esports World Cup Playoffs",
+        "LoL: Invictus Gaming vs Anyone's Legend (BO3)",
+        "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs"
+      ],
+      "signals": [
         {
-          "market": "Will France win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.3173,
-          "cur_price": 0.3815,
-          "usdc_size": 6102.86,
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4964,
+          "cur_price": 0.5138,
+          "usdc_size": 7390.21,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa1f39b9b21a7bfb0f540cf106b92e240c7b7d99c",
+      "name": "facai86868",
+      "score": 35.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 94.6,
+      "roi": -99.8,
+      "cash_pnl": -1100985.19,
+      "realized_pnl": 0.0,
+      "total_usdc": 245698.58,
+      "trade_count": 500,
+      "market_count": 60,
+      "position_count": 463,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:44:46+00:00",
+      "top_markets": [
+        "France vs. Morocco: O/U 2.5",
+        "Paraguay vs. France: O/U 2.5",
+        "Mexico vs. England: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 1944.8,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf6d0642148933ea5a0c5c9ad33c1c1b517e69391",
+      "name": "defbank",
+      "score": 35.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 28.8,
+      "volume_score": 86.0,
+      "roi": -87.8,
+      "cash_pnl": -148903.07,
+      "realized_pnl": 1863.09,
+      "total_usdc": 79438.99,
+      "trade_count": 500,
+      "market_count": 3,
+      "position_count": 84,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:46:08+00:00",
+      "top_markets": [
+        "Will England win on 2026-07-11?",
+        "Spread: England (-1.5)",
+        "Norway vs. England: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5066,
+          "cur_price": 0.5138,
+          "usdc_size": 20698.91,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xeb739f5e4f45b0b68688bb252f08327bc01653b0",
-      "name": "WINSONS",
-      "score": 32.3,
+      "wallet": "0x1a6692c85ec7ab4503ae10bd8a30da8e0ca4ae5e",
+      "name": "fenglin5945",
+      "score": 35.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.6,
-      "roi": -97.7,
-      "cash_pnl": -330989.08,
-      "realized_pnl": 1491.53,
-      "total_usdc": 367002.89,
+      "early_entry_score": 23.4,
+      "volume_score": 92.1,
+      "roi": -99.2,
+      "cash_pnl": -233917.01,
+      "realized_pnl": -472.49,
+      "total_usdc": 177271.86,
       "trade_count": 500,
-      "market_count": 169,
-      "position_count": 198,
+      "market_count": 46,
+      "position_count": 95,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:11:31+00:00",
+      "last_active": "2026-07-11T18:50:16+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - May 24, 2:05PM-2:10PM ET",
-        "Bitcoin Up or Down - May 24, 3:00PM-3:05PM ET",
-        "Will Orgryte IS vs. BK Hacken end in a draw?"
+        "Will United States win on 2026-06-25?",
+        "Spread: Portugal (-2.5)",
+        "Will Mexico win on 2026-06-24?"
       ],
       "signals": [
         {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3549,
-          "cur_price": 0.3538,
-          "usdc_size": 1494.51,
-          "outcome": "Norway"
-        },
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4887,
+          "cur_price": 0.5138,
+          "usdc_size": 1990.5,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc41d736bded9ed1accd6a44235039266219774fd",
+      "name": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
+      "score": 35.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.3,
+      "volume_score": 92.4,
+      "roi": -100.0,
+      "cash_pnl": -5510828.91,
+      "realized_pnl": -76866.88,
+      "total_usdc": 184265.06,
+      "trade_count": 500,
+      "market_count": 8,
+      "position_count": 128,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:50:16+00:00",
+      "top_markets": [
+        "Will Switzerland win on 2026-07-07?",
+        "France vs. Morocco: Both Teams to Score",
+        "Will France win on 2026-07-09?"
+      ],
+      "signals": [
         {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "SKIP",
-          "avg_price": 0.2339,
-          "cur_price": 0.2512,
-          "usdc_size": 4617.71,
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4875,
+          "cur_price": 0.5138,
+          "usdc_size": 764.31,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3233818b43fdb708a2232fc4f0cb3e36d6e2a4dd",
+      "name": "dzejlanbezs",
+      "score": 35.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 25.1,
+      "volume_score": 89.4,
+      "roi": -91.7,
+      "cash_pnl": -97019.01,
+      "realized_pnl": 0.0,
+      "total_usdc": 125218.25,
+      "trade_count": 500,
+      "market_count": 37,
+      "position_count": 38,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:44:46+00:00",
+      "top_markets": [
+        "Will Spain win on 2026-07-02?",
+        "Will Brazil win on 2026-07-05?",
+        "Will England win on 2026-07-01?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4941,
+          "cur_price": 0.5138,
+          "usdc_size": 8751.6,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb00d4c517fc4a09c224f0ac1d59fb3af62f9af5f",
+      "name": "yydsyyds88",
+      "score": 35.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 92.0,
+      "roi": -94.6,
+      "cash_pnl": -110820.1,
+      "realized_pnl": 586.81,
+      "total_usdc": 175294.51,
+      "trade_count": 500,
+      "market_count": 52,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:41:20+00:00",
+      "top_markets": [
+        "Will Brazil win on 2026-06-29?",
+        "Uruguay vs. Spain: O/U 2.5",
+        "Will Morocco win on 2026-07-04?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.49,
+          "cur_price": 0.5138,
+          "usdc_size": 2528.24,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4dee9f25ae71743b2a2b2be267bfbb0f2d518ad7",
+      "name": "0x4DEe9f25ae71743B2A2b2BE267bFbB0f2D518Ad7-1763540348723",
+      "score": 35.0,
+      "roi_score": 14.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.9,
+      "roi": -27.8,
+      "cash_pnl": -10049.88,
+      "realized_pnl": 0.0,
+      "total_usdc": 40899.58,
+      "trade_count": 33,
+      "market_count": 15,
+      "position_count": 10,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:49:55+00:00",
+      "top_markets": [
+        "Will Trump visit China by June 30?",
+        "Will Trump visit China by May 31?",
+        "Will Spain win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5124,
+          "cur_price": 0.5138,
+          "usdc_size": 1002.34,
           "outcome": "Yes"
         },
         {
@@ -2343,222 +2013,491 @@
           "signal": "SKIP",
           "avg_price": 0.1879,
           "cur_price": 0.2095,
-          "usdc_size": 891.49,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x20b80ebb96e2051540e1d475e4ce122fc282aa04",
-      "name": "tes21sa",
-      "score": 31.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.8,
-      "roi": -83.0,
-      "cash_pnl": -103132.21,
-      "realized_pnl": 0.0,
-      "total_usdc": 149219.59,
-      "trade_count": 500,
-      "market_count": 28,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:55:38+00:00",
-      "top_markets": [
-        "Will Morocco win on 2026-07-09?",
-        "Will Norway win on 2026-07-11?",
-        "Will Belgium win on 2026-07-10?"
-      ],
-      "signals": [
-        {
-          "market": "Will Norway win on 2026-07-11?",
-          "signal": "ENTER",
-          "avg_price": 0.255,
-          "cur_price": 0.2512,
-          "usdc_size": 20100.04,
+          "usdc_size": 17864.0,
           "outcome": "Yes"
         },
         {
-          "market": "Will Norway win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.06,
-          "cur_price": 0.0605,
-          "usdc_size": 1010.35,
+          "market": "Will France win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.3279,
+          "cur_price": 0.3835,
+          "usdc_size": 5846.04,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x5b4ec9c06b284ee52c41a761974d836992880232",
-      "name": "ramadamaramadam",
-      "score": 30.8,
+      "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+      "name": "0x4f2",
+      "score": 35.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 83.2,
-      "roi": -71.6,
-      "cash_pnl": -2559604.2,
-      "realized_pnl": 0.0,
-      "total_usdc": 54896.69,
+      "early_entry_score": 23.4,
+      "volume_score": 89.4,
+      "roi": -91.7,
+      "cash_pnl": -2196884.76,
+      "realized_pnl": -118028.67,
+      "total_usdc": 124710.92,
       "trade_count": 500,
-      "market_count": 2,
-      "position_count": 31,
+      "market_count": 22,
+      "position_count": 444,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:31+00:00",
+      "last_active": "2026-07-11T19:00:56+00:00",
       "top_markets": [
-        "Norway vs. England: Team to Advance",
-        "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)"
+        "Milwaukee Brewers vs. Pittsburgh Pirates",
+        "Athens Open, Qualification: Qianhui Tang vs Elina Nepliy",
+        "Athens Open, Qualification: Ekaterina Yashina vs Lina Glushko"
       ],
       "signals": [
         {
-          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-          "signal": "ENTER",
-          "avg_price": 0.71,
-          "cur_price": 0.715,
-          "usdc_size": 365364.36,
-          "outcome": "Max Holloway"
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4937,
+          "cur_price": 0.5138,
+          "usdc_size": 3692.87,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7482,
+          "cur_price": 0.2412,
+          "usdc_size": 10351.77,
+          "outcome": "No"
         },
         {
           "market": "Norway vs. England: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.44,
+          "avg_price": 0.4305,
           "cur_price": 0.5787,
-          "usdc_size": 252719.55,
+          "usdc_size": 2207.41,
           "outcome": "Under"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4afbb6588c79f2c5e9019908fd7440224dd1ed2b",
+      "name": "elenaarybakin21",
+      "score": 34.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.4,
+      "volume_score": 85.4,
+      "roi": -95.8,
+      "cash_pnl": -120715.91,
+      "realized_pnl": 129.79,
+      "total_usdc": 73364.19,
+      "trade_count": 500,
+      "market_count": 34,
+      "position_count": 108,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:50:16+00:00",
+      "top_markets": [
+        "Will Argentina win on 2026-07-07?",
+        "Will Spain win on 2026-07-02?",
+        "Switzerland vs. Colombia: Both Teams to Score"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4922,
+          "cur_price": 0.5138,
+          "usdc_size": 5348.18,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd9a8484d5c74be3594676034b18f8c977234a3d3",
+      "name": "Fah07",
+      "score": 34.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.3,
+      "volume_score": 81.0,
+      "roi": -93.7,
+      "cash_pnl": -8806.55,
+      "realized_pnl": -789.97,
+      "total_usdc": 41194.48,
+      "trade_count": 274,
+      "market_count": 132,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:48:17+00:00",
+      "top_markets": [
+        "Will Czechia win on 2026-06-18?",
+        "Will Argentina win on 2026-07-07?",
+        "Will Germany win on 2026-06-25?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4899,
+          "cur_price": 0.5138,
+          "usdc_size": 595.4,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+      "name": "38791873984189",
+      "score": 34.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.5,
+      "volume_score": 79.2,
+      "roi": -80.8,
+      "cash_pnl": -172727.26,
+      "realized_pnl": 11650.51,
+      "total_usdc": 32818.09,
+      "trade_count": 500,
+      "market_count": 57,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:00:37+00:00",
+      "top_markets": [
+        "Milwaukee Brewers vs. Pittsburgh Pirates",
+        "Croatia Open, Qualification: Lukas Neumayer vs Mili Poljicak",
+        "Iasi: Valentin Royer vs Titouan Droguet"
+      ],
+      "signals": [
+        {
+          "market": "Norway vs. England: O/U 2.5",
+          "signal": "ENTER",
+          "avg_price": 0.5774,
+          "cur_price": 0.5787,
+          "usdc_size": 560.76,
+          "outcome": "Over"
+        },
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4916,
+          "cur_price": 0.5138,
+          "usdc_size": 2813.61,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Norway vs. England end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.3333,
+          "cur_price": 0.2512,
+          "usdc_size": 1250.98,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Norway vs. England: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.4309,
+          "cur_price": 0.5787,
+          "usdc_size": 1343.26,
+          "outcome": "Under"
+        },
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7495,
+          "cur_price": 0.2412,
+          "usdc_size": 2331.64,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Argentina win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.4227,
+          "cur_price": 0.5737,
+          "usdc_size": 1111.58,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
+      "name": "hi774c",
+      "score": 32.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.4,
+      "roi": -98.4,
+      "cash_pnl": -2833200.5,
+      "realized_pnl": -2879.55,
+      "total_usdc": 356587.42,
+      "trade_count": 500,
+      "market_count": 134,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:00:58+00:00",
+      "top_markets": [
+        "Atlanta Braves vs. Pittsburgh Pirates",
+        "Spread: Switzerland (-2.5)",
+        "Colorado Rockies vs. Los Angeles Dodgers"
+      ],
+      "signals": [
+        {
+          "market": "Will Norway win on 2026-07-11?",
+          "signal": "SKIP",
+          "avg_price": 0.7482,
+          "cur_price": 0.2412,
+          "usdc_size": 6643.8,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x82398835fe16616214d928ba87127e28fc1cd9a3",
+      "name": "Kosherlocks",
+      "score": 32.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.3,
+      "roi": -65.2,
+      "cash_pnl": -80036.62,
+      "realized_pnl": 0.0,
+      "total_usdc": 306289.74,
+      "trade_count": 360,
+      "market_count": 116,
+      "position_count": 53,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:48:53+00:00",
+      "top_markets": [
+        "Will LeBron James play for the Miami Heat in 2026-27?",
+        "Bitcoin Up or Down - May 23, 6:45PM-6:50PM ET",
+        "Athletics vs. Detroit Tigers: 1st 5 Innings O/U 5.5"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "ENTER",
+          "avg_price": 0.5124,
+          "cur_price": 0.5138,
+          "usdc_size": 12615.41,
+          "outcome": "Yes"
+        },
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "ENTER",
+          "avg_price": 0.6946,
+          "cur_price": 0.715,
+          "usdc_size": 5106.2,
+          "outcome": "Max Holloway"
+        },
+        {
+          "market": "Will England win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1119,
+          "cur_price": 0.1435,
+          "usdc_size": 640.62,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.1649,
+          "cur_price": 0.2095,
+          "usdc_size": 634.85,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "SKIP",
+          "avg_price": 0.6474,
+          "cur_price": 0.3387,
+          "usdc_size": 1679.81,
+          "outcome": "England"
+        }
+      ]
+    },
+    {
+      "wallet": "0x99e42eb9038705165b22f821e27659c1dc41e4c4",
+      "name": "acorp",
+      "score": 31.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.1,
+      "roi": -99.7,
+      "cash_pnl": -324979.98,
+      "realized_pnl": -0.08,
+      "total_usdc": 203344.45,
+      "trade_count": 500,
+      "market_count": 30,
+      "position_count": 61,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:51:22+00:00",
+      "top_markets": [
+        "Will Belgium win on 2026-07-10?",
+        "Will Argentina vs. Egypt end in a draw?",
+        "Will Spain vs. Austria end in a draw?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4875,
+          "cur_price": 0.5138,
+          "usdc_size": 643.24,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8b3234f9027f4e994e949df4b48b90ab79015950",
+      "name": "Gametheory-394",
+      "score": 30.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.2,
+      "roi": -60.9,
+      "cash_pnl": -120617.32,
+      "realized_pnl": -7.01,
+      "total_usdc": 63076.66,
+      "trade_count": 500,
+      "market_count": 4,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T19:00:07+00:00",
+      "top_markets": [
+        "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+        "Will France win on 2026-07-14?",
+        "Will Argentina win on 2026-07-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will England win on 2026-07-11?",
+          "signal": "LATE",
+          "avg_price": 0.4808,
+          "cur_price": 0.5138,
+          "usdc_size": 33040.17,
+          "outcome": "No"
+        },
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "SKIP",
+          "avg_price": 0.2921,
+          "cur_price": 0.715,
+          "usdc_size": 20655.06,
+          "outcome": "Conor McGregor"
         },
         {
           "market": "Will Argentina win on 2026-07-11?",
           "signal": "SKIP",
           "avg_price": 0.42,
-          "cur_price": 0.5787,
-          "usdc_size": 168473.98,
+          "cur_price": 0.5737,
+          "usdc_size": 14746.3,
           "outcome": "No"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.645,
-          "cur_price": 0.3538,
-          "usdc_size": 66564.43,
-          "outcome": "England"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc43578893fc1d8b2e5b598cd44de89948d3b1923",
-      "name": "helewwww",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.1,
-      "roi": -78.9,
-      "cash_pnl": -3196.71,
-      "realized_pnl": 0.0,
-      "total_usdc": 47654.87,
-      "trade_count": 192,
-      "market_count": 97,
-      "position_count": 16,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-11T16:49:11+00:00",
-      "top_markets": [
-        "Spread: Norway (-1.5)",
-        "Spread: France (-2.5)",
-        "Colombia vs. Ghana: Team to Advance"
-      ],
-      "signals": [
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "SKIP",
-          "avg_price": 0.6474,
-          "cur_price": 0.3538,
-          "usdc_size": 854.3,
-          "outcome": "England"
         }
       ]
     },
     {
       "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
       "name": "neutralwave23",
-      "score": 30.4,
-      "roi_score": 0.0,
+      "score": 30.9,
+      "roi_score": 0.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 79.4,
-      "roi": -50.6,
-      "cash_pnl": -545277.38,
-      "realized_pnl": 31947.02,
-      "total_usdc": 33595.89,
+      "volume_score": 82.6,
+      "roi": -49.4,
+      "cash_pnl": -545208.2,
+      "realized_pnl": 32029.07,
+      "total_usdc": 50778.44,
       "trade_count": 500,
-      "market_count": 117,
+      "market_count": 143,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-11T17:32:37+00:00",
+      "last_active": "2026-07-11T19:00:43+00:00",
       "top_markets": [
-        "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
         "Will Norway win on 2026-07-11?",
-        "Will England win on 2026-07-11?"
+        "Will England win on 2026-07-11?",
+        "Norway vs. England: Team to Advance"
       ],
       "signals": [
         {
-          "market": "Will Norway vs. England end in a draw?",
+          "market": "Will Norway win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.2606,
-          "cur_price": 0.2537,
-          "usdc_size": 8519.1,
+          "avg_price": 0.2444,
+          "cur_price": 0.2412,
+          "usdc_size": 11080.55,
           "outcome": "Yes"
         },
         {
           "market": "Will Argentina win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.5784,
-          "cur_price": 0.5787,
-          "usdc_size": 18404.9,
+          "avg_price": 0.578,
+          "cur_price": 0.5737,
+          "usdc_size": 20480.25,
           "outcome": "Yes"
-        },
-        {
-          "market": "Norway vs. England: Team to Advance",
-          "signal": "ENTER",
-          "avg_price": 0.3554,
-          "cur_price": 0.3538,
-          "usdc_size": 4596.19,
-          "outcome": "Norway"
         },
         {
           "market": "Will England win on 2026-07-11?",
           "signal": "ENTER",
-          "avg_price": 0.5071,
-          "cur_price": 0.5012,
-          "usdc_size": 3424.44,
+          "avg_price": 0.5078,
+          "cur_price": 0.5138,
+          "usdc_size": 11781.62,
           "outcome": "Yes"
         },
         {
-          "market": "Will Norway win on 2026-07-11?",
+          "market": "Will Norway vs. England end in a draw?",
           "signal": "LATE",
-          "avg_price": 0.2418,
+          "avg_price": 0.2604,
           "cur_price": 0.2512,
-          "usdc_size": 8450.26,
+          "usdc_size": 8664.35,
           "outcome": "Yes"
+        },
+        {
+          "market": "Norway vs. England: Team to Advance",
+          "signal": "LATE",
+          "avg_price": 0.3553,
+          "cur_price": 0.3387,
+          "usdc_size": 4866.43,
+          "outcome": "Norway"
+        },
+        {
+          "market": "Argentina vs. Switzerland: Team to Advance",
+          "signal": "LATE",
+          "avg_price": 0.7503,
+          "cur_price": 0.7488,
+          "usdc_size": 9042.52,
+          "outcome": "Argentina"
         },
         {
           "market": "Will England win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.1071,
-          "cur_price": 0.1445,
-          "usdc_size": 65019.54,
+          "cur_price": 0.1435,
+          "usdc_size": 64569.58,
           "outcome": "Yes"
         },
         {
@@ -2566,15 +2505,15 @@
           "signal": "SKIP",
           "avg_price": 0.0361,
           "cur_price": 0.0605,
-          "usdc_size": 27026.28,
+          "usdc_size": 27035.25,
           "outcome": "Yes"
         },
         {
           "market": "Will France win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.3088,
-          "cur_price": 0.3815,
-          "usdc_size": 145469.35,
+          "cur_price": 0.3835,
+          "usdc_size": 146147.53,
           "outcome": "Yes"
         },
         {
@@ -2582,7 +2521,7 @@
           "signal": "SKIP",
           "avg_price": 0.1486,
           "cur_price": 0.2095,
-          "usdc_size": 41077.14,
+          "usdc_size": 41089.45,
           "outcome": "Yes"
         },
         {
@@ -2594,163 +2533,199 @@
           "outcome": "Yes"
         },
         {
-          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-          "signal": "SKIP",
-          "avg_price": 0.3104,
-          "cur_price": 0.715,
-          "usdc_size": 2551.41,
-          "outcome": "Conor McGregor"
-        },
-        {
           "market": "Norway vs. England: Team to Advance",
           "signal": "SKIP",
-          "avg_price": 0.644,
-          "cur_price": 0.3538,
-          "usdc_size": 5004.44,
+          "avg_price": 0.6505,
+          "cur_price": 0.3387,
+          "usdc_size": 7740.63,
           "outcome": "England"
+        },
+        {
+          "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+          "signal": "SKIP",
+          "avg_price": 0.3057,
+          "cur_price": 0.715,
+          "usdc_size": 3304.91,
+          "outcome": "Conor McGregor"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe0a35948e69d2db5629d3e7d3fe226f8831d1b53",
+      "name": "0xe0a35948e69D2Db5629D3E7d3fe226f8831d1b53-1774035742394",
+      "score": 30.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.5,
+      "roi": -81.9,
+      "cash_pnl": -14176.37,
+      "realized_pnl": -68.57,
+      "total_usdc": 50542.56,
+      "trade_count": 500,
+      "market_count": 281,
+      "position_count": 163,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-11T18:54:20+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - March 23, 8:15PM-8:20PM ET",
+        "Bitcoin Up or Down - March 21, 12:15PM-12:20PM ET",
+        "Bitcoin Up or Down - March 21, 2:55PM-3:00PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Argentina vs. Switzerland: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.7474,
+          "cur_price": 0.7488,
+          "usdc_size": 760.22,
+          "outcome": "Argentina"
         }
       ]
     }
   ],
   "markets": [
     {
-      "id": "0x4b84a8e08cb3376c9e5be5cc5a37f7073de05cdf0810d2ad3fe745c4760ef3e0",
-      "question": "Will Norway win on 2026-07-11?",
-      "volume": "6691041.961220956",
-      "liquidity": "2370023.3159",
+      "id": "0x0f5e01cf1cabb6c49e424f230ca77a2ccd3e1ac63b31ae03ef749ac2bde7fa0e",
+      "question": "Will England win on 2026-07-11?",
+      "volume": "7261703.066735055",
+      "liquidity": "2348883.411625",
       "end_date": "2026-07-11T21:00:00Z"
     },
     {
       "id": "0xccc07a8317079457585bc88e387b58d2bb94576ee2c9cea63b2f2adb7ed1a836",
       "question": "Norway vs. England: Team to Advance",
-      "volume": "6985914.411029895",
-      "liquidity": "2191674.961375",
+      "volume": "8468126.535319673",
+      "liquidity": "2573705.810475",
       "end_date": "2026-07-11T21:00:00Z"
     },
     {
-      "id": "0xb86425238a6bb2abbea65a4730da96a877bb8f1c18e5579271f5bd08fcd7fdff",
-      "question": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-      "volume": "4306201.923912008",
-      "liquidity": "196942.96947",
-      "end_date": "2026-07-18T15:00:00Z"
+      "id": "0x4b84a8e08cb3376c9e5be5cc5a37f7073de05cdf0810d2ad3fe745c4760ef3e0",
+      "question": "Will Norway win on 2026-07-11?",
+      "volume": "7285238.616782879",
+      "liquidity": "3110615.58905",
+      "end_date": "2026-07-11T21:00:00Z"
     },
     {
       "id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
       "question": "Will Spain win the 2026 FIFA World Cup?",
-      "volume": "103064627.49878415",
-      "liquidity": "6256753.46885",
+      "volume": "103273588.30724727",
+      "liquidity": "6197060.92237",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
       "question": "Will Norway win the 2026 FIFA World Cup?",
-      "volume": "129281023.20670217",
-      "liquidity": "4973055.17268",
+      "volume": "129510516.28165844",
+      "liquidity": "4898885.93437",
       "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xb6d6f15a1b5d08753653f1867ccd6126badfbe182a75159a330dc7b15336b309",
-      "question": "Will Gedion Timothewos be the next Prime Minister of Ethiopia?",
-      "volume": "44975783.49986503",
-      "liquidity": "25463.85238",
-      "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0xf5ee4b6bd7d585c0e12e530074d0324493c302b82e127c832d15c89a610c0453",
       "question": "Will Demeke Mekonnen be the next Prime Minister of Ethiopia?",
-      "volume": "8343077.762269998",
-      "liquidity": "29912.26017",
+      "volume": "8343506.575269998",
+      "liquidity": "29903.22075",
       "end_date": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "0x0f5e01cf1cabb6c49e424f230ca77a2ccd3e1ac63b31ae03ef749ac2bde7fa0e",
-      "question": "Will England win on 2026-07-11?",
-      "volume": "4354151.816180059",
-      "liquidity": "2336726.009525",
-      "end_date": "2026-07-11T21:00:00Z"
     },
     {
       "id": "0xc851fc5ae688d3d67bccb7c8f0ca475f61ebda796cfcddca7230042de6b48cfd",
       "question": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-      "volume": "7029144.964862045",
-      "liquidity": "3750670.8047",
+      "volume": "7254047.459488035",
+      "liquidity": "3731969.7023",
       "end_date": "2026-07-12T03:59:59.999Z"
     },
     {
       "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
       "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
-      "volume": "40900375.144085",
-      "liquidity": "32094.08323",
+      "volume": "40900803.961085",
+      "liquidity": "32727.68462",
       "end_date": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "volume": "111306413.5669314",
-      "liquidity": "4953600.20661",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
-      "question": "Will Switzerland win the 2026 FIFA World Cup?",
-      "volume": "123730574.41320316",
-      "liquidity": "3575091.97528",
-      "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x180bce419c2b5ea2178514571c50c9d5ada7b85fd409e7088ff5d0d42e7fe867",
       "question": "Norway vs. England: O/U 2.5",
-      "volume": "2679835.9260429973",
-      "liquidity": "1255182.087875",
+      "volume": "3050695.5092239785",
+      "liquidity": "782688.1052",
       "end_date": "2026-07-11T21:00:00Z"
+    },
+    {
+      "id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "volume": "111401100.7180094",
+      "liquidity": "4853071.79128",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0xb6d6f15a1b5d08753653f1867ccd6126badfbe182a75159a330dc7b15336b309",
+      "question": "Will Gedion Timothewos be the next Prime Minister of Ethiopia?",
+      "volume": "44976343.433777034",
+      "liquidity": "19003.90289",
+      "end_date": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
+      "question": "Will Switzerland win the 2026 FIFA World Cup?",
+      "volume": "123893498.43763235",
+      "liquidity": "3517441.15865",
+      "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0xeabfb854b199d3ed9f3ca691ade13fa83c9b09ab275a92e55f283921b8906012",
       "question": "Exact Score: Norway 3 - 2 England?",
-      "volume": "2239858.9189310065",
-      "liquidity": "1131402.38642",
+      "volume": "2388291.3600460035",
+      "liquidity": "1058704.34729",
       "end_date": "2026-07-11T21:00:00Z"
     },
     {
       "id": "0x95f726bbb693b945f94473908298b2389989550b08a7bfd90f97ce7ba62cb719",
       "question": "Will Argentina win on 2026-07-11?",
-      "volume": "2581200.5083939577",
-      "liquidity": "1935624.546525",
+      "volume": "2735891.0831649527",
+      "liquidity": "1701192.11545",
       "end_date": "2026-07-12T01:00:00Z"
     },
     {
-      "id": "0x9b256472ce9d2074f3e317beccbe8d9c914bd9c83cbe1c4fa9d6f928a475f7b3",
-      "question": "Will Mike Trout hit the most home runs during the 2026 MLB regular season?",
-      "volume": "1747528.76",
-      "liquidity": "3497.00566",
-      "end_date": "2026-10-11T00:00:00Z"
+      "id": "0x38b1f9f80a0ca11d8bf25f98ca1ea41243825151320fdadb49eda6dc9d56f4c3",
+      "question": "Counter-Strike: PARIVISION vs FaZe (BO3) - XSE Pro League Playoffs",
+      "volume": "1888000.273784993",
+      "liquidity": "934896.43532",
+      "end_date": "2026-07-11T18:50:00Z"
+    },
+    {
+      "id": "0x0891e4792a016a079765dd25029639cd731f7dc0bde3d65d6002b2b19dae2777",
+      "question": "Argentina vs. Switzerland: Team to Advance",
+      "volume": "2372899.753087007",
+      "liquidity": "1542361.528675",
+      "end_date": "2026-07-12T01:00:00Z"
     },
     {
       "id": "0xdbbbbd6ea71cad296d859aa629497400402ab253a51350bddd5d761dbbad1460",
       "question": "Will Norway vs. England end in a draw?",
-      "volume": "1923643.8183560031",
-      "liquidity": "2759271.462075",
+      "volume": "2101473.5167170023",
+      "liquidity": "2836379.1077",
       "end_date": "2026-07-11T21:00:00Z"
     },
     {
       "id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
       "question": "Will England win the 2026 FIFA World Cup?",
-      "volume": "93580630.86906",
-      "liquidity": "4830083.9391",
+      "volume": "93745907.21626095",
+      "liquidity": "4883136.14498",
       "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x9b256472ce9d2074f3e317beccbe8d9c914bd9c83cbe1c4fa9d6f928a475f7b3",
+      "question": "Will Mike Trout hit the most home runs during the 2026 MLB regular season?",
+      "volume": "1747528.76",
+      "liquidity": "2190.64319",
+      "end_date": "2026-10-11T00:00:00Z"
     },
     {
       "id": "0x92aab0716cb65cfdd2f13f80c9f2bcc920b8d500ca3994318c77f5af27877925",
       "question": "Exact Score: Norway 2 - 3 England?",
-      "volume": "1686548.5027710006",
-      "liquidity": "1331028.56707",
-      "end_date": "2026-07-11T21:00:00Z"
-    },
-    {
-      "id": "0x80893681224372d213e9952bf63307794fb8b74c53378799dc7573e5241b144a",
-      "question": "Exact Score: Norway 1 - 2 England?",
-      "volume": "1568326.0998029911",
-      "liquidity": "1545125.8406",
+      "volume": "1841016.0385569993",
+      "liquidity": "1211267.88168",
       "end_date": "2026-07-11T21:00:00Z"
     }
   ]
