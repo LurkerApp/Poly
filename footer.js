@@ -11,31 +11,29 @@ document.addEventListener('DOMContentLoaded', function() {
         <p style="font-size:13px; color:#5a6068;">Your edge in markets.</p>
       </div>
 
-      <!-- 3 columns -->
-      <div style="display:grid; grid-template-columns:repeat(3,200px); gap:4rem;">
+      <!-- 3 columns — centered as a group, text left-aligned within each -->
+      <div style="display:flex; justify-content:center; gap:6rem;">
 
         <!-- About -->
-        <div style="display:flex; flex-direction:column; gap:0.65rem;">
+        <div style="display:flex; flex-direction:column; gap:0.65rem; min-width:130px;">
           <div style="font-size:11px; font-weight:700; color:#7F8C8D; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:0.25rem;">About</div>
           <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">Our Mission</a>
           <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">How It Works</a>
           <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">Contact Us</a>
           <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">Privacy Policy</a>
-          <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">Terms of Service</a>
         </div>
 
         <!-- Resources -->
-        <div style="display:flex; flex-direction:column; gap:0.65rem;">
+        <div style="display:flex; flex-direction:column; gap:0.65rem; min-width:130px;">
           <div style="font-size:11px; font-weight:700; color:#7F8C8D; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:0.25rem;">Resources</div>
-          <a href="insider_trades.html" style="font-size:13px; color:#5a6068; text-decoration:none;">Insider Trades</a>
-          <a href="gov-spending.html"   style="font-size:13px; color:#5a6068; text-decoration:none;">Gov Spending</a>
-          <a href="polywatcher.html"    style="font-size:13px; color:#5a6068; text-decoration:none;">Whale Watcher</a>
-          <a href="polytopaccounts.html" style="font-size:13px; color:#5a6068; text-decoration:none;">Top Accounts</a>
-          <a href="signup.html"         style="font-size:13px; color:#5a6068; text-decoration:none;">Get Started</a>
+          <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">Market Data</a>
+          <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">API Access</a>
+          <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">Documentation</a>
+          <a href="#" style="font-size:13px; color:#5a6068; text-decoration:none;">FAQ</a>
         </div>
 
         <!-- Socials -->
-        <div style="display:flex; flex-direction:column; gap:0.65rem;">
+        <div style="display:flex; flex-direction:column; gap:0.65rem; min-width:130px;">
           <div style="font-size:11px; font-weight:700; color:#7F8C8D; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:0.25rem;">Socials</div>
           <a href="#" target="_blank" style="font-size:13px; color:#5a6068; text-decoration:none; display:flex; align-items:center; gap:8px;">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
