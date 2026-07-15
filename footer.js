@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             YouTube
           </a>
           <a href="#" target="_blank" class="footer-social">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 3H4.4A1.4 1.4 0 0 0 3 4.4v15.2A1.4 1.4 0 0 0 4.4 21h8.2v-6.6H10v-2.6h2.6v-1.9c0-2.6 1.6-4 3.9-4 1.1 0 2.2.1 3.3.2v2.7h-2.3c-1.3 0-1.5.6-1.5 1.5v1.5H20l-.4 2.6h-2.6V21h3.6A1.4 1.4 0 0 0 21 19.6V4.4A1.4 1.4 0 0 0 19.6 3z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
             TikTok
           </a>
           <a href="#" target="_blank" class="footer-social">
