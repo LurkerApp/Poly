@@ -1,42 +1,8 @@
 {
-  "last_updated": "2026-07-16T18:05:58.704774+00:00",
+  "last_updated": "2026-07-16T19:41:41.888096+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
-    {
-      "wallet": "0x7d83c905cb7b0e790499392ce641bb867bd7be92",
-      "name": "Sunguyen86",
-      "score": 62.5,
-      "roi_score": 100.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 123.4,
-      "cash_pnl": 468922.7,
-      "realized_pnl": 78792.52,
-      "total_usdc": 593734.12,
-      "trade_count": 107,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:14:47+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.1864,
-          "cur_price": 0.4165,
-          "usdc_size": 848873.65,
-          "outcome": "Yes"
-        }
-      ]
-    },
     {
       "wallet": "0x6196773ac93ff88adf4aa1b3d6d95e4ced099bec",
       "name": "poatan55",
@@ -111,29 +77,45 @@
     {
       "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
       "name": "mooseborzoi",
-      "score": 51.9,
-      "roi_score": 71.7,
+      "score": 51.7,
+      "roi_score": 70.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.5,
-      "roi": 57.6,
-      "cash_pnl": 551813.07,
-      "realized_pnl": 317580.87,
-      "total_usdc": 29641.2,
+      "volume_score": 80.6,
+      "roi": 55.9,
+      "cash_pnl": 550732.96,
+      "realized_pnl": 412218.2,
+      "total_usdc": 39157.15,
       "trade_count": 500,
-      "market_count": 24,
-      "position_count": 168,
+      "market_count": 28,
+      "position_count": 173,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T18:04:52+00:00",
+      "last_active": "2026-07-16T19:41:08+00:00",
       "top_markets": [
         "Exact Score: Spain 2 - 3 Argentina?",
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will there be a run scored in the first inning?: New York Mets vs. Philadelphia Phillies"
+        "New York Mets vs. Philadelphia Phillies",
+        "Exact Score: Spain 1 - 2 Argentina?"
       ],
       "signals": [
+        {
+          "market": "Exact Score: Spain 2 - 3 Argentina?",
+          "signal": "ENTER",
+          "avg_price": 0.0279,
+          "cur_price": 0.0285,
+          "usdc_size": 9627.41,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.3831,
+          "cur_price": 0.375,
+          "usdc_size": 29160.36,
+          "outcome": "Yes"
+        },
         {
           "market": "Will France win on 2026-07-18?",
           "signal": "ENTER",
@@ -143,27 +125,11 @@
           "outcome": "Yes"
         },
         {
-          "market": "Exact Score: Spain 2 - 3 Argentina?",
-          "signal": "LATE",
-          "avg_price": 0.0275,
-          "cur_price": 0.029,
-          "usdc_size": 6834.88,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
-          "signal": "LATE",
-          "avg_price": 0.3835,
-          "cur_price": 0.365,
-          "usdc_size": 28289.4,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.2471,
           "cur_price": 0.4165,
-          "usdc_size": 861415.01,
+          "usdc_size": 860707.67,
           "outcome": "Yes"
         },
         {
@@ -177,53 +143,45 @@
         {
           "market": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.4373,
-          "cur_price": 0.6245,
-          "usdc_size": 66778.72,
+          "avg_price": 0.4379,
+          "cur_price": 0.6135,
+          "usdc_size": 65802.63,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.5839,
-          "cur_price": 0.4165,
-          "usdc_size": 990.95,
-          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
       "name": "suntori",
-      "score": 47.2,
-      "roi_score": 55.3,
+      "score": 48.5,
+      "roi_score": 61.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 80.9,
-      "roi": 33.0,
-      "cash_pnl": 220401.98,
-      "realized_pnl": 79549.83,
-      "total_usdc": 40887.43,
+      "volume_score": 77.1,
+      "roi": 41.5,
+      "cash_pnl": 256050.29,
+      "realized_pnl": 55943.25,
+      "total_usdc": 24898.19,
       "trade_count": 500,
-      "market_count": 230,
+      "market_count": 212,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T18:05:02+00:00",
+      "last_active": "2026-07-16T19:40:01+00:00",
       "top_markets": [
+        "Counter-Strike: Heroic vs Phantom (BO3) - Stake Ranked Episode 3 Playoffs",
         "Bitcoin Up or Down - July 16, 1:35PM-1:40PM ET",
-        "Bitcoin Up or Down - July 16, 1:00PM-1:05PM ET",
-        "Bitcoin Up or Down - July 16, 1:30PM-1:35PM ET"
+        "Bitcoin Up or Down - July 16, 3:30PM-3:35PM ET"
       ],
       "signals": [
         {
           "market": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "ENTER",
           "avg_price": 0.3643,
-          "cur_price": 0.365,
-          "usdc_size": 11310.2,
+          "cur_price": 0.375,
+          "usdc_size": 11624.89,
           "outcome": "Yes"
         },
         {
@@ -231,31 +189,31 @@
           "signal": "ENTER",
           "avg_price": 0.4998,
           "cur_price": 0.495,
-          "usdc_size": 3094.41,
+          "usdc_size": 3994.15,
           "outcome": "Yes"
         },
         {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2249,
+          "avg_price": 0.2254,
           "cur_price": 0.5835,
-          "usdc_size": 268261.08,
+          "usdc_size": 268563.22,
           "outcome": "Yes"
         },
         {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2062,
+          "avg_price": 0.2063,
           "cur_price": 0.4165,
-          "usdc_size": 133340.26,
+          "usdc_size": 132367.48,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.7547,
-          "cur_price": 0.9565,
-          "usdc_size": 270334.7,
+          "cur_price": 0.9575,
+          "usdc_size": 270758.86,
           "outcome": "Yes"
         },
         {
@@ -267,19 +225,11 @@
           "outcome": "Yes"
         },
         {
-          "market": "ODI Series England vs India: England vs India",
-          "signal": "SKIP",
-          "avg_price": 0.5634,
-          "cur_price": 0.82,
-          "usdc_size": 11386.62,
-          "outcome": "India"
-        },
-        {
           "market": "Exact Score: Spain 2 - 3 Argentina?",
           "signal": "SKIP",
           "avg_price": 0.0258,
-          "cur_price": 0.029,
-          "usdc_size": 621.09,
+          "cur_price": 0.0285,
+          "usdc_size": 610.38,
           "outcome": "Yes"
         },
         {
@@ -293,9 +243,9 @@
         {
           "market": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.4809,
-          "cur_price": 0.6245,
-          "usdc_size": 9573.48,
+          "avg_price": 0.4817,
+          "cur_price": 0.6135,
+          "usdc_size": 8744.22,
           "outcome": "Yes"
         },
         {
@@ -303,7 +253,7 @@
           "signal": "SKIP",
           "avg_price": 0.4372,
           "cur_price": 0.5835,
-          "usdc_size": 5378.75,
+          "usdc_size": 5359.91,
           "outcome": "No"
         },
         {
@@ -318,44 +268,196 @@
           "market": "World Cup: Unbeaten Champion?",
           "signal": "SKIP",
           "avg_price": 0.7903,
-          "cur_price": 0.9985,
-          "usdc_size": 767.32,
+          "cur_price": 0.9975,
+          "usdc_size": 766.55,
           "outcome": "Yes"
         },
         {
           "market": "ODI Series England vs India: England vs India",
           "signal": "SKIP",
           "avg_price": 0.7366,
-          "cur_price": 0.82,
-          "usdc_size": 597.38,
+          "cur_price": 0.9875,
+          "usdc_size": 749.17,
           "outcome": "England"
         }
       ]
     },
     {
-      "wallet": "0x2296f8f88001e3bc358c8539b75a68e632410f83",
+      "wallet": "0xbeb4390876c592a7653ad42bd6a82f6b227128cc",
       "name": "",
-      "score": 46.2,
+      "score": 45.4,
       "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.3,
+      "volume_score": 79.3,
       "roi": null,
       "cash_pnl": 0,
       "realized_pnl": 0,
-      "total_usdc": 94296.43,
-      "trade_count": 341,
-      "market_count": 183,
+      "total_usdc": 32862.96,
+      "trade_count": 69,
+      "market_count": 3,
       "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T16:20:55+00:00",
+      "last_active": "2026-07-16T18:55:46+00:00",
       "top_markets": [
         "Will Argentina win the 2026 FIFA World Cup?",
         "Will Spain win the 2026 FIFA World Cup?",
-        "Will France vs. Spain end in a draw?"
+        "Will Argentina win on 2026-07-15?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x6660c19445fe58f3e2cf2f2c275293a2f2fbc9e3",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 31137.6,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T17:50:58+00:00",
+      "top_markets": [
+        "Will Gedion Timothewos be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x8773168bea4dde0e98998ce99e0e805e876183ee",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 31137.6,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T17:48:31+00:00",
+      "top_markets": [
+        "Will Gedion Timothewos be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2730b1a94025eaecb074faf47178fbaceb3cc443",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 31137.6,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T17:46:31+00:00",
+      "top_markets": [
+        "Will Gedion Timothewos be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x073025d2822680c5dac5007d652069468cd1feea",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 31137.6,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T17:44:46+00:00",
+      "top_markets": [
+        "Will Gedion Timothewos be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x83777f4b80ba8673d47da6a325f40c99a179364f",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 31137.6,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T17:43:04+00:00",
+      "top_markets": [
+        "Will Gedion Timothewos be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xd12b2d742e6226aa1480af97dca9b29b3a55a505",
+      "name": "lpkuhn10",
+      "score": 44.0,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 65.1,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 5129.05,
+      "trade_count": 6,
+      "market_count": 3,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T18:44:31+00:00",
+      "top_markets": [
+        "Will Brazil win the 2026 FIFA World Cup?",
+        "Will Argentina win the 2026 FIFA World Cup?",
+        "BNP Paribas Open: Arthur Fils vs Alexander Zverev"
       ],
       "signals": []
     },
@@ -382,33 +484,6 @@
       "top_markets": [
         "Will Argentina win the 2026 FIFA World Cup?",
         "England vs. Argentina: Team to Advance"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x198553fa74a334ee291b6398035a0579f8cabd2c",
-      "name": "",
-      "score": 42.7,
-      "roi_score": 46.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 61.9,
-      "roi": 20.2,
-      "cash_pnl": 20.21,
-      "realized_pnl": 0.0,
-      "total_usdc": 3380.21,
-      "trade_count": 12,
-      "market_count": 5,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:37:34+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
@@ -452,13 +527,13 @@
       "wallet": "0x54034dac401d43dcb8113b16b3e7486f5e82edd5",
       "name": "ivndev",
       "score": 42.0,
-      "roi_score": 39.7,
+      "roi_score": 39.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 75.5,
-      "roi": 9.5,
-      "cash_pnl": 74.15,
+      "roi": 9.9,
+      "cash_pnl": 77.05,
       "realized_pnl": 0.0,
       "total_usdc": 20010.73,
       "trade_count": 232,
@@ -555,194 +630,37 @@
       ]
     },
     {
-      "wallet": "0x6be049212477c106df53248dcd5c7ec338539ac7",
-      "name": "0x6BE049212477c106Df53248DCd5C7EC338539Ac7-1768888145859",
+      "wallet": "0x2296f8f88001e3bc358c8539b75a68e632410f83",
+      "name": "",
       "score": 41.0,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.7,
-      "roi": -0.3,
-      "cash_pnl": -21.56,
-      "realized_pnl": -28443.16,
-      "total_usdc": 76623.49,
-      "trade_count": 500,
-      "market_count": 2,
-      "position_count": 22,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T15:38:22+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.416,
-          "cur_price": 0.4165,
-          "usdc_size": 4997.58,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.42,
-          "cur_price": 0.5835,
-          "usdc_size": 3449.35,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdebbf3423f42e31a82ac78e02763f4931c744b4c",
-      "name": "laths.elbow",
-      "score": 41.0,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.8,
-      "roi": 0.1,
-      "cash_pnl": 0.65,
-      "realized_pnl": 1155.68,
-      "total_usdc": 68359.8,
-      "trade_count": 500,
-      "market_count": 33,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:14:47+00:00",
-      "top_markets": [
-        "Will China invade Taiwan by end of 2026?",
-        "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-        "Will Bitcoin reach $250,000 by December 31, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.416,
-          "cur_price": 0.4165,
-          "usdc_size": 541.46,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfbc46dbee5e90e6e3a8511983b53b4b85cb885a2",
-      "name": "29zufballoon",
-      "score": 40.6,
-      "roi_score": 32.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.9,
-      "roi": -1.1,
-      "cash_pnl": -22.83,
-      "realized_pnl": -136.8,
-      "total_usdc": 52829.56,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:35:31+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will England win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.4172,
-          "cur_price": 0.4165,
-          "usdc_size": 2020.03,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd49184191139f35dc81b34601b4d96cf46007812",
-      "name": "h928888",
-      "score": 40.5,
-      "roi_score": 31.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.8,
-      "roi": -3.3,
-      "cash_pnl": -63.21,
-      "realized_pnl": -39148.26,
-      "total_usdc": 88343.7,
-      "trade_count": 500,
-      "market_count": 3,
-      "position_count": 40,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T16:31:38+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will England win the 2026 FIFA World Cup?"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.4169,
-          "cur_price": 0.4165,
-          "usdc_size": 832.58,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.417,
-          "cur_price": 0.5835,
-          "usdc_size": 999.97,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0a7ed19909e9b4c6cd0fc1d59c1d481415a1fce4",
-      "name": "LEONIDOVITCH1983",
-      "score": 40.3,
       "roi_score": 32.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 80.1,
+      "volume_score": 87.3,
       "roi": -1.0,
-      "cash_pnl": -133.48,
-      "realized_pnl": -343.76,
-      "total_usdc": 36785.03,
-      "trade_count": 500,
-      "market_count": 1,
-      "position_count": 1,
+      "cash_pnl": -6.33,
+      "realized_pnl": 0.0,
+      "total_usdc": 94989.19,
+      "trade_count": 343,
+      "market_count": 185,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T18:05:05+00:00",
+      "last_active": "2026-07-16T19:39:01+00:00",
       "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?"
+        "Will Argentina win the 2026 FIFA World Cup?",
+        "Will Spain win the 2026 FIFA World Cup?",
+        "Will France vs. Spain end in a draw?"
       ],
       "signals": [
         {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "market": "Will France win on 2026-07-18?",
           "signal": "ENTER",
-          "avg_price": 0.4208,
-          "cur_price": 0.4165,
-          "usdc_size": 12892.65,
+          "avg_price": 0.5,
+          "cur_price": 0.495,
+          "usdc_size": 545.49,
           "outcome": "Yes"
         }
       ]
@@ -792,6 +710,40 @@
       ]
     },
     {
+      "wallet": "0x0a7ed19909e9b4c6cd0fc1d59c1d481415a1fce4",
+      "name": "LEONIDOVITCH1983",
+      "score": 39.8,
+      "roi_score": 32.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.7,
+      "roi": -1.0,
+      "cash_pnl": -56.07,
+      "realized_pnl": -412.2,
+      "total_usdc": 18156.7,
+      "trade_count": 500,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T19:39:44+00:00",
+      "top_markets": [
+        "Will Argentina win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.4208,
+          "cur_price": 0.4165,
+          "usdc_size": 5416.25,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
       "wallet": "0xd2fa23d62c3c7026e7255c0e7f9853514b3c1bef",
       "name": "alftz4",
       "score": 39.8,
@@ -828,40 +780,31 @@
       ]
     },
     {
-      "wallet": "0x89f0a333cda79fccc920dc0f003823e9bece1e62",
-      "name": "dissk",
-      "score": 39.7,
-      "roi_score": 28.0,
+      "wallet": "0xa25436b9e3dfd91905b35dd5ea8b1a82f01e8d57",
+      "name": "marsspirit",
+      "score": 39.2,
+      "roi_score": 32.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.2,
-      "roi": -8.0,
-      "cash_pnl": -316.84,
-      "realized_pnl": -11.25,
-      "total_usdc": 106475.87,
-      "trade_count": 500,
-      "market_count": 4,
-      "position_count": 45,
+      "volume_score": 70.3,
+      "roi": -1.8,
+      "cash_pnl": -14.65,
+      "realized_pnl": 0.0,
+      "total_usdc": 10190.69,
+      "trade_count": 245,
+      "market_count": 113,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T13:48:10+00:00",
+      "last_active": "2026-07-16T18:58:17+00:00",
       "top_markets": [
-        "Will France win the 2026 FIFA World Cup?",
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will England win the 2026 FIFA World Cup?"
+        "Will the highest temperature in Seoul be 30\u00b0C on June 26?",
+        "Bitcoin Up or Down - July 11, 4:20AM-4:25AM ET",
+        "Will Bitcoin dip to $57,500 in June?"
       ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.416,
-          "cur_price": 0.4165,
-          "usdc_size": 3503.27,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x8daf2074d1bd70628f11513fb72c515a0869ef60",
@@ -873,7 +816,7 @@
       "early_entry_score": 0.0,
       "volume_score": 83.0,
       "roi": -10.9,
-      "cash_pnl": -730.64,
+      "cash_pnl": -730.69,
       "realized_pnl": 31.82,
       "total_usdc": 53564.07,
       "trade_count": 500,
@@ -972,14 +915,14 @@
     {
       "wallet": "0xc1c9bb686bf11ddeefe57ea1e4ec0ddb6cbb3e2f",
       "name": "oranginapol",
-      "score": 37.8,
-      "roi_score": 24.3,
+      "score": 37.7,
+      "roi_score": 24.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 79.7,
-      "roi": -13.6,
-      "cash_pnl": -1535.84,
+      "roi": -13.8,
+      "cash_pnl": -1553.41,
       "realized_pnl": 404.88,
       "total_usdc": 35063.21,
       "trade_count": 275,
@@ -1015,8 +958,8 @@
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.7273,
-          "cur_price": 0.9565,
-          "usdc_size": 788.58,
+          "cur_price": 0.9575,
+          "usdc_size": 789.82,
           "outcome": "Yes"
         }
       ]
@@ -1025,13 +968,13 @@
       "wallet": "0xc452bc4c4ffb4e17a141ac9d49b79d87dedf7234",
       "name": "Nihaww",
       "score": 37.4,
-      "roi_score": 16.5,
+      "roi_score": 16.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -25.3,
-      "cash_pnl": -11696.02,
+      "roi": -25.7,
+      "cash_pnl": -11866.05,
       "realized_pnl": -827.31,
       "total_usdc": 828791.27,
       "trade_count": 500,
@@ -1100,69 +1043,6 @@
           "outcome": "Yes"
         }
       ]
-    },
-    {
-      "wallet": "0x4bc2b56a7e39df5a42c0039f046158748c78bb5a",
-      "name": "arielblanco",
-      "score": 34.6,
-      "roi_score": 18.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 63.9,
-      "roi": -21.7,
-      "cash_pnl": -799.43,
-      "realized_pnl": 0.0,
-      "total_usdc": 4369.05,
-      "trade_count": 13,
-      "market_count": 9,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:35:56+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Pacers vs. Thunder",
-        "Bellato vs. Craig"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.417,
-          "cur_price": 0.4165,
-          "usdc_size": 2892.98,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x608c56eb1a2b308b3b44e0f144e990e77f5a37d4",
-      "name": "30c9",
-      "score": 33.4,
-      "roi_score": 6.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.7,
-      "roi": -41.0,
-      "cash_pnl": -289.09,
-      "realized_pnl": 31.58,
-      "total_usdc": 147058.44,
-      "trade_count": 500,
-      "market_count": 18,
-      "position_count": 24,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T15:05:22+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will France win the 2026 FIFA World Cup?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
@@ -1247,22 +1127,22 @@
       "wallet": "0xf65506e2d5f55279d77bd67d3c80af6882ad7ea4",
       "name": "piratesfan1313",
       "score": 32.2,
-      "roi_score": 3.5,
+      "roi_score": 3.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.3,
-      "roi": -44.8,
-      "cash_pnl": -61715.42,
+      "volume_score": 86.2,
+      "roi": -44.4,
+      "cash_pnl": -61229.39,
       "realized_pnl": -14275.28,
-      "total_usdc": 82956.43,
+      "total_usdc": 81669.11,
       "trade_count": 500,
       "market_count": 9,
       "position_count": 35,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T17:55:28+00:00",
+      "last_active": "2026-07-16T19:26:25+00:00",
       "top_markets": [
         "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
         "Will Argentina win the 2026 FIFA World Cup?",
@@ -1273,8 +1153,8 @@
           "market": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.3077,
-          "cur_price": 0.365,
-          "usdc_size": 18066.32,
+          "cur_price": 0.375,
+          "usdc_size": 18561.28,
           "outcome": "Yes"
         },
         {
@@ -1289,8 +1169,8 @@
           "market": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.485,
-          "cur_price": 0.6245,
-          "usdc_size": 665.02,
+          "cur_price": 0.6135,
+          "usdc_size": 653.3,
           "outcome": "Yes"
         }
       ]
@@ -1323,46 +1203,38 @@
       "signals": []
     },
     {
-      "wallet": "0x1e3f673cbd329df727d564e07e9f9dfcd40ae00b",
-      "name": "pmic3",
-      "score": 32.1,
-      "roi_score": 3.4,
+      "wallet": "0xe394fd07cfceaceffcfab62afa3969afe8ec289c",
+      "name": "Tobias1909",
+      "score": 31.8,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.7,
-      "roi": -44.9,
-      "cash_pnl": -7412.73,
-      "realized_pnl": 1100.77,
-      "total_usdc": 76578.49,
+      "volume_score": 93.5,
+      "roi": -82.2,
+      "cash_pnl": -140674.57,
+      "realized_pnl": 1255.6,
+      "total_usdc": 212074.09,
       "trade_count": 500,
-      "market_count": 21,
-      "position_count": 21,
+      "market_count": 83,
+      "position_count": 175,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T13:30:26+00:00",
+      "last_active": "2026-07-16T18:37:55+00:00",
       "top_markets": [
-        "Will Argentina reach the 2026 FIFA World Cup final?",
-        "Will England win the 2026 FIFA World Cup?",
-        "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?"
+        "Will George Russell win the 2026 F1 Catalunya Grand Prix?",
+        "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+        "Will Lewis Hamilton win the 2026 F1 Catalunya Grand Prix?"
       ],
       "signals": [
         {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.4159,
-          "cur_price": 0.4165,
-          "usdc_size": 1666.02,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+          "market": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.3296,
-          "cur_price": 0.365,
-          "usdc_size": 817.08,
-          "outcome": "Yes"
+          "avg_price": 0.34,
+          "cur_price": 0.6135,
+          "usdc_size": 3101.61,
+          "outcome": "No"
         }
       ]
     },
@@ -1412,7 +1284,7 @@
       "early_entry_score": 0.0,
       "volume_score": 87.5,
       "roi": -82.4,
-      "cash_pnl": -22515.35,
+      "cash_pnl": -22500.01,
       "realized_pnl": -164.19,
       "total_usdc": 97535.41,
       "trade_count": 304,
@@ -1441,23 +1313,23 @@
     {
       "wallet": "0xc3acf5878a03523d09a3ac859943445d7baeb964",
       "name": "mentionmarket",
-      "score": 31.0,
+      "score": 31.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.9,
-      "roi": -76.7,
-      "cash_pnl": -2100364.18,
+      "volume_score": 86.1,
+      "roi": -76.0,
+      "cash_pnl": -2100290.11,
       "realized_pnl": 132148.04,
-      "total_usdc": 69208.29,
+      "total_usdc": 80826.63,
       "trade_count": 500,
       "market_count": 1,
       "position_count": 46,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T18:04:14+00:00",
+      "last_active": "2026-07-16T19:40:44+00:00",
       "top_markets": [
         "Will Argentina win the 2026 FIFA World Cup?"
       ],
@@ -1465,9 +1337,9 @@
         {
           "market": "Will Argentina win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2543,
+          "avg_price": 0.266,
           "cur_price": 0.4165,
-          "usdc_size": 308917.64,
+          "usdc_size": 333228.63,
           "outcome": "Yes"
         },
         {
@@ -1481,29 +1353,56 @@
       ]
     },
     {
-      "wallet": "0xa8fe4df8eb44179105b05b712b9fa7bcd81f4474",
-      "name": "20sur20",
-      "score": 31.0,
-      "roi_score": 0.1,
+      "wallet": "0xacb55dfa65ccbc7f132d65289ce6dbeea943d643",
+      "name": "gptpool",
+      "score": 31.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.1,
-      "roi": -49.9,
-      "cash_pnl": -145.27,
-      "realized_pnl": 142.11,
-      "total_usdc": 70871.45,
-      "trade_count": 500,
-      "market_count": 20,
-      "position_count": 21,
+      "volume_score": 86.4,
+      "roi": -100.0,
+      "cash_pnl": -38455.9,
+      "realized_pnl": 7.29,
+      "total_usdc": 83753.26,
+      "trade_count": 411,
+      "market_count": 331,
+      "position_count": 175,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T15:03:25+00:00",
+      "last_active": "2026-07-16T18:35:25+00:00",
       "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will England win the 2026 FIFA World Cup?"
+        "Deportivo Alav\u00e9s vs. Getafe CF: O/U 2.5",
+        "FC Bayern M\u00fcnchen vs. FC Augsburg: Both Teams to Score",
+        "AC Milan vs. Genoa CFC: Both Teams to Score"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x5ced9ce5d837d7a69c68048583ccbc86af876c81",
+      "name": "BigZeke",
+      "score": 30.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.9,
+      "roi": -89.0,
+      "cash_pnl": -2672.15,
+      "realized_pnl": 0.0,
+      "total_usdc": 52691.93,
+      "trade_count": 263,
+      "market_count": 171,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T18:46:11+00:00",
+      "top_markets": [
+        "Australian Open Men's: Carlos Alcaraz vs Novak Djokovic",
+        "Will Rangers FC win on 2026-02-15?",
+        "Will Al Nassr Saudi Club win on 2026-02-14?"
       ],
       "signals": []
     },
@@ -1542,22 +1441,22 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.3,
-      "roi": -96.9,
-      "cash_pnl": -2857381.43,
+      "volume_score": 80.6,
+      "roi": -96.8,
+      "cash_pnl": -2858010.94,
       "realized_pnl": 20138.39,
-      "total_usdc": 42783.51,
+      "total_usdc": 39348.05,
       "trade_count": 500,
-      "market_count": 52,
+      "market_count": 50,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T18:02:17+00:00",
+      "last_active": "2026-07-16T19:40:20+00:00",
       "top_markets": [
-        "Will Scottie Scheffler win the 2026 The Open Championship?",
         "Will Vancouver Whitecaps FC win on 2026-07-16?",
-        "Will CF Montr\u00e9al win on 2026-07-16?"
+        "Will Scottie Scheffler win the 2026 The Open Championship?",
+        "Will St. Louis City SC win on 2026-07-16?"
       ],
       "signals": [
         {
@@ -1587,8 +1486,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 81.5,
-      "roi": -60.2,
-      "cash_pnl": -4992.11,
+      "roi": -60.3,
+      "cash_pnl": -4999.46,
       "realized_pnl": -701.46,
       "total_usdc": 43910.43,
       "trade_count": 500,
@@ -1606,6 +1505,42 @@
       "signals": []
     },
     {
+      "wallet": "0x01295b8350ea95f51d8ceed2aaa9be4894f853ce",
+      "name": "Megin",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.7,
+      "roi": -62.7,
+      "cash_pnl": -2516.69,
+      "realized_pnl": -30.6,
+      "total_usdc": 35027.72,
+      "trade_count": 408,
+      "market_count": 121,
+      "position_count": 14,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T18:50:04+00:00",
+      "top_markets": [
+        "Will Ronaldo x MrBeast video get >20m views on day 1?",
+        "Will Bitcoin hit $100k in November?",
+        "Michel Barnier out as prime minister of France in 2024?"
+      ],
+      "signals": [
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "ENTER",
+          "avg_price": 0.4169,
+          "cur_price": 0.4165,
+          "usdc_size": 1500.28,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
       "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
       "name": "neutralwave23",
       "score": 30.4,
@@ -1614,29 +1549,29 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 79.3,
-      "roi": -60.1,
-      "cash_pnl": -524627.81,
-      "realized_pnl": 3265.57,
-      "total_usdc": 32994.2,
+      "roi": -59.6,
+      "cash_pnl": -520114.78,
+      "realized_pnl": 4728.65,
+      "total_usdc": 33211.55,
       "trade_count": 500,
-      "market_count": 205,
+      "market_count": 175,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-16T18:04:20+00:00",
+      "last_active": "2026-07-16T19:40:40+00:00",
       "top_markets": [
-        "Swedish Open: Alejandro Tabilo vs Lautaro Midon",
-        "Swiss Open: Alexander Bublik vs Quentin Halys",
-        "Croatia Open: Damir Dzumhur vs Matteo Arnaldi"
+        "Croatia Open: Damir Dzumhur vs Matteo Arnaldi",
+        "Rome: Danka Kovinic vs Julia Riera",
+        "Swiss Open: Alexander Bublik vs Quentin Halys"
       ],
       "signals": [
         {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.1841,
+          "avg_price": 0.1842,
           "cur_price": 0.5835,
-          "usdc_size": 110347.89,
+          "usdc_size": 110381.81,
           "outcome": "Yes"
         },
         {
@@ -1644,31 +1579,39 @@
           "signal": "SKIP",
           "avg_price": 0.1862,
           "cur_price": 0.4165,
-          "usdc_size": 68537.42,
+          "usdc_size": 66110.88,
           "outcome": "Yes"
+        },
+        {
+          "market": "Croatia Open: Damir Dzumhur vs Matteo Arnaldi",
+          "signal": "SKIP",
+          "avg_price": 0.4087,
+          "cur_price": 0.365,
+          "usdc_size": 7248.36,
+          "outcome": "Matteo Arnaldi"
         },
         {
           "market": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.404,
-          "cur_price": 0.365,
-          "usdc_size": 3678.99,
+          "avg_price": 0.4039,
+          "cur_price": 0.375,
+          "usdc_size": 3789.05,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.7323,
-          "cur_price": 0.9565,
-          "usdc_size": 6937.4,
+          "cur_price": 0.9575,
+          "usdc_size": 6948.29,
           "outcome": "Yes"
         },
         {
           "market": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
           "signal": "SKIP",
           "avg_price": 0.4455,
-          "cur_price": 0.6245,
-          "usdc_size": 3574.11,
+          "cur_price": 0.6135,
+          "usdc_size": 3511.16,
           "outcome": "Yes"
         }
       ]
@@ -1683,7 +1626,7 @@
       "early_entry_score": 0.0,
       "volume_score": 77.4,
       "roi": -97.6,
-      "cash_pnl": -15795.25,
+      "cash_pnl": -15785.97,
       "realized_pnl": 0.0,
       "total_usdc": 25630.86,
       "trade_count": 500,
@@ -1709,8 +1652,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 76.1,
-      "roi": -64.3,
-      "cash_pnl": -951.89,
+      "roi": -64.2,
+      "cash_pnl": -949.71,
       "realized_pnl": 0.0,
       "total_usdc": 21696.48,
       "trade_count": 500,
@@ -1724,69 +1667,6 @@
         "Over 20M humans verified on World Network by December 31?",
         "Will Waymo launch in Detroit by June 30 2026?",
         "Will Trump say \"Jerome Too Late Powell\" in October?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x33ae2110fc03874651c5d903b02cefb9a583658d",
-      "name": "0x33Ae2110FC03874651c5d903b02cEFB9A583658D-1772371027302",
-      "score": 30.1,
-      "roi_score": 0.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.3,
-      "roi": -49.5,
-      "cash_pnl": -1530.4,
-      "realized_pnl": 16.41,
-      "total_usdc": 19536.41,
-      "trade_count": 151,
-      "market_count": 73,
-      "position_count": 31,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:46:05+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - May 27, 3:30PM-3:35PM ET",
-        "Bitcoin Up or Down - May 28, 4:30AM-4:35AM ET",
-        "Bitcoin Up or Down - May 27, 2:10PM-2:15PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "ENTER",
-          "avg_price": 0.4169,
-          "cur_price": 0.4165,
-          "usdc_size": 887.96,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x88299d3457264fa3122da515c968d22d2e6d06e0",
-      "name": "",
-      "score": 30.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.3,
-      "roi": -100.0,
-      "cash_pnl": -1299.99,
-      "realized_pnl": 0.0,
-      "total_usdc": 22259.67,
-      "trade_count": 20,
-      "market_count": 9,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-16T13:30:26+00:00",
-      "top_markets": [
-        "US strikes Iran by February 28, 2026?",
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Arsenal win the 2025\u201326 Champions League?"
       ],
       "signals": []
     },
@@ -1845,6 +1725,33 @@
       "signals": []
     },
     {
+      "wallet": "0x0cc789e5e75cd066f9bd72d0f63cb3d88bcb7349",
+      "name": "0x0cc789E5e75Cd066f9bD72d0f63CB3D88BCb7349-1768936409615",
+      "score": 29.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 70.2,
+      "roi": -100.0,
+      "cash_pnl": -1700.91,
+      "realized_pnl": -27.93,
+      "total_usdc": 9961.37,
+      "trade_count": 107,
+      "market_count": 47,
+      "position_count": 21,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-16T18:42:07+00:00",
+      "top_markets": [
+        "Will Norway win the 2026 FIFA World Cup?",
+        "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+        "Will the US accuse Iran of Oslo Embassy attack?"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0xb518c1612eb53b74d4e88df90222ce170221ec0b",
       "name": "364",
       "score": 29.3,
@@ -1854,7 +1761,7 @@
       "early_entry_score": 0.0,
       "volume_score": 68.0,
       "roi": -96.3,
-      "cash_pnl": -2174.24,
+      "cash_pnl": -2172.74,
       "realized_pnl": 120.0,
       "total_usdc": 7472.23,
       "trade_count": 43,
@@ -1930,142 +1837,142 @@
     {
       "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
       "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "volume": "152920758.486035",
-      "liquidity": "7636515.15787",
+      "volume": "153011969.3144824",
+      "liquidity": "9407778.91923",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0xb6d6f15a1b5d08753653f1867ccd6126badfbe182a75159a330dc7b15336b309",
       "question": "Will Gedion Timothewos be the next Prime Minister of Ethiopia?",
-      "volume": "55901366.33951004",
-      "liquidity": "25717.37783",
+      "volume": "55901367.79201004",
+      "liquidity": "27324.84155",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
       "question": "Will Spain win the 2026 FIFA World Cup?",
-      "volume": "121577356.04722308",
-      "liquidity": "8973323.09113",
+      "volume": "121608881.48951447",
+      "liquidity": "9303871.51084",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x7c97f7315ac9a2e0eabe9b2b9caa8369feff95180483b5168a5274b69762690c",
       "question": "Will Belete Molla be the next Prime Minister of Ethiopia?",
       "volume": "14247797.806746008",
-      "liquidity": "22216.39759",
+      "liquidity": "21733.90164",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e",
       "question": "Exact Score: Spain 2 - 3 Argentina?",
-      "volume": "2044404.1461480092",
-      "liquidity": "491222.03797",
+      "volume": "2257045.7536370046",
+      "liquidity": "979561.83633",
       "end_date": "2026-07-19T19:00:00Z"
     },
     {
       "id": "0xd2a8caba5559bc21e14f6b2aa504cb14a1782751658b71409e25b82e432c0a97",
       "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
-      "volume": "5288663.778795953",
-      "liquidity": "334277.68797",
+      "volume": "5306364.905614957",
+      "liquidity": "540068.0874",
       "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "volume": "43442897.97453319",
-      "liquidity": "444101.41",
-      "end_date": "2026-12-31T00:00:00Z"
     },
     {
       "id": "0x4266ab921148974f104cbadd099e13bca989441bf58acfd2a08fc6cc7440e1a1",
       "question": "Will Mohammad Khatami be head of state in Iran end of 2026?",
       "volume": "4996243.960269007",
-      "liquidity": "61179.11606",
+      "liquidity": "51494.54269",
       "end_date": "2026-12-31T00:00:00Z"
-    },
-    {
-      "id": "0x1d88092b2e151927cc5fc6a02ae3f84fb0551d2b44c6c5c961bd530d53638f9a",
-      "question": "Iasi Open: Alevtina Ibragimova vs Paula Badosa",
-      "volume": "1365991.1098769992",
-      "liquidity": "1111698.59759",
-      "end_date": "2026-07-23T07:00:00Z"
-    },
-    {
-      "id": "0xca1d1139b0c3a29983407f499476ae642482788e841a277eb86faeeb9fa4a85c",
-      "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
-      "volume": "23976055.97789413",
-      "liquidity": "2100248.1944",
-      "end_date": "2028-11-07T00:00:00Z"
     },
     {
       "id": "0x082da0e2bcb3d09b711f2f0d7702a2b2a76240bdd8a53e3ff57406493249db67",
       "question": "ODI Series England vs India: England vs India",
-      "volume": "811795.425462999",
-      "liquidity": "166595.1043",
+      "volume": "1258261.8610979994",
+      "liquidity": "62176.54981",
       "end_date": "2026-07-23T08:00:00Z"
     },
     {
-      "id": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e",
-      "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
-      "volume": "5065942.170776904",
-      "liquidity": "234308.2499",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xf8f024fa7a052d22433bc823d1b5fa6351f126c914e85515cebced1a58cf872e",
-      "question": "Dota 2: PARIVISION vs Rune Eaters - Game 2 Winner",
-      "volume": "708323.3448919997",
-      "liquidity": "418508.86483",
-      "end_date": "2026-07-16T20:20:00Z"
+      "id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "volume": "43456572.97895618",
+      "liquidity": "524296.026",
+      "end_date": "2026-12-31T00:00:00Z"
     },
     {
       "id": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731",
       "question": "Swiss Open: Alexander Bublik vs Quentin Halys",
-      "volume": "696708.5102560002",
-      "liquidity": "187226.50222",
+      "volume": "924683.3545370008",
+      "liquidity": "57567.7981",
       "end_date": "2026-07-22T08:00:00Z"
     },
     {
-      "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
-      "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-      "volume": "10678326.657759076",
-      "liquidity": "937334.79248",
-      "end_date": "2026-07-29T00:00:00Z"
+      "id": "0xca1d1139b0c3a29983407f499476ae642482788e841a277eb86faeeb9fa4a85c",
+      "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+      "volume": "23976645.745644126",
+      "liquidity": "2098683.01455",
+      "end_date": "2028-11-07T00:00:00Z"
+    },
+    {
+      "id": "0xe3a8fbf2b785d9005e63041d337fab99f986340d9d04dea1615fce5dc3d71d26",
+      "question": "Croatia Open: Damir Dzumhur vs Matteo Arnaldi",
+      "volume": "849804.0686449996",
+      "liquidity": "331905.4769",
+      "end_date": "2026-07-23T16:00:00Z"
+    },
+    {
+      "id": "0xb415ceb63b33538726384111d29d8e67597138c4e6fa0b43121926b5c8c7a342",
+      "question": "Counter-Strike: Heroic vs Phantom (BO3) - Stake Ranked Episode 3 Playoffs",
+      "volume": "762305.7455899992",
+      "liquidity": "62332.1394",
+      "end_date": "2026-07-16T22:30:00Z"
     },
     {
       "id": "0xc41f543ccb7a1a35a200c28096cc2e5c2351c54546087f4f6cf5c4ef3e0c1aa5",
       "question": "Will France win on 2026-07-18?",
-      "volume": "647992.7069859998",
-      "liquidity": "2309277.315",
+      "volume": "696468.6624729999",
+      "liquidity": "2254085.5652",
       "end_date": "2026-07-18T21:00:00Z"
+    },
+    {
+      "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
+      "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
+      "volume": "10681057.007759076",
+      "liquidity": "921254.5136",
+      "end_date": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e",
+      "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+      "volume": "5079497.507333905",
+      "liquidity": "251917.1428",
+      "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x00406e85288b97f3d587f259f15c557f61bdaa235124d82fe956c65974949ee8",
       "question": "World Cup: Unbeaten Champion?",
-      "volume": "1855890.6849799922",
-      "liquidity": "167867.22852",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xb9caf777115e4f38eb4e2de7fab3e88052b92a78f161f91db232be31a93d1e3e",
-      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
-      "volume": "3209121.6804539845",
-      "liquidity": "189605.33675",
+      "volume": "1906438.4983079925",
+      "liquidity": "149511.6538",
       "end_date": "2026-07-20T00:00:00Z"
     },
     {
       "id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
       "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "volume": "19435923.568822112",
-      "liquidity": "554574.71311",
+      "volume": "19441466.967472114",
+      "liquidity": "608481.712",
       "end_date": "2026-07-29T00:00:00Z"
     },
     {
-      "id": "0x9c712a005ed476ee44ee1065daf053f6c9fe2d89c263394805b16736b2b72103",
-      "question": "Swedish Open: Alejandro Tabilo vs Lautaro Midon",
-      "volume": "547647.706568",
-      "liquidity": "569914.30372",
-      "end_date": "2026-07-22T08:00:00Z"
+      "id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+      "question": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+      "volume": "12717331.674487868",
+      "liquidity": "803394.30532",
+      "end_date": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "0x417b5575a44e401c7eb3748c42ae79e3a797e1f20926bbf369ec33f73a61c145",
+      "question": "Exact Score: Spain 3 - 3 Argentina?",
+      "volume": "516856.91415500385",
+      "liquidity": "180078.62917",
+      "end_date": "2026-07-19T19:00:00Z"
     }
   ]
 }
