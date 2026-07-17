@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var avatarStyle = isLoggedIn ? '' : 'display:none';
   var label = isLoggedIn ? username : 'Sign up';
   var avatarLetter = username.charAt(0).toUpperCase();
-
   document.body.insertAdjacentHTML('afterbegin',
     '<style>' +
       '.nav-dropdown { position: relative; display: inline-block; }' +
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
           '<button class="dropdown-btn">Trading</button>' +
           '<div class="dropdown-content">' +
             '<a href="insider_trades.html">Insider Trades</a>' +
-            '<a href="page2.html">Page 2</a>' +
+            '<a href="options.html">Options</a>' +
             '<a href="gov-spending.html">Gov Spending</a>' +
           '</div>' +
         '</div>' +
