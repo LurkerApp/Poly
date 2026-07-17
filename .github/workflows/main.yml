@@ -1,0 +1,36 @@
+name: Expected Move Calculator
+
+on:
+  schedule:
+    - cron: "0 14 * * 1-5"   # 9:00am EST Mon-Fri
+    - cron: "0 17 * * 1-5"   # 12:00pm EST Mon-Fri
+  workflow_dispatch:
+
+jobs:
+  expected-move:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install yfinance pandas
+
+      - name: Run expected move script
+        run: python scripts/expected_move.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/expected_move.json
+          git diff --staged --quiet || (git commit -m "Update expected move data $(date -u '+%Y-%m-%d %H:%M UTC')" && git pull --rebase && git push)
