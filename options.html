@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Options - Lurker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <style>
+      .em-tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.25rem;
+      }
+      .em-tab {
+        font-size: 12px; font-weight: 600;
+        padding: 4px 14px; border-radius: 4px;
+        border: 1px solid #2a2d30;
+        background: transparent; color: #7F8C8D;
+        cursor: pointer; font-family: inherit;
+        transition: all 0.15s;
+      }
+      .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
+      .em-chart-wrap { position: relative; height: 380px; }
+      .em-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+        margin-top: 1rem;
+      }
+      .em-stat {
+        background: #252830;
+        border-radius: 6px;
+        padding: 0.75rem 1rem;
+        text-align: center;
+      }
+      .em-stat-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+      .em-stat-value { font-size: 16px; font-weight: 700; color: #e0e0e0; }
+      .em-stat-value.up   { color: #1ABC9C; }
+      .em-stat-value.down { color: #e05252; }
+
+      .expiry-table { margin-top: 1.5rem; }
+    </style>
+  </head>
+  <body>
+    <div class="datetime-display" id="datetimeDisplay"></div>
+    <div class="page">
+
+      <div class="content-header">
+        <h1>Options</h1>
+        <p>Expected move projections for SPY and QQQ — updated at 9am & 12pm EST daily</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-grid" id="topStats">
+        <div class="stat-card">
+          <div class="stat-label">SPY Price</div>
+          <div class="stat-value" id="statSpyPrice">—</div>
+          <div class="stat-sub" id="statSpyMove"></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">SPY Nearest Move</div>
+          <div class="stat-value" id="statSpyPct" style="font-size:20px;">—</div>
+          <div class="stat-sub" id="statSpyExp"></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">QQQ Price</div>
+          <div class="stat-value" id="statQqqPrice">—</div>
+          <div class="stat-sub" id="statQqqMove"></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">QQQ Nearest Move</div>
+          <div class="stat-value" id="statQqqPct" style="font-size:20px;">—</div>
+          <div class="stat-sub" id="statQqqExp"></div>
+        </div>
+      </div>
+
+      <!-- Chart -->
+      <div class="chart-section">
+        <h2>Expected Move Cone <span class="refresh-badge">Live</span></h2>
+        <p class="section-sub">ATM straddle implied move across next 5 expirations — upper & lower price targets</p>
+        <div id="emLoading" class="loading"><div class="spinner"></div> Loading…</div>
+        <div id="emWrap" style="display:none;">
+          <div class="em-tabs">
+            <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
+            <button class="em-tab" onclick="switchTab('QQQ')">QQQ</button>
+          </div>
+          <div class="em-chart-wrap">
+            <canvas id="emChart"></canvas>
+          </div>
+          <div class="em-stats" id="emStats"></div>
+        </div>
+      </div>
+
+      <!-- Expiry table -->
+      <div class="chart-section expiry-table">
+        <h2 id="tableTitle">SPY — All Expirations</h2>
+        <p class="section-sub">Full breakdown of expected move per expiration date</p>
+        <div id="tableLoading" class="loading"><div class="spinner"></div> Loading…</div>
+        <div id="tableWrap" class="table-scroll" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Expiration</th>
+                <th>Current Price</th>
+                <th>ATM Strike</th>
+                <th>Call</th>
+                <th>Put</th>
+                <th>Expected Move</th>
+                <th>Move %</th>
+                <th>Upper Target</th>
+                <th>Lower Target</th>
+              </tr>
+            </thead>
+            <tbody id="expiryBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+    <script>
+      const EXP_MOVE_URL = './data/expected_move.json';
+
+      let emData    = null;
+      let emChart   = null;
+      let activeTab = 'SPY';
+
+      function fmtExp(dateStr) {
+        const d = new Date(dateStr + 'T12:00:00Z');
+        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      }
+
+      function show(id) { document.getElementById(id).style.display = ''; }
+      function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+      // ── Top stats cards ───────────────────────────────────
+      function renderTopStats(data) {
+        const spy = data.symbols?.find(s => s.symbol === 'SPY');
+        const qqq = data.symbols?.find(s => s.symbol === 'QQQ');
+
+        if (spy && spy.moves[0]) {
+          const m = spy.moves[0];
+          document.getElementById('statSpyPrice').textContent = `$${spy.current_price.toFixed(2)}`;
+          document.getElementById('statSpyMove').textContent  = `±$${m.expected_move.toFixed(2)}`;
+          document.getElementById('statSpyPct').textContent   = `±${m.expected_move_pct.toFixed(2)}%`;
+          document.getElementById('statSpyExp').textContent   = `by ${fmtExp(m.expiration)}`;
+        }
+        if (qqq && qqq.moves[0]) {
+          const m = qqq.moves[0];
+          document.getElementById('statQqqPrice').textContent = `$${qqq.current_price.toFixed(2)}`;
+          document.getElementById('statQqqMove').textContent  = `±$${m.expected_move.toFixed(2)}`;
+          document.getElementById('statQqqPct').textContent   = `±${m.expected_move_pct.toFixed(2)}%`;
+          document.getElementById('statQqqExp').textContent   = `by ${fmtExp(m.expiration)}`;
+        }
+      }
+
+      // ── Line chart ────────────────────────────────────────
+      function renderEmChart(symbol) {
+        if (!emData) return;
+        const symbolData = emData.symbols?.find(s => s.symbol === symbol);
+        if (!symbolData) return;
+
+        const moves        = symbolData.moves;
+        const labels       = moves.map(m => fmtExp(m.expiration));
+        const currentPrice = symbolData.current_price;
+        const uppers       = moves.map(m => m.upper_target);
+        const lowers       = moves.map(m => m.lower_target);
+        const centers      = moves.map(() => currentPrice);
+
+        if (emChart) { emChart.destroy(); emChart = null; }
+
+        const ctx = document.getElementById('emChart').getContext('2d');
+        emChart = new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'Upper Target',
+                data: uppers,
+                borderColor: '#1ABC9C',
+                backgroundColor: 'rgba(26,188,156,0.1)',
+                borderWidth: 2,
+                pointBackgroundColor: '#1ABC9C',
+                pointRadius: 6,
+                pointHoverRadius: 8,
+                tension: 0.3,
+                fill: '+1',
+              },
+              {
+                label: 'Current Price',
+                data: centers,
+                borderColor: '#7F8C8D',
+                borderWidth: 1.5,
+                borderDash: [6, 4],
+                pointRadius: 0,
+                tension: 0,
+                fill: false,
+              },
+              {
+                label: 'Lower Target',
+                data: lowers,
+                borderColor: '#e05252',
+                backgroundColor: 'rgba(224,82,82,0.1)',
+                borderWidth: 2,
+                pointBackgroundColor: '#e05252',
+                pointRadius: 6,
+                pointHoverRadius: 8,
+                tension: 0.3,
+                fill: false,
+              },
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+              legend: {
+                labels: { color: '#7F8C8D', font: { size: 12 }, boxWidth: 12 }
+              },
+              tooltip: {
+                backgroundColor: '#1f2224',
+                borderColor: '#2a2d30',
+                borderWidth: 1,
+                titleColor: '#e0e0e0',
+                bodyColor: '#c0c0c0',
+                padding: 10,
+                callbacks: {
+                  label: ctx => {
+                    if (ctx.dataset.label === 'Current Price') return ` Current: $${ctx.parsed.y.toFixed(2)}`;
+                    return ` ${ctx.dataset.label}: $${ctx.parsed.y.toFixed(2)}`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                grid: { color: '#252830' },
+                ticks: { color: '#7F8C8D', font: { size: 12 } }
+              },
+              y: {
+                grid: { color: '#252830' },
+                ticks: { color: '#7F8C8D', font: { size: 12 }, callback: v => '$' + v.toFixed(0) }
+              }
+            }
+          }
+        });
+
+        // Stat row — nearest expiration
+        const n = moves[0];
+        document.getElementById('emStats').innerHTML = `
+          <div class="em-stat">
+            <div class="em-stat-label">Current Price</div>
+            <div
