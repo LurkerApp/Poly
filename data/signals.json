@@ -1,28 +1,99 @@
 {
-  "last_updated": "2026-07-18T15:55:48.458560+00:00",
+  "last_updated": "2026-07-18T16:56:54.866417+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x31864feb9d25dee93728c6225ba891530967e9ca",
-      "name": "johnbaster",
-      "score": 72.7,
-      "roi_score": 91.9,
+      "wallet": "0x1f19ffd4e0e1165b2f2dbeaf77fd8e48d3831e9d",
+      "name": "",
+      "score": 56.6,
+      "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 86.8,
-      "volume_score": 96.1,
-      "roi": 87.9,
-      "cash_pnl": 19684.48,
-      "realized_pnl": -3844.19,
-      "total_usdc": 300742.41,
-      "trade_count": 500,
-      "market_count": 20,
-      "position_count": 4,
+      "early_entry_score": 87.7,
+      "volume_score": 59.3,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 2382.0,
+      "trade_count": 8,
+      "market_count": 4,
+      "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:49:51+00:00",
+      "last_active": "2026-07-18T16:40:36+00:00",
+      "top_markets": [
+        "LoL: Hanwha Life Esports vs T1 (BO3) - Esports World Cup Playoffs",
+        "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
+        "Dota 2: Team Falcons vs Vici Gaming (BO3) - Esports World Cup Playoffs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+      "name": "vtcchampion52",
+      "score": 56.5,
+      "roi_score": 39.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.6,
+      "volume_score": 92.1,
+      "roi": 9.1,
+      "cash_pnl": 4941.84,
+      "realized_pnl": -628.81,
+      "total_usdc": 177305.99,
+      "trade_count": 500,
+      "market_count": 14,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:50:36+00:00",
+      "top_markets": [
+        "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+        "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+        "LoL: Gen.G vs Dplus KIA - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.724,
+          "cur_price": 0.9995,
+          "usdc_size": 55093.39,
+          "outcome": "Gen.G"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.68,
+          "cur_price": 0.605,
+          "usdc_size": 3966.67,
+          "outcome": "Gen.G"
+        }
+      ]
+    },
+    {
+      "wallet": "0x31864feb9d25dee93728c6225ba891530967e9ca",
+      "name": "johnbaster",
+      "score": 55.1,
+      "roi_score": 33.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.2,
+      "volume_score": 96.9,
+      "roi": -0.2,
+      "cash_pnl": -57.98,
+      "realized_pnl": -575.27,
+      "total_usdc": 332517.05,
+      "trade_count": 500,
+      "market_count": 19,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:55:51+00:00",
       "top_markets": [
         "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
         "LoL: G2 Esports vs Dplus KIA - Game 2 Winner",
@@ -30,169 +101,19 @@
       ],
       "signals": [
         {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.3421,
-          "cur_price": 0.0005,
-          "usdc_size": 34212.7,
-          "outcome": "Dplus KIA"
-        },
-        {
           "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.3207,
-          "cur_price": 0.605,
-          "usdc_size": 4388.85,
-          "outcome": "Dplus KIA"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7377,
-          "cur_price": 0.605,
-          "usdc_size": 3476.33,
+          "avg_price": 0.7863,
+          "cur_price": 0.9995,
+          "usdc_size": 17685.15,
           "outcome": "Gen.G"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5416c71ab2d36522311947c8182dba36519e9d9c",
-      "name": "LastBet69",
-      "score": 70.7,
-      "roi_score": 100.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 87.7,
-      "volume_score": 50.4,
-      "roi": 106.6,
-      "cash_pnl": 131.17,
-      "realized_pnl": 0.0,
-      "total_usdc": 748.88,
-      "trade_count": 4,
-      "market_count": 3,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T13:53:33+00:00",
-      "top_markets": [
-        "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
-        "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "Exact Score: France 2 - 2 England?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9a626c7c7127f7426a73aa832a456d77d70dfc1a",
-      "name": "0x9A626c7C7127f7426a73Aa832A456d77D70dfC1a-1781628584799",
-      "score": 52.5,
-      "roi_score": 75.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 74.5,
-      "roi": 62.9,
-      "cash_pnl": 127.65,
-      "realized_pnl": 47.0,
-      "total_usdc": 17507.54,
-      "trade_count": 500,
-      "market_count": 134,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:36:07+00:00",
-      "top_markets": [
-        "NBA Summer League: Portland Trail Blazers vs. Minnesota Timberwolves",
-        "Counter-Strike: 3DMAX vs Heroic (BO3) - Stake Ranked Episode 3 Playoffs",
-        "Counter-Strike: Inner Circle Prospect vs Misa Esports (BO3) - United21 Playoffs"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
-      "name": "vtcchampion52",
-      "score": 52.1,
-      "roi_score": 24.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 86.9,
-      "volume_score": 90.7,
-      "roi": -12.7,
-      "cash_pnl": -11095.08,
-      "realized_pnl": 5462.68,
-      "total_usdc": 147567.14,
-      "trade_count": 500,
-      "market_count": 17,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:55:13+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-        "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-        "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs"
-      ],
-      "signals": [
+        },
         {
           "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.4178,
-          "cur_price": 0.465,
-          "usdc_size": 40479.41,
-          "outcome": "Dplus KIA"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6902,
+          "avg_price": 0.6947,
           "cur_price": 0.605,
-          "usdc_size": 34642.71,
-          "outcome": "Gen.G"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb6b3f9deb65ed28e8aeef663192901778c409441",
-      "name": "UsagiMagi",
-      "score": 51.0,
-      "roi_score": 21.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 84.0,
-      "volume_score": 93.4,
-      "roi": -17.2,
-      "cash_pnl": -1077.99,
-      "realized_pnl": -2.07,
-      "total_usdc": 209432.15,
-      "trade_count": 500,
-      "market_count": 58,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:40:39+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs Dplus KIA - Game 1 Winner",
-        "Dota 2: BetBoom Team vs Vici Gaming - Game 2 Winner",
-        "LoL: Hanwha Life Esports vs LYON (BO5) - Mid-Season Invitational Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4582,
-          "cur_price": 0.625,
-          "usdc_size": 4083.73,
-          "outcome": "PARIVISION"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7,
-          "cur_price": 0.605,
-          "usdc_size": 1089.0,
+          "usdc_size": 5672.13,
           "outcome": "Gen.G"
         }
       ]
@@ -200,23 +121,23 @@
     {
       "wallet": "0x1b05bd905de098e6ea96f13835ccdcb5d2733455",
       "name": "moshinfu",
-      "score": 50.5,
-      "roi_score": 19.3,
+      "score": 50.8,
+      "roi_score": 20.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 86.9,
-      "volume_score": 91.4,
-      "roi": -21.1,
-      "cash_pnl": -1026.79,
+      "early_entry_score": 86.4,
+      "volume_score": 90.9,
+      "roi": -18.6,
+      "cash_pnl": -1000.63,
       "realized_pnl": 0.0,
-      "total_usdc": 162547.97,
+      "total_usdc": 152050.71,
       "trade_count": 500,
-      "market_count": 60,
+      "market_count": 53,
       "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:33:10+00:00",
+      "last_active": "2026-07-18T16:54:55+00:00",
       "top_markets": [
         "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
         "LoL: LYON vs JD Gaming (BO1) - Esports World Cup Group D",
@@ -224,55 +145,11 @@
       ],
       "signals": [
         {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "LATE",
-          "avg_price": 0.64,
-          "cur_price": 0.605,
-          "usdc_size": 2420.0,
-          "outcome": "Gen.G"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4c230962b6bc43e34848b9d2b35d501ae64ad48f",
-      "name": "umatirman6",
-      "score": 50.3,
-      "roi_score": 17.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 87.8,
-      "volume_score": 93.0,
-      "roi": -23.3,
-      "cash_pnl": -11776.12,
-      "realized_pnl": 4796.69,
-      "total_usdc": 200350.25,
-      "trade_count": 374,
-      "market_count": 46,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T14:04:06+00:00",
-      "top_markets": [
-        "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
-        "Dota 2: Team Falcons vs Vici Gaming (BO3) - Esports World Cup Playoffs",
-        "LoL: Bilibili Gaming vs Dplus KIA (BO3) - Esports World Cup Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "LoL: T1 vs Karmine Corp - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.3573,
-          "cur_price": 0.0005,
-          "usdc_size": 28110.13,
-          "outcome": "Karmine Corp"
-        },
-        {
           "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.75,
-          "cur_price": 0.465,
-          "usdc_size": 3994.35,
+          "signal": "ENTER",
+          "avg_price": 0.6157,
+          "cur_price": 0.605,
+          "usdc_size": 2974.99,
           "outcome": "Gen.G"
         }
       ]
@@ -280,65 +157,386 @@
     {
       "wallet": "0x10ef48324b3ebc06d9137794c70285e8e37a7d7b",
       "name": "Future-Tarot-Trader",
-      "score": 48.7,
-      "roi_score": 16.9,
+      "score": 50.3,
+      "roi_score": 22.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 87.1,
-      "volume_score": 80.7,
-      "roi": -24.7,
-      "cash_pnl": -150.86,
-      "realized_pnl": -742.77,
-      "total_usdc": 39587.75,
+      "early_entry_score": 86.2,
+      "volume_score": 81.2,
+      "roi": -16.3,
+      "cash_pnl": -127.07,
+      "realized_pnl": -668.61,
+      "total_usdc": 42222.69,
       "trade_count": 500,
-      "market_count": 26,
-      "position_count": 11,
+      "market_count": 25,
+      "position_count": 12,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:52:09+00:00",
+      "last_active": "2026-07-18T16:56:25+00:00",
       "top_markets": [
         "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-        "LoL: T1 vs Karmine Corp - Game 2 Winner",
-        "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs"
+        "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+        "LoL: T1 vs Karmine Corp - Game 2 Winner"
       ],
       "signals": []
     },
     {
-      "wallet": "0x9d9346b36bfacf6858ae06c7401a72ad09162cf1",
-      "name": "lmzy9",
-      "score": 45.5,
-      "roi_score": 0.0,
+      "wallet": "0x12c4003e7e01a1e7efb5a30181b63fa01027ff8c",
+      "name": "liminha.seila",
+      "score": 49.7,
+      "roi_score": 21.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 86.9,
-      "volume_score": 100.0,
-      "roi": -76.9,
-      "cash_pnl": -5158.31,
-      "realized_pnl": 0.0,
-      "total_usdc": 968406.12,
+      "early_entry_score": 86.0,
+      "volume_score": 79.7,
+      "roi": -18.5,
+      "cash_pnl": -729.12,
+      "realized_pnl": -1.43,
+      "total_usdc": 35061.28,
       "trade_count": 500,
-      "market_count": 274,
-      "position_count": 4,
+      "market_count": 128,
+      "position_count": 18,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:50:27+00:00",
+      "last_active": "2026-07-18T16:49:00+00:00",
       "top_markets": [
-        "LoL: Saigon Warriors vs Saigon Dino - Game 1 Winner",
-        "BV Borussia 09 Dortmund vs. Bayer 04 Leverkusen: O/U 1.5",
-        "Wuning: Tom Paris vs Ilia Simakin"
+        "England to win the second half?",
+        "France to win the second half?",
+        "Argentina to win the second half?"
       ],
       "signals": [
         {
           "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.4875,
+          "avg_price": 0.7246,
+          "cur_price": 0.9995,
+          "usdc_size": 1057.47,
+          "outcome": "Gen.G"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa9f2e8d2206741d8d434529064e0f0d10ffd857d",
+      "name": "0xA9F2e8D2206741d8d434529064E0f0d10fFd857D-1782906886418",
+      "score": 49.5,
+      "roi_score": 24.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.1,
+      "volume_score": 68.7,
+      "roi": -13.8,
+      "cash_pnl": -1.93,
+      "realized_pnl": 0.0,
+      "total_usdc": 8181.14,
+      "trade_count": 107,
+      "market_count": 39,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:18:30+00:00",
+      "top_markets": [
+        "LoL: G2 Esports vs T1 - Game 1 Winner",
+        "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
+        "LoL: Bilibili Gaming vs Hanwha Life Esports - Game 2 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2a99dac44bf1d44dd74f16b145df840ae66a51bb",
+      "name": "darthstink",
+      "score": 48.7,
+      "roi_score": 14.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.4,
+      "volume_score": 90.1,
+      "roi": -28.9,
+      "cash_pnl": -734.15,
+      "realized_pnl": 0.0,
+      "total_usdc": 136724.27,
+      "trade_count": 500,
+      "market_count": 333,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:23:42+00:00",
+      "top_markets": [
+        "LoL: KT Rolster vs BNK FEARX - Game 2 Winner",
+        "LoL: LYON vs Team Liquid - Game 2 Winner",
+        "LoL: Dplus KIA vs HANJIN BRION - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.3,
+          "cur_price": 0.0005,
+          "usdc_size": 1299.35,
+          "outcome": "Dplus KIA"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.32,
           "cur_price": 0.605,
-          "usdc_size": 1539.39,
+          "usdc_size": 506.25,
           "outcome": "Dplus KIA"
         }
       ]
+    },
+    {
+      "wallet": "0xe870f36aca80a2d30090b61415da3b6582612fd0",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:55:48+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x8d054dbb6b5627ef57a115ab33bb61a16fda5854",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:54:00+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb4c53c3806b7265e37d901e65971d9041c0422c0",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:52:27+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x93ab89dc414c9c24fdfe9f6e7805844a912ecfb4",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:50:42+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xee4d447888c366b621934687a664a01d1dace23c",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:48:43+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x23283395715aaf8034f14a2c2a5c0d903f8f4564",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:46:52+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xbe9f34a17a70334f14a79ebfb3e7fc6c35071af1",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:45:18+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf2d58a60f4d1cf28a1b429822764517a3d503741",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:43:36+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf6f36e59ef29c9230a63a9494dc0482c8e929ef3",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:41:58+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xa349ea6f214d9a3901392ec7215596582d83a3f8",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 30209.1,
+      "trade_count": 6,
+      "market_count": 1,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:39:19+00:00",
+      "top_markets": [
+        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+      ],
+      "signals": []
     },
     {
       "wallet": "0x2b2d38fb8ce52f789032c00b5148b41456e5ca2f",
@@ -516,387 +714,483 @@
       "signals": []
     },
     {
-      "wallet": "0xb8872e2a2cd62b04151c9ba497a65d7715565fc8",
-      "name": "",
+      "wallet": "0x9d9346b36bfacf6858ae06c7401a72ad09162cf1",
+      "name": "lmzy9",
       "score": 45.4,
-      "roi_score": 50.0,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
+      "early_entry_score": 86.1,
+      "volume_score": 100.0,
+      "roi": -57.7,
+      "cash_pnl": -3605.26,
+      "realized_pnl": 0.0,
+      "total_usdc": 967606.51,
+      "trade_count": 500,
+      "market_count": 274,
+      "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T12:52:10+00:00",
+      "last_active": "2026-07-18T16:41:34+00:00",
       "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+        "LoL: Saigon Warriors vs Saigon Dino - Game 1 Winner",
+        "BV Borussia 09 Dortmund vs. Bayer 04 Leverkusen: O/U 1.5",
+        "Wuning: Tom Paris vs Ilia Simakin"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.4524,
+          "cur_price": 0.605,
+          "usdc_size": 2640.76,
+          "outcome": "Dplus KIA"
+        }
+      ]
     },
     {
-      "wallet": "0x34fe809e0d3a62555e8f806aff622725d2b787ff",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
+      "wallet": "0x1f1fce17b95e07d2aaf8b60c729e2f6ebbc800a7",
+      "name": "laiwenjun",
+      "score": 45.1,
+      "roi_score": 48.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
+      "volume_score": 82.2,
+      "roi": 22.1,
+      "cash_pnl": 56.46,
+      "realized_pnl": 231.09,
+      "total_usdc": 48218.41,
+      "trade_count": 500,
+      "market_count": 214,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T12:50:21+00:00",
+      "last_active": "2026-07-18T16:37:13+00:00",
       "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xcf8ecb93f62a5801f05c7468b898beb6190ee1fa",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:47:58+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd84401f9b085af78c1bcb3b2d5578f51f7c7eb99",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:40:24+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb293d06945b63709cb008c4f98131408f306a27f",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:38:01+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9bb81b92fa7f2560fc7230f114858968582f6a4b",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:36:00+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xfb69253ac10e1e82630886c561e58242c3505213",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:34:19+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc2908245d88c1be1d938bcb111ecb4e06b4f4678",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:32:22+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc777927a853983de1fb1219a01050a3d200f787e",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:30:49+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xda020cc52d329aac5814e6d8b0837e990f25854b",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30209.1,
-      "trade_count": 6,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T12:29:06+00:00",
-      "top_markets": [
-        "Will Belete Molla be the next Prime Minister of Ethiopia?"
+        "Bitcoin Up or Down - July 6, 10:10PM-10:15PM ET",
+        "Bitcoin Up or Down - July 6, 8:25PM-8:30PM ET",
+        "Bitcoin Up or Down - July 6, 10:15PM-10:20PM ET"
       ],
       "signals": []
     },
     {
       "wallet": "0xa05ec37f1039fab381d8f353354d00cd8c594394",
       "name": "Xhhh-060",
-      "score": 45.1,
+      "score": 45.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 86.8,
-      "volume_score": 95.6,
-      "roi": -86.1,
-      "cash_pnl": -65723.14,
-      "realized_pnl": -9571.67,
-      "total_usdc": 280294.41,
+      "early_entry_score": 86.3,
+      "volume_score": 95.4,
+      "roi": -85.8,
+      "cash_pnl": -62889.75,
+      "realized_pnl": -9810.15,
+      "total_usdc": 273769.66,
       "trade_count": 500,
-      "market_count": 26,
-      "position_count": 30,
+      "market_count": 24,
+      "position_count": 27,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:53:27+00:00",
+      "last_active": "2026-07-18T16:46:46+00:00",
       "top_markets": [
         "LoL: G2 Esports vs Dplus KIA - Game 2 Winner",
         "LoL: Bilibili Gaming vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "LoL: Team Secret  vs Karmine Corp (BO3) - Esports World Cup Group B"
+        "LoL: Gen.G vs Dplus KIA - Game 1 Winner"
       ],
       "signals": [
         {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.7927,
+          "avg_price": 0.5543,
           "cur_price": 0.605,
-          "usdc_size": 5845.89,
+          "usdc_size": 10430.64,
           "outcome": "Gen.G"
+        }
+      ]
+    },
+    {
+      "wallet": "0x257aec64c9f39f4dac97449f80033a484e24b42a",
+      "name": "0x80F6346013857438d03A7C0B2c64b8B0B355067B-1769580280522",
+      "score": 44.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.5,
+      "volume_score": 86.1,
+      "roi": -84.4,
+      "cash_pnl": -16732.51,
+      "realized_pnl": -49.84,
+      "total_usdc": 80815.73,
+      "trade_count": 427,
+      "market_count": 265,
+      "position_count": 138,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:35:00+00:00",
+      "top_markets": [
+        "LoL: Bilibili Gaming vs Hanwha Life Esports - Game 3 Winner",
+        "LoL: Team Secret Whales vs Top Esports - Game 4 Winner",
+        "LoL: T1 vs Team Liquid - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Spain vs. Argentina: Team to Advance",
+          "signal": "ENTER",
+          "avg_price": 0.5899,
+          "cur_price": 0.5938,
+          "usdc_size": 1157.21,
+          "outcome": "Spain"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.2281,
+          "cur_price": 0.0005,
+          "usdc_size": 1010.0,
+          "outcome": "Dplus KIA"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb6b3f9deb65ed28e8aeef663192901778c409441",
+      "name": "UsagiMagi",
+      "score": 44.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 83.5,
+      "volume_score": 93.5,
+      "roi": -99.9,
+      "cash_pnl": -4985.27,
+      "realized_pnl": -2.07,
+      "total_usdc": 212478.14,
+      "trade_count": 500,
+      "market_count": 59,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:55:42+00:00",
+      "top_markets": [
+        "LoL: Bilibili Gaming vs Dplus KIA - Game 1 Winner",
+        "Dota 2: BetBoom Team vs Vici Gaming - Game 2 Winner",
+        "LoL: Hanwha Life Esports vs LYON (BO5) - Mid-Season Invitational Playoffs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x310070742fbff4894d32a97d04c55837c5404179",
+      "name": "bobjos",
+      "score": 44.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 89.8,
+      "volume_score": 83.3,
+      "roi": -59.4,
+      "cash_pnl": -4673.82,
+      "realized_pnl": -261.35,
+      "total_usdc": 56060.0,
+      "trade_count": 500,
+      "market_count": 73,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:24:55+00:00",
+      "top_markets": [
+        "Valorant: Sentinels vs Cloud9 (BO3) - VCT Americas Stage 2 Group Omega",
+        "Valorant: Nova Esports vs JD Gaming (BO3) - VCT China Stage 2 Group Alpha",
+        "Valorant: Nova Esports vs JD Gaming - Map 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.1025,
+          "cur_price": 0.0005,
+          "usdc_size": 1909.83,
+          "outcome": "Dplus KIA"
         },
         {
           "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.55,
-          "cur_price": 0.465,
-          "usdc_size": 2140.0,
+          "avg_price": 0.6928,
+          "cur_price": 0.605,
+          "usdc_size": 635.58,
+          "outcome": "Gen.G"
+        }
+      ]
+    },
+    {
+      "wallet": "0xec7f58e9543cb10e117dcb148f0fc2e96e43ab9e",
+      "name": "SOERN",
+      "score": 44.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 83.5,
+      "volume_score": 92.3,
+      "roi": -88.1,
+      "cash_pnl": -46736.85,
+      "realized_pnl": -66.4,
+      "total_usdc": 180945.59,
+      "trade_count": 500,
+      "market_count": 76,
+      "position_count": 51,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:51:48+00:00",
+      "top_markets": [
+        "Valorant: Nova Esports vs JD Gaming (BO3) - VCT China Stage 2 Group Alpha",
+        "Valorant: Paper Rex vs T1 (BO3) - VCT Pacific Group Omega",
+        "LoL: Once Upon A Team vs Myth Esports (BO3) - Road Of Legends Regular Season"
+      ],
+      "signals": [
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.3857,
+          "cur_price": 0.9995,
+          "usdc_size": 3315.34,
+          "outcome": "Team Yandex"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.3136,
+          "cur_price": 0.605,
+          "usdc_size": 1341.1,
           "outcome": "Dplus KIA"
         },
         {
           "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.4,
+          "avg_price": 0.7,
+          "cur_price": 0.9995,
+          "usdc_size": 1644.18,
+          "outcome": "Gen.G"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc585450ba7aa05cd4323ff97eb091f66ccee8244",
+      "name": "TDGED",
+      "score": 44.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 81.4,
+      "volume_score": 93.7,
+      "roi": -88.1,
+      "cash_pnl": -39903.76,
+      "realized_pnl": 0.0,
+      "total_usdc": 218348.6,
+      "trade_count": 477,
+      "market_count": 45,
+      "position_count": 26,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:51:33+00:00",
+      "top_markets": [
+        "Valorant: Paper Rex vs T1 (BO3) - VCT Pacific Group Omega",
+        "LoL: G2 Esports vs Dplus KIA - Game 2 Winner",
+        "Dota 2: Team Spirit vs Team Liquid (BO3) - Esports World Cup Survival"
+      ],
+      "signals": [
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
+          "signal": "LATE",
+          "avg_price": 0.4619,
+          "cur_price": 0.445,
+          "usdc_size": 4047.8,
+          "outcome": "Team Yandex"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.32,
           "cur_price": 0.605,
-          "usdc_size": 1185.0,
+          "usdc_size": 1349.86,
+          "outcome": "Dplus KIA"
+        }
+      ]
+    },
+    {
+      "wallet": "0x04d2b5cfd82b081e9c7aa9baabc9387e6fc84850",
+      "name": "0x04d2b5CFd82B081E9c7aa9BAABC9387E6fc84850-1783069238141",
+      "score": 44.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.2,
+      "volume_score": 86.3,
+      "roi": -89.0,
+      "cash_pnl": -22618.99,
+      "realized_pnl": 700.79,
+      "total_usdc": 82425.83,
+      "trade_count": 500,
+      "market_count": 56,
+      "position_count": 85,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:55:21+00:00",
+      "top_markets": [
+        "Valorant: FULL SENSE vs Nongshim RedForce (BO3) - VCT Pacific Group Alpha",
+        "Valorant: FULL SENSE vs Nongshim RedForce - Map 2 Winner",
+        "Valorant: Rex Regum Qeon vs Global Esports - Map 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.4433,
+          "cur_price": 0.605,
+          "usdc_size": 1215.0,
           "outcome": "Dplus KIA"
         },
         {
           "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.5449,
-          "cur_price": 0.465,
-          "usdc_size": 1395.0,
+          "avg_price": 0.5624,
+          "cur_price": 0.605,
+          "usdc_size": 1576.75,
           "outcome": "Gen.G"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf49614e63fb15383d4a9b717a1be03ad2410fe79",
+      "name": "Arisham",
+      "score": 44.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.2,
+      "volume_score": 85.6,
+      "roi": -76.3,
+      "cash_pnl": -28568.61,
+      "realized_pnl": -20.21,
+      "total_usdc": 75482.66,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 35,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:55:46+00:00",
+      "top_markets": [
+        "LoL: MIBR.LOS vs LYON - Game 2 Winner",
+        "LoL: MIBR.LOS vs LYON - Game 1 Winner",
+        "LoL: G2 Esports vs AG.AL (BO1) - Esports World Cup Group A"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.4352,
+          "cur_price": 0.605,
+          "usdc_size": 1950.13,
+          "outcome": "Dplus KIA"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.3268,
+          "cur_price": 0.0005,
+          "usdc_size": 1315.13,
+          "outcome": "Dplus KIA"
         }
       ]
     },
     {
       "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
       "name": "suntori",
-      "score": 44.5,
-      "roi_score": 47.5,
+      "score": 43.8,
+      "roi_score": 46.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.9,
-      "roi": 21.2,
-      "cash_pnl": 204032.25,
-      "realized_pnl": 311832.45,
-      "total_usdc": 27379.52,
+      "volume_score": 73.8,
+      "roi": 19.7,
+      "cash_pnl": 192562.13,
+      "realized_pnl": 312844.27,
+      "total_usdc": 15970.94,
       "trade_count": 500,
-      "market_count": 125,
+      "market_count": 140,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:55:30+00:00",
+      "last_active": "2026-07-18T16:56:43+00:00",
       "top_markets": [
-        "Exact Score: France 2 - 1 England?",
         "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "Bitcoin Up or Down - July 18, 8:00AM-12:00PM ET"
+        "Exact Score: France 2 - 1 England?",
+        "Exact Score: France 3 - 2 England?"
       ],
       "signals": [
         {
           "market": "Exact Score: France 2 - 1 England?",
           "signal": "ENTER",
-          "avg_price": 0.1121,
+          "avg_price": 0.113,
           "cur_price": 0.115,
-          "usdc_size": 5764.31,
+          "usdc_size": 6482.47,
           "outcome": "Yes"
         },
         {
           "market": "France vs. England: Team to Win",
           "signal": "ENTER",
-          "avg_price": 0.6603,
+          "avg_price": 0.6606,
           "cur_price": 0.665,
-          "usdc_size": 19878.38,
+          "usdc_size": 20131.31,
           "outcome": "France"
         },
         {
-          "market": "Will France win on 2026-07-18?",
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "ENTER",
-          "avg_price": 0.5076,
-          "cur_price": 0.515,
-          "usdc_size": 11142.61,
-          "outcome": "Yes"
+          "avg_price": 0.6188,
+          "cur_price": 0.605,
+          "usdc_size": 2545.93,
+          "outcome": "Gen.G"
         },
         {
           "market": "Spain vs. Argentina: Team to Advance",
           "signal": "ENTER",
           "avg_price": 0.5903,
-          "cur_price": 0.595,
-          "usdc_size": 2384.85,
+          "cur_price": 0.5938,
+          "usdc_size": 2379.64,
           "outcome": "Spain"
         },
         {
           "market": "Exact Score: Spain 2 - 3 Argentina?",
           "signal": "LATE",
-          "avg_price": 0.027,
+          "avg_price": 0.0271,
           "cur_price": 0.0285,
-          "usdc_size": 720.75,
+          "usdc_size": 739.48,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will France win on 2026-07-18?",
+          "signal": "LATE",
+          "avg_price": 0.5096,
+          "cur_price": 0.525,
+          "usdc_size": 12764.47,
           "outcome": "Yes"
         },
         {
           "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.2778,
-          "cur_price": 0.5915,
-          "usdc_size": 265318.49,
+          "avg_price": 0.2779,
+          "cur_price": 0.5905,
+          "usdc_size": 264724.99,
           "outcome": "Yes"
         },
         {
@@ -904,7 +1198,7 @@
           "signal": "SKIP",
           "avg_price": 0.2146,
           "cur_price": 0.4015,
-          "usdc_size": 121703.96,
+          "usdc_size": 121706.84,
           "outcome": "Yes"
         },
         {
@@ -924,518 +1218,115 @@
           "outcome": "No"
         },
         {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.4368,
-          "cur_price": 0.5915,
-          "usdc_size": 5354.83,
-          "outcome": "No"
+          "avg_price": 0.361,
+          "cur_price": 0.605,
+          "usdc_size": 6403.33,
+          "outcome": "Dplus KIA"
         },
         {
           "market": "France vs. England: Team to Win",
           "signal": "SKIP",
-          "avg_price": 0.3498,
+          "avg_price": 0.3488,
           "cur_price": 0.665,
-          "usdc_size": 4025.49,
+          "usdc_size": 4478.31,
           "outcome": "England"
         },
         {
-          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "market": "Will Spain win the 2026 FIFA World Cup?",
           "signal": "SKIP",
-          "avg_price": 0.3487,
-          "cur_price": 0.465,
-          "usdc_size": 6305.92,
-          "outcome": "Dplus KIA"
+          "avg_price": 0.4368,
+          "cur_price": 0.5905,
+          "usdc_size": 5367.94,
+          "outcome": "No"
         },
         {
           "market": "Spain vs. Argentina: Team to Advance",
           "signal": "SKIP",
           "avg_price": 0.4193,
-          "cur_price": 0.595,
-          "usdc_size": 4290.54,
+          "cur_price": 0.5938,
+          "usdc_size": 4303.25,
           "outcome": "Argentina"
         },
         {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+          "market": "Will LeBron James play for the Golden State Warriors in 2026-27?",
           "signal": "SKIP",
-          "avg_price": 0.3221,
-          "cur_price": 0.605,
-          "usdc_size": 2969.13,
-          "outcome": "Dplus KIA"
+          "avg_price": 0.2865,
+          "cur_price": 0.1545,
+          "usdc_size": 973.51,
+          "outcome": "Yes"
         },
         {
-          "market": "LoL: T1 vs Karmine Corp - Game 2 Winner",
+          "market": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.7714,
-          "cur_price": 0.0005,
-          "usdc_size": 3703.66,
-          "outcome": "Karmine Corp"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.616,
-          "cur_price": 0.465,
-          "usdc_size": 1622.03,
-          "outcome": "Gen.G"
+          "avg_price": 0.5456,
+          "cur_price": 0.445,
+          "usdc_size": 1971.59,
+          "outcome": "Team Yandex"
         },
         {
           "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
           "signal": "SKIP",
           "avg_price": 0.4596,
           "cur_price": 0.0005,
-          "usdc_size": 3118.08,
+          "usdc_size": 3089.52,
           "outcome": "Dplus KIA"
         },
         {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+          "market": "Will LeBron James play for the Golden State Warriors in 2026-27?",
           "signal": "SKIP",
-          "avg_price": 0.6838,
-          "cur_price": 0.605,
-          "usdc_size": 646.98,
-          "outcome": "Gen.G"
+          "avg_price": 0.7041,
+          "cur_price": 0.1545,
+          "usdc_size": 2124.17,
+          "outcome": "No"
+        },
+        {
+          "market": "Swedish Open: Andrey Rublev vs Alejandro Tabilo",
+          "signal": "SKIP",
+          "avg_price": 0.5503,
+          "cur_price": 0.9995,
+          "usdc_size": 1738.62,
+          "outcome": "Andrey Rublev"
         },
         {
           "market": "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
           "avg_price": 0.1557,
           "cur_price": 0.0005,
-          "usdc_size": 839.14,
-          "outcome": "Karmine Corp"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf148f9acb3d2b140792640b92dffea6bb2550b4f",
-      "name": "Fnfjfiwoc2",
-      "score": 44.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 83.2,
-      "volume_score": 94.5,
-      "roi": -84.9,
-      "cash_pnl": -27121.25,
-      "realized_pnl": -3679.31,
-      "total_usdc": 243097.87,
-      "trade_count": 397,
-      "market_count": 94,
-      "position_count": 36,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:51:36+00:00",
-      "top_markets": [
-        "Iasi Open: Anna Bondar vs Tamara Zidansek",
-        "Dota 2: Team Yandex vs PARIVISION - Game 1 Winner",
-        "Swiss Open: Raphael Collignon vs Valentin Vacherot"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5734,
-          "cur_price": 0.625,
-          "usdc_size": 3378.86,
-          "outcome": "Team Yandex"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.373,
-          "cur_price": 0.605,
-          "usdc_size": 1430.0,
-          "outcome": "Dplus KIA"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "score": 44.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 85.8,
-      "volume_score": 89.7,
-      "roi": -67.8,
-      "cash_pnl": -9088357.34,
-      "realized_pnl": 3068885.02,
-      "total_usdc": 128612.95,
-      "trade_count": 500,
-      "market_count": 18,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:55:19+00:00",
-      "top_markets": [
-        "Exact Score: France 3 - 1 England?",
-        "Exact Score: France 3 - 2 England?",
-        "Exact Score: France 2 - 2 England?"
-      ],
-      "signals": [
-        {
-          "market": "France vs. England: Team to Win",
-          "signal": "ENTER",
-          "avg_price": 0.65,
-          "cur_price": 0.665,
-          "usdc_size": 90277.76,
-          "outcome": "France"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.4783,
-          "cur_price": 0.465,
-          "usdc_size": 14334.78,
-          "outcome": "Dplus KIA"
-        },
-        {
-          "market": "Will France win on 2026-07-18?",
-          "signal": "LATE",
-          "avg_price": 0.49,
-          "cur_price": 0.515,
-          "usdc_size": 110364.99,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Argentina win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.7514,
-          "cur_price": 0.4015,
-          "usdc_size": 273718.82,
-          "outcome": "No"
-        },
-        {
-          "market": "Exact Score: France 2 - 1 England?",
-          "signal": "SKIP",
-          "avg_price": 0.89,
-          "cur_price": 0.115,
-          "usdc_size": 367087.85,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Spain win the 2026 FIFA World Cup?",
-          "signal": "SKIP",
-          "avg_price": 0.51,
-          "cur_price": 0.5915,
-          "usdc_size": 129715.44,
-          "outcome": "Yes"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6651,
-          "cur_price": 0.605,
-          "usdc_size": 69463.61,
-          "outcome": "Gen.G"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.207,
-          "cur_price": 0.605,
-          "usdc_size": 2944.33,
-          "outcome": "Dplus KIA"
-        }
-      ]
-    },
-    {
-      "wallet": "0xec7f58e9543cb10e117dcb148f0fc2e96e43ab9e",
-      "name": "SOERN",
-      "score": 44.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 83.9,
-      "volume_score": 92.1,
-      "roi": -77.3,
-      "cash_pnl": -43542.51,
-      "realized_pnl": -66.4,
-      "total_usdc": 178231.67,
-      "trade_count": 500,
-      "market_count": 79,
-      "position_count": 53,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:41:07+00:00",
-      "top_markets": [
-        "Valorant: Nova Esports vs JD Gaming (BO3) - VCT China Stage 2 Group Alpha",
-        "Valorant: Paper Rex vs T1 (BO3) - VCT Pacific Group Omega",
-        "LoL: Once Upon A Team vs Myth Esports (BO3) - Road Of Legends Regular Season"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.3857,
-          "cur_price": 0.625,
-          "usdc_size": 2073.12,
-          "outcome": "Team Yandex"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.35,
-          "cur_price": 0.0005,
-          "usdc_size": 2413.79,
-          "outcome": "Dplus KIA"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7,
-          "cur_price": 0.605,
-          "usdc_size": 995.23,
-          "outcome": "Gen.G"
-        }
-      ]
-    },
-    {
-      "wallet": "0x310070742fbff4894d32a97d04c55837c5404179",
-      "name": "bobjos",
-      "score": 44.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 89.3,
-      "volume_score": 83.3,
-      "roi": -59.1,
-      "cash_pnl": -4428.26,
-      "realized_pnl": -261.35,
-      "total_usdc": 55841.25,
-      "trade_count": 500,
-      "market_count": 76,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:51:34+00:00",
-      "top_markets": [
-        "Valorant: Sentinels vs Cloud9 (BO3) - VCT Americas Stage 2 Group Omega",
-        "Valorant: Nova Esports vs JD Gaming (BO3) - VCT China Stage 2 Group Alpha",
-        "Valorant: Nova Esports vs JD Gaming - Map 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.1025,
-          "cur_price": 0.0005,
-          "usdc_size": 1909.83,
-          "outcome": "Dplus KIA"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2b42e14922d8da186571bd478e10be2a50ce62af",
-      "name": "0x2B42e14922d8da186571BD478E10be2a50ce62af-1773173572483",
-      "score": 44.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 87.1,
-      "volume_score": 86.1,
-      "roi": -86.2,
-      "cash_pnl": -15489.24,
-      "realized_pnl": -3623.75,
-      "total_usdc": 81109.71,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 30,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:55:37+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-        "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
-        "LoL: Bilibili Gaming vs Dplus KIA - Game 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "LoL: T1 vs Karmine Corp - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7868,
-          "cur_price": 0.0005,
-          "usdc_size": 1265.25,
+          "usdc_size": 791.96,
           "outcome": "Karmine Corp"
         },
         {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.51,
-          "cur_price": 0.0005,
-          "usdc_size": 1199.4,
-          "outcome": "Dplus KIA"
-        }
-      ]
-    },
-    {
-      "wallet": "0x04d2b5cfd82b081e9c7aa9baabc9387e6fc84850",
-      "name": "0x04d2b5CFd82B081E9c7aa9BAABC9387E6fc84850-1783069238141",
-      "score": 44.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 86.9,
-      "volume_score": 85.8,
-      "roi": -94.1,
-      "cash_pnl": -22254.5,
-      "realized_pnl": 586.14,
-      "total_usdc": 77072.2,
-      "trade_count": 500,
-      "market_count": 56,
-      "position_count": 86,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:49:21+00:00",
-      "top_markets": [
-        "Valorant: FULL SENSE vs Nongshim RedForce (BO3) - VCT Pacific Group Alpha",
-        "Valorant: FULL SENSE vs Nongshim RedForce - Map 2 Winner",
-        "Valorant: Rex Regum Qeon vs Global Esports - Map 2 Winner"
-      ],
-      "signals": [
-        {
           "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.72,
-          "cur_price": 0.605,
-          "usdc_size": 523.59,
+          "avg_price": 0.7359,
+          "cur_price": 0.9995,
+          "usdc_size": 717.34,
           "outcome": "Gen.G"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf49614e63fb15383d4a9b717a1be03ad2410fe79",
-      "name": "Arisham",
-      "score": 44.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 87.1,
-      "volume_score": 85.6,
-      "roi": -79.8,
-      "cash_pnl": -28129.1,
-      "realized_pnl": 227.23,
-      "total_usdc": 75500.49,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:35:39+00:00",
-      "top_markets": [
-        "LoL: MIBR.LOS vs LYON - Game 2 Winner",
-        "LoL: MIBR.LOS vs LYON - Game 1 Winner",
-        "LoL: G2 Esports vs AG.AL (BO1) - Esports World Cup Group A"
-      ],
-      "signals": [
-        {
-          "market": "LoL: T1 vs Karmine Corp - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6258,
-          "cur_price": 0.0005,
-          "usdc_size": 3957.6,
-          "outcome": "Karmine Corp"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.3268,
-          "cur_price": 0.0005,
-          "usdc_size": 1315.13,
-          "outcome": "Dplus KIA"
-        }
-      ]
-    },
-    {
-      "wallet": "0x39ea1840b7f3b0d2e36abb67cda076ed5a92f75b",
-      "name": "bongsai",
-      "score": 43.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 82.1,
-      "roi": -97.8,
-      "cash_pnl": -10707.74,
-      "realized_pnl": 0.0,
-      "total_usdc": 47837.58,
-      "trade_count": 240,
-      "market_count": 181,
-      "position_count": 66,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T14:15:40+00:00",
-      "top_markets": [
-        "Euro Basket: Estonia vs Portugal",
-        "League of Legends: Gentle Mates vs. Solary",
-        "BLAST Open: fnatic vs. M80"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x0ee52436cfd4c726385fec293d48d99d3b44e798",
-      "name": "bogemika",
-      "score": 43.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 81.4,
-      "volume_score": 92.1,
-      "roi": -99.4,
-      "cash_pnl": -192251.48,
-      "realized_pnl": -49.06,
-      "total_usdc": 176928.08,
-      "trade_count": 500,
-      "market_count": 146,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:50:31+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "Dota 2: 1win vs OG - Game 2 Winner",
-        "LoL: T1 vs Karmine Corp - Game 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4985,
-          "cur_price": 0.625,
-          "usdc_size": 712.03,
-          "outcome": "PARIVISION"
         }
       ]
     },
     {
       "wallet": "0xa8177281a37ac7b96c9e13b97d79d3f2c2551c3b",
       "name": "gfsrr",
-      "score": 43.8,
+      "score": 43.7,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 87.0,
+      "early_entry_score": 86.4,
       "volume_score": 82.5,
       "roi": -100.0,
-      "cash_pnl": -12718.62,
+      "cash_pnl": -12776.21,
       "realized_pnl": 21.16,
-      "total_usdc": 50293.03,
-      "trade_count": 335,
-      "market_count": 230,
-      "position_count": 98,
+      "total_usdc": 50351.71,
+      "trade_count": 338,
+      "market_count": 232,
+      "position_count": 100,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:18:57+00:00",
+      "last_active": "2026-07-18T16:29:54+00:00",
       "top_markets": [
         "Counter-Strike: MOUZ vs FUT Esports (BO3) - IEM Cologne Major Stage 3",
         "Counter-Strike: B8 vs BIG - Map 1 Winner",
@@ -1446,23 +1337,23 @@
     {
       "wallet": "0x8b4261c836a7e36f2bcb95b90a95943f7e6bae6e",
       "name": "12312342",
-      "score": 43.7,
+      "score": 43.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 89.3,
+      "early_entry_score": 88.8,
       "volume_score": 78.2,
-      "roi": -98.5,
-      "cash_pnl": -55378.6,
+      "roi": -97.3,
+      "cash_pnl": -54847.15,
       "realized_pnl": 9.6,
-      "total_usdc": 28573.31,
+      "total_usdc": 28676.1,
       "trade_count": 500,
       "market_count": 166,
-      "position_count": 147,
+      "position_count": 148,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:35:16+00:00",
+      "last_active": "2026-07-18T16:42:27+00:00",
       "top_markets": [
         "Bruins vs. Stars",
         "Spread: Patriots (-3.5)",
@@ -1473,8 +1364,8 @@
           "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.6553,
-          "cur_price": 0.605,
-          "usdc_size": 786.5,
+          "cur_price": 0.9995,
+          "usdc_size": 1299.35,
           "outcome": "Gen.G"
         }
       ]
@@ -1482,14 +1373,14 @@
     {
       "wallet": "0x84301d9c4987a357916379f37cf1d8d904993961",
       "name": "honghonghongzao",
-      "score": 43.7,
+      "score": 43.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 84.2,
+      "early_entry_score": 81.8,
       "volume_score": 86.2,
-      "roi": -79.5,
-      "cash_pnl": -3692.33,
+      "roi": -82.2,
+      "cash_pnl": -3815.66,
       "realized_pnl": 0.0,
       "total_usdc": 81340.5,
       "trade_count": 500,
@@ -1509,93 +1400,45 @@
           "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.503,
-          "cur_price": 0.625,
-          "usdc_size": 515.6,
+          "cur_price": 0.9995,
+          "usdc_size": 824.54,
           "outcome": "Team Yandex"
         }
       ]
     },
     {
-      "wallet": "0x1943ada1083d8b3b7e4356cc179ee942ea2c1561",
-      "name": "pipipi150",
-      "score": 43.4,
+      "wallet": "0x5d3431449c0c26d0cc423cefbafb04cb7ae07c8c",
+      "name": "odifipa",
+      "score": 43.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 82.9,
-      "volume_score": 84.6,
-      "roi": -78.2,
-      "cash_pnl": -74234.84,
-      "realized_pnl": 3246.83,
-      "total_usdc": 66001.67,
+      "early_entry_score": 80.0,
+      "volume_score": 87.8,
+      "roi": -99.2,
+      "cash_pnl": -455461.8,
+      "realized_pnl": 5047.62,
+      "total_usdc": 101116.5,
       "trade_count": 500,
-      "market_count": 46,
-      "position_count": 208,
+      "market_count": 91,
+      "position_count": 453,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:53:30+00:00",
+      "last_active": "2026-07-18T16:35:07+00:00",
       "top_markets": [
-        "LoL: VfB eSports vs E WIE EINFACH E-SPORTS (BO1) - Prime League 1st Division Regular Season",
-        "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-        "Dota 2: BetBoom Team vs Vici Gaming - Game 2 Winner"
+        "Valorant: Nongshim RedForce vs G2 Esports (BO3) - Esports World Cup Group C",
+        "Dota 2: Team Yandex vs OG - Game 2 Winner",
+        "LoL: JD Gaming vs MIBR.LOS - Game 2 Winner"
       ],
       "signals": [
         {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-          "signal": "LATE",
-          "avg_price": 0.6651,
-          "cur_price": 0.625,
-          "usdc_size": 958.12,
-          "outcome": "PARIVISION"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.7349,
-          "cur_price": 0.0005,
-          "usdc_size": 4997.43,
-          "outcome": "Dplus KIA"
-        },
-        {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4219,
-          "cur_price": 0.625,
-          "usdc_size": 2343.74,
-          "outcome": "Team Yandex"
-        },
-        {
-          "market": "LoL: T1 vs Karmine Corp - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5601,
-          "cur_price": 0.0005,
-          "usdc_size": 2858.15,
-          "outcome": "Karmine Corp"
-        },
-        {
-          "market": "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.1369,
-          "cur_price": 0.0005,
-          "usdc_size": 2475.7,
-          "outcome": "Karmine Corp"
-        },
-        {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4607,
-          "cur_price": 0.0005,
-          "usdc_size": 1554.2,
-          "outcome": "PARIVISION"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.79,
+          "avg_price": 0.23,
           "cur_price": 0.605,
-          "usdc_size": 907.5,
-          "outcome": "Gen.G"
+          "usdc_size": 1760.54,
+          "outcome": "Dplus KIA"
         }
       ]
     },
@@ -1606,19 +1449,19 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 81.8,
-      "volume_score": 85.5,
-      "roi": -84.5,
-      "cash_pnl": -14485.34,
+      "early_entry_score": 81.5,
+      "volume_score": 85.9,
+      "roi": -76.0,
+      "cash_pnl": -7903.47,
       "realized_pnl": 0.0,
-      "total_usdc": 74723.07,
-      "trade_count": 433,
-      "market_count": 279,
-      "position_count": 109,
+      "total_usdc": 78278.37,
+      "trade_count": 438,
+      "market_count": 280,
+      "position_count": 99,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:53:46+00:00",
+      "last_active": "2026-07-18T16:48:33+00:00",
       "top_markets": [
         "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
         "Spread: France (-1.5)",
@@ -1626,12 +1469,28 @@
       ],
       "signals": [
         {
-          "market": "Dota 2: Team Yandex vs PARIVISION - Game 1 Winner",
+          "market": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
+          "signal": "LATE",
+          "avg_price": 0.4735,
+          "cur_price": 0.445,
+          "usdc_size": 819.33,
+          "outcome": "Team Yandex"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.4682,
-          "cur_price": 0.0005,
-          "usdc_size": 1707.46,
-          "outcome": "PARIVISION"
+          "avg_price": 0.4599,
+          "cur_price": 0.605,
+          "usdc_size": 1056.66,
+          "outcome": "Dplus KIA"
+        },
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6388,
+          "cur_price": 0.9995,
+          "usdc_size": 625.78,
+          "outcome": "Team Yandex"
         }
       ]
     },
@@ -1642,19 +1501,19 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 87.0,
-      "volume_score": 76.7,
-      "roi": -83.4,
-      "cash_pnl": -1390.13,
-      "realized_pnl": -216.86,
-      "total_usdc": 23432.37,
-      "trade_count": 185,
-      "market_count": 55,
-      "position_count": 11,
+      "early_entry_score": 86.7,
+      "volume_score": 76.9,
+      "roi": -82.3,
+      "cash_pnl": -1620.37,
+      "realized_pnl": -289.28,
+      "total_usdc": 24097.46,
+      "trade_count": 192,
+      "market_count": 56,
+      "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:28:36+00:00",
+      "last_active": "2026-07-18T16:08:04+00:00",
       "top_markets": [
         "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
         "LoL: G2 Esports vs LYON - Game 3 Winner",
@@ -1669,174 +1528,305 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 86.5,
-      "volume_score": 77.2,
-      "roi": -64.8,
-      "cash_pnl": -1783.2,
+      "early_entry_score": 86.2,
+      "volume_score": 78.0,
+      "roi": -100.0,
+      "cash_pnl": -2149.99,
       "realized_pnl": 0.0,
-      "total_usdc": 24981.17,
-      "trade_count": 37,
-      "market_count": 10,
-      "position_count": 3,
+      "total_usdc": 27931.1,
+      "trade_count": 41,
+      "market_count": 11,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:45:21+00:00",
+      "last_active": "2026-07-18T16:53:21+00:00",
       "top_markets": [
         "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
         "LoL: Bilibili Gaming vs Dplus KIA - Game 2 Winner",
         "LoL: Bilibili Gaming vs Dplus KIA (BO3) - Esports World Cup Playoffs"
       ],
+      "signals": []
+    },
+    {
+      "wallet": "0x1943ada1083d8b3b7e4356cc179ee942ea2c1561",
+      "name": "pipipi150",
+      "score": 43.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 81.0,
+      "volume_score": 84.0,
+      "roi": -79.8,
+      "cash_pnl": -71617.47,
+      "realized_pnl": 2220.19,
+      "total_usdc": 61053.7,
+      "trade_count": 500,
+      "market_count": 43,
+      "position_count": 200,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:55:36+00:00",
+      "top_markets": [
+        "LoL: VfB eSports vs E WIE EINFACH E-SPORTS (BO1) - Prime League 1st Division Regular Season",
+        "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+        "Dota 2: BetBoom Team vs Vici Gaming - Game 2 Winner"
+      ],
       "signals": [
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.4917,
+          "cur_price": 0.9995,
+          "usdc_size": 5452.26,
+          "outcome": "Team Yandex"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.7349,
+          "cur_price": 0.0005,
+          "usdc_size": 4997.43,
+          "outcome": "Dplus KIA"
+        },
         {
           "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.2451,
+          "avg_price": 0.7772,
+          "cur_price": 0.9995,
+          "usdc_size": 2873.2,
+          "outcome": "Gen.G"
+        },
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.4789,
+          "cur_price": 0.445,
+          "usdc_size": 1319.25,
+          "outcome": "Team Yandex"
+        },
+        {
+          "market": "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.1369,
+          "cur_price": 0.0005,
+          "usdc_size": 2475.7,
+          "outcome": "Karmine Corp"
+        },
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.5581,
+          "cur_price": 0.445,
+          "usdc_size": 1032.58,
+          "outcome": "PARIVISION"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 42.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 76.2,
+      "volume_score": 89.5,
+      "roi": -65.4,
+      "cash_pnl": -9057660.18,
+      "realized_pnl": 3020984.19,
+      "total_usdc": 126559.24,
+      "trade_count": 500,
+      "market_count": 17,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-18T16:56:01+00:00",
+      "top_markets": [
+        "Exact Score: France 2 - 1 England?",
+        "Exact Score: France 3 - 1 England?",
+        "Exact Score: France 3 - 2 England?"
+      ],
+      "signals": [
+        {
+          "market": "France vs. England: Team to Win",
+          "signal": "ENTER",
+          "avg_price": 0.65,
+          "cur_price": 0.665,
+          "usdc_size": 90277.76,
+          "outcome": "France"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "ENTER",
+          "avg_price": 0.59,
           "cur_price": 0.605,
-          "usdc_size": 966.78,
+          "usdc_size": 5905.35,
+          "outcome": "Gen.G"
+        },
+        {
+          "market": "Will Argentina win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.7514,
+          "cur_price": 0.4015,
+          "usdc_size": 273718.82,
+          "outcome": "No"
+        },
+        {
+          "market": "Exact Score: France 2 - 1 England?",
+          "signal": "SKIP",
+          "avg_price": 0.8891,
+          "cur_price": 0.115,
+          "usdc_size": 397007.79,
+          "outcome": "No"
+        },
+        {
+          "market": "Will France win on 2026-07-18?",
+          "signal": "SKIP",
+          "avg_price": 0.49,
+          "cur_price": 0.525,
+          "usdc_size": 108089.42,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Spain win the 2026 FIFA World Cup?",
+          "signal": "SKIP",
+          "avg_price": 0.51,
+          "cur_price": 0.5905,
+          "usdc_size": 129496.14,
+          "outcome": "Yes"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6834,
+          "cur_price": 0.9995,
+          "usdc_size": 134363.88,
+          "outcome": "Gen.G"
+        },
+        {
+          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.4783,
+          "cur_price": 0.605,
+          "usdc_size": 10851.56,
           "outcome": "Dplus KIA"
+        },
+        {
+          "market": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.49,
+          "cur_price": 0.445,
+          "usdc_size": 3327.97,
+          "outcome": "Team Yandex"
+        },
+        {
+          "market": "Swedish Open: Andrey Rublev vs Alejandro Tabilo",
+          "signal": "SKIP",
+          "avg_price": 0.5118,
+          "cur_price": 0.9995,
+          "usdc_size": 3561.07,
+          "outcome": "Andrey Rublev"
         }
       ]
     },
     {
       "wallet": "0xddb6e6246546230503f153506ac1e9914978b9b3",
       "name": "baseinv3",
-      "score": 42.6,
+      "score": 42.7,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 82.7,
-      "volume_score": 77.2,
-      "roi": -99.5,
-      "cash_pnl": -553531.14,
+      "early_entry_score": 82.6,
+      "volume_score": 77.8,
+      "roi": -100.0,
+      "cash_pnl": -554291.16,
       "realized_pnl": 13292.49,
-      "total_usdc": 25177.7,
+      "total_usdc": 27107.94,
       "trade_count": 500,
-      "market_count": 78,
+      "market_count": 71,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:55:31+00:00",
+      "last_active": "2026-07-18T16:56:39+00:00",
       "top_markets": [
+        "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
         "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-        "Will Lillestr\u00f8m SK win on 2026-07-18?",
-        "LoL: Gen.G vs Dplus KIA - Game 2 Winner"
+        "Will Lillestr\u00f8m SK win on 2026-07-18?"
       ],
-      "signals": [
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6718,
-          "cur_price": 0.605,
-          "usdc_size": 1320.67,
-          "outcome": "Gen.G"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x629da223adfc9957329e02de95ae3d263f92756c",
       "name": "jackinv1lvl2",
-      "score": 42.4,
+      "score": 42.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 82.0,
-      "volume_score": 75.7,
-      "roi": -99.3,
-      "cash_pnl": -513920.23,
+      "early_entry_score": 82.5,
+      "volume_score": 76.4,
+      "roi": -99.5,
+      "cash_pnl": -515097.66,
       "realized_pnl": 4760.16,
-      "total_usdc": 20570.69,
+      "total_usdc": 22638.82,
       "trade_count": 500,
-      "market_count": 72,
+      "market_count": 68,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:55:30+00:00",
+      "last_active": "2026-07-18T16:55:55+00:00",
       "top_markets": [
-        "Will Kimi Antonelli get pole position at the 2026 F1 Belgian Grand Prix?",
+        "T20 Blast: Hampshire vs Nottinghamshire",
         "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "T20 Blast: Hampshire vs Nottinghamshire"
+        "Will Kimi Antonelli get pole position at the 2026 F1 Belgian Grand Prix?"
       ],
       "signals": [
         {
           "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-          "signal": "LATE",
-          "avg_price": 0.4384,
-          "cur_price": 0.465,
-          "usdc_size": 1364.12,
+          "signal": "SKIP",
+          "avg_price": 0.4368,
+          "cur_price": 0.605,
+          "usdc_size": 1133.9,
           "outcome": "Dplus KIA"
         },
         {
           "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.5217,
-          "cur_price": 0.465,
-          "usdc_size": 984.94,
-          "outcome": "Gen.G"
-        },
-        {
-          "market": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6735,
+          "avg_price": 0.5244,
           "cur_price": 0.605,
-          "usdc_size": 693.83,
+          "usdc_size": 1276.95,
           "outcome": "Gen.G"
         }
       ]
     },
     {
-      "wallet": "0xa5daf2db197ee5954b0aecbb670c083ad061ed2e",
-      "name": "sinner3107",
-      "score": 41.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 89.3,
-      "volume_score": 54.8,
-      "roi": -87.8,
-      "cash_pnl": -265.17,
-      "realized_pnl": 0.0,
-      "total_usdc": 1335.5,
-      "trade_count": 111,
-      "market_count": 78,
-      "position_count": 36,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-18T15:31:10+00:00",
-      "top_markets": [
-        "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
-        "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
-        "LoL: G2 Esports vs FURIA Esports (BO1) - Esports World Cup Group A"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1f1fce17b95e07d2aaf8b60c729e2f6ebbc800a7",
-      "name": "laiwenjun",
-      "score": 39.7,
-      "roi_score": 29.8,
+      "wallet": "0x9a626c7c7127f7426a73aa832a456d77d70dfc1a",
+      "name": "0x9A626c7C7127f7426a73Aa832A456d77D70dfC1a-1781628584799",
+      "score": 40.3,
+      "roi_score": 34.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 82.1,
-      "roi": -5.2,
-      "cash_pnl": -13.16,
+      "volume_score": 74.5,
+      "roi": 1.8,
+      "cash_pnl": 5.47,
       "realized_pnl": 0.0,
-      "total_usdc": 47794.4,
+      "total_usdc": 17590.24,
       "trade_count": 500,
-      "market_count": 215,
-      "position_count": 2,
+      "market_count": 132,
+      "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:34:04+00:00",
+      "last_active": "2026-07-18T16:43:34+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - July 6, 10:10PM-10:15PM ET",
-        "Bitcoin Up or Down - July 6, 8:25PM-8:30PM ET",
-        "Bitcoin Up or Down - July 6, 10:15PM-10:20PM ET"
+        "NBA Summer League: Portland Trail Blazers vs. Minnesota Timberwolves",
+        "Counter-Strike: 3DMAX vs Heroic (BO3) - Stake Ranked Episode 3 Playoffs",
+        "Counter-Strike: Inner Circle Prospect vs Misa Esports (BO3) - United21 Playoffs"
       ],
       "signals": []
     },
@@ -1848,54 +1838,45 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.9,
-      "roi": -81.3,
-      "cash_pnl": -7886.33,
-      "realized_pnl": -154.01,
-      "total_usdc": 90006.47,
+      "volume_score": 87.0,
+      "roi": -93.5,
+      "cash_pnl": -7871.69,
+      "realized_pnl": -164.89,
+      "total_usdc": 90647.09,
       "trade_count": 500,
-      "market_count": 84,
+      "market_count": 83,
       "position_count": 44,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:16:27+00:00",
+      "last_active": "2026-07-18T16:10:57+00:00",
       "top_markets": [
-        "Will another team (incl. Lyon) win MSI 2026?",
         "LoL: G2 Esports vs AG.AL (BO1) - Esports World Cup Group A",
+        "Will another team (incl. Lyon) win MSI 2026?",
         "Counter-Strike: Heroic vs Phantom (BO3) - Stake Ranked Episode 3 Playoffs"
       ],
-      "signals": [
-        {
-          "market": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.5199,
-          "cur_price": 0.465,
-          "usdc_size": 1321.9,
-          "outcome": "Gen.G"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0xb65ed88244535e3dd95a794b72b2fd66d591431a",
       "name": "KKey2k8",
-      "score": 30.7,
+      "score": 30.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 82.5,
-      "roi": -92.5,
-      "cash_pnl": -10147.28,
+      "roi": -88.3,
+      "cash_pnl": -9860.06,
       "realized_pnl": 103.54,
-      "total_usdc": 50188.31,
-      "trade_count": 294,
-      "market_count": 195,
-      "position_count": 89,
+      "total_usdc": 50392.41,
+      "trade_count": 295,
+      "market_count": 196,
+      "position_count": 90,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-18T15:52:52+00:00",
+      "last_active": "2026-07-18T16:47:06+00:00",
       "top_markets": [
         "Total Kills Over/Under 30.5 in Game 1?",
         "LoL: G2 Esports vs T1 - Game 4 Winner",
@@ -1908,141 +1889,141 @@
     {
       "id": "0x7c97f7315ac9a2e0eabe9b2b9caa8369feff95180483b5168a5274b69762690c",
       "question": "Will Belete Molla be the next Prime Minister of Ethiopia?",
-      "volume": "23332563.62974601",
-      "liquidity": "23237.47789",
+      "volume": "23574963.62974601",
+      "liquidity": "27531.26268",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x6b049bc3befa02c22d0cfaee77625fc94e9a6d571f00c015ba7a3b442e306fbc",
       "question": "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
-      "volume": "4585422.579960983",
-      "liquidity": "1538644.92073",
+      "volume": "4620750.159960984",
+      "liquidity": "1684114.32053",
       "end_date": "2026-07-18T17:00:00Z"
-    },
-    {
-      "id": "0xf5ee4b6bd7d585c0e12e530074d0324493c302b82e127c832d15c89a610c0453",
-      "question": "Will Demeke Mekonnen be the next Prime Minister of Ethiopia?",
-      "volume": "14551484.913137998",
-      "liquidity": "29328.52859",
-      "end_date": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
-      "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "volume": "158325366.1200333",
-      "liquidity": "7220954.73669",
-      "end_date": "2026-07-20T00:00:00Z"
-    },
-    {
-      "id": "0xaeec5397b4ee2ce20555c0099f0dcf4de4648a2f080c2d10b65ceaff9c26d7a8",
-      "question": "France vs. England: Team to Win",
-      "volume": "3545208.4024469266",
-      "liquidity": "1973140.3577",
-      "end_date": "2026-07-18T21:00:00Z"
-    },
-    {
-      "id": "0xc41f543ccb7a1a35a200c28096cc2e5c2351c54546087f4f6cf5c4ef3e0c1aa5",
-      "question": "Will France win on 2026-07-18?",
-      "volume": "3551305.671639932",
-      "liquidity": "3288705.2494",
-      "end_date": "2026-07-18T21:00:00Z"
-    },
-    {
-      "id": "0x48aeb798c038759b99a87db0733aeca6aa31c8ca5292766afd410dfb9caca26b",
-      "question": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
-      "volume": "1950744.959480998",
-      "liquidity": "396232.69453",
-      "end_date": "2026-07-18T20:10:00Z"
-    },
-    {
-      "id": "0x2da99f0914272db50a1f7945b122ff246ace52ee9899582a358be5453494a57e",
-      "question": "LoL: T1 vs Karmine Corp - Game 1 Winner",
-      "volume": "1920002.524406998",
-      "liquidity": "263766.3353",
-      "end_date": "2026-07-18T15:00:00Z"
-    },
-    {
-      "id": "0xfa7513156c7055853538665a3c92b9f5b23de62549853207b6077f3d09ba6a8d",
-      "question": "LoL: T1 vs Karmine Corp - Game 2 Winner",
-      "volume": "1861786.9356129975",
-      "liquidity": "175222.5436",
-      "end_date": "2026-07-18T15:00:00Z"
-    },
-    {
-      "id": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e",
-      "question": "Exact Score: Spain 2 - 3 Argentina?",
-      "volume": "5310154.698090987",
-      "liquidity": "2223709.06193",
-      "end_date": "2026-07-19T19:00:00Z"
-    },
-    {
-      "id": "0xb2edf42ea5c8ec24809ee447a5ff06d39b70afbc52d94ae24d62d0280a08be91",
-      "question": "Dota 2: Team Yandex vs PARIVISION - Game 1 Winner",
-      "volume": "1844197.7606290008",
-      "liquidity": "290757.4152",
-      "end_date": "2026-07-18T19:50:00Z"
     },
     {
       "id": "0x0db7232eafb1882507f163f73655f262c6b84413f7567b0c0d105628cace065d",
       "question": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-      "volume": "1823441.9998439958",
-      "liquidity": "232666.1148",
+      "volume": "3244376.90576499",
+      "liquidity": "185535.6118",
       "end_date": "2026-07-18T20:10:00Z"
     },
     {
-      "id": "0x7d9928e23aefb2209696048829b614f49e387d5a77327aa887d0724952fd1156",
-      "question": "Will Hassan Shariatmadari be head of state in Iran end of 2026?",
-      "volume": "1757573.8277880051",
-      "liquidity": "48840.63428",
-      "end_date": "2026-12-31T00:00:00Z"
+      "id": "0xc41f543ccb7a1a35a200c28096cc2e5c2351c54546087f4f6cf5c4ef3e0c1aa5",
+      "question": "Will France win on 2026-07-18?",
+      "volume": "4247251.843257927",
+      "liquidity": "3732477.7633",
+      "end_date": "2026-07-18T21:00:00Z"
     },
     {
-      "id": "0x68bdc057bd18669f01b3e4b408d14733b2680a61c6e5c7a5cd5bdc86a1f41df6",
-      "question": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-      "volume": "1179874.9883809981",
-      "liquidity": "134290.2835",
-      "end_date": "2026-07-18T19:50:00Z"
+      "id": "0xaeec5397b4ee2ce20555c0099f0dcf4de4648a2f080c2d10b65ceaff9c26d7a8",
+      "question": "France vs. England: Team to Win",
+      "volume": "3648698.3461439125",
+      "liquidity": "2135368.5515",
+      "end_date": "2026-07-18T21:00:00Z"
+    },
+    {
+      "id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
+      "volume": "158422396.02113217",
+      "liquidity": "7130219.81505",
+      "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x48aeb798c038759b99a87db0733aeca6aa31c8ca5292766afd410dfb9caca26b",
+      "question": "LoL: Gen.G vs Dplus KIA - Game 1 Winner",
+      "volume": "2052033.1394809983",
+      "liquidity": "399162.70172",
+      "end_date": "2026-07-18T20:10:00Z"
+    },
+    {
+      "id": "0xf5ee4b6bd7d585c0e12e530074d0324493c302b82e127c832d15c89a610c0453",
+      "question": "Will Demeke Mekonnen be the next Prime Minister of Ethiopia?",
+      "volume": "14642384.913137998",
+      "liquidity": "28712.3112",
+      "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x4255afa1aae694dae73a3f9c898d720f1b21d1b25e040ba30a4cd7d11bbcb312",
       "question": "LoL: Gen.G vs Dplus KIA - Game 2 Winner",
-      "volume": "1035583.5940989986",
-      "liquidity": "170698.3914",
+      "volume": "1863958.327673004",
+      "liquidity": "1208477.12228",
       "end_date": "2026-07-18T20:10:00Z"
     },
     {
-      "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
-      "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-      "volume": "11895246.51932811",
-      "liquidity": "627896.30426",
-      "end_date": "2026-07-29T00:00:00Z"
+      "id": "0x68bdc057bd18669f01b3e4b408d14733b2680a61c6e5c7a5cd5bdc86a1f41df6",
+      "question": "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
+      "volume": "1631099.5168209975",
+      "liquidity": "397901.582",
+      "end_date": "2026-07-18T19:50:00Z"
     },
     {
-      "id": "0x4b045e092c3166aa29d4864c11dffe7e316daafdac5677f11aa5cd16065fd042",
-      "question": "Spain vs. Argentina: Team to Advance",
-      "volume": "2055072.1862359976",
-      "liquidity": "6865474.0734",
+      "id": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e",
+      "question": "Exact Score: Spain 2 - 3 Argentina?",
+      "volume": "5327806.210680987",
+      "liquidity": "2141612.3371",
       "end_date": "2026-07-19T19:00:00Z"
+    },
+    {
+      "id": "0x7d9928e23aefb2209696048829b614f49e387d5a77327aa887d0724952fd1156",
+      "question": "Will Hassan Shariatmadari be head of state in Iran end of 2026?",
+      "volume": "1757612.8277880051",
+      "liquidity": "49826.89853",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0xc186150831bc70982dfd374acc848fc51ae2bc4ab5b2fd037213deb5f46d9f44",
+      "question": "Dota 2: Team Yandex vs PARIVISION (BO3) - Esports World Cup Playoffs",
+      "volume": "1102824.0805739984",
+      "liquidity": "156410.2155",
+      "end_date": "2026-07-18T19:50:00Z"
     },
     {
       "id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
       "question": "Will Spain win the 2026 FIFA World Cup?",
-      "volume": "123599684.15904498",
-      "liquidity": "8493991.08601",
+      "volume": "123794663.247236",
+      "liquidity": "8477787.66258",
       "end_date": "2026-07-20T00:00:00Z"
+    },
+    {
+      "id": "0x9beb4a4cab10c71d79f60beffd4a00a3016b4da7d82d6f18f64d5e80dd1691b2",
+      "question": "Swedish Open: Andrey Rublev vs Alejandro Tabilo",
+      "volume": "966933.5870140002",
+      "liquidity": "575114.8689",
+      "end_date": "2026-07-25T08:00:00Z"
     },
     {
       "id": "0xc69d4782ad01d89635d4a4140edc12a5db11434cc42fc275b16fc8e04a98cc83",
       "question": "Exact Score: France 2 - 1 England?",
-      "volume": "966192.7099089993",
-      "liquidity": "2190535.2997",
+      "volume": "1114767.6818619964",
+      "liquidity": "2135705.0357",
       "end_date": "2026-07-18T21:00:00Z"
+    },
+    {
+      "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
+      "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
+      "volume": "11915419.23932811",
+      "liquidity": "617134.46403",
+      "end_date": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "0xaf12bd1a9ec448b428e5879f180b9b05d17cdf6a6af3c20d8a4b7327ca6bfd37",
+      "question": "Will LeBron James play for the Golden State Warriors in 2026-27?",
+      "volume": "3239201.0281709954",
+      "liquidity": "83358.53934",
+      "end_date": "2026-10-31T03:59:00Z"
+    },
+    {
+      "id": "0x4b045e092c3166aa29d4864c11dffe7e316daafdac5677f11aa5cd16065fd042",
+      "question": "Spain vs. Argentina: Team to Advance",
+      "volume": "2294508.2734679966",
+      "liquidity": "6730512.5567",
+      "end_date": "2026-07-19T19:00:00Z"
     },
     {
       "id": "0x30cfb887558b20373a984da60c372fe5a90c0296aa6d8bb413a8aa7543846da2",
       "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
-      "volume": "52124834.84273426",
-      "liquidity": "1114484.98731",
+      "volume": "52124841.41277126",
+      "liquidity": "1113590.78404",
       "end_date": "2028-11-07T00:00:00Z"
     }
   ]
