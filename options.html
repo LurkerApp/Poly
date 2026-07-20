@@ -36,8 +36,6 @@
       .em-stat-value { font-size: 16px; font-weight: 700; color: #e0e0e0; }
       .em-stat-value.up   { color: #1ABC9C; }
       .em-stat-value.down { color: #e05252; }
-
-      .expiry-table { margin-top: 1.5rem; }
     </style>
   </head>
   <body>
@@ -50,7 +48,7 @@
       </div>
 
       <!-- Stats -->
-      <div class="stats-grid" id="topStats">
+      <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-label">SPY Price</div>
           <div class="stat-value" id="statSpyPrice">—</div>
@@ -91,7 +89,7 @@
       </div>
 
       <!-- Expiry table -->
-      <div class="chart-section expiry-table">
+      <div class="chart-section">
         <h2 id="tableTitle">SPY — All Expirations</h2>
         <p class="section-sub">Full breakdown of expected move per expiration date</p>
         <div id="tableLoading" class="loading"><div class="spinner"></div> Loading…</div>
@@ -134,24 +132,24 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // ── Top stats cards ───────────────────────────────────
+      // ── Top stats ─────────────────────────────────────────
       function renderTopStats(data) {
         const spy = data.symbols?.find(s => s.symbol === 'SPY');
         const qqq = data.symbols?.find(s => s.symbol === 'QQQ');
 
         if (spy && spy.moves[0]) {
           const m = spy.moves[0];
-          document.getElementById('statSpyPrice').textContent = `$${spy.current_price.toFixed(2)}`;
-          document.getElementById('statSpyMove').textContent  = `±$${m.expected_move.toFixed(2)}`;
-          document.getElementById('statSpyPct').textContent   = `±${m.expected_move_pct.toFixed(2)}%`;
-          document.getElementById('statSpyExp').textContent   = `by ${fmtExp(m.expiration)}`;
+          document.getElementById('statSpyPrice').textContent = '$' + spy.current_price.toFixed(2);
+          document.getElementById('statSpyMove').textContent  = '±$' + m.expected_move.toFixed(2);
+          document.getElementById('statSpyPct').textContent   = '±' + m.expected_move_pct.toFixed(2) + '%';
+          document.getElementById('statSpyExp').textContent   = 'by ' + fmtExp(m.expiration);
         }
         if (qqq && qqq.moves[0]) {
           const m = qqq.moves[0];
-          document.getElementById('statQqqPrice').textContent = `$${qqq.current_price.toFixed(2)}`;
-          document.getElementById('statQqqMove').textContent  = `±$${m.expected_move.toFixed(2)}`;
-          document.getElementById('statQqqPct').textContent   = `±${m.expected_move_pct.toFixed(2)}%`;
-          document.getElementById('statQqqExp').textContent   = `by ${fmtExp(m.expiration)}`;
+          document.getElementById('statQqqPrice').textContent = '$' + qqq.current_price.toFixed(2);
+          document.getElementById('statQqqMove').textContent  = '±$' + m.expected_move.toFixed(2);
+          document.getElementById('statQqqPct').textContent   = '±' + m.expected_move_pct.toFixed(2) + '%';
+          document.getElementById('statQqqExp').textContent   = 'by ' + fmtExp(m.expiration);
         }
       }
 
@@ -229,8 +227,8 @@
                 padding: 10,
                 callbacks: {
                   label: ctx => {
-                    if (ctx.dataset.label === 'Current Price') return ` Current: $${ctx.parsed.y.toFixed(2)}`;
-                    return ` ${ctx.dataset.label}: $${ctx.parsed.y.toFixed(2)}`;
+                    if (ctx.dataset.label === 'Current Price') return ' Current: $' + ctx.parsed.y.toFixed(2);
+                    return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
                   }
                 }
               }
@@ -248,9 +246,87 @@
           }
         });
 
-        // Stat row — nearest expiration
+        // Stat cards
         const n = moves[0];
-        document.getElementById('emStats').innerHTML = `
-          <div class="em-stat">
-            <div class="em-stat-label">Current Price</div>
-            <div
+        document.getElementById('emStats').innerHTML =
+          '<div class="em-stat">' +
+            '<div class="em-stat-label">Current Price</div>' +
+            '<div class="em-stat-value">$' + currentPrice.toFixed(2) + '</div>' +
+          '</div>' +
+          '<div class="em-stat">' +
+            '<div class="em-stat-label">Upper (' + fmtExp(n.expiration) + ')</div>' +
+            '<div class="em-stat-value up">$' + n.upper_target.toFixed(2) +
+              ' <span style="font-size:11px;color:#5a6068;">+' + n.expected_move_pct.toFixed(2) + '%</span></div>' +
+          '</div>' +
+          '<div class="em-stat">' +
+            '<div class="em-stat-label">Lower (' + fmtExp(n.expiration) + ')</div>' +
+            '<div class="em-stat-value down">$' + n.lower_target.toFixed(2) +
+              ' <span style="font-size:11px;color:#5a6068;">-' + n.expected_move_pct.toFixed(2) + '%</span></div>' +
+          '</div>';
+
+        renderTable(symbol);
+      }
+
+      // ── Expiry table ──────────────────────────────────────
+      function renderTable(symbol) {
+        const symbolData = emData?.symbols?.find(s => s.symbol === symbol);
+        if (!symbolData) return;
+
+        document.getElementById('tableTitle').textContent = symbol + ' — All Expirations';
+        hide('tableLoading'); show('tableWrap');
+
+        document.getElementById('expiryBody').innerHTML = symbolData.moves.map(function(m) {
+          return '<tr>' +
+            '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + '</td>' +
+            '<td>$' + m.current_price.toFixed(2) + '</td>' +
+            '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
+            '<td style="color:#1ABC9C;">$' + m.call_price.toFixed(2) + '</td>' +
+            '<td style="color:#e05252;">$' + m.put_price.toFixed(2) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">±$' + m.expected_move.toFixed(2) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">±' + m.expected_move_pct.toFixed(2) + '%</td>' +
+            '<td style="color:#1ABC9C;font-weight:600;">$' + m.upper_target.toFixed(2) + '</td>' +
+            '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
+          '</tr>';
+        }).join('');
+      }
+
+      function switchTab(symbol) {
+        activeTab = symbol;
+        document.querySelectorAll('.em-tab').forEach(function(t) {
+          t.classList.toggle('active', t.textContent === symbol);
+        });
+        renderEmChart(symbol);
+      }
+
+      // ── Init ─────────────────────────────────────────────
+      async function init() {
+        try {
+          const resp = await fetch(EXP_MOVE_URL + '?t=' + Date.now());
+          if (!resp.ok) throw new Error('No data');
+          emData = await resp.json();
+          renderTopStats(emData);
+          hide('emLoading'); show('emWrap');
+          hide('tableLoading');
+          renderEmChart(activeTab);
+        } catch (err) {
+          document.getElementById('emLoading').textContent = 'No data yet — run the GitHub Action first.';
+          document.getElementById('tableLoading').textContent = 'No data yet.';
+          console.error(err);
+        }
+      }
+
+      init();
+      setInterval(init, 5 * 60 * 1000);
+
+      function updateDateTime() {
+        document.getElementById('datetimeDisplay').textContent =
+          new Date().toLocaleDateString('en-US', {
+            weekday: 'short', month: 'short', day: 'numeric',
+            year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'
+          });
+      }
+      updateDateTime();
+      setInterval(updateDateTime, 1000);
+    </script>
+  </body>
+</html>
