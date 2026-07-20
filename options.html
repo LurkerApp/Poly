@@ -75,7 +75,7 @@
       <div class="chart-section">
         <h2>Expected Move Cone <span class="refresh-badge">Live</span></h2>
         <p class="section-sub">ATM straddle implied move across next 5 expirations — upper & lower price targets</p>
-        <div id="emLoading" class="loading"><div class="spinner"></div> Loading…</div>
+        <div id="emLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="emWrap" style="display:none;">
           <div class="em-tabs">
             <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
@@ -92,7 +92,7 @@
       <div class="chart-section">
         <h2 id="tableTitle">SPY — All Expirations</h2>
         <p class="section-sub">Full breakdown of expected move per expiration date</p>
-        <div id="tableLoading" class="loading"><div class="spinner"></div> Loading…</div>
+        <div id="tableLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="tableWrap" class="table-scroll" style="display:none;">
           <table class="data-table">
             <thead>
@@ -118,61 +118,82 @@
     <script src="navbar.js"></script>
     <script src="footer.js"></script>
     <script>
-      const EXP_MOVE_URL = './data/expected_move.json';
-
-      let emData    = null;
-      let emChart   = null;
-      let activeTab = 'SPY';
+      var EXP_MOVE_URL = './data/expected_move.json';
+      var emData       = null;
+      var emChart      = null;
+      var activeTab    = 'SPY';
 
       function fmtExp(dateStr) {
-        const d = new Date(dateStr + 'T12:00:00Z');
+        var d = new Date(dateStr + 'T12:00:00Z');
         return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
       }
 
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // ── Top stats ─────────────────────────────────────────
-      function renderTopStats(data) {
-        const spy = data.symbols?.find(s => s.symbol === 'SPY');
-        const qqq = data.symbols?.find(s => s.symbol === 'QQQ');
+      // Returns the next upcoming expiration (skips expired ones)
+      function getNextExpiry(moves) {
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
+        for (var i = 0; i < moves.length; i++) {
+          var exp = new Date(moves[i].expiration + 'T12:00:00Z');
+          if (exp >= today) return moves[i];
+        }
+        return moves[moves.length - 1];
+      }
 
-        if (spy && spy.moves[0]) {
-          const m = spy.moves[0];
+      // Top stat cards
+      function renderTopStats(data) {
+        var spy = null;
+        var qqq = null;
+        for (var i = 0; i < (data.symbols || []).length; i++) {
+          if (data.symbols[i].symbol === 'SPY') spy = data.symbols[i];
+          if (data.symbols[i].symbol === 'QQQ') qqq = data.symbols[i];
+        }
+
+        if (spy && spy.moves.length) {
+          var m = getNextExpiry(spy.moves);
           document.getElementById('statSpyPrice').textContent = '$' + spy.current_price.toFixed(2);
-          document.getElementById('statSpyMove').textContent  = '±$' + m.expected_move.toFixed(2);
-          document.getElementById('statSpyPct').textContent   = '±' + m.expected_move_pct.toFixed(2) + '%';
+          document.getElementById('statSpyMove').textContent  = '+/-$' + m.expected_move.toFixed(2);
+          document.getElementById('statSpyPct').textContent   = '+/-' + m.expected_move_pct.toFixed(2) + '%';
           document.getElementById('statSpyExp').textContent   = 'by ' + fmtExp(m.expiration);
         }
-        if (qqq && qqq.moves[0]) {
-          const m = qqq.moves[0];
+        if (qqq && qqq.moves.length) {
+          var m2 = getNextExpiry(qqq.moves);
           document.getElementById('statQqqPrice').textContent = '$' + qqq.current_price.toFixed(2);
-          document.getElementById('statQqqMove').textContent  = '±$' + m.expected_move.toFixed(2);
-          document.getElementById('statQqqPct').textContent   = '±' + m.expected_move_pct.toFixed(2) + '%';
-          document.getElementById('statQqqExp').textContent   = 'by ' + fmtExp(m.expiration);
+          document.getElementById('statQqqMove').textContent  = '+/-$' + m2.expected_move.toFixed(2);
+          document.getElementById('statQqqPct').textContent   = '+/-' + m2.expected_move_pct.toFixed(2) + '%';
+          document.getElementById('statQqqExp').textContent   = 'by ' + fmtExp(m2.expiration);
         }
       }
 
-      // ── Line chart ────────────────────────────────────────
+      // Line chart
       function renderEmChart(symbol) {
         if (!emData) return;
-        const symbolData = emData.symbols?.find(s => s.symbol === symbol);
+
+        var symbolData = null;
+        for (var i = 0; i < (emData.symbols || []).length; i++) {
+          if (emData.symbols[i].symbol === symbol) {
+            symbolData = emData.symbols[i];
+            break;
+          }
+        }
         if (!symbolData) return;
 
-        const moves        = symbolData.moves;
-        const labels       = moves.map(m => fmtExp(m.expiration));
-        const currentPrice = symbolData.current_price;
-        const uppers       = moves.map(m => m.upper_target);
-        const lowers       = moves.map(m => m.lower_target);
-        const centers      = moves.map(() => currentPrice);
+        var moves        = symbolData.moves;
+        var currentPrice = symbolData.current_price;
+        var labels       = moves.map(function(m) { return fmtExp(m.expiration); });
+        var uppers       = moves.map(function(m) { return m.upper_target; });
+        var lowers       = moves.map(function(m) { return m.lower_target; });
+        var centers      = moves.map(function() { return currentPrice; });
 
         if (emChart) { emChart.destroy(); emChart = null; }
 
-        const ctx = document.getElementById('emChart').getContext('2d');
+        var ctx = document.getElementById('emChart').getContext('2d');
         emChart = new Chart(ctx, {
           type: 'line',
           data: {
-            labels,
+            labels: labels,
             datasets: [
               {
                 label: 'Upper Target',
@@ -184,7 +205,7 @@
                 pointRadius: 6,
                 pointHoverRadius: 8,
                 tension: 0.3,
-                fill: '+1',
+                fill: '+1'
               },
               {
                 label: 'Current Price',
@@ -194,7 +215,7 @@
                 borderDash: [6, 4],
                 pointRadius: 0,
                 tension: 0,
-                fill: false,
+                fill: false
               },
               {
                 label: 'Lower Target',
@@ -206,8 +227,8 @@
                 pointRadius: 6,
                 pointHoverRadius: 8,
                 tension: 0.3,
-                fill: false,
-              },
+                fill: false
+              }
             ]
           },
           options: {
@@ -226,8 +247,10 @@
                 bodyColor: '#c0c0c0',
                 padding: 10,
                 callbacks: {
-                  label: ctx => {
-                    if (ctx.dataset.label === 'Current Price') return ' Current: $' + ctx.parsed.y.toFixed(2);
+                  label: function(ctx) {
+                    if (ctx.dataset.label === 'Current Price') {
+                      return ' Current: $' + ctx.parsed.y.toFixed(2);
+                    }
                     return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
                   }
                 }
@@ -240,14 +263,18 @@
               },
               y: {
                 grid: { color: '#252830' },
-                ticks: { color: '#7F8C8D', font: { size: 12 }, callback: v => '$' + v.toFixed(0) }
+                ticks: {
+                  color: '#7F8C8D',
+                  font: { size: 12 },
+                  callback: function(v) { return '$' + v.toFixed(0); }
+                }
               }
             }
           }
         });
 
-        // Stat cards
-        const n = moves[0];
+        // Stat cards below chart — use next upcoming expiry
+        var n = getNextExpiry(moves);
         document.getElementById('emStats').innerHTML =
           '<div class="em-stat">' +
             '<div class="em-stat-label">Current Price</div>' +
@@ -267,23 +294,36 @@
         renderTable(symbol);
       }
 
-      // ── Expiry table ──────────────────────────────────────
+      // Expiry table
       function renderTable(symbol) {
-        const symbolData = emData?.symbols?.find(s => s.symbol === symbol);
+        var symbolData = null;
+        for (var i = 0; i < (emData.symbols || []).length; i++) {
+          if (emData.symbols[i].symbol === symbol) {
+            symbolData = emData.symbols[i];
+            break;
+          }
+        }
         if (!symbolData) return;
 
-        document.getElementById('tableTitle').textContent = symbol + ' — All Expirations';
-        hide('tableLoading'); show('tableWrap');
+        document.getElementById('tableTitle').textContent = symbol + ' - All Expirations';
+        hide('tableLoading');
+        show('tableWrap');
+
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
 
         document.getElementById('expiryBody').innerHTML = symbolData.moves.map(function(m) {
-          return '<tr>' +
-            '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + '</td>' +
+          var expDate  = new Date(m.expiration + 'T12:00:00Z');
+          var expired  = expDate < today;
+          var rowStyle = expired ? 'opacity:0.4;' : '';
+          return '<tr style="' + rowStyle + '">' +
+            '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + (expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '') + '</td>' +
             '<td>$' + m.current_price.toFixed(2) + '</td>' +
             '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
             '<td style="color:#1ABC9C;">$' + m.call_price.toFixed(2) + '</td>' +
             '<td style="color:#e05252;">$' + m.put_price.toFixed(2) + '</td>' +
-            '<td style="font-weight:600;color:#e0e0e0;">±$' + m.expected_move.toFixed(2) + '</td>' +
-            '<td style="font-weight:600;color:#e0e0e0;">±' + m.expected_move_pct.toFixed(2) + '%</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">+/-$' + m.expected_move.toFixed(2) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">+/-' + m.expected_move_pct.toFixed(2) + '%</td>' +
             '<td style="color:#1ABC9C;font-weight:600;">$' + m.upper_target.toFixed(2) + '</td>' +
             '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
           '</tr>';
@@ -298,21 +338,26 @@
         renderEmChart(symbol);
       }
 
-      // ── Init ─────────────────────────────────────────────
-      async function init() {
-        try {
-          const resp = await fetch(EXP_MOVE_URL + '?t=' + Date.now());
-          if (!resp.ok) throw new Error('No data');
-          emData = await resp.json();
-          renderTopStats(emData);
-          hide('emLoading'); show('emWrap');
-          hide('tableLoading');
-          renderEmChart(activeTab);
-        } catch (err) {
-          document.getElementById('emLoading').textContent = 'No data yet — run the GitHub Action first.';
-          document.getElementById('tableLoading').textContent = 'No data yet.';
-          console.error(err);
-        }
+      // Init
+      function init() {
+        fetch(EXP_MOVE_URL + '?t=' + Date.now())
+          .then(function(resp) {
+            if (!resp.ok) throw new Error('No data');
+            return resp.json();
+          })
+          .then(function(data) {
+            emData = data;
+            renderTopStats(emData);
+            hide('emLoading');
+            show('emWrap');
+            hide('tableLoading');
+            renderEmChart(activeTab);
+          })
+          .catch(function(err) {
+            document.getElementById('emLoading').textContent = 'No data yet - run the GitHub Action first.';
+            document.getElementById('tableLoading').textContent = 'No data yet.';
+            console.error(err);
+          });
       }
 
       init();
