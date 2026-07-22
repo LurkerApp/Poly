@@ -31,6 +31,7 @@ SLEEP_BETWEEN_CALLS_SEC = 0.25
 INSIDERS = {
     # ── Tech CEOs / Founders ─────────────────────────────────
     "Elon Musk":           "0001494730",   # Tesla, SpaceX, xAI
+    "NVIDIA CORP":         "0001045810",   # Tesla, SpaceX, xAI
     "Jeff Bezos":          "0001043298",   # Amazon founder
     "Andy Jassy":          "0001374545",   # Amazon CEO
     "Mark Zuckerberg":     "0001548760",   # Meta CEO
