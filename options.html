@@ -131,14 +131,28 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // Returns the next upcoming expiration (skips expired ones)
+      // Returns the next upcoming expiration
+      // After 4pm EST (21:00 UTC) on expiry day, skip to next one
       function getNextExpiry(moves) {
+        var now   = new Date();
         var today = new Date();
         today.setHours(0, 0, 0, 0);
+
+        // Market closes at 4pm EST = 21:00 UTC
+        var cutoff = new Date();
+        cutoff.setUTCHours(21, 0, 0, 0);
+        var marketClosed = now >= cutoff;
+
         for (var i = 0; i < moves.length; i++) {
           var exp = new Date(moves[i].expiration + 'T12:00:00Z');
-          if (exp >= today) return moves[i];
+          // If market is closed, skip today's expiry too
+          if (marketClosed) {
+            if (exp > today) return moves[i];
+          } else {
+            if (exp >= today) return moves[i];
+          }
         }
+        // Fallback to last move if all have passed
         return moves[moves.length - 1];
       }
 
@@ -185,7 +199,7 @@
         var labels       = moves.map(function(m) { return fmtExp(m.expiration); });
         var uppers       = moves.map(function(m) { return m.upper_target; });
         var lowers       = moves.map(function(m) { return m.lower_target; });
-        var centers      = moves.map(function() { return currentPrice; });
+        var centers      = moves.map(function()  { return currentPrice; });
 
         if (emChart) { emChart.destroy(); emChart = null; }
 
@@ -309,15 +323,20 @@
         hide('tableLoading');
         show('tableWrap');
 
-        var today = new Date();
+        var now      = new Date();
+        var today    = new Date();
         today.setHours(0, 0, 0, 0);
+        var cutoff   = new Date();
+        cutoff.setUTCHours(21, 0, 0, 0);
+        var marketClosed = now >= cutoff;
 
         document.getElementById('expiryBody').innerHTML = symbolData.moves.map(function(m) {
-          var expDate  = new Date(m.expiration + 'T12:00:00Z');
-          var expired  = expDate < today;
+          var exp     = new Date(m.expiration + 'T12:00:00Z');
+          var expired = marketClosed ? exp <= today : exp < today;
           var rowStyle = expired ? 'opacity:0.4;' : '';
+          var pastTag  = expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '';
           return '<tr style="' + rowStyle + '">' +
-            '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + (expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '') + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + pastTag + '</td>' +
             '<td>$' + m.current_price.toFixed(2) + '</td>' +
             '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
             '<td style="color:#1ABC9C;">$' + m.call_price.toFixed(2) + '</td>' +
