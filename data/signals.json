@@ -1,34 +1,43 @@
 {
-  "last_updated": "2026-07-23T17:21:08.595045+00:00",
+  "last_updated": "2026-07-23T18:45:56.326971+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x040d7f3b689516e7e48a4ad06b37ee6fd02e417a",
-      "name": "0x040d7F3B689516E7E48a4Ad06b37EE6Fd02e417a-1782171430792",
-      "score": 46.0,
-      "roi_score": 36.3,
+      "wallet": "0xc9328e28eeb44978dbac9debb61ebc92931be6a5",
+      "name": "Gladius7",
+      "score": 47.0,
+      "roi_score": 50.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 33.3,
-      "volume_score": 76.6,
-      "roi": 4.4,
-      "cash_pnl": 18.67,
-      "realized_pnl": 0.0,
-      "total_usdc": 23262.24,
-      "trade_count": 119,
-      "market_count": 61,
-      "position_count": 1,
+      "early_entry_score": 0.0,
+      "volume_score": 94.7,
+      "roi": 25.3,
+      "cash_pnl": 11657.06,
+      "realized_pnl": -6200.63,
+      "total_usdc": 250991.15,
+      "trade_count": 500,
+      "market_count": 133,
+      "position_count": 26,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T15:29:48+00:00",
+      "last_active": "2026-07-23T18:30:09+00:00",
       "top_markets": [
-        "Counter-Strike: Sharks vs BESTIA (BO3) - RES Showdown South America Playoffs",
-        "Counter-Strike: Alliance vs Wildcard (BO3) - BLAST Bounty Qualifier",
-        "Counter-Strike: magic vs Gentle Mates (BO3) - StarLadder StarSeries European Qualifier Group C"
+        "Will Russia capture Lyman by April 30, 2026?",
+        "Will Russia capture Lyman by June 30, 2026?",
+        "Will Russia capture Kostyantynivka by June 30?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.737,
+          "cur_price": 0.7375,
+          "usdc_size": 2214.49,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
       "wallet": "0x25a3d082555ed79d0bc5cb4a8ca83fbe41fd3676",
@@ -456,29 +465,195 @@
       "signals": []
     },
     {
+      "wallet": "0xeb6f0a13ea8c5a7a0514c25495adbe815c1025f0",
+      "name": "8973YEDGJ",
+      "score": 44.0,
+      "roi_score": 38.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.4,
+      "roi": 8.3,
+      "cash_pnl": 14503.48,
+      "realized_pnl": 37022.87,
+      "total_usdc": 403478.62,
+      "trade_count": 500,
+      "market_count": 19,
+      "position_count": 25,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T15:23:58+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will 1 Fed rate cut happen in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.2529,
+          "cur_price": 0.2485,
+          "usdc_size": 3197.6,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.7654,
+          "cur_price": 0.7375,
+          "usdc_size": 76968.71,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
+      "score": 43.9,
+      "roi_score": 25.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 39.6,
+      "volume_score": 78.8,
+      "roi": -12.0,
+      "cash_pnl": -14734.03,
+      "realized_pnl": -318.31,
+      "total_usdc": 30805.18,
+      "trade_count": 500,
+      "market_count": 217,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:45:30+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - July 23, 2:00PM-2:05PM ET",
+        "LoL: Eintracht Frankfurt vs BIG (BO3) - Prime League 1st Division Group A",
+        "Counter-Strike: Heroic vs FOKUS (BO3) - StarLadder StarSeries European Qualifier Group B"
+      ],
+      "signals": [
+        {
+          "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+          "signal": "ENTER",
+          "avg_price": 0.4591,
+          "cur_price": 0.4705,
+          "usdc_size": 765.61,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+          "signal": "SKIP",
+          "avg_price": 0.5638,
+          "cur_price": 0.4705,
+          "usdc_size": 9314.51,
+          "outcome": "No"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.8085,
+          "cur_price": 0.7375,
+          "usdc_size": 9571.57,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Counter-Strike: Gentle Mates vs paiN (BO3) - BLAST Bounty Qualifier",
+          "signal": "SKIP",
+          "avg_price": 0.6993,
+          "cur_price": 0.0005,
+          "usdc_size": 2806.9,
+          "outcome": "paiN"
+        }
+      ]
+    },
+    {
+      "wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+      "name": "paddaa",
+      "score": 43.5,
+      "roi_score": 38.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.7,
+      "roi": 7.2,
+      "cash_pnl": 11424.79,
+      "realized_pnl": -4760.65,
+      "total_usdc": 284247.31,
+      "trade_count": 500,
+      "market_count": 70,
+      "position_count": 97,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:24:21+00:00",
+      "top_markets": [
+        "US x Iran diplomatic meeting by July 31, 2026?",
+        "Will the Houthis successfully target shipping by July 31, 2026?",
+        "US x Iran diplomatic meeting by August 31, 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.7404,
+          "cur_price": 0.7375,
+          "usdc_size": 2520.37,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
       "wallet": "0xd25b8718f61fb64a754356ad8cf16b5579f59f3d",
       "name": "OraculumNobius",
       "score": 42.6,
-      "roi_score": 35.1,
+      "roi_score": 35.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.2,
-      "roi": 2.6,
-      "cash_pnl": 3634.37,
+      "roi": 2.5,
+      "cash_pnl": 3613.61,
       "realized_pnl": 1023.53,
-      "total_usdc": 305096.25,
+      "total_usdc": 305480.86,
       "trade_count": 500,
-      "market_count": 132,
+      "market_count": 129,
       "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T16:49:51+00:00",
+      "last_active": "2026-07-23T18:35:31+00:00",
       "top_markets": [
         "Will Spain win the 2026 FIFA World Cup?",
         "Will Oleksandr Syrskyi be out as Ukraine's Commander-in-Chief by July 31, 2026?",
         "Will Trump be in the WC Champions Photo?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf8915fa27cdb6b455fe0b94cb887a37934b65d36",
+      "name": "0xf8915fa27CdB6b455Fe0B94CB887a37934b65D36-1784274066475",
+      "score": 42.5,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": 0.2,
+      "cash_pnl": 4053.34,
+      "realized_pnl": 0.0,
+      "total_usdc": 3317487.91,
+      "trade_count": 500,
+      "market_count": 2,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:44:40+00:00",
+      "top_markets": [
+        "Will Trump be in the WC Champions Photo?",
+        "Will Spain win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
@@ -492,16 +667,16 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": 0.1,
-      "cash_pnl": 2630.5,
+      "cash_pnl": 2693.59,
       "realized_pnl": 0.0,
-      "total_usdc": 3956433.97,
+      "total_usdc": 4081381.72,
       "trade_count": 500,
       "market_count": 4,
       "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T17:17:36+00:00",
+      "last_active": "2026-07-23T17:20:42+00:00",
       "top_markets": [
         "Will Trump be in the WC Champions Photo?",
         "Will Spain win the 2026 FIFA World Cup?",
@@ -519,7 +694,7 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": 0.1,
-      "cash_pnl": 44.11,
+      "cash_pnl": 46.16,
       "realized_pnl": 234.1,
       "total_usdc": 1077251.9,
       "trade_count": 500,
@@ -537,82 +712,28 @@
       "signals": []
     },
     {
-      "wallet": "0x2037bb7a0773499b3afc9b4a4c18ff8fb715473d",
-      "name": "0xAlikz",
-      "score": 42.4,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.9,
-      "roi": 0.1,
-      "cash_pnl": 43.38,
-      "realized_pnl": 0.0,
-      "total_usdc": 434401.63,
-      "trade_count": 500,
-      "market_count": 52,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:09:43+00:00",
-      "top_markets": [
-        "Will the price of Ethereum be above $2,000 on July 23?",
-        "Ethereum Up or Down on July 21?",
-        "UFC Fight Night: Jared Cannonier vs. Christian Leroy Duncan (Middleweight, Main Card)"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x3ebd6441c0b5ee308208bf30b2819a59b763b66a",
-      "name": "JaJa668",
-      "score": 42.3,
-      "roi_score": 35.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.9,
-      "roi": 2.7,
-      "cash_pnl": 399.06,
-      "realized_pnl": -1114.97,
-      "total_usdc": 195840.07,
-      "trade_count": 500,
-      "market_count": 7,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T15:43:57+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs ThunderTalk Gaming - Game 2 Winner",
-        "LoL: JD Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
-        "LoL: JD Gaming vs Anyone's Legend - Game 1 Winner"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
       "name": "D8D5289c35124b5353f5A10A28B8cC29aEC38935",
-      "score": 41.6,
+      "score": 41.7,
       "roi_score": 34.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.8,
-      "roi": 1.3,
-      "cash_pnl": 2859.91,
-      "realized_pnl": 4148.59,
-      "total_usdc": 114785.65,
+      "volume_score": 89.4,
+      "roi": 1.4,
+      "cash_pnl": 2942.67,
+      "realized_pnl": 4213.76,
+      "total_usdc": 124301.52,
       "trade_count": 500,
       "market_count": 116,
       "position_count": 302,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T17:19:49+00:00",
+      "last_active": "2026-07-23T18:11:55+00:00",
       "top_markets": [
-        "Will LeBron James play for the San Antonio Spurs in 2026-27?",
         "Will WTI Crude Oil (WTI) hit (HIGH) $130 in July?",
+        "Will LeBron James play for the San Antonio Spurs in 2026-27?",
         "Will the Iranian regime fall before 2027?"
       ],
       "signals": [
@@ -620,863 +741,1003 @@
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.0919,
-          "cur_price": 0.2585,
-          "usdc_size": 755.35,
+          "cur_price": 0.2485,
+          "usdc_size": 730.51,
           "outcome": "Yes"
         },
         {
           "market": "Will LeBron James play for the Miami Heat in 2026-27?",
           "signal": "SKIP",
           "avg_price": 0.6444,
-          "cur_price": 0.4655,
-          "usdc_size": 1068.99,
+          "cur_price": 0.4705,
+          "usdc_size": 1058.99,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x0c15268ac556f3179fa5274d7ea7fa0699a12a2d",
-      "name": "alawite",
-      "score": 41.0,
+      "wallet": "0x72a22d4d155079da8f50c89d4c6c03b6428e7b65",
+      "name": "meowtai",
+      "score": 41.2,
+      "roi_score": 32.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.5,
+      "roi": -1.1,
+      "cash_pnl": -1723.66,
+      "realized_pnl": 2332.31,
+      "total_usdc": 125352.34,
+      "trade_count": 500,
+      "market_count": 70,
+      "position_count": 93,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:39:52+00:00",
+      "top_markets": [
+        "China x Philippines military clash before 2027?",
+        "Will LeBron James play for the Golden State Warriors in 2026-27?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.8197,
+          "cur_price": 0.2485,
+          "usdc_size": 1354.04,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+      "name": "Tenebrus7",
+      "score": 41.1,
       "roi_score": 33.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.1,
-      "roi": 0.1,
-      "cash_pnl": 2.5,
-      "realized_pnl": -3167.5,
-      "total_usdc": 70616.71,
+      "volume_score": 85.3,
+      "roi": 0.2,
+      "cash_pnl": 452.5,
+      "realized_pnl": -10891.95,
+      "total_usdc": 72708.61,
       "trade_count": 500,
-      "market_count": 8,
-      "position_count": 1,
+      "market_count": 51,
+      "position_count": 194,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T15:30:13+00:00",
+      "last_active": "2026-07-23T18:44:31+00:00",
       "top_markets": [
-        "LoL: JD Gaming vs Anyone's Legend - Game 2 Winner",
-        "LoL: Bilibili Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-        "LoL: Top Esports vs Team WE - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe16e8a3c20d51eb3ce4ce23516bd7bfb2e14bd58",
-      "name": "48binn",
-      "score": 40.8,
-      "roi_score": 29.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.0,
-      "roi": -5.4,
-      "cash_pnl": -6652.65,
-      "realized_pnl": 854.42,
-      "total_usdc": 227248.67,
-      "trade_count": 500,
-      "market_count": 5,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T15:47:39+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-        "LoL: Bilibili Gaming vs ThunderTalk Gaming - Game 2 Winner",
-        "LoL: JD Gaming vs Anyone's Legend (BO3) - LPL Group Ascend"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1ca2a4f16f0d3c90516ff5a63d389555c1223ff2",
-      "name": "annacar",
-      "score": 40.1,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.0,
-      "roi": -0.2,
-      "cash_pnl": -3.94,
-      "realized_pnl": 0.0,
-      "total_usdc": 21537.11,
-      "trade_count": 316,
-      "market_count": 98,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T15:30:13+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs T1 (BO1) - Esports World Cup Group C",
-        "France vs. England: Both Teams to Score in Second Half",
-        "Dota 2: Team Lynx vs PuckChamp (BO3) - EPL Masters Play-In Group A"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 39.7,
-      "roi_score": 31.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.2,
-      "roi": -2.8,
-      "cash_pnl": -4384.12,
-      "realized_pnl": -1330.74,
-      "total_usdc": 25093.94,
-      "trade_count": 500,
-      "market_count": 200,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:20:55+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - July 23, 12:20PM-12:25PM ET",
-        "LoL: Eintracht Frankfurt vs BIG (BO3) - Prime League 1st Division Group A",
-        "Bitcoin Up or Down - July 23, 1:05PM-1:10PM ET"
+        "Will the U.S. invade Iran before 2027?",
+        "Israel x Iran ceasefire continues through July 25?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
       ],
       "signals": [
         {
-          "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "ENTER",
-          "avg_price": 0.4591,
-          "cur_price": 0.4655,
-          "usdc_size": 759.92,
+          "avg_price": 0.243,
+          "cur_price": 0.2485,
+          "usdc_size": 1000.0,
           "outcome": "Yes"
         },
         {
-          "market": "Counter-Strike: 100 Thieves vs Nuclear TigeRES (BO3) - StarLadder StarSeries European Qualifier Group D",
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.6333,
-          "cur_price": 0.0005,
-          "usdc_size": 22285.62,
-          "outcome": "Nuclear TigeRES"
+          "avg_price": 0.8932,
+          "cur_price": 0.2485,
+          "usdc_size": 3020.3,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd0394bd0de8d901c3fde039a86bf08e6aa4a2532",
+      "name": "pantomime",
+      "score": 41.0,
+      "roi_score": 31.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.2,
+      "roi": -3.0,
+      "cash_pnl": -3119.18,
+      "realized_pnl": 35.67,
+      "total_usdc": 156974.5,
+      "trade_count": 500,
+      "market_count": 22,
+      "position_count": 17,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:01:10+00:00",
+      "top_markets": [
+        "Will LeBron James play for the Denver Nuggets in 2026-27?",
+        "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
+        "Will LeBron James play for the Miami Heat in 2026-27?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.8237,
+          "cur_price": 0.7375,
+          "usdc_size": 10828.51,
+          "outcome": "Yes"
         },
         {
           "market": "Will LeBron James play for the Miami Heat in 2026-27?",
           "signal": "SKIP",
-          "avg_price": 0.5638,
-          "cur_price": 0.4655,
-          "usdc_size": 9376.07,
+          "avg_price": 0.5388,
+          "cur_price": 0.4705,
+          "usdc_size": 3494.07,
           "outcome": "No"
         },
         {
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.8085,
-          "cur_price": 0.7395,
-          "usdc_size": 9597.53,
-          "outcome": "Yes"
-        },
-        {
-          "market": "LoL: Bilibili Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-          "signal": "SKIP",
-          "avg_price": 0.8086,
-          "cur_price": 0.9995,
-          "usdc_size": 7661.14,
-          "outcome": "Bilibili Gaming"
-        },
-        {
-          "market": "Will Hammarby Fotboll win on 2026-07-23?",
-          "signal": "SKIP",
-          "avg_price": 0.5455,
-          "cur_price": 0.375,
-          "usdc_size": 2100.2,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Counter-Strike: Gentle Mates vs paiN (BO3) - BLAST Bounty Qualifier",
-          "signal": "SKIP",
-          "avg_price": 0.6842,
-          "cur_price": 0.06,
-          "usdc_size": 4197.43,
-          "outcome": "paiN"
-        },
-        {
-          "market": "Hamburg European Open: Elina Avanesyan vs Yulia Putintseva",
-          "signal": "SKIP",
-          "avg_price": 0.4407,
-          "cur_price": 0.6145,
-          "usdc_size": 846.28,
-          "outcome": "Yulia Putintseva"
+          "avg_price": 0.288,
+          "cur_price": 0.7375,
+          "usdc_size": 1255.43,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x7d9d0a4868a9bb172b558ca25abb808f2e804be6",
-      "name": "jhds",
-      "score": 39.3,
-      "roi_score": 29.9,
+      "wallet": "0x6404bfa37fe830e29ee8967e1c3b2a8091d5f250",
+      "name": "pop",
+      "score": 40.3,
+      "roi_score": 29.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.1,
-      "roi": -5.1,
-      "cash_pnl": -522.28,
-      "realized_pnl": 27.78,
-      "total_usdc": 28135.79,
-      "trade_count": 49,
-      "market_count": 5,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T15:30:13+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-        "LoL: JD Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
-        "LoL: JD Gaming vs Anyone's Legend - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x4e8bd0ddaca3204bf58ef00736ec2a1d068005bd",
-      "name": "0x4E8Bd0dDacA3204BF58eF00736eC2a1D068005bd-1767983357089",
-      "score": 38.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.1,
-      "volume_score": 100.0,
-      "roi": -76.1,
-      "cash_pnl": -69124.99,
-      "realized_pnl": -506.25,
-      "total_usdc": 848657.72,
+      "volume_score": 89.4,
+      "roi": -5.6,
+      "cash_pnl": -4400.33,
+      "realized_pnl": -386.27,
+      "total_usdc": 124721.04,
       "trade_count": 500,
-      "market_count": 66,
-      "position_count": 14,
+      "market_count": 50,
+      "position_count": 47,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T16:24:48+00:00",
+      "last_active": "2026-07-23T17:51:52+00:00",
       "top_markets": [
-        "Counter-Strike: FlyQuest vs Ground Zero (BO3) - HyperX & Intel Nationals Playoffs",
-        "Palermo: Anastasia Abbagnato vs Clara Burel",
-        "Counter-Strike: Fluxo W7M vs Rush (BO3) - BetBoom RUSH B! Summit Playoffs"
+        "Will LeBron James play for the Miami Heat in 2026-27?",
+        "Will LeBron James play for the Golden State Warriors in 2026-27?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?"
       ],
       "signals": [
         {
-          "market": "Livesport Prague Open: Lucie Havlickova vs Barbora Krejcikova",
-          "signal": "SKIP",
-          "avg_price": 0.87,
-          "cur_price": 0.065,
-          "usdc_size": 5629.44,
-          "outcome": "Barbora Krejcikova"
-        }
-      ]
-    },
-    {
-      "wallet": "0x44114b01724bc80eafc404e89d1680dac5a1985e",
-      "name": "fdby",
-      "score": 37.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.8,
-      "volume_score": 87.5,
-      "roi": -87.9,
-      "cash_pnl": -1061.83,
-      "realized_pnl": 0.0,
-      "total_usdc": 96579.56,
-      "trade_count": 500,
-      "market_count": 73,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:15:33+00:00",
-      "top_markets": [
-        "Counter-Strike: 100 Thieves vs Nuclear TigeRES (BO3) - StarLadder StarSeries European Qualifier Group D",
-        "Houston Dynamo vs. D.C. United SC: O/U 2.5",
-        "Counter-Strike: M80 vs NIP - Map 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x7c112434f94ebf9e780f7bcc233f681d305148ff",
-      "name": "baggins178",
-      "score": 36.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 30.6,
-      "volume_score": 91.8,
-      "roi": -98.8,
-      "cash_pnl": -27446.3,
-      "realized_pnl": 557.73,
-      "total_usdc": 170972.38,
-      "trade_count": 500,
-      "market_count": 128,
-      "position_count": 90,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T16:58:30+00:00",
-      "top_markets": [
-        "LoL: Karmine Corp vs Dplus KIA (BO5) - Esports World Cup Playoffs",
-        "LoL: T1 vs Gen.G (BO3) - Esports World Cup Playoffs",
-        "LoL: T1 vs Kiwoom DRX (BO1) - KeSPA Cup Group Stage"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xff80bb23621f03fc6300808730316c78abe09b4d",
-      "name": "Zenhack",
-      "score": 35.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 26.1,
-      "volume_score": 92.1,
-      "roi": -70.3,
-      "cash_pnl": -89272.14,
-      "realized_pnl": 2510.62,
-      "total_usdc": 176485.51,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 63,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:01:03+00:00",
-      "top_markets": [
-        "Spread: Dallas Wings (-6.5)",
-        "Dallas Wings vs. PortlandFire",
-        "Spread: Dallas Wings (-7.5)"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Heroic vs FOKUS (BO3) - StarLadder StarSeries European Qualifier Group B",
-          "signal": "SKIP",
-          "avg_price": 0.6121,
-          "cur_price": 0.69,
-          "usdc_size": 11413.0,
-          "outcome": "Heroic"
+          "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+          "signal": "ENTER",
+          "avg_price": 0.4653,
+          "cur_price": 0.4705,
+          "usdc_size": 2305.42,
+          "outcome": "Yes"
         },
         {
-          "market": "Counter-Strike: Gentle Mates vs paiN (BO3) - BLAST Bounty Qualifier",
-          "signal": "SKIP",
-          "avg_price": 0.5699,
-          "cur_price": 0.06,
-          "usdc_size": 7195.69,
-          "outcome": "paiN"
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.7707,
+          "cur_price": 0.7375,
+          "usdc_size": 4180.47,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xa0e65464710e7e22c34a4de39a649eb551ec23c2",
-      "name": "bakulau",
-      "score": 35.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 30.9,
-      "volume_score": 85.0,
-      "roi": -56.4,
-      "cash_pnl": -4639.61,
-      "realized_pnl": 0.0,
-      "total_usdc": 69565.4,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:19:54+00:00",
-      "top_markets": [
-        "LoL: Eintracht Frankfurt vs BIG (BO3) - Prime League 1st Division Group A",
-        "Counter-Strike: 100 Thieves vs Nuclear TigeRES (BO3) - StarLadder StarSeries European Qualifier Group D",
-        "LoL: Eintracht Frankfurt vs BIG - Game 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Gentle Mates vs paiN (BO3) - BLAST Bounty Qualifier",
-          "signal": "SKIP",
-          "avg_price": 0.8184,
-          "cur_price": 0.06,
-          "usdc_size": 610.95,
-          "outcome": "paiN"
-        }
-      ]
-    },
-    {
-      "wallet": "0x629da223adfc9957329e02de95ae3d263f92756c",
-      "name": "jackinv1lvl2",
-      "score": 35.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 37.5,
-      "volume_score": 73.6,
-      "roi": -100.0,
-      "cash_pnl": -542070.39,
-      "realized_pnl": 3496.37,
-      "total_usdc": 15749.11,
-      "trade_count": 500,
-      "market_count": 101,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:19:48+00:00",
-      "top_markets": [
-        "Counter-Strike: NIP vs ECHO - Map 1 Winner",
-        "Counter-Strike: 100 Thieves vs Nuclear TigeRES - Map 2 Winner",
-        "FC Malisheva vs. Hibernian FC: Both Teams to Score"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x546397a8518d3f7f8e4636d113fd987ce7278748",
-      "name": "lyj",
-      "score": 35.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.4,
-      "volume_score": 70.8,
-      "roi": -96.1,
-      "cash_pnl": -1552.51,
-      "realized_pnl": -73.55,
-      "total_usdc": 10773.42,
-      "trade_count": 500,
-      "market_count": 328,
-      "position_count": 121,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T15:55:40+00:00",
-      "top_markets": [
-        "Games Total: O/U 3.5",
-        "Kylian Mbapp\u00e9: 1+ goals",
-        "Will France win Group I in the 2026 FIFA World Cup?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd1409",
-      "name": "crypto-ericwu2",
-      "score": 33.9,
-      "roi_score": 4.6,
+      "wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+      "name": "Gaditima",
+      "score": 39.9,
+      "roi_score": 30.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -43.1,
-      "cash_pnl": -77174.73,
-      "realized_pnl": 10968.69,
-      "total_usdc": 1105860.92,
+      "volume_score": 81.1,
+      "roi": -3.8,
+      "cash_pnl": -3229.81,
+      "realized_pnl": 10951.2,
+      "total_usdc": 41753.94,
       "trade_count": 500,
-      "market_count": 29,
-      "position_count": 3,
+      "market_count": 102,
+      "position_count": 336,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T15:30:13+00:00",
+      "last_active": "2026-07-23T18:43:40+00:00",
       "top_markets": [
-        "United States vs. Bosnia and Herzegovina: Both Teams to Score",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "LoL: Bilibili Gaming vs T1 (BO5) - Mid-Season Invitational Playoffs"
+        "Counter-Strike: Misa Esports vs RoundsGG (BO3) - CCT Europe Closed Qualifier: Series #6 Group D",
+        "Will Trump meet with Netanyahu by July 31, 2026?",
+        "Valorant: FunPlus Phoenix vs EDward Gaming (BO3) - VCT China Stage 2 Group Alpha"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "ENTER",
-          "avg_price": 0.7389,
-          "cur_price": 0.7395,
-          "usdc_size": 101793.6,
+          "avg_price": 0.7357,
+          "cur_price": 0.7375,
+          "usdc_size": 2541.38,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Valorant: Gentle Mates vs Natus Vincere (BO3) - VCT EMEA Group Alpha",
+          "signal": "SKIP",
+          "avg_price": 0.455,
+          "cur_price": 0.865,
+          "usdc_size": 3468.65,
+          "outcome": "Gentle Mates"
+        },
+        {
+          "market": "Estoril Open: Pedro Martinez vs Luciano Darderi",
+          "signal": "SKIP",
+          "avg_price": 0.8205,
+          "cur_price": 0.0045,
+          "usdc_size": 3537.76,
+          "outcome": "Luciano Darderi"
+        },
+        {
+          "market": "Tampa Bay Rays vs. Toronto Blue Jays",
+          "signal": "SKIP",
+          "avg_price": 0.48,
+          "cur_price": 0.515,
+          "usdc_size": 1030.0,
+          "outcome": "Tampa Bay Rays"
+        },
+        {
+          "market": "LoL: Galions vs Vitality.Bee (BO1) - LFL Regular Season",
+          "signal": "SKIP",
+          "avg_price": 0.1767,
+          "cur_price": 0.0005,
+          "usdc_size": 1087.35,
+          "outcome": "Vitality.Bee"
+        },
+        {
+          "market": "Counter-Strike: Heroic vs FOKUS (BO3) - StarLadder StarSeries European Qualifier Group B",
+          "signal": "SKIP",
+          "avg_price": 0.69,
+          "cur_price": 0.946,
+          "usdc_size": 529.56,
+          "outcome": "Heroic"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc02147dee42356b7a4edbb1c35ac4ffa95f61fa8",
+      "name": "Eatpraylove",
+      "score": 39.5,
+      "roi_score": 25.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.2,
+      "roi": -11.1,
+      "cash_pnl": -56926.38,
+      "realized_pnl": 110651.18,
+      "total_usdc": 179924.37,
+      "trade_count": 500,
+      "market_count": 26,
+      "position_count": 191,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:23:55+00:00",
+      "top_markets": [
+        "2026 Balance of Power: Other",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the U.S. invade Iran before 2027?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2202,
+          "cur_price": 0.2485,
+          "usdc_size": 2732.43,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.656,
+          "cur_price": 0.7375,
+          "usdc_size": 3475.32,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x750c8c8e8cdb54208e520895775765235e66d430",
-      "name": "mrkenlin8877",
-      "score": 33.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 14.6,
-      "volume_score": 88.6,
-      "roi": -100.0,
-      "cash_pnl": -79330.89,
-      "realized_pnl": -2044.32,
-      "total_usdc": 111537.16,
-      "trade_count": 500,
-      "market_count": 122,
-      "position_count": 242,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T16:04:01+00:00",
-      "top_markets": [
-        "LoL: T1 vs FURIA Esports (BO5) - Mid-Season Invitational Playoffs",
-        "LoL: DN SOOPers vs KT Rolster (BO1) - KeSPA Cup Group Stage",
-        "Spain vs. Argentina: Team to Advance"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x226917bcc558bd4e1a41b389c8963e0051196233",
-      "name": "xyzzyx0101",
-      "score": 32.3,
-      "roi_score": 4.5,
+      "wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+      "name": "Rex416",
+      "score": 39.5,
+      "roi_score": 26.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.2,
-      "roi": -43.2,
-      "cash_pnl": -741.1,
-      "realized_pnl": 0.0,
-      "total_usdc": 62730.44,
+      "volume_score": 90.1,
+      "roi": -9.9,
+      "cash_pnl": -13544.77,
+      "realized_pnl": 781.87,
+      "total_usdc": 137031.6,
       "trade_count": 500,
-      "market_count": 88,
-      "position_count": 5,
+      "market_count": 62,
+      "position_count": 80,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T17:12:30+00:00",
+      "last_active": "2026-07-23T18:45:19+00:00",
       "top_markets": [
-        "Estoril Open: Frederico Ferreira Silva vs Luca Van Assche",
-        "Counter-Strike: Team Falcons vs 100 Thieves (BO3) - BLAST Bounty Qualifier",
-        "Valorant: Team Heretics vs Team Liquid (BO3) - VCT EMEA Group Omega"
+        "Los Angeles Dodgers vs. Philadelphia Phillies",
+        "Will the Bank of Russia decrease the key rate after the July Meeting?",
+        "Will LeBron James play for the Golden State Warriors in 2026-27?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.7708,
+          "cur_price": 0.7375,
+          "usdc_size": 2950.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+          "signal": "SKIP",
+          "avg_price": 0.5337,
+          "cur_price": 0.4705,
+          "usdc_size": 3971.23,
+          "outcome": "No"
+        }
+      ]
     },
     {
-      "wallet": "0xd3bc202269d0bbd1a158264be8f7e1e0f9e45bd2",
-      "name": "lhz6002",
-      "score": 32.0,
-      "roi_score": 0.0,
+      "wallet": "0x43405b1b3dee23baf8284b3bcfd79930600b64c4",
+      "name": "-nkt-",
+      "score": 38.7,
+      "roi_score": 24.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 95.2,
-      "roi": -97.7,
-      "cash_pnl": -47345.8,
-      "realized_pnl": 0.0,
-      "total_usdc": 267848.09,
-      "trade_count": 156,
-      "market_count": 75,
-      "position_count": 29,
+      "volume_score": 89.7,
+      "roi": -14.0,
+      "cash_pnl": -15033.28,
+      "realized_pnl": -1968.44,
+      "total_usdc": 129449.95,
+      "trade_count": 500,
+      "market_count": 19,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T16:37:54+00:00",
+      "last_active": "2026-07-23T15:52:01+00:00",
       "top_markets": [
-        "Dota 2: Team Syntax vs Spirit Academy - Game 2 Winner",
-        "Dota 2: Team Yandex vs PARIVISION - Game 2 Winner",
-        "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs"
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.824,
+          "cur_price": 0.7375,
+          "usdc_size": 81125.0,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
-      "wallet": "0x7f3b265e9d161252594233d184e04a31182c11fb",
-      "name": "harukir",
-      "score": 31.9,
-      "roi_score": 0.0,
+      "wallet": "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177",
+      "name": "Arbguy",
+      "score": 38.7,
+      "roi_score": 21.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.9,
-      "roi": -100.0,
-      "cash_pnl": -31764.58,
-      "realized_pnl": 0.0,
-      "total_usdc": 225393.64,
+      "volume_score": 98.0,
+      "roi": -17.9,
+      "cash_pnl": -97142.0,
+      "realized_pnl": -10557.5,
+      "total_usdc": 384953.41,
       "trade_count": 500,
-      "market_count": 132,
-      "position_count": 25,
+      "market_count": 25,
+      "position_count": 46,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T16:54:22+00:00",
+      "last_active": "2026-07-23T17:53:10+00:00",
       "top_markets": [
-        "Qatar vs. Switzerland: Switzerland 1st Half O/U 0.5",
-        "Belgium vs. Egypt: 1st Half O/U 1.5",
-        "Valorant: Bilibili Gaming vs XLG Gaming (BO3) - VCT China Stage 2 Group Omega"
+        "US x Iran diplomatic meeting by July 10, 2026?",
+        "Will England win on 2026-07-11?",
+        "Will the U.S. invade Iran before 2027?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.8161,
+          "cur_price": 0.7375,
+          "usdc_size": 77440.29,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.864,
+          "cur_price": 0.2485,
+          "usdc_size": 927.84,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+      "name": "foodenjoyer",
+      "score": 38.4,
+      "roi_score": 19.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -20.7,
+      "cash_pnl": -133602.67,
+      "realized_pnl": 721950.28,
+      "total_usdc": 1215557.02,
+      "trade_count": 500,
+      "market_count": 4,
+      "position_count": 22,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T15:29:07+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1236,
+          "cur_price": 0.2485,
+          "usdc_size": 312239.22,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.127,
+          "cur_price": 0.7375,
+          "usdc_size": 164120.45,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2,
+          "cur_price": 0.0035,
+          "usdc_size": 857.62,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.0073,
+          "cur_price": 0.0065,
+          "usdc_size": 653.91,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+      "name": "rewardbots",
+      "score": 38.3,
+      "roi_score": 22.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.6,
+      "roi": -16.2,
+      "cash_pnl": -3307.59,
+      "realized_pnl": 2427.97,
+      "total_usdc": 145441.7,
+      "trade_count": 500,
+      "market_count": 96,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:08:22+00:00",
+      "top_markets": [
+        "Will Iran announce withdrawal from MOU negotiations by July 31?",
+        "Will Google have the best AI model at the end of July 2026?",
+        "Will the next Google Gemini Pro model be released by July 31, 2026?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
-      "name": "\u515a\u7684\u5149\u8f89\u7167\u6211\u5fc3",
+      "wallet": "0xb851b404a6e0b1051e8130677172c36b4c80810a",
+      "name": "0xC668dCC263f1D05ff527f5183dE3c1C79cb2964B-1757493442667",
+      "score": 38.1,
+      "roi_score": 35.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 48.7,
+      "roi": 3.4,
+      "cash_pnl": 20.24,
+      "realized_pnl": 0.0,
+      "total_usdc": 597.37,
+      "trade_count": 1,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T14:33:43+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.7129,
+          "cur_price": 0.7375,
+          "usdc_size": 609.16,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x54b56146656e7eef9da02b3a030c18e06e924b31",
+      "name": "pup1",
+      "score": 38.0,
+      "roi_score": 23.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.9,
+      "roi": -15.1,
+      "cash_pnl": -3846.13,
+      "realized_pnl": 8049.9,
+      "total_usdc": 68656.67,
+      "trade_count": 500,
+      "market_count": 63,
+      "position_count": 51,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:13:43+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
+        "UFC Fight Night: Magomed Zaynukov vs. Damian Rzepecki (Lightweight, Main Card)"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.251,
+          "cur_price": 0.7375,
+          "usdc_size": 1312.5,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x579ecec5220e65f27580e74bdc5c4780b350fef5",
+      "name": "silent",
+      "score": 36.8,
+      "roi_score": 18.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.3,
+      "roi": -22.9,
+      "cash_pnl": -1977.31,
+      "realized_pnl": -284.28,
+      "total_usdc": 123262.28,
+      "trade_count": 432,
+      "market_count": 63,
+      "position_count": 36,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T16:07:34+00:00",
+      "top_markets": [
+        "Strait of Hormuz traffic returns to normal by end of June?",
+        "Bab el-Mandeb Strait effectively closed by August 31?",
+        "Bab el-Mandeb Strait effectively closed by June 30?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2656,
+          "cur_price": 0.7375,
+          "usdc_size": 787.5,
+          "outcome": "No"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.8627,
+          "cur_price": 0.7375,
+          "usdc_size": 1548.46,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by July 31?",
+          "signal": "SKIP",
+          "avg_price": 0.7644,
+          "cur_price": 0.0105,
+          "usdc_size": 1781.1,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x06aaa4fb2479d4d9611e5006d8c96974eb89fbf3",
+      "name": "TooLateJerome021",
+      "score": 34.7,
+      "roi_score": 15.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 75.8,
+      "roi": -27.1,
+      "cash_pnl": -1373.71,
+      "realized_pnl": 42.0,
+      "total_usdc": 20900.74,
+      "trade_count": 259,
+      "market_count": 142,
+      "position_count": 49,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T15:47:43+00:00",
+      "top_markets": [
+        "No change in Bank of Mexico\u2019s interest rates after August 2026 meeting?",
+        "Will the Bank of Mexico announce no change at the June meeting?",
+        "Will Thom Tillis vote to confirm Kevin Warsh as Chair of the Federal Reserve?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.7299,
+          "cur_price": 0.7375,
+          "usdc_size": 974.91,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x06fb6a9076bd43360d93660c0ca9086db5dd9713",
+      "name": "jinwujinshu",
+      "score": 33.4,
+      "roi_score": 3.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.3,
+      "roi": -44.6,
+      "cash_pnl": -15633.74,
+      "realized_pnl": 492.84,
+      "total_usdc": 401672.78,
+      "trade_count": 500,
+      "market_count": 89,
+      "position_count": 61,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T17:19:27+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will England win the 2026 FIFA World Cup?",
+        "Argentina vs. Switzerland: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.8187,
+          "cur_price": 0.7375,
+          "usdc_size": 15061.48,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe7bd61ac59883bd4abda5c63865430452ecfebce",
+      "name": "thereallkanyewest",
+      "score": 33.3,
+      "roi_score": 5.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.0,
+      "roi": -41.3,
+      "cash_pnl": -73206.33,
+      "realized_pnl": 13323.83,
+      "total_usdc": 153176.84,
+      "trade_count": 500,
+      "market_count": 17,
+      "position_count": 59,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:41:07+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.239,
+          "cur_price": 0.2485,
+          "usdc_size": 4495.2,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2809,
+          "cur_price": 0.7375,
+          "usdc_size": 4488.96,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x45bc74efa620b45c02308acaecdff1f7c06f978b",
+      "name": "poorersob",
       "score": 31.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 93.3,
-      "roi": -64.5,
-      "cash_pnl": -2158.96,
-      "realized_pnl": 0.0,
-      "total_usdc": 208819.83,
-      "trade_count": 465,
-      "market_count": 192,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T16:55:49+00:00",
-      "top_markets": [
-        "Will Xi Jinping meet with Cheng Li-wun by June 30?",
-        "Spain vs. Argentina: Will the Match Go to a Penalty Shootout?",
-        "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: 100 Thieves vs Nuclear TigeRES (BO3) - StarLadder StarSeries European Qualifier Group D",
-          "signal": "SKIP",
-          "avg_price": 0.5575,
-          "cur_price": 0.0005,
-          "usdc_size": 537.8,
-          "outcome": "Nuclear TigeRES"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9adf697c265f8c8807e286cbf75a3a2e857955e8",
-      "name": "Qulang555",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.2,
-      "roi": -99.7,
-      "cash_pnl": -804566.24,
-      "realized_pnl": -9597.51,
-      "total_usdc": 204227.38,
+      "roi": -75.1,
+      "cash_pnl": -287341.41,
+      "realized_pnl": 24804.62,
+      "total_usdc": 206382.93,
       "trade_count": 500,
-      "market_count": 60,
+      "market_count": 24,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T15:43:57+00:00",
+      "last_active": "2026-07-23T17:51:46+00:00",
       "top_markets": [
-        "Counter-Strike: Spirit vs G2 (BO3) - IEM Cologne Major Playoffs",
-        "Valorant: Paper Rex vs Leviat\u00e1n Esports (BO5) - VCT Masters London Playoffs",
-        "Valorant: EDward Gaming vs Paper Rex - Map 2 Winner"
+        "Exact Score: Spain 2 - 3 Argentina?",
+        "Bitcoin Up or Down - July 22, 9:35PM-9:40PM ET",
+        "Will Spain win the 2026 FIFA World Cup?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x1943ada1083d8b3b7e4356cc179ee942ea2c1561",
-      "name": "pipipi150",
-      "score": 31.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 3.7,
-      "volume_score": 85.1,
-      "roi": -90.0,
-      "cash_pnl": -80234.52,
-      "realized_pnl": -2.18,
-      "total_usdc": 70526.61,
-      "trade_count": 500,
-      "market_count": 77,
-      "position_count": 215,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T16:52:39+00:00",
-      "top_markets": [
-        "LoL: Galions vs Ici Japon Corp. Esport (BO1) - LFL Regular Season",
-        "LoL: Solary vs Joblife (BO1) - LFL Regular Season",
-        "LoL: \u2060Movistar KOI F\u00e9nix vs LUA Gaming (BO3) - LES Regular Season"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe4543fa9e3e68d6e0c7cc324d785036e203f8b7d",
-      "name": "Life22",
-      "score": 31.4,
+      "wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+      "name": "wan123",
+      "score": 31.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.8,
-      "roi": -100.0,
-      "cash_pnl": -25411.56,
-      "realized_pnl": -292.34,
-      "total_usdc": 114290.71,
+      "volume_score": 90.0,
+      "roi": -77.4,
+      "cash_pnl": -2708900.99,
+      "realized_pnl": 190485.11,
+      "total_usdc": 134005.9,
       "trade_count": 500,
-      "market_count": 254,
-      "position_count": 289,
+      "market_count": 5,
+      "position_count": 262,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T15:47:39+00:00",
+      "last_active": "2026-07-23T18:41:30+00:00",
       "top_markets": [
-        "Thunder vs. Lakers",
-        "Cavaliers vs. Pistons",
-        "Valorant: Leviat\u00e1n Esports vs G2 Esports (BO5) - VCT Americas Stage 1 Playoffs"
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1024,
+          "cur_price": 0.2485,
+          "usdc_size": 197397.17,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1753,
+          "cur_price": 0.7375,
+          "usdc_size": 154540.19,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.0073,
+          "cur_price": 0.0065,
+          "usdc_size": 3487.41,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
-      "wallet": "0x823b5d78f4758bb36228f6923048dd4bbef059e9",
-      "name": "0x823b5D78F4758Bb36228F6923048dd4BBef059E9-1772759234306",
+      "wallet": "0xc98b99ed7f9748fb3eb8d13d0e4531d023286430",
+      "name": "easterpink",
       "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.5,
-      "roi": -99.9,
-      "cash_pnl": -177.61,
+      "volume_score": 85.2,
+      "roi": -100.0,
+      "cash_pnl": -100.59,
       "realized_pnl": 0.0,
-      "total_usdc": 74367.03,
+      "total_usdc": 72035.39,
       "trade_count": 500,
-      "market_count": 116,
+      "market_count": 39,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T17:09:03+00:00",
+      "last_active": "2026-07-23T17:42:46+00:00",
       "top_markets": [
-        "LoL: FlyQuest vs Sentinels - Game 1 Winner",
-        "LoL: FALKE Esports vs UB Alma Mater - Game 2 Winner",
-        "Total Kills Over/Under 30.5 in Game 1?"
+        "US x Iran permanent peace deal by June 15, 2026?",
+        "Will Iran close its airspace by June 14?",
+        "Over $32.5M committed to the Credible public sale?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xb75b589998c15d1e7999d188cff84d08d844e377",
-      "name": "Steveti",
-      "score": 30.8,
-      "roi_score": 0.0,
+      "wallet": "0x5f14770135c61f292a455cddc29db81b4a693c7a",
+      "name": "Peet",
+      "score": 30.9,
+      "roi_score": 0.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.2,
-      "roi": -98.2,
-      "cash_pnl": -40006.55,
-      "realized_pnl": 1018.68,
-      "total_usdc": 54972.37,
+      "volume_score": 82.9,
+      "roi": -49.2,
+      "cash_pnl": -2957.15,
+      "realized_pnl": -2034.2,
+      "total_usdc": 53080.09,
       "trade_count": 500,
-      "market_count": 62,
-      "position_count": 109,
+      "market_count": 19,
+      "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T17:20:58+00:00",
+      "last_active": "2026-07-23T15:56:49+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - July 21, 10:00PM-10:05PM ET",
-        "Bitcoin Up or Down - July 21, 10:00PM-10:15PM ET",
-        "Valorant: Fnatic vs Karmine Corp (BO3) - VCT EMEA Group Omega"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x00c8ef6895e2fb38b538cac8c08edd6b82289ccd",
-      "name": "",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.4,
-      "roi": -91.4,
-      "cash_pnl": -158792.89,
-      "realized_pnl": -20461.87,
-      "total_usdc": 43651.77,
-      "trade_count": 500,
-      "market_count": 293,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T16:44:34+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - July 22, 3AM ET",
-        "Bitcoin Up or Down - July 22, 12:00PM-4:00PM ET",
-        "Bitcoin Up or Down - July 22, 2PM ET"
+        "Will 2 Fed rate cuts happen in 2025?",
+        "Will 1 Fed rate cut happen in 2025?",
+        "Fed rate cut in 2025?"
       ],
       "signals": [
         {
-          "market": "Will Hammarby Fotboll win on 2026-07-23?",
-          "signal": "SKIP",
-          "avg_price": 0.5399,
-          "cur_price": 0.375,
-          "usdc_size": 8333.33,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will LeBron James play for the Miami Heat in 2026-27?",
-          "signal": "SKIP",
-          "avg_price": 0.1205,
-          "cur_price": 0.4655,
-          "usdc_size": 4653.98,
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.734,
+          "cur_price": 0.7375,
+          "usdc_size": 3049.8,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x742863cb1d5a9051440c2b5f18a31b01dd5e1ca3",
-      "name": "0x742863Cb1D5a9051440C2b5F18a31b01dd5e1Ca3-1783117842612",
-      "score": 30.5,
-      "roi_score": 0.0,
+      "wallet": "0x9b52c0c38b5b8cbf1fcf0ad2c6decd5081dff071",
+      "name": "mlpoi",
+      "score": 30.6,
+      "roi_score": 3.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 80.4,
-      "roi": -100.0,
-      "cash_pnl": -3799.26,
-      "realized_pnl": -371.43,
-      "total_usdc": 38076.48,
-      "trade_count": 97,
-      "market_count": 50,
-      "position_count": 10,
+      "volume_score": 71.2,
+      "roi": -45.2,
+      "cash_pnl": -609.16,
+      "realized_pnl": -0.97,
+      "total_usdc": 11352.15,
+      "trade_count": 176,
+      "market_count": 15,
+      "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-23T16:54:39+00:00",
+      "last_active": "2026-07-23T16:02:04+00:00",
       "top_markets": [
-        "LoL: DN SOOPers vs KT Rolster (BO1) - KeSPA Cup Group Stage",
+        "LoL: Top Esports vs Team WE (BO3) - LPL Group Ascend",
         "LoL: JD Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
-        "LoL: Bilibili Gaming vs Hanwha Life Esports - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb77778b0ed37ad61176519da34b24118c9593ff9",
-      "name": "tiongbu",
-      "score": 30.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 3.0,
-      "volume_score": 71.9,
-      "roi": -95.4,
-      "cash_pnl": -57294.13,
-      "realized_pnl": -6848.31,
-      "total_usdc": 12565.52,
-      "trade_count": 500,
-      "market_count": 219,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-23T17:15:46+00:00",
-      "top_markets": [
-        "Counter-Strike: Sinners vs FUT Esports (BO3) - BLAST Bounty Qualifier",
-        "Rainbow Six Siege: Dplus vs KINOTROPE gaming (BO3) - Asia Pacific League APAC North - Stage 1 Playoffs",
         "Counter-Strike: Nemiga vs G2 (BO3) - BLAST Bounty Qualifier"
       ],
       "signals": [
         {
-          "market": "LoL: Bilibili Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-          "signal": "SKIP",
-          "avg_price": 0.8718,
-          "cur_price": 0.9995,
-          "usdc_size": 506.75,
-          "outcome": "Bilibili Gaming"
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.732,
+          "cur_price": 0.7375,
+          "usdc_size": 737.5,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb687f00464e33934f5d591f224e71c3559ecaee5",
+      "name": "alwayslatetotheparty",
+      "score": 29.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 73.8,
+      "roi": -95.3,
+      "cash_pnl": -359169.5,
+      "realized_pnl": -4115386.39,
+      "total_usdc": 16045.61,
+      "trade_count": 500,
+      "market_count": 71,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T18:45:16+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will Romeu Zema win the 2026 Brazilian presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xfc4647120ff10160300f92f5945fe2242581a4f8",
+      "name": "McGavin101",
+      "score": 29.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.0,
+      "roi": -58.3,
+      "cash_pnl": -1530.46,
+      "realized_pnl": 23.49,
+      "total_usdc": 16510.88,
+      "trade_count": 111,
+      "market_count": 74,
+      "position_count": 19,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-23T14:58:13+00:00",
+      "top_markets": [
+        "No change in Bank of Mexico\u2019s interest rates after August 2026 meeting?",
+        "Spain vs. Cabo Verde: Both Teams to Score",
+        "Will PSG win the 2025\u201326 Champions League?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.7119,
+          "cur_price": 0.7375,
+          "usdc_size": 1095.89,
+          "outcome": "Yes"
         }
       ]
     }
@@ -1485,142 +1746,142 @@
     {
       "id": "0xc0b7319f73f248310b059c231fb069e64dbd68ca81dd9933728ca192b54c3cc4",
       "question": "Will Trump be in the WC Champions Photo?",
-      "volume": "25485807.907928064",
-      "liquidity": "11015718.00073",
+      "volume": "26213787.347928062",
+      "liquidity": "10285365.00215",
       "end_date": "2026-07-20T03:59:00Z"
     },
     {
       "id": "0xf5ee4b6bd7d585c0e12e530074d0324493c302b82e127c832d15c89a610c0453",
       "question": "Will Demeke Mekonnen be the next Prime Minister of Ethiopia?",
       "volume": "26706364.56446597",
-      "liquidity": "26497.66046",
+      "liquidity": "26915.9214",
       "end_date": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "0x6250f81284f46217198b70e57cd4f8ee49efb9bd071747e7b8f3a6530e36e11c",
-      "question": "LoL: Bilibili Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-      "volume": "1664986.5073449982",
-      "liquidity": "378681.87643",
-      "end_date": "2026-07-23T18:25:00Z"
     },
     {
       "id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
       "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "volume": "25736665.168824557",
-      "liquidity": "382082.59783",
+      "volume": "25755634.038703542",
+      "liquidity": "390868.5886",
       "end_date": "2026-07-29T00:00:00Z"
-    },
-    {
-      "id": "0xae57edf543423944f5528cebc4ae4737c40da69d545da58fa2d2e73685d41c7b",
-      "question": "Counter-Strike: Sinners vs FUT Esports (BO3) - BLAST Bounty Qualifier",
-      "volume": "1109053.2343620004",
-      "liquidity": "301573.70044",
-      "end_date": "2026-07-23T19:00:00Z"
-    },
-    {
-      "id": "0x7e98a0b7128193c0de48cdd9334f2427c14ee5439b82a8a2cb323daf65d1ee3f",
-      "question": "Counter-Strike: 100 Thieves vs Nuclear TigeRES (BO3) - StarLadder StarSeries European Qualifier Group D",
-      "volume": "1002231.5326349995",
-      "liquidity": "477631.37262",
-      "end_date": "2026-07-23T19:00:00Z"
     },
     {
       "id": "0x61fc3b479c8f00a79da7ab93c45f3ef9d5d7bec59c6692548e928704541a15b5",
       "question": "San Diego Padres vs. Atlanta Braves",
-      "volume": "798568.2773579977",
-      "liquidity": "195214.0236",
+      "volume": "895136.0578679976",
+      "liquidity": "125682.16848",
       "end_date": "2026-07-30T16:15:00Z"
     },
     {
       "id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
       "question": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
-      "volume": "17121268.694944926",
-      "liquidity": "877948.06811",
+      "volume": "17130342.966976896",
+      "liquidity": "876155.71695",
       "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0x3d675f1c88099a57c12abca632cf926be1bf430125168321de06234e9930fe1a",
       "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
-      "volume": "12352208.685148928",
-      "liquidity": "2735353.2692",
+      "volume": "12365648.174148925",
+      "liquidity": "2731620.09889",
       "end_date": "2026-07-29T00:00:00Z"
-    },
-    {
-      "id": "0x7c8c18cf6179470d69b5fc9bac23abda4a22b61c52d0f861595b42783bc34db1",
-      "question": "Hamburg European Open: Elina Avanesyan vs Yulia Putintseva",
-      "volume": "620731.7525400008",
-      "liquidity": "216244.658",
-      "end_date": "2026-07-30T08:00:00Z"
     },
     {
       "id": "0x8f452820fd466a8d27aaa0a771a5305f8ebb056ff559bab03e5b499a3aae510b",
       "question": "Valorant: Eternal Fire vs Team Heretics (BO3) - VCT EMEA Group Omega",
-      "volume": "571214.1108050006",
-      "liquidity": "364817.16721",
+      "volume": "573312.3008050007",
+      "liquidity": "351182.78668",
       "end_date": "2026-07-23T21:00:00Z"
-    },
-    {
-      "id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
-      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "volume": "17917155.465064585",
-      "liquidity": "179187.31573",
-      "end_date": "2026-07-29T00:00:00Z"
-    },
-    {
-      "id": "0xcea42703974b5a36bff351df549e62bc5682d711bfcc7d46995a8cd9e5946255",
-      "question": "Livesport Prague Open: Lucie Havlickova vs Barbora Krejcikova",
-      "volume": "458098.44662800076",
-      "liquidity": "267552.0246",
-      "end_date": "2026-07-30T09:00:00Z"
-    },
-    {
-      "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
-      "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-      "volume": "14414035.5233941",
-      "liquidity": "957012.84891",
-      "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0x4e0933e853b97a9615261751aaf25c8cd6d2a0ec03e91b671308e71c3787ae7c",
       "question": "Counter-Strike: Heroic vs FOKUS (BO3) - StarLadder StarSeries European Qualifier Group B",
-      "volume": "414454.6905200003",
-      "liquidity": "77501.7249",
+      "volume": "499228.35957000026",
+      "liquidity": "103489.74541",
       "end_date": "2026-07-23T22:55:00Z"
     },
     {
-      "id": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e",
-      "question": "Will LeBron James play for the Miami Heat in 2026-27?",
-      "volume": "4391518.184058987",
-      "liquidity": "83101.74343",
-      "end_date": "2026-10-31T03:59:00Z"
+      "id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "volume": "17954831.707849585",
+      "liquidity": "271727.95423",
+      "end_date": "2026-07-29T00:00:00Z"
     },
     {
-      "id": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21",
-      "question": "Strait of Hormuz traffic returns to normal by July 31?",
-      "volume": "19853959.400065206",
-      "liquidity": "446018.22047",
-      "end_date": "2026-07-31T00:00:00Z"
-    },
-    {
-      "id": "0x0e7a0940bf65ddd1145d643fa43cf9ed4844a06398c25f9f881fc693fa90ed72",
-      "question": "Counter-Strike: Gentle Mates vs paiN (BO3) - BLAST Bounty Qualifier",
-      "volume": "372160.99263799976",
-      "liquidity": "122700.5797",
-      "end_date": "2026-07-23T21:50:00Z"
+      "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
+      "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
+      "volume": "14437237.513394099",
+      "liquidity": "953543.4151",
+      "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe",
       "question": "Tampa Bay Rays vs. Toronto Blue Jays",
-      "volume": "345301.77905699966",
-      "liquidity": "447471.2548",
+      "volume": "423382.6563130006",
+      "liquidity": "562968.4579",
       "end_date": "2026-07-30T19:07:00Z"
+    },
+    {
+      "id": "0x0e7a0940bf65ddd1145d643fa43cf9ed4844a06398c25f9f881fc693fa90ed72",
+      "question": "Counter-Strike: Gentle Mates vs paiN (BO3) - BLAST Bounty Qualifier",
+      "volume": "413927.8165109995",
+      "liquidity": "327824.77601",
+      "end_date": "2026-07-23T21:50:00Z"
+    },
+    {
+      "id": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e",
+      "question": "Will LeBron James play for the Miami Heat in 2026-27?",
+      "volume": "4411776.032773988",
+      "liquidity": "90034.12145",
+      "end_date": "2026-10-31T03:59:00Z"
+    },
+    {
+      "id": "0x6c5896252964bbc669677eae6becc35d2afd469801237cb77e4b9357f28e71ad",
+      "question": "Valorant: Gentle Mates vs Natus Vincere (BO3) - VCT EMEA Group Alpha",
+      "volume": "414702.4055090008",
+      "liquidity": "92241.936",
+      "end_date": "2026-07-23T23:30:00Z"
+    },
+    {
+      "id": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "volume": "19868434.42097221",
+      "liquidity": "409856.55131",
+      "end_date": "2026-07-31T00:00:00Z"
     },
     {
       "id": "0xf4ee7346ac76b9239301a6f0cc36fbea1c5f4bacde46b1c0741bc6efe17d7576",
       "question": "Will Hammarby Fotboll win on 2026-07-23?",
-      "volume": "315655.71963599994",
-      "liquidity": "75395.1304",
+      "volume": "382927.1173879995",
+      "liquidity": "104856.4154",
       "end_date": "2026-07-23T17:00:00Z"
+    },
+    {
+      "id": "0xd53490ec73ecbca2118c8c2ff6c4b4acf76b81c1aba575d3c2861f59c42613f6",
+      "question": "Minnesota Twins vs. Cleveland Guardians",
+      "volume": "364310.3734260004",
+      "liquidity": "267337.9512",
+      "end_date": "2026-07-30T17:10:00Z"
+    },
+    {
+      "id": "0x94503ddd10b46a406efc2685124b0b8efa172f1c09c244eb1d682cdd97466eff",
+      "question": "Bloomfield Hills: Roger Pascual vs Andres Martin",
+      "volume": "342321.4752640001",
+      "liquidity": "280667.6377",
+      "end_date": "2026-07-29T14:00:00Z"
+    },
+    {
+      "id": "0x8832a0cb723339a79b20bd21ffd064de58a8a0a68c92a014d16852d47b1a24e4",
+      "question": "Estoril Open: Pedro Martinez vs Luciano Darderi",
+      "volume": "342964.8778169999",
+      "liquidity": "215401.76926",
+      "end_date": "2026-07-29T10:00:00Z"
+    },
+    {
+      "id": "0x28db8e60313c2d62fd184a58426f59c7a74779300dc2a35622fa51664cba2152",
+      "question": "LoL: Galions vs Vitality.Bee (BO1) - LFL Regular Season",
+      "volume": "305296.3256609994",
+      "liquidity": "376399.54255",
+      "end_date": "2026-07-24T00:00:00Z"
     }
   ]
 }
