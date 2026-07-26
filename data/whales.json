@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T08:58:18.862663+00:00",
+  "last_updated": "2026-07-26T10:49:07.522375+00:00",
   "account_count": 50,
   "consensus_count": 5,
   "consensus": [
@@ -29,6 +29,31 @@
       ]
     },
     {
+      "market": "Tampere: Diego Dedura-Palomero vs Otto Virtanen",
+      "outcome": "Diego Dedura-Palomero",
+      "cid": "0x6ae314091b2b4087b228d7beeb51de97a6da072229002d03c21a12fd41681217",
+      "whale_count": 2,
+      "avg_price": 0.6605,
+      "total_capital": 76555.29,
+      "payoff_pct": 51.4,
+      "whales": [
+        {
+          "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+          "avg_price": 0.7325,
+          "size": 30072.21,
+          "pnl": 8031.94
+        },
+        {
+          "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "name": "RN1",
+          "avg_price": 0.5885,
+          "size": 46483.08,
+          "pnl": 19109.59
+        }
+      ]
+    },
+    {
       "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
       "outcome": "No",
       "cid": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe",
@@ -50,31 +75,6 @@
           "avg_price": 0.609,
           "size": 44888.02,
           "pnl": 3146.55
-        }
-      ]
-    },
-    {
-      "market": "Tampere: Diego Dedura-Palomero vs Otto Virtanen",
-      "outcome": "Diego Dedura-Palomero",
-      "cid": "0x6ae314091b2b4087b228d7beeb51de97a6da072229002d03c21a12fd41681217",
-      "whale_count": 2,
-      "avg_price": 0.4657,
-      "total_capital": 15924.82,
-      "payoff_pct": 114.7,
-      "whales": [
-        {
-          "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-          "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-          "avg_price": 0.34,
-          "size": 2980.57,
-          "pnl": 1456.67
-        },
-        {
-          "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-          "name": "RN1",
-          "avg_price": 0.5914,
-          "size": 12944.25,
-          "pnl": 2084.26
         }
       ]
     },
@@ -133,9 +133,51 @@
     {
       "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
       "name": "swisstony",
-      "pnl": 8617082.74,
-      "volume": 390971476.05,
+      "pnl": 8617313.08,
+      "volume": 391059866.43,
       "positions": [
+        {
+          "market": "Will Gangwon FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.469,
+          "size": 4934.54,
+          "pnl": -3481.97
+        },
+        {
+          "market": "Will Incheon United FC win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.4105,
+          "size": 5064.82,
+          "pnl": 53.83
+        },
+        {
+          "market": "FC Seoul vs. Ulsan HD FC: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.4289,
+          "size": 538.03,
+          "pnl": -2538.93
+        },
+        {
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 3.5",
+          "outcome": "Over",
+          "avg_price": 0.4837,
+          "size": 3508.73,
+          "pnl": 80.06
+        },
+        {
+          "market": "Will Shandong Taishan FC win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.5154,
+          "size": 3519.99,
+          "pnl": 64.23
+        },
+        {
+          "market": "Will Yunnan Yukun FC win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.4298,
+          "size": 2803.36,
+          "pnl": -32.03
+        },
         {
           "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
           "outcome": "Yes",
@@ -146,9 +188,9 @@
         {
           "market": "FC Inter Turku vs. IF Gnistan: O/U 2.5",
           "outcome": "Under",
-          "avg_price": 0.4755,
-          "size": 2468.18,
-          "pnl": -169.53
+          "avg_price": 0.4722,
+          "size": 2657.19,
+          "pnl": -227.8
         },
         {
           "market": "Will Tampereen Ilves win on 2026-07-26?",
@@ -158,11 +200,60 @@
           "pnl": -106.78
         },
         {
+          "market": "Spread: FC Seoul (-1.5)",
+          "outcome": "Ulsan HD FC",
+          "avg_price": 0.6811,
+          "size": 4235.04,
+          "pnl": 1182.27
+        },
+        {
+          "market": "FC Seoul vs. Ulsan HD FC: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.1518,
+          "size": 2046.81,
+          "pnl": 1443.24
+        },
+        {
+          "market": "FC Anyang vs. Gangwon FC: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.3,
+          "size": 305.9,
+          "pnl": -841.33
+        },
+        {
           "market": "Exact Score: Chicago Fire FC 0 - 2 Vancouver Whitecaps FC?",
           "outcome": "No",
           "avg_price": 0.95,
           "size": 3195.73,
           "pnl": -378.07
+        },
+        {
+          "market": "Spread: HJK Helsinki (-1.5)",
+          "outcome": "HJK Helsinki",
+          "avg_price": 0.4044,
+          "size": 1580.11,
+          "pnl": 175.61
+        },
+        {
+          "market": "Will Incheon United FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.5725,
+          "size": 1987.68,
+          "pnl": 42.23
+        },
+        {
+          "market": "Spread: Incheon United FC (-1.5)",
+          "outcome": "Bucheon FC 1995",
+          "avg_price": 0.6795,
+          "size": 2203.51,
+          "pnl": 1.44
+        },
+        {
+          "market": "Spread: Yunnan Yukun FC (-2.5)",
+          "outcome": "Yunnan Yukun FC",
+          "avg_price": 0.1931,
+          "size": 623.96,
+          "pnl": 6.07
         },
         {
           "market": "Red Bull Bragantino vs. Coritiba FBC: Coritiba FBC O/U 2.5",
@@ -172,11 +263,32 @@
           "pnl": 15.69
         },
         {
-          "market": "Will Shandong Taishan FC win on 2026-07-26?",
+          "market": "Incheon United FC vs. Bucheon FC 1995: Both Teams to Score",
           "outcome": "No",
-          "avg_price": 0.512,
-          "size": 1572.57,
-          "pnl": -21.87
+          "avg_price": 0.5688,
+          "size": 1838.78,
+          "pnl": 109.84
+        },
+        {
+          "market": "Will CF Monterrey win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.5377,
+          "size": 1578.09,
+          "pnl": -8.21
+        },
+        {
+          "market": "Will Chengdu Rongcheng FC win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.5191,
+          "size": 1516.37,
+          "pnl": 16.91
+        },
+        {
+          "market": "FC Seoul vs. Ulsan HD FC: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.5443,
+          "size": 2668.24,
+          "pnl": 1097.94
         },
         {
           "market": "Spread: Cleveland Guardians (-1.5)",
@@ -184,27 +296,6 @@
           "avg_price": 0.3426,
           "size": 942.17,
           "pnl": -36.1
-        },
-        {
-          "market": "Will Yunnan Yukun FC win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.4296,
-          "size": 1175.67,
-          "pnl": -12.9
-        },
-        {
-          "market": "Incheon United FC vs. Bucheon FC 1995: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.5699,
-          "size": 1554.91,
-          "pnl": 13.64
-        },
-        {
-          "market": "Spread: HJK Helsinki (-1.5)",
-          "outcome": "HJK Helsinki",
-          "avg_price": 0.3999,
-          "size": 1116.83,
-          "pnl": 40.61
         },
         {
           "market": "Will Hamarkameratene win on 2026-07-26?",
@@ -221,25 +312,46 @@
           "pnl": -5.72
         },
         {
+          "market": "FC Seoul vs. Ulsan HD FC: O/U 3.5",
+          "outcome": "Over",
+          "avg_price": 0.3263,
+          "size": 1860.6,
+          "pnl": 1040.12
+        },
+        {
           "market": "Will FC Lahti win on 2026-07-26?",
           "outcome": "Yes",
-          "avg_price": 0.3299,
-          "size": 831.11,
-          "pnl": 36.0
+          "avg_price": 0.3302,
+          "size": 868.94,
+          "pnl": 60.53
         },
         {
-          "market": "FC Seoul vs. Ulsan HD FC: O/U 4.5",
-          "outcome": "Over",
-          "avg_price": 0.1407,
-          "size": 379.81,
-          "pnl": 55.82
+          "market": "Will SK Brann win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.562,
+          "size": 1342.58,
+          "pnl": 6.86
         },
         {
-          "market": "Will Chengdu Rongcheng FC win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.5188,
-          "size": 1144.43,
-          "pnl": -8.65
+          "market": "Incheon United FC vs. Bucheon FC 1995: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.4441,
+          "size": 908.08,
+          "pnl": -113.07
+        },
+        {
+          "market": "Gwangju FC vs. Jeju SK FC: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.4945,
+          "size": 1773.22,
+          "pnl": 690.66
+        },
+        {
+          "market": "Spread: Shandong Taishan FC (-2.5)",
+          "outcome": "Shandong Taishan FC",
+          "avg_price": 0.1299,
+          "size": 293.51,
+          "pnl": 10.87
         },
         {
           "market": "Exact Score: Chicago Fire FC 1 - 2 Vancouver Whitecaps FC?",
@@ -247,6 +359,20 @@
           "avg_price": 0.9087,
           "size": 1635.38,
           "pnl": -166.05
+        },
+        {
+          "market": "Gwangju FC vs. Jeju SK FC: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.5013,
+          "size": 358.48,
+          "pnl": -587.47
+        },
+        {
+          "market": "Will IK Sirius win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.6599,
+          "size": 1252.67,
+          "pnl": 9.42
         },
         {
           "market": "IF Brommapojkarna vs. Hammarby IF: O/U 5.5",
@@ -259,8 +385,15 @@
           "market": "Sarpsborg 08 FF vs. Hamarkameratene: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.9509,
-          "size": 1775.57,
-          "pnl": 4.66
+          "size": 1782.08,
+          "pnl": 11.17
+        },
+        {
+          "market": "Will Malmo FF win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.5049,
+          "size": 912.93,
+          "pnl": -18.44
         },
         {
           "market": "Spread: Botafogo FR (-2.5)",
@@ -270,11 +403,18 @@
           "pnl": -0.9
         },
         {
-          "market": "FC Seoul vs. Ulsan HD FC: O/U 2.5",
-          "outcome": "Under",
-          "avg_price": 0.4668,
-          "size": 762.98,
-          "pnl": -75.15
+          "market": "Spread: IK Sirius (-1.5)",
+          "outcome": "IK Sirius",
+          "avg_price": 0.4405,
+          "size": 797.87,
+          "pnl": 25.38
+        },
+        {
+          "market": "Spread: Yunnan Yukun FC (-2.5)",
+          "outcome": "Shenzhen Xinpengcheng FC",
+          "avg_price": 0.8,
+          "size": 1381.33,
+          "pnl": 8.58
         },
         {
           "market": "Stroemsgodset IF vs. Lyn 1896 FK: O/U 2.5",
@@ -291,46 +431,53 @@
           "pnl": -94.0
         },
         {
-          "market": "Will SK Brann win on 2026-07-26?",
+          "market": "FC Anyang vs. Gangwon FC: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.5804,
+          "size": 572.7,
+          "pnl": -404.96
+        },
+        {
+          "market": "Will Incheon United FC vs. Bucheon FC 1995 end in a draw?",
           "outcome": "Yes",
-          "avg_price": 0.5588,
-          "size": 963.34,
-          "pnl": 10.28
+          "avg_price": 0.24,
+          "size": 443.07,
+          "pnl": 41.8
         },
         {
-          "market": "FC Seoul vs. Ulsan HD FC: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.3185,
-          "size": 536.04,
-          "pnl": 26.39
-        },
-        {
-          "market": "Spread: IK Sirius (-1.5)",
-          "outcome": "IK Sirius",
-          "avg_price": 0.4395,
-          "size": 707.78,
-          "pnl": 8.66
-        },
-        {
-          "market": "Spread: Yunnan Yukun FC (-2.5)",
+          "market": "Spread: Yunnan Yukun FC (-1.5)",
           "outcome": "Yunnan Yukun FC",
-          "avg_price": 0.186,
-          "size": 307.83,
-          "pnl": 14.17
+          "avg_price": 0.3562,
+          "size": 588.51,
+          "pnl": -2.02
+        },
+        {
+          "market": "Spread: S\u00e3o Paulo FC (-1.5)",
+          "outcome": "CR Flamengo",
+          "avg_price": 0.96,
+          "size": 1546.72,
+          "pnl": 8.81
+        },
+        {
+          "market": "Will FC Seoul win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.5348,
+          "size": 275.37,
+          "pnl": -566.19
         },
         {
           "market": "FC Inter Turku vs. IF Gnistan: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.7632,
-          "size": 1189.95,
-          "pnl": 32.96
+          "size": 1205.11,
+          "pnl": 48.12
         },
         {
           "market": "Will FC Seoul win on 2026-07-26?",
           "outcome": "No",
-          "avg_price": 0.4663,
-          "size": 614.46,
-          "pnl": -29.49
+          "avg_price": 0.4661,
+          "size": 1147.39,
+          "pnl": 499.06
         },
         {
           "market": "Will FC Inter Turku win on 2026-07-26?",
@@ -340,18 +487,25 @@
           "pnl": 37.72
         },
         {
-          "market": "Will CF Monterrey win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.5363,
-          "size": 704.35,
-          "pnl": -1.84
+          "market": "Will Gwangju FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.2297,
+          "size": 633.11,
+          "pnl": 336.29
         },
         {
-          "market": "FC Seoul vs. Ulsan HD FC: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.5247,
-          "size": 734.61,
-          "pnl": 64.23
+          "market": "Spread: Henan FC (-2.5)",
+          "outcome": "Henan FC",
+          "avg_price": 0.052,
+          "size": 74.1,
+          "pnl": 7.65
+        },
+        {
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.304,
+          "size": 439.46,
+          "pnl": 52.03
         },
         {
           "market": "Spread: SK Brann (-2.5)",
@@ -361,13 +515,6 @@
           "pnl": 12.53
         },
         {
-          "market": "Will Incheon United FC win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.5601,
-          "size": 692.29,
-          "pnl": -6.43
-        },
-        {
           "market": "Exact Score: Chicago Fire FC 3 - 2 Vancouver Whitecaps FC?",
           "outcome": "No",
           "avg_price": 0.9583,
@@ -375,11 +522,39 @@
           "pnl": -85.24
         },
         {
+          "market": "Spread: Jeju SK FC (-1.5)",
+          "outcome": "Gwangju FC",
+          "avg_price": 0.7699,
+          "size": 820.11,
+          "pnl": -122.4
+        },
+        {
           "market": "Will SC Corinthians Paulista win on 2026-07-26?",
           "outcome": "Yes",
           "avg_price": 0.2943,
           "size": 381.54,
           "pnl": 25.05
+        },
+        {
+          "market": "SE Palmeiras vs. CA Mineiro: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.4727,
+          "size": 543.51,
+          "pnl": 2.54
+        },
+        {
+          "market": "Club Necaxa vs. CF Monterrey: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.6294,
+          "size": 731.06,
+          "pnl": 17.66
+        },
+        {
+          "market": "Spread: Incheon United FC (-2.5)",
+          "outcome": "Bucheon FC 1995",
+          "avg_price": 0.86,
+          "size": 949.14,
+          "pnl": 21.57
         },
         {
           "market": "Spread: Beijing Guoan FC (-2.5)",
@@ -401,20 +576,6 @@
           "avg_price": 0.32,
           "size": 314.15,
           "pnl": -15.45
-        },
-        {
-          "market": "Spread: Yunnan Yukun FC (-1.5)",
-          "outcome": "Yunnan Yukun FC",
-          "avg_price": 0.3538,
-          "size": 383.69,
-          "pnl": 21.62
-        },
-        {
-          "market": "Spread: Sporting FC (-1.5)",
-          "outcome": "LD Alajuelense",
-          "avg_price": 0.6611,
-          "size": 1011.06,
-          "pnl": 342.28
         },
         {
           "market": "Detroit Tigers vs. Cleveland Guardians: O/U 4.5",
@@ -448,15 +609,22 @@
           "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.5763,
-          "size": 549.88,
-          "pnl": 8.11
+          "size": 535.68,
+          "pnl": -6.08
         },
         {
-          "market": "Will Incheon United FC win on 2026-07-26?",
+          "market": "Will FC Anyang vs. Gangwon FC end in a draw?",
           "outcome": "No",
-          "avg_price": 0.4302,
-          "size": 412.2,
-          "pnl": 13.7
+          "avg_price": 0.6989,
+          "size": 666.27,
+          "pnl": 14.99
+        },
+        {
+          "market": "FC Inter Turku vs. IF Gnistan: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.6614,
+          "size": 609.52,
+          "pnl": 3.27
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 2.5",
@@ -466,6 +634,13 @@
           "pnl": 131.37
         },
         {
+          "market": "Will Dalian Yingbo FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.2718,
+          "size": 253.75,
+          "pnl": 11.65
+        },
+        {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: Dalian Yingbo FC O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.7397,
@@ -473,18 +648,32 @@
           "pnl": -299.55
         },
         {
-          "market": "Will Malmo FF win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.5106,
-          "size": 428.67,
-          "pnl": -13.55
+          "market": "Will Zhejiang Zhiye FC win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.5149,
+          "size": 457.99,
+          "pnl": 8.79
         },
         {
           "market": "Spread: FC Seoul (-1.5)",
           "outcome": "FC Seoul",
           "avg_price": 0.2875,
-          "size": 257.98,
-          "pnl": 14.73
+          "size": 46.52,
+          "pnl": -196.73
+        },
+        {
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 3.5",
+          "outcome": "Over",
+          "avg_price": 0.2254,
+          "size": 151.48,
+          "pnl": -38.21
+        },
+        {
+          "market": "Will Hammarby IF win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.3299,
+          "size": 278.75,
+          "pnl": 4.16
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 2.5",
@@ -494,13 +683,6 @@
           "pnl": -115.65
         },
         {
-          "market": "Will FC Anyang vs. Gangwon FC end in a draw?",
-          "outcome": "No",
-          "avg_price": 0.7,
-          "size": 553.14,
-          "pnl": -4.06
-        },
-        {
           "market": "KBO: Hanwha Eagles vs. LG Twins",
           "outcome": "LG Twins",
           "avg_price": 0.507,
@@ -508,11 +690,46 @@
           "pnl": 191.9
         },
         {
+          "market": "Will Jeju SK FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.4708,
+          "size": 188.63,
+          "pnl": -173.88
+        },
+        {
+          "market": "Will Chengdu Rongcheng FC vs. Beijing Guoan FC end in a draw?",
+          "outcome": "No",
+          "avg_price": 0.75,
+          "size": 558.94,
+          "pnl": 3.7
+        },
+        {
+          "market": "IF Brommapojkarna vs. Hammarby IF: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.23,
+          "size": 172.49,
+          "pnl": 3.67
+        },
+        {
           "market": "Exact Score: Chicago Fire FC 0 - 0 Vancouver Whitecaps FC?",
           "outcome": "No",
           "avg_price": 0.9609,
           "size": 623.19,
           "pnl": -81.8
+        },
+        {
+          "market": "Gwangju FC vs. Jeju SK FC: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.29,
+          "size": 51.03,
+          "pnl": -160.38
+        },
+        {
+          "market": "Will HJK Helsinki win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.6698,
+          "size": 504.23,
+          "pnl": 18.18
         },
         {
           "market": "KBO: KT Wiz vs. Samsung Lions",
@@ -536,11 +753,18 @@
           "pnl": 3.53
         },
         {
-          "market": "Will Hammarby IF win on 2026-07-26?",
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.0878,
+          "size": 49.18,
+          "pnl": -12.51
+        },
+        {
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: Both Teams to Score",
           "outcome": "No",
-          "avg_price": 0.3299,
-          "size": 235.94,
-          "pnl": 3.52
+          "avg_price": 0.3176,
+          "size": 220.17,
+          "pnl": 5.0
         },
         {
           "market": "Will IF Elfsborg win on 2026-07-26?",
@@ -550,6 +774,13 @@
           "pnl": 3.29
         },
         {
+          "market": "Shandong Taishan FC vs. Henan FC: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.6845,
+          "size": 470.57,
+          "pnl": 13.67
+        },
+        {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.8281,
@@ -557,11 +788,25 @@
           "pnl": -125.11
         },
         {
+          "market": "HJK Helsinki vs. Turun Palloseura: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.76,
+          "size": 503.37,
+          "pnl": 0.0
+        },
+        {
           "market": "Exact Score: Chicago Fire FC 1 - 1 Vancouver Whitecaps FC?",
           "outcome": "No",
           "avg_price": 0.88,
           "size": 547.97,
           "pnl": -29.53
+        },
+        {
+          "market": "Shandong Taishan FC vs. Henan FC: O/U 1.5",
+          "outcome": "Over",
+          "avg_price": 0.8503,
+          "size": 578.06,
+          "pnl": 22.6
         },
         {
           "market": "Exact Score: Chicago Fire FC 0 - 3 Vancouver Whitecaps FC?",
@@ -578,11 +823,11 @@
           "pnl": -62.79
         },
         {
-          "market": "Shandong Taishan FC vs. Henan FC: O/U 1.5",
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 2.5",
           "outcome": "Over",
-          "avg_price": 0.85,
-          "size": 553.76,
-          "pnl": 9.6
+          "avg_price": 0.4228,
+          "size": 241.7,
+          "pnl": -30.86
         },
         {
           "market": "Exact Score: Chicago Fire FC 2 - 2 Vancouver Whitecaps FC?",
@@ -592,32 +837,25 @@
           "pnl": 3.13
         },
         {
-          "market": "Spread: Hartford Athletic (-2.5)",
-          "outcome": "Phoenix Rising FC",
-          "avg_price": 0.9789,
-          "size": 611.27,
-          "pnl": 12.59
-        },
-        {
-          "market": "Spread: Shandong Taishan FC (-2.5)",
-          "outcome": "Shandong Taishan FC",
-          "avg_price": 0.1299,
-          "size": 82.06,
-          "pnl": 3.04
+          "market": "Gwangju FC vs. Jeju SK FC: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.7899,
+          "size": 402.79,
+          "pnl": -83.02
         },
         {
           "market": "Spread: Sarpsborg 08 FF (-1.5)",
           "outcome": "Sarpsborg 08 FF",
           "avg_price": 0.3499,
-          "size": 215.69,
-          "pnl": 5.99
+          "size": 212.7,
+          "pnl": 3.0
         },
         {
           "market": "Will FC Anyang win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.77,
-          "size": 463.45,
-          "pnl": 2.99
+          "size": 334.88,
+          "pnl": -125.58
         },
         {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 2.5",
@@ -630,8 +868,8 @@
           "market": "FC Seoul vs. Ulsan HD FC: O/U 5.5",
           "outcome": "Over",
           "avg_price": 0.0617,
-          "size": 44.52,
-          "pnl": 7.88
+          "size": 210.74,
+          "pnl": 174.1
         },
         {
           "market": "Will GAIS win on 2026-07-26?",
@@ -641,11 +879,11 @@
           "pnl": 2.96
         },
         {
-          "market": "SE Palmeiras vs. CA Mineiro: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.4755,
-          "size": 268.65,
-          "pnl": -6.08
+          "market": "Will Incheon United FC vs. Bucheon FC 1995 end in a draw?",
+          "outcome": "No",
+          "avg_price": 0.7473,
+          "size": 417.69,
+          "pnl": -7.0
         },
         {
           "market": "Detroit Tigers vs. Cleveland Guardians: O/U 10.5",
@@ -655,11 +893,11 @@
           "pnl": -19.78
         },
         {
-          "market": "Oakland Roots SC vs. Sacramento Republic FC: Sacramento Republic FC O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.9989,
-          "size": 559.71,
-          "pnl": 0.29
+          "market": "Spread: Hammarby IF (-1.5)",
+          "outcome": "Hammarby IF",
+          "avg_price": 0.4299,
+          "size": 241.9,
+          "pnl": 2.83
         },
         {
           "market": "Will Aalesunds FK win on 2026-07-26?",
@@ -669,25 +907,11 @@
           "pnl": 2.72
         },
         {
-          "market": "Oakland Roots SC vs. Sacramento Republic FC: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.9989,
-          "size": 539.72,
-          "pnl": 0.28
-        },
-        {
-          "market": "Oakland Roots SC vs. Sacramento Republic FC: O/U 1.5",
-          "outcome": "Over",
-          "avg_price": 0.9907,
-          "size": 536.74,
-          "pnl": 4.69
-        },
-        {
           "market": "Spread: Red Bull Bragantino (-1.5)",
           "outcome": "Coritiba FBC",
           "avg_price": 0.6699,
-          "size": 361.69,
-          "pnl": 2.68
+          "size": 356.33,
+          "pnl": -2.68
         },
         {
           "market": "Spread: IK Sirius (-2.5)",
@@ -718,13 +942,6 @@
           "pnl": -60.38
         },
         {
-          "market": "Spread: Hammarby IF (-1.5)",
-          "outcome": "Hammarby IF",
-          "avg_price": 0.4299,
-          "size": 224.5,
-          "pnl": 2.63
-        },
-        {
           "market": "Toronto Blue Jays vs. Chicago Cubs: O/U 4.5",
           "outcome": "Over",
           "avg_price": 0.7681,
@@ -746,6 +963,27 @@
           "pnl": -2.48
         },
         {
+          "market": "Spread: Henan FC (-1.5)",
+          "outcome": "Henan FC",
+          "avg_price": 0.13,
+          "size": 71.63,
+          "pnl": 7.41
+        },
+        {
+          "market": "Shandong Taishan FC vs. Henan FC: 1st Half O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.8,
+          "size": 391.63,
+          "pnl": -2.46
+        },
+        {
+          "market": "Spread: Ulsan HD FC (-2.5)",
+          "outcome": "Ulsan HD FC",
+          "avg_price": 0.02,
+          "size": 85.89,
+          "pnl": 76.13
+        },
+        {
           "market": "Spread: IK Sirius (-2.5)",
           "outcome": "IK Sirius",
           "avg_price": 0.2385,
@@ -753,39 +991,39 @@
           "pnl": 12.78
         },
         {
-          "market": "Spread: Henan FC (-2.5)",
-          "outcome": "Henan FC",
-          "avg_price": 0.047,
-          "size": 25.15,
-          "pnl": 2.62
+          "market": "Spread: Yunnan Yukun FC (-1.5)",
+          "outcome": "Shenzhen Xinpengcheng FC",
+          "avg_price": 0.6362,
+          "size": 308.2,
+          "pnl": 4.19
+        },
+        {
+          "market": "FC Anyang vs. Gangwon FC: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.5111,
+          "size": 95.25,
+          "pnl": -148.2
         },
         {
           "market": "Will Gwangju FC win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.77,
-          "size": 366.56,
-          "pnl": 2.36
+          "size": 241.22,
+          "pnl": -122.97
         },
         {
           "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.7088,
-          "size": 337.97,
-          "pnl": 2.93
-        },
-        {
-          "market": "Oakland Roots SC vs. Sacramento Republic FC: Both Teams to Score",
-          "outcome": "Yes",
-          "avg_price": 0.9946,
-          "size": 463.82,
-          "pnl": 2.25
+          "size": 333.24,
+          "pnl": -1.8
         },
         {
           "market": "Stroemsgodset IF vs. Lyn 1896 FK: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.9965,
-          "size": 230.89,
-          "pnl": -228.38
+          "size": 414.78,
+          "pnl": -44.5
         },
         {
           "market": "Spread: Stroemsgodset IF (-1.5)",
@@ -798,8 +1036,8 @@
           "market": "FC Inter Turku vs. IF Gnistan: O/U 3.5",
           "outcome": "Over",
           "avg_price": 0.3092,
-          "size": 148.42,
-          "pnl": 7.21
+          "size": 152.98,
+          "pnl": 11.77
         },
         {
           "market": "Detroit Tigers vs. Cleveland Guardians",
@@ -809,11 +1047,18 @@
           "pnl": 21.84
         },
         {
+          "market": "IK Sirius vs. IFK Goteborg: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.6899,
+          "size": 314.43,
+          "pnl": 6.69
+        },
+        {
           "market": "Spread: Shenzhen Xinpengcheng FC (-1.5)",
           "outcome": "Shenzhen Xinpengcheng FC",
           "avg_price": 0.0998,
-          "size": 40.13,
-          "pnl": -4.37
+          "size": 37.9,
+          "pnl": -6.6
         },
         {
           "market": "HJK Helsinki vs. Turun Palloseura: O/U 2.5",
@@ -833,8 +1078,8 @@
           "market": "FC Inter Turku vs. IF Gnistan: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.5107,
-          "size": 239.37,
-          "pnl": 19.07
+          "size": 243.64,
+          "pnl": 23.34
         },
         {
           "market": "Will Chicago Fire FC win on 2026-07-16?",
@@ -851,6 +1096,20 @@
           "pnl": -38.13
         },
         {
+          "market": "Will Shandong Taishan FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.4749,
+          "size": 199.59,
+          "pnl": 0.01
+        },
+        {
+          "market": "Spread: Botafogo FR (-1.5)",
+          "outcome": "Cruzeiro EC",
+          "avg_price": 0.92,
+          "size": 385.8,
+          "pnl": 2.09
+        },
+        {
           "market": "Spread: Cleveland Guardians (-1.5)",
           "outcome": "Detroit Tigers",
           "avg_price": 0.6698,
@@ -861,15 +1120,15 @@
           "market": "Spread: Dalian Yingbo FC (-2.5)",
           "outcome": "Dalian Yingbo FC",
           "avg_price": 0.04,
-          "size": 18.83,
-          "pnl": 2.46
+          "size": 19.64,
+          "pnl": 3.27
         },
         {
           "market": "Will Lyn 1896 FK win on 2026-07-25?",
           "outcome": "No",
           "avg_price": 0.8282,
-          "size": 204.09,
-          "pnl": -130.35
+          "size": 403.61,
+          "pnl": 69.17
         },
         {
           "market": "KBO: NC Dinos vs. Kia Tigers",
@@ -882,15 +1141,15 @@
           "market": "FC Inter Turku vs. IF Gnistan: O/U 1.5",
           "outcome": "Under",
           "avg_price": 0.2301,
-          "size": 85.47,
-          "pnl": -6.03
+          "size": 81.49,
+          "pnl": -10.0
         },
         {
-          "market": "Will Dalian Yingbo FC win on 2026-07-26?",
+          "market": "Will Shenzhen Xinpengcheng FC win on 2026-07-26?",
           "outcome": "Yes",
-          "avg_price": 0.2614,
-          "size": 107.9,
-          "pnl": 5.32
+          "avg_price": 0.2352,
+          "size": 84.89,
+          "pnl": -8.0
         },
         {
           "market": "Will IF Gnistan win on 2026-07-26?",
@@ -914,25 +1173,25 @@
           "pnl": -8.46
         },
         {
+          "market": "Spread: SC Corinthians Paulista (-1.5)",
+          "outcome": "EC Bahia",
+          "avg_price": 0.8628,
+          "size": 335.53,
+          "pnl": 4.67
+        },
+        {
           "market": "Stroemsgodset IF vs. Lyn 1896 FK: O/U 0.5",
           "outcome": "Under",
           "avg_price": 0.0244,
-          "size": 189.45,
-          "pnl": 180.15
-        },
-        {
-          "market": "Shandong Taishan FC vs. Henan FC: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.675,
-          "size": 253.69,
-          "pnl": -0.0
+          "size": 37.97,
+          "pnl": 28.67
         },
         {
           "market": "FC Anyang vs. Gangwon FC: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.3995,
-          "size": 154.33,
-          "pnl": 5.75
+          "size": 245.43,
+          "pnl": 96.86
         },
         {
           "market": "Will Halmstads BK win on 2026-07-26?",
@@ -942,25 +1201,39 @@
           "pnl": -1.86
         },
         {
+          "market": "Will HJK Helsinki vs. Turun Palloseura end in a draw?",
+          "outcome": "No",
+          "avg_price": 0.8094,
+          "size": 302.63,
+          "pnl": 3.89
+        },
+        {
           "market": "Spread: Shenzhen Xinpengcheng FC (-2.5)",
           "outcome": "Shenzhen Xinpengcheng FC",
           "avg_price": 0.0349,
-          "size": 11.84,
-          "pnl": -0.91
+          "size": 10.75,
+          "pnl": -2.0
         },
         {
           "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.5,
-          "size": 178.2,
-          "pnl": -1.8
+          "size": 181.8,
+          "pnl": 1.8
         },
         {
-          "market": "Spread: FC Seoul (-1.5)",
-          "outcome": "Ulsan HD FC",
-          "avg_price": 0.72,
-          "size": 246.09,
-          "pnl": -8.89
+          "market": "Incheon United FC vs. Bucheon FC 1995: 1st Half O/U 1.5",
+          "outcome": "Over",
+          "avg_price": 0.2777,
+          "size": 70.92,
+          "pnl": -27.56
+        },
+        {
+          "market": "SK Brann vs. V\u00e5lerenga Fotball: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.34,
+          "size": 121.59,
+          "pnl": 1.71
         },
         {
           "market": "Malmo FF vs. IF Elfsborg: O/U 3.5",
@@ -987,8 +1260,8 @@
           "market": "Spread: HJK Helsinki (-1.5)",
           "outcome": "Turun Palloseura",
           "avg_price": 0.5887,
-          "size": 204.95,
-          "pnl": -1.32
+          "size": 190.94,
+          "pnl": -15.34
         },
         {
           "market": "Spread: Atlanta Braves (-1.5)",
@@ -998,25 +1271,11 @@
           "pnl": -42.42
         },
         {
-          "market": "Will Shenzhen Xinpengcheng FC win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.2399,
-          "size": 71.53,
-          "pnl": -8.31
-        },
-        {
-          "market": "Will FC Seoul win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.5152,
-          "size": 182.87,
-          "pnl": 13.09
-        },
-        {
-          "market": "Will IK Sirius win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.66,
-          "size": 215.5,
-          "pnl": -1.65
+          "market": "FC Anyang vs. Gangwon FC: 1st Half O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.6363,
+          "size": 334.14,
+          "pnl": 121.4
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 3.5",
@@ -1050,15 +1309,15 @@
           "market": "Stroemsgodset IF vs. Lyn 1896 FK: O/U 3.5",
           "outcome": "Over",
           "avg_price": 0.2932,
-          "size": 154.81,
-          "pnl": 63.1
+          "size": 29.71,
+          "pnl": -62.0
         },
         {
           "market": "Gwangju FC vs. Jeju SK FC: O/U 3.5",
           "outcome": "Over",
           "avg_price": 0.2002,
-          "size": 63.86,
-          "pnl": 1.49
+          "size": 107.44,
+          "pnl": 45.07
         },
         {
           "market": "Exact Score: Chicago Fire FC 2 - 1 Vancouver Whitecaps FC?",
@@ -1071,15 +1330,22 @@
           "market": "St. Louis Cardinals vs. Cincinnati Reds: O/U 6.5",
           "outcome": "Over",
           "avg_price": 0.7777,
-          "size": 229.46,
-          "pnl": -10.09
+          "size": 210.98,
+          "pnl": -28.57
         },
         {
           "market": "Gwangju FC vs. Jeju SK FC: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9599,
-          "size": 295.09,
-          "pnl": 3.05
+          "size": 255.09,
+          "pnl": -36.95
+        },
+        {
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.5677,
+          "size": 189.09,
+          "pnl": 17.32
         },
         {
           "market": "Incheon United FC vs. Bucheon FC 1995: O/U 0.5",
@@ -1092,8 +1358,8 @@
           "market": "Spread: FC Inter Turku (-1.5)",
           "outcome": "FC Inter Turku",
           "avg_price": 0.3016,
-          "size": 96.59,
-          "pnl": 5.55
+          "size": 98.1,
+          "pnl": 7.06
         },
         {
           "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: O/U 3.5",
@@ -1117,11 +1383,25 @@
           "pnl": 33.82
         },
         {
+          "market": "Malmo FF leading at halftime?",
+          "outcome": "No",
+          "avg_price": 0.61,
+          "size": 172.8,
+          "pnl": -2.88
+        },
+        {
           "market": "Shanghai Shenhua FC vs. Beijing Guoan FC: O/U 4.5",
           "outcome": "Under",
           "avg_price": 0.7099,
           "size": 200.11,
           "pnl": -2.86
+        },
+        {
+          "market": "Spread: Bucheon FC 1995 (-1.5)",
+          "outcome": "Incheon United FC",
+          "avg_price": 0.9566,
+          "size": 274.44,
+          "pnl": 2.8
         },
         {
           "market": "Will FC Inter Turku win on 2026-07-26?",
@@ -1134,15 +1414,22 @@
           "market": "Spread: IK Sirius (-1.5)",
           "outcome": "IFK Goteborg",
           "avg_price": 0.56,
-          "size": 155.96,
-          "pnl": -1.41
+          "size": 153.15,
+          "pnl": -4.21
+        },
+        {
+          "market": "Club Necaxa vs. CF Monterrey: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.3958,
+          "size": 114.47,
+          "pnl": 5.3
         },
         {
           "market": "FC Seoul vs. Ulsan HD FC: FC Seoul O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.5234,
-          "size": 152.08,
-          "pnl": 11.15
+          "size": 196.53,
+          "pnl": 55.6
         },
         {
           "market": "Will Chicago Fire FC win on 2026-07-16?",
@@ -1169,15 +1456,15 @@
           "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9699,
-          "size": 248.1,
-          "pnl": -1.8
+          "size": 247.84,
+          "pnl": -2.06
         },
         {
           "market": "KBO: Samsung Lions vs. Doosan Bears",
           "outcome": "Doosan Bears",
           "avg_price": 0.5322,
-          "size": 131.11,
-          "pnl": -5.72
+          "size": 239.08,
+          "pnl": 102.25
         },
         {
           "market": "Will Shanghai Shenhua FC vs. Beijing Guoan FC end in a draw?",
@@ -1185,6 +1472,20 @@
           "avg_price": 0.76,
           "size": 211.47,
           "pnl": 16.66
+        },
+        {
+          "market": "Will Club Necaxa vs. CF Monterrey end in a draw?",
+          "outcome": "Yes",
+          "avg_price": 0.2319,
+          "size": 59.52,
+          "pnl": 0.77
+        },
+        {
+          "market": "Will Bucheon FC 1995 win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.84,
+          "size": 214.4,
+          "pnl": 3.76
         },
         {
           "market": "Spread: FK Bod\u00f8/Glimt (-1.5)",
@@ -1201,6 +1502,20 @@
           "pnl": -93.86
         },
         {
+          "market": "Tampereen Ilves vs. FC Lahti: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.42,
+          "size": 105.91,
+          "pnl": 2.46
+        },
+        {
+          "market": "Incheon United FC vs. Bucheon FC 1995: Incheon United FC O/U 1.5",
+          "outcome": "Over",
+          "avg_price": 0.49,
+          "size": 167.28,
+          "pnl": 46.74
+        },
+        {
           "market": "KBO: NC Dinos vs. KT Wiz",
           "outcome": "NC Dinos",
           "avg_price": 0.42,
@@ -1211,15 +1526,15 @@
           "market": "FC Anyang vs. Gangwon FC: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.8833,
-          "size": 219.52,
-          "pnl": 4.05
+          "size": 243.79,
+          "pnl": 28.32
         },
         {
           "market": "KBO: LG Twins vs. Hanwha Eagles",
           "outcome": "Hanwha Eagles",
           "avg_price": 0.51,
-          "size": 127.58,
-          "pnl": 3.64
+          "size": 222.34,
+          "pnl": 98.41
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 0 - 1 Dalian Yingbo FC?",
@@ -1227,13 +1542,6 @@
           "avg_price": 0.0467,
           "size": 90.93,
           "pnl": 79.6
-        },
-        {
-          "market": "Will Shandong Taishan FC win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.4786,
-          "size": 119.05,
-          "pnl": 3.92
         },
         {
           "market": "IK Sirius vs. IFK Goteborg: Both Teams to Score",
@@ -1264,6 +1572,13 @@
           "pnl": -0.94
         },
         {
+          "market": "Will Gangwon FC win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.52,
+          "size": 166.21,
+          "pnl": 47.0
+        },
+        {
           "market": "Will Chicago Fire FC vs. Vancouver Whitecaps FC end in a draw?",
           "outcome": "No",
           "avg_price": 0.75,
@@ -1271,25 +1586,11 @@
           "pnl": 10.26
         },
         {
-          "market": "Spread: Incheon United FC (-1.5)",
-          "outcome": "Bucheon FC 1995",
-          "avg_price": 0.7146,
-          "size": 160.7,
-          "pnl": -2.21
-        },
-        {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.59,
           "size": 156.8,
           "pnl": 24.64
-        },
-        {
-          "market": "Will Zhejiang Zhiye FC win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.5,
-          "size": 113.88,
-          "pnl": 3.32
         },
         {
           "market": "Red Bull Bragantino vs. Coritiba FBC: O/U 2.5",
@@ -1302,43 +1603,8 @@
           "market": "Stroemsgodset IF vs. Lyn 1896 FK: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.6626,
-          "size": 111.39,
-          "pnl": -34.77
-        },
-        {
-          "market": "Will Gangwon FC win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.52,
-          "size": 113.85,
-          "pnl": 1.08
-        },
-        {
-          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.3895,
-          "size": 85.08,
-          "pnl": 1.18
-        },
-        {
-          "market": "Sporting FC vs. LD Alajuelense: O/U 2.5",
-          "outcome": "Under",
-          "avg_price": 0.4279,
-          "size": 215.02,
-          "pnl": 122.96
-        },
-        {
-          "market": "FC Anyang vs. Gangwon FC: 1st Half O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.64,
-          "size": 137.36,
-          "pnl": 1.06
-        },
-        {
-          "market": "FC Anyang vs. Gangwon FC: O/U 0.5",
-          "outcome": "Under",
-          "avg_price": 0.1012,
-          "size": 21.21,
-          "pnl": -0.28
+          "size": 199.62,
+          "pnl": 53.46
         },
         {
           "market": "Exact Score: Chicago Fire FC 0 - 1 Vancouver Whitecaps FC?",
@@ -1351,8 +1617,22 @@
           "market": "Spread: Gwangju FC (-1.5)",
           "outcome": "Jeju SK FC",
           "avg_price": 0.92,
-          "size": 197.16,
-          "pnl": 3.16
+          "size": 175.02,
+          "pnl": -18.98
+        },
+        {
+          "market": "Shandong Taishan FC vs. Henan FC: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.2884,
+          "size": 62.15,
+          "pnl": 1.38
+        },
+        {
+          "market": "FC Anyang vs. Gangwon FC: O/U 3.5",
+          "outcome": "Over",
+          "avg_price": 0.2029,
+          "size": 79.76,
+          "pnl": 37.71
         },
         {
           "market": "Will IF Brommapojkarna vs. Hammarby IF end in a draw?",
@@ -1362,11 +1642,11 @@
           "pnl": 1.03
         },
         {
-          "market": "Will Club Necaxa vs. CF Monterrey end in a draw?",
-          "outcome": "Yes",
-          "avg_price": 0.2299,
-          "size": 47.87,
-          "pnl": 1.02
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.6899,
+          "size": 141.85,
+          "pnl": 3.02
         },
         {
           "market": "Birmingham Legion FC vs. New Mexico United: O/U 3.5",
@@ -1393,8 +1673,8 @@
           "market": "FC Anyang vs. Gangwon FC: O/U 4.5",
           "outcome": "Under",
           "avg_price": 0.91,
-          "size": 176.96,
-          "pnl": 0.97
+          "size": 154.72,
+          "pnl": -21.27
         },
         {
           "market": "Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional: O/U 2.5",
@@ -1407,15 +1687,22 @@
           "market": "Will FK Bod\u00f8/Glimt win on 2026-07-26?",
           "outcome": "Yes",
           "avg_price": 0.7199,
-          "size": 135.82,
-          "pnl": 0.94
+          "size": 133.94,
+          "pnl": -0.94
         },
         {
           "market": "FC Inter Turku vs. IF Gnistan: IF Gnistan O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.271,
-          "size": 51.47,
-          "pnl": 0.74
+          "size": 50.54,
+          "pnl": -0.19
+        },
+        {
+          "market": "FC Seoul vs. Ulsan HD FC: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.4315,
+          "size": 29.4,
+          "pnl": -49.9
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 3 - 2 Dalian Yingbo FC?",
@@ -1428,8 +1715,8 @@
           "market": "Tampereen Ilves leading at halftime?",
           "outcome": "No",
           "avg_price": 0.6699,
-          "size": 123.56,
-          "pnl": 2.71
+          "size": 125.34,
+          "pnl": 4.49
         },
         {
           "market": "Spread: Vancouver Whitecaps FC (-2.5)",
@@ -1439,18 +1726,32 @@
           "pnl": 9.35
         },
         {
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.8947,
+          "size": 159.98,
+          "pnl": 0.04
+        },
+        {
           "market": "SK Brann vs. V\u00e5lerenga Fotball: SK Brann O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.8799,
-          "size": 160.64,
-          "pnl": 3.57
+          "size": 162.42,
+          "pnl": 5.35
         },
         {
-          "market": "FC Anyang vs. Gangwon FC: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.53,
-          "size": 93.13,
-          "pnl": -0.89
+          "market": "Spread: HJK Helsinki (-2.5)",
+          "outcome": "HJK Helsinki",
+          "avg_price": 0.2384,
+          "size": 44.24,
+          "pnl": 2.04
+        },
+        {
+          "market": "FC Anyang vs. Gangwon FC: 1st Half O/U 1.5",
+          "outcome": "Over",
+          "avg_price": 0.26,
+          "size": 93.36,
+          "pnl": 47.56
         },
         {
           "market": "Will EC Vit\u00f3ria win on 2026-07-26?",
@@ -1460,32 +1761,60 @@
           "pnl": 0.96
         },
         {
+          "market": "IK Sirius vs. IFK Goteborg: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.2791,
+          "size": 49.7,
+          "pnl": 1.0
+        },
+        {
           "market": "FC Seoul vs. Ulsan HD FC: FC Seoul O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.8208,
-          "size": 146.01,
-          "pnl": 4.18
+          "size": 142.55,
+          "pnl": 0.72
         },
         {
-          "market": "Spread: Yunnan Yukun FC (-1.5)",
-          "outcome": "Shenzhen Xinpengcheng FC",
-          "avg_price": 0.6299,
-          "size": 106.32,
+          "market": "FC Anyang vs. Gangwon FC: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.0899,
+          "size": 34.47,
+          "pnl": 18.96
+        },
+        {
+          "market": "Shandong Taishan FC vs. Henan FC: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.3183,
+          "size": 54.17,
+          "pnl": -0.58
+        },
+        {
+          "market": "SK Slavia Praha vs. 1. FC Slov\u00e1cko: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.4,
+          "size": 67.23,
           "pnl": -0.85
         },
         {
           "market": "FC Seoul vs. Ulsan HD FC: 1st Half O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.34,
-          "size": 60.48,
-          "pnl": 3.36
+          "size": 167.92,
+          "pnl": 110.8
+        },
+        {
+          "market": "Gwangju FC vs. Jeju SK FC: O/U 4.5",
+          "outcome": "Over",
+          "avg_price": 0.0896,
+          "size": 33.46,
+          "pnl": 18.46
         },
         {
           "market": "FC Anyang vs. Gangwon FC: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.6695,
-          "size": 111.97,
-          "pnl": 1.72
+          "size": 151.49,
+          "pnl": 41.24
         },
         {
           "market": "Will Shenzhen Xinpengcheng FC win on 2026-07-26?",
@@ -1495,11 +1824,11 @@
           "pnl": 4.72
         },
         {
-          "market": "Gwangju FC vs. Jeju SK FC: 1st Half O/U 0.5",
-          "outcome": "Under",
-          "avg_price": 0.3632,
-          "size": 57.51,
-          "pnl": -1.34
+          "market": "Spread: Incheon United FC (-2.5)",
+          "outcome": "Incheon United FC",
+          "avg_price": 0.1269,
+          "size": 19.23,
+          "pnl": -1.11
         },
         {
           "market": "Spread: SK Brann (-1.5)",
@@ -1509,18 +1838,11 @@
           "pnl": 0.81
         },
         {
-          "market": "Will Hartford Athletic win on 2026-07-25?",
-          "outcome": "No",
-          "avg_price": 0.8177,
-          "size": 158.66,
-          "pnl": 28.85
-        },
-        {
           "market": "FC Inter Turku vs. IF Gnistan: Both Teams to Score",
           "outcome": "Yes",
           "avg_price": 0.5398,
-          "size": 85.26,
-          "pnl": 0.8
+          "size": 88.37,
+          "pnl": 3.92
         },
         {
           "market": "KBO: Hanwha Eagles vs. Lotte Giants",
@@ -1537,11 +1859,18 @@
           "pnl": 25.74
         },
         {
+          "market": "Spread: FK Bod\u00f8/Glimt (-2.5)",
+          "outcome": "FK Bod\u00f8/Glimt",
+          "avg_price": 0.2999,
+          "size": 47.26,
+          "pnl": 0.77
+        },
+        {
           "market": "Will S\u00e3o Paulo FC win on 2026-07-26?",
           "outcome": "Yes",
           "avg_price": 0.12,
-          "size": 17.62,
-          "pnl": -0.77
+          "size": 19.16,
+          "pnl": 0.77
         },
         {
           "market": "IK Sirius vs. IFK Goteborg: O/U 3.5",
@@ -1551,18 +1880,32 @@
           "pnl": 2.29
         },
         {
+          "market": "Will 1. FC Slov\u00e1cko win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.9499,
+          "size": 144.78,
+          "pnl": 0.0
+        },
+        {
           "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 4.5",
           "outcome": "Over",
           "avg_price": 0.2999,
-          "size": 46.33,
+          "size": 44.81,
+          "pnl": -0.76
+        },
+        {
+          "market": "Chengdu Rongcheng FC vs. Beijing Guoan FC: O/U 5.5",
+          "outcome": "Over",
+          "avg_price": 0.1,
+          "size": 15.89,
           "pnl": 0.76
         },
         {
-          "market": "Incheon United FC vs. Bucheon FC 1995: Both Teams to Score",
+          "market": "Will Henan FC win on 2026-07-26?",
           "outcome": "Yes",
-          "avg_price": 0.4185,
-          "size": 63.66,
-          "pnl": 0.97
+          "avg_price": 0.2881,
+          "size": 44.49,
+          "pnl": 1.04
         },
         {
           "market": "Will AIK win on 2026-07-27?",
@@ -1572,11 +1915,18 @@
           "pnl": 0.74
         },
         {
+          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 5.5",
+          "outcome": "Over",
+          "avg_price": 0.0325,
+          "size": 21.1,
+          "pnl": 16.28
+        },
+        {
           "market": "Shandong Taishan FC vs. Henan FC: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.86,
-          "size": 126.28,
-          "pnl": 0.0
+          "size": 122.61,
+          "pnl": -3.67
         },
         {
           "market": "Will Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC end in a draw?",
@@ -1586,25 +1936,11 @@
           "pnl": 0.81
         },
         {
-          "market": "FC Anyang vs. Gangwon FC: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.2,
-          "size": 29.85,
-          "pnl": 0.73
-        },
-        {
           "market": "Will Stroemsgodset IF vs. Lyn 1896 FK end in a draw?",
           "outcome": "Yes",
           "avg_price": 0.5551,
-          "size": 72.36,
-          "pnl": -7.82
-        },
-        {
-          "market": "Shandong Taishan FC vs. Henan FC: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.32,
-          "size": 46.84,
-          "pnl": 0.72
+          "size": 144.36,
+          "pnl": 64.18
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: Chicago Fire FC O/U 2.5",
@@ -1617,8 +1953,8 @@
           "market": "Will Tianjin Jinmen Hu FC vs. Liaoning Tieren FC end in a draw?",
           "outcome": "No",
           "avg_price": 0.7103,
-          "size": 108.22,
-          "pnl": 6.4
+          "size": 101.77,
+          "pnl": -0.05
         },
         {
           "market": "Birmingham Legion FC vs. New Mexico United: O/U 3.5",
@@ -1638,8 +1974,8 @@
           "market": "Spread: SE Palmeiras (-1.5)",
           "outcome": "CA Mineiro",
           "avg_price": 0.66,
-          "size": 93.55,
-          "pnl": 0.7
+          "size": 94.25,
+          "pnl": 1.41
         },
         {
           "market": "Will Viking FK win on 2026-07-26?",
@@ -1652,43 +1988,36 @@
           "market": "Gwangju FC vs. Jeju SK FC: O/U 4.5",
           "outcome": "Under",
           "avg_price": 0.9097,
-          "size": 127.63,
-          "pnl": 0.73
+          "size": 111.59,
+          "pnl": -15.31
         },
         {
           "market": "FC Inter Turku vs. IF Gnistan: Both Teams to Score",
           "outcome": "No",
           "avg_price": 0.4599,
-          "size": 62.09,
-          "pnl": -0.68
+          "size": 59.36,
+          "pnl": -3.41
         },
         {
           "market": "Spread: Jeju SK FC (-2.5)",
           "outcome": "Jeju SK FC",
           "avg_price": 0.07,
-          "size": 11.56,
-          "pnl": 2.04
-        },
-        {
-          "market": "Gwangju FC vs. Jeju SK FC: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.53,
-          "size": 72.07,
-          "pnl": 0.0
+          "size": 63.24,
+          "pnl": 53.72
         },
         {
           "market": "FC Anyang vs. Gangwon FC: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.966,
-          "size": 129.78,
-          "pnl": 0.47
+          "size": 122.82,
+          "pnl": -6.5
         },
         {
-          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 2.5",
-          "outcome": "Under",
-          "avg_price": 0.6163,
-          "size": 80.07,
-          "pnl": -1.5
+          "market": "Will Beijing Guoan FC win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.28,
+          "size": 37.69,
+          "pnl": 0.65
         },
         {
           "market": "Chengdu Rongcheng FC vs. Beijing Guoan FC: Both Teams to Score",
@@ -1757,8 +2086,8 @@
           "market": "Gwangju FC vs. Jeju SK FC: Gwangju FC O/U 1.5",
           "outcome": "Under",
           "avg_price": 0.7799,
-          "size": 101.25,
-          "pnl": 0.0
+          "size": 36.35,
+          "pnl": -64.9
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 4.5",
@@ -1768,11 +2097,18 @@
           "pnl": 1.2
         },
         {
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 5.5",
+          "outcome": "Under",
+          "avg_price": 0.8576,
+          "size": 108.1,
+          "pnl": -1.62
+        },
+        {
           "market": "FC Inter Turku vs. IF Gnistan: 1st Half O/U 0.5",
           "outcome": "Under",
           "avg_price": 0.2999,
-          "size": 36.37,
-          "pnl": -1.93
+          "size": 35.75,
+          "pnl": -2.55
         },
         {
           "market": "CR Flamengo vs. S\u00e3o Paulo FC: O/U 1.5",
@@ -1782,11 +2118,18 @@
           "pnl": 0.63
         },
         {
+          "market": "CF Pachuca vs. Quer\u00e9taro FC: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.2099,
+          "size": 26.85,
+          "pnl": 0.62
+        },
+        {
           "market": "Gwangju FC vs. Jeju SK FC: Gwangju FC O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.2199,
-          "size": 27.45,
-          "pnl": 0.0
+          "size": 89.84,
+          "pnl": 62.39
         },
         {
           "market": "Estudiantes de La Plata vs. CA Independiente: O/U 1.5",
@@ -1817,6 +2160,13 @@
           "pnl": 2.62
         },
         {
+          "market": "Gwangju FC vs. Jeju SK FC: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.4077,
+          "size": 79.59,
+          "pnl": 29.28
+        },
+        {
           "market": "Will CR Flamengo win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.34,
@@ -1827,8 +2177,8 @@
           "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 5.5",
           "outcome": "Over",
           "avg_price": 0.1495,
-          "size": 20.28,
-          "pnl": 1.9
+          "size": 19.05,
+          "pnl": 0.67
         },
         {
           "market": "Spread: Henan FC (-1.5)",
@@ -1843,6 +2193,13 @@
           "avg_price": 0.1046,
           "size": 16.99,
           "pnl": 4.29
+        },
+        {
+          "market": "FC Seoul vs. Ulsan HD FC: 1st Half O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.1253,
+          "size": 77.44,
+          "pnl": 62.39
         },
         {
           "market": "Will Molde FK win on 2026-07-26?",
@@ -1862,22 +2219,15 @@
           "market": "Will IK Sirius win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.3344,
-          "size": 41.03,
-          "pnl": 1.24
+          "size": 39.86,
+          "pnl": 0.07
         },
         {
-          "market": "Gwangju FC vs. Jeju SK FC: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.4072,
-          "size": 49.13,
-          "pnl": 0.92
-        },
-        {
-          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 5.5",
-          "outcome": "Under",
-          "avg_price": 0.8599,
-          "size": 98.48,
-          "pnl": -2.95
+          "market": "Club Necaxa vs. CF Monterrey: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.3799,
+          "size": 45.55,
+          "pnl": 0.59
         },
         {
           "market": "Wuhan San Zhen FC vs. Henan FC: O/U 5.5",
@@ -1887,11 +2237,18 @@
           "pnl": -9.12
         },
         {
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.11,
+          "size": 14.08,
+          "pnl": 1.17
+        },
+        {
           "market": "Shandong Taishan FC vs. Henan FC: O/U 1.5",
           "outcome": "Under",
           "avg_price": 0.13,
-          "size": 15.68,
-          "pnl": 0.58
+          "size": 13.35,
+          "pnl": -1.74
         },
         {
           "market": "Will Shanghai Shenhua FC vs. Beijing Guoan FC end in a draw?",
@@ -1904,8 +2261,8 @@
           "market": "Sandefjord Fotball vs. FK Bod\u00f8/Glimt: O/U 3.5",
           "outcome": "Over",
           "avg_price": 0.4711,
-          "size": 56.7,
-          "pnl": 2.18
+          "size": 56.12,
+          "pnl": 1.6
         },
         {
           "market": "KBO: NC Dinos vs. KT Wiz",
@@ -1918,8 +2275,8 @@
           "market": "Will Malmo FF vs. IF Elfsborg end in a draw?",
           "outcome": "No",
           "avg_price": 0.75,
-          "size": 84.93,
-          "pnl": -0.57
+          "size": 86.07,
+          "pnl": 0.57
         },
         {
           "market": "Will Shanghai Haigang FC win on 2026-07-12?",
@@ -1932,29 +2289,22 @@
           "market": "Incheon United FC vs. Bucheon FC 1995: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9678,
-          "size": 110.4,
-          "pnl": 0.75
-        },
-        {
-          "market": "KBO: Samsung Lions vs. Doosan Bears",
-          "outcome": "Samsung Lions",
-          "avg_price": 0.4627,
-          "size": 55.25,
-          "pnl": 3.07
+          "size": 97.14,
+          "pnl": -12.51
         },
         {
           "market": "Incheon United FC vs. Bucheon FC 1995: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.66,
-          "size": 74.88,
-          "pnl": 0.56
+          "size": 73.75,
+          "pnl": -0.56
         },
         {
           "market": "Shandong Taishan FC vs. Henan FC: O/U 5.5",
           "outcome": "Over",
           "avg_price": 0.1255,
-          "size": 15.67,
-          "pnl": 1.62
+          "size": 18.46,
+          "pnl": 4.41
         },
         {
           "market": "Spread: Hammarby IF (-2.5)",
@@ -2002,8 +2352,8 @@
           "market": "KFUM-Kameratene Oslo vs. Molde FK: KFUM-Kameratene Oslo O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.8399,
-          "size": 89.82,
-          "pnl": 0.53
+          "size": 90.35,
+          "pnl": 1.06
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 2 - 0 Dalian Yingbo FC?",
@@ -2037,22 +2387,29 @@
           "market": "CF Pachuca vs. Quer\u00e9taro FC: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.79,
-          "size": 81.89,
-          "pnl": 0.52
+          "size": 80.86,
+          "pnl": -0.52
         },
         {
           "market": "Spread: Shandong Taishan FC (-1.5)",
           "outcome": "Shandong Taishan FC",
           "avg_price": 0.27,
-          "size": 28.05,
-          "pnl": 0.51
+          "size": 27.54,
+          "pnl": 0.0
         },
         {
           "market": "Gr\u00eamio FBPA vs. Fluminense FC: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.73,
-          "size": 73.81,
-          "pnl": 0.0
+          "size": 74.32,
+          "pnl": 0.51
+        },
+        {
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.2864,
+          "size": 29.66,
+          "pnl": 0.86
         },
         {
           "market": "Tampa Bay Rays vs. New York Yankees: O/U 10.5",
@@ -2062,11 +2419,18 @@
           "pnl": 14.0
         },
         {
+          "market": "Incheon United FC vs. Bucheon FC 1995: Draw at halftime?",
+          "outcome": "No",
+          "avg_price": 0.5699,
+          "size": 30.5,
+          "pnl": -26.5
+        },
+        {
           "market": "Incheon United FC vs. Bucheon FC 1995: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.81,
-          "size": 81.0,
-          "pnl": 0.0
+          "size": 82.0,
+          "pnl": 1.0
         },
         {
           "market": "KBO: NC Dinos vs. Kia Tigers",
@@ -2097,32 +2461,46 @@
           "pnl": -0.49
         },
         {
+          "market": "Will Turun Palloseura win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.8599,
+          "size": 84.08,
+          "pnl": 1.44
+        },
+        {
           "market": "Will Malmo FF vs. IF Elfsborg end in a draw?",
           "outcome": "Yes",
           "avg_price": 0.2439,
-          "size": 24.48,
-          "pnl": 1.06
+          "size": 23.52,
+          "pnl": 0.1
         },
         {
           "market": "KBO: NC Dinos vs. SSG Landers",
           "outcome": "NC Dinos",
           "avg_price": 0.6665,
-          "size": 60.78,
-          "pnl": -2.03
+          "size": 87.16,
+          "pnl": 24.35
+        },
+        {
+          "market": "Gr\u00eamio FBPA vs. Fluminense FC: O/U 3.5",
+          "outcome": "Over",
+          "avg_price": 0.26,
+          "size": 23.97,
+          "pnl": -0.47
         },
         {
           "market": "Will HJK Helsinki win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.35,
-          "size": 31.49,
-          "pnl": -1.41
+          "size": 28.67,
+          "pnl": -4.23
         },
         {
           "market": "Club Necaxa vs. CF Monterrey: O/U 4.5",
           "outcome": "Over",
           "avg_price": 0.2,
-          "size": 19.06,
-          "pnl": 0.46
+          "size": 17.2,
+          "pnl": -1.4
         },
         {
           "market": "Exact Score: Wuhan San Zhen FC 0 - 1 Henan FC?",
@@ -2130,13 +2508,6 @@
           "avg_price": 0.0758,
           "size": 41.51,
           "pnl": 34.51
-        },
-        {
-          "market": "Stroemsgodset IF vs. Lyn 1896 FK: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.3418,
-          "size": 45.49,
-          "pnl": 14.33
         },
         {
           "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: O/U 1.5",
@@ -2167,11 +2538,25 @@
           "pnl": -7.39
         },
         {
+          "market": "FK Bod\u00f8/Glimt leading at halftime?",
+          "outcome": "No",
+          "avg_price": 0.4434,
+          "size": 39.58,
+          "pnl": 0.58
+        },
+        {
+          "market": "Will FC Anyang win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.215,
+          "size": 38.66,
+          "pnl": 19.76
+        },
+        {
           "market": "FC Seoul vs. Ulsan HD FC: Ulsan HD FC O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.2999,
-          "size": 25.5,
-          "pnl": -0.43
+          "size": 86.0,
+          "pnl": 60.07
         },
         {
           "market": "Will Malmo FF win on 2026-07-26?",
@@ -2195,32 +2580,25 @@
           "pnl": -20.19
         },
         {
-          "market": "Spread: Bucheon FC 1995 (-1.5)",
-          "outcome": "Incheon United FC",
-          "avg_price": 0.951,
-          "size": 80.2,
-          "pnl": 0.33
-        },
-        {
-          "market": "Will Phoenix Rising FC win on 2026-07-25?",
-          "outcome": "No",
-          "avg_price": 0.4317,
-          "size": 82.46,
-          "pnl": 46.84
+          "market": "EC Bahia vs. SC Corinthians Paulista: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.47,
+          "size": 40.74,
+          "pnl": 1.26
         },
         {
           "market": "Clube do Remo vs. EC Vit\u00f3ria: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.53,
-          "size": 43.94,
-          "pnl": 0.41
+          "size": 43.53,
+          "pnl": 0.0
         },
         {
           "market": "Saitama Seibu Lions vs. Fukuoka SoftBank Hawks",
           "outcome": "Fukuoka SoftBank Hawks",
           "avg_price": 0.6,
-          "size": 43.67,
-          "pnl": -5.31
+          "size": 81.18,
+          "pnl": 32.2
         },
         {
           "market": "Will Tianjin Jinmen Hu FC win on 2026-07-12?",
@@ -2237,11 +2615,11 @@
           "pnl": 1.27
         },
         {
-          "market": "Phoenix Rising FC vs. Hartford Athletic: O/U 2.5",
-          "outcome": "Under",
-          "avg_price": 0.74,
-          "size": 80.96,
-          "pnl": 21.02
+          "market": "Will Clube do Remo win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.5565,
+          "size": 44.62,
+          "pnl": -0.13
         },
         {
           "market": "Spread: Chicago White Sox (-2.5)",
@@ -2251,6 +2629,20 @@
           "pnl": -1.2
         },
         {
+          "market": "FC Anyang vs. Gangwon FC: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.48,
+          "size": 63.99,
+          "pnl": 25.6
+        },
+        {
+          "market": "SK Brann vs. V\u00e5lerenga Fotball: O/U 5.5",
+          "outcome": "Over",
+          "avg_price": 0.13,
+          "size": 11.15,
+          "pnl": 0.8
+        },
+        {
           "market": "Will Shandong Taishan FC vs. Henan FC end in a draw?",
           "outcome": "No",
           "avg_price": 0.76,
@@ -2258,25 +2650,11 @@
           "pnl": 0.4
         },
         {
-          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.888,
-          "size": 70.1,
-          "pnl": 0.54
-        },
-        {
           "market": "FC Inter Turku vs. IF Gnistan: Draw at halftime?",
           "outcome": "No",
           "avg_price": 0.5899,
-          "size": 46.88,
-          "pnl": 0.78
-        },
-        {
-          "market": "Will Stroemsgodset IF vs. Lyn 1896 FK end in a draw?",
-          "outcome": "No",
-          "avg_price": 0.5493,
-          "size": 38.94,
-          "pnl": -3.93
+          "size": 47.27,
+          "pnl": 1.17
         },
         {
           "market": "Spread: Atlanta Braves (-2.5)",
@@ -2284,6 +2662,13 @@
           "avg_price": 0.72,
           "size": 64.35,
           "pnl": 8.19
+        },
+        {
+          "market": "Club Necaxa vs. CF Monterrey: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.7993,
+          "size": 63.55,
+          "pnl": 1.21
         },
         {
           "market": "Will New Mexico United win on 2026-07-24?",
@@ -2317,15 +2702,29 @@
           "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: Both Teams to Score",
           "outcome": "No",
           "avg_price": 0.5499,
-          "size": 41.1,
-          "pnl": -1.15
+          "size": 40.71,
+          "pnl": -1.54
         },
         {
-          "market": "Will Clube do Remo win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.557,
-          "size": 41.75,
-          "pnl": -0.15
+          "market": "Zhejiang Zhiye FC vs. Dalian Yingbo FC: 1st Half O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.1899,
+          "size": 13.81,
+          "pnl": -0.77
+        },
+        {
+          "market": "HJK Helsinki vs. Turun Palloseura: HJK Helsinki O/U 1.5",
+          "outcome": "Over",
+          "avg_price": 0.68,
+          "size": 51.64,
+          "pnl": -0.38
+        },
+        {
+          "market": "FC Seoul vs. Ulsan HD FC: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.5699,
+          "size": 63.25,
+          "pnl": 20.33
         },
         {
           "market": "Will Wuhan San Zhen FC win on 2026-07-11?",
@@ -2347,6 +2746,13 @@
           "avg_price": 0.45,
           "size": 52.5,
           "pnl": 19.2
+        },
+        {
+          "market": "Spread: Incheon United FC (-1.5)",
+          "outcome": "Incheon United FC",
+          "avg_price": 0.2833,
+          "size": 23.61,
+          "pnl": 2.71
         },
         {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 4.5",
@@ -2377,18 +2783,18 @@
           "pnl": -0.35
         },
         {
-          "market": "FC Seoul vs. Ulsan HD FC: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.45,
-          "size": 30.87,
-          "pnl": -1.06
-        },
-        {
           "market": "EC Bahia vs. SC Corinthians Paulista: EC Bahia O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.8293,
           "size": 59.9,
           "pnl": 1.11
+        },
+        {
+          "market": "Henan FC leading at halftime?",
+          "outcome": "Yes",
+          "avg_price": 0.2599,
+          "size": 19.4,
+          "pnl": 1.06
         },
         {
           "market": "Spread: Hammarby IF (-2.5)",
@@ -2405,25 +2811,32 @@
           "pnl": 0.35
         },
         {
-          "market": "Malmo FF leading at halftime?",
+          "market": "Spread: Gwangju FC (-1.5)",
+          "outcome": "Gwangju FC",
+          "avg_price": 0.064,
+          "size": 11.93,
+          "pnl": 7.43
+        },
+        {
+          "market": "Malmo FF vs. IF Elfsborg: Draw at halftime?",
           "outcome": "No",
-          "avg_price": 0.61,
-          "size": 43.05,
+          "avg_price": 0.6,
+          "size": 42.35,
           "pnl": 0.35
         },
         {
           "market": "EC Bahia vs. SC Corinthians Paulista: Both Teams to Score",
           "outcome": "Yes",
           "avg_price": 0.5262,
-          "size": 37.48,
-          "pnl": 0.96
+          "size": 37.82,
+          "pnl": 1.3
         },
         {
           "market": "IK Sirius vs. IFK Goteborg: IK Sirius O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.89,
-          "size": 63.13,
-          "pnl": 1.72
+          "size": 63.83,
+          "pnl": 2.41
         },
         {
           "market": "SK Brann vs. V\u00e5lerenga Fotball: SK Brann O/U 1.5",
@@ -2436,22 +2849,22 @@
           "market": "Spread: Ulsan HD FC (-2.5)",
           "outcome": "FC Seoul",
           "avg_price": 0.94,
-          "size": 67.61,
-          "pnl": 2.76
+          "size": 56.85,
+          "pnl": -8.0
         },
         {
           "market": "Tampereen Ilves vs. FC Lahti: 1st Half O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.7299,
-          "size": 49.38,
-          "pnl": -0.34
+          "size": 50.4,
+          "pnl": 0.68
         },
         {
           "market": "EC Bahia vs. SC Corinthians Paulista: Both Teams to Score",
           "outcome": "No",
           "avg_price": 0.45,
-          "size": 31.3,
-          "pnl": 0.68
+          "size": 30.96,
+          "pnl": 0.34
         },
         {
           "market": "Shanghai Shenhua FC vs. Beijing Guoan FC: Shanghai Shenhua FC O/U 1.5",
@@ -2464,22 +2877,15 @@
           "market": "Spread: CF Pachuca (-1.5)",
           "outcome": "Quer\u00e9taro FC",
           "avg_price": 0.62,
-          "size": 41.25,
-          "pnl": 0.33
+          "size": 41.58,
+          "pnl": 0.66
         },
         {
           "market": "SE Palmeiras vs. CA Mineiro: SE Palmeiras O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.8299,
-          "size": 54.32,
-          "pnl": -0.33
-        },
-        {
-          "market": "Will FC Anyang win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.21,
-          "size": 14.75,
-          "pnl": 0.98
+          "size": 53.99,
+          "pnl": -0.66
         },
         {
           "market": "Boston Red Sox vs. New York Yankees: O/U 9.5",
@@ -2496,11 +2902,18 @@
           "pnl": -0.7
         },
         {
+          "market": "CR Flamengo vs. S\u00e3o Paulo FC: CR Flamengo O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.8599,
+          "size": 55.39,
+          "pnl": -0.32
+        },
+        {
           "market": "Will FC Lahti win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.6583,
-          "size": 41.95,
-          "pnl": -0.21
+          "size": 41.31,
+          "pnl": -0.86
         },
         {
           "market": "Spread: EC Bahia (-1.5)",
@@ -2520,15 +2933,8 @@
           "market": "CD Riestra vs. CA Boca Juniors: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9666,
-          "size": 62.37,
-          "pnl": 1.28
-        },
-        {
-          "market": "KBO: Kiwoom Heroes vs. Kia Tigers",
-          "outcome": "Kia Tigers",
-          "avg_price": 0.7184,
-          "size": 43.86,
-          "pnl": -1.48
+          "size": 62.4,
+          "pnl": 1.32
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 1 - 1 Dalian Yingbo FC?",
@@ -2536,13 +2942,6 @@
           "avg_price": 0.1066,
           "size": 23.66,
           "pnl": 16.93
-        },
-        {
-          "market": "IK Sirius vs. IFK Goteborg: O/U 4.5",
-          "outcome": "Over",
-          "avg_price": 0.2776,
-          "size": 17.79,
-          "pnl": 0.45
         },
         {
           "market": "SK Brann vs. V\u00e5lerenga Fotball: V\u00e5lerenga Fotball O/U 2.5",
@@ -2562,8 +2961,8 @@
           "market": "Gangwon FC leading at halftime?",
           "outcome": "No",
           "avg_price": 0.65,
-          "size": 39.95,
-          "pnl": 0.3
+          "size": 54.29,
+          "pnl": 14.64
         },
         {
           "market": "Will Club Necaxa vs. CF Monterrey end in a draw?",
@@ -2583,22 +2982,15 @@
           "market": "FC Inter Turku vs. IF Gnistan: FC Inter Turku O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.2599,
-          "size": 16.55,
-          "pnl": 0.9
-        },
-        {
-          "market": "Gwangju FC vs. Jeju SK FC: Both Teams to Score",
-          "outcome": "Yes",
-          "avg_price": 0.4522,
-          "size": 28.18,
-          "pnl": 1.07
+          "size": 16.85,
+          "pnl": 1.2
         },
         {
           "market": "Will Jeju SK FC win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.5037,
-          "size": 30.38,
-          "pnl": 0.66
+          "size": 44.54,
+          "pnl": 14.82
         },
         {
           "market": "Will New Mexico United win on 2026-07-24?",
@@ -2615,18 +3007,11 @@
           "pnl": 8.06
         },
         {
-          "market": "Tampereen Ilves vs. FC Lahti: FC Lahti O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.1699,
-          "size": 10.46,
-          "pnl": 0.85
-        },
-        {
           "market": "Club Necaxa vs. CF Monterrey: Club Necaxa O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.8235,
-          "size": 46.45,
-          "pnl": 0.08
+          "size": 47.02,
+          "pnl": 0.65
         },
         {
           "market": "SK Brann vs. V\u00e5lerenga Fotball: 1st Half O/U 1.5",
@@ -2639,43 +3024,8 @@
           "market": "FC Anyang vs. Gangwon FC: FC Anyang O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.21,
-          "size": 13.16,
-          "pnl": 1.4
-        },
-        {
-          "market": "Monterey Bay FC vs. Orange County SC: O/U 5.5",
-          "outcome": "Under",
-          "avg_price": 0.99,
-          "size": 55.96,
-          "pnl": 0.53
-        },
-        {
-          "market": "Colorado Springs Switchbacks FC vs. Charleston Battery: O/U 5.5",
-          "outcome": "Under",
-          "avg_price": 0.99,
-          "size": 55.71,
-          "pnl": 0.28
-        },
-        {
-          "market": "Phoenix Rising FC vs. Hartford Athletic: O/U 5.5",
-          "outcome": "Under",
-          "avg_price": 0.99,
-          "size": 55.96,
-          "pnl": 0.53
-        },
-        {
-          "market": "Oakland Roots SC vs. Sacramento Republic FC: Oakland Roots SC O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.99,
-          "size": 55.96,
-          "pnl": 0.53
-        },
-        {
-          "market": "Will Lyn 1896 FK win on 2026-07-25?",
-          "outcome": "Yes",
-          "avg_price": 0.0869,
-          "size": 27.41,
-          "pnl": 22.59
+          "size": 39.2,
+          "pnl": 27.44
         },
         {
           "market": "KBO: Lotte Giants vs. Samsung Lions",
@@ -2702,8 +3052,22 @@
           "market": "Spread: Bucheon FC 1995 (-2.5)",
           "outcome": "Incheon United FC",
           "avg_price": 0.99,
-          "size": 54.55,
-          "pnl": 0.11
+          "size": 47.46,
+          "pnl": -6.98
+        },
+        {
+          "market": "Spread: 1. FC Slov\u00e1cko (-2.5)",
+          "outcome": "SK Slavia Praha",
+          "avg_price": 0.99,
+          "size": 29.45,
+          "pnl": -24.99
+        },
+        {
+          "market": "Spread: FC Seoul (-2.5)",
+          "outcome": "Ulsan HD FC",
+          "avg_price": 0.84,
+          "size": 48.55,
+          "pnl": 2.98
         },
         {
           "market": "Spread: Beijing Guoan FC (-1.5)",
@@ -2713,11 +3077,25 @@
           "pnl": 0.27
         },
         {
+          "market": "Cruzeiro EC vs. Botafogo FR: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.5199,
+          "size": 28.6,
+          "pnl": 0.8
+        },
+        {
           "market": "Will Atl\u00e9tico Nacional win on 2026-07-25?",
           "outcome": "No",
           "avg_price": 0.4023,
-          "size": 28.68,
-          "pnl": 7.7
+          "size": 19.55,
+          "pnl": -1.42
+        },
+        {
+          "market": "Cruzeiro EC vs. Botafogo FR: Cruzeiro EC O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.8299,
+          "size": 42.93,
+          "pnl": -0.26
         },
         {
           "market": "IF Brommapojkarna vs. Hammarby IF: Hammarby IF O/U 0.5",
@@ -2725,6 +3103,13 @@
           "avg_price": 0.8899,
           "size": 45.21,
           "pnl": 0.25
+        },
+        {
+          "market": "Club Necaxa vs. CF Monterrey: Club Necaxa O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.6099,
+          "size": 29.77,
+          "pnl": 0.0
         },
         {
           "market": "Chiba Lotte Marines vs. Fukuoka SoftBank Hawks",
@@ -2737,15 +3122,15 @@
           "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.9597,
-          "size": 46.47,
-          "pnl": 0.56
+          "size": 46.49,
+          "pnl": 0.58
         },
         {
           "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.4099,
-          "size": 19.81,
-          "pnl": 0.24
+          "size": 20.52,
+          "pnl": 0.95
         },
         {
           "market": "Nippon Ham Fighters vs. Tohoku Rakuten Golden Eagles",
@@ -2755,11 +3140,11 @@
           "pnl": 16.28
         },
         {
-          "market": "Gwangju FC vs. Jeju SK FC: Gwangju FC O/U 0.5",
-          "outcome": "Under",
-          "avg_price": 0.4099,
-          "size": 19.3,
-          "pnl": -0.24
+          "market": "Aalesunds FK vs. Viking FK: Viking FK O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.9,
+          "size": 42.53,
+          "pnl": 0.0
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 0 - 2 Dalian Yingbo FC?",
@@ -2779,8 +3164,8 @@
           "market": "Tampereen Ilves vs. FC Lahti: FC Lahti O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.825,
-          "size": 37.77,
-          "pnl": -0.47
+          "size": 38.7,
+          "pnl": 0.46
         },
         {
           "market": "Zhejiang Zhiye FC vs. Dalian Yingbo FC: Both Teams to Score",
@@ -2790,25 +3175,11 @@
           "pnl": 0.23
         },
         {
-          "market": "Spread: FK Bod\u00f8/Glimt (-2.5)",
-          "outcome": "FK Bod\u00f8/Glimt",
-          "avg_price": 0.2999,
-          "size": 13.65,
-          "pnl": -0.23
-        },
-        {
-          "market": "Spread: Incheon United FC (-1.5)",
-          "outcome": "Incheon United FC",
-          "avg_price": 0.27,
-          "size": 13.6,
-          "pnl": 1.15
-        },
-        {
           "market": "Jeju SK FC leading at halftime?",
           "outcome": "No",
           "avg_price": 0.64,
-          "size": 29.9,
-          "pnl": 0.46
+          "size": 25.99,
+          "pnl": -3.45
         },
         {
           "market": "Will Clube do Remo win on 2026-07-26?",
@@ -2816,13 +3187,6 @@
           "avg_price": 0.44,
           "size": 20.47,
           "pnl": 0.23
-        },
-        {
-          "market": "Stroemsgodset IF vs. Lyn 1896 FK: O/U 4.5",
-          "outcome": "Over",
-          "avg_price": 0.3911,
-          "size": 22.8,
-          "pnl": 4.96
         },
         {
           "market": "Dalian Yingbo FC leading at halftime?",
@@ -2860,18 +3224,25 @@
           "pnl": 1.09
         },
         {
+          "market": "Spread: Jeju SK FC (-2.5)",
+          "outcome": "Gwangju FC",
+          "avg_price": 0.92,
+          "size": 23.19,
+          "pnl": -16.69
+        },
+        {
           "market": "Shandong Taishan FC vs. Henan FC: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.9583,
-          "size": 41.96,
-          "pnl": 0.46
+          "size": 42.2,
+          "pnl": 0.7
         },
         {
           "market": "IK Sirius vs. IFK Goteborg: IK Sirius O/U 1.5",
           "outcome": "Under",
           "avg_price": 0.31,
-          "size": 12.68,
-          "pnl": -0.65
+          "size": 12.47,
+          "pnl": -0.86
         },
         {
           "market": "Will Red Bull Bragantino win on 2026-07-26?",
@@ -2881,18 +3252,25 @@
           "pnl": 0.21
         },
         {
-          "market": "Will Jeju SK FC win on 2026-07-26?",
-          "outcome": "Yes",
-          "avg_price": 0.4851,
-          "size": 20.81,
-          "pnl": -0.01
+          "market": "CR Flamengo vs. S\u00e3o Paulo FC: CR Flamengo O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.3099,
+          "size": 13.51,
+          "pnl": 0.21
         },
         {
           "market": "FC Inter Turku vs. IF Gnistan: IF Gnistan O/U 1.5",
           "outcome": "Under",
           "avg_price": 0.7376,
-          "size": 30.46,
-          "pnl": -0.53
+          "size": 30.67,
+          "pnl": -0.32
+        },
+        {
+          "market": "S\u00f8nderjyske Fodbold vs. FC Midtjylland: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.3599,
+          "size": 15.18,
+          "pnl": 0.21
         },
         {
           "market": "SK Brann vs. V\u00e5lerenga Fotball: O/U 4.5",
@@ -2905,15 +3283,8 @@
           "market": "FC Anyang vs. Gangwon FC: Gangwon FC O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.832,
-          "size": 34.38,
-          "pnl": -0.08
-        },
-        {
-          "market": "Gangwon FC leading at halftime?",
-          "outcome": "Yes",
-          "avg_price": 0.34,
-          "size": 14.23,
-          "pnl": 0.2
+          "size": 18.02,
+          "pnl": -16.44
         },
         {
           "market": "Birmingham Legion FC vs. New Mexico United: Both Teams to Score",
@@ -2926,8 +3297,8 @@
           "market": "Spread: SE Palmeiras (-1.5)",
           "outcome": "SE Palmeiras",
           "avg_price": 0.33,
-          "size": 13.67,
-          "pnl": 0.2
+          "size": 13.47,
+          "pnl": 0.0
         },
         {
           "market": "Spread: Wuhan San Zhen FC (-1.5)",
@@ -2954,15 +3325,15 @@
           "market": "BK Hacken vs. AIK: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.9524,
-          "size": 38.41,
-          "pnl": 0.34
+          "size": 38.35,
+          "pnl": 0.28
         },
         {
           "market": "Shandong Taishan FC vs. Henan FC: Shandong Taishan FC O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.8499,
-          "size": 34.09,
-          "pnl": 0.59
+          "size": 33.3,
+          "pnl": -0.2
         },
         {
           "market": "Shanghai Shenhua FC vs. Beijing Guoan FC: Shanghai Shenhua FC O/U 0.5",
@@ -2975,323 +3346,29 @@
           "market": "Spread: CA Mineiro (-2.5)",
           "outcome": "SE Palmeiras",
           "avg_price": 0.9723,
-          "size": 38.39,
-          "pnl": 0.59
+          "size": 38.43,
+          "pnl": 0.63
+        },
+        {
+          "market": "IF Brommapojkarna vs. Hammarby IF: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.35,
+          "size": 13.72,
+          "pnl": 0.19
         },
         {
           "market": "Cruzeiro EC vs. Botafogo FR: Both Teams to Score",
           "outcome": "No",
           "avg_price": 0.4699,
-          "size": 17.38,
-          "pnl": -0.57
+          "size": 17.19,
+          "pnl": -0.76
         },
         {
           "market": "Spread: Gangwon FC (-1.5)",
           "outcome": "FC Anyang",
           "avg_price": 0.7699,
-          "size": 29.68,
-          "pnl": 0.38
-        },
-        {
-          "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.95,
-          "size": 33.18,
-          "pnl": -2.44
-        },
-        {
-          "market": "Chengdu Rongcheng FC vs. Beijing Guoan FC: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.95,
-          "size": 35.84,
-          "pnl": 0.37
-        },
-        {
-          "market": "Crici\u00fama EC vs. Clube N\u00e1utico Capibaribe: Crici\u00fama EC O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.8,
-          "size": 29.3,
-          "pnl": -0.56
-        },
-        {
-          "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.3642,
-          "size": 18.6,
-          "pnl": 5.05
-        },
-        {
-          "market": "SE Palmeiras vs. CA Mineiro: O/U 4.5",
-          "outcome": "Under",
-          "avg_price": 0.87,
-          "size": 32.88,
-          "pnl": 0.56
-        },
-        {
-          "market": "BK Hacken vs. AIK: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.63,
-          "size": 23.48,
-          "pnl": 0.18
-        },
-        {
-          "market": "Will FC Inter Turku vs. IF Gnistan end in a draw?",
-          "outcome": "No",
-          "avg_price": 0.75,
-          "size": 27.71,
-          "pnl": 0.18
-        },
-        {
-          "market": "Spread: IF Elfsborg (-2.5)",
-          "outcome": "Malmo FF",
-          "avg_price": 0.9699,
-          "size": 35.74,
-          "pnl": 0.18
-        },
-        {
-          "market": "Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.75,
-          "size": 18.0,
-          "pnl": -9.0
-        },
-        {
-          "market": "Spread: Hammarby IF (-1.5)",
-          "outcome": "IF Brommapojkarna",
-          "avg_price": 0.56,
-          "size": 20.28,
-          "pnl": 0.18
-        },
-        {
-          "market": "Cruzeiro EC vs. Botafogo FR: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.28,
-          "size": 10.54,
-          "pnl": 0.54
-        },
-        {
-          "market": "Will Wuhan San Zhen FC vs. Henan FC end in a draw?",
-          "outcome": "No",
-          "avg_price": 0.72,
-          "size": 19.29,
-          "pnl": -6.43
-        },
-        {
-          "market": "HJK Helsinki vs. Turun Palloseura: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.9515,
-          "size": 33.74,
-          "pnl": -0.24
-        },
-        {
-          "market": "Gwangju FC vs. Jeju SK FC: Draw at halftime?",
-          "outcome": "No",
-          "avg_price": 0.53,
-          "size": 19.13,
-          "pnl": 0.35
-        },
-        {
-          "market": "SE Palmeiras vs. CA Mineiro: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.7314,
-          "size": 26.16,
-          "pnl": 0.48
-        },
-        {
-          "market": "Gwangju FC vs. Jeju SK FC: 1st Half O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.63,
-          "size": 22.57,
-          "pnl": 0.52
-        },
-        {
-          "market": "FC Inter Turku vs. IF Gnistan: FC Inter Turku O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.8299,
-          "size": 28.78,
-          "pnl": 0.17
-        },
-        {
-          "market": "IK Sirius vs. IFK Goteborg: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.96,
-          "size": 32.93,
-          "pnl": 0.34
-        },
-        {
-          "market": "Spread: Atl\u00e9tico Nacional (-1.5)",
-          "outcome": "Boyac\u00e1 Chic\u00f3 FC",
-          "avg_price": 0.67,
-          "size": 18.61,
-          "pnl": -3.86
-        },
-        {
-          "market": "Spread: Cruzeiro EC (-1.5)",
-          "outcome": "Botafogo FR",
-          "avg_price": 0.7,
-          "size": 23.5,
-          "pnl": 0.17
-        },
-        {
-          "market": "Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.25,
-          "size": 16.66,
-          "pnl": 8.33
-        },
-        {
-          "market": "IK Sirius vs. IFK Goteborg: 1st Half O/U 2.5",
-          "outcome": "Under",
-          "avg_price": 0.79,
-          "size": 25.91,
-          "pnl": -0.16
-        },
-        {
-          "market": "Gwangju FC vs. Jeju SK FC: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.7899,
-          "size": 26.19,
-          "pnl": 0.16
-        },
-        {
-          "market": "Spread: Shenzhen Xinpengcheng FC (-1.5)",
-          "outcome": "Yunnan Yukun FC",
-          "avg_price": 0.89,
-          "size": 29.86,
-          "pnl": 0.66
-        },
-        {
-          "market": "FC Inter Turku vs. IF Gnistan: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.7,
-          "size": 22.11,
-          "pnl": -0.82
-        },
-        {
-          "market": "Chengdu Rongcheng FC vs. Beijing Guoan FC: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.6099,
-          "size": 19.49,
-          "pnl": -0.49
-        },
-        {
-          "market": "Incheon United FC vs. Bucheon FC 1995: O/U 1.5",
-          "outcome": "Under",
-          "avg_price": 0.336,
-          "size": 10.91,
-          "pnl": -0.03
-        },
-        {
-          "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 1.5",
-          "outcome": "Under",
-          "avg_price": 0.16,
-          "size": 11.5,
-          "pnl": 6.39
-        },
-        {
-          "market": "Will Sandefjord Fotball win on 2026-07-26?",
-          "outcome": "No",
-          "avg_price": 0.8799,
-          "size": 27.88,
-          "pnl": 0.16
-        },
-        {
-          "market": "Club Necaxa vs. CF Monterrey: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.38,
-          "size": 12.02,
-          "pnl": 0.16
-        },
-        {
-          "market": "FC Anyang vs. Gangwon FC: FC Anyang 1st Half O/U 1.5",
-          "outcome": "Under",
-          "avg_price": 0.9399,
-          "size": 24.52,
-          "pnl": -4.29
-        },
-        {
-          "market": "KBO: Samsung Lions vs. SSG Landers",
-          "outcome": "Samsung Lions",
-          "avg_price": 0.5788,
-          "size": 14.79,
-          "pnl": -2.93
-        },
-        {
-          "market": "Exact Score: Shanghai Haigang FC 1 - 2 Dalian Yingbo FC?",
-          "outcome": "Yes",
-          "avg_price": 0.06,
-          "size": 11.44,
-          "pnl": 9.61
-        },
-        {
-          "market": "Exact Score: Tianjin Jinmen Hu FC 2 - 2 Liaoning Tieren FC?",
-          "outcome": "Yes",
-          "avg_price": 0.057,
-          "size": 15.0,
-          "pnl": 13.29
-        },
-        {
-          "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: 1st Half O/U 1.5",
-          "outcome": "Under",
-          "avg_price": 0.55,
-          "size": 15.0,
-          "pnl": -1.5
-        },
-        {
-          "market": "SK Brann vs. V\u00e5lerenga Fotball: O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.967,
-          "size": 29.09,
-          "pnl": 0.07
-        },
-        {
-          "market": "Spread: Sporting FC (-2.5)",
-          "outcome": "LD Alajuelense",
-          "avg_price": 0.999,
-          "size": 29.98,
-          "pnl": 0.01
-        },
-        {
-          "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
-          "outcome": "Over",
-          "avg_price": 0.48,
-          "size": 11.7,
-          "pnl": -2.7
-        },
-        {
-          "market": "Exact Score: Tianjin Jinmen Hu FC 0 - 0 Liaoning Tieren FC?",
-          "outcome": "Yes",
-          "avg_price": 0.063,
-          "size": 13.5,
-          "pnl": 11.61
-        },
-        {
-          "market": "BK Hacken vs. AIK: BK Hacken O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.8599,
-          "size": 25.6,
-          "pnl": 0.0
-        },
-        {
-          "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.61,
-          "size": 22.04,
-          "pnl": 4.35
-        },
-        {
-          "market": "Gwangju FC vs. Jeju SK FC: Gwangju FC O/U 0.5",
-          "outcome": "Over",
-          "avg_price": 0.5899,
-          "size": 17.06,
-          "pnl": 0.14
-        },
-        {
-          "market": "Spread: Beijing Guoan FC (-2.5)",
-          "outcome": "Shanghai Shenhua FC",
-          "avg_price": 0.9161,
-          "size": 22.91,
-          "pnl": -3.32
+          "size": 34.06,
+          "pnl": 4.76
         }
       ]
     },
@@ -3362,8 +3439,8 @@
     {
       "wallet": "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
       "name": "ndb1",
-      "pnl": 2046061.5,
-      "volume": 15830762.53,
+      "pnl": 2045980.37,
+      "volume": 15830857.73,
       "positions": [
         {
           "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
@@ -3397,15 +3474,15 @@
           "market": "Bitcoin all time high by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.8565,
-          "size": 85024.72,
-          "pnl": 7873.61
+          "size": 84934.65,
+          "pnl": 7783.54
         },
         {
           "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
           "outcome": "No",
           "avg_price": 0.9568,
-          "size": 87062.63,
-          "pnl": 2527.42
+          "size": 87150.97,
+          "pnl": 2615.77
         },
         {
           "market": "Will Bitcoin hit $150k by December 31, 2026?",
@@ -3431,9 +3508,9 @@
         {
           "market": "Bitcoin all time high by September 30, 2026?",
           "outcome": "No",
-          "avg_price": 0.9574,
-          "size": 35410.03,
-          "pnl": 937.47
+          "avg_price": 0.9575,
+          "size": 35503.66,
+          "pnl": 937.64
         },
         {
           "market": "Will Bitcoin reach $200,000 by December 31, 2026?",
@@ -3544,15 +3621,15 @@
           "market": "Will Bryce Eldridge win the 2026 NL Rookie of the Year award?",
           "outcome": "No",
           "avg_price": 0.978,
-          "size": 907.0,
-          "pnl": -71.0
+          "size": 904.5,
+          "pnl": -73.5
         },
         {
           "market": "Will Europe Win the WSOP Main Event",
           "outcome": "Yes",
           "avg_price": 0.1295,
-          "size": 133.37,
-          "pnl": 5.38
+          "size": 138.31,
+          "pnl": 10.32
         },
         {
           "market": "Will Bitcoin reach $150,000 by December 31, 2026?",
@@ -3663,8 +3740,8 @@
           "market": "Will New York Yankees win the 2026 AL East title?",
           "outcome": "Yes",
           "avg_price": 0.56,
-          "size": 94.0,
-          "pnl": -18.0
+          "size": 95.0,
+          "pnl": -17.0
         },
         {
           "market": "KBO: Hanwha Eagles vs. Lotte Giants",
@@ -3677,8 +3754,8 @@
           "market": "MLB: Perfect Game thrown in 2026 season?",
           "outcome": "Yes",
           "avg_price": 0.0978,
-          "size": 25.53,
-          "pnl": 7.03
+          "size": 26.47,
+          "pnl": 7.97
         },
         {
           "market": "Will Los Angeles Dodgers win the 2026 National League Championship Series?",
@@ -3762,8 +3839,8 @@
     {
       "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
       "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "pnl": 2023813.71,
-      "volume": 333050453.47,
+      "pnl": 2026820.59,
+      "volume": 333109393.37,
       "positions": [
         {
           "market": "2026 Balance of Power: D Senate, D House",
@@ -3782,16 +3859,23 @@
         {
           "market": "Tampere: Diego Dedura-Palomero vs Otto Virtanen",
           "outcome": "Otto Virtanen",
-          "avg_price": 0.4508,
-          "size": 16895.07,
-          "pnl": -5842.52
+          "avg_price": 0.4491,
+          "size": 25.56,
+          "pnl": -22929.53
+        },
+        {
+          "market": "Tampere: Diego Dedura-Palomero vs Otto Virtanen",
+          "outcome": "Diego Dedura-Palomero",
+          "avg_price": 0.7325,
+          "size": 30072.21,
+          "pnl": 8031.94
         },
         {
           "market": "Boston Red Sox vs. New York Yankees",
           "outcome": "New York Yankees",
           "avg_price": 0.49,
-          "size": 12887.75,
-          "pnl": -692.89
+          "size": 13164.91,
+          "pnl": -415.73
         },
         {
           "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
@@ -3799,13 +3883,6 @@
           "avg_price": 0.85,
           "size": 17696.22,
           "pnl": 699.85
-        },
-        {
-          "market": "Tampere: Diego Dedura-Palomero vs Otto Virtanen",
-          "outcome": "Diego Dedura-Palomero",
-          "avg_price": 0.34,
-          "size": 2980.57,
-          "pnl": 1456.67
         },
         {
           "market": "Will Bitcoin dip to $25,000 by December 31, 2026?",
@@ -3847,15 +3924,29 @@
     {
       "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
       "name": "",
-      "pnl": 1659852.02,
-      "volume": 32986659.54,
+      "pnl": 1660271.5,
+      "volume": 33030294.25,
       "positions": [
         {
           "market": "FC Inter Turku vs. IF Gnistan: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.5343,
-          "size": 4604.13,
-          "pnl": 171.06
+          "size": 4686.26,
+          "pnl": 253.19
+        },
+        {
+          "market": "Will CF Monterrey win on 2026-07-26?",
+          "outcome": "No",
+          "avg_price": 0.5399,
+          "size": 4400.39,
+          "pnl": -41.12
+        },
+        {
+          "market": "FC Anyang vs. Gangwon FC: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.4199,
+          "size": 5195.74,
+          "pnl": 1889.37
         },
         {
           "market": "Will Tampereen Ilves win on 2026-07-26?",
@@ -3863,6 +3954,20 @@
           "avg_price": 0.6024,
           "size": 4426.95,
           "pnl": 90.31
+        },
+        {
+          "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.49,
+          "size": 3430.37,
+          "pnl": 101.68
+        },
+        {
+          "market": "Counter-Strike: NIP vs paiN - Map 2 Winner",
+          "outcome": "NIP",
+          "avg_price": 0.5,
+          "size": 1823.38,
+          "pnl": 53.11
         },
         {
           "market": "LoL: Anyone's Legend vs Bilibili Gaming (BO3) - LPL Group Ascend",
@@ -3879,6 +3984,20 @@
           "pnl": 39.63
         },
         {
+          "market": "Counter-Strike: NIP vs paiN - Map 2 Winner",
+          "outcome": "paiN",
+          "avg_price": 0.5056,
+          "size": 1031.21,
+          "pnl": -44.01
+        },
+        {
+          "market": "Will FK Auda Riga win on 2026-07-26?",
+          "outcome": "Yes",
+          "avg_price": 0.5152,
+          "size": 1105.05,
+          "pnl": 30.85
+        },
+        {
           "market": "Will EC Bahia win on 2026-07-26?",
           "outcome": "No",
           "avg_price": 0.58,
@@ -3886,25 +4005,25 @@
           "pnl": 49.32
         },
         {
+          "market": "Will SK Brann win on 2026-07-30?",
+          "outcome": "Yes",
+          "avg_price": 0.6739,
+          "size": 1295.25,
+          "pnl": 20.85
+        },
+        {
           "market": "Am\u00e9rica FC vs. Goi\u00e1s EC: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.5269,
           "size": 1094.54,
           "pnl": 213.93
-        },
-        {
-          "market": "Will SK Brann win on 2026-07-30?",
-          "outcome": "Yes",
-          "avg_price": 0.6658,
-          "size": 945.82,
-          "pnl": 12.88
         }
       ]
     },
     {
       "wallet": "0xc31d0a0d63d760d72a1236d16beaa6a71c854ebe",
       "name": "FootballFan98",
-      "pnl": 1551185.18,
+      "pnl": 1551185.3,
       "volume": 3602509.52,
       "positions": [
         {
@@ -3969,8 +4088,8 @@
     {
       "wallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
       "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-      "pnl": 1298315.32,
-      "volume": 58841546.79,
+      "pnl": 1298315.52,
+      "volume": 58841586.32,
       "positions": [
         {
           "market": "Will LeBron James play for the Cleveland Cavaliers in 2026-27?",
@@ -3997,8 +4116,8 @@
           "market": "Houston Astros vs. Chicago White Sox",
           "outcome": "Houston Astros",
           "avg_price": 0.49,
-          "size": 886.97,
-          "pnl": 8.96
+          "size": 901.8,
+          "pnl": 9.11
         },
         {
           "market": "Will Shohei Ohtani win the 2026 National League MVP Award?",
@@ -4026,29 +4145,15 @@
     {
       "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
       "name": "RN1",
-      "pnl": 1225953.42,
-      "volume": 174869800.44,
+      "pnl": 1222333.1,
+      "volume": 174958805.44,
       "positions": [
-        {
-          "market": "ITF Bali: Thanaphat Boosarawongse vs Ryuki Matsuda",
-          "outcome": "Thanaphat Boosarawongse",
-          "avg_price": 0.3727,
-          "size": 58809.32,
-          "pnl": 36879.42
-        },
-        {
-          "market": "ITF Bali: Thanaphat Boosarawongse vs Ryuki Matsuda",
-          "outcome": "Ryuki Matsuda",
-          "avg_price": 0.5444,
-          "size": 24.76,
-          "pnl": -26936.01
-        },
         {
           "market": "Tampere: Diego Dedura-Palomero vs Otto Virtanen",
           "outcome": "Diego Dedura-Palomero",
-          "avg_price": 0.5914,
-          "size": 12944.25,
-          "pnl": 2084.26
+          "avg_price": 0.5885,
+          "size": 46483.08,
+          "pnl": 19109.59
         },
         {
           "market": "SK Brann vs. V\u00e5lerenga Fotball: O/U 4.5",
@@ -4056,6 +4161,20 @@
           "avg_price": 0.71,
           "size": 11025.0,
           "pnl": 375.0
+        },
+        {
+          "market": "ITF Gentofte: Linea Bajraliu vs Lucia Cortez Llorca",
+          "outcome": "Lucia Cortez Llorca",
+          "avg_price": 0.3678,
+          "size": 5163.43,
+          "pnl": 98.23
+        },
+        {
+          "market": "ITF Gentofte: Linea Bajraliu vs Lucia Cortez Llorca",
+          "outcome": "Linea Bajraliu",
+          "avg_price": 0.4876,
+          "size": 7544.1,
+          "pnl": 1657.42
         }
       ]
     },
@@ -4069,7 +4188,7 @@
     {
       "wallet": "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
       "name": "pada",
-      "pnl": 1163772.17,
+      "pnl": 1161914.4,
       "volume": 1129434.24,
       "positions": [
         {
@@ -4083,8 +4202,8 @@
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "outcome": "No",
           "avg_price": 0.2193,
-          "size": 64557.5,
-          "pnl": -3364.42
+          "size": 62080.47,
+          "pnl": -5841.45
         },
         {
           "market": "Fed rate hike in 2026?",
@@ -4183,8 +4302,8 @@
           "market": "Counter-Strike: NIP vs paiN (BO3) - BLAST Bounty Qualifier",
           "outcome": "paiN",
           "avg_price": 0.4,
-          "size": 198.81,
-          "pnl": -2.52
+          "size": 354.84,
+          "pnl": 153.51
         }
       ]
     },
@@ -4204,9 +4323,9 @@
     },
     {
       "wallet": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
-      "name": "TwoHashedBrowns",
-      "pnl": 741365.14,
-      "volume": 10196509.22,
+      "name": "CassandraUnchaiined",
+      "pnl": 740572.32,
+      "volume": 10212851.04,
       "positions": [
         {
           "market": "Will LeBron James play for the New Orleans Pelicans in 2026-27?",
@@ -4421,17 +4540,10 @@
       "positions": []
     },
     {
-      "wallet": "0x05a0bf3fa5775a5e38d4ed6688cce88130460df2",
-      "name": "pessibye",
-      "pnl": 664349.72,
-      "volume": 3209899.32,
-      "positions": []
-    },
-    {
       "wallet": "0x93fb8127a1b21a112b11af936361225df0563e4a",
       "name": "LlamaLoco0000",
-      "pnl": 662069.37,
-      "volume": 2184695.11,
+      "pnl": 665517.5,
+      "volume": 2185321.14,
       "positions": [
         {
           "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
@@ -4472,8 +4584,8 @@
           "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.3935,
-          "size": 127018.18,
-          "pnl": 17157.22
+          "size": 126878.6,
+          "pnl": 17017.64
         },
         {
           "market": "Will Jean-Luc M\u00e9lenchon win the 2027 French presidential election?",
@@ -4486,8 +4598,8 @@
           "market": "NATO x Russia military clash by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.2094,
-          "size": 44371.79,
-          "pnl": 12875.34
+          "size": 45123.86,
+          "pnl": 13627.4
         },
         {
           "market": "Will the US acquire part of Greenland in 2026?",
@@ -4500,15 +4612,15 @@
           "market": "China x Taiwan military clash before 2027?",
           "outcome": "Yes",
           "avg_price": 0.067,
-          "size": 7527.81,
-          "pnl": 157.26
+          "size": 7563.84,
+          "pnl": 157.79
         },
         {
           "market": "Will the U.S. invade Iran before 2027?",
           "outcome": "Yes",
           "avg_price": 0.2843,
-          "size": 23500.04,
-          "pnl": -4935.71
+          "size": 19500.03,
+          "pnl": -8935.71
         },
         {
           "market": "Will Russia invade another country in 2026?",
@@ -4528,8 +4640,8 @@
           "market": "Israel closes its airspace by July 31?",
           "outcome": "Yes",
           "avg_price": 0.1401,
-          "size": 2747.85,
-          "pnl": -3176.14
+          "size": 2325.11,
+          "pnl": -3598.88
         },
         {
           "market": "Will China blockade Taiwan in 2026?",
@@ -4563,8 +4675,8 @@
           "market": "Will Trump recognize Somaliland before 2027?",
           "outcome": "Yes",
           "avg_price": 0.2056,
-          "size": 1958.74,
-          "pnl": -1513.31
+          "size": 1941.85,
+          "pnl": -1530.2
         },
         {
           "market": "Trump x Greenland deal signed by December 31?",
@@ -4647,22 +4759,22 @@
           "market": "X banned in any European country by December 31?",
           "outcome": "Yes",
           "avg_price": 0.2123,
-          "size": 357.43,
-          "pnl": -166.11
+          "size": 345.1,
+          "pnl": -178.43
         },
         {
           "market": "Will Zcash reach $1000 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.2295,
-          "size": 591.83,
-          "pnl": 59.1
+          "size": 487.39,
+          "pnl": -45.34
         },
         {
           "market": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
           "outcome": "Yes",
           "avg_price": 0.0791,
-          "size": 130.13,
-          "pnl": 8.28
+          "size": 130.9,
+          "pnl": 9.05
         },
         {
           "market": "Will the U.S. invade a Latin American country in 2026?",
@@ -4675,8 +4787,8 @@
           "market": "Will there be a Super El Ni\u00f1o this winter (2026\u201327)?",
           "outcome": "Yes",
           "avg_price": 0.7468,
-          "size": 815.55,
-          "pnl": 181.75
+          "size": 813.01,
+          "pnl": 179.21
         },
         {
           "market": "Iran full airspace closure by August 31?",
@@ -4710,8 +4822,8 @@
           "market": "Christine Lagarde out as ECB president in 2026?",
           "outcome": "Yes",
           "avg_price": 0.13,
-          "size": 87.94,
-          "pnl": 33.5
+          "size": 90.03,
+          "pnl": 35.59
         },
         {
           "market": "Will Trump be impeached before his term ends?",
@@ -4721,6 +4833,13 @@
           "pnl": 4.4
         }
       ]
+    },
+    {
+      "wallet": "0x05a0bf3fa5775a5e38d4ed6688cce88130460df2",
+      "name": "pessibye",
+      "pnl": 664349.72,
+      "volume": 3209899.32,
+      "positions": []
     },
     {
       "wallet": "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8",
@@ -4761,8 +4880,8 @@
     {
       "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
       "name": "Bigggggggg",
-      "pnl": 580989.56,
-      "volume": 11731506.56,
+      "pnl": 581391.86,
+      "volume": 11760068.13,
       "positions": [
         {
           "market": "Will LeBron James play for the Sacramento Kings in 2026-27?",
