@@ -1,19 +1,63 @@
 {
-  "last_updated": "2026-07-27T21:38:55.860335+00:00",
+  "last_updated": "2026-07-27T23:00:40.792293+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
+      "wallet": "0x0feb1bf966bc7f954c2da0293ae2fdc572c5db5d",
+      "name": "YungFelon",
+      "score": 47.5,
+      "roi_score": 33.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 73.6,
+      "roi": 0.6,
+      "cash_pnl": 3071.37,
+      "realized_pnl": 1.05,
+      "total_usdc": 15637.69,
+      "trade_count": 500,
+      "market_count": 11,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T23:00:03+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - July 27, 6:35PM-6:40PM ET",
+        "Bitcoin Up or Down - July 27, 6:45PM-6:50PM ET",
+        "Bitcoin Up or Down - July 27, 7:00PM-7:05PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.7308,
+          "cur_price": 0.7345,
+          "usdc_size": 218580.18,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.7336,
+          "cur_price": 0.2645,
+          "usdc_size": 271526.88,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
       "wallet": "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
       "name": "TheReturnOfDarthMaul",
-      "score": 46.3,
-      "roi_score": 46.0,
+      "score": 46.4,
+      "roi_score": 46.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": 19.0,
-      "cash_pnl": 559527.19,
+      "roi": 19.3,
+      "cash_pnl": 567160.17,
       "realized_pnl": -11481.43,
       "total_usdc": 598465.22,
       "trade_count": 500,
@@ -34,15 +78,15 @@
           "signal": "SKIP",
           "avg_price": 0.1429,
           "cur_price": 0.7345,
-          "usdc_size": 598026.76,
+          "usdc_size": 600279.22,
           "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.1532,
-          "cur_price": 0.2655,
-          "usdc_size": 415662.26,
+          "cur_price": 0.2645,
+          "usdc_size": 414096.67,
           "outcome": "Yes"
         }
       ]
@@ -56,8 +100,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": 5.6,
-      "cash_pnl": 2450.28,
+      "roi": 5.7,
+      "cash_pnl": 2471.66,
       "realized_pnl": 0.0,
       "total_usdc": 530788.07,
       "trade_count": 254,
@@ -78,52 +122,8 @@
           "signal": "ENTER",
           "avg_price": 0.735,
           "cur_price": 0.7345,
-          "usdc_size": 4039.75,
+          "usdc_size": 4034.25,
           "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa30e451354cb41cfd46689a065defed989ea49d5",
-      "name": "SAPolitcsSeer",
-      "score": 43.2,
-      "roi_score": 35.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 3.3,
-      "cash_pnl": 4460.88,
-      "realized_pnl": 6172.77,
-      "total_usdc": 1810855.32,
-      "trade_count": 500,
-      "market_count": 70,
-      "position_count": 16,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:16:24+00:00",
-      "top_markets": [
-        "Will Chad Bianco win the California Governor Election in 2026?",
-        "Will Graham Platner be the Democratic nominee for Senate in Maine?",
-        "US x Iran ceasefire by April 7?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.7381,
-          "cur_price": 0.7345,
-          "usdc_size": 8680.93,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US x Iran Effective Ceasefire by July 24?",
-          "signal": "SKIP",
-          "avg_price": 0.86,
-          "cur_price": 0.483,
-          "usdc_size": 2585.0,
-          "outcome": "No"
         }
       ]
     },
@@ -136,8 +136,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 99.6,
-      "roi": 3.8,
-      "cash_pnl": 749.64,
+      "roi": 3.7,
+      "cash_pnl": 747.4,
       "realized_pnl": 0.0,
       "total_usdc": 471523.1,
       "trade_count": 126,
@@ -158,8 +158,52 @@
           "signal": "ENTER",
           "avg_price": 0.735,
           "cur_price": 0.7345,
-          "usdc_size": 4010.37,
+          "usdc_size": 4004.91,
           "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa30e451354cb41cfd46689a065defed989ea49d5",
+      "name": "SAPolitcsSeer",
+      "score": 43.1,
+      "roi_score": 35.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": 3.2,
+      "cash_pnl": 4305.85,
+      "realized_pnl": 6172.77,
+      "total_usdc": 1810855.32,
+      "trade_count": 500,
+      "market_count": 70,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T21:16:24+00:00",
+      "top_markets": [
+        "Will Chad Bianco win the California Governor Election in 2026?",
+        "Will Graham Platner be the Democratic nominee for Senate in Maine?",
+        "US x Iran ceasefire by April 7?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.7381,
+          "cur_price": 0.7345,
+          "usdc_size": 8669.11,
+          "outcome": "Yes"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 24?",
+          "signal": "SKIP",
+          "avg_price": 0.86,
+          "cur_price": 0.5065,
+          "usdc_size": 2452.5,
+          "outcome": "No"
         }
       ]
     },
@@ -172,8 +216,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 99.2,
-      "roi": 2.9,
-      "cash_pnl": 1051.09,
+      "roi": 3.0,
+      "cash_pnl": 1072.94,
       "realized_pnl": 0.0,
       "total_usdc": 451183.36,
       "trade_count": 179,
@@ -194,7 +238,7 @@
           "signal": "ENTER",
           "avg_price": 0.735,
           "cur_price": 0.7345,
-          "usdc_size": 4039.75,
+          "usdc_size": 4034.25,
           "outcome": "Yes"
         }
       ]
@@ -209,7 +253,7 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": 1.6,
-      "cash_pnl": 1419.69,
+      "cash_pnl": 1416.73,
       "realized_pnl": 0.0,
       "total_usdc": 1393960.24,
       "trade_count": 418,
@@ -230,7 +274,7 @@
           "signal": "ENTER",
           "avg_price": 0.735,
           "cur_price": 0.7345,
-          "usdc_size": 4083.82,
+          "usdc_size": 4078.26,
           "outcome": "Yes"
         }
       ]
@@ -244,17 +288,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 91.2,
-      "roi": 5.3,
-      "cash_pnl": 38508.53,
-      "realized_pnl": -92690.86,
-      "total_usdc": 158107.48,
+      "roi": 5.2,
+      "cash_pnl": 38164.53,
+      "realized_pnl": -90130.17,
+      "total_usdc": 158254.0,
       "trade_count": 500,
       "market_count": 53,
-      "position_count": 230,
+      "position_count": 229,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:38:06+00:00",
+      "last_active": "2026-07-27T22:50:49+00:00",
       "top_markets": [
         "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
         "US announces halt in Iran offensive operations by July 31?",
@@ -266,39 +310,39 @@
           "signal": "SKIP",
           "avg_price": 0.8237,
           "cur_price": 0.7345,
-          "usdc_size": 113124.53,
+          "usdc_size": 112970.52,
           "outcome": "Yes"
         },
         {
           "market": "US announces halt in Iran offensive operations by July 31?",
           "signal": "SKIP",
-          "avg_price": 0.8008,
-          "cur_price": 0.947,
-          "usdc_size": 40092.68,
+          "avg_price": 0.8015,
+          "cur_price": 0.9455,
+          "usdc_size": 40218.27,
           "outcome": "Yes"
         },
         {
           "market": "Israel x Iran ceasefire continues through July 31?",
           "signal": "SKIP",
           "avg_price": 0.2554,
-          "cur_price": 0.925,
-          "usdc_size": 743.86,
+          "cur_price": 0.935,
+          "usdc_size": 644.68,
           "outcome": "No"
         },
         {
           "market": "US x Iran Effective Ceasefire by July 24?",
           "signal": "SKIP",
           "avg_price": 0.7687,
-          "cur_price": 0.483,
-          "usdc_size": 2121.43,
+          "cur_price": 0.5065,
+          "usdc_size": 2012.69,
           "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.7461,
-          "cur_price": 0.2655,
-          "usdc_size": 1642.33,
+          "cur_price": 0.2645,
+          "usdc_size": 1644.57,
           "outcome": "No"
         }
       ]
@@ -312,8 +356,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 90.6,
-      "roi": 5.9,
-      "cash_pnl": 2736.04,
+      "roi": 5.8,
+      "cash_pnl": 2726.06,
       "realized_pnl": -0.01,
       "total_usdc": 146439.46,
       "trade_count": 48,
@@ -334,87 +378,8 @@
           "signal": "ENTER",
           "avg_price": 0.735,
           "cur_price": 0.7345,
-          "usdc_size": 4056.64,
+          "usdc_size": 4051.12,
           "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x55f35253852930ef05a1a3f8dcd0007f6b0acada",
-      "name": "Yirmeyahu",
-      "score": 42.6,
-      "roi_score": 33.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.4,
-      "roi": 0.7,
-      "cash_pnl": 285.82,
-      "realized_pnl": -207.44,
-      "total_usdc": 462686.05,
-      "trade_count": 500,
-      "market_count": 62,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:13:16+00:00",
-      "top_markets": [
-        "Will Reza Pahlavi enter Iran by March 31?",
-        "Will Sarah Knafo advance to the second round of the 2026 Paris municipal election?",
-        "Will Spencer Pratt win the 2026 Los Angeles mayoral election?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.7339,
-          "cur_price": 0.7345,
-          "usdc_size": 5559.82,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0feb1bf966bc7f954c2da0293ae2fdc572c5db5d",
-      "name": "YungFelon",
-      "score": 42.5,
-      "roi_score": 33.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.9,
-      "roi": 0.3,
-      "cash_pnl": 1389.06,
-      "realized_pnl": 1.05,
-      "total_usdc": 490636.56,
-      "trade_count": 94,
-      "market_count": 2,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:22:12+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.7308,
-          "cur_price": 0.7345,
-          "usdc_size": 218878.18,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.7336,
-          "cur_price": 0.2655,
-          "usdc_size": 271157.71,
-          "outcome": "No"
         }
       ]
     },
@@ -428,16 +393,16 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": -1.2,
-      "cash_pnl": -808.52,
+      "cash_pnl": -812.56,
       "realized_pnl": 66.26,
-      "total_usdc": 582984.69,
+      "total_usdc": 582591.56,
       "trade_count": 500,
-      "market_count": 37,
-      "position_count": 15,
+      "market_count": 38,
+      "position_count": 16,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:04:28+00:00",
+      "last_active": "2026-07-27T22:10:39+00:00",
       "top_markets": [
         "US x Iran permanent peace deal by June 15, 2026?",
         "US x Iran permanent peace deal by June 30, 2026?",
@@ -449,7 +414,7 @@
           "signal": "ENTER",
           "avg_price": 0.7479,
           "cur_price": 0.7345,
-          "usdc_size": 6920.45,
+          "usdc_size": 6911.03,
           "outcome": "Yes"
         }
       ]
@@ -464,7 +429,7 @@
       "early_entry_score": 0.0,
       "volume_score": 91.4,
       "roi": 2.6,
-      "cash_pnl": 1066.75,
+      "cash_pnl": 1053.23,
       "realized_pnl": -179.81,
       "total_usdc": 162025.45,
       "trade_count": 500,
@@ -485,31 +450,94 @@
           "signal": "SKIP",
           "avg_price": 0.8646,
           "cur_price": 0.7345,
-          "usdc_size": 5762.15,
+          "usdc_size": 5754.31,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-      "name": "Tenebrus7",
-      "score": 41.8,
-      "roi_score": 34.7,
+      "wallet": "0x9bcada74fbcaa331afecdf7e861fbc9532ecca1f",
+      "name": "rooivalk",
+      "score": 42.1,
+      "roi_score": 32.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.6,
-      "roi": 2.0,
-      "cash_pnl": 5485.05,
-      "realized_pnl": -34155.0,
-      "total_usdc": 112203.43,
+      "volume_score": 98.7,
+      "roi": -1.2,
+      "cash_pnl": -4903.1,
+      "realized_pnl": 0.0,
+      "total_usdc": 419036.23,
       "trade_count": 500,
-      "market_count": 59,
-      "position_count": 208,
+      "market_count": 4,
+      "position_count": 12,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:34:39+00:00",
+      "last_active": "2026-07-27T22:59:15+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Fed rate hike in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.266,
+          "cur_price": 0.7345,
+          "usdc_size": 2676.11,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x890d33f9c1620806a98341c243f782fa63b215ac",
+      "name": "OrbitSugarFree",
+      "score": 41.8,
+      "roi_score": 35.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.5,
+      "roi": 3.5,
+      "cash_pnl": 40.57,
+      "realized_pnl": -17640.84,
+      "total_usdc": 85359.4,
+      "trade_count": 500,
+      "market_count": 29,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:57:42+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+      "name": "Tenebrus7",
+      "score": 41.8,
+      "roi_score": 34.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.0,
+      "roi": 2.2,
+      "cash_pnl": 5956.68,
+      "realized_pnl": -44270.44,
+      "total_usdc": 117623.33,
+      "trade_count": 500,
+      "market_count": 62,
+      "position_count": 204,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:53:48+00:00",
       "top_markets": [
         "Will the U.S. invade Iran before 2027?",
         "US announces halt in Iran offensive operations by July 31?",
@@ -517,35 +545,35 @@
       ],
       "signals": [
         {
-          "market": "US x Iran Effective Ceasefire by July 24?",
-          "signal": "ENTER",
-          "avg_price": 0.4731,
-          "cur_price": 0.483,
-          "usdc_size": 6553.41,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "LATE",
           "avg_price": 0.7587,
           "cur_price": 0.7345,
-          "usdc_size": 10311.61,
+          "usdc_size": 10297.57,
           "outcome": "Yes"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
           "avg_price": 0.1392,
-          "cur_price": 0.115,
-          "usdc_size": 1610.0,
+          "cur_price": 0.125,
+          "usdc_size": 1750.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 24?",
+          "signal": "SKIP",
+          "avg_price": 0.4731,
+          "cur_price": 0.5065,
+          "usdc_size": 6407.98,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.7844,
-          "cur_price": 0.2655,
-          "usdc_size": 2149.48,
+          "cur_price": 0.2645,
+          "usdc_size": 2152.4,
           "outcome": "No"
         }
       ]
@@ -554,13 +582,13 @@
       "wallet": "0xff76dd29f8376dfdaac3aa470467d6ca38c59c05",
       "name": "Gmoas",
       "score": 41.8,
-      "roi_score": 31.1,
+      "roi_score": 31.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -3.4,
-      "cash_pnl": -912.84,
+      "roi": -3.5,
+      "cash_pnl": -947.84,
       "realized_pnl": 598.31,
       "total_usdc": 1184935.1,
       "trade_count": 500,
@@ -581,43 +609,7 @@
           "signal": "ENTER",
           "avg_price": 0.736,
           "cur_price": 0.7345,
-          "usdc_size": 25707.41,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1ad9a2f348eaa6b6326af9c1fea382dd455e7bf6",
-      "name": "convictiontrap",
-      "score": 40.6,
-      "roi_score": 31.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.1,
-      "roi": -2.3,
-      "cash_pnl": -44.83,
-      "realized_pnl": 170.44,
-      "total_usdc": 71050.5,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T20:41:58+00:00",
-      "top_markets": [
-        "US strike on Cuba by December 31?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.7458,
-          "cur_price": 0.7345,
-          "usdc_size": 1723.24,
+          "usdc_size": 25672.41,
           "outcome": "Yes"
         }
       ]
@@ -625,14 +617,14 @@
     {
       "wallet": "0x6df1bd42411b29f0d263f58da72c9efdfa54ea12",
       "name": "bc7g",
-      "score": 40.5,
-      "roi_score": 30.7,
+      "score": 40.6,
+      "roi_score": 31.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 87.7,
-      "roi": -4.0,
-      "cash_pnl": -957.78,
+      "roi": -3.5,
+      "cash_pnl": -831.03,
       "realized_pnl": 0.0,
       "total_usdc": 100152.62,
       "trade_count": 500,
@@ -653,7 +645,43 @@
           "signal": "LATE",
           "avg_price": 0.7644,
           "cur_price": 0.7345,
-          "usdc_size": 5141.5,
+          "usdc_size": 5134.5,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x1ad9a2f348eaa6b6326af9c1fea382dd455e7bf6",
+      "name": "convictiontrap",
+      "score": 40.5,
+      "roi_score": 31.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.1,
+      "roi": -2.4,
+      "cash_pnl": -47.17,
+      "realized_pnl": 170.44,
+      "total_usdc": 71050.5,
+      "trade_count": 500,
+      "market_count": 46,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T20:41:58+00:00",
+      "top_markets": [
+        "US strike on Cuba by December 31?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.7458,
+          "cur_price": 0.7345,
+          "usdc_size": 1720.89,
           "outcome": "Yes"
         }
       ]
@@ -661,14 +689,14 @@
     {
       "wallet": "0xb6b2d822c6080dab47ecda32a862018604858b41",
       "name": "jussy23",
-      "score": 40.3,
-      "roi_score": 34.8,
+      "score": 40.2,
+      "roi_score": 34.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 73.4,
-      "roi": 2.1,
-      "cash_pnl": 24.63,
+      "roi": 2.0,
+      "cash_pnl": 23.03,
       "realized_pnl": 0.0,
       "total_usdc": 15308.35,
       "trade_count": 29,
@@ -689,49 +717,134 @@
           "signal": "ENTER",
           "avg_price": 0.715,
           "cur_price": 0.7345,
-          "usdc_size": 1175.2,
+          "usdc_size": 1173.6,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x30e443872ddf63b2908a49f92cd690c304a55102",
-      "name": "truthteller",
-      "score": 40.0,
-      "roi_score": 28.2,
+      "wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+      "name": "0x011f2d377e56119fb09196dffb0948ae5571112",
+      "score": 40.1,
+      "roi_score": 26.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.7,
-      "roi": -7.7,
-      "cash_pnl": -4225.68,
-      "realized_pnl": 8759.63,
-      "total_usdc": 147066.23,
+      "volume_score": 96.9,
+      "roi": -10.6,
+      "cash_pnl": -21859.49,
+      "realized_pnl": -19507.76,
+      "total_usdc": 334080.62,
       "trade_count": 500,
-      "market_count": 29,
-      "position_count": 39,
+      "market_count": 41,
+      "position_count": 107,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:24:12+00:00",
+      "last_active": "2026-07-27T22:35:40+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "US x Iran Effective Ceasefire by July 31?",
-        "US announces halt in Iran offensive operations by August 31?"
+        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+        "Will the U.S. invade Iran before 2027?",
+        "Israel x Iran ceasefire continues through July 31?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 31?",
+          "signal": "SKIP",
+          "avg_price": 0.1403,
+          "cur_price": 0.125,
+          "usdc_size": 6250.03,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2415,
+          "cur_price": 0.7345,
+          "usdc_size": 5330.01,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1246,
+          "cur_price": 0.2645,
+          "usdc_size": 5289.99,
+          "outcome": "Yes"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 24?",
+          "signal": "SKIP",
+          "avg_price": 0.4045,
+          "cur_price": 0.5065,
+          "usdc_size": 6891.4,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc02147dee42356b7a4edbb1c35ac4ffa95f61fa8",
+      "name": "Eatpraylove",
+      "score": 40.0,
+      "roi_score": 28.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.9,
+      "roi": -7.2,
+      "cash_pnl": -32097.31,
+      "realized_pnl": 94918.74,
+      "total_usdc": 116905.72,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 189,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:57:07+00:00",
+      "top_markets": [
+        "Trump out as President by July 31?",
+        "Will China invade Taiwan by end of 2026?",
+        "2026 Balance of Power: Other"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2154,
+          "cur_price": 0.2645,
+          "usdc_size": 3155.4,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.2632,
+          "cur_price": 0.7345,
+          "usdc_size": 2267.31,
+          "outcome": "No"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 24?",
+          "signal": "SKIP",
+          "avg_price": 0.0261,
+          "cur_price": 0.5065,
+          "usdc_size": 2750.76,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
       "wallet": "0xb7b8e9681f5c863dfbd3ac7ec66bac69fa0edb31",
       "name": "charlatta",
-      "score": 39.9,
+      "score": 39.8,
       "roi_score": 25.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.7,
-      "roi": -11.5,
-      "cash_pnl": -9506.66,
+      "roi": -11.6,
+      "cash_pnl": -9562.89,
       "realized_pnl": -8788.71,
       "total_usdc": 323786.09,
       "trade_count": 500,
@@ -752,151 +865,66 @@
           "signal": "SKIP",
           "avg_price": 0.8402,
           "cur_price": 0.7345,
-          "usdc_size": 43334.23,
+          "usdc_size": 43275.23,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.8779,
-          "cur_price": 0.2655,
-          "usdc_size": 8267.6,
+          "cur_price": 0.2645,
+          "usdc_size": 8278.85,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xc02147dee42356b7a4edbb1c35ac4ffa95f61fa8",
-      "name": "Eatpraylove",
-      "score": 39.9,
-      "roi_score": 28.5,
+      "wallet": "0x30e443872ddf63b2908a49f92cd690c304a55102",
+      "name": "truthteller",
+      "score": 39.8,
+      "roi_score": 27.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.9,
-      "roi": -7.3,
-      "cash_pnl": -32219.99,
-      "realized_pnl": 94917.45,
-      "total_usdc": 116508.69,
+      "volume_score": 91.2,
+      "roi": -9.1,
+      "cash_pnl": -4041.79,
+      "realized_pnl": 7185.11,
+      "total_usdc": 157143.01,
       "trade_count": 500,
-      "market_count": 27,
-      "position_count": 189,
+      "market_count": 29,
+      "position_count": 40,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:33:24+00:00",
+      "last_active": "2026-07-27T22:58:10+00:00",
       "top_markets": [
-        "Will China invade Taiwan by end of 2026?",
-        "2026 Balance of Power: Other",
-        "Will the U.S. invade Iran before 2027?"
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "US x Iran Effective Ceasefire by July 31?",
+        "Fed rate hike in 2026?"
       ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.2154,
-          "cur_price": 0.2655,
-          "usdc_size": 3167.33,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.2625,
-          "cur_price": 0.7345,
-          "usdc_size": 1606.65,
-          "outcome": "No"
-        },
-        {
-          "market": "US x Iran Effective Ceasefire by July 24?",
-          "signal": "SKIP",
-          "avg_price": 0.0261,
-          "cur_price": 0.483,
-          "usdc_size": 2608.2,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
-      "name": "0x011f2d377e56119fb09196dffb0948ae5571112",
-      "score": 39.9,
-      "roi_score": 25.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.8,
-      "roi": -11.2,
-      "cash_pnl": -23128.52,
-      "realized_pnl": -8785.33,
-      "total_usdc": 329973.35,
-      "trade_count": 500,
-      "market_count": 42,
-      "position_count": 106,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:28:31+00:00",
-      "top_markets": [
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "Will the U.S. invade Iran before 2027?",
-        "Israel x Iran ceasefire continues through July 31?"
-      ],
-      "signals": [
-        {
-          "market": "Strait of Hormuz traffic returns to normal by August 31?",
-          "signal": "SKIP",
-          "avg_price": 0.1403,
-          "cur_price": 0.115,
-          "usdc_size": 5750.03,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.2415,
-          "cur_price": 0.7345,
-          "usdc_size": 5310.01,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.1246,
-          "cur_price": 0.2655,
-          "usdc_size": 5309.99,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US x Iran Effective Ceasefire by July 24?",
-          "signal": "SKIP",
-          "avg_price": 0.4045,
-          "cur_price": 0.483,
-          "usdc_size": 6534.25,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x1d5f88f1b97317cccad804374e5bd847512e634d",
       "name": "firegold",
-      "score": 39.6,
-      "roi_score": 28.4,
+      "score": 39.7,
+      "roi_score": 28.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.1,
-      "roi": -7.4,
-      "cash_pnl": -7660.02,
+      "volume_score": 86.4,
+      "roi": -7.1,
+      "cash_pnl": -7574.64,
       "realized_pnl": -1961.01,
-      "total_usdc": 80861.34,
+      "total_usdc": 83976.0,
       "trade_count": 500,
-      "market_count": 50,
-      "position_count": 113,
+      "market_count": 49,
+      "position_count": 114,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T19:51:15+00:00",
+      "last_active": "2026-07-27T22:53:07+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the July 2026 meeting?",
         "Will China invade Taiwan by December 31, 2027?",
@@ -908,83 +936,15 @@
           "signal": "ENTER",
           "avg_price": 0.7482,
           "cur_price": 0.7345,
-          "usdc_size": 9793.15,
+          "usdc_size": 9779.82,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.2224,
-          "cur_price": 0.2655,
-          "usdc_size": 2743.33,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
-      "name": "suntori",
-      "score": 39.0,
-      "roi_score": 28.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.2,
-      "roi": -6.8,
-      "cash_pnl": -40060.45,
-      "realized_pnl": -2530.21,
-      "total_usdc": 28772.57,
-      "trade_count": 500,
-      "market_count": 157,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:38:37+00:00",
-      "top_markets": [
-        "AC Goianiense vs. Oper\u00e1rio Ferrovi\u00e1rio EC: Oper\u00e1rio Ferrovi\u00e1rio EC O/U 2.5",
-        "Valorant: BESTIA vs Contra (BO5) - VCL Latin America Finals Playoffs",
-        "Counter-Strike: aimclub vs mellren (BO3) - CCT Europe Contenders #7 Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.7641,
-          "cur_price": 0.7345,
-          "usdc_size": 405420.63,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.7533,
-          "cur_price": 0.2655,
-          "usdc_size": 2562.59,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.0931,
-          "cur_price": 0.2655,
-          "usdc_size": 863.65,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by August 31?",
-          "signal": "SKIP",
-          "avg_price": 0.8699,
-          "cur_price": 0.115,
-          "usdc_size": 846.11,
-          "outcome": "No"
-        },
-        {
-          "market": "Israel x Iran ceasefire continues through July 31?",
-          "signal": "SKIP",
-          "avg_price": 0.6028,
-          "cur_price": 0.925,
-          "usdc_size": 537.4,
+          "cur_price": 0.2645,
+          "usdc_size": 2733.0,
           "outcome": "Yes"
         }
       ]
@@ -997,18 +957,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 70.9,
+      "volume_score": 71.1,
       "roi": -4.5,
-      "cash_pnl": -15666.41,
-      "realized_pnl": 13745.57,
-      "total_usdc": 10953.51,
+      "cash_pnl": -15767.91,
+      "realized_pnl": 13747.03,
+      "total_usdc": 11308.94,
       "trade_count": 500,
-      "market_count": 374,
+      "market_count": 371,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:35:46+00:00",
+      "last_active": "2026-07-27T22:41:21+00:00",
       "top_markets": [
         "Will UNRWA win the Nobel Peace Prize in 2026?",
         "Will there be no change in Fed interest rates after the July 2026 meeting?",
@@ -1020,7 +980,7 @@
           "signal": "SKIP",
           "avg_price": 0.8457,
           "cur_price": 0.7345,
-          "usdc_size": 6649.88,
+          "usdc_size": 6640.82,
           "outcome": "Yes"
         },
         {
@@ -1030,6 +990,14 @@
           "cur_price": 0.0045,
           "usdc_size": 5206.43,
           "outcome": "No"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 31?",
+          "signal": "SKIP",
+          "avg_price": 0.88,
+          "cur_price": 0.125,
+          "usdc_size": 1264.91,
+          "outcome": "No"
         }
       ]
     },
@@ -1037,13 +1005,13 @@
       "wallet": "0x7b9e00836875dd68970dbd1a3631006dcbb2e45a",
       "name": "XA057",
       "score": 37.2,
-      "roi_score": 20.4,
+      "roi_score": 20.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 86.0,
-      "roi": -19.4,
-      "cash_pnl": -1241.19,
+      "roi": -19.5,
+      "cash_pnl": -1248.02,
       "realized_pnl": -84.01,
       "total_usdc": 79288.52,
       "trade_count": 500,
@@ -1064,52 +1032,8 @@
           "signal": "SKIP",
           "avg_price": 0.791,
           "cur_price": 0.7345,
-          "usdc_size": 4919.86,
+          "usdc_size": 4913.16,
           "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x21ffd2b7a212a6f277ed3eca1a9f8efcbca90d71",
-      "name": "Haradwaith",
-      "score": 37.1,
-      "roi_score": 23.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 74.9,
-      "roi": -14.2,
-      "cash_pnl": -25218.86,
-      "realized_pnl": 17476.99,
-      "total_usdc": 18628.63,
-      "trade_count": 500,
-      "market_count": 205,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:38:43+00:00",
-      "top_markets": [
-        "Israel x Iran ceasefire continues through July 28?",
-        "Will the Democratic Party win the TX-17 House seat?",
-        "Fed rate hike in 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.7611,
-          "cur_price": 0.7345,
-          "usdc_size": 1128.47,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.7441,
-          "cur_price": 0.2655,
-          "usdc_size": 1437.27,
-          "outcome": "No"
         }
       ]
     },
@@ -1117,13 +1041,13 @@
       "wallet": "0x491e313aad04c39c1aadab4b168c89a4089d667f",
       "name": "hahaha13",
       "score": 36.8,
-      "roi_score": 23.8,
+      "roi_score": 23.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 71.6,
-      "roi": -14.3,
-      "cash_pnl": -464.93,
+      "roi": -14.4,
+      "cash_pnl": -468.73,
       "realized_pnl": -127.51,
       "total_usdc": 12112.82,
       "trade_count": 39,
@@ -1144,49 +1068,22 @@
           "signal": "ENTER",
           "avg_price": 0.7273,
           "cur_price": 0.7345,
-          "usdc_size": 2791.1,
+          "usdc_size": 2787.3,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xfe41328c99802a1103d74514f71a16b0eee19f23",
-      "name": "Digital-Boy",
-      "score": 36.1,
-      "roi_score": 18.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.2,
-      "roi": -22.2,
-      "cash_pnl": -2765.37,
-      "realized_pnl": -1616.0,
-      "total_usdc": 37318.55,
-      "trade_count": 500,
-      "market_count": 61,
-      "position_count": 129,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:35:46+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will no Fed rate cuts happen in 2026?",
-        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x24c4c6d6a5e7c93f4316a6675966e9e0577b3d0f",
       "name": "0x24C4C6d6A5e7C93F4316a6675966e9E0577b3D0F-1762222843136",
       "score": 35.9,
-      "roi_score": 22.2,
+      "roi_score": 22.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 67.4,
-      "roi": -16.7,
-      "cash_pnl": -174.93,
+      "roi": -16.9,
+      "cash_pnl": -176.11,
       "realized_pnl": 0.38,
       "total_usdc": 6963.03,
       "trade_count": 150,
@@ -1207,83 +1104,58 @@
           "signal": "ENTER",
           "avg_price": 0.7318,
           "cur_price": 0.7345,
-          "usdc_size": 870.07,
+          "usdc_size": 868.89,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-      "name": "cigarettes",
+      "wallet": "0xfe41328c99802a1103d74514f71a16b0eee19f23",
+      "name": "Digital-Boy",
       "score": 35.9,
-      "roi_score": 18.9,
+      "roi_score": 18.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.4,
-      "roi": -21.6,
-      "cash_pnl": -44966.7,
-      "realized_pnl": 341351.67,
-      "total_usdc": 25662.15,
+      "volume_score": 79.8,
+      "roi": -22.9,
+      "cash_pnl": -2766.92,
+      "realized_pnl": -1570.77,
+      "total_usdc": 35154.83,
       "trade_count": 500,
-      "market_count": 201,
-      "position_count": 500,
+      "market_count": 55,
+      "position_count": 127,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:38:06+00:00",
+      "last_active": "2026-07-27T22:44:52+00:00",
       "top_markets": [
-        "Counter-Strike: aimclub vs mellren (BO3) - CCT Europe Contenders #7 Playoffs",
-        "Will Libertad Loja win on 2026-07-27?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?"
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will no Fed rate cuts happen in 2026?",
+        "Iran full airspace closure by August 15?"
       ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.7476,
-          "cur_price": 0.2655,
-          "usdc_size": 15008.88,
-          "outcome": "No"
-        },
-        {
-          "market": "The Hundred: Southern Brave vs MI London",
-          "signal": "SKIP",
-          "avg_price": 0.6483,
-          "cur_price": 0.0005,
-          "usdc_size": 15053.71,
-          "outcome": "MI London"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4432,
-          "cur_price": 0.7345,
-          "usdc_size": 4648.51,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
       "name": "AlphaBetaGamma2357",
-      "score": 35.8,
-      "roi_score": 15.2,
+      "score": 35.6,
+      "roi_score": 14.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.5,
-      "roi": -27.1,
-      "cash_pnl": -23286.03,
-      "realized_pnl": 9031.85,
-      "total_usdc": 96756.37,
+      "volume_score": 87.7,
+      "roi": -28.1,
+      "cash_pnl": -24439.46,
+      "realized_pnl": 8999.71,
+      "total_usdc": 99723.5,
       "trade_count": 500,
-      "market_count": 55,
+      "market_count": 56,
       "position_count": 51,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:29:18+00:00",
+      "last_active": "2026-07-27T22:51:03+00:00",
       "top_markets": [
         "Will LeBron James play for the Miami Heat in 2026-27?",
         "Will WTI Crude Oil (WTI) hit (LOW) $75 in July?",
@@ -1295,7 +1167,51 @@
           "signal": "LATE",
           "avg_price": 0.7766,
           "cur_price": 0.7345,
-          "usdc_size": 9912.36,
+          "usdc_size": 9898.87,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+      "name": "cigarettes",
+      "score": 35.3,
+      "roi_score": 17.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.1,
+      "roi": -23.9,
+      "cash_pnl": -47471.64,
+      "realized_pnl": 344700.58,
+      "total_usdc": 21828.53,
+      "trade_count": 500,
+      "market_count": 246,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:59:22+00:00",
+      "top_markets": [
+        "LoL: paiN Gaming Academy vs Ei Nerd Esports (BO1) - Circuito Desafiante Regular Season",
+        "Will Byron Donalds be the Republican nominee for Florida Governor?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.7476,
+          "cur_price": 0.2645,
+          "usdc_size": 15029.31,
+          "outcome": "No"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4477,
+          "cur_price": 0.7345,
+          "usdc_size": 4714.53,
           "outcome": "Yes"
         }
       ]
@@ -1303,23 +1219,23 @@
     {
       "wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
       "name": "pbshine",
-      "score": 34.8,
-      "roi_score": 12.2,
+      "score": 35.1,
+      "roi_score": 13.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.9,
-      "roi": -31.6,
-      "cash_pnl": -3157.47,
+      "volume_score": 86.0,
+      "roi": -30.0,
+      "cash_pnl": -3027.77,
       "realized_pnl": 4524.11,
-      "total_usdc": 79046.94,
+      "total_usdc": 79164.67,
       "trade_count": 500,
       "market_count": 35,
       "position_count": 18,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:21:39+00:00",
+      "last_active": "2026-07-27T22:37:40+00:00",
       "top_markets": [
         "Will LeBron James play for the Miami Heat in 2026-27?",
         "Will LeBron James play for the Golden State Warriors in 2026-27?",
@@ -1337,16 +1253,16 @@
       "early_entry_score": 0.0,
       "volume_score": 83.3,
       "roi": -38.5,
-      "cash_pnl": -409532.26,
+      "cash_pnl": -409294.56,
       "realized_pnl": 1168709.87,
-      "total_usdc": 56180.56,
+      "total_usdc": 56195.74,
       "trade_count": 500,
       "market_count": 17,
       "position_count": 200,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:22:15+00:00",
+      "last_active": "2026-07-27T22:25:27+00:00",
       "top_markets": [
         "Will the Iranian regime fall before 2027?",
         "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
@@ -1365,8 +1281,8 @@
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.7862,
-          "cur_price": 0.2655,
-          "usdc_size": 5968.38,
+          "cur_price": 0.2645,
+          "usdc_size": 5976.5,
           "outcome": "No"
         },
         {
@@ -1374,7 +1290,7 @@
           "signal": "SKIP",
           "avg_price": 0.2167,
           "cur_price": 0.7345,
-          "usdc_size": 1821.34,
+          "usdc_size": 1828.2,
           "outcome": "No"
         }
       ]
@@ -1388,17 +1304,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -60.1,
-      "cash_pnl": -268457.63,
-      "realized_pnl": 68463.04,
-      "total_usdc": 757570.04,
+      "roi": -63.2,
+      "cash_pnl": -268529.93,
+      "realized_pnl": 68518.06,
+      "total_usdc": 769399.11,
       "trade_count": 500,
       "market_count": 49,
-      "position_count": 326,
+      "position_count": 324,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T20:57:34+00:00",
+      "last_active": "2026-07-27T21:50:15+00:00",
       "top_markets": [
         "Will Donald Trump win the Nobel Peace Prize in 2026?",
         "US x Iran permanent peace deal by June 15, 2026?",
@@ -1410,7 +1326,7 @@
           "signal": "LATE",
           "avg_price": 0.758,
           "cur_price": 0.7345,
-          "usdc_size": 5923.82,
+          "usdc_size": 5915.76,
           "outcome": "Yes"
         }
       ]
@@ -1424,8 +1340,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -64.0,
-      "cash_pnl": -951782.8,
+      "roi": -64.1,
+      "cash_pnl": -952139.75,
       "realized_pnl": -7466.7,
       "total_usdc": 3834066.18,
       "trade_count": 500,
@@ -1445,8 +1361,8 @@
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "ENTER",
           "avg_price": 0.2667,
-          "cur_price": 0.2655,
-          "usdc_size": 119472.83,
+          "cur_price": 0.2645,
+          "usdc_size": 119022.83,
           "outcome": "Yes"
         },
         {
@@ -1462,7 +1378,7 @@
           "signal": "SKIP",
           "avg_price": 0.2597,
           "cur_price": 0.7345,
-          "usdc_size": 44388.48,
+          "usdc_size": 44555.67,
           "outcome": "No"
         }
       ]
@@ -1477,7 +1393,7 @@
       "early_entry_score": 0.0,
       "volume_score": 96.3,
       "roi": -97.8,
-      "cash_pnl": -4133913.93,
+      "cash_pnl": -4134101.16,
       "realized_pnl": -113379.87,
       "total_usdc": 306486.07,
       "trade_count": 500,
@@ -1498,15 +1414,15 @@
           "signal": "ENTER",
           "avg_price": 0.7385,
           "cur_price": 0.7345,
-          "usdc_size": 52494.01,
+          "usdc_size": 52422.54,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.772,
-          "cur_price": 0.2655,
-          "usdc_size": 17313.82,
+          "cur_price": 0.2645,
+          "usdc_size": 17337.39,
           "outcome": "No"
         }
       ]
@@ -1520,8 +1436,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 95.2,
-      "roi": -65.0,
-      "cash_pnl": -27478.79,
+      "roi": -65.1,
+      "cash_pnl": -27498.91,
       "realized_pnl": 0.0,
       "total_usdc": 267714.58,
       "trade_count": 58,
@@ -1542,7 +1458,7 @@
           "signal": "ENTER",
           "avg_price": 0.7323,
           "cur_price": 0.7345,
-          "usdc_size": 14782.17,
+          "usdc_size": 14762.04,
           "outcome": "Yes"
         }
       ]
@@ -1550,27 +1466,27 @@
     {
       "wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
       "name": "timetowander",
-      "score": 32.0,
+      "score": 31.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 94.8,
+      "volume_score": 94.5,
       "roi": -98.4,
-      "cash_pnl": -1206944.03,
-      "realized_pnl": 153259.58,
-      "total_usdc": 254259.99,
+      "cash_pnl": -1206938.6,
+      "realized_pnl": 153263.62,
+      "total_usdc": 242665.31,
       "trade_count": 500,
-      "market_count": 26,
+      "market_count": 28,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:36:10+00:00",
+      "last_active": "2026-07-27T22:58:34+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will Novak Djokovic win the 2026 Men's US Open?",
-        "Will Alexander Zverev win the 2026 Men's US Open?"
+        "Will Alexander Zverev win the 2026 Men's US Open?",
+        "Will Novak Djokovic win the 2026 Men's US Open?"
       ],
       "signals": [
         {
@@ -1578,7 +1494,7 @@
           "signal": "SKIP",
           "avg_price": 0.2,
           "cur_price": 0.7345,
-          "usdc_size": 11017.5,
+          "usdc_size": 11002.5,
           "outcome": "Yes"
         }
       ]
@@ -1591,18 +1507,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.6,
-      "roi": -68.3,
-      "cash_pnl": -453103.88,
-      "realized_pnl": 107431.52,
-      "total_usdc": 217205.45,
+      "volume_score": 93.7,
+      "roi": -68.9,
+      "cash_pnl": -454009.7,
+      "realized_pnl": 107272.1,
+      "total_usdc": 217365.98,
       "trade_count": 500,
       "market_count": 41,
-      "position_count": 33,
+      "position_count": 29,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T20:41:15+00:00",
+      "last_active": "2026-07-27T21:53:19+00:00",
       "top_markets": [
         "Spain vs. Argentina: Team to Advance",
         "Will Trump say \"Save America\" during Michigan remarks?",
@@ -1614,7 +1530,7 @@
           "signal": "ENTER",
           "avg_price": 0.731,
           "cur_price": 0.7345,
-          "usdc_size": 33052.5,
+          "usdc_size": 33007.5,
           "outcome": "Yes"
         },
         {
@@ -1628,33 +1544,6 @@
       ]
     },
     {
-      "wallet": "0x5378c2571031c4bbb3d9f32ef98d055400f538e4",
-      "name": "fastflip1",
-      "score": 31.7,
-      "roi_score": 5.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.0,
-      "roi": -42.2,
-      "cash_pnl": -160.76,
-      "realized_pnl": 107.36,
-      "total_usdc": 21446.73,
-      "trade_count": 500,
-      "market_count": 17,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:25:58+00:00",
-      "top_markets": [
-        "Will Ronaldo Cry at the World Cup?",
-        "Will LeBron James play for the Golden State Warriors in 2026-27?",
-        "Will Claude Fable 5 be restored for US customers by July 1?"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0xfbfd14dd4bb607373119de95f1d4b21c3b6c0029",
       "name": "XAE12Archangel",
       "score": 31.5,
@@ -1662,38 +1551,38 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 89.8,
-      "roi": -99.1,
-      "cash_pnl": -7667416.48,
-      "realized_pnl": -6955317.12,
-      "total_usdc": 130304.56,
+      "volume_score": 89.9,
+      "roi": -99.0,
+      "cash_pnl": -7667427.67,
+      "realized_pnl": -6955316.79,
+      "total_usdc": 133469.53,
       "trade_count": 500,
-      "market_count": 13,
+      "market_count": 18,
       "position_count": 172,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:31:43+00:00",
+      "last_active": "2026-07-27T22:56:36+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "2026 Balance of Power: R Senate, D House",
-        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "2026 Balance of Power: R Senate, D House"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.2726,
+          "avg_price": 0.2684,
           "cur_price": 0.7345,
-          "usdc_size": 1116.58,
+          "usdc_size": 2453.28,
           "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.7339,
-          "cur_price": 0.2655,
-          "usdc_size": 705.13,
+          "avg_price": 0.7348,
+          "cur_price": 0.2645,
+          "usdc_size": 6057.87,
           "outcome": "No"
         }
       ]
@@ -1708,7 +1597,7 @@
       "early_entry_score": 0.0,
       "volume_score": 69.3,
       "roi": -39.8,
-      "cash_pnl": -2064.4,
+      "cash_pnl": -2068.7,
       "realized_pnl": 0.0,
       "total_usdc": 8882.47,
       "trade_count": 500,
@@ -1729,7 +1618,79 @@
           "signal": "ENTER",
           "avg_price": 0.7375,
           "cur_price": 0.7345,
-          "usdc_size": 2938.0,
+          "usdc_size": 2934.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x33dd49d595ca9c26dbe02c4830f90334f4d7ef8a",
+      "name": "Tbonepro",
+      "score": 31.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.9,
+      "roi": -98.4,
+      "cash_pnl": -218655.54,
+      "realized_pnl": 1536.44,
+      "total_usdc": 89182.51,
+      "trade_count": 500,
+      "market_count": 32,
+      "position_count": 167,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:57:42+00:00",
+      "top_markets": [
+        "Will Ferran Torres be the top goalscorer at the 2026 FIFA World Cup?",
+        "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
+        "UFC Fight Night: Nazim Sadykhov vs. Matheus Camilo (Lightweight, Main Card)"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.734,
+          "cur_price": 0.7345,
+          "usdc_size": 3667.48,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa4928dafb87cec08fe7f63f4eae83b3b7c28d2fd",
+      "name": "DonkDaWarrior",
+      "score": 31.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.9,
+      "roi": -64.4,
+      "cash_pnl": -17081.76,
+      "realized_pnl": 0.0,
+      "total_usdc": 89847.92,
+      "trade_count": 272,
+      "market_count": 51,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:48:24+00:00",
+      "top_markets": [
+        "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+        "Will Mike Tyson win his boxing match against Jake Paul?",
+        "Will Donald Trump win the popular vote in the 2024 Presidential Election?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.735,
+          "cur_price": 0.7345,
+          "usdc_size": 7199.3,
           "outcome": "Yes"
         }
       ]
@@ -1744,7 +1705,7 @@
       "early_entry_score": 0.0,
       "volume_score": 86.6,
       "roi": -84.0,
-      "cash_pnl": -43798.02,
+      "cash_pnl": -43780.61,
       "realized_pnl": -10.0,
       "total_usdc": 86050.89,
       "trade_count": 500,
@@ -1765,37 +1726,10 @@
           "signal": "ENTER",
           "avg_price": 0.732,
           "cur_price": 0.7345,
-          "usdc_size": 7344.98,
+          "usdc_size": 7334.98,
           "outcome": "Yes"
         }
       ]
-    },
-    {
-      "wallet": "0x9495d622ab74a601ad1668d3dd4f7a2e68c3468f",
-      "name": "0x9495d622aB74a6O1AD1668D3DD4F7A2E68C3468F",
-      "score": 31.2,
-      "roi_score": 3.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.9,
-      "roi": -45.2,
-      "cash_pnl": -3187.3,
-      "realized_pnl": -183.61,
-      "total_usdc": 24281.67,
-      "trade_count": 500,
-      "market_count": 176,
-      "position_count": 261,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-07-27T21:31:22+00:00",
-      "top_markets": [
-        "Will Aq Jol win the second most seats in the 2026 Kazakh Kurultai elections?",
-        "Will any other model be the best AI model on August 10, 2026?",
-        "Will OpenAI have the best Text-to-Image AI at the end of September 2026?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x620fb3e1fd0103570494f4cbb0f2ce71f1ca2389",
@@ -1807,7 +1741,7 @@
       "early_entry_score": 0.0,
       "volume_score": 85.3,
       "roi": -96.5,
-      "cash_pnl": -20144.58,
+      "cash_pnl": -20145.58,
       "realized_pnl": -1851.89,
       "total_usdc": 72683.62,
       "trade_count": 132,
@@ -1828,7 +1762,7 @@
           "signal": "ENTER",
           "avg_price": 0.734,
           "cur_price": 0.7345,
-          "usdc_size": 734.5,
+          "usdc_size": 733.5,
           "outcome": "Yes"
         }
       ]
@@ -1843,7 +1777,7 @@
       "early_entry_score": 0.0,
       "volume_score": 81.7,
       "roi": -83.2,
-      "cash_pnl": -3688.9,
+      "cash_pnl": -3689.92,
       "realized_pnl": -17.2,
       "total_usdc": 45391.8,
       "trade_count": 315,
@@ -1864,7 +1798,43 @@
           "signal": "ENTER",
           "avg_price": 0.7325,
           "cur_price": 0.7345,
-          "usdc_size": 745.37,
+          "usdc_size": 744.36,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x35e4f89223ab2372477479016589226e0db45bbc",
+      "name": "ebobc",
+      "score": 30.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 81.2,
+      "roi": -61.4,
+      "cash_pnl": -17820.04,
+      "realized_pnl": -228.41,
+      "total_usdc": 42406.91,
+      "trade_count": 500,
+      "market_count": 122,
+      "position_count": 115,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-07-27T22:21:43+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - April 28, 12:55AM-1:00AM ET",
+        "Will Paul Seixas win the 2026 Tour De France?",
+        "Bitcoin Up or Down - April 29, 1:20PM-1:25PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.7349,
+          "cur_price": 0.7345,
+          "usdc_size": 1469.01,
           "outcome": "Yes"
         }
       ]
@@ -1872,54 +1842,54 @@
     {
       "wallet": "0xb687f00464e33934f5d591f224e71c3559ecaee5",
       "name": "alwayslatetotheparty",
-      "score": 30.5,
+      "score": 30.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 79.5,
+      "volume_score": 78.9,
       "roi": -96.1,
-      "cash_pnl": -371944.83,
-      "realized_pnl": -4267008.65,
-      "total_usdc": 34142.28,
+      "cash_pnl": -373523.35,
+      "realized_pnl": -4292547.93,
+      "total_usdc": 31281.1,
       "trade_count": 500,
-      "market_count": 74,
+      "market_count": 77,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:36:19+00:00",
+      "last_active": "2026-07-27T22:58:09+00:00",
       "top_markets": [
-        "Will 8 Fed rate cuts happen in 2026?",
+        "Will Apple be the largest company in the world by market cap on July 31?",
         "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "Will Apple be the largest company in the world by market cap on July 31?"
+        "Will NVIDIA be the largest company in the world by market cap on July 31?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
-      "name": "Bigggggggg",
+      "wallet": "0x5378c2571031c4bbb3d9f32ef98d055400f538e4",
+      "name": "fastflip1",
       "score": 30.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 75.8,
-      "roi": -99.9,
-      "cash_pnl": -301972.85,
-      "realized_pnl": -31178.4,
-      "total_usdc": 20930.8,
+      "volume_score": 76.1,
+      "roi": -100.0,
+      "cash_pnl": -161.2,
+      "realized_pnl": 104.6,
+      "total_usdc": 21660.6,
       "trade_count": 500,
-      "market_count": 144,
-      "position_count": 500,
+      "market_count": 17,
+      "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-07-27T21:25:39+00:00",
+      "last_active": "2026-07-27T21:56:51+00:00",
       "top_markets": [
-        "Will NVIDIA be the largest company in the world by market cap on August 31?",
-        "Will claude-opus-4-6-thinking be the best AI model on August 10, 2026?",
-        "Will Alphabet be the largest company in the world by market cap on August 31?"
+        "Will Ronaldo Cry at the World Cup?",
+        "Will LeBron James play for the Golden State Warriors in 2026-27?",
+        "Will Claude Fable 5 be restored for US customers by July 1?"
       ],
       "signals": []
     },
@@ -1933,7 +1903,7 @@
       "early_entry_score": 0.0,
       "volume_score": 75.0,
       "roi": -89.6,
-      "cash_pnl": -5921.79,
+      "cash_pnl": -5922.99,
       "realized_pnl": -18.99,
       "total_usdc": 18690.67,
       "trade_count": 500,
@@ -1954,7 +1924,7 @@
           "signal": "ENTER",
           "avg_price": 0.72,
           "cur_price": 0.7345,
-          "usdc_size": 513.75,
+          "usdc_size": 513.05,
           "outcome": "Yes"
         }
       ]
@@ -1968,8 +1938,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 73.6,
-      "roi": -78.6,
-      "cash_pnl": -12132.6,
+      "roi": -78.7,
+      "cash_pnl": -12137.09,
       "realized_pnl": 0.0,
       "total_usdc": 15606.58,
       "trade_count": 3,
@@ -1989,7 +1959,7 @@
           "signal": "ENTER",
           "avg_price": 0.7349,
           "cur_price": 0.7345,
-          "usdc_size": 3297.76,
+          "usdc_size": 3293.27,
           "outcome": "Yes"
         }
       ]
@@ -1999,142 +1969,142 @@
     {
       "id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
       "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "volume": "30199242.291022994",
-      "liquidity": "305511.0263",
-      "end_date": "2026-07-29T00:00:00Z"
-    },
-    {
-      "id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
-      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "volume": "20655227.708031435",
-      "liquidity": "379719.56557",
+      "volume": "30213991.73720799",
+      "liquidity": "345473.29272",
       "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0x4ede078cae84a5877ac32d7fb48811e5c23549a1904b7df06ff7935c6d79d831",
       "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-      "volume": "17155390.65169502",
-      "liquidity": "1860273.47599",
+      "volume": "17370158.874695007",
+      "liquidity": "1653873.24362",
+      "end_date": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "volume": "20662515.427242436",
+      "liquidity": "467330.38806",
       "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
       "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
       "volume": "51660712.38707718",
-      "liquidity": "31239.8447",
+      "liquidity": "23869.8023",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
       "question": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
-      "volume": "19983799.959030848",
-      "liquidity": "1832180.9447",
+      "volume": "19985234.240230847",
+      "liquidity": "1862725.21273",
       "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0x3d675f1c88099a57c12abca632cf926be1bf430125168321de06234e9930fe1a",
       "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
-      "volume": "15168064.590148898",
-      "liquidity": "2911602.51354",
+      "volume": "15249774.950148897",
+      "liquidity": "2912591.90643",
       "end_date": "2026-07-29T00:00:00Z"
     },
     {
       "id": "0xba34d786cd7bfbd719aa77c705f27969aba84d6649dca9adb365aad8c255db7a",
       "question": "US announces halt in Iran offensive operations by July 31?",
-      "volume": "1154771.275263",
-      "liquidity": "88111.15985",
+      "volume": "1174029.1379019995",
+      "liquidity": "64553.95775",
       "end_date": "2026-08-31T23:59:00Z"
     },
     {
       "id": "0x23d71fd1561572cdec9f1d7671b76f8917e5b6740f4a5577df8bb4289e74e4cd",
       "question": "Will Tom Cotton win the 2028 Republican presidential nomination?",
       "volume": "788276.7986659999",
-      "liquidity": "159687.66265",
+      "liquidity": "150745.59595",
       "end_date": "2028-11-07T00:00:00Z"
-    },
-    {
-      "id": "0xbd6b69a901823a71a3a167280d3bc6cb947c434d50d8b85b2d5859c15679fd6b",
-      "question": "The Memphis Classic: Katie Volynets vs Viktorija Golubic",
-      "volume": "438500.1232699992",
-      "liquidity": "6788.4515",
-      "end_date": "2026-08-02T15:00:00Z"
-    },
-    {
-      "id": "0xd12904b67771d1e09783c706831aeca5cb4b43fb20ed7fb09d397944b4ca9f1b",
-      "question": "S&P 500 (SPX) Up or Down on July 27?",
-      "volume": "412950.93809600075",
-      "liquidity": "66436.82198",
-      "end_date": "2026-07-27T20:00:00Z"
     },
     {
       "id": "0x29f42c3cd2d40ba0b7e034fc88f3c50086f9c59bf9b311ebfec2ce2e4540b2c1",
       "question": "Mubadala Citi DC Open: Kei Nishikori vs Juncheng Shang",
-      "volume": "346459.73654500104",
-      "liquidity": "229281.1256",
+      "volume": "554137.2507440024",
+      "liquidity": "283215.8465",
       "end_date": "2026-08-03T14:00:00Z"
+    },
+    {
+      "id": "0xbd6b69a901823a71a3a167280d3bc6cb947c434d50d8b85b2d5859c15679fd6b",
+      "question": "The Memphis Classic: Katie Volynets vs Viktorija Golubic",
+      "volume": "499402.21354699944",
+      "liquidity": "38127.0945",
+      "end_date": "2026-08-02T15:00:00Z"
+    },
+    {
+      "id": "0x303d1171c8df2ac6f158924fb781a6beae5ada70823e5c68a5a1ff94d098f6f0",
+      "question": "Toronto Blue Jays vs. Washington Nationals",
+      "volume": "382888.84473000147",
+      "liquidity": "178414.0139",
+      "end_date": "2026-08-03T22:45:00Z"
+    },
+    {
+      "id": "0x1948968ff9311250fa1cd4299ce8895d1c7f2237115ccc1454c1226e396aba23",
+      "question": "Philadelphia Phillies vs. Miami Marlins",
+      "volume": "343254.6961510002",
+      "liquidity": "240261.9602",
+      "end_date": "2026-08-03T22:40:00Z"
     },
     {
       "id": "0x58180f4a69651f67c23ac92845721b2320cc0c76effeb5e79db5288d8d8e6b28",
       "question": "US x Iran Effective Ceasefire by July 24?",
-      "volume": "2049433.4658140016",
-      "liquidity": "85586.19657",
+      "volume": "2067733.8448540017",
+      "liquidity": "53476.47712",
       "end_date": "2026-07-24T23:59:00Z"
     },
     {
       "id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
       "question": "Strait of Hormuz traffic returns to normal by August 31?",
-      "volume": "3293498.976724994",
-      "liquidity": "394416.9456",
+      "volume": "3328054.0803349935",
+      "liquidity": "379501.2008",
       "end_date": "2026-08-31T00:00:00Z"
-    },
-    {
-      "id": "0x1ce6e468cb4544ff1c24ce022eec89aa67a47dd31ff1c2d1a956e84cd4be707a",
-      "question": "The Hundred: Southern Brave vs MI London",
-      "volume": "304032.6081010002",
-      "liquidity": "153470.14925",
-      "end_date": "2026-08-03T17:30:00Z"
-    },
-    {
-      "id": "0x1948968ff9311250fa1cd4299ce8895d1c7f2237115ccc1454c1226e396aba23",
-      "question": "Philadelphia Phillies vs. Miami Marlins",
-      "volume": "291117.8235160001",
-      "liquidity": "757904.9296",
-      "end_date": "2026-08-03T22:40:00Z"
-    },
-    {
-      "id": "0x303d1171c8df2ac6f158924fb781a6beae5ada70823e5c68a5a1ff94d098f6f0",
-      "question": "Toronto Blue Jays vs. Washington Nationals",
-      "volume": "279787.6473730004",
-      "liquidity": "777098.0327",
-      "end_date": "2026-08-03T22:45:00Z"
     },
     {
       "id": "0xbcb4afb2535f14a91ea3fdeaa430f30fa427d8884d2032d6cdd95ef3f561431d",
       "question": "Cleveland Guardians vs. Cincinnati Reds: O/U 8.5",
-      "volume": "249069.02334899994",
-      "liquidity": "347035.4115",
+      "volume": "280655.84091699985",
+      "liquidity": "259813.6213",
       "end_date": "2026-07-27T23:10:00Z"
+    },
+    {
+      "id": "0x42cf0c4f01b815fb38a0c47a2f3183f4db1b9345baf3ad829ad5275ddee2b043",
+      "question": "Mubadala Citi DC Open: Aleksandar Vukic vs Zachary Svajda",
+      "volume": "272902.7274440005",
+      "liquidity": "453673.88592",
+      "end_date": "2026-08-03T14:00:00Z"
     },
     {
       "id": "0x7162118722a6abe965c964e8c694ff0f232221d9bb2263bd92e5902633381893",
       "question": "Kharg Island no longer under Iranian control by July 31?",
-      "volume": "5201787.537567997",
-      "liquidity": "274658.13378",
+      "volume": "5226173.417567997",
+      "liquidity": "229700.43232",
       "end_date": "2026-06-30T23:55:00Z"
-    },
-    {
-      "id": "0xa6480903e54c68f2ee79cacb7861dfcc9b473e8b07d6dcaf2c9923034a5fb56f",
-      "question": "Israel x Iran ceasefire continues through July 31?",
-      "volume": "1730160.9123269978",
-      "liquidity": "54431.9782",
-      "end_date": "2026-07-31T23:59:00Z"
     },
     {
       "id": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21",
       "question": "Strait of Hormuz traffic returns to normal by July 31?",
-      "volume": "21379089.828399304",
-      "liquidity": "545822.39483",
+      "volume": "21404068.5568993",
+      "liquidity": "560450.14968",
       "end_date": "2026-07-31T00:00:00Z"
+    },
+    {
+      "id": "0xa118d4a71c01bc4e5705b77ae31b18bebf1f694aabe85eb50bc881a2b9215302",
+      "question": "Baltimore Orioles vs. Detroit Tigers",
+      "volume": "236564.93141200018",
+      "liquidity": "214234.1759",
+      "end_date": "2026-08-03T22:40:00Z"
+    },
+    {
+      "id": "0xa6480903e54c68f2ee79cacb7861dfcc9b473e8b07d6dcaf2c9923034a5fb56f",
+      "question": "Israel x Iran ceasefire continues through July 31?",
+      "volume": "1735736.542326998",
+      "liquidity": "37486.1758",
+      "end_date": "2026-07-31T23:59:00Z"
     }
   ]
 }
