@@ -2,7 +2,7 @@ name: Fetch Hedge Fund Positions
 
 on:
   schedule:
-    - cron: "0 10 * * 1"   # Every Monday 10am UTC
+    - cron: "0 10 * * 1-5"   # Mon-Fri 10am UTC
   workflow_dispatch:
 
 jobs:
