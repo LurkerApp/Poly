@@ -6,23 +6,47 @@
     <style>
       .fund-tabs {
         display: flex;
-        gap: 0.5rem;
+        gap: 0.75rem;
         flex-wrap: wrap;
         margin-bottom: 1.5rem;
       }
       .fund-tab {
-        font-size: 13px; font-weight: 600;
-        padding: 6px 16px; border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding: 10px 18px;
+        border-radius: 8px;
         border: 1px solid #2a2d30;
-        background: transparent; color: #7F8C8D;
-        cursor: pointer; font-family: inherit;
+        background: #1f2224;
+        color: #7F8C8D;
+        cursor: pointer;
+        font-family: inherit;
         transition: all 0.15s;
+        text-align: left;
       }
       .fund-tab.active {
-        background: #1ABC9C; color: #141618; border-color: #1ABC9C;
+        background: #1e2e2a;
+        border-color: #1ABC9C;
+        color: #e0e0e0;
       }
       .fund-tab:hover:not(.active) {
-        background: #252830; color: #e0e0e0;
+        background: #252830;
+        color: #e0e0e0;
+      }
+      .fund-tab-name {
+        font-size: 15px;
+        font-weight: 700;
+        color: inherit;
+      }
+      .fund-tab.active .fund-tab-name { color: #1ABC9C; }
+      .fund-tab-date {
+        font-size: 11px;
+        color: #5a6068;
+      }
+      .fund-tab-aum {
+        font-size: 12px;
+        color: #7F8C8D;
+        font-weight: 600;
       }
 
       .portfolio-grid {
@@ -44,11 +68,11 @@
         display: inline-block; font-size: 10px; font-weight: 700;
         padding: 2px 7px; border-radius: 3px; white-space: nowrap;
       }
-      .badge-stock  { background: #1e2e2a; color: #1ABC9C; }
-      .badge-put    { background: #2e1e1e; color: #e05252; }
-      .badge-call   { background: #1e2a1e; color: #4ade80; }
+      .badge-stock { background: #1e2e2a; color: #1ABC9C; }
+      .badge-put   { background: #2e1e1e; color: #e05252; }
+      .badge-call  { background: #1e2a1e; color: #4ade80; }
 
-      .pct-bar-wrap { display: flex; align-items: center; gap: 8px; min-width: 100px; }
+      .pct-bar-wrap { display: flex; align-items: center; gap: 8px; min-width: 120px; }
       .pct-bar-bg   { flex: 1; height: 4px; background: #2a2d30; border-radius: 2px; overflow: hidden; }
       .pct-bar-fill { height: 100%; border-radius: 2px; background: #1ABC9C; }
       .pct-bar-fill.option { background: #e05252; }
@@ -57,6 +81,10 @@
         font-size: 11px; color: #7F8C8D;
         background: #252830; padding: 2px 8px;
         border-radius: 4px; margin-left: 8px;
+      }
+      .filing-badge {
+        font-size: 11px; color: #5a6068;
+        margin-left: 8px;
       }
     </style>
   </head>
@@ -100,10 +128,8 @@
       <!-- Selected fund portfolio -->
       <div id="fundWrap" style="display:none;">
 
-        <!-- Portfolio summary stats -->
         <div class="portfolio-grid" id="portfolioStats"></div>
 
-        <!-- Positions table -->
         <div class="chart-section">
           <h2 id="positionsTitle">Positions <span class="refresh-badge">Live</span></h2>
           <p class="section-sub" id="positionsSub"></p>
@@ -143,13 +169,21 @@
 
       var activeFund = null;
       var allFunds   = [];
+      var fundMeta   = {};  // cik → { latest_filed, latest_quarter }
 
       function fmt(v) {
         if (!v && v !== 0) return '—';
-        if (v >= 1e9)  return '$' + (v / 1e9).toFixed(2)  + 'B';
-        if (v >= 1e6)  return '$' + (v / 1e6).toFixed(2)  + 'M';
-        if (v >= 1e3)  return '$' + (v / 1e3).toFixed(1)  + 'K';
+        if (v >= 1e9)  return '$' + (v / 1e9).toFixed(2) + 'B';
+        if (v >= 1e6)  return '$' + (v / 1e6).toFixed(2) + 'M';
+        if (v >= 1e3)  return '$' + (v / 1e3).toFixed(1) + 'K';
         return '$' + v.toFixed(0);
+      }
+
+      function fmtDate(d) {
+        if (!d) return '—';
+        return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', {
+          month: 'long', day: 'numeric', year: 'numeric'
+        });
       }
 
       function fmtShares(s) {
@@ -159,30 +193,62 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // ── Load all funds ────────────────────────────────────
+      // ── Load all funds + their latest filing date ─────────
       async function loadFunds() {
-        const resp = await fetch(
-          SUPABASE_URL + '/rest/v1/hedge_funds?select=*&order=aum.desc',
+        // Load funds
+        const fundsResp = await fetch(
+          SUPABASE_URL + '/rest/v1/hedge_funds?select=*',
           { headers }
         );
-        const funds = await resp.json();
+        const funds = await fundsResp.json();
+
+        // Load latest filing date per fund from fund_positions
+        const metaResp = await fetch(
+          SUPABASE_URL + '/rest/v1/fund_positions?select=fund_cik,filed_date,quarter&order=filed_date.desc',
+          { headers }
+        );
+        const meta = await metaResp.json();
+
+        // Build lookup: cik → latest filed_date + quarter
+        meta.forEach(function(r) {
+          if (!fundMeta[r.fund_cik]) {
+            fundMeta[r.fund_cik] = {
+              filed_date: r.filed_date,
+              quarter:    r.quarter
+            };
+          }
+        });
+
+        // Sort funds by latest filing date descending
+        funds.sort(function(a, b) {
+          var da = fundMeta[a.cik] ? fundMeta[a.cik].filed_date : '0';
+          var db = fundMeta[b.cik] ? fundMeta[b.cik].filed_date : '0';
+          return db.localeCompare(da);
+        });
+
         allFunds = funds;
 
         hide('fundTabsLoading');
         show('fundTabs');
 
-        // Stats
-        const totalAum       = funds.reduce((s, f) => s + (f.aum || 0), 0);
+        // Top stats
+        var totalAum = funds.reduce(function(s, f) { return s + (f.aum || 0); }, 0);
         document.getElementById('statFunds').textContent   = funds.length;
         document.getElementById('statAum').textContent     = fmt(totalAum);
         document.getElementById('statUpdated').textContent = new Date().toLocaleDateString('en-US', {
           month: 'short', day: 'numeric', year: 'numeric'
         });
 
-        // Build tabs
-        const tabsEl = document.getElementById('fundTabs');
+        // Build tabs — bigger cards with name, AUM, filing date
+        var tabsEl = document.getElementById('fundTabs');
         tabsEl.innerHTML = funds.map(function(f) {
-          return '<button class="fund-tab" onclick="selectFund(\'' + f.cik + '\')">' + f.name + '</button>';
+          var meta    = fundMeta[f.cik] || {};
+          var dateStr = meta.filed_date ? fmtDate(meta.filed_date) : '—';
+          return '<button class="fund-tab" onclick="selectFund(\'' + f.cik + '\')">' +
+            '<span class="fund-tab-name">' + f.name + '</span>' +
+            '<span class="fund-tab-aum">' + fmt(f.aum) + '</span>' +
+            '<span class="fund-tab-date">Filed ' + dateStr + '</span>' +
+          '</button>';
         }).join('');
 
         // Auto-select first fund
@@ -191,11 +257,11 @@
         }
       }
 
-      // ── Select a fund and load positions ─────────────────
+      // ── Select fund and load positions ────────────────────
       async function selectFund(cik) {
         activeFund = cik;
 
-        // Update tab styles
+        // Update tab active state
         document.querySelectorAll('.fund-tab').forEach(function(t, i) {
           t.classList.toggle('active', allFunds[i] && allFunds[i].cik === cik);
         });
@@ -203,37 +269,42 @@
         show('fundWrap');
         hide('positionsWrap');
         show('positionsLoading');
-        document.getElementById('positionsBody').innerHTML = '';
+        document.getElementById('positionsBody').innerHTML  = '';
         document.getElementById('portfolioStats').innerHTML = '';
 
-        const fund = allFunds.find(function(f) { return f.cik === cik; });
+        var fund = allFunds.find(function(f) { return f.cik === cik; });
+        var meta = fundMeta[cik] || {};
 
-        // Fetch positions for this fund — get latest quarter
+        // Fetch positions
         const resp = await fetch(
           SUPABASE_URL + '/rest/v1/fund_positions' +
-          '?select=*' +
-          '&fund_cik=eq.' + cik +
-          '&order=value_usd.desc' +
-          '&limit=500',
+          '?select=*&fund_cik=eq.' + cik +
+          '&order=value_usd.desc&limit=500',
           { headers }
         );
         const positions = await resp.json();
 
-        // Get latest quarter from results
-        const quarters = [...new Set(positions.map(function(p) { return p.quarter; }))].sort().reverse();
-        const latestQ  = quarters[0] || '—';
-        const filtered = positions.filter(function(p) { return p.quarter === latestQ; });
+        // Get latest quarter
+        var quarters = [];
+        positions.forEach(function(p) {
+          if (quarters.indexOf(p.quarter) === -1) quarters.push(p.quarter);
+        });
+        quarters.sort().reverse();
+        var latestQ   = quarters[0] || '—';
+        var filtered  = positions.filter(function(p) { return p.quarter === latestQ; });
 
-        const stocks  = filtered.filter(function(p) { return !p.is_option; });
-        const options = filtered.filter(function(p) { return p.is_option; });
-        const total   = filtered.reduce(function(s, p) { return s + (p.value_usd || 0); }, 0);
-        const stockV  = stocks.reduce(function(s, p)  { return s + (p.value_usd || 0); }, 0);
-        const optionV = options.reduce(function(s, p) { return s + (p.value_usd || 0); }, 0);
+        var stocks  = filtered.filter(function(p) { return !p.is_option; });
+        var options = filtered.filter(function(p) { return p.is_option; });
+        var total   = filtered.reduce(function(s, p) { return s + (p.value_usd || 0); }, 0);
+        var stockV  = stocks.reduce(function(s, p)   { return s + (p.value_usd || 0); }, 0);
+        var optionV = options.reduce(function(s, p)  { return s + (p.value_usd || 0); }, 0);
 
-        // Update total positions stat
         document.getElementById('statPositions').textContent = filtered.length;
 
-        // Portfolio summary
+        // Full filing date
+        var filedFull = meta.filed_date ? fmtDate(meta.filed_date) : '—';
+
+        // Portfolio summary cards
         document.getElementById('portfolioStats').innerHTML =
           '<div class="portfolio-stat">' +
             '<div class="portfolio-stat-label">Portfolio AUM</div>' +
@@ -252,15 +323,17 @@
           '</div>' +
           '<div class="portfolio-stat">' +
             '<div class="portfolio-stat-label">Largest Position</div>' +
-            '<div class="portfolio-stat-value" style="font-size:16px;">' + (filtered[0] ? filtered[0].company_name : '—') + '</div>' +
+            '<div class="portfolio-stat-value" style="font-size:15px;line-height:1.3;">' + (filtered[0] ? filtered[0].company_name : '—') + '</div>' +
             '<div class="portfolio-stat-sub">' + (filtered[0] ? fmt(filtered[0].value_usd) : '') + '</div>' +
           '</div>';
 
-        // Positions title
+        // Section title with full filing date
         document.getElementById('positionsTitle').innerHTML =
           (fund ? fund.name : '') + ' Positions' +
           ' <span class="refresh-badge">Live</span>' +
-          ' <span class="quarter-badge">' + latestQ + '</span>';
+          ' <span class="quarter-badge">' + latestQ + '</span>' +
+          ' <span class="filing-badge">Filed ' + filedFull + '</span>';
+
         document.getElementById('positionsSub').textContent =
           filtered.length + ' positions · sorted by value';
 
@@ -275,13 +348,13 @@
         }
 
         document.getElementById('positionsBody').innerHTML = filtered.map(function(p, i) {
-          var badgeCls  = p.is_option
+          var badgeCls = p.is_option
             ? (p.put_call === 'Put' ? 'badge-put' : 'badge-call')
             : 'badge-stock';
-          var badgeTxt  = p.is_option ? p.put_call : 'Stock';
-          var pct       = p.pct_portfolio || 0;
-          var barCls    = p.is_option ? 'option' : '';
-          var barWidth  = Math.min(pct, 100).toFixed(1);
+          var badgeTxt = p.is_option ? p.put_call : 'Stock';
+          var pct      = p.pct_portfolio || 0;
+          var barCls   = p.is_option ? 'option' : '';
+          var barWidth = Math.min(pct, 100).toFixed(1);
 
           return '<tr>' +
             '<td style="color:#5a6068;font-weight:700;">' + (i + 1) + '</td>' +
