@@ -1,37 +1,69 @@
 {
-  "last_updated": "2026-07-29T09:41:17.726632+00:00",
+  "last_updated": "2026-07-29T12:05:06.033475+00:00",
   "account_count": 50,
   "consensus_count": 5,
   "consensus": [
     {
-      "market": "Los Cabos Open: Dalibor Svrcina vs Adam Walton",
-      "outcome": "Dalibor Svrcina",
-      "cid": "0x4acd64f58b28b951a200f9a19dff7184968d372079bf6c789c64e53939e29200",
+      "market": "Liberec: Joel Schwaerzler vs Martin Krumich",
+      "outcome": "Martin Krumich",
+      "cid": "0x0b97d73352ff953a68500ee020020eb9194fae92e0663c81396fb5a9e0a427cf",
       "whale_count": 3,
-      "avg_price": 0.6077,
-      "total_capital": 305732.84,
-      "payoff_pct": 64.6,
+      "avg_price": 0.6258,
+      "total_capital": 30884.42,
+      "payoff_pct": 59.8,
       "whales": [
+        {
+          "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "name": "swisstony",
+          "avg_price": 0.5108,
+          "size": 843.25,
+          "pnl": 412.26
+        },
         {
           "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
           "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-          "avg_price": 0.4976,
-          "size": 91813.39,
-          "pnl": 46098.59
-        },
-        {
-          "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
-          "name": "",
-          "avg_price": 0.8135,
-          "size": 1600.71,
-          "pnl": 297.74
+          "avg_price": 0.67,
+          "size": 14073.47,
+          "pnl": 4639.53
         },
         {
           "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
           "name": "RN1",
-          "avg_price": 0.512,
-          "size": 212318.74,
-          "pnl": 103552.71
+          "avg_price": 0.6967,
+          "size": 15967.7,
+          "pnl": 4836.39
+        }
+      ]
+    },
+    {
+      "market": "Samsun: Gabriel Debru vs Florent Bax",
+      "outcome": "Florent Bax",
+      "cid": "0xad2a3c4a3eeb2fa9d756dfe69b9fd938bf89c221ca131f296ef322d64582d104",
+      "whale_count": 3,
+      "avg_price": 0.2661,
+      "total_capital": 8379.1,
+      "payoff_pct": 275.8,
+      "whales": [
+        {
+          "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "name": "swisstony",
+          "avg_price": 0.2153,
+          "size": 179.99,
+          "pnl": 21.81
+        },
+        {
+          "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+          "avg_price": 0.2272,
+          "size": 4031.31,
+          "pnl": 292.48
+        },
+        {
+          "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "name": "RN1",
+          "avg_price": 0.3557,
+          "size": 4167.8,
+          "pnl": -1884.61
         }
       ]
     },
@@ -109,40 +141,29 @@
           "pnl": -2143.7
         }
       ]
-    },
-    {
-      "market": "Liberec: Jan Kumstat vs Thiago Seyboth Wild",
-      "outcome": "Jan Kumstat",
-      "cid": "0x33e73113b2f55a9072465599d2b485b50f13071355dab07ad6acf158fc4dc43f",
-      "whale_count": 2,
-      "avg_price": 0.5177,
-      "total_capital": 22614.59,
-      "payoff_pct": 93.2,
-      "whales": [
-        {
-          "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-          "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-          "avg_price": 0.54,
-          "size": 11023.4,
-          "pnl": 670.99
-        },
-        {
-          "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-          "name": "RN1",
-          "avg_price": 0.4953,
-          "size": 11591.19,
-          "pnl": 1606.02
-        }
-      ]
     }
   ],
   "accounts": [
     {
       "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
       "name": "swisstony",
-      "pnl": 8938668.5,
-      "volume": 397516880.11,
+      "pnl": 8940231.37,
+      "volume": 397574666.08,
       "positions": [
+        {
+          "market": "Samsun: Colin Sinclair vs Koki Matsuda",
+          "outcome": "Colin Sinclair",
+          "avg_price": 0.0401,
+          "size": 10.63,
+          "pnl": -842.89
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.9186,
+          "size": 7379.32,
+          "pnl": 597.28
+        },
         {
           "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
           "outcome": "Yes",
@@ -158,25 +179,102 @@
           "pnl": -468.36
         },
         {
+          "market": "CA Barracas Central vs. CA Aldosivi: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.4454,
+          "size": 1595.79,
+          "pnl": 67.2
+        },
+        {
           "market": "Spread: Cleveland Guardians (-1.5)",
           "outcome": "Cleveland Guardians",
           "avg_price": 0.3426,
-          "size": 1398.98,
-          "pnl": 420.71
+          "size": 1427.53,
+          "pnl": 449.26
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.6339,
+          "size": 2779.52,
+          "pnl": 1016.66
+        },
+        {
+          "market": "ITF Hechingen: Nastasja Schunk vs Chelsea Fontenel",
+          "outcome": "Chelsea Fontenel",
+          "avg_price": 0.1122,
+          "size": 89.94,
+          "pnl": -220.73
+        },
+        {
+          "market": "Will Tottenham Hotspur win on 2026-07-29?",
+          "outcome": "No",
+          "avg_price": 0.5012,
+          "size": 2700.95,
+          "pnl": 1346.54
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.7352,
+          "size": 2661.32,
+          "pnl": 696.64
         },
         {
           "market": "Exact Score: Chicago Fire FC 1 - 2 Vancouver Whitecaps FC?",
           "outcome": "No",
           "avg_price": 0.9087,
-          "size": 1692.86,
-          "pnl": -108.56
+          "size": 1691.87,
+          "pnl": -109.55
+        },
+        {
+          "market": "Spread: Tottenham Hotspur (-2.5)",
+          "outcome": "Sydney FC",
+          "avg_price": 0.8866,
+          "size": 1892.58,
+          "pnl": 213.63
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.7601,
+          "size": 1797.84,
+          "pnl": 430.6
         },
         {
           "market": "Atlanta Braves vs. Chicago White Sox: O/U 5.5",
           "outcome": "Over",
           "avg_price": 0.78,
-          "size": 1102.31,
-          "pnl": -230.71
+          "size": 1119.39,
+          "pnl": -213.62
+        },
+        {
+          "market": "CA Barracas Central vs. CA Aldosivi: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.7145,
+          "size": 1163.83,
+          "pnl": 32.37
+        },
+        {
+          "market": "Samsun: Gabriel Debru vs Florent Bax",
+          "outcome": "Gabriel Debru",
+          "avg_price": 0.744,
+          "size": 949.15,
+          "pnl": 13.73
+        },
+        {
+          "market": "Will Sydney FC win on 2026-07-29?",
+          "outcome": "No",
+          "avg_price": 0.964,
+          "size": 1245.3,
+          "pnl": 44.16
+        },
+        {
+          "market": "Spread: Borussia Dortmund (-1.5)",
+          "outcome": "Cerezo Osaka",
+          "avg_price": 0.9643,
+          "size": 1236.71,
+          "pnl": 43.44
         },
         {
           "market": "Exact Score: Chicago Fire FC 3 - 2 Vancouver Whitecaps FC?",
@@ -214,6 +312,13 @@
           "pnl": -80.77
         },
         {
+          "market": "Tottenham Hotspur vs. Sydney FC: O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.9648,
+          "size": 909.53,
+          "pnl": 31.51
+        },
+        {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.3399,
@@ -221,11 +326,25 @@
           "pnl": 131.37
         },
         {
+          "market": "Tottenham Hotspur vs. Sydney FC: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.3664,
+          "size": 887.61,
+          "pnl": 562.18
+        },
+        {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: Dalian Yingbo FC O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.7397,
           "size": 352.69,
           "pnl": -299.55
+        },
+        {
+          "market": "Liberec: Joel Schwaerzler vs Martin Krumich",
+          "outcome": "Martin Krumich",
+          "avg_price": 0.5108,
+          "size": 843.25,
+          "pnl": 412.26
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 2.5",
@@ -238,15 +357,22 @@
           "market": "KBO: Hanwha Eagles vs. LG Twins",
           "outcome": "LG Twins",
           "avg_price": 0.507,
-          "size": 609.27,
-          "pnl": 215.21
+          "size": 628.69,
+          "pnl": 234.64
         },
         {
-          "market": "Bonn: Olle Wallin vs Roberto Carballes Baena",
-          "outcome": "Olle Wallin",
-          "avg_price": 0.6762,
-          "size": 462.02,
-          "pnl": -54.44
+          "market": "Exact Score: Cerezo Osaka 3 - 0 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.9439,
+          "size": 768.3,
+          "pnl": 39.75
+        },
+        {
+          "market": "Samsun: Gabriel Debru vs Florent Bax",
+          "outcome": "Florent Bax",
+          "avg_price": 0.2153,
+          "size": 179.99,
+          "pnl": 21.81
         },
         {
           "market": "Exact Score: Chicago Fire FC 0 - 0 Vancouver Whitecaps FC?",
@@ -261,6 +387,13 @@
           "avg_price": 0.53,
           "size": 430.76,
           "pnl": 50.26
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 3 - 3 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.9643,
+          "size": 707.2,
+          "pnl": 22.14
         },
         {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 1.5",
@@ -298,11 +431,32 @@
           "pnl": 6.27
         },
         {
+          "market": "Will Cerezo Osaka win on 2026-07-29?",
+          "outcome": "Yes",
+          "avg_price": 0.6661,
+          "size": 621.51,
+          "pnl": 207.28
+        },
+        {
+          "market": "CA Barracas Central vs. CA Aldosivi: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.6189,
+          "size": 388.39,
+          "pnl": 9.82
+        },
+        {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.6056,
           "size": 236.06,
           "pnl": -125.89
+        },
+        {
+          "market": "EC Vit\u00f3ria vs. SE Palmeiras: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.8995,
+          "size": 521.12,
+          "pnl": -2.62
         },
         {
           "market": "Detroit Tigers vs. Cleveland Guardians: O/U 10.5",
@@ -340,6 +494,13 @@
           "pnl": 38.35
         },
         {
+          "market": "Will Tottenham Hotspur vs. Sydney FC end in a draw?",
+          "outcome": "Yes",
+          "avg_price": 0.4084,
+          "size": 490.71,
+          "pnl": 290.15
+        },
+        {
           "market": "Will SC Corinthians Paulista win on 2026-07-30?",
           "outcome": "No",
           "avg_price": 0.5,
@@ -347,11 +508,25 @@
           "pnl": 2.42
         },
         {
+          "market": "Will Borussia Dortmund win on 2026-07-29?",
+          "outcome": "No",
+          "avg_price": 0.7908,
+          "size": 474.24,
+          "pnl": 99.02
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.7767,
+          "size": 456.62,
+          "pnl": 101.78
+        },
+        {
           "market": "Exact Score: SC Internacional 1 - 2 CR Flamengo?",
           "outcome": "No",
           "avg_price": 0.8912,
-          "size": 405.45,
-          "pnl": 1.68
+          "size": 405.68,
+          "pnl": 1.91
         },
         {
           "market": "Detroit Tigers vs. Cleveland Guardians",
@@ -359,6 +534,13 @@
           "avg_price": 0.476,
           "size": 252.09,
           "pnl": 39.65
+        },
+        {
+          "market": "Bonn: Elmer Moeller vs Jamie Mackenzie",
+          "outcome": "Elmer Moeller",
+          "avg_price": 0.6805,
+          "size": 303.38,
+          "pnl": 6.28
         },
         {
           "market": "Will Chicago Fire FC win on 2026-07-16?",
@@ -378,15 +560,15 @@
           "market": "Spread: Cleveland Guardians (-1.5)",
           "outcome": "Detroit Tigers",
           "avg_price": 0.6698,
-          "size": 212.7,
-          "pnl": -66.68
+          "size": 208.53,
+          "pnl": -70.85
         },
         {
           "market": "KBO: NC Dinos vs. Kia Tigers",
           "outcome": "Kia Tigers",
           "avg_price": 0.4841,
-          "size": 319.8,
-          "pnl": 126.13
+          "size": 320.0,
+          "pnl": 126.33
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: Both Teams to Score",
@@ -406,8 +588,15 @@
           "market": "Spread: Atlanta Braves (-1.5)",
           "outcome": "Atlanta Braves",
           "avg_price": 0.389,
-          "size": 68.4,
-          "pnl": -64.65
+          "size": 70.11,
+          "pnl": -62.94
+        },
+        {
+          "market": "Will CR Flamengo win on 2026-07-29?",
+          "outcome": "No",
+          "avg_price": 0.4899,
+          "size": 162.21,
+          "pnl": -1.67
         },
         {
           "market": "Will EC Bahia win on 2026-07-29?",
@@ -427,8 +616,8 @@
           "market": "Boston Red Sox vs. New York Yankees: O/U 11.5",
           "outcome": "Under",
           "avg_price": 0.77,
-          "size": 220.98,
-          "pnl": -23.88
+          "size": 227.37,
+          "pnl": -17.49
         },
         {
           "market": "Spread: Chicago White Sox (-1.5)",
@@ -455,8 +644,22 @@
           "market": "St. Louis Cardinals vs. Cincinnati Reds: O/U 6.5",
           "outcome": "Over",
           "avg_price": 0.7777,
-          "size": 212.49,
-          "pnl": -27.06
+          "size": 210.98,
+          "pnl": -28.57
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.7114,
+          "size": 300.13,
+          "pnl": 86.5
+        },
+        {
+          "market": "Exact Score: Mirassol FC 2 - 2 Clube do Remo?",
+          "outcome": "No",
+          "avg_price": 0.9489,
+          "size": 280.95,
+          "pnl": 0.74
         },
         {
           "market": "KBO: Hanwha Eagles vs. NC Dinos",
@@ -471,6 +674,20 @@
           "avg_price": 0.7099,
           "size": 230.12,
           "pnl": 27.16
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 2 - 3 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.999,
+          "size": 279.86,
+          "pnl": 0.14
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 3 - 3 Sydney FC?",
+          "outcome": "No",
+          "avg_price": 0.9982,
+          "size": 279.71,
+          "pnl": 0.2
         },
         {
           "market": "Will Chicago Fire FC win on 2026-07-16?",
@@ -492,6 +709,13 @@
           "avg_price": 0.9754,
           "size": 255.58,
           "pnl": 1.95
+        },
+        {
+          "market": "Spread: Tottenham Hotspur (-1.5)",
+          "outcome": "Sydney FC",
+          "avg_price": 0.5862,
+          "size": 259.79,
+          "pnl": 107.41
         },
         {
           "market": "KBO: NC Dinos vs. Doosan Bears",
@@ -525,8 +749,8 @@
           "market": "KBO: NC Dinos vs. KT Wiz",
           "outcome": "NC Dinos",
           "avg_price": 0.42,
-          "size": 147.62,
-          "pnl": 45.14
+          "size": 153.72,
+          "pnl": 51.24
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 0 - 1 Dalian Yingbo FC?",
@@ -534,6 +758,20 @@
           "avg_price": 0.0467,
           "size": 90.93,
           "pnl": 79.6
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.3832,
+          "size": 238.61,
+          "pnl": 147.13
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: O/U 5.5",
+          "outcome": "Under",
+          "avg_price": 0.7939,
+          "size": 237.61,
+          "pnl": 48.87
         },
         {
           "market": "Will Chicago Fire FC vs. Vancouver Whitecaps FC end in a draw?",
@@ -557,11 +795,25 @@
           "pnl": 25.76
         },
         {
+          "market": "Will Bucheon FC 1995 win on 2026-08-01?",
+          "outcome": "No",
+          "avg_price": 0.8699,
+          "size": 193.66,
+          "pnl": -1.12
+        },
+        {
           "market": "CA Barracas Central vs. CA Aldosivi: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9849,
-          "size": 217.35,
-          "pnl": 0.55
+          "size": 217.68,
+          "pnl": 0.88
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 2 - 3 Sydney FC?",
+          "outcome": "No",
+          "avg_price": 0.9984,
+          "size": 219.89,
+          "pnl": 0.23
         },
         {
           "market": "Exact Score: Mirassol FC 2 - 0 Clube do Remo?",
@@ -578,11 +830,25 @@
           "pnl": -14.68
         },
         {
+          "market": "Tottenham Hotspur vs. Sydney FC: O/U 5.5",
+          "outcome": "Under",
+          "avg_price": 0.999,
+          "size": 209.9,
+          "pnl": 0.1
+        },
+        {
           "market": "Birmingham Legion FC vs. New Mexico United: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.68,
           "size": 99.47,
           "pnl": -35.81
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 1 - 2 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.9669,
+          "size": 196.34,
+          "pnl": 5.64
         },
         {
           "market": "Will Henan FC win on 2026-07-11?",
@@ -592,11 +858,25 @@
           "pnl": -7.07
         },
         {
+          "market": "Will CA Barracas Central win on 2026-07-29?",
+          "outcome": "No",
+          "avg_price": 0.5899,
+          "size": 113.75,
+          "pnl": -0.97
+        },
+        {
           "market": "Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.53,
-          "size": 45.7,
-          "pnl": -55.22
+          "size": 68.55,
+          "pnl": -32.37
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 1 - 3 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.9697,
+          "size": 186.96,
+          "pnl": 5.57
         },
         {
           "market": "SC Corinthians Paulista vs. CA Paranaense: O/U 1.5",
@@ -627,11 +907,25 @@
           "pnl": -0.89
         },
         {
+          "market": "Spread: Pittsburgh Pirates (-2.5)",
+          "outcome": "Arizona Diamondbacks",
+          "avg_price": 0.7199,
+          "size": 126.16,
+          "pnl": 1.73
+        },
+        {
+          "market": "Instituto AC C\u00f3rdoba vs. CA Platense: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.32,
+          "size": 53.27,
+          "pnl": -0.85
+        },
+        {
           "market": "Atlanta Braves vs. New York Mets",
           "outcome": "Atlanta Braves",
           "avg_price": 0.58,
-          "size": 94.18,
-          "pnl": 0.8
+          "size": 92.57,
+          "pnl": -0.81
         },
         {
           "market": "KBO: Hanwha Eagles vs. Lotte Giants",
@@ -644,8 +938,8 @@
           "market": "Chicago Fire FC leading at halftime?",
           "outcome": "Yes",
           "avg_price": 0.31,
-          "size": 73.32,
-          "pnl": 24.96
+          "size": 75.66,
+          "pnl": 27.3
         },
         {
           "market": "Inter Miami CF vs. Columbus Crew: O/U 3.5",
@@ -691,10 +985,31 @@
         },
         {
           "market": "EC Vit\u00f3ria vs. SE Palmeiras: Both Teams to Score",
+          "outcome": "Yes",
+          "avg_price": 0.4955,
+          "size": 68.84,
+          "pnl": -0.08
+        },
+        {
+          "market": "EC Vit\u00f3ria vs. SE Palmeiras: Both Teams to Score",
           "outcome": "No",
           "avg_price": 0.5,
           "size": 68.53,
           "pnl": 0.68
+        },
+        {
+          "market": "ITF Hechingen: Eva Bennemann vs Josy Daems",
+          "outcome": "Josy Daems",
+          "avg_price": 0.0,
+          "size": 41.54,
+          "pnl": 41.54
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: Borussia Dortmund O/U 0.5",
+          "outcome": "Under",
+          "avg_price": 0.0599,
+          "size": 132.24,
+          "pnl": 124.27
         },
         {
           "market": "Colorado Rockies vs. San Diego Padres",
@@ -707,8 +1022,8 @@
           "market": "Birmingham Legion FC vs. New Mexico United: Birmingham Legion FC O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.4599,
-          "size": 66.71,
-          "pnl": 5.94
+          "size": 66.05,
+          "pnl": 5.28
         },
         {
           "market": "Wuhan San Zhen FC vs. Henan FC: O/U 2.5",
@@ -723,6 +1038,13 @@
           "avg_price": 0.4799,
           "size": 65.84,
           "pnl": 2.63
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: O/U 1.5",
+          "outcome": "Over",
+          "avg_price": 0.8896,
+          "size": 131.12,
+          "pnl": 14.41
         },
         {
           "market": "Wuhan San Zhen FC vs. Henan FC: O/U 5.5",
@@ -742,8 +1064,15 @@
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 4.5",
           "outcome": "Under",
           "avg_price": 0.7506,
-          "size": 98.06,
-          "pnl": 1.84
+          "size": 97.42,
+          "pnl": 1.2
+        },
+        {
+          "market": "EC Vit\u00f3ria vs. SE Palmeiras: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.2992,
+          "size": 37.14,
+          "pnl": -0.54
         },
         {
           "market": "Spread: Henan FC (-1.5)",
@@ -751,13 +1080,6 @@
           "avg_price": 0.1978,
           "size": 24.9,
           "pnl": 0.26
-        },
-        {
-          "market": "EC Vit\u00f3ria vs. SE Palmeiras: Both Teams to Score",
-          "outcome": "Yes",
-          "avg_price": 0.4949,
-          "size": 61.35,
-          "pnl": 0.0
         },
         {
           "market": "Spread: Henan FC (-1.5)",
@@ -774,11 +1096,25 @@
           "pnl": 4.29
         },
         {
+          "market": "ITF Kursumlijska Banja: Matthieu Chambonniere vs Branko Djuric",
+          "outcome": "Matthieu Chambonniere",
+          "avg_price": 0.16,
+          "size": 19.94,
+          "pnl": 0.6
+        },
+        {
           "market": "Will SC Internacional vs. CR Flamengo end in a draw?",
           "outcome": "Yes",
           "avg_price": 0.27,
           "size": 31.8,
           "pnl": -0.6
+        },
+        {
+          "market": "Will Cerezo Osaka vs. Borussia Dortmund end in a draw?",
+          "outcome": "No",
+          "avg_price": 0.8224,
+          "size": 119.35,
+          "pnl": 21.14
         },
         {
           "market": "Spread: Clube do Remo (-2.5)",
@@ -826,8 +1162,8 @@
           "market": "KBO: NC Dinos vs. KT Wiz",
           "outcome": "KT Wiz",
           "avg_price": 0.5699,
-          "size": 45.42,
-          "pnl": -20.12
+          "size": 42.55,
+          "pnl": -23.0
         },
         {
           "market": "Will Shanghai Haigang FC win on 2026-07-12?",
@@ -840,8 +1176,8 @@
           "market": "Spread: Chicago Fire FC (-1.5)",
           "outcome": "Chicago Fire FC",
           "avg_price": 0.16,
-          "size": 23.27,
-          "pnl": 5.95
+          "size": 22.73,
+          "pnl": 5.41
         },
         {
           "market": "Will Houston Dynamo win on 2026-03-07?",
@@ -882,8 +1218,8 @@
           "market": "KBO: NC Dinos vs. Kia Tigers",
           "outcome": "NC Dinos",
           "avg_price": 0.4881,
-          "size": 20.05,
-          "pnl": -28.76
+          "size": 20.0,
+          "pnl": -28.81
         },
         {
           "market": "Gimnasia y Esgrima de La Plata vs. CA River Plate: CA River Plate O/U 1.5",
@@ -903,8 +1239,8 @@
           "market": "Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.4653,
-          "size": 67.16,
-          "pnl": 26.04
+          "size": 56.56,
+          "pnl": 15.44
         },
         {
           "market": "Exact Score: Wuhan San Zhen FC 2 - 2 Henan FC?",
@@ -917,29 +1253,22 @@
           "market": "KBO: KT Wiz vs. Hanwha Eagles",
           "outcome": "Hanwha Eagles",
           "avg_price": 0.48,
-          "size": 34.67,
-          "pnl": -7.57
+          "size": 24.33,
+          "pnl": -17.91
         },
         {
-          "market": "CA Barracas Central vs. CA Aldosivi: Both Teams to Score",
-          "outcome": "No",
-          "avg_price": 0.6125,
-          "size": 52.88,
-          "pnl": 0.21
-        },
-        {
-          "market": "Instituto AC C\u00f3rdoba vs. CA Platense: O/U 2.5",
-          "outcome": "Over",
-          "avg_price": 0.32,
-          "size": 27.01,
-          "pnl": -0.43
+          "market": "ITF Bolzano: Adrian Andreev vs Manuel Plunger",
+          "outcome": "Adrian Andreev",
+          "avg_price": 0.84,
+          "size": 73.74,
+          "pnl": 1.29
         },
         {
           "market": "Spread: Dallas Wings (-1.5)",
           "outcome": "Atlanta Dream",
           "avg_price": 0.5022,
-          "size": 42.15,
-          "pnl": -0.62
+          "size": 45.55,
+          "pnl": 2.79
         },
         {
           "market": "Will Birmingham Legion FC vs. New Mexico United end in a draw?",
@@ -977,18 +1306,32 @@
           "pnl": 0.24
         },
         {
+          "market": "ITF Knokke-Heist: Diletta Cherubini vs Daria Yesypchuk",
+          "outcome": "Daria Yesypchuk",
+          "avg_price": 0.8856,
+          "size": 70.84,
+          "pnl": 0.74
+        },
+        {
+          "market": "ITF Dublin: Michael Agwi vs Zach Stephens",
+          "outcome": "Michael Agwi",
+          "avg_price": 0.85,
+          "size": 67.65,
+          "pnl": 0.4
+        },
+        {
           "market": "Spread: Atlanta Braves (-2.5)",
           "outcome": "San Francisco Giants",
           "avg_price": 0.72,
-          "size": 65.91,
-          "pnl": 9.75
+          "size": 65.52,
+          "pnl": 9.36
         },
         {
           "market": "Will New Mexico United win on 2026-07-24?",
           "outcome": "No",
           "avg_price": 0.675,
-          "size": 54.11,
-          "pnl": 1.93
+          "size": 41.74,
+          "pnl": -10.44
         },
         {
           "market": "Exact Score: Tianjin Jinmen Hu FC 1 - 1 Liaoning Tieren FC?",
@@ -998,18 +1341,25 @@
           "pnl": 25.79
         },
         {
+          "market": "ITF Wetzlar: Tom Sickenberger vs Jesse De Jager",
+          "outcome": "Jesse De Jager",
+          "avg_price": 0.74,
+          "size": 58.46,
+          "pnl": 1.54
+        },
+        {
           "market": "Orix Buffaloes vs. Saitama Seibu Lions",
           "outcome": "Saitama Seibu Lions",
           "avg_price": 0.5,
-          "size": 36.66,
-          "pnl": -1.77
+          "size": 38.35,
+          "pnl": -0.08
         },
         {
           "market": "Will Sporting Kansas City win on 2026-08-01?",
           "outcome": "Yes",
           "avg_price": 0.2899,
-          "size": 21.46,
-          "pnl": -0.38
+          "size": 21.09,
+          "pnl": -0.75
         },
         {
           "market": "Will Wuhan San Zhen FC win on 2026-07-11?",
@@ -1029,15 +1379,15 @@
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 4.5",
           "outcome": "Over",
           "avg_price": 0.2099,
-          "size": 17.99,
-          "pnl": 2.57
+          "size": 17.62,
+          "pnl": 2.2
         },
         {
           "market": "KBO: Hanwha Eagles vs. LG Twins",
           "outcome": "Hanwha Eagles",
           "avg_price": 0.46,
-          "size": 15.66,
-          "pnl": -17.69
+          "size": 13.84,
+          "pnl": -19.5
         },
         {
           "market": "Spread: Chicago White Sox (-1.5)",
@@ -1050,15 +1400,15 @@
           "market": "Mirassol FC vs. Clube do Remo: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.74,
-          "size": 52.9,
-          "pnl": 0.35
+          "size": 52.54,
+          "pnl": 0.0
         },
         {
           "market": "CS Independiente Rivadavia vs. CA Hurac\u00e1n: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.967,
-          "size": 68.29,
-          "pnl": 1.14
+          "size": 67.5,
+          "pnl": 0.35
         },
         {
           "market": "Spread: Los Angeles FC (-1.5)",
@@ -1066,6 +1416,20 @@
           "avg_price": 0.88,
           "size": 63.13,
           "pnl": 2.41
+        },
+        {
+          "market": "New York Yankees vs. Chicago White Sox: O/U 9.5",
+          "outcome": "Under",
+          "avg_price": 0.6799,
+          "size": 46.71,
+          "pnl": 0.34
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: Borussia Dortmund O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.96,
+          "size": 67.96,
+          "pnl": 2.69
         },
         {
           "market": "Shanghai Shenhua FC vs. Beijing Guoan FC: Shanghai Shenhua FC O/U 1.5",
@@ -1092,22 +1456,29 @@
           "market": "Boston Red Sox vs. New York Yankees: O/U 9.5",
           "outcome": "Over",
           "avg_price": 0.38,
-          "size": 21.92,
-          "pnl": -2.94
+          "size": 22.24,
+          "pnl": -2.62
         },
         {
           "market": "Will Minnesota United FC win on 2026-08-01?",
           "outcome": "Yes",
           "avg_price": 0.4799,
-          "size": 30.96,
-          "pnl": 0.0
+          "size": 30.64,
+          "pnl": -0.32
+        },
+        {
+          "market": "ITF Hechingen: Emily Victoria Eigelsbach vs Noemi Basiletti",
+          "outcome": "Noemi Basiletti",
+          "avg_price": 0.75,
+          "size": 48.96,
+          "pnl": 0.96
         },
         {
           "market": "Will Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional end in a draw?",
           "outcome": "No",
           "avg_price": 0.74,
-          "size": 51.18,
-          "pnl": 4.13
+          "size": 51.5,
+          "pnl": 4.45
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 1 - 1 Dalian Yingbo FC?",
@@ -1117,18 +1488,32 @@
           "pnl": 16.93
         },
         {
+          "market": "Spread: Cerezo Osaka (-1.5)",
+          "outcome": "Borussia Dortmund",
+          "avg_price": 0.6199,
+          "size": 62.2,
+          "pnl": 23.42
+        },
+        {
+          "market": "Colorado Rockies vs. San Diego Padres: O/U 7.5",
+          "outcome": "Over",
+          "avg_price": 0.5399,
+          "size": 34.08,
+          "pnl": 0.31
+        },
+        {
           "market": "San Francisco Giants vs. Atlanta Braves: O/U 9.5",
           "outcome": "Under",
           "avg_price": 0.65,
-          "size": 43.92,
-          "pnl": 4.27
+          "size": 43.61,
+          "pnl": 3.96
         },
         {
           "market": "CSyD Defensa y Justicia vs. CD Riestra: CSyD Defensa y Justicia O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.8899,
-          "size": 54.55,
-          "pnl": 0.3
+          "size": 55.16,
+          "pnl": 0.91
         },
         {
           "market": "Shanghai Shenhua FC vs. Beijing Guoan FC: O/U 2.5",
@@ -1141,8 +1526,8 @@
           "market": "Will New Mexico United win on 2026-07-24?",
           "outcome": "Yes",
           "avg_price": 0.3037,
-          "size": 17.55,
-          "pnl": -0.22
+          "size": 26.91,
+          "pnl": 9.14
         },
         {
           "market": "Spread: Henan FC (-2.5)",
@@ -1155,36 +1540,50 @@
           "market": "Fluminense FC vs. EC Bahia: Fluminense FC O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.8299,
-          "size": 47.7,
-          "pnl": 0.29
+          "size": 47.98,
+          "pnl": 0.57
         },
         {
           "market": "KBO: Lotte Giants vs. Samsung Lions",
           "outcome": "Samsung Lions",
           "avg_price": 0.6699,
-          "size": 28.27,
-          "pnl": -8.87
+          "size": 27.99,
+          "pnl": -9.15
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: Sydney FC O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.974,
+          "size": 54.98,
+          "pnl": 1.4
         },
         {
           "market": "CSyD Defensa y Justicia vs. CD Riestra: Both Teams to Score",
           "outcome": "Yes",
           "avg_price": 0.3971,
-          "size": 21.79,
-          "pnl": 0.16
+          "size": 22.06,
+          "pnl": 0.43
         },
         {
           "market": "Atlanta Dream vs. Dallas Wings",
           "outcome": "Dallas Wings",
           "avg_price": 0.5093,
-          "size": 27.89,
-          "pnl": 0.31
+          "size": 26.26,
+          "pnl": -1.32
         },
         {
           "market": "Exact Score: Instituto AC C\u00f3rdoba 0 - 3 CA Platense?",
           "outcome": "No",
           "avg_price": 0.9899,
-          "size": 53.18,
-          "pnl": 0.11
+          "size": 53.12,
+          "pnl": 0.05
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: Tottenham Hotspur O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.7399,
+          "size": 52.16,
+          "pnl": 13.54
         },
         {
           "market": "Will Atl\u00e9tico Nacional win on 2026-07-25?",
@@ -1197,8 +1596,15 @@
           "market": "CA Barracas Central vs. CA Aldosivi: Both Teams to Score",
           "outcome": "Yes",
           "avg_price": 0.3799,
-          "size": 19.9,
-          "pnl": 0.26
+          "size": 18.87,
+          "pnl": -0.78
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.302,
+          "size": 50.27,
+          "pnl": 35.08
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 1.5",
@@ -1215,6 +1621,13 @@
           "pnl": 1.0
         },
         {
+          "market": "Gimnasia y Esgrima de La Plata vs. CA River Plate: O/U 4.5",
+          "outcome": "Under",
+          "avg_price": 0.9399,
+          "size": 46.36,
+          "pnl": -0.25
+        },
+        {
           "market": "Chiba Lotte Marines vs. Fukuoka SoftBank Hawks",
           "outcome": "Fukuoka SoftBank Hawks",
           "avg_price": 0.551,
@@ -1225,8 +1638,15 @@
           "market": "KBO: Kia Tigers vs. Samsung Lions",
           "outcome": "Samsung Lions",
           "avg_price": 0.59,
-          "size": 21.41,
-          "pnl": -6.98
+          "size": 12.99,
+          "pnl": -15.4
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 2 - 2 Sydney FC?",
+          "outcome": "No",
+          "avg_price": 0.92,
+          "size": 46.88,
+          "pnl": 3.64
         },
         {
           "market": "Exact Score: Shanghai Haigang FC 0 - 2 Dalian Yingbo FC?",
@@ -1246,22 +1666,36 @@
           "market": "New York City FC vs. Toronto FC: O/U 4.5",
           "outcome": "Under",
           "avg_price": 0.84,
-          "size": 38.87,
-          "pnl": 0.23
+          "size": 38.64,
+          "pnl": 0.0
         },
         {
           "market": "San Francisco Giants vs. Atlanta Braves: O/U 7.5",
           "outcome": "Under",
           "avg_price": 0.47,
-          "size": 11.25,
-          "pnl": -9.9
+          "size": 11.47,
+          "pnl": -9.67
+        },
+        {
+          "market": "Exact Score: Gangwon FC 1 - 3 Bucheon FC 1995?",
+          "outcome": "No",
+          "avg_price": 0.9899,
+          "size": 44.56,
+          "pnl": 0.13
+        },
+        {
+          "market": "ITF Hechingen: Francesca Parcelli vs Barbora Palicova",
+          "outcome": "Barbora Palicova",
+          "avg_price": 0.8572,
+          "size": 43.22,
+          "pnl": 5.38
         },
         {
           "market": "Atlanta Braves vs. Chicago White Sox: O/U 11.5",
           "outcome": "Under",
           "avg_price": 0.74,
-          "size": 30.8,
-          "pnl": -1.76
+          "size": 31.02,
+          "pnl": -1.54
         },
         {
           "market": "Henan FC vs. Dalian Yingbo FC: O/U 0.5",
@@ -1276,6 +1710,13 @@
           "avg_price": 0.9,
           "size": 38.61,
           "pnl": 1.04
+        },
+        {
+          "market": "Gimnasia y Esgrima de La Plata vs. CA River Plate: Both Teams to Score",
+          "outcome": "No",
+          "avg_price": 0.5709,
+          "size": 23.7,
+          "pnl": 0.17
         },
         {
           "market": "Birmingham Legion FC vs. New Mexico United: Both Teams to Score",
@@ -1299,25 +1740,39 @@
           "pnl": -1.82
         },
         {
+          "market": "Samsun: Colin Sinclair vs Koki Matsuda",
+          "outcome": "Koki Matsuda",
+          "avg_price": 0.8399,
+          "size": 39.97,
+          "pnl": 6.38
+        },
+        {
           "market": "Birmingham Legion FC vs. New Mexico United: O/U 1.5",
           "outcome": "Over",
           "avg_price": 0.78,
-          "size": 17.99,
-          "pnl": -13.19
+          "size": 18.59,
+          "pnl": -12.59
+        },
+        {
+          "market": "Tottenham Hotspur vs. Sydney FC: Sydney FC O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.9989,
+          "size": 39.96,
+          "pnl": 0.02
         },
         {
           "market": "CA Talleres vs. CA V\u00e9lez Sarsfield: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.6599,
-          "size": 26.16,
-          "pnl": 0.0
+          "size": 26.36,
+          "pnl": 0.2
         },
         {
           "market": "CA Central C\u00f3rdoba vs. CA Tucum\u00e1n: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9572,
-          "size": 38.34,
-          "pnl": 0.76
+          "size": 38.38,
+          "pnl": 0.8
         },
         {
           "market": "Shanghai Shenhua FC vs. Beijing Guoan FC: Shanghai Shenhua FC O/U 0.5",
@@ -1327,32 +1782,32 @@
           "pnl": -12.54
         },
         {
-          "market": "CA Barracas Central vs. CA Aldosivi: O/U 2.5",
-          "outcome": "Under",
-          "avg_price": 0.7099,
-          "size": 27.24,
-          "pnl": -0.19
-        },
-        {
           "market": "Will Henan FC win on 2026-07-31?",
           "outcome": "No",
           "avg_price": 0.48,
-          "size": 17.86,
-          "pnl": -0.38
+          "size": 18.05,
+          "pnl": -0.19
         },
         {
           "market": "Will Instituto AC C\u00f3rdoba win on 2026-07-29?",
           "outcome": "Yes",
           "avg_price": 0.4599,
-          "size": 17.19,
-          "pnl": -0.19
+          "size": 16.81,
+          "pnl": -0.57
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.95,
-          "size": 33.5,
-          "pnl": -2.12
+          "size": 33.31,
+          "pnl": -2.31
+        },
+        {
+          "market": "Gimnasia y Esgrima de La Plata vs. CA River Plate: O/U 3.5",
+          "outcome": "Under",
+          "avg_price": 0.8399,
+          "size": 31.28,
+          "pnl": -0.19
         },
         {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: Both Teams to Score",
@@ -1390,6 +1845,20 @@
           "pnl": -6.43
         },
         {
+          "market": "Tottenham Hotspur vs. Sydney FC: Sydney FC O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.8599,
+          "size": 35.68,
+          "pnl": 4.98
+        },
+        {
+          "market": "Exact Score: Gangwon FC 2 - 3 Bucheon FC 1995?",
+          "outcome": "No",
+          "avg_price": 0.9899,
+          "size": 33.55,
+          "pnl": 0.1
+        },
+        {
           "market": "Fluminense FC vs. EC Bahia: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.9299,
@@ -1400,8 +1869,8 @@
           "market": "Spread: Atl\u00e9tico Nacional (-1.5)",
           "outcome": "Boyac\u00e1 Chic\u00f3 FC",
           "avg_price": 0.67,
-          "size": 17.1,
-          "pnl": -5.36
+          "size": 17.43,
+          "pnl": -5.03
         },
         {
           "market": "Boyac\u00e1 Chic\u00f3 FC vs. Atl\u00e9tico Nacional: O/U 3.5",
@@ -1418,6 +1887,13 @@
           "pnl": 0.33
         },
         {
+          "market": "Tottenham Hotspur vs. Sydney FC: Tottenham Hotspur O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.5799,
+          "size": 32.66,
+          "pnl": 13.71
+        },
+        {
           "market": "Exact Score: CSyD Defensa y Justicia 0 - 0 CD Riestra?",
           "outcome": "No",
           "avg_price": 0.85,
@@ -1430,6 +1906,13 @@
           "avg_price": 0.16,
           "size": 14.38,
           "pnl": 9.26
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 2 - 0 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.831,
+          "size": 31.16,
+          "pnl": 5.15
         },
         {
           "market": "Gimnasia y Esgrima de La Plata vs. CA River Plate: Both Teams to Score",
@@ -1456,8 +1939,8 @@
           "market": "Exact Score: Tianjin Jinmen Hu FC 2 - 2 Liaoning Tieren FC?",
           "outcome": "Yes",
           "avg_price": 0.057,
-          "size": 14.97,
-          "pnl": 13.26
+          "size": 14.98,
+          "pnl": 13.28
         },
         {
           "market": "Chicago Fire FC vs. Vancouver Whitecaps FC: 1st Half O/U 1.5",
@@ -1481,11 +1964,18 @@
           "pnl": 11.61
         },
         {
+          "market": "Exact Score: Gangwon FC 0 - 3 Bucheon FC 1995?",
+          "outcome": "No",
+          "avg_price": 0.9899,
+          "size": 29.78,
+          "pnl": 0.09
+        },
+        {
           "market": "Exact Score: New York City FC 0 - 3 Toronto FC?",
           "outcome": "No",
           "avg_price": 0.9899,
-          "size": 29.82,
-          "pnl": 0.13
+          "size": 29.84,
+          "pnl": 0.15
         },
         {
           "market": "Shanghai Haigang FC vs. Dalian Yingbo FC: O/U 3.5",
@@ -1502,20 +1992,6 @@
           "pnl": -3.32
         },
         {
-          "market": "EC Vit\u00f3ria vs. SE Palmeiras: O/U 4.5",
-          "outcome": "Under",
-          "avg_price": 0.8899,
-          "size": 25.57,
-          "pnl": 0.14
-        },
-        {
-          "market": "KBO: Doosan Bears vs. SSG Landers",
-          "outcome": "Doosan Bears",
-          "avg_price": 0.5719,
-          "size": 18.1,
-          "pnl": 1.92
-        },
-        {
           "market": "Tianjin Jinmen Hu FC vs. Liaoning Tieren FC: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.5,
@@ -1526,8 +2002,8 @@
           "market": "Will Gangwon FC win on 2026-08-01?",
           "outcome": "Yes",
           "avg_price": 0.63,
-          "size": 17.64,
-          "pnl": 0.0
+          "size": 17.78,
+          "pnl": 0.14
         },
         {
           "market": "Mirassol FC vs. Clube do Remo: Both Teams to Score",
@@ -1544,32 +2020,39 @@
           "pnl": -4.07
         },
         {
+          "market": "ITF Kursumlijska Banja: Matthieu Chambonniere vs Branko Djuric",
+          "outcome": "Branko Djuric",
+          "avg_price": 0.81,
+          "size": 21.53,
+          "pnl": 0.64
+        },
+        {
           "market": "EC Vit\u00f3ria vs. SE Palmeiras: O/U 2.5",
           "outcome": "Over",
           "avg_price": 0.45,
-          "size": 11.12,
-          "pnl": -0.12
+          "size": 10.88,
+          "pnl": -0.38
         },
         {
           "market": "Exact Score: CA Barracas Central 2 - 3 CA Aldosivi?",
           "outcome": "No",
           "avg_price": 0.9899,
-          "size": 24.78,
-          "pnl": 0.04
+          "size": 24.84,
+          "pnl": 0.1
         },
         {
           "market": "Exact Score: CSyD Defensa y Justicia 2 - 3 CD Riestra?",
           "outcome": "No",
           "avg_price": 0.9899,
-          "size": 24.59,
-          "pnl": -0.15
+          "size": 24.76,
+          "pnl": 0.02
         },
         {
           "market": "Spread: Bucheon FC 1995 (-2.5)",
           "outcome": "Gangwon FC",
           "avg_price": 0.99,
-          "size": 24.6,
-          "pnl": -0.14
+          "size": 23.48,
+          "pnl": -1.26
         },
         {
           "market": "SC Corinthians Paulista vs. CA Paranaense: O/U 1.5",
@@ -1582,15 +2065,15 @@
           "market": "CA Barracas Central vs. CA Aldosivi: CA Aldosivi O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.5499,
-          "size": 13.51,
-          "pnl": 0.12
+          "size": 13.27,
+          "pnl": -0.12
         },
         {
           "market": "Will CSyD Defensa y Justicia win on 2026-07-29?",
           "outcome": "No",
           "avg_price": 0.5699,
-          "size": 14.04,
-          "pnl": 0.36
+          "size": 14.16,
+          "pnl": 0.48
         },
         {
           "market": "Spread: Liaoning Tieren FC (-1.5)",
@@ -1603,8 +2086,8 @@
           "market": "CSyD Defensa y Justicia vs. CD Riestra: Both Teams to Score",
           "outcome": "No",
           "avg_price": 0.6,
-          "size": 13.8,
-          "pnl": 0.0
+          "size": 13.69,
+          "pnl": -0.11
         },
         {
           "market": "Exact Score: CS Independiente Rivadavia 0 - 0 CA Hurac\u00e1n?",
@@ -1624,8 +2107,8 @@
           "market": "Exact Score: SC Internacional 2 - 1 CR Flamengo?",
           "outcome": "No",
           "avg_price": 0.934,
-          "size": 20.45,
-          "pnl": 0.22
+          "size": 20.39,
+          "pnl": 0.15
         },
         {
           "market": "Will Nashville SC win on 2026-08-01?",
@@ -1642,18 +2125,67 @@
           "pnl": -2.66
         },
         {
+          "market": "Exact Score: Cerezo Osaka 0 - 2 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.999,
+          "size": 19.99,
+          "pnl": 0.01
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 0 - 1 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.999,
+          "size": 19.99,
+          "pnl": 0.01
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 3 - 0 Sydney FC?",
+          "outcome": "No",
+          "avg_price": 0.999,
+          "size": 19.99,
+          "pnl": 0.01
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 1 - 0 Sydney FC?",
+          "outcome": "No",
+          "avg_price": 0.999,
+          "size": 19.99,
+          "pnl": 0.01
+        },
+        {
+          "market": "Cerezo Osaka vs. Borussia Dortmund: Cerezo Osaka O/U 0.5",
+          "outcome": "Over",
+          "avg_price": 0.999,
+          "size": 19.98,
+          "pnl": 0.01
+        },
+        {
+          "market": "ITF Knokke-Heist: Martha Matoula vs Amelie Van Impe",
+          "outcome": "Martha Matoula",
+          "avg_price": 0.1724,
+          "size": 19.04,
+          "pnl": 15.6
+        },
+        {
           "market": "EC Vit\u00f3ria vs. SE Palmeiras: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.76,
-          "size": 15.17,
-          "pnl": 0.1
+          "size": 15.37,
+          "pnl": 0.3
         },
         {
           "market": "Los Angeles Galaxy vs. FC Dallas: O/U 0.5",
           "outcome": "Over",
           "avg_price": 0.95,
-          "size": 18.77,
-          "pnl": 0.0
+          "size": 18.74,
+          "pnl": -0.03
+        },
+        {
+          "market": "Exact Score: Cerezo Osaka 0 - 3 Borussia Dortmund?",
+          "outcome": "No",
+          "avg_price": 0.9987,
+          "size": 19.4,
+          "pnl": -0.06
         },
         {
           "market": "Spread: Boston Red Sox (-2.5)",
@@ -1661,6 +2193,20 @@
           "avg_price": 0.74,
           "size": 16.06,
           "pnl": 1.83
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 2 - 1 Sydney FC?",
+          "outcome": "No",
+          "avg_price": 0.68,
+          "size": 18.74,
+          "pnl": 5.99
+        },
+        {
+          "market": "Spread: Los Angeles Angels (-1.5)",
+          "outcome": "Houston Astros",
+          "avg_price": 0.7,
+          "size": 12.51,
+          "pnl": -0.09
         },
         {
           "market": "Will CA Talleres win on 2026-07-30?",
@@ -1673,15 +2219,15 @@
           "market": "Ulsan HD FC vs. FC Anyang: FC Anyang O/U 1.5",
           "outcome": "Under",
           "avg_price": 0.6899,
-          "size": 12.31,
-          "pnl": -0.09
+          "size": 12.67,
+          "pnl": 0.27
         },
         {
           "market": "Jeju SK FC vs. Incheon United FC: O/U 5.5",
           "outcome": "Under",
           "avg_price": 0.9618,
-          "size": 10.66,
-          "pnl": -6.15
+          "size": 10.22,
+          "pnl": -6.59
         },
         {
           "market": "Will EC Vit\u00f3ria win on 2026-07-29?",
@@ -1689,6 +2235,13 @@
           "avg_price": 0.78,
           "size": 13.16,
           "pnl": 0.08
+        },
+        {
+          "market": "CA Barracas Central vs. CA Aldosivi: CA Barracas Central O/U 1.5",
+          "outcome": "Under",
+          "avg_price": 0.7199,
+          "size": 12.1,
+          "pnl": 0.25
         },
         {
           "market": "Exact Score: EC Vit\u00f3ria 0 - 2 SE Palmeiras?",
@@ -1703,6 +2256,13 @@
           "avg_price": 0.65,
           "size": 11.19,
           "pnl": 1.02
+        },
+        {
+          "market": "Exact Score: Tottenham Hotspur 1 - 1 Sydney FC?",
+          "outcome": "Yes",
+          "avg_price": 0.06,
+          "size": 14.21,
+          "pnl": 13.35
         },
         {
           "market": "Will CA Paranaense win on 2026-07-30?",
@@ -1722,8 +2282,8 @@
           "market": "Spread: Gangwon FC (-2.5)",
           "outcome": "Bucheon FC 1995",
           "avg_price": 0.84,
-          "size": 11.2,
-          "pnl": 0.07
+          "size": 11.13,
+          "pnl": 0.0
         },
         {
           "market": "Exact Score: Fluminense FC 1 - 0 EC Bahia?",
@@ -1731,6 +2291,13 @@
           "avg_price": 0.88,
           "size": 10.55,
           "pnl": 0.06
+        },
+        {
+          "market": "ITF Hechingen: Nastasja Schunk vs Chelsea Fontenel",
+          "outcome": "Nastasja Schunk",
+          "avg_price": 0.88,
+          "size": 10.48,
+          "pnl": 0.95
         }
       ]
     },
@@ -1794,23 +2361,23 @@
     {
       "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
       "name": "BreakTheBank",
-      "pnl": 2327593.55,
+      "pnl": 2327594.24,
       "volume": 81239848.18,
       "positions": [
         {
           "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.097,
-          "size": 21.24,
-          "pnl": 2.07
+          "size": 21.73,
+          "pnl": 2.57
         }
       ]
     },
     {
       "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
       "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "pnl": 2198600.6,
-      "volume": 342859033.97,
+      "pnl": 2191645.52,
+      "volume": 342976051.08,
       "positions": [
         {
           "market": "2026 Balance of Power: D Senate, D House",
@@ -1827,25 +2394,18 @@
           "pnl": -520260.18
         },
         {
-          "market": "Los Cabos Open: Dalibor Svrcina vs Adam Walton",
-          "outcome": "Adam Walton",
-          "avg_price": 0.4836,
-          "size": 46.84,
-          "pnl": -45264.11
-        },
-        {
-          "market": "Los Cabos Open: Dalibor Svrcina vs Adam Walton",
-          "outcome": "Dalibor Svrcina",
-          "avg_price": 0.4976,
-          "size": 91813.39,
-          "pnl": 46098.59
-        },
-        {
           "market": "Boston Red Sox vs. New York Yankees",
           "outcome": "New York Yankees",
           "avg_price": 0.49,
-          "size": 13442.06,
-          "pnl": -138.58
+          "size": 13303.48,
+          "pnl": -277.16
+        },
+        {
+          "market": "Liberec: Joel Schwaerzler vs Martin Krumich",
+          "outcome": "Joel Schwaerzler",
+          "avg_price": 0.5695,
+          "size": 10.91,
+          "pnl": -12418.14
         },
         {
           "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
@@ -1855,11 +2415,18 @@
           "pnl": 699.85
         },
         {
-          "market": "Liberec: Jan Kumstat vs Thiago Seyboth Wild",
-          "outcome": "Jan Kumstat",
-          "avg_price": 0.54,
-          "size": 11023.4,
-          "pnl": 670.99
+          "market": "Samsun: Gabriel Debru vs Florent Bax",
+          "outcome": "Florent Bax",
+          "avg_price": 0.2272,
+          "size": 4031.31,
+          "pnl": 292.48
+        },
+        {
+          "market": "Liberec: Joel Schwaerzler vs Martin Krumich",
+          "outcome": "Martin Krumich",
+          "avg_price": 0.67,
+          "size": 14073.47,
+          "pnl": 4639.53
         },
         {
           "market": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
@@ -1878,9 +2445,9 @@
         {
           "market": "Targu Mures: Elena Ruxandra Bertea vs Carole Monnet",
           "outcome": "Carole Monnet",
-          "avg_price": 0.59,
-          "size": 481.78,
-          "pnl": -4.12
+          "avg_price": 0.4863,
+          "size": 818.83,
+          "pnl": -215.59
         },
         {
           "market": "San Francisco Giants vs. Atlanta Braves",
@@ -1888,20 +2455,13 @@
           "avg_price": 0.51,
           "size": 41.94,
           "pnl": -4.06
-        },
-        {
-          "market": "Bonn: Olle Wallin vs Roberto Carballes Baena",
-          "outcome": "Roberto Carballes Baena",
-          "avg_price": 0.338,
-          "size": 19.99,
-          "pnl": 2.89
         }
       ]
     },
     {
       "wallet": "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
       "name": "ndb1",
-      "pnl": 2046830.03,
+      "pnl": 2046862.37,
       "volume": 15836528.02,
       "positions": [
         {
@@ -1950,8 +2510,8 @@
           "market": "Will Bitcoin hit $150k by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.9038,
-          "size": 82551.01,
-          "pnl": 5152.67
+          "size": 82593.83,
+          "pnl": 5195.49
         },
         {
           "market": "St. Louis Cardinals vs. Cincinnati Reds",
@@ -1985,15 +2545,15 @@
           "market": "Will Bitcoin reach $190,000 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.9654,
-          "size": 29295.0,
-          "pnl": 332.76
+          "size": 29280.0,
+          "pnl": 317.76
         },
         {
           "market": "Will Bitcoin reach $140,000 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.961,
-          "size": 28680.0,
-          "pnl": -150.0
+          "size": 28665.0,
+          "pnl": -165.0
         },
         {
           "market": "Will Bitcoin reach $180,000 by December 31, 2026?",
@@ -2062,15 +2622,15 @@
           "market": "Will Shohei Ohtani win the 2026 National League MVP Award?",
           "outcome": "Yes",
           "avg_price": 0.6398,
-          "size": 885.53,
-          "pnl": -99.86
+          "size": 916.33,
+          "pnl": -69.06
         },
         {
           "market": "Will Aaron Judge win the 2026 American League Hank Aaron Award?",
           "outcome": "No",
           "avg_price": 0.6516,
-          "size": 1463.32,
-          "pnl": 497.63
+          "size": 1462.58,
+          "pnl": 496.89
         },
         {
           "market": "Will Aaron Judge lead the MLB in RBIs for the 2026 regular season?",
@@ -2132,8 +2692,8 @@
           "market": "MLB: Scorigami in 2026?",
           "outcome": "No",
           "avg_price": 0.85,
-          "size": 463.82,
-          "pnl": 37.37
+          "size": 463.57,
+          "pnl": 37.12
         },
         {
           "market": "Will Matt Olson hit the most home runs during the 2026 MLB regular season?",
@@ -2181,8 +2741,8 @@
           "market": "Will Shohei Ohtani win the 2026 National League Hank Aaron Award?",
           "outcome": "No",
           "avg_price": 0.7636,
-          "size": 157.59,
-          "pnl": -28.99
+          "size": 156.37,
+          "pnl": -30.21
         },
         {
           "market": "Will Matthew Stafford finish the 2026-27 NFL regular season with the most passing touchdowns?",
@@ -2272,8 +2832,8 @@
           "market": "Will Alexander Bublik Qualify for the Nitto ATP Finals 2026?",
           "outcome": "No",
           "avg_price": 0.92,
-          "size": 91.0,
-          "pnl": -1.0
+          "size": 90.9,
+          "pnl": -1.1
         },
         {
           "market": "Will the Los Angeles Dodgers win the 2026 World Series?",
@@ -2295,13 +2855,6 @@
           "avg_price": 0.96,
           "size": 44.71,
           "pnl": 0.55
-        },
-        {
-          "market": "Will the season series between the Cardinals and Rams end in a tie during the 2026-27 NFL regular season?",
-          "outcome": "Yes",
-          "avg_price": 0.3,
-          "size": 10.2,
-          "pnl": -1.8
         },
         {
           "market": "KBO: Hanwha Eagles vs. NC Dinos",
@@ -2357,22 +2910,15 @@
     {
       "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
       "name": "",
-      "pnl": 1694394.14,
-      "volume": 34382133.88,
+      "pnl": 1703524.28,
+      "volume": 34443355.26,
       "positions": [
         {
           "market": "Will CS Cienciano win on 2026-07-29?",
           "outcome": "Yes",
           "avg_price": 0.4487,
-          "size": 5236.68,
-          "pnl": -358.7
-        },
-        {
-          "market": "Bonn: Jan Choinski vs Alex Barrena",
-          "outcome": "Jan Choinski",
-          "avg_price": 0.8099,
-          "size": 8308.44,
-          "pnl": 1187.05
+          "size": 5423.7,
+          "pnl": -171.68
         },
         {
           "market": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
@@ -2382,11 +2928,32 @@
           "pnl": 212.8
         },
         {
+          "market": "Will Borussia Dortmund win on 2026-07-29?",
+          "outcome": "No",
+          "avg_price": 0.5201,
+          "size": 6168.48,
+          "pnl": 2958.62
+        },
+        {
+          "market": "The Memphis Classic: Tatjana Maria vs Renata Zarazua",
+          "outcome": "Tatjana Maria",
+          "avg_price": 0.6273,
+          "size": 3669.08,
+          "pnl": -73.48
+        },
+        {
+          "market": "LoL: T1 vs KT Rolster - Game 1 Winner",
+          "outcome": "KT Rolster",
+          "avg_price": 0.1727,
+          "size": 5434.78,
+          "pnl": 4495.33
+        },
+        {
           "market": "Mubadala Citi DC Open: Aleksandar Vukic vs Lorenzo Musetti",
           "outcome": "Aleksandar Vukic",
           "avg_price": 0.3,
-          "size": 1434.69,
-          "pnl": 23.52
+          "size": 1528.77,
+          "pnl": 117.6
         },
         {
           "market": "The New Saints FC vs. FC Flora: O/U 2.5",
@@ -2396,18 +2963,25 @@
           "pnl": 120.18
         },
         {
-          "market": "ITF Dublin: Valentina Ryser vs Micol Salvadori",
-          "outcome": "Valentina Ryser",
-          "avg_price": 0.9787,
-          "size": 3392.43,
-          "pnl": -12.92
-        },
-        {
           "market": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
           "outcome": "Stefanos Tsitsipas",
           "avg_price": 0.4432,
           "size": 1437.94,
           "pnl": -97.84
+        },
+        {
+          "market": "ITF Pitesti: Edoardo Cherie Ligniere vs Federico Valle",
+          "outcome": "Edoardo Cherie Ligniere",
+          "avg_price": 0.95,
+          "size": 3139.04,
+          "pnl": 155.46
+        },
+        {
+          "market": "Atletico Madrid vs. Getafe CF: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.5468,
+          "size": 1694.15,
+          "pnl": 9.67
         },
         {
           "market": "Will MH Beitar Jerusalem win on 2026-07-30?",
@@ -2417,11 +2991,25 @@
           "pnl": 14.73
         },
         {
+          "market": "ITF Hechingen: Eva Bennemann vs Josy Daems",
+          "outcome": "Eva Bennemann",
+          "avg_price": 0.702,
+          "size": 2041.82,
+          "pnl": -36.1
+        },
+        {
           "market": "Samsun: Dimitar Kuzmanov vs Paul Inchauspe",
           "outcome": "Dimitar Kuzmanov",
           "avg_price": 0.5075,
           "size": 1291.43,
           "pnl": -181.57
+        },
+        {
+          "market": "Vancouver: Liam Broady vs Jay Dylan Friend",
+          "outcome": "Liam Broady",
+          "avg_price": 0.5897,
+          "size": 1625.76,
+          "pnl": -13.11
         },
         {
           "market": "Will The New Saints FC win on 2026-07-30?",
@@ -2434,8 +3022,8 @@
           "market": "FC Sion vs. FK BATE Barysa\u016d: O/U 3.5",
           "outcome": "Under",
           "avg_price": 0.5092,
-          "size": 1054.59,
-          "pnl": 50.82
+          "size": 1044.73,
+          "pnl": 40.96
         },
         {
           "market": "Will SK Brann win on 2026-07-30?",
@@ -2464,13 +3052,6 @@
           "avg_price": 0.4472,
           "size": 787.7,
           "pnl": 30.07
-        },
-        {
-          "market": "Los Cabos Open: Dalibor Svrcina vs Adam Walton",
-          "outcome": "Dalibor Svrcina",
-          "avg_price": 0.8135,
-          "size": 1600.71,
-          "pnl": 297.74
         }
       ]
     },
@@ -2511,6 +3092,42 @@
       ]
     },
     {
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "pnl": 1519940.86,
+      "volume": 190934937.0,
+      "positions": [
+        {
+          "market": "Samsun: Gabriel Debru vs Florent Bax",
+          "outcome": "Gabriel Debru",
+          "avg_price": 0.6548,
+          "size": 17105.77,
+          "pnl": 2269.45
+        },
+        {
+          "market": "Samsun: Gabriel Debru vs Florent Bax",
+          "outcome": "Florent Bax",
+          "avg_price": 0.3557,
+          "size": 4167.8,
+          "pnl": -1884.61
+        },
+        {
+          "market": "Liberec: Joel Schwaerzler vs Martin Krumich",
+          "outcome": "Martin Krumich",
+          "avg_price": 0.6967,
+          "size": 15967.7,
+          "pnl": 4836.39
+        },
+        {
+          "market": "Targu Mures: Elena Ruxandra Bertea vs Carole Monnet",
+          "outcome": "Elena Ruxandra Bertea",
+          "avg_price": 0.453,
+          "size": 8893.71,
+          "pnl": 2341.35
+        }
+      ]
+    },
+    {
       "wallet": "0xb61b2079b95f6b7476fd3203e0274ffb93308a06",
       "name": "hot2trot",
       "pnl": 1514615.05,
@@ -2525,35 +3142,6 @@
       "positions": []
     },
     {
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "name": "RN1",
-      "pnl": 1502618.01,
-      "volume": 190603755.36,
-      "positions": [
-        {
-          "market": "Los Cabos Open: Dalibor Svrcina vs Adam Walton",
-          "outcome": "Adam Walton",
-          "avg_price": 0.4075,
-          "size": 124.56,
-          "pnl": -101397.45
-        },
-        {
-          "market": "Los Cabos Open: Dalibor Svrcina vs Adam Walton",
-          "outcome": "Dalibor Svrcina",
-          "avg_price": 0.512,
-          "size": 212318.74,
-          "pnl": 103552.71
-        },
-        {
-          "market": "Liberec: Jan Kumstat vs Thiago Seyboth Wild",
-          "outcome": "Jan Kumstat",
-          "avg_price": 0.4953,
-          "size": 11591.19,
-          "pnl": 1606.02
-        }
-      ]
-    },
-    {
       "wallet": "0x65018f9fc473f6e920b8929a375d39c26a461220",
       "name": "cnyek",
       "pnl": 1394350.96,
@@ -2563,8 +3151,8 @@
     {
       "wallet": "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
       "name": "pada",
-      "pnl": 1366784.16,
-      "volume": 1227628.6,
+      "pnl": 1365615.34,
+      "volume": 1260746.16,
       "positions": [
         {
           "market": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
@@ -2577,8 +3165,8 @@
           "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
           "outcome": "No",
           "avg_price": 0.2193,
-          "size": 64557.5,
-          "pnl": -3364.42
+          "size": 73536.72,
+          "pnl": 5614.8
         },
         {
           "market": "Fed rate hike in 2026?",
@@ -2591,15 +3179,15 @@
           "market": "Will NVIDIA be the largest company in the world by market cap on July 31?",
           "outcome": "No",
           "avg_price": 0.1132,
-          "size": 115909.75,
-          "pnl": 100826.96
+          "size": 92930.98,
+          "pnl": 79942.55
         },
         {
           "market": "Will Apple be the largest company in the world by market cap on July 31?",
           "outcome": "Yes",
           "avg_price": 0.0453,
-          "size": 86352.58,
-          "pnl": 81886.09
+          "size": 66912.01,
+          "pnl": 63108.22
         },
         {
           "market": "Will Amazon be the largest company in the world by market cap on July 31?",
@@ -2653,11 +3241,25 @@
       "positions": []
     },
     {
+      "wallet": "0x8042d175fa3c31fc48b22accbad216564d8f3680",
+      "name": "Neonbruv",
+      "pnl": 1095513.59,
+      "volume": 6410117.36,
+      "positions": []
+    },
+    {
       "wallet": "0x9468bb7e53c8a5f13cc283f2aed950ebf9865d4b",
       "name": "myzbsq",
-      "pnl": 1140459.65,
-      "volume": 10880429.48,
+      "pnl": 1048898.3,
+      "volume": 11417747.49,
       "positions": [
+        {
+          "market": "LoL: Top Esports vs Anyone's Legend (BO3) - LPL Group Ascend",
+          "outcome": "Top Esports",
+          "avg_price": 0.1457,
+          "size": 131.87,
+          "pnl": -38315.17
+        },
         {
           "market": "LoL: Kiwoom DRX vs Nongshim Red Force (BO3) - LCK Round 3-4 Rise Group",
           "outcome": "Kiwoom DRX",
@@ -2666,27 +3268,20 @@
           "pnl": -30523.1
         },
         {
+          "market": "LoL: Top Esports vs Anyone's Legend - Game 1 Winner",
+          "outcome": "Top Esports",
+          "avg_price": 0.1118,
+          "size": 86.79,
+          "pnl": -19322.71
+        },
+        {
           "market": "LoL: Kiwoom DRX vs Nongshim Red Force - Game 1 Winner",
           "outcome": "Kiwoom DRX",
           "avg_price": 0.08,
           "size": 50.0,
           "pnl": -7949.99
-        },
-        {
-          "market": "LoL: Top Esports vs Anyone's Legend - Game 1 Winner",
-          "outcome": "Top Esports",
-          "avg_price": 0.0,
-          "size": 4194.24,
-          "pnl": 4194.24
         }
       ]
-    },
-    {
-      "wallet": "0x8042d175fa3c31fc48b22accbad216564d8f3680",
-      "name": "Neonbruv",
-      "pnl": 1095513.59,
-      "volume": 6410117.36,
-      "positions": []
     },
     {
       "wallet": "0xc6a63ad5a788a576d4acc9911c50fef9fde49458",
@@ -2705,129 +3300,31 @@
     {
       "wallet": "0x86d2d490bcac9fccea02a44c48272008e0c4731d",
       "name": "umeax",
-      "pnl": 885296.48,
-      "volume": 6365667.95,
-      "positions": []
-    },
-    {
-      "wallet": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
-      "name": "Djdjdjekekek",
-      "pnl": 815671.88,
-      "volume": 24604458.1,
-      "positions": []
-    },
-    {
-      "wallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
-      "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-      "pnl": 805226.42,
-      "volume": 65584965.35,
+      "pnl": 885265.7,
+      "volume": 6371824.32,
       "positions": [
         {
-          "market": "Toronto Blue Jays vs. Washington Nationals",
-          "outcome": "Toronto Blue Jays",
-          "avg_price": 0.52,
-          "size": 8890.31,
-          "pnl": 84.67
-        },
-        {
           "market": "Arizona Diamondbacks vs. Pittsburgh Pirates",
-          "outcome": "Pittsburgh Pirates",
-          "avg_price": 0.56,
-          "size": 8123.86,
-          "pnl": 70.47
-        },
-        {
-          "market": "Philadelphia Phillies vs. Miami Marlins",
-          "outcome": "Philadelphia Phillies",
-          "avg_price": 0.61,
-          "size": 5717.61,
-          "pnl": 137.22
-        },
-        {
-          "market": "Spread: Cleveland Guardians (-1.5)",
-          "outcome": "Cleveland Guardians",
+          "outcome": "Arizona Diamondbacks",
           "avg_price": 0.44,
-          "size": 3143.51,
-          "pnl": 35.32
-        },
-        {
-          "market": "Baltimore Orioles vs. Detroit Tigers: O/U 7.5",
-          "outcome": "Under",
-          "avg_price": 0.5,
-          "size": 1869.12,
-          "pnl": 18.51
-        },
-        {
-          "market": "Colorado Rockies vs. San Diego Padres",
-          "outcome": "Colorado Rockies",
-          "avg_price": 0.43,
-          "size": 1445.14,
-          "pnl": 16.61
-        },
-        {
-          "market": "Milwaukee Brewers vs. San Francisco Giants: O/U 7.5",
-          "outcome": "Under",
-          "avg_price": 0.5,
-          "size": 1080.09,
-          "pnl": 10.69
-        },
-        {
-          "market": "Cleveland Guardians vs. Cincinnati Reds",
-          "outcome": "Cleveland Guardians",
-          "avg_price": 0.55,
-          "size": 977.21,
-          "pnl": 8.8
-        },
-        {
-          "market": "Atlanta Braves vs. New York Mets",
-          "outcome": "Atlanta Braves",
-          "avg_price": 0.59,
-          "size": 371.84,
-          "pnl": -3.18
-        },
-        {
-          "market": "Philadelphia Phillies vs. Miami Marlins: O/U 7.5",
-          "outcome": "Under",
-          "avg_price": 0.48,
-          "size": 192.12,
-          "pnl": 1.98
-        },
-        {
-          "market": "Will Shohei Ohtani win the 2026 National League MVP Award?",
-          "outcome": "No",
-          "avg_price": 0.24,
-          "size": 100.88,
-          "pnl": 43.91
-        },
-        {
-          "market": "Spread: Atlanta Braves (-1.5)",
-          "outcome": "Atlanta Braves",
-          "avg_price": 0.45,
-          "size": 67.81,
-          "pnl": 1.47
-        },
-        {
-          "market": "Spread: Philadelphia Phillies (-1.5)",
-          "outcome": "Philadelphia Phillies",
-          "avg_price": 0.49,
-          "size": 63.87,
-          "pnl": 0.65
+          "size": 2678.02,
+          "pnl": -30.78
         }
       ]
     },
     {
-      "wallet": "0x50f0a0fc7364d3c10fc4578b9b1d955368335355",
-      "name": "bettguy",
-      "pnl": 777385.08,
-      "volume": 4816112.15,
-      "positions": []
-    },
-    {
       "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
       "name": "ferrariChampions2026",
-      "pnl": 768242.05,
-      "volume": 267554835.83,
+      "pnl": 880843.99,
+      "volume": 268485299.62,
       "positions": [
+        {
+          "market": "LoL: T1 vs KT Rolster (BO3) - LCK Round 3-4 Legend Group",
+          "outcome": "T1",
+          "avg_price": 0.6576,
+          "size": 51.72,
+          "pnl": -67980.23
+        },
         {
           "market": "LoL: Kiwoom DRX vs Nongshim Red Force - Game 1 Winner",
           "outcome": "Kiwoom DRX",
@@ -2850,6 +3347,13 @@
           "pnl": 40932.14
         },
         {
+          "market": "LoL: T1 vs KT Rolster - Game 2 Winner",
+          "outcome": "T1",
+          "avg_price": 0.4916,
+          "size": 30.76,
+          "pnl": -30213.5
+        },
+        {
           "market": "St. Louis Cardinals vs. Cincinnati Reds",
           "outcome": "St. Louis Cardinals",
           "avg_price": 0.4699,
@@ -2859,17 +3363,137 @@
       ]
     },
     {
+      "wallet": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+      "name": "Djdjdjekekek",
+      "pnl": 815671.88,
+      "volume": 24604458.1,
+      "positions": []
+    },
+    {
+      "wallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+      "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+      "pnl": 805325.86,
+      "volume": 65604645.82,
+      "positions": [
+        {
+          "market": "Arizona Diamondbacks vs. Pittsburgh Pirates",
+          "outcome": "Pittsburgh Pirates",
+          "avg_price": 0.56,
+          "size": 25151.04,
+          "pnl": 218.16
+        },
+        {
+          "market": "Toronto Blue Jays vs. Washington Nationals",
+          "outcome": "Toronto Blue Jays",
+          "avg_price": 0.52,
+          "size": 8947.2,
+          "pnl": 85.21
+        },
+        {
+          "market": "Philadelphia Phillies vs. Miami Marlins",
+          "outcome": "Philadelphia Phillies",
+          "avg_price": 0.61,
+          "size": 5717.61,
+          "pnl": 137.22
+        },
+        {
+          "market": "Spread: Cleveland Guardians (-1.5)",
+          "outcome": "Cleveland Guardians",
+          "avg_price": 0.44,
+          "size": 3143.51,
+          "pnl": 35.32
+        },
+        {
+          "market": "Colorado Rockies vs. San Diego Padres",
+          "outcome": "Colorado Rockies",
+          "avg_price": 0.43,
+          "size": 2144.49,
+          "pnl": 24.65
+        },
+        {
+          "market": "Baltimore Orioles vs. Detroit Tigers: O/U 7.5",
+          "outcome": "Under",
+          "avg_price": 0.5,
+          "size": 1874.17,
+          "pnl": 18.56
+        },
+        {
+          "market": "Cleveland Guardians vs. Cincinnati Reds",
+          "outcome": "Cleveland Guardians",
+          "avg_price": 0.55,
+          "size": 1617.82,
+          "pnl": 14.57
+        },
+        {
+          "market": "Philadelphia Phillies vs. Miami Marlins: O/U 7.5",
+          "outcome": "Under",
+          "avg_price": 0.48,
+          "size": 1173.76,
+          "pnl": 12.1
+        },
+        {
+          "market": "Milwaukee Brewers vs. San Francisco Giants: O/U 7.5",
+          "outcome": "Under",
+          "avg_price": 0.5,
+          "size": 1080.09,
+          "pnl": 10.69
+        },
+        {
+          "market": "Seattle Mariners vs. Los Angeles Dodgers",
+          "outcome": "Seattle Mariners",
+          "avg_price": 0.42,
+          "size": 736.94,
+          "pnl": 8.67
+        },
+        {
+          "market": "Spread: Philadelphia Phillies (-1.5)",
+          "outcome": "Philadelphia Phillies",
+          "avg_price": 0.49,
+          "size": 607.39,
+          "pnl": 6.14
+        },
+        {
+          "market": "Atlanta Braves vs. New York Mets",
+          "outcome": "Atlanta Braves",
+          "avg_price": 0.59,
+          "size": 365.49,
+          "pnl": -9.53
+        },
+        {
+          "market": "Will Shohei Ohtani win the 2026 National League MVP Award?",
+          "outcome": "No",
+          "avg_price": 0.24,
+          "size": 96.13,
+          "pnl": 39.17
+        },
+        {
+          "market": "Spread: Atlanta Braves (-1.5)",
+          "outcome": "Atlanta Braves",
+          "avg_price": 0.45,
+          "size": 67.08,
+          "pnl": 0.74
+        }
+      ]
+    },
+    {
+      "wallet": "0x50f0a0fc7364d3c10fc4578b9b1d955368335355",
+      "name": "bettguy",
+      "pnl": 777385.08,
+      "volume": 4816112.15,
+      "positions": []
+    },
+    {
       "wallet": "0x7583d5f8a1031ff4afcdc6db4e2143bfd41b4df2",
       "name": "0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
-      "pnl": 742673.47,
+      "pnl": 743194.7,
       "volume": 6636752.7,
       "positions": [
         {
           "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
           "outcome": "Yes",
           "avg_price": 0.2451,
-          "size": 3899.96,
-          "pnl": -662.73
+          "size": 4430.5,
+          "pnl": -132.19
         }
       ]
     },
@@ -2890,15 +3514,15 @@
     {
       "wallet": "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
       "name": "Talvez10",
-      "pnl": 674598.37,
+      "pnl": 673598.37,
       "volume": 6191320.74,
       "positions": [
         {
           "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
           "outcome": "Over",
           "avg_price": 0.51,
-          "size": 67499.94,
-          "pnl": 16499.99
+          "size": 66499.94,
+          "pnl": 15499.99
         },
         {
           "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
@@ -2919,29 +3543,29 @@
     {
       "wallet": "0x93fb8127a1b21a112b11af936361225df0563e4a",
       "name": "LlamaLoco0000",
-      "pnl": 650000.66,
-      "volume": 2483569.07,
+      "pnl": 650128.19,
+      "volume": 2499467.95,
       "positions": [
         {
           "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.2219,
-          "size": 47800.94,
-          "pnl": -37086.64
+          "size": 49712.98,
+          "pnl": -35174.61
         },
         {
           "market": "China x Japan military clash before 2027?",
           "outcome": "Yes",
           "avg_price": 0.1145,
-          "size": 20899.18,
-          "pnl": -15924.21
+          "size": 22506.81,
+          "pnl": -14316.58
         },
         {
           "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.3939,
-          "size": 128000.81,
-          "pnl": 3189.88
+          "size": 123881.97,
+          "pnl": -928.96
         },
         {
           "market": "Will the Iranian regime fall before 2027?",
@@ -2954,8 +3578,8 @@
           "market": "Will Ethereum dip to $800 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.1887,
-          "size": 27210.22,
-          "pnl": -26847.32
+          "size": 28642.33,
+          "pnl": -25415.2
         },
         {
           "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
@@ -2982,8 +3606,8 @@
           "market": "NATO x Russia military clash by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.2107,
-          "size": 35817.73,
-          "pnl": 3700.35
+          "size": 34293.57,
+          "pnl": 2176.19
         },
         {
           "market": "Will the US acquire part of Greenland in 2026?",
@@ -2996,15 +3620,15 @@
           "market": "China x Taiwan military clash before 2027?",
           "outcome": "Yes",
           "avg_price": 0.067,
-          "size": 7619.06,
-          "pnl": 213.0
+          "size": 7729.48,
+          "pnl": 323.42
         },
         {
           "market": "Bab el-Mandeb Strait effectively closed by September 30?",
           "outcome": "Yes",
-          "avg_price": 0.1821,
-          "size": 19517.52,
-          "pnl": 2171.4
+          "avg_price": 0.183,
+          "size": 20951.06,
+          "pnl": 2693.21
         },
         {
           "market": "Will Russia invade another country in 2026?",
@@ -3017,8 +3641,8 @@
           "market": "Will China blockade Taiwan in 2026?",
           "outcome": "Yes",
           "avg_price": 0.0751,
-          "size": 4899.27,
-          "pnl": 326.94
+          "size": 4838.41,
+          "pnl": 266.08
         },
         {
           "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
@@ -3031,8 +3655,8 @@
           "market": "Israel closes its airspace by July 31?",
           "outcome": "Yes",
           "avg_price": 0.1401,
-          "size": 2071.46,
-          "pnl": -3852.53
+          "size": 2092.6,
+          "pnl": -3831.4
         },
         {
           "market": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -3052,8 +3676,8 @@
           "market": "Will Trump recognize Somaliland before 2027?",
           "outcome": "Yes",
           "avg_price": 0.2056,
-          "size": 2161.37,
-          "pnl": -1310.68
+          "size": 2144.48,
+          "pnl": -1327.57
         },
         {
           "market": "Trump x Greenland deal signed by December 31?",
@@ -3108,29 +3732,29 @@
           "market": "Israel military action against Greater Beirut by August 31?",
           "outcome": "Yes",
           "avg_price": 0.4512,
-          "size": 2484.22,
-          "pnl": -1074.44
+          "size": 2878.54,
+          "pnl": -680.12
         },
         {
           "market": "Iran full airspace closure by August 15?",
           "outcome": "Yes",
           "avg_price": 0.1771,
-          "size": 1690.86,
-          "pnl": 359.53
+          "size": 1991.46,
+          "pnl": 660.13
         },
         {
           "market": "Will China invade Taiwan by end of 2026?",
           "outcome": "Yes",
           "avg_price": 0.07,
-          "size": 257.78,
-          "pnl": -204.9
+          "size": 254.47,
+          "pnl": -208.21
         },
         {
           "market": "Israel closes its airspace by August 15?",
           "outcome": "Yes",
           "avg_price": 0.1779,
-          "size": 1137.13,
-          "pnl": 71.85
+          "size": 1226.9,
+          "pnl": 161.63
         },
         {
           "market": "Will Marco Rubio win the 2028 US Presidential Election?",
@@ -3143,8 +3767,8 @@
           "market": "Will Israel launch a ground operation in Iran by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.1942,
-          "size": 749.66,
-          "pnl": 72.51
+          "size": 767.09,
+          "pnl": 89.95
         },
         {
           "market": "China x India military clash by December 31, 2026?",
@@ -3157,22 +3781,22 @@
           "market": "X banned in any European country by December 31?",
           "outcome": "Yes",
           "avg_price": 0.2123,
-          "size": 419.05,
-          "pnl": -104.48
+          "size": 394.4,
+          "pnl": -129.13
         },
         {
           "market": "Will Zcash reach $1000 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.2295,
-          "size": 359.74,
-          "pnl": -172.99
+          "size": 348.14,
+          "pnl": -184.6
         },
         {
           "market": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
           "outcome": "Yes",
           "avg_price": 0.0791,
-          "size": 141.68,
-          "pnl": 19.83
+          "size": 140.14,
+          "pnl": 18.29
         },
         {
           "market": "China x Philippines military clash before 2027?",
@@ -3192,8 +3816,8 @@
           "market": "Will there be a Super El Ni\u00f1o this winter (2026\u201327)?",
           "outcome": "Yes",
           "avg_price": 0.7468,
-          "size": 742.99,
-          "pnl": 109.19
+          "size": 742.57,
+          "pnl": 108.77
         },
         {
           "market": "Iran full airspace closure by August 31?",
@@ -3213,8 +3837,8 @@
           "market": "Will the DFM Real Estate Index dip to 8,000 in 2026?",
           "outcome": "Yes",
           "avg_price": 0.2481,
-          "size": 61.92,
-          "pnl": -84.41
+          "size": 64.87,
+          "pnl": -81.46
         },
         {
           "market": "Israel closes its airspace by August 31?",
@@ -3227,8 +3851,8 @@
           "market": "Christine Lagarde out as ECB president in 2026?",
           "outcome": "Yes",
           "avg_price": 0.13,
-          "size": 113.06,
-          "pnl": 58.62
+          "size": 115.16,
+          "pnl": 60.72
         },
         {
           "market": "Will Trump be impeached before his term ends?",
@@ -3262,17 +3886,10 @@
       ]
     },
     {
-      "wallet": "0xe221be3b45dfe5ed562ee9dc16f47205728e06f6",
-      "name": "Jokerxing7",
-      "pnl": 554441.0,
-      "volume": 11576919.42,
-      "positions": []
-    },
-    {
       "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
       "name": "Bigggggggg",
-      "pnl": 550574.43,
-      "volume": 12258044.12,
+      "pnl": 579686.99,
+      "volume": 12298977.83,
       "positions": [
         {
           "market": "Will Rodrygo win the 2026 Ballon d'Or?",
@@ -3299,36 +3916,36 @@
           "market": "Will Microsoft be the largest company in the world by market cap on July 31?",
           "outcome": "Yes",
           "avg_price": 0.0344,
-          "size": 12.69,
-          "pnl": -862.72
+          "size": 13.88,
+          "pnl": -943.2
         },
         {
           "market": "Will Amazon be the largest company in the world by market cap on July 31?",
           "outcome": "Yes",
           "avg_price": 0.0344,
-          "size": 12.69,
-          "pnl": -862.72
+          "size": 13.88,
+          "pnl": -943.2
         },
         {
           "market": "Will Saudi Aramco be the largest company in the world by market cap on July 31?",
           "outcome": "Yes",
           "avg_price": 0.0344,
-          "size": 11.15,
-          "pnl": -757.74
+          "size": 12.33,
+          "pnl": -838.22
         },
         {
           "market": "Will Broadcom be the largest company in the world by market cap on July 31?",
           "outcome": "Yes",
           "avg_price": 0.0344,
-          "size": 11.06,
-          "pnl": -751.96
+          "size": 12.25,
+          "pnl": -832.44
         },
         {
           "market": "Will Tesla be the largest company in the world by market cap on July 31?",
           "outcome": "Yes",
           "avg_price": 0.0344,
-          "size": 11.06,
-          "pnl": -751.96
+          "size": 12.25,
+          "pnl": -832.44
         },
         {
           "market": "Will claude-opus-4-6 be the best AI model on August 1, 2026?",
@@ -3340,17 +3957,31 @@
       ]
     },
     {
+      "wallet": "0xe221be3b45dfe5ed562ee9dc16f47205728e06f6",
+      "name": "Jokerxing7",
+      "pnl": 554441.0,
+      "volume": 11576919.42,
+      "positions": []
+    },
+    {
       "wallet": "0xcf6c5492124794394dd9eac46498a8babbe47e66",
       "name": "one8tyfive",
-      "pnl": 540623.94,
-      "volume": 8864410.04,
+      "pnl": 552664.93,
+      "volume": 8910705.82,
       "positions": [
+        {
+          "market": "LoL: T1 vs KT Rolster (BO3) - LCK Round 3-4 Legend Group",
+          "outcome": "T1",
+          "avg_price": 0.5117,
+          "size": 19.24,
+          "pnl": -19674.27
+        },
         {
           "market": "Predict.fun FDV above $400M one day after launch?",
           "outcome": "No",
           "avg_price": 0.7095,
-          "size": 9249.99,
-          "pnl": -8489.87
+          "size": 9374.99,
+          "pnl": -8364.87
         },
         {
           "market": "LoL: Kiwoom DRX vs Nongshim Red Force - Game 2 Winner",
@@ -3392,7 +4023,7 @@
     {
       "wallet": "0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c",
       "name": "DLEK",
-      "pnl": 532712.79,
+      "pnl": 532712.25,
       "volume": 1172129.52,
       "positions": [
         {
@@ -3483,8 +4114,8 @@
           "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
           "outcome": "No",
           "avg_price": 0.76,
-          "size": 15.76,
-          "pnl": 2.07
+          "size": 15.58,
+          "pnl": 1.89
         }
       ]
     }
