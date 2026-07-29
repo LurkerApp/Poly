@@ -29,10 +29,10 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 BASE_URL        = "https://api.usaspending.gov/api/v2"
 DAYS_BACK       = 2
 PAGE_LIMIT      = 100
-MATCH_THRESHOLD = 92    # higher = fewer false positives
+MATCH_THRESHOLD = 92
 BATCH_SIZE      = 500
-MIN_AMOUNT      = 1     # filter out awards below $1
-MIN_LEN_RATIO   = 0.6   # cleaned names must be within 60% length of each other
+MIN_AMOUNT      = 1
+MIN_LEN_RATIO   = 0.6
 
 # ── Date range ───────────────────────────────────────────────
 end_date   = datetime.today()
@@ -70,8 +70,6 @@ companies_df = pd.DataFrame(all_companies)
 print(f"  Loaded {len(companies_df):,} public companies")
 
 # ── Normalize company names for matching ─────────────────────
-# Note: "federal" and "security" removed from strip list intentionally —
-# stripping them causes short generic tokens that produce false positives
 STRIP_WORDS = r"\b(inc|corp|llc|ltd|co|the|and|of|group|holdings|international|corporation|company|services|solutions|systems|technologies|technology|enterprises|partners|consulting)\b"
 
 def normalize(name: str) -> str:
@@ -88,16 +86,6 @@ company_titles = companies_df["title_clean"].tolist()
 
 # ── Fuzzy match helper ───────────────────────────────────────
 def match_company(recipient_name: str):
-    """
-    Match recipient name against SEC public companies.
-
-    Guards against false positives:
-    1. Minimum cleaned name length of 5 chars
-    2. token_sort_ratio scorer (respects word order, less aggressive than token_set)
-    3. Length ratio guard: cleaned names must be within 60% length of each other
-       — prevents "security" matching "security federal corp"
-    4. Matched company name must also be >= 5 chars
-    """
     if not recipient_name:
         return None, None
 
@@ -117,14 +105,13 @@ def match_company(recipient_name: str):
         matched_title, score, idx = result
         matched_clean = company_titles[idx]
 
-        # Length ratio guard
         max_len   = max(len(name_clean), len(matched_clean), 1)
         min_len   = min(len(name_clean), len(matched_clean))
         len_ratio = min_len / max_len
+
         if len_ratio < MIN_LEN_RATIO:
             return None, None
 
-        # Minimum matched name length
         if len(matched_clean) < 5:
             return None, None
 
@@ -244,6 +231,26 @@ for _, row in df.iterrows():
         "matched_company":      clean(row.get("matched_company")),
         "updated_at":           datetime.now(timezone.utc).isoformat(),
     })
+
+# ── Deduplicate by award_id before upsert ────────────────────
+# USASpending sometimes returns the same award_id twice in one
+# response window which causes Postgres ON CONFLICT to fail
+seen       = set()
+deduped    = []
+duplicates = 0
+
+for r in records:
+    aid = r.get("award_id")
+    if aid and aid in seen:
+        duplicates += 1
+        continue
+    seen.add(aid)
+    deduped.append(r)
+
+if duplicates:
+    print(f"\n  Removed {duplicates} duplicate award_id(s) before upsert")
+
+records = deduped
 
 # ── Upsert to Supabase ───────────────────────────────────────
 print(f"\nUpserting {len(records):,} records to Supabase...")
