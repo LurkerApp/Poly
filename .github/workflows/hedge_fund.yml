@@ -1,0 +1,31 @@
+name: Fetch Hedge Fund Positions
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"   # Every Monday 10am UTC
+  workflow_dispatch:
+
+jobs:
+  fetch-hedge-funds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests supabase
+
+      - name: Run hedge fund script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python scripts/hedge_funds.py
