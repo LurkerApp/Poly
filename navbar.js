@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
           '<button class="dropdown-btn">Trading</button>' +
           '<div class="dropdown-content">' +
             '<a href="insider_trades.html">Insider Trades</a>' +
+            '<a href="hedgefunds.html">Hedge Funds</a>' +
             '<a href="options.html">Options</a>' +
             '<a href="gov-spending.html">Gov Spending</a>' +
           '</div>' +
