@@ -104,7 +104,7 @@
       <!-- Breaking headline -->
       <div class="headline-bar">
         <span class="headline-tag">BREAKING</span>
-        <span class="headline-source">AP News</span>
+        <span class="headline-source" id="headlineSource">Finnhub</span>
         <a class="headline-text" id="headlineText" href="#" target="_blank">Loading…</a>
         <span class="headline-time" id="headlineTime"></span>
       </div>
@@ -165,11 +165,8 @@
       const SUPABASE_KEY   = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
       const WHALES_URL     = './data/whales.json';
       const EXP_MOVE_URL   = './data/expected_move.json';
-      const RSS_SOURCES    = [
-        'https://api.rss2json.com/v1/api.json?rss_url=https://finance.yahoo.com/news/rssindex&count=1',
-        'https://api.rss2json.com/v1/api.json?rss_url=https://feeds.content.dowjones.io/public/rss/mw_topstories&count=1',
-        'https://api.rss2json.com/v1/api.json?rss_url=https://www.cnbc.com/id/100003114/device/rss/rss.html&count=1',
-      ];
+      const FINNHUB_KEY    = 'cvf27jhr01qjugsfmel0cvf27jhr01qjugsfmelg';
+      const FINNHUB_URL    = 'https://finnhub.io/api/v1/news?category=general&token=' + FINNHUB_KEY;
 
       const headers = {
         'apikey': SUPABASE_KEY,
@@ -344,22 +341,22 @@
         renderEmChart(symbol);
       }
 
-      // ── Headline ──────────────────────────────────────────
+      // ── Headline — Finnhub market news ───────────────────
       async function loadHeadline() {
-        for (const url of RSS_SOURCES) {
-          try {
-            const resp = await fetch(url);
-            if (!resp.ok) continue;
-            const data = await resp.json();
-            const item = data?.items?.[0];
-            if (!item?.title) continue;
-            document.getElementById('headlineText').textContent = item.title;
-            document.getElementById('headlineText').href        = item.link || '#';
-            document.getElementById('headlineTime').textContent = timeAgo(item.pubDate);
-            return;
-          } catch (e) { continue; }
+        try {
+          const resp = await fetch(FINNHUB_URL);
+          if (!resp.ok) throw new Error('Finnhub ' + resp.status);
+          const articles = await resp.json();
+          const item = (articles || []).find(a => a.headline && a.url) || articles?.[0];
+          if (!item) throw new Error('No articles');
+          document.getElementById('headlineText').textContent  = item.headline;
+          document.getElementById('headlineText').href         = item.url || '#';
+          document.getElementById('headlineSource').textContent = item.source || 'Finnhub';
+          document.getElementById('headlineTime').textContent  = timeAgo(new Date(item.datetime * 1000));
+        } catch (e) {
+          console.error('Headline error:', e);
+          document.getElementById('headlineText').textContent = 'Could not load headline — check back soon.';
         }
-        document.getElementById('headlineText').textContent = 'Could not load headline — check back soon.';
       }
 
       // ── Insider trades ────────────────────────────────────
