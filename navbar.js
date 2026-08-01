@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
           '<button class="dropdown-btn">Insights</button>' +
           '<div class="dropdown-content">' +
             '<a href="gov-spending.html">Gov Spending</a>' +
-            '<a href="page8.html">Page 8</a>' +
+            '<a href="economics.html">Economics</a>' +
             '<a href="page9.html">Page 9</a>' +
           '</div>' +
         '</div>' +
