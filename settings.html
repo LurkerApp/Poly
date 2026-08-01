@@ -3,6 +3,7 @@
   <head>
     <title>Settings – Lurker</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
       .page { max-width: 580px; margin: 0 auto; padding: 2rem 1.5rem; }
       .page-title { font-size: 22px; font-weight: 700; color: #e0e0e0; margin-bottom: 1.5rem; }
@@ -24,31 +25,22 @@
       .field input { width: 100%; padding: 9px 12px; border: 1px solid #2a2d30; border-radius: 8px; font-size: 14px; color: #e0e0e0; background: #252830; font-family: inherit; }
       .field input:focus { border-color: #1ABC9C; outline: none; }
       .field input:disabled { opacity: 0.4; cursor: not-allowed; }
-      .btn-row { display: flex; gap: 0.75rem; margin-top: 1.25rem; }
+      .btn-row { display: flex; gap: 0.75rem; margin-top: 1.25rem; align-items: center; }
       .save-btn { background: #1ABC9C; color: #141618; border: none; font-size: 14px; font-weight: 600; padding: 10px 24px; border-radius: 8px; cursor: pointer; font-family: inherit; }
       .save-btn:hover { background: #17a589; }
+      .save-btn:disabled { background: #2a2d30; color: #5a6068; cursor: not-allowed; }
       .danger-btn { background: none; color: #e05252; border: 1px solid #e05252; font-size: 14px; padding: 9px 20px; border-radius: 8px; cursor: pointer; font-family: inherit; }
       .danger-btn:hover { background: #2e1e1e; }
+      .save-msg { font-size: 13px; color: #1ABC9C; display: none; }
+      .error-msg { font-size: 13px; color: #e05252; display: none; }
       .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #252830; }
       .toggle-row:last-child { border-bottom: none; }
       .toggle-label { font-size: 14px; color: #e0e0e0; }
       .toggle-sub { font-size: 12px; color: #5a6068; margin-top: 2px; }
-      .divider { border: none; border-top: 1px solid #252830; margin: 0.75rem 0; }
-      .action-row { display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 0; }
-      .action-label { font-size: 14px; font-weight: 500; color: #e0e0e0; }
-      .action-sub { font-size: 12px; color: #5a6068; margin-top: 2px; }
-
-      /* Subscription placeholder */
       .sub-placeholder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem 1rem;
-        gap: 0.5rem;
-        text-align: center;
-        opacity: 0.5;
-        pointer-events: none;
+        display: flex; flex-direction: column; align-items: center;
+        justify-content: center; padding: 2rem 1rem; gap: 0.5rem;
+        text-align: center; opacity: 0.5; pointer-events: none;
       }
       .sub-placeholder-icon { font-size: 28px; margin-bottom: 0.25rem; }
       .sub-placeholder-title { font-size: 15px; font-weight: 600; color: #e0e0e0; }
@@ -78,8 +70,10 @@
           <input type="email" id="email-input" placeholder="you@example.com" disabled />
         </div>
         <div class="btn-row">
-          <button class="save-btn" onclick="handleSave()">Save changes</button>
+          <button class="save-btn" id="saveBtn" onclick="handleSave()">Save changes</button>
           <button class="danger-btn" onclick="handleSignOut()">Sign out</button>
+          <span class="save-msg" id="saveMsg">✓ Saved!</span>
+          <span class="error-msg" id="errorMsg"></span>
         </div>
       </div>
 
@@ -127,30 +121,79 @@
     <script src="navbar.js"></script>
     <script src="footer.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var username = localStorage.getItem('username') || 'User';
-        document.getElementById('avatar-lg').textContent        = username.charAt(0).toUpperCase();
-        document.getElementById('display-username').textContent = username;
-        document.getElementById('user-info').textContent        = '@' + username.toLowerCase() + ' · Member since ' + new Date().getFullYear();
-        document.getElementById('username-input').value         = username;
+      const { createClient } = supabase;
+      const client = createClient(
+        'https://vhhfoedqioqdoaecxuwx.supabase.co',
+        'sb_publishable_NmbPR4rRq3z5JmAGimeqBg_R1j6BCl-'
+      );
 
-        // Load saved notification prefs
+      // ── Init ─────────────────────────────────────────────
+      document.addEventListener('DOMContentLoaded', async function() {
+        // Load notification prefs from localStorage
         var prefs = JSON.parse(localStorage.getItem('notifPrefs') || '{}');
-        document.getElementById('notif-email').checked  = prefs.email  || false;
-        document.getElementById('notif-digest').checked = prefs.digest || false;
+        document.getElementById('notif-email').checked   = prefs.email   || false;
+        document.getElementById('notif-digest').checked  = prefs.digest  || false;
         document.getElementById('notif-insider').checked = prefs.insider || false;
+
+        // Load user from Supabase session
+        const { data: { user } } = await client.auth.getUser();
+
+        if (user) {
+          var username = user.user_metadata?.username || localStorage.getItem('username') || 'User';
+          var email    = user.email || '';
+
+          document.getElementById('avatar-lg').textContent        = username.charAt(0).toUpperCase();
+          document.getElementById('display-username').textContent = username;
+          document.getElementById('user-info').textContent        = '@' + username.toLowerCase() + ' · Member since ' + new Date(user.created_at).getFullYear();
+          document.getElementById('username-input').value         = username;
+          document.getElementById('email-input').value            = email;
+
+          // Keep localStorage in sync
+          localStorage.setItem('username', username);
+        } else {
+          // Not logged in — redirect
+          window.location.href = 'login.html';
+        }
       });
 
-      function handleSave() {
+      // ── Save profile ──────────────────────────────────────
+      async function handleSave() {
         var newUsername = document.getElementById('username-input').value.trim();
         if (!newUsername) return;
+
+        var btn      = document.getElementById('saveBtn');
+        var saveMsg  = document.getElementById('saveMsg');
+        var errorMsg = document.getElementById('errorMsg');
+
+        btn.disabled        = true;
+        btn.textContent     = 'Saving...';
+        saveMsg.style.display  = 'none';
+        errorMsg.style.display = 'none';
+
+        const { error } = await client.auth.updateUser({
+          data: { username: newUsername, display_name: newUsername }
+        });
+
+        btn.disabled    = false;
+        btn.textContent = 'Save changes';
+
+        if (error) {
+          errorMsg.textContent    = error.message;
+          errorMsg.style.display  = 'inline';
+          return;
+        }
+
+        // Update localStorage and UI
         localStorage.setItem('username', newUsername);
         document.getElementById('display-username').textContent = newUsername;
         document.getElementById('avatar-lg').textContent        = newUsername.charAt(0).toUpperCase();
         document.getElementById('user-info').textContent        = '@' + newUsername.toLowerCase() + ' · Member since ' + new Date().getFullYear();
-        alert('Changes saved!');
+
+        saveMsg.style.display = 'inline';
+        setTimeout(function() { saveMsg.style.display = 'none'; }, 3000);
       }
 
+      // ── Save notification prefs ───────────────────────────
       function savePrefs() {
         localStorage.setItem('notifPrefs', JSON.stringify({
           email:   document.getElementById('notif-email').checked,
@@ -159,7 +202,9 @@
         }));
       }
 
-      function handleSignOut() {
+      // ── Sign out ──────────────────────────────────────────
+      async function handleSignOut() {
+        await client.auth.signOut();
         localStorage.removeItem('loggedIn');
         localStorage.removeItem('username');
         localStorage.removeItem('userId');
