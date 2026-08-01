@@ -1,8 +1,11 @@
 # ============================================================
 # FRED Economic Data → Supabase fred_observations table
 # ============================================================
-# Fetches key macro series from the St. Louis Fed FRED API
-# and upserts into Supabase for the Insights page
+# Fetches latest observations from the St. Louis Fed FRED API
+# and upserts into Supabase for the Insights/Economics page
+# ============================================================
+# First run: fetches 10 years of history (already done)
+# Daily runs: fetches last 45 days only to catch new releases
 # ============================================================
 # Dependencies: requests supabase
 # Secrets required (GitHub Actions → Settings → Secrets):
@@ -15,7 +18,7 @@ import os
 import sys
 import requests
 from supabase import create_client
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import time
 
 # ── Config ───────────────────────────────────────────────────
@@ -31,10 +34,14 @@ if not FRED_API_KEY:
     print("ERROR: FRED_API_KEY must be set.")
     sys.exit(1)
 
-FRED_BASE    = "https://api.stlouisfed.org/fred/series/observations"
-BATCH_SIZE   = 500
-YEARS_BACK   = 10    # fetch last 10 years of data per series
-SLEEP        = 0.3   # be gentle with FRED API
+FRED_BASE  = "https://api.stlouisfed.org/fred/series/observations"
+BATCH_SIZE = 500
+SLEEP      = 0.3
+
+# Fetch last 45 days — catches monthly, weekly, and quarterly releases
+# Historical data already stored from initial run
+DAYS_BACK  = 45
+START_DATE = (datetime.now() - timedelta(days=DAYS_BACK)).strftime("%Y-%m-%d")
 
 # ── Series to fetch ───────────────────────────────────────────
 SERIES = [
@@ -77,15 +84,12 @@ print("✓ Connected\n")
 
 # ── Fetch one FRED series ─────────────────────────────────────
 def fetch_series(series_id):
-    # Start date — 10 years back
-    start = datetime(datetime.now().year - YEARS_BACK, 1, 1).strftime("%Y-%m-%d")
-
     params = {
-        "series_id":      series_id,
-        "api_key":        FRED_API_KEY,
-        "file_type":      "json",
-        "observation_start": start,
-        "sort_order":     "asc",
+        "series_id":         series_id,
+        "api_key":           FRED_API_KEY,
+        "file_type":         "json",
+        "observation_start": START_DATE,
+        "sort_order":        "asc",
     }
 
     time.sleep(SLEEP)
@@ -105,7 +109,7 @@ def fetch_series(series_id):
 # ── Upsert to Supabase ────────────────────────────────────────
 def upsert_series(series_id, series_name, observations):
     if not observations:
-        print(f"  ✗ No valid observations for {series_id}")
+        print(f"  — No new observations for {series_id} in last {DAYS_BACK} days")
         return 0
 
     now     = datetime.now(timezone.utc).isoformat()
@@ -123,7 +127,7 @@ def upsert_series(series_id, series_name, observations):
         except (ValueError, KeyError):
             continue
 
-    # Upsert in batches
+    # Upsert in batches — on_conflict updates existing rows
     inserted = 0
     for i in range(0, len(records), BATCH_SIZE):
         batch = records[i : i + BATCH_SIZE]
@@ -138,24 +142,30 @@ def upsert_series(series_id, series_name, observations):
 # ── Main ─────────────────────────────────────────────────────
 def main():
     print("=" * 60)
-    print("  FRED Economic Data Fetcher")
-    print(f"  Fetching {len(SERIES)} series — last {YEARS_BACK} years")
+    print("  FRED Economic Data — Daily Update")
+    print(f"  Fetching new observations since {START_DATE}")
+    print(f"  ({len(SERIES)} series)")
     print("=" * 60)
 
     total_saved = 0
     failed      = []
+    skipped     = 0
 
     for s in SERIES:
         sid  = s["id"]
         name = s["name"]
-        print(f"\nFetching {sid} — {name}...")
+        print(f"\n{sid} — {name}")
 
         try:
             observations = fetch_series(sid)
-            print(f"  ✓ {len(observations)} observations fetched")
 
+            if not observations:
+                skipped += 1
+                continue
+
+            print(f"  ✓ {len(observations)} new observation(s) found")
             saved = upsert_series(sid, name, observations)
-            print(f"  ✓ {saved} records upserted")
+            print(f"  ✓ {saved} record(s) upserted")
             total_saved += saved
 
         except Exception as e:
@@ -164,10 +174,10 @@ def main():
             continue
 
     print(f"\n{'='*60}")
-    print(f"  Done — {total_saved:,} total records upserted")
-    print(f"  Series: {len(SERIES) - len(failed)} succeeded, {len(failed)} failed")
-    if failed:
-        print(f"  Failed: {', '.join(failed)}")
+    print(f"  Done")
+    print(f"  Upserted : {total_saved:,} records")
+    print(f"  Skipped  : {skipped} series (no new data in window)")
+    print(f"  Failed   : {len(failed)}" + (f" — {', '.join(failed)}" if failed else ""))
     print(f"{'='*60}")
 
 if __name__ == "__main__":
