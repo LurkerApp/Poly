@@ -34,12 +34,12 @@ SLEEP       = 0.4
 MAX_RETRIES = 2
 
 FUNDS = [
-    {"name": "Scion Asset Management",    "cik": "0001649339"},
-    {"name": "Pershing Square Capital",   "cik": "0001336528"},
-    {"name": "Berkshire Hathaway",        "cik": "0001067983"},
-    {"name": "Third Point",               "cik": "0001040570"},
-    {"name": "Appaloosa Management",      "cik": "0001656456"},
-    {"name": "Situational Awareness LP",  "cik": "0002045724"},
+    {"name": "Scion Asset Management",   "cik": "0001649339"},
+    {"name": "Pershing Square Capital",  "cik": "0001336528"},
+    {"name": "Berkshire Hathaway",       "cik": "0001067983"},
+    {"name": "Third Point",              "cik": "0001040570"},
+    {"name": "Appaloosa Management",     "cik": "0001656456"},
+    {"name": "Situational Awareness LP", "cik": "0002045724"},
 ]
 
 # ── Helpers ──────────────────────────────────────────────────
@@ -59,7 +59,6 @@ def sec_get(url, attempt=1):
         return None
 
 def quarter_from_date(date_str):
-    """Convert filed date to quarter string e.g. '2025-11-03' → '2025-Q4'"""
     try:
         d = datetime.strptime(date_str, "%Y-%m-%d")
         q = (d.month - 1) // 3 + 1
@@ -165,10 +164,16 @@ def parse_positions(cik_int, acc_clean, xml_doc):
 
         company   = get_val("nameOfIssuer")
         cusip     = get_val("cusip")
-        put_call  = get_val("putCall") or None
         sh_type   = get_val("sshPrnamtType")
         value_str = get_val("value")
         value_usd = int(value_str.replace(",", "")) if value_str else 0
+
+        # put_call — use "Stock" instead of NULL so the unique
+        # constraint (fund_cik, cusip, put_call, quarter) always
+        # has a non-null value to match on and never duplicates
+        raw_put_call = get_val("putCall")
+        put_call     = raw_put_call if raw_put_call in ("Put", "Call") else "Stock"
+        is_option    = put_call in ("Put", "Call")
 
         # Shares nested inside shrsOrPrnAmt > sshPrnamt
         shares_str = ""
@@ -184,8 +189,6 @@ def parse_positions(cik_int, acc_clean, xml_doc):
         if not shares_str:
             shares_str = get_val("sshPrnamt")
         shares = int(shares_str.replace(",", "")) if shares_str else 0
-
-        is_option = put_call in ("Put", "Call")
 
         positions.append({
             "company_name":  company,
@@ -229,7 +232,7 @@ def upsert_fund(fund_name, cik, filing, positions):
             "cusip":         p["cusip"],
             "ticker":        None,
             "position_type": p["position_type"],
-            "put_call":      p["put_call"],
+            "put_call":      p["put_call"],   # always "Stock", "Put", or "Call" — never NULL
             "is_option":     p["is_option"],
             "shares":        p["shares"],
             "value_usd":     p["value_usd"],
@@ -237,13 +240,17 @@ def upsert_fund(fund_name, cik, filing, positions):
         })
 
     # Deduplicate by (fund_cik, cusip, put_call, quarter)
+    # put_call is never NULL so this constraint works correctly
     seen    = set()
     deduped = []
     for r in records:
-        key = (r["fund_cik"], r["cusip"], str(r["put_call"]), r["quarter"])
+        key = (r["fund_cik"], r["cusip"], r["put_call"], r["quarter"])
         if key not in seen:
             seen.add(key)
             deduped.append(r)
+
+    if len(deduped) < len(records):
+        print(f"  ⚠ Removed {len(records) - len(deduped)} duplicate positions before upsert")
 
     supabase.table("fund_positions").upsert(
         deduped,
