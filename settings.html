@@ -4,117 +4,160 @@
     <title>Settings – Lurker</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      .page { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem; }
+      .page { max-width: 580px; margin: 0 auto; padding: 2rem 1.5rem; }
       .page-title { font-size: 22px; font-weight: 700; color: #e0e0e0; margin-bottom: 1.5rem; }
-      .tabs { display: flex; gap: 2px; border-bottom: 1px solid #2a2d30; margin-bottom: 1.5rem; }
-      .tab { font-size: 14px; font-weight: 500; color: #7F8C8D; padding: 8px 16px; border: none; background: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; font-family: inherit; }
-      .tab.active { color: #1ABC9C; border-bottom-color: #1ABC9C; }
       .card { background: #1f2224; border: 1px solid #2a2d30; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
-      .card-title { font-size: 11px; font-weight: 600; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 1rem; }
+      .card-title {
+        font-size: 11px; font-weight: 600; color: #7F8C8D;
+        text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 1rem;
+        display: flex; align-items: center; gap: 0.5rem;
+      }
+      .coming-soon {
+        font-size: 9px; font-weight: 700; letter-spacing: 0.5px;
+        background: #252830; color: #5a6068;
+        padding: 2px 7px; border-radius: 4px; text-transform: uppercase;
+      }
       .profile-row { display: flex; align-items: center; gap: 16px; margin-bottom: 1.25rem; }
-      .avatar-lg { width: 64px; height: 64px; border-radius: 50%; background: #1ABC9C; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 700; color: #141618; flex-shrink: 0; }
+      .avatar-lg { width: 56px; height: 56px; border-radius: 50%; background: #1ABC9C; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: #141618; flex-shrink: 0; }
       .field { margin-bottom: 1rem; }
       .field label { display: block; font-size: 13px; font-weight: 500; color: #7F8C8D; margin-bottom: 5px; }
       .field input { width: 100%; padding: 9px 12px; border: 1px solid #2a2d30; border-radius: 8px; font-size: 14px; color: #e0e0e0; background: #252830; font-family: inherit; }
       .field input:focus { border-color: #1ABC9C; outline: none; }
-      .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-      .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #252830; }
-      .toggle-row:last-child { border-bottom: none; }
+      .field input:disabled { opacity: 0.4; cursor: not-allowed; }
+      .btn-row { display: flex; gap: 0.75rem; margin-top: 1.25rem; }
       .save-btn { background: #1ABC9C; color: #141618; border: none; font-size: 14px; font-weight: 600; padding: 10px 24px; border-radius: 8px; cursor: pointer; font-family: inherit; }
       .save-btn:hover { background: #17a589; }
       .danger-btn { background: none; color: #e05252; border: 1px solid #e05252; font-size: 14px; padding: 9px 20px; border-radius: 8px; cursor: pointer; font-family: inherit; }
       .danger-btn:hover { background: #2e1e1e; }
-      .change-btn { font-size: 13px; font-weight: 500; color: #1ABC9C; background: #1e2e2a; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-family: inherit; }
+      .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #252830; }
+      .toggle-row:last-child { border-bottom: none; }
+      .toggle-label { font-size: 14px; color: #e0e0e0; }
+      .toggle-sub { font-size: 12px; color: #5a6068; margin-top: 2px; }
+      .divider { border: none; border-top: 1px solid #252830; margin: 0.75rem 0; }
+      .action-row { display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 0; }
+      .action-label { font-size: 14px; font-weight: 500; color: #e0e0e0; }
+      .action-sub { font-size: 12px; color: #5a6068; margin-top: 2px; }
+
+      /* Subscription placeholder */
+      .sub-placeholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem;
+        gap: 0.5rem;
+        text-align: center;
+        opacity: 0.5;
+        pointer-events: none;
+      }
+      .sub-placeholder-icon { font-size: 28px; margin-bottom: 0.25rem; }
+      .sub-placeholder-title { font-size: 15px; font-weight: 600; color: #e0e0e0; }
+      .sub-placeholder-sub { font-size: 13px; color: #7F8C8D; }
     </style>
   </head>
   <body>
     <div class="page">
       <div class="page-title">Settings</div>
-      <div class="tabs">
-        <button class="tab active">Profile</button>
-        <button class="tab">Account</button>
-        <button class="tab">Notifications</button>
-        <button class="tab">Privacy</button>
-      </div>
 
+      <!-- Profile -->
       <div class="card">
-        <div class="card-title">Profile info</div>
+        <div class="card-title">Profile</div>
         <div class="profile-row">
           <div class="avatar-lg" id="avatar-lg">U</div>
           <div>
-            <div style="font-size:18px;font-weight:700;color:#e0e0e0;" id="display-username">Username</div>
-            <div style="font-size:13px;color:#7F8C8D;" id="user-info">@username · Member since 2024</div>
+            <div style="font-size:17px;font-weight:700;color:#e0e0e0;" id="display-username">Username</div>
+            <div style="font-size:13px;color:#7F8C8D;" id="user-info"></div>
           </div>
-          <button class="change-btn">Change photo</button>
         </div>
-        <div class="row2">
-          <div class="field"><label>First name</label><input type="text" placeholder="First name" /></div>
-          <div class="field"><label>Last name</label><input type="text" placeholder="Last name" /></div>
+        <div class="field">
+          <label>Username</label>
+          <input type="text" id="username-input" placeholder="@username" />
         </div>
-        <div class="field"><label>Username</label><input type="text" placeholder="@username" id="username-input" /></div>
-        <div class="field"><label>Bio</label><input type="text" placeholder="Tell people a little about yourself" /></div>
-        <button class="save-btn">Save changes</button>
-      </div>
-
-      <div class="card">
-        <div class="card-title">Notifications</div>
-        <div class="toggle-row">
-          <div>
-            <div style="font-size:14px;color:#e0e0e0;">Email notifications</div>
-            <div style="font-size:12px;color:#5a6068;">Receive updates via email</div>
-          </div>
-          <input type="checkbox" checked />
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="email-input" placeholder="you@example.com" disabled />
         </div>
-        <div class="toggle-row">
-          <div>
-            <div style="font-size:14px;color:#e0e0e0;">Push notifications</div>
-            <div style="font-size:12px;color:#5a6068;">Get alerts on your device</div>
-          </div>
-          <input type="checkbox" />
-        </div>
-        <div class="toggle-row">
-          <div>
-            <div style="font-size:14px;color:#e0e0e0;">Weekly digest</div>
-            <div style="font-size:12px;color:#5a6068;">Summary of activity each week</div>
-          </div>
-          <input type="checkbox" checked />
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-title">Session</div>
-        <div style="display:flex;align-items:center;justify-content:space-between;">
-          <div>
-            <div style="font-size:14px;font-weight:500;color:#e0e0e0;">Sign out</div>
-            <div style="font-size:12px;color:#5a6068;">End your current session</div>
-          </div>
+        <div class="btn-row">
+          <button class="save-btn" onclick="handleSave()">Save changes</button>
           <button class="danger-btn" onclick="handleSignOut()">Sign out</button>
         </div>
       </div>
 
+      <!-- Notifications -->
       <div class="card">
-        <div class="card-title">Danger zone</div>
-        <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div class="card-title">Notifications</div>
+        <div class="toggle-row">
           <div>
-            <div style="font-size:14px;font-weight:500;color:#e0e0e0;">Delete account</div>
-            <div style="font-size:12px;color:#5a6068;">Permanently remove your account and all data</div>
+            <div class="toggle-label">Email notifications</div>
+            <div class="toggle-sub">Receive market updates via email</div>
           </div>
-          <button class="danger-btn">Delete account</button>
+          <input type="checkbox" id="notif-email" onchange="savePrefs()" />
+        </div>
+        <div class="toggle-row">
+          <div>
+            <div class="toggle-label">Weekly digest</div>
+            <div class="toggle-sub">Summary of top trades and signals each week</div>
+          </div>
+          <input type="checkbox" id="notif-digest" onchange="savePrefs()" />
+        </div>
+        <div class="toggle-row">
+          <div>
+            <div class="toggle-label">Insider trade alerts</div>
+            <div class="toggle-sub">Notify me when a tracked insider files a Form 4</div>
+          </div>
+          <input type="checkbox" id="notif-insider" onchange="savePrefs()" />
         </div>
       </div>
+
+      <!-- Subscription — coming soon -->
+      <div class="card">
+        <div class="card-title">
+          Subscription
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+        <div class="sub-placeholder">
+          <div class="sub-placeholder-icon">🔒</div>
+          <div class="sub-placeholder-title">Pro plan coming soon</div>
+          <div class="sub-placeholder-sub">Unlock real-time alerts, advanced filters, and more</div>
+        </div>
+      </div>
+
     </div>
 
     <script src="navbar.js"></script>
     <script src="footer.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        var username     = localStorage.getItem('username') || 'User';
-        var avatarLetter = username.charAt(0).toUpperCase();
-        document.getElementById('avatar-lg').textContent        = avatarLetter;
+        var username = localStorage.getItem('username') || 'User';
+        document.getElementById('avatar-lg').textContent        = username.charAt(0).toUpperCase();
         document.getElementById('display-username').textContent = username;
         document.getElementById('user-info').textContent        = '@' + username.toLowerCase() + ' · Member since ' + new Date().getFullYear();
         document.getElementById('username-input').value         = username;
+
+        // Load saved notification prefs
+        var prefs = JSON.parse(localStorage.getItem('notifPrefs') || '{}');
+        document.getElementById('notif-email').checked  = prefs.email  || false;
+        document.getElementById('notif-digest').checked = prefs.digest || false;
+        document.getElementById('notif-insider').checked = prefs.insider || false;
       });
+
+      function handleSave() {
+        var newUsername = document.getElementById('username-input').value.trim();
+        if (!newUsername) return;
+        localStorage.setItem('username', newUsername);
+        document.getElementById('display-username').textContent = newUsername;
+        document.getElementById('avatar-lg').textContent        = newUsername.charAt(0).toUpperCase();
+        document.getElementById('user-info').textContent        = '@' + newUsername.toLowerCase() + ' · Member since ' + new Date().getFullYear();
+        alert('Changes saved!');
+      }
+
+      function savePrefs() {
+        localStorage.setItem('notifPrefs', JSON.stringify({
+          email:   document.getElementById('notif-email').checked,
+          digest:  document.getElementById('notif-digest').checked,
+          insider: document.getElementById('notif-insider').checked,
+        }));
+      }
 
       function handleSignOut() {
         localStorage.removeItem('loggedIn');
