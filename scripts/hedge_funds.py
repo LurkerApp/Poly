@@ -39,6 +39,7 @@ FUNDS = [
     {"name": "Berkshire Hathaway",        "cik": "0001067983"},
     {"name": "Third Point",               "cik": "0001040570"},
     {"name": "Appaloosa Management",      "cik": "0001656456"},
+    {"name": "Situational Awareness LP",  "cik": "0002045724"},
 ]
 
 # ── Helpers ──────────────────────────────────────────────────
@@ -204,7 +205,7 @@ def upsert_fund(fund_name, cik, filing, positions):
         print(f"  ✗ No positions to save for {fund_name}")
         return 0
 
-    total = sum(p["value_usd"] for p in positions)
+    total   = sum(p["value_usd"] for p in positions)
     quarter = filing["quarter"]
 
     # Upsert fund record
@@ -226,7 +227,7 @@ def upsert_fund(fund_name, cik, filing, positions):
             "filed_date":    filing["date"],
             "company_name":  p["company_name"],
             "cusip":         p["cusip"],
-            "ticker":        None,   # can map later via public_companies
+            "ticker":        None,
             "position_type": p["position_type"],
             "put_call":      p["put_call"],
             "is_option":     p["is_option"],
