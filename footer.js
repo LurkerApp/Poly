@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p style="font-size:13px; color:#5a6068;">Your edge in markets.</p>
       </div>
 
-      <!-- 3 columns — centered as a group, text left-aligned within each -->
+      <!-- 4 columns -->
       <div style="display:flex; justify-content:center; gap:6rem;">
 
         <!-- About -->
@@ -50,6 +50,19 @@ document.addEventListener('DOMContentLoaded', function() {
           <a href="#" target="_blank" style="font-size:13px; color:#5a6068; text-decoration:none; display:flex; align-items:center; gap:8px;">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8 0 3.2 0 3.6-.1 4.8-.1 3.2-1.6 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1-3.2 0-3.6 0-4.8-.1-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12c0-3.2 0-3.6.1-4.8C2.4 3.9 3.9 2.3 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12c0 3.3 0 3.7.1 4.9.2 4.4 2.6 6.8 7 7C8.3 24 8.7 24 12 24c3.3 0 3.7 0 4.9-.1 4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9 0-3.3 0-3.7-.1-4.9C23.7 2.7 21.3.3 16.9.1 15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/></svg>
             Instagram
+          </a>
+        </div>
+
+        <!-- Kalshi promo -->
+        <div style="display:flex; flex-direction:column; gap:0.65rem; min-width:130px;">
+          <div style="font-size:11px; font-weight:700; color:#7F8C8D; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:0.25rem;">Partners</div>
+          <a href="https://kalshi.com/r/78dfc816-cfcd-42ce-8929-eaafdc3c149a" target="_blank" style="text-decoration:none;">
+            <div style="background:#1f2224; border:1px solid #2a2d30; border-radius:8px; padding:0.9rem; transition:border-color 0.15s;">
+              <div style="font-size:14px; font-weight:700; color:#e0e0e0; margin-bottom:4px;">Kalshi</div>
+              <div style="font-size:12px; color:#1ABC9C; font-weight:600; margin-bottom:6px;">Get up to $500 bonus</div>
+              <div style="font-size:11px; color:#5a6068; line-height:1.5;">Trade on real-world events. Sign up with our link and earn a bonus on your first deposit.</div>
+              <div style="margin-top:10px; font-size:11px; font-weight:700; color:#1ABC9C;">Sign up →</div>
+            </div>
           </a>
         </div>
 
