@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
       '.dropdown-content a { color: #c0c0c0; padding: 11px 16px; text-decoration: none; display: block; font-family: Inter, sans-serif; font-size: 13px; font-weight: 500; transition: background 0.1s, color 0.1s; }' +
       '.dropdown-content a:hover { background: #2a2d30; color: #1ABC9C; }' +
       '.nav-dropdown:hover .dropdown-content { display: block; }' +
+      '.nav-link { background: none; border: none; padding: 8px 14px; cursor: pointer; font-family: Inter, sans-serif; font-size: 14px; font-weight: 500; color: #7F8C8D; border-radius: 6px; transition: background 0.15s, color 0.15s; text-decoration: none; display: inline-flex; align-items: center; }' +
+      '.nav-link:hover { background: #2a2d30; color: #e0e0e0; }' +
     '</style>' +
     '<nav>' +
       '<a href="index.html" style="text-decoration:none;">' +
@@ -45,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
             '<a href="page9.html">Page 9</a>' +
           '</div>' +
         '</div>' +
+        '<a href="watchlist.html" class="nav-link">Watchlist</a>' +
       '</div>' +
       '<button class="user-btn" onclick="window.location.href=\'' + destination + '\'">' +
         '<div class="avatar" style="' + avatarStyle + '">' + avatarLetter + '</div>' +
