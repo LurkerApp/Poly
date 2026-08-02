@@ -167,8 +167,7 @@
       const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
       const WHALES_URL   = './data/whales.json';
       const EXP_MOVE_URL = './data/expected_move.json';
-      const FINNHUB_KEY  = 'cvf27jhr01qjugsfmel0cvf27jhr01qjugsfmelg';
-      const FINNHUB_URL  = 'https://finnhub.io/api/v1/news?category=general&token=' + FINNHUB_KEY;
+      const NEWS_URL = './data/news.json';
 
       const SB = {
         'apikey': SUPABASE_KEY,
@@ -296,14 +295,13 @@
         renderEmChart(symbol);
       }
 
-      // ── Headline ──────────────────────────────────────────
+      // ── Headline — reads from data/news.json (written by GitHub Action) ──
       async function loadHeadline() {
         try {
-          const resp = await fetch(FINNHUB_URL);
-          if (!resp.ok) throw new Error('Finnhub ' + resp.status);
-          const articles = await resp.json();
-          const item = (articles || []).find(a => a.headline && a.url) || articles?.[0];
-          if (!item) throw new Error('No articles');
+          const resp = await fetch(NEWS_URL + '?t=' + Date.now());
+          if (!resp.ok) throw new Error('news.json not found');
+          const item = await resp.json();
+          if (!item || !item.headline) throw new Error('No headline');
           document.getElementById('headlineText').textContent   = item.headline;
           document.getElementById('headlineText').href          = item.url || '#';
           document.getElementById('headlineSource').textContent = item.source || 'Finnhub';
@@ -320,6 +318,7 @@
         const url = SUPABASE_URL + '/rest/v1/insider_trades'
           + '?select=trade_date,insider_name,ticker,action,notional_value'
           + '&trade_date=gte.' + since.toISOString().split('T')[0]
+          + '&ticker=not.is.null'
           + '&ticker=neq.NONE'
           + '&order=trade_date.desc&limit=20';
         const resp = await fetch(url, { headers: SB });
