@@ -5,86 +5,52 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <style>
+      /* Headline */
       .headline-bar {
-        background: #1f2224;
-        border: 1px solid #2a2d30;
-        border-radius: 8px;
-        padding: 0.9rem 1.25rem;
-        margin-bottom: 1.5rem;
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        min-height: 52px;
+        background: #1f2224; border: 1px solid #2a2d30; border-radius: 8px;
+        padding: 0.9rem 1.25rem; margin-bottom: 1.5rem;
+        display: flex; align-items: center; gap: 1rem; min-height: 52px;
       }
-      .headline-tag {
-        font-size: 10px; font-weight: 700; letter-spacing: 1px;
-        color: #141618; background: #1ABC9C;
-        padding: 2px 8px; border-radius: 4px;
-        white-space: nowrap; flex-shrink: 0;
-      }
+      .headline-tag { font-size: 10px; font-weight: 700; letter-spacing: 1px; color: #141618; background: #1ABC9C; padding: 2px 8px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
       .headline-source { font-size: 11px; color: #5a6068; white-space: nowrap; flex-shrink: 0; }
-      .headline-text {
-        font-size: 13px; font-weight: 600; color: #e0e0e0;
-        line-height: 1.4; flex: 1; text-decoration: none;
-      }
+      .headline-text { font-size: 13px; font-weight: 600; color: #e0e0e0; line-height: 1.4; flex: 1; text-decoration: none; }
       .headline-text:hover { color: #1ABC9C; }
       .headline-time { font-size: 11px; color: #5a6068; white-space: nowrap; flex-shrink: 0; }
 
-      .home-grid {
+      /* Macro strip */
+      .macro-strip {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.75rem;
         margin-bottom: 1.5rem;
       }
-      @media (max-width: 900px) { .home-grid { grid-template-columns: 1fr; } }
+      .macro-card { background: #1f2224; border: 1px solid #2a2d30; border-radius: 8px; padding: 0.75rem 1rem; }
+      .macro-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+      .macro-value { font-size: 18px; font-weight: 700; color: #1ABC9C; }
+      .macro-sub   { font-size: 11px; color: #5a6068; margin-top: 2px; }
 
-      /* Expected move chart */
-      .em-tabs {
-        display: flex;
-        gap: 0.5rem;
-        margin-bottom: 1.25rem;
-      }
-      .em-tab {
-        font-size: 12px; font-weight: 600;
-        padding: 4px 14px; border-radius: 4px;
-        border: 1px solid #2a2d30;
-        background: transparent; color: #7F8C8D;
-        cursor: pointer; font-family: inherit;
-        transition: all 0.15s;
-      }
+      /* 2-col grid */
+      .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+      @media (max-width: 900px) { .home-grid { grid-template-columns: 1fr; } .macro-strip { grid-template-columns: repeat(2,1fr); } }
+
+      /* Expected move */
+      .em-tabs { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; }
+      .em-tab { font-size: 12px; font-weight: 600; padding: 4px 14px; border-radius: 4px; border: 1px solid #2a2d30; background: transparent; color: #7F8C8D; cursor: pointer; font-family: inherit; transition: all 0.15s; }
       .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
-      .em-chart-wrap { position: relative; height: 260px; }
-
-      .em-stats {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0.75rem;
-        margin-top: 1rem;
-      }
-      .em-stat {
-        background: #252830;
-        border-radius: 6px;
-        padding: 0.6rem 0.75rem;
-        text-align: center;
-      }
+      .em-chart-wrap { position: relative; height: 220px; }
+      .em-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 0.75rem; margin-top: 1rem; }
+      .em-stat { background: #252830; border-radius: 6px; padding: 0.6rem 0.75rem; text-align: center; }
       .em-stat-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
       .em-stat-value { font-size: 14px; font-weight: 700; color: #e0e0e0; }
       .em-stat-value.up   { color: #1ABC9C; }
       .em-stat-value.down { color: #e05252; }
 
-      /* Whale + trades */
-      .top5-scroll {
-        display: flex; gap: 0.75rem; overflow-x: auto;
-        padding-bottom: 0.5rem; scroll-snap-type: x mandatory;
-      }
+      /* Whale cards */
+      .top5-scroll { display: flex; gap: 0.75rem; overflow-x: auto; padding-bottom: 0.5rem; scroll-snap-type: x mandatory; }
       .top5-scroll::-webkit-scrollbar { height: 3px; }
       .top5-scroll::-webkit-scrollbar-track { background: #252830; }
       .top5-scroll::-webkit-scrollbar-thumb { background: #1ABC9C; border-radius: 2px; }
-      .top5-card {
-        flex: 0 0 190px; scroll-snap-align: start;
-        border: 1px solid #2a2d30; border-left: 3px solid #1ABC9C;
-        border-radius: 8px; padding: 0.9rem; background: #252830;
-      }
+      .top5-card { flex: 0 0 190px; scroll-snap-align: start; border: 1px solid #2a2d30; border-left: 3px solid #1ABC9C; border-radius: 8px; padding: 0.9rem; background: #252830; }
       .top5-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
       .top5-rank { font-size: 11px; font-weight: 700; color: #5a6068; }
       .top5-outcome { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 3px; background: #2a2d30; color: #e0e0e0; }
@@ -92,16 +58,25 @@
       .top5-meta { display: flex; justify-content: space-between; font-size: 11px; color: #7F8C8D; }
       .top5-meta strong { color: #1ABC9C; }
 
+      /* Badges */
       .badge-buy  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2e2a; color:#1ABC9C; }
       .badge-sell { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#2e1e1e; color:#e05252; }
+      .badge-stock { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2e2a; color:#1ABC9C; }
+      .badge-put   { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#2e1e1e; color:#e05252; }
+      .badge-call  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2a1e; color:#4ade80; }
       .amount-cell { font-weight:600; color:#e0e0e0; }
+
+      /* Pct bar */
+      .pct-wrap { display:flex; align-items:center; gap:6px; }
+      .pct-bg   { flex:1; height:3px; background:#2a2d30; border-radius:2px; overflow:hidden; min-width:40px; }
+      .pct-fill { height:100%; border-radius:2px; background:#1ABC9C; }
     </style>
   </head>
   <body>
     <div class="datetime-display" id="datetimeDisplay"></div>
     <div class="page">
 
-      <!-- Breaking headline -->
+      <!-- Headline -->
       <div class="headline-bar">
         <span class="headline-tag">BREAKING</span>
         <span class="headline-source" id="headlineSource">Finnhub</span>
@@ -109,7 +84,15 @@
         <span class="headline-time" id="headlineTime"></span>
       </div>
 
-      <!-- Expected Move Chart — full width -->
+      <!-- Macro strip -->
+      <div class="macro-strip" id="macroStrip">
+        <div class="macro-card"><div class="macro-label">Fed Funds</div><div class="macro-value" id="macroFF">—</div><div class="macro-sub" id="macroFFsub"></div></div>
+        <div class="macro-card"><div class="macro-label">10Y Treasury</div><div class="macro-value" id="macro10Y">—</div><div class="macro-sub" id="macro10Ysub"></div></div>
+        <div class="macro-card"><div class="macro-label">CPI YoY</div><div class="macro-value" id="macroCPI">—</div><div class="macro-sub" id="macroCPIsub"></div></div>
+        <div class="macro-card"><div class="macro-label">Unemployment</div><div class="macro-value" id="macroUR">—</div><div class="macro-sub" id="macroURsub"></div></div>
+      </div>
+
+      <!-- Expected Move — full width -->
       <div class="chart-section" style="margin-bottom:1.5rem;">
         <h2>Expected Move <span class="refresh-badge">9am & 12pm</span></h2>
         <p class="section-sub">ATM straddle implied move for next 5 expirations — upper & lower price targets</p>
@@ -119,33 +102,25 @@
             <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
             <button class="em-tab" onclick="switchTab('QQQ')">QQQ</button>
           </div>
-          <div class="em-chart-wrap">
-            <canvas id="emChart"></canvas>
-          </div>
+          <div class="em-chart-wrap"><canvas id="emChart"></canvas></div>
           <div class="em-stats" id="emStats"></div>
         </div>
       </div>
 
+      <!-- Row 1: Insider Trades + Whale Consensus -->
       <div class="home-grid">
-
-        <!-- Insider Trades -->
         <div class="chart-section">
-          <h2>Insider Trades <span class="refresh-badge">7 days</span></h2>
-          <p class="section-sub">Recent buys & sells ordered by notional value</p>
+          <h2>Insider Trades <span class="refresh-badge">30 days</span></h2>
+          <p class="section-sub">Recent buys & sells by tracked insiders</p>
           <div id="tradesLoading" class="loading"><div class="spinner"></div> Loading…</div>
           <div id="tradesWrap" class="table-scroll" style="display:none;">
             <table class="data-table">
-              <thead>
-                <tr>
-                  <th>Date</th><th>Insider</th><th>Ticker</th><th>Action</th><th>Notional</th>
-                </tr>
-              </thead>
+              <thead><tr><th>Date</th><th>Insider</th><th>Ticker</th><th>Action</th><th>Notional</th></tr></thead>
               <tbody id="tradesBody"></tbody>
             </table>
           </div>
         </div>
 
-        <!-- Whale Consensus -->
         <div class="chart-section">
           <h2>Whale Consensus <span class="refresh-badge">Live</span></h2>
           <p class="section-sub">Most agreed Polymarket bets among top 50 accounts</p>
@@ -154,194 +129,174 @@
             <div id="whaleScroll" class="top5-scroll"></div>
           </div>
         </div>
-
       </div>
+
+      <!-- Row 2: Top Hedge Fund Holdings + Top Gov Contracts -->
+      <div class="home-grid">
+        <div class="chart-section">
+          <h2>Top Hedge Fund Holdings <span class="refresh-badge">13F</span></h2>
+          <p class="section-sub">Largest stock positions across all tracked funds</p>
+          <div id="hfLoading" class="loading"><div class="spinner"></div> Loading…</div>
+          <div id="hfWrap" class="table-scroll" style="display:none;">
+            <table class="data-table">
+              <thead><tr><th>#</th><th>Company</th><th>Type</th><th>Value</th><th>% Portfolio</th></tr></thead>
+              <tbody id="hfBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="chart-section">
+          <h2>Top Gov Contracts <span class="refresh-badge">90 days</span></h2>
+          <p class="section-sub">Largest public company contract awards</p>
+          <div id="govLoading" class="loading"><div class="spinner"></div> Loading…</div>
+          <div id="govWrap" class="table-scroll" style="display:none;">
+            <table class="data-table">
+              <thead><tr><th>Ticker</th><th>Company</th><th>Total</th><th>Contracts</th></tr></thead>
+              <tbody id="govBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <script src="navbar.js"></script>
     <script src="footer.js"></script>
     <script>
-      const SUPABASE_URL   = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
-      const SUPABASE_KEY   = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
-      const WHALES_URL     = './data/whales.json';
-      const EXP_MOVE_URL   = './data/expected_move.json';
-      const FINNHUB_KEY    = 'cvf27jhr01qjugsfmel0cvf27jhr01qjugsfmelg';
-      const FINNHUB_URL    = 'https://finnhub.io/api/v1/news?category=general&token=' + FINNHUB_KEY;
+      const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
+      const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
+      const WHALES_URL   = './data/whales.json';
+      const EXP_MOVE_URL = './data/expected_move.json';
+      const FINNHUB_KEY  = 'cvf27jhr01qjugsfmel0cvf27jhr01qjugsfmelg';
+      const FINNHUB_URL  = 'https://finnhub.io/api/v1/news?category=general&token=' + FINNHUB_KEY;
 
-      const headers = {
+      const SB = {
         'apikey': SUPABASE_KEY,
         'Authorization': 'Bearer ' + SUPABASE_KEY,
         'Content-Type': 'application/json'
       };
 
-      let emData    = null;
-      let emChart   = null;
-      let activeTab = 'SPY';
+      let emData = null, emChart = null, activeTab = 'SPY';
 
-      function fmt(val) {
-        if (!val && val !== 0) return '—';
-        if (Math.abs(val) >= 1e9) return '$' + (val/1e9).toFixed(1) + 'B';
-        if (Math.abs(val) >= 1e6) return '$' + (val/1e6).toFixed(1) + 'M';
-        if (Math.abs(val) >= 1e3) return '$' + (val/1e3).toFixed(0) + 'K';
-        return '$' + Number(val).toFixed(0);
+      function fmt(v) {
+        if (!v && v !== 0) return '—';
+        if (Math.abs(v) >= 1e9) return '$' + (v/1e9).toFixed(1) + 'B';
+        if (Math.abs(v) >= 1e6) return '$' + (v/1e6).toFixed(1) + 'M';
+        if (Math.abs(v) >= 1e3) return '$' + (v/1e3).toFixed(0) + 'K';
+        return '$' + Number(v).toFixed(0);
       }
-
       function fmtDate(iso) {
         if (!iso) return '—';
         return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
       }
-
-      function fmtExp(dateStr) {
-        const d = new Date(dateStr + 'T12:00:00Z');
-        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      function fmtExp(d) {
+        return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
       }
-
-      function timeAgo(dateStr) {
-        if (!dateStr) return '';
-        const diff = Math.floor((Date.now() - new Date(dateStr)) / 60000);
-        if (diff < 1)  return 'just now';
-        if (diff < 60) return `${diff}m ago`;
+      function timeAgo(d) {
+        if (!d) return '';
+        const diff = Math.floor((Date.now() - new Date(d)) / 60000);
+        if (diff < 1) return 'just now';
+        if (diff < 60) return diff + 'm ago';
         const h = Math.floor(diff / 60);
-        if (h < 24)    return `${h}h ago`;
-        return `${Math.floor(h / 24)}d ago`;
+        if (h < 24) return h + 'h ago';
+        return Math.floor(h / 24) + 'd ago';
       }
-
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // ── Expected Move Chart ───────────────────────────────
+      // ── Macro strip ───────────────────────────────────────
+      async function loadMacro() {
+        const ids = ['FEDFUNDS','GS10','CPIAUCSL','UNRATE'];
+        const results = await Promise.allSettled(ids.map(id =>
+          fetch(SUPABASE_URL + '/rest/v1/fred_observations?select=date,value&series_id=eq.' + id + '&order=date.desc&limit=14', { headers: SB }).then(r => r.json())
+        ));
+
+        const [ff, t10, cpi, ur] = results.map(r => r.status === 'fulfilled' ? r.value : []);
+
+        function latest(rows) { return rows && rows[0] ? parseFloat(rows[0].value) : null; }
+        function latestDate(rows) { return rows && rows[0] ? fmtDate(rows[0].date) : ''; }
+
+        const ffVal  = latest(ff);
+        const t10Val = latest(t10);
+        const urVal  = latest(ur);
+
+        // CPI YoY
+        let cpiYoY = null;
+        if (cpi && cpi.length >= 13) {
+          const c = parseFloat(cpi[0].value), p = parseFloat(cpi[12].value);
+          cpiYoY = ((c - p) / p * 100).toFixed(1);
+        }
+
+        if (ffVal  !== null) { document.getElementById('macroFF').textContent   = ffVal.toFixed(2) + '%';  document.getElementById('macroFFsub').textContent  = latestDate(ff); }
+        if (t10Val !== null) { document.getElementById('macro10Y').textContent  = t10Val.toFixed(2) + '%'; document.getElementById('macro10Ysub').textContent = latestDate(t10); }
+        if (cpiYoY !== null) { document.getElementById('macroCPI').textContent  = cpiYoY + '%';            document.getElementById('macroCPIsub').textContent = 'YoY'; }
+        if (urVal  !== null) { document.getElementById('macroUR').textContent   = urVal.toFixed(1) + '%';  document.getElementById('macroURsub').textContent  = latestDate(ur); }
+      }
+
+      // ── Expected Move ─────────────────────────────────────
       async function loadExpectedMove() {
         const resp = await fetch(EXP_MOVE_URL + '?t=' + Date.now());
-        if (!resp.ok) throw new Error('No expected move data');
+        if (!resp.ok) throw new Error('no em data');
         return await resp.json();
+      }
+
+      function getNextExpiry(moves) {
+        const today = new Date(); today.setHours(0,0,0,0);
+        const cutoff = new Date(); cutoff.setUTCHours(21,0,0,0);
+        const skip = new Date() >= cutoff;
+        for (const m of moves) {
+          const exp = new Date(m.expiration + 'T12:00:00Z');
+          if (skip ? exp > today : exp >= today) return m;
+        }
+        return moves[moves.length - 1];
       }
 
       function renderEmChart(symbol) {
         if (!emData) return;
-        const symbolData = emData.symbols?.find(s => s.symbol === symbol);
-        if (!symbolData) return;
-
-        const moves        = symbolData.moves;
-        const labels       = moves.map(m => fmtExp(m.expiration));
-        const currentPrice = symbolData.current_price;
-        const uppers       = moves.map(m => m.upper_target);
-        const lowers       = moves.map(m => m.lower_target);
-        const centers      = moves.map(() => currentPrice);
-        const movePcts     = moves.map(m => m.expected_move_pct);
-
-        // Destroy old chart
+        const sd = emData.symbols?.find(s => s.symbol === symbol);
+        if (!sd) return;
+        const moves = sd.moves, cp = sd.current_price;
         if (emChart) { emChart.destroy(); emChart = null; }
-
         const ctx = document.getElementById('emChart').getContext('2d');
         emChart = new Chart(ctx, {
           type: 'line',
           data: {
-            labels,
+            labels: moves.map(m => fmtExp(m.expiration)),
             datasets: [
-              {
-                label: 'Upper Target',
-                data: uppers,
-                borderColor: '#1ABC9C',
-                backgroundColor: 'rgba(26,188,156,0.08)',
-                borderWidth: 2,
-                pointBackgroundColor: '#1ABC9C',
-                pointRadius: 5,
-                tension: 0.3,
-                fill: '+1',
-              },
-              {
-                label: 'Current Price',
-                data: centers,
-                borderColor: '#7F8C8D',
-                borderWidth: 1.5,
-                borderDash: [5, 5],
-                pointRadius: 0,
-                tension: 0,
-                fill: false,
-              },
-              {
-                label: 'Lower Target',
-                data: lowers,
-                borderColor: '#e05252',
-                backgroundColor: 'rgba(224,82,82,0.08)',
-                borderWidth: 2,
-                pointBackgroundColor: '#e05252',
-                pointRadius: 5,
-                tension: 0.3,
-                fill: false,
-              },
+              { label: 'Upper Target', data: moves.map(m => m.upper_target), borderColor: '#1ABC9C', backgroundColor: 'rgba(26,188,156,0.08)', borderWidth: 2, pointBackgroundColor: '#1ABC9C', pointRadius: 5, tension: 0.3, fill: '+1' },
+              { label: 'Current Price', data: moves.map(() => cp), borderColor: '#7F8C8D', borderWidth: 1.5, borderDash: [5,5], pointRadius: 0, fill: false },
+              { label: 'Lower Target', data: moves.map(m => m.lower_target), borderColor: '#e05252', backgroundColor: 'rgba(224,82,82,0.08)', borderWidth: 2, pointBackgroundColor: '#e05252', pointRadius: 5, tension: 0.3, fill: false },
             ]
           },
           options: {
-            responsive: true,
-            maintainAspectRatio: false,
+            responsive: true, maintainAspectRatio: false,
             interaction: { mode: 'index', intersect: false },
             plugins: {
-              legend: {
-                labels: {
-                  color: '#7F8C8D',
-                  font: { size: 11 },
-                  boxWidth: 12,
-                }
-              },
-              tooltip: {
-                backgroundColor: '#1f2224',
-                borderColor: '#2a2d30',
-                borderWidth: 1,
-                titleColor: '#e0e0e0',
-                bodyColor: '#c0c0c0',
-                callbacks: {
-                  label: ctx => {
-                    if (ctx.dataset.label === 'Current Price') return null;
-                    return ` ${ctx.dataset.label}: $${ctx.parsed.y.toFixed(2)}`;
-                  }
-                }
+              legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
+              tooltip: { backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1, titleColor: '#e0e0e0', bodyColor: '#c0c0c0',
+                callbacks: { label: ctx => ctx.dataset.label === 'Current Price' ? null : ` ${ctx.dataset.label}: $${ctx.parsed.y.toFixed(2)}` }
               }
             },
             scales: {
-              x: {
-                grid: { color: '#252830' },
-                ticks: { color: '#7F8C8D', font: { size: 11 } }
-              },
-              y: {
-                grid: { color: '#252830' },
-                ticks: {
-                  color: '#7F8C8D',
-                  font: { size: 11 },
-                  callback: v => '$' + v.toFixed(0)
-                }
-              }
+              x: { grid: { color: '#252830' }, ticks: { color: '#7F8C8D', font: { size: 11 } } },
+              y: { grid: { color: '#252830' }, ticks: { color: '#7F8C8D', font: { size: 11 }, callback: v => '$' + v.toFixed(0) } }
             }
           }
         });
-
-        // Stats row — show nearest expiration
-        const nearest = moves[0];
-        document.getElementById('emStats').innerHTML = `
-          <div class="em-stat">
-            <div class="em-stat-label">Current Price</div>
-            <div class="em-stat-value">$${currentPrice.toFixed(2)}</div>
-          </div>
-          <div class="em-stat">
-            <div class="em-stat-label">Upper (${fmtExp(nearest.expiration)})</div>
-            <div class="em-stat-value up">$${nearest.upper_target.toFixed(2)} <span style="font-size:11px;color:#7F8C8D;">+${nearest.expected_move_pct.toFixed(2)}%</span></div>
-          </div>
-          <div class="em-stat">
-            <div class="em-stat-label">Lower (${fmtExp(nearest.expiration)})</div>
-            <div class="em-stat-value down">$${nearest.lower_target.toFixed(2)} <span style="font-size:11px;color:#7F8C8D;">-${nearest.expected_move_pct.toFixed(2)}%</span></div>
-          </div>
-        `;
+        const n = getNextExpiry(moves);
+        document.getElementById('emStats').innerHTML =
+          '<div class="em-stat"><div class="em-stat-label">Current Price</div><div class="em-stat-value">$' + cp.toFixed(2) + '</div></div>' +
+          '<div class="em-stat"><div class="em-stat-label">Upper (' + fmtExp(n.expiration) + ')</div><div class="em-stat-value up">$' + n.upper_target.toFixed(2) + ' <span style="font-size:11px;color:#7F8C8D;">+' + n.expected_move_pct.toFixed(2) + '%</span></div></div>' +
+          '<div class="em-stat"><div class="em-stat-label">Lower (' + fmtExp(n.expiration) + ')</div><div class="em-stat-value down">$' + n.lower_target.toFixed(2) + ' <span style="font-size:11px;color:#7F8C8D;">-' + n.expected_move_pct.toFixed(2) + '%</span></div></div>';
       }
 
       function switchTab(symbol) {
         activeTab = symbol;
-        document.querySelectorAll('.em-tab').forEach(t => {
-          t.classList.toggle('active', t.textContent === symbol);
-        });
+        document.querySelectorAll('.em-tab').forEach(t => t.classList.toggle('active', t.textContent === symbol));
         renderEmChart(symbol);
       }
 
-      // ── Headline — Finnhub market news ───────────────────
+      // ── Headline ──────────────────────────────────────────
       async function loadHeadline() {
         try {
           const resp = await fetch(FINNHUB_URL);
@@ -349,26 +304,25 @@
           const articles = await resp.json();
           const item = (articles || []).find(a => a.headline && a.url) || articles?.[0];
           if (!item) throw new Error('No articles');
-          document.getElementById('headlineText').textContent  = item.headline;
-          document.getElementById('headlineText').href         = item.url || '#';
+          document.getElementById('headlineText').textContent   = item.headline;
+          document.getElementById('headlineText').href          = item.url || '#';
           document.getElementById('headlineSource').textContent = item.source || 'Finnhub';
-          document.getElementById('headlineTime').textContent  = timeAgo(new Date(item.datetime * 1000));
+          document.getElementById('headlineTime').textContent   = timeAgo(new Date(item.datetime * 1000));
         } catch (e) {
-          console.error('Headline error:', e);
           document.getElementById('headlineText').textContent = 'Could not load headline — check back soon.';
         }
       }
 
-      // ── Insider trades ────────────────────────────────────
+      // ── Insider Trades — 30 days ──────────────────────────
       async function loadTrades() {
         const since = new Date();
-        since.setDate(since.getDate() - 7);
-        const sinceISO = since.toISOString().split('T')[0];
-        const url = `${SUPABASE_URL}/rest/v1/insider_trades`
-          + `?select=trade_date,insider_name,ticker,action,notional_value`
-          + `&trade_date=gte.${sinceISO}`
-          + `&order=notional_value.desc&limit=20`;
-        const resp = await fetch(url, { headers });
+        since.setDate(since.getDate() - 30);
+        const url = SUPABASE_URL + '/rest/v1/insider_trades'
+          + '?select=trade_date,insider_name,ticker,action,notional_value'
+          + '&trade_date=gte.' + since.toISOString().split('T')[0]
+          + '&ticker=neq.NONE'
+          + '&order=trade_date.desc&limit=20';
+        const resp = await fetch(url, { headers: SB });
         return await resp.json();
       }
 
@@ -376,78 +330,148 @@
         hide('tradesLoading'); show('tradesWrap');
         const tbody = document.getElementById('tradesBody');
         if (!trades?.length) {
-          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No trades in the last 7 days.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No trades in the last 30 days.</td></tr>';
           return;
         }
-        tbody.innerHTML = trades.map(t => `
-          <tr>
-            <td style="white-space:nowrap;">${fmtDate(t.trade_date)}</td>
-            <td style="font-weight:500;color:#e0e0e0;">${t.insider_name || '—'}</td>
-            <td style="font-family:monospace;font-size:12px;color:#1ABC9C;">${t.ticker || '—'}</td>
-            <td><span class="${t.action === 'Buy' ? 'badge-buy' : 'badge-sell'}">${t.action || '—'}</span></td>
-            <td class="amount-cell">${fmt(t.notional_value)}</td>
-          </tr>`).join('');
+        tbody.innerHTML = trades.map(t =>
+          '<tr>' +
+          '<td style="white-space:nowrap;">' + fmtDate(t.trade_date) + '</td>' +
+          '<td style="font-weight:500;color:#e0e0e0;">' + (t.insider_name || '—') + '</td>' +
+          '<td style="font-family:monospace;font-size:12px;color:#1ABC9C;">' + (t.ticker || '—') + '</td>' +
+          '<td><span class="' + (t.action === 'Buy' ? 'badge-buy' : 'badge-sell') + '">' + (t.action || '—') + '</span></td>' +
+          '<td class="amount-cell">' + fmt(t.notional_value) + '</td>' +
+          '</tr>'
+        ).join('');
       }
 
-      // ── Whale consensus ───────────────────────────────────
+      // ── Whale Consensus ───────────────────────────────────
       async function loadWhales() {
         const resp = await fetch(WHALES_URL + '?t=' + Date.now());
-        if (!resp.ok) throw new Error('No whale data');
+        if (!resp.ok) throw new Error('no whale data');
         return await resp.json();
       }
 
       function renderWhales(consensus) {
         hide('whaleLoading'); show('whaleWrap');
         const scroll = document.getElementById('whaleScroll');
-        if (!consensus?.length) {
-          scroll.innerHTML = '<div class="no-data">No consensus data yet.</div>';
-          return;
-        }
+        if (!consensus?.length) { scroll.innerHTML = '<div class="no-data">No consensus data yet.</div>'; return; }
         scroll.innerHTML = consensus.slice(0, 5).map((c, i) => {
-          const payoff = c.payoff_pct != null ? `+${Number(c.payoff_pct).toFixed(1)}%` : '—';
-          return `
-            <div class="top5-card">
-              <div class="top5-card-header">
-                <span class="top5-outcome">${c.outcome}</span>
-                <span class="top5-rank">#${i+1}</span>
-              </div>
-              <div class="top5-market">${c.market}</div>
-              <div class="top5-meta">
-                <span><strong>${c.whale_count}</strong> whales</span>
-                <span>Payoff <strong>${payoff}</strong></span>
-              </div>
-            </div>`;
+          const payoff = c.payoff_pct != null ? '+' + Number(c.payoff_pct).toFixed(1) + '%' : '—';
+          return '<div class="top5-card">' +
+            '<div class="top5-card-header"><span class="top5-outcome">' + c.outcome + '</span><span class="top5-rank">#' + (i+1) + '</span></div>' +
+            '<div class="top5-market">' + c.market + '</div>' +
+            '<div class="top5-meta"><span><strong>' + c.whale_count + '</strong> whales</span><span>Payoff <strong>' + payoff + '</strong></span></div>' +
+          '</div>';
         }).join('');
+      }
+
+      // ── Top Hedge Fund Holdings ───────────────────────────
+      async function loadHedgeFunds() {
+        // Get latest quarter positions sorted by value, stocks only
+        const resp = await fetch(
+          SUPABASE_URL + '/rest/v1/fund_positions' +
+          '?select=company_name,fund_name,value_usd,pct_portfolio,put_call,is_option,quarter' +
+          '&order=value_usd.desc&limit=200',
+          { headers: SB }
+        );
+        return await resp.json();
+      }
+
+      function renderHedgeFunds(positions) {
+        hide('hfLoading'); show('hfWrap');
+        const tbody = document.getElementById('hfBody');
+        if (!positions?.length) { tbody.innerHTML = '<tr><td colspan="5" class="no-data">No positions found.</td></tr>'; return; }
+
+        // Get latest quarter
+        const quarters = [...new Set(positions.map(p => p.quarter))].sort().reverse();
+        const latestQ  = quarters[0];
+        const filtered = positions.filter(p => p.quarter === latestQ).slice(0, 10);
+
+        tbody.innerHTML = filtered.map((p, i) => {
+          const badgeCls = p.is_option ? (p.put_call === 'Put' ? 'badge-put' : 'badge-call') : 'badge-stock';
+          const badgeTxt = p.is_option ? p.put_call : 'Stock';
+          const pct      = p.pct_portfolio || 0;
+          return '<tr>' +
+            '<td style="color:#5a6068;font-weight:700;">' + (i+1) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">' + (p.company_name || '—') + '</td>' +
+            '<td><span class="' + badgeCls + '">' + badgeTxt + '</span></td>' +
+            '<td class="amount-cell">' + fmt(p.value_usd) + '</td>' +
+            '<td><div class="pct-wrap"><div class="pct-bg"><div class="pct-fill" style="width:' + Math.min(pct,100).toFixed(1) + '%;"></div></div><span style="font-size:11px;color:#7F8C8D;">' + pct.toFixed(1) + '%</span></div></td>' +
+          '</tr>';
+        }).join('');
+      }
+
+      // ── Top Gov Contracts ─────────────────────────────────
+      async function loadGovContracts() {
+        const since = new Date();
+        since.setDate(since.getDate() - 90);
+        const url = SUPABASE_URL + '/rest/v1/contract_awards' +
+          '?select=ticker,matched_company,award_amount' +
+          '&ticker=not.is.null' +
+          '&start_date=gte.' + since.toISOString().split('T')[0] +
+          '&order=award_amount.desc&limit=200';
+        const resp = await fetch(url, { headers: SB });
+        return await resp.json();
+      }
+
+      function renderGovContracts(awards) {
+        hide('govLoading'); show('govWrap');
+        const tbody = document.getElementById('govBody');
+        if (!awards?.length) { tbody.innerHTML = '<tr><td colspan="4" class="no-data">No contract data found.</td></tr>'; return; }
+
+        // Group by ticker
+        const grouped = {};
+        awards.forEach(a => {
+          if (!a.ticker) return;
+          if (!grouped[a.ticker]) grouped[a.ticker] = { company: a.matched_company, total: 0, count: 0 };
+          grouped[a.ticker].total += a.award_amount || 0;
+          grouped[a.ticker].count += 1;
+        });
+
+        const sorted = Object.entries(grouped).sort((a,b) => b[1].total - a[1].total).slice(0, 10);
+
+        tbody.innerHTML = sorted.map(([ticker, d]) =>
+          '<tr>' +
+          '<td style="font-family:monospace;font-size:12px;color:#1ABC9C;font-weight:700;">' + ticker + '</td>' +
+          '<td style="color:#e0e0e0;font-weight:500;">' + (d.company || '—') + '</td>' +
+          '<td class="amount-cell">' + fmt(d.total) + '</td>' +
+          '<td style="color:#7F8C8D;">' + d.count + '</td>' +
+          '</tr>'
+        ).join('');
       }
 
       // ── Init ─────────────────────────────────────────────
       async function init() {
         loadHeadline();
-        try {
-          const [emResult, trades, whaleData] = await Promise.allSettled([
-            loadExpectedMove(),
-            loadTrades(),
-            loadWhales()
-          ]);
+        loadMacro();
 
-          // Expected move chart
-          if (emResult.status === 'fulfilled') {
-            emData = emResult.value;
-            hide('emLoading'); show('emWrap');
-            renderEmChart(activeTab);
-          } else {
-            document.getElementById('emLoading').textContent = 'No expected move data yet — run the GitHub Action.';
-          }
+        const [emResult, trades, whaleData, hfData, govData] = await Promise.allSettled([
+          loadExpectedMove(),
+          loadTrades(),
+          loadWhales(),
+          loadHedgeFunds(),
+          loadGovContracts(),
+        ]);
 
-          if (trades.status === 'fulfilled') renderTrades(trades.value);
-          else document.getElementById('tradesLoading').textContent = 'Failed to load.';
-
-          if (whaleData.status === 'fulfilled') renderWhales(whaleData.value?.consensus || []);
-          else document.getElementById('whaleLoading').textContent = 'No data yet.';
-
-        } catch (err) {
-          console.error(err);
+        if (emResult.status === 'fulfilled') {
+          emData = emResult.value;
+          hide('emLoading'); show('emWrap');
+          renderEmChart(activeTab);
+        } else {
+          document.getElementById('emLoading').textContent = 'No expected move data yet.';
         }
+
+        if (trades.status    === 'fulfilled') renderTrades(trades.value);
+        else document.getElementById('tradesLoading').textContent = 'Failed to load.';
+
+        if (whaleData.status === 'fulfilled') renderWhales(whaleData.value?.consensus || []);
+        else document.getElementById('whaleLoading').textContent = 'No data yet.';
+
+        if (hfData.status    === 'fulfilled') renderHedgeFunds(hfData.value);
+        else { hide('hfLoading'); document.getElementById('hfBody').innerHTML = '<tr><td colspan="5" class="no-data">Failed to load.</td></tr>'; show('hfWrap'); }
+
+        if (govData.status   === 'fulfilled') renderGovContracts(govData.value);
+        else { hide('govLoading'); document.getElementById('govBody').innerHTML = '<tr><td colspan="4" class="no-data">Failed to load.</td></tr>'; show('govWrap'); }
       }
 
       init();
