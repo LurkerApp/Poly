@@ -1,8 +1,11 @@
 # ============================================================
 # SEC Form 4 Insider Trades → Supabase insider_trades table
 # ============================================================
+# Tracks Form 4 filings by company CIK — catches all insiders
+# at each tracked company (CEO, CFO, Directors, VPs etc.)
+# ============================================================
 # Dependencies: requests beautifulsoup4 supabase
-# Secrets required (GitHub Actions → Settings → Secrets):
+# Secrets required:
 #   SUPABASE_URL
 #   SUPABASE_KEY
 # ============================================================
@@ -21,43 +24,43 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    print("ERROR: SUPABASE_URL and SUPABASE_KEY must be set as environment variables.")
+    print("ERROR: SUPABASE_URL and SUPABASE_KEY must be set.")
     sys.exit(1)
 
 HEADERS                 = {"User-Agent": "LurkerApp contact@lurkerapp.com"}
-REQUEST_TIMEOUT         = 30   # increased from 15
-SLEEP_BETWEEN_CALLS_SEC = 0.5  # increased to be gentler on SEC servers
+REQUEST_TIMEOUT         = 30
+SLEEP_BETWEEN_CALLS_SEC = 0.5
 MAX_RETRIES             = 2
+FILINGS_PER_COMPANY     = 10   # most recent Form 4s to check per company
 
-INSIDERS = {
-    # ── Tech CEOs / Founders ─────────────────────────────────
+# ── Tracked companies ─────────────────────────────────────────
+# Using company CIKs — catches ALL insiders at each company
+COMPANIES = [
+    {"name": "Apple",               "cik": "0000320193"},
+    {"name": "Microsoft",           "cik": "0000789019"},
+    {"name": "NVIDIA",              "cik": "0001045810"},
+    {"name": "Alphabet",            "cik": "0001652044"},
+    {"name": "Amazon",              "cik": "0001018724"},
+    {"name": "Meta",                "cik": "0001326801"},
+    {"name": "Tesla",               "cik": "0001318605"},
+    {"name": "Berkshire Hathaway",  "cik": "0001067983"},
+    {"name": "JPMorgan Chase",      "cik": "0000019617"},
+    {"name": "Palantir",            "cik": "0001321655"},
+    {"name": "AMD",                 "cik": "0000002488"},
+    {"name": "Oracle",              "cik": "0001341439"},
+    {"name": "Netflix",             "cik": "0001065280"},
+    {"name": "Salesforce",          "cik": "0001108524"},
+    {"name": "Disney",              "cik": "0001001039"},
+]
+
+# ── Also track specific high-profile individuals ──────────────
+INDIVIDUALS = {
     "Elon Musk":        "0001494730",
-    "Jeff Bezos":       "0001043298",
-    "Andy Jassy":       "0001374545",
-    "Mark Zuckerberg":  "0001548760",
-    "Sundar Pichai":    "0001534753",
-    "Sergey Brin":      "0001295032",
-    "Satya Nadella":    "0001513142",
-    "Tim Cook":         "0001214156",
-    "Jensen Huang":     "0001197649",
-    "Lisa Su":          "0001227903",
-    "Michael Dell":     "0000908724",
-    "Bob Iger":         "0001207394",
-    "Jack Dorsey":      "0001590945",
-    "Alex Karp":        "0001823951",
-    "Sam Altman":       "0001571705",
-    "Larry Ellison":    "0000901999",
-
-    # ── Investors ────────────────────────────────────────────
     "Warren Buffett":   "0000315090",
     "Bill Ackman":      "0001056513",
-    "Carl Icahn":       "0000921669",
-    "Ken Griffin":      "0001255159",
     "George Soros":     "0000900203",
     "Michael Burry":    "0001649339",
     "Dan Loeb":         "0001040570",
-
-    # ── Politics ─────────────────────────────────────────────
     "Donald Trump":     "0000947033",
     "Eric Trump":       "0002057754",
 }
@@ -71,22 +74,15 @@ print("✓ Connected\n")
 def fetch(url, params=None, attempt=1):
     time.sleep(SLEEP_BETWEEN_CALLS_SEC)
     try:
-        resp = requests.get(
-            url,
-            headers=HEADERS,
-            params=params,
-            timeout=REQUEST_TIMEOUT
-        )
-        return resp
+        return requests.get(url, headers=HEADERS, params=params, timeout=REQUEST_TIMEOUT)
     except requests.exceptions.Timeout:
-        print(f"  ⚠ Timeout (attempt {attempt}) — {url}")
+        print(f"  ⚠ Timeout (attempt {attempt}) — {url[:80]}")
         if attempt < MAX_RETRIES:
-            print(f"  Retrying in 3s...")
             time.sleep(3)
             return fetch(url, params=params, attempt=attempt + 1)
         return None
     except Exception as e:
-        print(f"  ⚠ Request error: {e}")
+        print(f"  ⚠ Error: {e}")
         return None
 
 def extract_ns_uri(root):
@@ -111,8 +107,7 @@ def find_xml_urls(filing_index_url):
 
     def priority(u):
         name = u.rsplit("/", 1)[-1].lower()
-        if name in ("primary_doc.xml", "primary-document.xml", "form4.xml",
-                    "doc4.xml", "ownership.xml"):
+        if name in ("primary_doc.xml", "primary-document.xml", "form4.xml", "doc4.xml", "ownership.xml"):
             return 0
         if "/xslf345" in u.lower():
             return 2
@@ -130,20 +125,29 @@ def parse_form4_xml(xml_url):
     except ET.ParseError:
         return None
 
-    ns_uri  = extract_ns_uri(root)
-    issuer  = root.find(tag(ns_uri, "issuer"))
+    ns_uri = extract_ns_uri(root)
 
-    ticker = (
-        issuer.find(tag(ns_uri, "issuerTradingSymbol")).text.strip()
-        if issuer is not None and issuer.find(tag(ns_uri, "issuerTradingSymbol")) is not None
-        else "Unknown"
-    )
-    issuer_name = (
-        issuer.find(tag(ns_uri, "issuerName")).text.strip()
-        if issuer is not None and issuer.find(tag(ns_uri, "issuerName")) is not None
-        else "Unknown"
-    )
+    # ── Issuer info ───────────────────────────────────────
+    issuer      = root.find(tag(ns_uri, "issuer"))
+    ticker      = "Unknown"
+    issuer_name = "Unknown"
+    if issuer is not None:
+        t = issuer.find(tag(ns_uri, "issuerTradingSymbol"))
+        n = issuer.find(tag(ns_uri, "issuerName"))
+        if t is not None and t.text: ticker      = t.text.strip()
+        if n is not None and n.text: issuer_name = n.text.strip()
 
+    # ── Reporting owner info (name + title) ───────────────
+    owner_name  = ""
+    owner_title = ""
+    owner_el    = root.find(tag(ns_uri, "reportingOwner"))
+    if owner_el is not None:
+        name_el  = owner_el.find(tag(ns_uri, "reportingOwnerId") + "/" + tag(ns_uri, "rptOwnerName"))
+        title_el = owner_el.find(tag(ns_uri, "reportingOwnerRelationship") + "/" + tag(ns_uri, "officerTitle"))
+        if name_el  is not None and name_el.text:  owner_name  = name_el.text.strip()
+        if title_el is not None and title_el.text: owner_title = title_el.text.strip()
+
+    # ── Transactions ──────────────────────────────────────
     total_shares   = 0.0
     total_notional = 0.0
     trade_action   = None
@@ -178,17 +182,58 @@ def parse_form4_xml(xml_url):
         return None
 
     return {
-        "issuer_name":    issuer_name,
-        "ticker":         ticker,
-        "trade_date":     trade_date,
-        "action":         trade_action,
-        "shares":         int(total_shares),
-        "notional_value": round(total_notional, 2),
-        "security":       security,
-        "filing_url":     xml_url,
+        "insider_name":    owner_name,
+        "title":           owner_title,
+        "issuer_name":     issuer_name,
+        "ticker":          ticker,
+        "trade_date":      trade_date,
+        "action":          trade_action,
+        "shares":          int(total_shares),
+        "notional_value":  round(total_notional, 2),
+        "security":        security,
+        "filing_url":      xml_url,
     }
 
-def fetch_most_recent_trade_for_cik(cik):
+# ── Fetch recent Form 4s for a company CIK ────────────────────
+def fetch_company_trades(company_name, cik, count):
+    feed_url = "https://www.sec.gov/cgi-bin/browse-edgar"
+    params   = {
+        "action":  "getcompany",
+        "CIK":     cik,
+        "type":    "4",
+        "owner":   "include",
+        "count":   str(count),
+        "output":  "atom"
+    }
+
+    resp = fetch(feed_url, params=params)
+    if not resp or resp.status_code != 200:
+        return []
+
+    try:
+        root = ET.fromstring(resp.content)
+    except ET.ParseError:
+        return []
+
+    ns      = {"atom": "http://www.w3.org/2005/Atom"}
+    entries = root.findall("atom:entry", ns)
+    trades  = []
+
+    for entry in entries:
+        link = entry.find("atom:link", ns)
+        if link is None or "href" not in link.attrib:
+            continue
+        xml_urls = find_xml_urls(link.attrib["href"])
+        for xml_url in xml_urls:
+            trade = parse_form4_xml(xml_url)
+            if trade:
+                trades.append(trade)
+                break
+
+    return trades
+
+# ── Fetch most recent trade for an individual ─────────────────
+def fetch_individual_trade(name, cik):
     feed_url = "https://www.sec.gov/cgi-bin/browse-edgar"
     params   = {
         "action": "getcompany",
@@ -201,50 +246,39 @@ def fetch_most_recent_trade_for_cik(cik):
 
     resp = fetch(feed_url, params=params)
     if not resp or resp.status_code != 200:
-        print(f"  ✗ Could not fetch filing list (status: {resp.status_code if resp else 'timeout'})")
         return None
 
     try:
         root = ET.fromstring(resp.content)
-    except ET.ParseError as e:
-        print(f"  ✗ XML parse error on feed: {e}")
+    except ET.ParseError:
         return None
 
     ns      = {"atom": "http://www.w3.org/2005/Atom"}
     entries = root.findall("atom:entry", ns)
-
     if not entries:
-        print(f"  ✗ No filings found in feed")
         return None
 
-    # Only check the most recent filing
-    entry = entries[0]
-    link  = entry.find("atom:link", ns)
-
+    link = entries[0].find("atom:link", ns)
     if link is None or "href" not in link.attrib:
-        print(f"  ✗ No link in most recent filing entry")
         return None
 
-    filing_index_url = link.attrib["href"]
-    xml_urls         = find_xml_urls(filing_index_url)
-
-    if not xml_urls:
-        print(f"  ✗ No XML files found in filing index")
-        return None
-
+    xml_urls = find_xml_urls(link.attrib["href"])
     for xml_url in xml_urls:
         trade = parse_form4_xml(xml_url)
         if trade:
+            # Override name for known individuals
+            trade["insider_name"] = name
             return trade
-
     return None
 
 # ── Save to Supabase ─────────────────────────────────────────
-def save_to_supabase(trade, insider_name):
+def save_trade(trade, company_name=None):
     record = {
-        "insider_name":   insider_name,
+        "insider_name":   trade["insider_name"],
+        "title":          trade.get("title", ""),
         "ticker":         trade["ticker"],
         "issuer_name":    trade["issuer_name"],
+        "company":        company_name or trade["issuer_name"],
         "action":         trade["action"],
         "shares":         trade["shares"],
         "notional_value": trade["notional_value"],
@@ -255,34 +289,59 @@ def save_to_supabase(trade, insider_name):
     supabase.table("insider_trades").upsert(
         record, on_conflict="filing_url"
     ).execute()
-    print(f"  ✓ Saved: {insider_name} — {trade['action']} "
-          f"{abs(trade['shares']):,} shares of {trade['ticker']} "
+    print(f"    ✓ {trade['insider_name']} ({trade.get('title','?')}) — "
+          f"{trade['action']} {abs(trade['shares']):,} {trade['ticker']} "
           f"(${trade['notional_value']:,.0f})")
 
 # ── Main ─────────────────────────────────────────────────────
 def main():
-    saved   = 0
-    skipped = 0
-    errors  = 0
+    total_saved = 0
+    errors      = 0
 
-    for name, cik in INSIDERS.items():
-        print(f"\nFetching Form 4 for {name} (CIK {cik})...")
+    # ── Company-based tracking ────────────────────────────
+    print("=" * 60)
+    print("  Company-based Form 4 tracking")
+    print("=" * 60)
+
+    for co in COMPANIES:
+        print(f"\n{co['name']} (CIK {co['cik']})...")
         try:
-            trade = fetch_most_recent_trade_for_cik(cik)
-            if trade:
-                save_to_supabase(trade, name)
-                saved += 1
-            else:
-                print(f"  — No buy/sell found in most recent filing")
-                skipped += 1
+            trades = fetch_company_trades(co["name"], co["cik"], FILINGS_PER_COMPANY)
+            if not trades:
+                print(f"  — No buy/sell trades found")
+                continue
+            for trade in trades:
+                try:
+                    save_trade(trade, co["name"])
+                    total_saved += 1
+                except Exception as e:
+                    print(f"  ✗ Save error: {e}")
+                    errors += 1
         except Exception as e:
-            print(f"  ✗ Unexpected error for {name}: {e}")
+            print(f"  ✗ Error: {e}")
             errors += 1
-            continue
 
-    print(f"\n{'='*50}")
-    print(f"  Done — {saved} saved | {skipped} skipped | {errors} errors")
-    print(f"{'='*50}")
+    # ── Individual tracking ───────────────────────────────
+    print(f"\n{'='*60}")
+    print("  Individual tracking")
+    print("=" * 60)
+
+    for name, cik in INDIVIDUALS.items():
+        print(f"\n{name} (CIK {cik})...")
+        try:
+            trade = fetch_individual_trade(name, cik)
+            if not trade:
+                print(f"  — No recent buy/sell found")
+                continue
+            save_trade(trade)
+            total_saved += 1
+        except Exception as e:
+            print(f"  ✗ Error: {e}")
+            errors += 1
+
+    print(f"\n{'='*60}")
+    print(f"  Done — {total_saved} trades saved | {errors} errors")
+    print(f"{'='*60}")
 
 if __name__ == "__main__":
     main()
