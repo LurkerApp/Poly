@@ -1,28 +1,72 @@
 {
-  "last_updated": "2026-08-02T20:53:43.171825+00:00",
+  "last_updated": "2026-08-02T21:54:47.010185+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
+      "wallet": "0x9dfe2f73d3c988a9d69df8fa0beb85651340b3dd",
+      "name": "Moond",
+      "score": 46.2,
+      "roi_score": 14.0,
+      "calibration_score": 86.3,
+      "consistency_score": 58.3,
+      "early_entry_score": 0.0,
+      "volume_score": 87.2,
+      "roi": -28.9,
+      "cash_pnl": -24089.95,
+      "realized_pnl": -4604.65,
+      "total_usdc": 93713.54,
+      "trade_count": 500,
+      "market_count": 39,
+      "position_count": 60,
+      "resolved_count": 1,
+      "win_rate": 100.0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:50:14+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Israel x Iran ceasefire continues through August 2?",
+          "signal": "SKIP",
+          "avg_price": 0.6919,
+          "cur_price": 0.9965,
+          "usdc_size": 4987.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Israel x Iran ceasefire continues through August 3?",
+          "signal": "SKIP",
+          "avg_price": 0.6177,
+          "cur_price": 0.9895,
+          "usdc_size": 1277.1,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
       "wallet": "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
       "name": "denizz",
       "score": 45.8,
-      "roi_score": 44.8,
+      "roi_score": 45.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 98.1,
-      "roi": 17.2,
-      "cash_pnl": 186826.46,
+      "roi": 17.5,
+      "cash_pnl": 195993.95,
       "realized_pnl": 38179.19,
-      "total_usdc": 387153.43,
+      "total_usdc": 392009.56,
       "trade_count": 500,
       "market_count": 36,
       "position_count": 55,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:44:05+00:00",
+      "last_active": "2026-08-02T21:49:11+00:00",
       "top_markets": [
         "Will Hamas agree to disarm by December 31?",
         "Israel x Hamas Ceasefire Phase II by July 31?",
@@ -30,50 +74,50 @@
       ],
       "signals": [
         {
+          "market": "Strait of Hormuz traffic returns to normal by September 30?",
+          "signal": "LATE",
+          "avg_price": 0.2535,
+          "cur_price": 0.245,
+          "usdc_size": 3225.47,
+          "outcome": "Yes"
+        },
+        {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7359,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 300625.62,
           "outcome": "No"
         },
         {
           "market": "US x Iran Effective Ceasefire by July 31?",
           "signal": "SKIP",
-          "avg_price": 0.4027,
-          "cur_price": 0.53,
-          "usdc_size": 59100.66,
+          "avg_price": 0.4029,
+          "cur_price": 0.605,
+          "usdc_size": 68161.02,
           "outcome": "Yes"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
-          "avg_price": 0.8699,
-          "cur_price": 0.115,
-          "usdc_size": 53680.1,
+          "avg_price": 0.869,
+          "cur_price": 0.135,
+          "usdc_size": 88434.76,
           "outcome": "No"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by September 30?",
-          "signal": "SKIP",
-          "avg_price": 0.2535,
-          "cur_price": 0.235,
-          "usdc_size": 3093.81,
-          "outcome": "Yes"
         }
       ]
     },
     {
       "wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
       "name": "mr.ozi",
-      "score": 45.0,
-      "roi_score": 42.8,
+      "score": 45.1,
+      "roi_score": 43.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.8,
-      "roi": 14.2,
-      "cash_pnl": 58809.76,
+      "roi": 14.7,
+      "cash_pnl": 60931.65,
       "realized_pnl": 23649.45,
       "total_usdc": 326900.62,
       "trade_count": 500,
@@ -93,7 +137,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7164,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 95399.98,
           "outcome": "No"
         },
@@ -101,24 +145,24 @@
           "market": "US x Iran Effective Ceasefire by July 31?",
           "signal": "SKIP",
           "avg_price": 0.4128,
-          "cur_price": 0.53,
-          "usdc_size": 7950.4,
+          "cur_price": 0.605,
+          "usdc_size": 9150.46,
           "outcome": "Yes"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
           "avg_price": 0.8939,
-          "cur_price": 0.115,
-          "usdc_size": 11062.5,
+          "cur_price": 0.135,
+          "usdc_size": 10687.5,
           "outcome": "No"
         },
         {
           "market": "Israel x Iran ceasefire continues through August 3?",
           "signal": "SKIP",
           "avg_price": 0.66,
-          "cur_price": 0.989,
-          "usdc_size": 7163.64,
+          "cur_price": 0.9895,
+          "usdc_size": 7170.89,
           "outcome": "Yes"
         }
       ]
@@ -126,42 +170,42 @@
     {
       "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
       "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 44.0,
-      "roi_score": 27.8,
+      "score": 44.3,
+      "roi_score": 24.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 32.1,
-      "volume_score": 82.9,
-      "roi": -8.3,
-      "cash_pnl": -9749.02,
-      "realized_pnl": 2277.04,
-      "total_usdc": 53068.74,
+      "early_entry_score": 42.6,
+      "volume_score": 81.6,
+      "roi": -13.7,
+      "cash_pnl": -15925.91,
+      "realized_pnl": 3165.88,
+      "total_usdc": 44962.48,
       "trade_count": 500,
-      "market_count": 193,
+      "market_count": 213,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:53:18+00:00",
+      "last_active": "2026-08-02T21:54:26+00:00",
       "top_markets": [
         "LoL: Fnatic vs Movistar KOI (BO3) - LEC Regular Season",
         "LoL: LYON vs Shopify Rebellion - Game 1 Winner",
-        "LoL: Fnatic vs Movistar KOI - Game 2 Winner"
+        "Valorant: Fnatic vs Team Heretics - Map 2 Winner"
       ],
       "signals": [
         {
           "market": "LoL: LYON vs Shopify Rebellion - Game 1 Winner",
           "signal": "SKIP",
           "avg_price": 0.6124,
-          "cur_price": 0.85,
-          "usdc_size": 5239.81,
+          "cur_price": 0.9995,
+          "usdc_size": 5721.45,
           "outcome": "LYON"
         },
         {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7922,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 3466.0,
           "outcome": "No"
         },
@@ -185,9 +229,129 @@
           "market": "Detroit Tigers vs. Athletics",
           "signal": "SKIP",
           "avg_price": 0.5199,
-          "cur_price": 0.725,
-          "usdc_size": 1323.84,
+          "cur_price": 0.968,
+          "usdc_size": 1767.55,
           "outcome": "Detroit Tigers"
+        },
+        {
+          "market": "San Francisco Giants vs. San Diego Padres",
+          "signal": "SKIP",
+          "avg_price": 0.8055,
+          "cur_price": 0.295,
+          "usdc_size": 1109.45,
+          "outcome": "San Diego Padres"
+        }
+      ]
+    },
+    {
+      "wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+      "name": "paddaa",
+      "score": 43.6,
+      "roi_score": 38.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.7,
+      "roi": 7.1,
+      "cash_pnl": 11153.49,
+      "realized_pnl": -18987.96,
+      "total_usdc": 324043.12,
+      "trade_count": 500,
+      "market_count": 46,
+      "position_count": 85,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:52:44+00:00",
+      "top_markets": [
+        "U.S. anti-cartel operation outside of the U.S. by July 31?",
+        "US x Iran Effective Ceasefire by July 31?",
+        "Will Hamas agree to disarm by December 31?"
+      ],
+      "signals": [
+        {
+          "market": "US x Iran Effective Ceasefire by July 31?",
+          "signal": "SKIP",
+          "avg_price": 0.6614,
+          "cur_price": 0.605,
+          "usdc_size": 10983.1,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.7743,
+          "cur_price": 0.195,
+          "usdc_size": 14763.95,
+          "outcome": "No"
+        },
+        {
+          "market": "Israel x Iran ceasefire continues through August 2?",
+          "signal": "SKIP",
+          "avg_price": 0.61,
+          "cur_price": 0.9965,
+          "usdc_size": 1173.29,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+      "name": "StarMaster",
+      "score": 43.5,
+      "roi_score": 41.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.4,
+      "roi": 12.1,
+      "cash_pnl": 10103.8,
+      "realized_pnl": 2486.43,
+      "total_usdc": 73950.46,
+      "trade_count": 500,
+      "market_count": 101,
+      "position_count": 177,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:49:17+00:00",
+      "top_markets": [
+        "Russia x Ukraine ceasefire agreement by December 31, 2026?",
+        "US x Iran Effective Ceasefire by July 31?",
+        "Will the U.S. invade Iran before 2027?"
+      ],
+      "signals": [
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.5766,
+          "cur_price": 0.195,
+          "usdc_size": 2384.71,
+          "outcome": "No"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 31?",
+          "signal": "SKIP",
+          "avg_price": 0.8874,
+          "cur_price": 0.135,
+          "usdc_size": 1710.01,
+          "outcome": "No"
+        },
+        {
+          "market": "Israel x Iran ceasefire continues through August 2?",
+          "signal": "SKIP",
+          "avg_price": 0.7786,
+          "cur_price": 0.9965,
+          "usdc_size": 997.65,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by September 30?",
+          "signal": "SKIP",
+          "avg_price": 0.7799,
+          "cur_price": 0.245,
+          "usdc_size": 566.25,
+          "outcome": "No"
         }
       ]
     },
@@ -201,7 +365,7 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": 4.6,
-      "cash_pnl": 11232.42,
+      "cash_pnl": 11299.94,
       "realized_pnl": 1705.58,
       "total_usdc": 568865.86,
       "trade_count": 497,
@@ -227,17 +391,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 93.8,
-      "roi": 5.2,
-      "cash_pnl": 16368.74,
+      "roi": 5.1,
+      "cash_pnl": 16265.86,
       "realized_pnl": 73265.08,
-      "total_usdc": 220224.71,
+      "total_usdc": 222814.59,
       "trade_count": 500,
-      "market_count": 41,
+      "market_count": 40,
       "position_count": 134,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:04:29+00:00",
+      "last_active": "2026-08-02T21:54:03+00:00",
       "top_markets": [
         "Will the U.S. invade Iran before 2027?",
         "US obtains Iranian enriched uranium by July 31? ",
@@ -248,33 +412,33 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.794,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 95355.29,
           "outcome": "No"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
-          "avg_price": 0.885,
-          "cur_price": 0.115,
-          "usdc_size": 3540.0,
+          "avg_price": 0.88,
+          "cur_price": 0.135,
+          "usdc_size": 5985.0,
+          "outcome": "No"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by September 30?",
+          "signal": "SKIP",
+          "avg_price": 0.7585,
+          "cur_price": 0.245,
+          "usdc_size": 2642.49,
           "outcome": "No"
         },
         {
           "market": "US x Iran Effective Ceasefire by July 31?",
           "signal": "SKIP",
           "avg_price": 0.1674,
-          "cur_price": 0.53,
-          "usdc_size": 1166.0,
+          "cur_price": 0.605,
+          "usdc_size": 1342.0,
           "outcome": "Yes"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by September 30?",
-          "signal": "SKIP",
-          "avg_price": 0.76,
-          "cur_price": 0.235,
-          "usdc_size": 1147.49,
-          "outcome": "No"
         }
       ]
     },
@@ -282,13 +446,13 @@
       "wallet": "0xa8af4c7923857533b687df9bf02115156e3a325e",
       "name": "studmuffin6969",
       "score": 42.3,
-      "roi_score": 34.7,
+      "roi_score": 34.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 93.7,
-      "roi": 2.1,
-      "cash_pnl": 1514.04,
+      "roi": 2.2,
+      "cash_pnl": 1648.91,
       "realized_pnl": -1924.84,
       "total_usdc": 217913.72,
       "trade_count": 500,
@@ -306,71 +470,19 @@
       "signals": [
         {
           "market": "Strait of Hormuz traffic returns to normal by September 30?",
-          "signal": "LATE",
+          "signal": "ENTER",
           "avg_price": 0.2466,
-          "cur_price": 0.235,
-          "usdc_size": 705.0,
+          "cur_price": 0.245,
+          "usdc_size": 735.0,
           "outcome": "Yes"
         },
         {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7666,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 13515.16,
           "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-      "name": "Tenebrus7",
-      "score": 42.3,
-      "roi_score": 35.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.5,
-      "roi": 3.0,
-      "cash_pnl": 8376.69,
-      "realized_pnl": -29495.16,
-      "total_usdc": 163230.43,
-      "trade_count": 500,
-      "market_count": 55,
-      "position_count": 209,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T20:49:09+00:00",
-      "top_markets": [
-        "Israel x Iran ceasefire continues through August 3?",
-        "Israel x Iran ceasefire continues through August 2?",
-        "US x Iran Effective Ceasefire by July 31?"
-      ],
-      "signals": [
-        {
-          "market": "US x Iran Effective Ceasefire by July 31?",
-          "signal": "ENTER",
-          "avg_price": 0.5233,
-          "cur_price": 0.53,
-          "usdc_size": 1192.51,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.8213,
-          "cur_price": 0.205,
-          "usdc_size": 8667.22,
-          "outcome": "No"
-        },
-        {
-          "market": "Israel x Iran ceasefire continues through August 3?",
-          "signal": "SKIP",
-          "avg_price": 0.8297,
-          "cur_price": 0.989,
-          "usdc_size": 5505.01,
-          "outcome": "Yes"
         }
       ]
     },
@@ -404,7 +516,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.79,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 7949.97,
           "outcome": "No"
         }
@@ -414,13 +526,13 @@
       "wallet": "0xc607c7faffe03bf1c749c22ca172b898b6386b29",
       "name": "Isekai",
       "score": 42.1,
-      "roi_score": 33.8,
+      "roi_score": 33.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 94.6,
-      "roi": 0.7,
-      "cash_pnl": 71.0,
+      "roi": 0.8,
+      "cash_pnl": 82.99,
       "realized_pnl": 40.44,
       "total_usdc": 245903.64,
       "trade_count": 500,
@@ -440,9 +552,97 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.8067,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 1176.59,
           "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
+      "name": "D8D5289c35124b5353f5A10A28B8cC29aEC38935",
+      "score": 41.9,
+      "roi_score": 35.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.5,
+      "roi": 2.6,
+      "cash_pnl": 3738.46,
+      "realized_pnl": 3883.55,
+      "total_usdc": 109952.61,
+      "trade_count": 500,
+      "market_count": 149,
+      "position_count": 297,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:50:14+00:00",
+      "top_markets": [
+        "Will 30 ships transit the Strait of Hormuz on any day by July 31, 2026?",
+        "Will Cori Bush be the Democratic nominee for MO-01?",
+        "Will the Democratic Party control the House after the 2026 Midterm elections?"
+      ],
+      "signals": [
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.8229,
+          "cur_price": 0.195,
+          "usdc_size": 1610.01,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+      "name": "MisTKy",
+      "score": 41.7,
+      "roi_score": 32.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.9,
+      "roi": -1.7,
+      "cash_pnl": -2315.06,
+      "realized_pnl": 28347.55,
+      "total_usdc": 256617.43,
+      "trade_count": 500,
+      "market_count": 16,
+      "position_count": 41,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:52:53+00:00",
+      "top_markets": [
+        "Will the U.S. invade Iran before 2027?",
+        "Strait of Hormuz traffic returns to normal by August 31?",
+        "Israel x Iran ceasefire continues through August 2?"
+      ],
+      "signals": [
+        {
+          "market": "Strait of Hormuz traffic returns to normal by September 30?",
+          "signal": "LATE",
+          "avg_price": 0.231,
+          "cur_price": 0.245,
+          "usdc_size": 5777.81,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.7999,
+          "cur_price": 0.195,
+          "usdc_size": 39032.66,
+          "outcome": "No"
+        },
+        {
+          "market": "Israel x Iran ceasefire continues through August 3?",
+          "signal": "SKIP",
+          "avg_price": 0.6781,
+          "cur_price": 0.9895,
+          "usdc_size": 11979.45,
+          "outcome": "Yes"
         }
       ]
     },
@@ -456,16 +656,16 @@
       "early_entry_score": 0.0,
       "volume_score": 88.7,
       "roi": 0.8,
-      "cash_pnl": 1340.64,
+      "cash_pnl": 1366.92,
       "realized_pnl": 4015.65,
-      "total_usdc": 113247.2,
+      "total_usdc": 113576.01,
       "trade_count": 500,
       "market_count": 109,
-      "position_count": 81,
+      "position_count": 82,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T19:47:36+00:00",
+      "last_active": "2026-08-02T21:20:47+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the July 2026 meeting?",
         "Israel x Iran ceasefire continues through August 2?",
@@ -476,7 +676,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7447,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 2869.46,
           "outcome": "No"
         }
@@ -485,23 +685,23 @@
     {
       "wallet": "0x54b56146656e7eef9da02b3a030c18e06e924b31",
       "name": "pup1",
-      "score": 41.2,
-      "roi_score": 32.0,
+      "score": 41.4,
+      "roi_score": 33.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.7,
-      "roi": -2.1,
-      "cash_pnl": -777.33,
-      "realized_pnl": 6908.71,
-      "total_usdc": 146767.27,
+      "volume_score": 90.3,
+      "roi": -0.5,
+      "cash_pnl": -233.44,
+      "realized_pnl": 6436.7,
+      "total_usdc": 139771.37,
       "trade_count": 500,
-      "market_count": 25,
-      "position_count": 30,
+      "market_count": 26,
+      "position_count": 32,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:36:29+00:00",
+      "last_active": "2026-08-02T21:51:18+00:00",
       "top_markets": [
         "US x Iran Effective Ceasefire by July 31?",
         "Will there be no change in Fed interest rates after the July 2026 meeting?",
@@ -510,27 +710,63 @@
       "signals": [
         {
           "market": "Strait of Hormuz traffic returns to normal by September 30?",
-          "signal": "ENTER",
-          "avg_price": 0.23,
-          "cur_price": 0.235,
-          "usdc_size": 1175.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US x Iran Effective Ceasefire by July 31?",
           "signal": "LATE",
-          "avg_price": 0.5562,
-          "cur_price": 0.53,
-          "usdc_size": 3180.01,
+          "avg_price": 0.23,
+          "cur_price": 0.245,
+          "usdc_size": 1225.0,
           "outcome": "Yes"
         },
         {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7999,
-          "cur_price": 0.205,
-          "usdc_size": 7950.0,
+          "cur_price": 0.195,
+          "usdc_size": 15900.0,
           "outcome": "No"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 31?",
+          "signal": "SKIP",
+          "avg_price": 0.5576,
+          "cur_price": 0.605,
+          "usdc_size": 5728.06,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x241ff966f22080fbee3928e194763e575847e15a",
+      "name": "0x241F...e15a",
+      "score": 41.1,
+      "roi_score": 31.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.6,
+      "roi": -3.5,
+      "cash_pnl": -117.82,
+      "realized_pnl": 3.44,
+      "total_usdc": 188586.29,
+      "trade_count": 500,
+      "market_count": 61,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:50:14+00:00",
+      "top_markets": [
+        "Will the U.S. invade Iran before 2027?",
+        "Will Anthropic have the best AI model at the end of July 2026?",
+        "Will Anthropic have the best AI model at the end of June 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.2333,
+          "cur_price": 0.195,
+          "usdc_size": 1537.5,
+          "outcome": "Yes"
         }
       ]
     },
@@ -542,18 +778,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.4,
+      "volume_score": 86.6,
       "roi": -0.4,
-      "cash_pnl": -2416.45,
-      "realized_pnl": 34601.72,
-      "total_usdc": 83647.32,
+      "cash_pnl": -2448.53,
+      "realized_pnl": 34607.9,
+      "total_usdc": 85844.37,
       "trade_count": 500,
       "market_count": 25,
       "position_count": 87,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T18:32:11+00:00",
+      "last_active": "2026-08-02T21:46:36+00:00",
       "top_markets": [
         "Will the U.S. invade Iran before 2027?",
         "US x Iran Effective Ceasefire by July 31?",
@@ -561,20 +797,132 @@
       ],
       "signals": [
         {
-          "market": "Strait of Hormuz traffic returns to normal by August 31?",
-          "signal": "LATE",
-          "avg_price": 0.11,
-          "cur_price": 0.115,
-          "usdc_size": 575.0,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7521,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 28124.05,
           "outcome": "No"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 31?",
+          "signal": "SKIP",
+          "avg_price": 0.11,
+          "cur_price": 0.135,
+          "usdc_size": 725.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcb59ea1babf3b26ea50088057e427ab0ed8f0a22",
+      "name": "BeneGesseritVoice",
+      "score": 40.4,
+      "roi_score": 27.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.1,
+      "roi": -8.3,
+      "cash_pnl": -2150.71,
+      "realized_pnl": 9511.97,
+      "total_usdc": 301120.68,
+      "trade_count": 500,
+      "market_count": 63,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:29:32+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "President Trump to Attend World Cup Final?",
+        "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.792,
+          "cur_price": 0.195,
+          "usdc_size": 7632.01,
+          "outcome": "No"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 31?",
+          "signal": "SKIP",
+          "avg_price": 0.88,
+          "cur_price": 0.135,
+          "usdc_size": 2992.5,
+          "outcome": "No"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 31?",
+          "signal": "SKIP",
+          "avg_price": 0.5113,
+          "cur_price": 0.605,
+          "usdc_size": 1906.82,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+      "name": "0x696de7b6e43f45378f60402b9fccff9c7484f89",
+      "score": 40.4,
+      "roi_score": 26.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.4,
+      "roi": -9.8,
+      "cash_pnl": -23667.48,
+      "realized_pnl": -13946.6,
+      "total_usdc": 405792.74,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 108,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:51:30+00:00",
+      "top_markets": [
+        "US x Iran Effective Ceasefire by July 31?",
+        "Will the U.S. invade Iran before 2027?",
+        "Israel x Iran ceasefire continues through August 2?"
+      ],
+      "signals": [
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 31?",
+          "signal": "SKIP",
+          "avg_price": 0.0934,
+          "cur_price": 0.135,
+          "usdc_size": 13050.03,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by September 30?",
+          "signal": "SKIP",
+          "avg_price": 0.1981,
+          "cur_price": 0.245,
+          "usdc_size": 4901.96,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by August 15?",
+          "signal": "SKIP",
+          "avg_price": 0.0246,
+          "cur_price": 0.034,
+          "usdc_size": 566.84,
+          "outcome": "Yes"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by July 31?",
+          "signal": "SKIP",
+          "avg_price": 0.4206,
+          "cur_price": 0.605,
+          "usdc_size": 8188.0,
+          "outcome": "Yes"
         }
       ]
     },
@@ -588,16 +936,16 @@
       "early_entry_score": 0.0,
       "volume_score": 83.9,
       "roi": -2.8,
-      "cash_pnl": -4077.45,
+      "cash_pnl": -4090.58,
       "realized_pnl": -1729.65,
-      "total_usdc": 60748.85,
+      "total_usdc": 60533.23,
       "trade_count": 500,
       "market_count": 43,
-      "position_count": 78,
+      "position_count": 79,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T13:45:27+00:00",
+      "last_active": "2026-08-02T21:49:17+00:00",
       "top_markets": [
         "Will Trump acquire Greenland before 2027?",
         "Will the U.S. invade Iran before 2027?",
@@ -608,7 +956,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.795,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 3630.36,
           "outcome": "No"
         }
@@ -618,13 +966,13 @@
       "wallet": "0x8c1026f774fe33016fb36d5f18f5e791d3e0d7b3",
       "name": "Palace8709",
       "score": 40.3,
-      "roi_score": 27.8,
+      "roi_score": 27.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 94.1,
-      "roi": -8.3,
-      "cash_pnl": -1162.47,
+      "roi": -8.2,
+      "cash_pnl": -1151.99,
       "realized_pnl": 6977.96,
       "total_usdc": 230936.19,
       "trade_count": 500,
@@ -644,112 +992,59 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.8099,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 9814.81,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xcb59ea1babf3b26ea50088057e427ab0ed8f0a22",
-      "name": "BeneGesseritVoice",
-      "score": 39.9,
-      "roi_score": 26.1,
+      "wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+      "name": "extractive-manatee",
+      "score": 40.1,
+      "roi_score": 33.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 96.0,
-      "roi": -10.9,
-      "cash_pnl": -2367.64,
-      "realized_pnl": 9511.97,
-      "total_usdc": 297101.18,
+      "volume_score": 76.9,
+      "roi": -0.3,
+      "cash_pnl": -135.61,
+      "realized_pnl": 3265.03,
+      "total_usdc": 24222.41,
       "trade_count": 500,
-      "market_count": 62,
-      "position_count": 11,
+      "market_count": 125,
+      "position_count": 179,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:37:30+00:00",
+      "last_active": "2026-08-02T21:50:56+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "President Trump to Attend World Cup Final?",
-        "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?"
+        "Will the median home value in Austin Metro be between $478,000 and $486,000 on September 30?",
+        "Will Figma (FIG) beat quarterly earnings?",
+        "U.S. anti-cartel operation outside of the U.S. by July 31?"
       ],
-      "signals": [
-        {
-          "market": "US x Iran Effective Ceasefire by July 31?",
-          "signal": "ENTER",
-          "avg_price": 0.5314,
-          "cur_price": 0.53,
-          "usdc_size": 596.75,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.792,
-          "cur_price": 0.205,
-          "usdc_size": 7632.01,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xed49defb36f77e74912c0ff38d2667317bad8783",
-      "name": "EducatedGuess69420",
-      "score": 39.9,
-      "roi_score": 25.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.7,
-      "roi": -11.1,
-      "cash_pnl": -5036.91,
-      "realized_pnl": -1640.29,
-      "total_usdc": 322249.08,
-      "trade_count": 289,
-      "market_count": 78,
-      "position_count": 22,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T07:02:09+00:00",
-      "top_markets": [
-        " Iran agrees to end enrichment of uranium by June 30?",
-        "Strait of Hormuz traffic returns to normal by July 31?",
-        "Bitcoin Up or Down - June 20, 5:25AM-5:30AM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.7199,
-          "cur_price": 0.205,
-          "usdc_size": 810.46,
-          "outcome": "No"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x9ddfa4d5b954379a03d19f87df36b9820b862c83",
       "name": "OkieDokiePeon",
       "score": 39.7,
-      "roi_score": 29.5,
+      "roi_score": 29.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.6,
-      "roi": -5.7,
-      "cash_pnl": -3144.05,
-      "realized_pnl": -111.23,
-      "total_usdc": 57839.76,
+      "volume_score": 83.9,
+      "roi": -5.9,
+      "cash_pnl": -3222.93,
+      "realized_pnl": -76.26,
+      "total_usdc": 60814.95,
       "trade_count": 500,
-      "market_count": 32,
-      "position_count": 137,
+      "market_count": 29,
+      "position_count": 138,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:45:26+00:00",
+      "last_active": "2026-08-02T21:52:42+00:00",
       "top_markets": [
         "US x Iran Effective Ceasefire by July 31?",
         "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
@@ -759,103 +1054,32 @@
         {
           "market": "US x Iran Effective Ceasefire by July 31?",
           "signal": "SKIP",
-          "avg_price": 0.4672,
-          "cur_price": 0.53,
-          "usdc_size": 793.59,
+          "avg_price": 0.4456,
+          "cur_price": 0.605,
+          "usdc_size": 831.68,
           "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
-      "name": "extractive-manatee",
-      "score": 39.6,
-      "roi_score": 31.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.3,
-      "roi": -2.7,
-      "cash_pnl": -1055.86,
-      "realized_pnl": 3169.61,
-      "total_usdc": 22348.97,
-      "trade_count": 500,
-      "market_count": 125,
-      "position_count": 178,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T20:30:08+00:00",
-      "top_markets": [
-        "Will the median home value in Austin Metro be between $478,000 and $486,000 on September 30?",
-        "Will Figma (FIG) beat quarterly earnings?",
-        "U.S. anti-cartel operation outside of the U.S. by July 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
-      "name": "0x696de7b6e43f45378f60402b9fccff9c7484f89",
-      "score": 39.6,
-      "roi_score": 24.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.8,
-      "roi": -13.5,
-      "cash_pnl": -27766.47,
-      "realized_pnl": -5530.66,
-      "total_usdc": 375312.33,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 105,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T20:49:39+00:00",
-      "top_markets": [
-        "US x Iran Effective Ceasefire by July 31?",
-        "Will the U.S. invade Iran before 2027?",
-        "Israel x Iran ceasefire continues through August 2?"
-      ],
-      "signals": [
+        },
         {
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
-          "avg_price": 0.0934,
-          "cur_price": 0.115,
-          "usdc_size": 10350.03,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by September 30?",
-          "signal": "SKIP",
-          "avg_price": 0.1981,
-          "cur_price": 0.235,
-          "usdc_size": 4701.88,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US x Iran Effective Ceasefire by July 31?",
-          "signal": "SKIP",
-          "avg_price": 0.3629,
-          "cur_price": 0.53,
-          "usdc_size": 5313.04,
-          "outcome": "Yes"
+          "avg_price": 0.85,
+          "cur_price": 0.135,
+          "usdc_size": 855.0,
+          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0x34213909f1845b8b85c3294bd7d6836c6f326e36",
       "name": "PortoSalvo",
-      "score": 39.3,
-      "roi_score": 30.5,
+      "score": 39.2,
+      "roi_score": 30.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 76.2,
-      "roi": -4.2,
-      "cash_pnl": -93.65,
+      "roi": -4.7,
+      "cash_pnl": -103.88,
       "realized_pnl": 151.11,
       "total_usdc": 21943.27,
       "trade_count": 171,
@@ -875,38 +1099,29 @@
     {
       "wallet": "0xa61ef8773ec2e821962306ca87d4b57e39ff0abd",
       "name": "risk-manager",
-      "score": 38.7,
-      "roi_score": 28.2,
+      "score": 39.0,
+      "roi_score": 27.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.3,
-      "roi": -7.7,
-      "cash_pnl": -21815.75,
-      "realized_pnl": 57102.18,
-      "total_usdc": 25565.89,
+      "volume_score": 82.4,
+      "roi": -8.8,
+      "cash_pnl": -23009.65,
+      "realized_pnl": 57137.46,
+      "total_usdc": 49433.4,
       "trade_count": 500,
       "market_count": 13,
-      "position_count": 74,
+      "position_count": 73,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:47:36+00:00",
+      "last_active": "2026-08-02T21:49:44+00:00",
       "top_markets": [
         "Will Jesus Christ return before GTA VI?",
         "Will Greg Abbott win the 2028 US Presidential Election?",
         "Another pandemic before GTA VI?"
       ],
-      "signals": [
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.7485,
-          "cur_price": 0.205,
-          "usdc_size": 23733.69,
-          "outcome": "No"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0xbc54e69667ceb6ccec538e5a0ba1927fc1fe680f",
@@ -918,16 +1133,16 @@
       "early_entry_score": 0.0,
       "volume_score": 76.6,
       "roi": -8.4,
-      "cash_pnl": -622.86,
+      "cash_pnl": -624.46,
       "realized_pnl": 1483.68,
-      "total_usdc": 23219.63,
+      "total_usdc": 23231.12,
       "trade_count": 500,
       "market_count": 31,
       "position_count": 79,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T19:54:51+00:00",
+      "last_active": "2026-08-02T21:13:00+00:00",
       "top_markets": [
         "Will Barack Obama win the 2028 Democratic presidential nomination?",
         "Will Ro Khanna win the 2028 US Presidential Election?",
@@ -938,7 +1153,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7999,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 1987.5,
           "outcome": "No"
         }
@@ -947,14 +1162,14 @@
     {
       "wallet": "0x700a306c6dd9c87db2f5519b1bfae0340e83a239",
       "name": "Cbs710",
-      "score": 38.0,
-      "roi_score": 18.5,
+      "score": 38.1,
+      "roi_score": 18.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -22.3,
-      "cash_pnl": -15379.61,
+      "roi": -22.1,
+      "cash_pnl": -15231.34,
       "realized_pnl": 0.0,
       "total_usdc": 573109.47,
       "trade_count": 203,
@@ -974,7 +1189,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.8,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 29812.5,
           "outcome": "No"
         }
@@ -983,14 +1198,14 @@
     {
       "wallet": "0xb11ed53eb3cd9e2caf95006b75ba5601a0ff6be6",
       "name": "easybarcodeklller",
-      "score": 37.4,
-      "roi_score": 21.0,
+      "score": 37.3,
+      "roi_score": 20.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 85.6,
-      "roi": -18.4,
-      "cash_pnl": -3529.05,
+      "roi": -18.9,
+      "cash_pnl": -3609.14,
       "realized_pnl": 4.11,
       "total_usdc": 75388.25,
       "trade_count": 68,
@@ -1010,7 +1225,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.8232,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 7257.38,
           "outcome": "No"
         },
@@ -1018,8 +1233,8 @@
           "market": "Strait of Hormuz traffic returns to normal by September 30?",
           "signal": "SKIP",
           "avg_price": 0.7894,
-          "cur_price": 0.235,
-          "usdc_size": 6127.14,
+          "cur_price": 0.245,
+          "usdc_size": 6047.04,
           "outcome": "No"
         }
       ]
@@ -1027,140 +1242,59 @@
     {
       "wallet": "0x54a78f8c6e64572111c5683a9efeed25a04c881b",
       "name": "Laurenman",
-      "score": 37.4,
-      "roi_score": 18.5,
+      "score": 37.3,
+      "roi_score": 18.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.8,
-      "roi": -22.3,
-      "cash_pnl": -15953.8,
-      "realized_pnl": -10369.35,
-      "total_usdc": 221255.76,
+      "volume_score": 92.7,
+      "roi": -22.5,
+      "cash_pnl": -16070.45,
+      "realized_pnl": -10209.3,
+      "total_usdc": 192344.05,
       "trade_count": 500,
-      "market_count": 62,
-      "position_count": 70,
+      "market_count": 55,
+      "position_count": 68,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:53:17+00:00",
+      "last_active": "2026-08-02T21:50:38+00:00",
       "top_markets": [
+        "Israel closes its airspace by August 31?",
         "Israel x Iran ceasefire continues through August 2?",
-        "Israel x Iran ceasefire continues through August 15?",
-        "Israel x Iran ceasefire continues through August 31?"
+        "Israel x Iran ceasefire continues through August 1?"
       ],
       "signals": [
         {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7666,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 4770.01,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x9d660f81067ec29401574e3bc4f774fffa939670",
-      "name": "xiangzunjiaobao",
-      "score": 37.1,
-      "roi_score": 18.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.5,
-      "roi": -22.0,
-      "cash_pnl": -1115.41,
-      "realized_pnl": -0.0,
-      "total_usdc": 142919.2,
-      "trade_count": 500,
-      "market_count": 12,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T07:36:15+00:00",
-      "top_markets": [
-        "Iran agrees to surrender enriched uranium stockpile by July 31, 2026?",
-        "US x Iran permanent peace deal by July 31, 2026?",
-        "Strait of Hormuz traffic returns to normal by July 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe36f5735f5bc12c36b361a599e8603d56f7ccd91",
-      "name": "sameday1",
-      "score": 36.3,
-      "roi_score": 12.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.5,
-      "roi": -30.7,
-      "cash_pnl": -66230.07,
-      "realized_pnl": 20055.71,
-      "total_usdc": 470030.53,
-      "trade_count": 500,
-      "market_count": 28,
-      "position_count": 25,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T20:38:35+00:00",
-      "top_markets": [
-        "Australia vs. Egypt: Team to Advance",
-        "Israel x Iran ceasefire continues through August 31?",
-        "Will the U.S. invade Iran before 2027?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9eb4d182719a46c44c092b5b0cf41f99129b89b0",
-      "name": "0x9eb4D182719A46c44C092B5b0Cf41F99129B89b0-1744989177294",
-      "score": 35.9,
-      "roi_score": 15.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.4,
-      "roi": -26.8,
-      "cash_pnl": -3001.92,
-      "realized_pnl": 188.97,
-      "total_usdc": 95493.7,
-      "trade_count": 500,
-      "market_count": 70,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T14:36:45+00:00",
-      "top_markets": [
-        "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
-        "Will Russia capture all of Huliaipole by May 31?",
-        "Will Portugal win the 2026 FIFA World Cup?"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8",
       "name": "meagainsttheworld",
-      "score": 35.8,
-      "roi_score": 15.9,
+      "score": 36.1,
+      "roi_score": 16.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.8,
-      "roi": -26.1,
-      "cash_pnl": -32875.08,
-      "realized_pnl": -4779.61,
-      "total_usdc": 68075.02,
+      "volume_score": 85.2,
+      "roi": -24.9,
+      "cash_pnl": -31983.98,
+      "realized_pnl": -4919.96,
+      "total_usdc": 72021.0,
       "trade_count": 500,
-      "market_count": 25,
-      "position_count": 99,
+      "market_count": 26,
+      "position_count": 100,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:44:06+00:00",
+      "last_active": "2026-08-02T21:50:54+00:00",
       "top_markets": [
         "US x Iran Effective Ceasefire by July 31?",
         "Israel x Iran ceasefire continues through August 3?",
@@ -1169,33 +1303,33 @@
       "signals": [
         {
           "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "ENTER",
+          "signal": "LATE",
           "avg_price": 0.2072,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 51250.03,
           "outcome": "Yes"
         },
         {
           "market": "Israel x Iran ceasefire continues through August 3?",
           "signal": "SKIP",
-          "avg_price": 0.0376,
-          "cur_price": 0.989,
-          "usdc_size": 880.0,
+          "avg_price": 0.0344,
+          "cur_price": 0.9895,
+          "usdc_size": 798.62,
           "outcome": "No"
         },
         {
           "market": "US x Iran Effective Ceasefire by July 31?",
           "signal": "SKIP",
-          "avg_price": 0.4811,
-          "cur_price": 0.53,
-          "usdc_size": 5529.94,
+          "avg_price": 0.4868,
+          "cur_price": 0.605,
+          "usdc_size": 7941.05,
           "outcome": "Yes"
         },
         {
           "market": "Israel x Iran ceasefire continues through August 2?",
           "signal": "SKIP",
           "avg_price": 0.897,
-          "cur_price": 0.9975,
+          "cur_price": 0.9965,
           "usdc_size": 6982.74,
           "outcome": "Yes"
         }
@@ -1204,14 +1338,14 @@
     {
       "wallet": "0xf42f4a4211d058cd109d503cf13f7bcdfc82a6a7",
       "name": "Sardinianshepherd",
-      "score": 35.5,
-      "roi_score": 12.6,
+      "score": 35.6,
+      "roi_score": 12.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 92.2,
-      "roi": -31.1,
-      "cash_pnl": -28065.53,
+      "roi": -30.8,
+      "cash_pnl": -27778.23,
       "realized_pnl": -6420.81,
       "total_usdc": 179927.53,
       "trade_count": 500,
@@ -1231,7 +1365,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7546,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 17297.4,
           "outcome": "No"
         },
@@ -1239,16 +1373,16 @@
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
           "avg_price": 0.8899,
-          "cur_price": 0.115,
-          "usdc_size": 3540.0,
+          "cur_price": 0.135,
+          "usdc_size": 3420.0,
           "outcome": "No"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by September 30?",
           "signal": "SKIP",
           "avg_price": 0.7603,
-          "cur_price": 0.235,
-          "usdc_size": 1147.5,
+          "cur_price": 0.245,
+          "usdc_size": 1132.5,
           "outcome": "No"
         }
       ]
@@ -1263,7 +1397,7 @@
       "early_entry_score": 0.0,
       "volume_score": 91.6,
       "roi": -31.1,
-      "cash_pnl": -56696.4,
+      "cash_pnl": -56688.07,
       "realized_pnl": 262.29,
       "total_usdc": 166112.97,
       "trade_count": 500,
@@ -1283,14 +1417,14 @@
     {
       "wallet": "0x2ed634efe878fa081606193f8ea0b0bd5545b0b3",
       "name": "Gyoo",
-      "score": 35.3,
-      "roi_score": 14.4,
+      "score": 35.2,
+      "roi_score": 14.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 84.4,
-      "roi": -28.4,
-      "cash_pnl": -1807.35,
+      "roi": -28.5,
+      "cash_pnl": -1814.74,
       "realized_pnl": -16.46,
       "total_usdc": 64929.35,
       "trade_count": 500,
@@ -1310,14 +1444,14 @@
     {
       "wallet": "0xe172412ca65dd142ff035630cc2945adec8d248a",
       "name": "0xe172412ca65dD142Ff035630cc2945ADeC8D248A-1764747516771",
-      "score": 35.1,
-      "roi_score": 15.4,
+      "score": 34.6,
+      "roi_score": 13.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 79.6,
-      "roi": -26.9,
-      "cash_pnl": -1103.72,
+      "roi": -29.1,
+      "cash_pnl": -1194.85,
       "realized_pnl": 11.49,
       "total_usdc": 34424.23,
       "trade_count": 303,
@@ -1337,7 +1471,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "ENTER",
           "avg_price": 0.2,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 717.5,
           "outcome": "Yes"
         }
@@ -1379,8 +1513,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -87.3,
-      "cash_pnl": -1098895.72,
+      "roi": -88.0,
+      "cash_pnl": -1106603.39,
       "realized_pnl": 9810.92,
       "total_usdc": 2040168.14,
       "trade_count": 500,
@@ -1400,16 +1534,24 @@
           "market": "San Francisco Giants vs. San Diego Padres",
           "signal": "SKIP",
           "avg_price": 0.4599,
-          "cur_price": 0.185,
-          "usdc_size": 12065.22,
+          "cur_price": 0.295,
+          "usdc_size": 18580.43,
           "outcome": "San Francisco Giants"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Baltimore Orioles",
+          "signal": "SKIP",
+          "avg_price": 0.5699,
+          "cur_price": 0.992,
+          "usdc_size": 35086.76,
+          "outcome": "Philadelphia Phillies"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by September 30?",
           "signal": "SKIP",
           "avg_price": 0.82,
-          "cur_price": 0.235,
-          "usdc_size": 18658.54,
+          "cur_price": 0.245,
+          "usdc_size": 18414.63,
           "outcome": "No"
         }
       ]
@@ -1423,17 +1565,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -75.4,
-      "cash_pnl": -22259.15,
+      "roi": -73.3,
+      "cash_pnl": -22018.07,
       "realized_pnl": -3629.82,
-      "total_usdc": 785374.71,
+      "total_usdc": 784874.71,
       "trade_count": 500,
       "market_count": 147,
       "position_count": 55,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T19:54:14+00:00",
+      "last_active": "2026-08-02T21:21:30+00:00",
       "top_markets": [
         "US-Iran nuclear deal by June 30?",
         "Will US or Israel strike Iran by March 31, 2026?",
@@ -1442,90 +1584,46 @@
       "signals": [
         {
           "market": "US x Iran Effective Ceasefire by July 31?",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.5499,
-          "cur_price": 0.53,
-          "usdc_size": 2409.09,
+          "cur_price": 0.605,
+          "usdc_size": 2772.73,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
-      "name": "aenews2",
-      "score": 32.5,
-      "roi_score": 0.0,
+      "wallet": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
+      "name": "lissartter",
+      "score": 31.9,
+      "roi_score": 3.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -50.4,
-      "cash_pnl": -314391.27,
-      "realized_pnl": -121431.02,
-      "total_usdc": 1580986.67,
+      "volume_score": 84.9,
+      "roi": -45.5,
+      "cash_pnl": -91304.92,
+      "realized_pnl": 50893.95,
+      "total_usdc": 68526.83,
       "trade_count": 500,
-      "market_count": 46,
-      "position_count": 238,
+      "market_count": 57,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T15:23:51+00:00",
+      "last_active": "2026-08-02T21:54:03+00:00",
       "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
-        "Will New York use a new congressional map for the 2026 United States midterm elections?"
+        "Will the highest temperature in Los Angeles be between 78-79\u00b0F on August 2?",
+        "US x Iran Effective Ceasefire by August 14?",
+        "Will Spider-Man: Brand New Day beat Avengers: Endgame's opening weekend record?"
       ],
       "signals": [
         {
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
-          "avg_price": 0.1847,
-          "cur_price": 0.205,
-          "usdc_size": 77295.17,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US x Iran Effective Ceasefire by July 31?",
-          "signal": "SKIP",
-          "avg_price": 0.2,
-          "cur_price": 0.53,
-          "usdc_size": 658.66,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x35e36faa4cf1488d120580302ed1d149be749188",
-      "name": "0x35e36FaA4cf1488D120580302Ed1d149bE749188-1775509899044",
-      "score": 31.8,
-      "roi_score": 5.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.5,
-      "roi": -42.2,
-      "cash_pnl": -7874.92,
-      "realized_pnl": -785.84,
-      "total_usdc": 26251.27,
-      "trade_count": 500,
-      "market_count": 36,
-      "position_count": 212,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T20:00:20+00:00",
-      "top_markets": [
-        "Will Donald Trump publicly insult Emmanuel Macron by July 31, 2026?",
-        "US x Iran Effective Ceasefire by July 31?",
-        "Israel x Iran ceasefire continues through August 2?"
-      ],
-      "signals": [
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.7466,
-          "cur_price": 0.205,
-          "usdc_size": 4464.34,
+          "avg_price": 0.8025,
+          "cur_price": 0.195,
+          "usdc_size": 4519.96,
           "outcome": "No"
         }
       ]
@@ -1540,7 +1638,7 @@
       "early_entry_score": 0.0,
       "volume_score": 92.8,
       "roi": -85.9,
-      "cash_pnl": -871108.69,
+      "cash_pnl": -871240.04,
       "realized_pnl": 79842.22,
       "total_usdc": 194500.39,
       "trade_count": 500,
@@ -1560,7 +1658,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7799,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 23850.0,
           "outcome": "No"
         },
@@ -1568,9 +1666,45 @@
           "market": "Israel x Iran ceasefire continues through August 2?",
           "signal": "SKIP",
           "avg_price": 0.78,
-          "cur_price": 0.9975,
+          "cur_price": 0.9965,
           "usdc_size": 6591.35,
           "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x35e36faa4cf1488d120580302ed1d149be749188",
+      "name": "0x35e36FaA4cf1488D120580302Ed1d149bE749188-1775509899044",
+      "score": 31.7,
+      "roi_score": 5.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.2,
+      "roi": -42.5,
+      "cash_pnl": -7886.4,
+      "realized_pnl": -789.14,
+      "total_usdc": 25198.83,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 212,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-02T21:34:33+00:00",
+      "top_markets": [
+        "Will Donald Trump publicly insult Emmanuel Macron by July 31, 2026?",
+        "US x Iran Effective Ceasefire by July 31?",
+        "Israel x Iran ceasefire continues through August 2?"
+      ],
+      "signals": [
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.7466,
+          "cur_price": 0.195,
+          "usdc_size": 4464.34,
+          "outcome": "No"
         }
       ]
     },
@@ -1582,75 +1716,31 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.9,
-      "roi": -81.1,
-      "cash_pnl": -370282.0,
-      "realized_pnl": -49363.05,
-      "total_usdc": 152077.92,
+      "volume_score": 91.3,
+      "roi": -79.8,
+      "cash_pnl": -370860.62,
+      "realized_pnl": -49362.04,
+      "total_usdc": 158750.99,
       "trade_count": 500,
-      "market_count": 16,
+      "market_count": 15,
       "position_count": 190,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:52:00+00:00",
+      "last_active": "2026-08-02T21:52:53+00:00",
       "top_markets": [
         "Will the U.S. invade Iran before 2027?",
         "Texas Rangers vs. Houston Astros",
-        "Will Erling Haaland win the 2026 Ballon d'Or?"
+        "Pittsburgh Pirates vs. Cincinnati Reds"
       ],
       "signals": [
         {
           "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "ENTER",
-          "avg_price": 0.2084,
-          "cur_price": 0.205,
-          "usdc_size": 7758.87,
+          "signal": "LATE",
+          "avg_price": 0.204,
+          "cur_price": 0.195,
+          "usdc_size": 15828.18,
           "outcome": "Yes"
-        },
-        {
-          "market": "Detroit Tigers vs. Athletics",
-          "signal": "SKIP",
-          "avg_price": 0.47,
-          "cur_price": 0.725,
-          "usdc_size": 1170.21,
-          "outcome": "Athletics"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
-      "name": "lissartter",
-      "score": 31.6,
-      "roi_score": 2.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.2,
-      "roi": -46.7,
-      "cash_pnl": -91952.47,
-      "realized_pnl": 51796.02,
-      "total_usdc": 62538.84,
-      "trade_count": 500,
-      "market_count": 55,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-02T20:38:11+00:00",
-      "top_markets": [
-        "Will the highest temperature in Los Angeles be between 78-79\u00b0F on August 2?",
-        "US x Iran Effective Ceasefire by August 14?",
-        "Israel x Iran ceasefire continues through August 31?"
-      ],
-      "signals": [
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.8208,
-          "cur_price": 0.205,
-          "usdc_size": 2311.6,
-          "outcome": "No"
         }
       ]
     },
@@ -1662,18 +1752,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.1,
-      "roi": -96.6,
-      "cash_pnl": -34245.9,
+      "volume_score": 83.2,
+      "roi": -97.7,
+      "cash_pnl": -35145.46,
       "realized_pnl": -4337.53,
-      "total_usdc": 54527.57,
+      "total_usdc": 54825.58,
       "trade_count": 500,
-      "market_count": 132,
-      "position_count": 255,
+      "market_count": 133,
+      "position_count": 257,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T19:51:26+00:00",
+      "last_active": "2026-08-02T21:45:18+00:00",
       "top_markets": [
         "Iran full airspace closure by July 24?",
         "Will the U.S. invade Iran before 2027?",
@@ -1689,33 +1779,24 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 82.0,
-      "roi": -52.9,
-      "cash_pnl": -18886.93,
-      "realized_pnl": 11856.01,
-      "total_usdc": 47194.67,
+      "volume_score": 82.4,
+      "roi": -57.5,
+      "cash_pnl": -19196.81,
+      "realized_pnl": 4260.55,
+      "total_usdc": 49446.04,
       "trade_count": 500,
       "market_count": 31,
-      "position_count": 89,
+      "position_count": 88,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T20:25:20+00:00",
+      "last_active": "2026-08-02T21:51:53+00:00",
       "top_markets": [
         "Will the U.S. invade Iran before 2027?",
         "Mitch McConnell steps down from Senate before his term ends?",
         "Will Mark Kelly win the 2028 Democratic presidential nomination?"
       ],
-      "signals": [
-        {
-          "market": "Will the U.S. invade Iran before 2027?",
-          "signal": "SKIP",
-          "avg_price": 0.1843,
-          "cur_price": 0.205,
-          "usdc_size": 2255.0,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0xb476d52d74d0ecd55fb80f9bc96e93a267ad6eac",
@@ -1725,18 +1806,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 82.3,
-      "roi": -98.2,
-      "cash_pnl": -145582.99,
-      "realized_pnl": -336.12,
-      "total_usdc": 48785.41,
+      "volume_score": 82.2,
+      "roi": -98.6,
+      "cash_pnl": -145635.36,
+      "realized_pnl": -274.23,
+      "total_usdc": 48650.2,
       "trade_count": 500,
       "market_count": 154,
-      "position_count": 417,
+      "position_count": 416,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-02T19:45:02+00:00",
+      "last_active": "2026-08-02T21:52:45+00:00",
       "top_markets": [
         "IK Start vs. Viking FK: O/U 3.5",
         "Will Molde FK win on 2026-08-02?",
@@ -1774,7 +1855,7 @@
           "market": "Will the U.S. invade Iran before 2027?",
           "signal": "SKIP",
           "avg_price": 0.7605,
-          "cur_price": 0.205,
+          "cur_price": 0.195,
           "usdc_size": 1682.99,
           "outcome": "No"
         }
@@ -1790,7 +1871,7 @@
       "early_entry_score": 0.0,
       "volume_score": 73.4,
       "roi": -75.0,
-      "cash_pnl": -710.18,
+      "cash_pnl": -710.21,
       "realized_pnl": 0.0,
       "total_usdc": 15281.35,
       "trade_count": 52,
@@ -1920,142 +2001,142 @@
     {
       "id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
       "question": "Will the U.S. invade Iran before 2027?",
-      "volume": "54567825.73802202",
-      "liquidity": "1375310.7692",
+      "volume": "54568367.42670497",
+      "liquidity": "1348570.1948",
       "end_date": "2026-12-31T00:00:00Z"
     },
     {
       "id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
       "question": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
-      "volume": "1576581.453859",
-      "liquidity": "298468.373",
+      "volume": "1589491.7521740005",
+      "liquidity": "250577.9303",
       "end_date": "2026-08-09T21:00:00Z"
     },
     {
       "id": "0x93796dea2fe5dfc8da1a942448e6ab767d9bb3464a96ea3a527dfed0ef7bd958",
       "question": "Israel x Iran ceasefire continues through August 2?",
-      "volume": "2641660.107667002",
-      "liquidity": "277688.60891",
+      "volume": "2646680.7676670006",
+      "liquidity": "249276.47753",
       "end_date": "2026-08-02T23:59:00Z"
+    },
+    {
+      "id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
+      "question": "Strait of Hormuz traffic returns to normal by August 31?",
+      "volume": "5673360.198761",
+      "liquidity": "398334.9425",
+      "end_date": "2026-08-31T00:00:00Z"
     },
     {
       "id": "0x787693b777003ceeec6e72deac70a2df0a8e6b85774eda454566a378f87b89cd",
       "question": "LoL: Fnatic vs Movistar KOI (BO3) - LEC Regular Season",
-      "volume": "1051191.4485609992",
-      "liquidity": "487019.21466",
+      "volume": "1064228.6085610003",
+      "liquidity": "434725.17058",
       "end_date": "2026-08-02T23:15:00Z"
     },
     {
       "id": "0x6c2be95fba82f136cd0edb3b0ef0674299550805e0560f595bdbc353ad096600",
       "question": "LoL: Fnatic vs Movistar KOI - Game 2 Winner",
-      "volume": "1038998.9339259996",
-      "liquidity": "408356.03971",
+      "volume": "1039334.3639259994",
+      "liquidity": "372412.65992",
       "end_date": "2026-08-02T21:15:00Z"
-    },
-    {
-      "id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
-      "question": "Strait of Hormuz traffic returns to normal by August 31?",
-      "volume": "5504421.404770001",
-      "liquidity": "560150.4997",
-      "end_date": "2026-08-31T00:00:00Z"
     },
     {
       "id": "0x5a9395dae6c7643ea06e7a555580a5526e81073aea9c9306363529c5b76a8f8b",
       "question": "US x Iran Effective Ceasefire by July 31?",
-      "volume": "4367712.265601002",
-      "liquidity": "80281.7434",
+      "volume": "4396730.226474001",
+      "liquidity": "73143.9001",
       "end_date": "2026-07-31T23:59:00Z"
     },
     {
-      "id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
-      "question": "New York Yankees vs. Chicago Cubs",
-      "volume": "859449.7184239994",
-      "liquidity": "194971.4132",
-      "end_date": "2026-08-09T18:20:00Z"
+      "id": "0x71b0a86622b1a8e0631f02e063abadbc18c23d0b3cf09e910060c8be9c576bbf",
+      "question": "LoL: LYON vs Shopify Rebellion - Game 1 Winner",
+      "volume": "831498.5105209992",
+      "liquidity": "436131.30182",
+      "end_date": "2026-08-03T00:00:00Z"
     },
     {
       "id": "0xb9df7607eb80d9a64aef4cfcadb8807771c27c320ea6d7ac20f1a3a31561f699",
       "question": "LoL: Fnatic vs Movistar KOI - Game 1 Winner",
-      "volume": "752393.9503179996",
-      "liquidity": "463161.59198",
+      "volume": "752432.950318",
+      "liquidity": "430349.49692",
       "end_date": "2026-08-02T21:15:00Z"
+    },
+    {
+      "id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+      "question": "Boston Red Sox vs. Los Angeles Dodgers",
+      "volume": "734762.3030040005",
+      "liquidity": "871508.9141",
+      "end_date": "2026-08-09T23:20:00Z"
     },
     {
       "id": "0x4273517fc8141d57ad1528ede46efdceebdb6a4da746d5de5bad216564209a1e",
       "question": "Will Tucker Carlson win the 2028 Republican presidential nomination?",
-      "volume": "12726871.76559401",
-      "liquidity": "489980.4379",
+      "volume": "12726871.765594004",
+      "liquidity": "490459.42062",
       "end_date": "2028-11-07T00:00:00Z"
+    },
+    {
+      "id": "0x7732f9ae6a3cd12fbb2e293257a34bc99e5bd23f37a6e53f19619b2668f4742e",
+      "question": "San Francisco Giants vs. San Diego Padres",
+      "volume": "631063.6072389993",
+      "liquidity": "98618.6735",
+      "end_date": "2026-08-09T20:10:00Z"
     },
     {
       "id": "0x49479ffa88e2897569b1d413e3bc558003e21912edee09d080ca6bac6eb20805",
       "question": "Strait of Hormuz traffic returns to normal by August 15?",
-      "volume": "1005410.4456219997",
-      "liquidity": "130240.45513",
+      "volume": "1020204.821661",
+      "liquidity": "123251.50161",
       "end_date": "2026-08-15T00:00:00Z"
+    },
+    {
+      "id": "0x83284ee1650d4ed479ba9624d8e79781e6ddeb606236645e2d4a541801730d7f",
+      "question": "Detroit Tigers vs. Athletics",
+      "volume": "577224.1877300005",
+      "liquidity": "185836.29813",
+      "end_date": "2026-08-09T20:05:00Z"
     },
     {
       "id": "0x4d18e2c722144b600b2b796809f87ec5f265d3d65213f5097bc2ffc4a1626d8b",
       "question": "Canadian Open: Aleksandar Kovacevic vs Nuno Borges",
-      "volume": "564862.350501",
-      "liquidity": "254310.427",
+      "volume": "576347.5459859997",
+      "liquidity": "102734.568",
       "end_date": "2026-08-10T14:00:00Z"
     },
     {
       "id": "0x2e47cff93eb647a0487879f781ec583f8849eeb397ff0ad5cb38f77ec916c8a7",
       "question": "Israel x Iran ceasefire continues through August 3?",
-      "volume": "756163.9305350005",
-      "liquidity": "188228.41471",
+      "volume": "788571.3381469998",
+      "liquidity": "123433.7241",
       "end_date": "2026-08-03T23:59:00Z"
-    },
-    {
-      "id": "0x83284ee1650d4ed479ba9624d8e79781e6ddeb606236645e2d4a541801730d7f",
-      "question": "Detroit Tigers vs. Athletics",
-      "volume": "546374.6335480002",
-      "liquidity": "112732.7985",
-      "end_date": "2026-08-09T20:05:00Z"
-    },
-    {
-      "id": "0x6d82688216d53e2e656c86fc1e1041c822182963474b8c4f46991d83711c2345",
-      "question": "Texas Rangers vs. Houston Astros",
-      "volume": "531394.2193239997",
-      "liquidity": "143330.71237",
-      "end_date": "2026-08-09T18:10:00Z"
-    },
-    {
-      "id": "0x7732f9ae6a3cd12fbb2e293257a34bc99e5bd23f37a6e53f19619b2668f4742e",
-      "question": "San Francisco Giants vs. San Diego Padres",
-      "volume": "524989.2697999999",
-      "liquidity": "236579.1691",
-      "end_date": "2026-08-09T20:10:00Z"
-    },
-    {
-      "id": "0x71b0a86622b1a8e0631f02e063abadbc18c23d0b3cf09e910060c8be9c576bbf",
-      "question": "LoL: LYON vs Shopify Rebellion - Game 1 Winner",
-      "volume": "511006.8379190001",
-      "liquidity": "121637.5342",
-      "end_date": "2026-08-03T00:00:00Z"
-    },
-    {
-      "id": "0x62681a32c2f55db7c8a9669d4be411a5f16b5b26a1e552bef984629d394f8762",
-      "question": "Dota 2: Vici Gaming vs OG - Game 2 Winner",
-      "volume": "410750.36259499996",
-      "liquidity": "234839.6467",
-      "end_date": "2026-08-02T22:40:00Z"
     },
     {
       "id": "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc",
       "question": "Strait of Hormuz traffic returns to normal by September 30?",
-      "volume": "1543577.5420030002",
-      "liquidity": "258303.1094",
+      "volume": "1549535.6864929995",
+      "liquidity": "245377.0183",
       "end_date": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42",
+      "question": "Philadelphia Phillies vs. Baltimore Orioles",
+      "volume": "367079.27480899985",
+      "liquidity": "147449.59932",
+      "end_date": "2026-08-09T17:35:00Z"
     },
     {
       "id": "0x88d2251f33c6e5745edc2424a79578fcbd289667790514b04da8a0392154e539",
       "question": "National Bank Open: Michael Zheng vs Miomir Kecmanovic",
-      "volume": "355218.91840499983",
-      "liquidity": "152435.0253",
+      "volume": "364814.392464",
+      "liquidity": "2142.7264",
       "end_date": "2026-08-09T15:00:00Z"
+    },
+    {
+      "id": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7",
+      "question": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
+      "volume": "358140.45697799994",
+      "liquidity": "324288.2666",
+      "end_date": "2026-08-09T18:30:00Z"
     }
   ]
 }
