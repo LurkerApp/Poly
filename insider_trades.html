@@ -37,6 +37,32 @@
         </div>
       </div>
 
+      <!-- Top Trades This Week -->
+      <div class="chart-section" style="margin-bottom:1.5rem;">
+        <h2>Top Trades This Week <span class="refresh-badge">7 days</span></h2>
+        <p class="section-sub">Largest insider transactions by notional value in the last 7 days</p>
+        <div id="topLoading" class="loading"><div class="spinner"></div> Loading…</div>
+        <div id="topWrap" class="table-scroll" style="display:none;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Date</th>
+                <th>Insider</th>
+                <th>Title</th>
+                <th>Ticker</th>
+                <th>Company</th>
+                <th>Action</th>
+                <th>Shares</th>
+                <th>Notional Value</th>
+                <th>Filing</th>
+              </tr>
+            </thead>
+            <tbody id="topBody"></tbody>
+          </table>
+        </div>
+      </div>
+
       <!-- Trades Table -->
       <div class="chart-section">
         <h2>All Insider Trades</h2>
@@ -162,10 +188,47 @@
         }).join('');
       }
 
+      function renderTopTrades(trades) {
+        hide('topLoading'); show('topWrap');
+        const tbody = document.getElementById('topBody');
+
+        // Filter to last 7 days, sort by notional value desc, take top 7
+        const since = new Date();
+        since.setDate(since.getDate() - 7);
+        const top = trades
+          .filter(function(t) { return t.trade_date && new Date(t.trade_date) >= since && t.notional_value > 0; })
+          .sort(function(a, b) { return (b.notional_value || 0) - (a.notional_value || 0); })
+          .slice(0, 7);
+
+        if (!top.length) {
+          tbody.innerHTML = '<tr><td colspan="10" class="no-data">No trades in the last 7 days.</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = top.map(function(t, i) {
+          var actionCls = t.action === 'Buy' ? 'badge-buy' : 'badge-sell';
+          var titleStr  = t.title ? '<span style="font-size:11px;color:#5a6068;">' + t.title + '</span>' : '—';
+          var secLink   = filingPageUrl(t.filing_url, t.ticker);
+          return '<tr>' +
+            '<td style="color:#5a6068;font-weight:700;">' + (i+1) + '</td>' +
+            '<td style="white-space:nowrap;">' + fmtDate(t.trade_date) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">' + (t.insider_name || '—') + '</td>' +
+            '<td>' + titleStr + '</td>' +
+            '<td><span style="font-family:monospace;font-size:12px;font-weight:700;color:#1ABC9C;">' + (t.ticker || '—') + '</span></td>' +
+            '<td style="color:#c0c0c0;">' + (t.issuer_name || t.company || '—') + '</td>' +
+            '<td><span class="' + actionCls + '">' + (t.action || '—') + '</span></td>' +
+            '<td>' + (t.shares ? Math.abs(t.shares).toLocaleString() : '—') + '</td>' +
+            '<td style="font-weight:700;color:#e0e0e0;font-size:14px;">' + fmt(t.notional_value) + '</td>' +
+            '<td><a class="wallet-link" href="' + secLink + '" target="_blank">SEC ↗</a></td>' +
+          '</tr>';
+        }).join('');
+      }
+
       async function init() {
         try {
           const trades = await loadTrades();
           renderStats(trades);
+          renderTopTrades(trades);
           renderTable(trades);
         } catch (err) {
           console.error(err);
