@@ -422,7 +422,7 @@
         const url = SUPABASE_URL + '/rest/v1/contract_awards' +
           '?select=ticker,matched_company,award_amount' +
           '&ticker=not.is.null' +
-          '&start_date=gte.' + since.toISOString().split('T')[0] +
+          '&updated_at=gte.' + since.toISOString() +
           '&order=award_amount.desc&limit=200';
         const resp = await fetch(url, { headers: SB });
         return await resp.json();
