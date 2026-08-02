@@ -134,20 +134,20 @@
       <!-- Row 2: Top Hedge Fund Holdings + Top Gov Contracts -->
       <div class="home-grid">
         <div class="chart-section">
-          <h2>Top Hedge Fund Holdings <span class="refresh-badge">13F</span></h2>
-          <p class="section-sub">Largest stock positions across all tracked funds</p>
+          <h2>Consensus Holdings <span class="refresh-badge">13F</span></h2>
+          <p class="section-sub">Stocks held by the most funds — ranked by conviction</p>
           <div id="hfLoading" class="loading"><div class="spinner"></div> Loading…</div>
           <div id="hfWrap" class="table-scroll" style="display:none;">
             <table class="data-table">
-              <thead><tr><th>#</th><th>Company</th><th>Type</th><th>Value</th><th>% Portfolio</th></tr></thead>
+              <thead><tr><th>#</th><th>Company</th><th>Funds</th><th>Total Value</th><th>Avg Weight</th></tr></thead>
               <tbody id="hfBody"></tbody>
             </table>
           </div>
         </div>
 
         <div class="chart-section">
-          <h2>Top Gov Contracts <span class="refresh-badge">90 days</span></h2>
-          <p class="section-sub">Largest public company contract awards</p>
+          <h2>Top Gov Contracts <span class="refresh-badge">7 days</span></h2>
+          <p class="section-sub">Largest public company contract awards this week</p>
           <div id="govLoading" class="loading"><div class="spinner"></div> Loading…</div>
           <div id="govWrap" class="table-scroll" style="display:none;">
             <table class="data-table">
@@ -385,18 +385,32 @@
         // Get latest quarter
         const quarters = [...new Set(positions.map(p => p.quarter))].sort().reverse();
         const latestQ  = quarters[0];
-        const filtered = positions.filter(p => p.quarter === latestQ).slice(0, 10);
+        const filtered = positions.filter(p => p.quarter === latestQ && !p.is_option);
 
-        tbody.innerHTML = filtered.map((p, i) => {
-          const badgeCls = p.is_option ? (p.put_call === 'Put' ? 'badge-put' : 'badge-call') : 'badge-stock';
-          const badgeTxt = p.is_option ? p.put_call : 'Stock';
-          const pct      = p.pct_portfolio || 0;
+        // Group by company — count funds holding, sum value, avg pct
+        const grouped = {};
+        filtered.forEach(p => {
+          const key = p.company_name;
+          if (!grouped[key]) grouped[key] = { company: key, funds: 0, totalValue: 0, totalPct: 0 };
+          grouped[key].funds      += 1;
+          grouped[key].totalValue += p.value_usd || 0;
+          grouped[key].totalPct  += p.pct_portfolio || 0;
+        });
+
+        // Sort by number of funds holding, then by total value
+        const sorted = Object.values(grouped)
+          .sort((a, b) => b.funds - a.funds || b.totalValue - a.totalValue)
+          .slice(0, 10);
+
+        const maxFunds = sorted[0]?.funds || 1;
+
+        tbody.innerHTML = sorted.map((p, i) => {
           return '<tr>' +
             '<td style="color:#5a6068;font-weight:700;">' + (i+1) + '</td>' +
-            '<td style="font-weight:600;color:#e0e0e0;">' + (p.company_name || '—') + '</td>' +
-            '<td><span class="' + badgeCls + '">' + badgeTxt + '</span></td>' +
-            '<td class="amount-cell">' + fmt(p.value_usd) + '</td>' +
-            '<td><div class="pct-wrap"><div class="pct-bg"><div class="pct-fill" style="width:' + Math.min(pct,100).toFixed(1) + '%;"></div></div><span style="font-size:11px;color:#7F8C8D;">' + pct.toFixed(1) + '%</span></div></td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">' + (p.company || '—') + '</td>' +
+            '<td style="text-align:center;"><span style="font-size:13px;font-weight:700;color:#1ABC9C;">' + p.funds + '</span><span style="font-size:10px;color:#5a6068;"> funds</span></td>' +
+            '<td class="amount-cell">' + fmt(p.totalValue) + '</td>' +
+            '<td><div class="pct-wrap"><div class="pct-bg"><div class="pct-fill" style="width:' + (p.funds / maxFunds * 100).toFixed(0) + '%;"></div></div><span style="font-size:11px;color:#7F8C8D;">' + (p.totalPct / p.funds).toFixed(1) + '% avg</span></div></td>' +
           '</tr>';
         }).join('');
       }
@@ -404,7 +418,7 @@
       // ── Top Gov Contracts ─────────────────────────────────
       async function loadGovContracts() {
         const since = new Date();
-        since.setDate(since.getDate() - 90);
+        since.setDate(since.getDate() - 7);
         const url = SUPABASE_URL + '/rest/v1/contract_awards' +
           '?select=ticker,matched_company,award_amount' +
           '&ticker=not.is.null' +
