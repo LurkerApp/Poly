@@ -19,9 +19,8 @@
         transition: all 0.15s;
       }
       .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
-      .em-chart-wrap { position: relative; height: 380px; }
+      .em-chart-wrap { position: relative; height: 400px; }
 
-      /* Metric cards below chart */
       .metric-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -29,22 +28,17 @@
         margin-top: 1.25rem;
       }
       .metric-card {
-        background: #252830;
-        border-radius: 8px;
-        padding: 0.9rem 1rem;
-        border: 1px solid #2a2d30;
+        background: #252830; border-radius: 8px;
+        padding: 0.9rem 1rem; border: 1px solid #2a2d30;
       }
       .metric-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
       .metric-value { font-size: 20px; font-weight: 700; color: #e0e0e0; }
       .metric-sub   { font-size: 11px; color: #5a6068; margin-top: 4px; line-height: 1.4; }
       .metric-pill  { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px; margin-top: 5px; }
-      .pill-green   { background: #1e2e2a; color: #1ABC9C; }
-      .pill-red     { background: #2e1e1e; color: #e05252; }
-      .pill-yellow  { background: #2e2a1a; color: #f0a500; }
-      .pill-grey    { background: #252830; color: #7F8C8D; }
-
-      /* Expiry table */
-      .expiry-table { margin-top: 1.5rem; }
+      .pill-green  { background: #1e2e2a; color: #1ABC9C; }
+      .pill-red    { background: #2e1e1e; color: #e05252; }
+      .pill-yellow { background: #2e2a1a; color: #f0a500; }
+      .pill-grey   { background: #252830; color: #7F8C8D; }
     </style>
   </head>
   <body>
@@ -83,7 +77,7 @@
       <!-- Chart -->
       <div class="chart-section">
         <h2>Expected Move Cone <span class="refresh-badge">Live</span></h2>
-        <p class="section-sub">The shaded area shows where the market expects the price to land by each expiration date — based on options pricing</p>
+        <p class="section-sub">Teal/red bars show the Put/Call ratio per expiration (right axis) — above 1.0 means more bearish bets, below 1.0 means more bullish bets</p>
         <div id="emLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="emWrap" style="display:none;">
           <div class="em-tabs">
@@ -93,16 +87,14 @@
           <div class="em-chart-wrap">
             <canvas id="emChart"></canvas>
           </div>
-
-          <!-- Market context metrics -->
           <div class="metric-grid" id="metricGrid"></div>
         </div>
       </div>
 
       <!-- Expiry table -->
-      <div class="chart-section expiry-table">
+      <div class="chart-section" style="margin-top:1.5rem;">
         <h2 id="tableTitle">SPY — All Expirations</h2>
-        <p class="section-sub">Full breakdown per expiration — hover over terms for explanations</p>
+        <p class="section-sub">Full breakdown per expiration date</p>
         <div id="tableLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="tableWrap" class="table-scroll" style="display:none;">
           <table class="data-table">
@@ -110,14 +102,15 @@
               <tr>
                 <th>Expiration</th>
                 <th>DTE</th>
-                <th>Current Price</th>
+                <th>Price</th>
                 <th>ATM Strike</th>
                 <th>Call</th>
                 <th>Put</th>
                 <th>Expected Move</th>
                 <th>Move %</th>
-                <th>Upper Target</th>
-                <th>Lower Target</th>
+                <th>Put/Call</th>
+                <th>Upper</th>
+                <th>Lower</th>
               </tr>
             </thead>
             <tbody id="expiryBody"></tbody>
@@ -136,15 +129,15 @@
           </div>
           <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
             <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">VIX — Fear Index</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The VIX measures how much fear or uncertainty is in the market. Below 15 = calm. 15–25 = moderate uncertainty. Above 25 = elevated fear. Above 30 = high volatility / potential crisis.</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The VIX measures how much fear or uncertainty is in the market. Below 15 = calm. 15–25 = moderate uncertainty. Above 25 = elevated fear. Above 30 = high volatility.</div>
           </div>
           <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
             <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">IV vs HV Spread</div>
             <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">Implied Volatility (IV) is what options traders expect. Historical Volatility (HV) is what actually happened. When IV &gt; HV, options are expensive — sellers have an edge. When IV &lt; HV, options are cheap — buyers have an edge.</div>
           </div>
           <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">Put/Call Ratio</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">Compares the number of put options (bets the market goes down) vs call options (bets it goes up). Above 1.0 means more bearish bets. Below 0.7 means more bullish bets. Around 0.8 is neutral.</div>
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">Put/Call Ratio (bars)</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The red/teal bars on the chart compare bearish bets (puts) vs bullish bets (calls) for each expiration. Above 1.0 = more bearish positioning. Below 1.0 = more bullish. The dotted line marks 1.0 (neutral).</div>
           </div>
           <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
             <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">DTE — Days to Expiry</div>
@@ -152,7 +145,7 @@
           </div>
           <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
             <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">ATM Straddle</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">We calculate the expected move by adding the price of the At-The-Money call and put options. This is the classic "straddle" trade — buying both sides. The combined price tells you how much the market expects to move.</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">We calculate the expected move by adding the At-The-Money call and put prices. This is the classic "straddle" — buying both sides. The combined price tells you how much the market expects to move.</div>
           </div>
         </div>
       </div>
@@ -175,22 +168,20 @@
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
-      // Returns the next upcoming expiration
       function getNextExpiry(moves) {
         var now   = new Date();
         var today = new Date();
         today.setHours(0, 0, 0, 0);
         var cutoff = new Date();
         cutoff.setUTCHours(21, 0, 0, 0);
-        var marketClosed = now >= cutoff;
+        var mktClosed = now >= cutoff;
         for (var i = 0; i < moves.length; i++) {
           var exp = new Date(moves[i].expiration + 'T12:00:00Z');
-          if (marketClosed ? exp > today : exp >= today) return moves[i];
+          if (mktClosed ? exp > today : exp >= today) return moves[i];
         }
         return moves[moves.length - 1];
       }
 
-      // ── VIX interpretation ────────────────────────────────
       function vixLabel(vix) {
         if (!vix) return { text: '—', cls: 'pill-grey', meaning: '' };
         if (vix < 15)  return { text: 'Calm',     cls: 'pill-green',  meaning: 'Low fear — markets are relaxed' };
@@ -200,16 +191,14 @@
         return           { text: 'Extreme',  cls: 'pill-red',    meaning: 'Crisis-level fear — very high volatility' };
       }
 
-      // ── IV vs HV interpretation ───────────────────────────
       function ivHvLabel(spread) {
         if (spread === null || spread === undefined) return { text: '—', cls: 'pill-grey', meaning: '' };
         if (spread > 5)  return { text: 'Options Expensive', cls: 'pill-red',    meaning: 'IV well above HV — sellers have an edge' };
         if (spread > 2)  return { text: 'Slight Premium',    cls: 'pill-yellow', meaning: 'Options slightly elevated' };
-        if (spread > -2) return { text: 'Fair Value',        cls: 'pill-green',  meaning: 'IV near HV — fairly priced options' };
+        if (spread > -2) return { text: 'Fair Value',        cls: 'pill-green',  meaning: 'IV near HV — fairly priced' };
         return            { text: 'Options Cheap',   cls: 'pill-green',  meaning: 'IV below HV — buyers have an edge' };
       }
 
-      // ── Put/Call interpretation ───────────────────────────
       function pcLabel(ratio) {
         if (!ratio) return { text: '—', cls: 'pill-grey', meaning: '' };
         if (ratio > 1.2) return { text: 'Bearish',  cls: 'pill-red',    meaning: 'More puts than calls — market leaning bearish' };
@@ -244,7 +233,7 @@
       // ── Metric cards ──────────────────────────────────────
       function renderMetrics(symbol) {
         if (!emData) return;
-        var sd  = null;
+        var sd = null;
         for (var i = 0; i < (emData.symbols || []).length; i++) {
           if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
         }
@@ -254,11 +243,10 @@
         var hv     = sd.hv_20d;
         var pc     = sd.put_call_ratio;
         var spread = sd.iv_hv_spread;
-        var n      = getNextExpiry(sd.moves);
 
-        var vixL   = vixLabel(vix);
-        var ivHvL  = ivHvLabel(spread);
-        var pcL    = pcLabel(pc);
+        var vixL  = vixLabel(vix);
+        var ivHvL = ivHvLabel(spread);
+        var pcL   = pcLabel(pc);
 
         document.getElementById('metricGrid').innerHTML =
           '<div class="metric-card">' +
@@ -268,7 +256,7 @@
             '<span class="metric-pill ' + vixL.cls + '">' + vixL.text + '</span>' +
           '</div>' +
           '<div class="metric-card">' +
-            '<div class="metric-label">20-Day Hist. Vol (HV)</div>' +
+            '<div class="metric-label">20-Day Hist. Vol</div>' +
             '<div class="metric-value">' + (hv ? hv.toFixed(1) + '%' : '—') + '</div>' +
             '<div class="metric-sub">What ' + symbol + ' actually moved the last 20 days, annualized</div>' +
           '</div>' +
@@ -286,7 +274,7 @@
           '</div>';
       }
 
-      // ── Line chart ────────────────────────────────────────
+      // ── Line + bar chart ──────────────────────────────────
       function renderEmChart(symbol) {
         if (!emData) return;
         var sd = null;
@@ -297,32 +285,47 @@
 
         var moves        = sd.moves;
         var currentPrice = sd.current_price;
-        var labels       = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
-        var uppers       = moves.map(function(m) { return m.upper_target; });
-        var lowers       = moves.map(function(m) { return m.lower_target; });
-        var centers      = moves.map(function()  { return currentPrice; });
+        var labels       = moves.map(function(m) {
+          return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)';
+        });
+        var uppers  = moves.map(function(m) { return m.upper_target; });
+        var lowers  = moves.map(function(m) { return m.lower_target; });
+        var centers = moves.map(function()  { return currentPrice; });
+        var pcRatios = moves.map(function(m) { return m.put_call_ratio; });
+
+        // Bar colors: red if bearish (>1.0), teal if bullish
+        var barColors = pcRatios.map(function(r) {
+          if (r === null) return 'rgba(90,96,104,0.3)';
+          return r > 1.0 ? 'rgba(224,82,82,0.5)' : 'rgba(26,188,156,0.5)';
+        });
+        var barBorders = pcRatios.map(function(r) {
+          if (r === null) return '#5a6068';
+          return r > 1.0 ? '#e05252' : '#1ABC9C';
+        });
 
         if (emChart) { emChart.destroy(); emChart = null; }
 
         var ctx = document.getElementById('emChart').getContext('2d');
         emChart = new Chart(ctx, {
-          type: 'line',
           data: {
             labels: labels,
             datasets: [
               {
+                type: 'line',
                 label: 'Upper Target (+)',
                 data: uppers,
                 borderColor: '#1ABC9C',
-                backgroundColor: 'rgba(26,188,156,0.1)',
+                backgroundColor: 'rgba(26,188,156,0.08)',
                 borderWidth: 2,
                 pointBackgroundColor: '#1ABC9C',
-                pointRadius: 6,
-                pointHoverRadius: 8,
+                pointRadius: 5,
+                pointHoverRadius: 7,
                 tension: 0.3,
-                fill: '+1'
+                fill: '+1',
+                yAxisID: 'y'
               },
               {
+                type: 'line',
                 label: 'Current Price',
                 data: centers,
                 borderColor: '#7F8C8D',
@@ -330,19 +333,33 @@
                 borderDash: [6, 4],
                 pointRadius: 0,
                 tension: 0,
-                fill: false
+                fill: false,
+                yAxisID: 'y'
               },
               {
+                type: 'line',
                 label: 'Lower Target (-)',
                 data: lowers,
                 borderColor: '#e05252',
-                backgroundColor: 'rgba(224,82,82,0.1)',
+                backgroundColor: 'rgba(224,82,82,0.08)',
                 borderWidth: 2,
                 pointBackgroundColor: '#e05252',
-                pointRadius: 6,
-                pointHoverRadius: 8,
+                pointRadius: 5,
+                pointHoverRadius: 7,
                 tension: 0.3,
-                fill: false
+                fill: false,
+                yAxisID: 'y'
+              },
+              {
+                type: 'bar',
+                label: 'Put/Call Ratio',
+                data: pcRatios,
+                backgroundColor: barColors,
+                borderColor: barBorders,
+                borderWidth: 1,
+                borderRadius: 3,
+                yAxisID: 'y2',
+                order: 2
               }
             ]
           },
@@ -352,7 +369,7 @@
             interaction: { mode: 'index', intersect: false },
             plugins: {
               legend: {
-                labels: { color: '#7F8C8D', font: { size: 12 }, boxWidth: 12 }
+                labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 }
               },
               tooltip: {
                 backgroundColor: '#1f2224',
@@ -366,6 +383,12 @@
                     if (ctx.dataset.label === 'Current Price') {
                       return ' Current: $' + ctx.parsed.y.toFixed(2);
                     }
+                    if (ctx.dataset.label === 'Put/Call Ratio') {
+                      var r = ctx.parsed.y;
+                      if (r === null) return ' Put/Call: —';
+                      var sentiment = r > 1.2 ? 'Bearish' : r > 0.9 ? 'Cautious' : r > 0.6 ? 'Neutral' : 'Bullish';
+                      return ' Put/Call: ' + (r ? r.toFixed(2) : '—') + ' (' + sentiment + ')';
+                    }
                     return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
                   }
                 }
@@ -377,11 +400,29 @@
                 ticks: { color: '#7F8C8D', font: { size: 11 } }
               },
               y: {
+                position: 'left',
                 grid: { color: '#252830' },
                 ticks: {
                   color: '#7F8C8D',
                   font: { size: 11 },
                   callback: function(v) { return '$' + v.toFixed(0); }
+                }
+              },
+              y2: {
+                position: 'right',
+                grid: { drawOnChartArea: false },
+                min: 0,
+                max: 2.5,
+                ticks: {
+                  color: '#7F8C8D',
+                  font: { size: 10 },
+                  callback: function(v) { return v.toFixed(1) + 'x'; }
+                },
+                title: {
+                  display: true,
+                  text: 'Put/Call →',
+                  color: '#5a6068',
+                  font: { size: 10 }
                 }
               }
             }
@@ -404,17 +445,18 @@
         hide('tableLoading');
         show('tableWrap');
 
-        var today      = new Date();
-        today.setHours(0, 0, 0, 0);
-        var cutoff     = new Date();
-        cutoff.setUTCHours(21, 0, 0, 0);
-        var mktClosed  = new Date() >= cutoff;
+        var today    = new Date(); today.setHours(0, 0, 0, 0);
+        var cutoff   = new Date(); cutoff.setUTCHours(21, 0, 0, 0);
+        var mktClosed = new Date() >= cutoff;
 
         document.getElementById('expiryBody').innerHTML = sd.moves.map(function(m) {
-          var exp     = new Date(m.expiration + 'T12:00:00Z');
-          var expired = mktClosed ? exp <= today : exp < today;
+          var exp      = new Date(m.expiration + 'T12:00:00Z');
+          var expired  = mktClosed ? exp <= today : exp < today;
           var rowStyle = expired ? 'opacity:0.4;' : '';
           var pastTag  = expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '';
+          var pc       = m.put_call_ratio;
+          var pcCls    = pc ? (pc > 1.0 ? 'color:#e05252;' : 'color:#1ABC9C;') : 'color:#5a6068;';
+
           return '<tr style="' + rowStyle + '">' +
             '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + pastTag + '</td>' +
             '<td style="color:#7F8C8D;">' + m.days_to_expiry + 'd</td>' +
@@ -424,6 +466,7 @@
             '<td style="color:#e05252;">$' + m.put_price.toFixed(2) + '</td>' +
             '<td style="font-weight:600;color:#e0e0e0;">+/-$' + m.expected_move.toFixed(2) + '</td>' +
             '<td style="font-weight:600;color:#e0e0e0;">+/-' + m.expected_move_pct.toFixed(2) + '%</td>' +
+            '<td style="font-weight:700;' + pcCls + '">' + (pc ? pc.toFixed(2) : '—') + '</td>' +
             '<td style="color:#1ABC9C;font-weight:600;">$' + m.upper_target.toFixed(2) + '</td>' +
             '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
           '</tr>';
