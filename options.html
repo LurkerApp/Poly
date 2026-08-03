@@ -20,22 +20,31 @@
       }
       .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
       .em-chart-wrap { position: relative; height: 380px; }
-      .em-stats {
+
+      /* Metric cards below chart */
+      .metric-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 0.75rem;
-        margin-top: 1rem;
+        margin-top: 1.25rem;
       }
-      .em-stat {
+      .metric-card {
         background: #252830;
-        border-radius: 6px;
-        padding: 0.75rem 1rem;
-        text-align: center;
+        border-radius: 8px;
+        padding: 0.9rem 1rem;
+        border: 1px solid #2a2d30;
       }
-      .em-stat-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
-      .em-stat-value { font-size: 16px; font-weight: 700; color: #e0e0e0; }
-      .em-stat-value.up   { color: #1ABC9C; }
-      .em-stat-value.down { color: #e05252; }
+      .metric-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+      .metric-value { font-size: 20px; font-weight: 700; color: #e0e0e0; }
+      .metric-sub   { font-size: 11px; color: #5a6068; margin-top: 4px; line-height: 1.4; }
+      .metric-pill  { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px; margin-top: 5px; }
+      .pill-green   { background: #1e2e2a; color: #1ABC9C; }
+      .pill-red     { background: #2e1e1e; color: #e05252; }
+      .pill-yellow  { background: #2e2a1a; color: #f0a500; }
+      .pill-grey    { background: #252830; color: #7F8C8D; }
+
+      /* Expiry table */
+      .expiry-table { margin-top: 1.5rem; }
     </style>
   </head>
   <body>
@@ -47,7 +56,7 @@
         <p>Expected move projections for SPY and QQQ — updated at 9am & 12pm EST daily</p>
       </div>
 
-      <!-- Stats -->
+      <!-- Top stat cards -->
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-label">SPY Price</div>
@@ -74,7 +83,7 @@
       <!-- Chart -->
       <div class="chart-section">
         <h2>Expected Move Cone <span class="refresh-badge">Live</span></h2>
-        <p class="section-sub">ATM straddle implied move across next 5 expirations — upper & lower price targets</p>
+        <p class="section-sub">The shaded area shows where the market expects the price to land by each expiration date — based on options pricing</p>
         <div id="emLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="emWrap" style="display:none;">
           <div class="em-tabs">
@@ -84,20 +93,23 @@
           <div class="em-chart-wrap">
             <canvas id="emChart"></canvas>
           </div>
-          <div class="em-stats" id="emStats"></div>
+
+          <!-- Market context metrics -->
+          <div class="metric-grid" id="metricGrid"></div>
         </div>
       </div>
 
       <!-- Expiry table -->
-      <div class="chart-section">
+      <div class="chart-section expiry-table">
         <h2 id="tableTitle">SPY — All Expirations</h2>
-        <p class="section-sub">Full breakdown of expected move per expiration date</p>
+        <p class="section-sub">Full breakdown per expiration — hover over terms for explanations</p>
         <div id="tableLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="tableWrap" class="table-scroll" style="display:none;">
           <table class="data-table">
             <thead>
               <tr>
                 <th>Expiration</th>
+                <th>DTE</th>
                 <th>Current Price</th>
                 <th>ATM Strike</th>
                 <th>Call</th>
@@ -110,6 +122,38 @@
             </thead>
             <tbody id="expiryBody"></tbody>
           </table>
+        </div>
+      </div>
+
+      <!-- Glossary -->
+      <div class="chart-section" style="margin-top:1.5rem;">
+        <h2>What does this mean?</h2>
+        <p class="section-sub">A plain-English guide to the numbers on this page</p>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1rem;">
+          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">Expected Move</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The range the options market thinks the stock will stay within by expiration. A move of ±$5 on a $500 stock means traders expect the price to stay between $495 and $505.</div>
+          </div>
+          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">VIX — Fear Index</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The VIX measures how much fear or uncertainty is in the market. Below 15 = calm. 15–25 = moderate uncertainty. Above 25 = elevated fear. Above 30 = high volatility / potential crisis.</div>
+          </div>
+          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">IV vs HV Spread</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">Implied Volatility (IV) is what options traders expect. Historical Volatility (HV) is what actually happened. When IV &gt; HV, options are expensive — sellers have an edge. When IV &lt; HV, options are cheap — buyers have an edge.</div>
+          </div>
+          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">Put/Call Ratio</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">Compares the number of put options (bets the market goes down) vs call options (bets it goes up). Above 1.0 means more bearish bets. Below 0.7 means more bullish bets. Around 0.8 is neutral.</div>
+          </div>
+          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">DTE — Days to Expiry</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">How many days until the options contract expires. Shorter DTE = smaller expected move but faster time decay. Longer DTE = larger expected move with more time for the trade to play out.</div>
+          </div>
+          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
+            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">ATM Straddle</div>
+            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">We calculate the expected move by adding the price of the At-The-Money call and put options. This is the classic "straddle" trade — buying both sides. The combined price tells you how much the market expects to move.</div>
+          </div>
         </div>
       </div>
 
@@ -132,39 +176,55 @@
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
       // Returns the next upcoming expiration
-      // After 4pm EST (21:00 UTC) on expiry day, skip to next one
       function getNextExpiry(moves) {
         var now   = new Date();
         var today = new Date();
         today.setHours(0, 0, 0, 0);
-
-        // Market closes at 4pm EST = 21:00 UTC
         var cutoff = new Date();
         cutoff.setUTCHours(21, 0, 0, 0);
         var marketClosed = now >= cutoff;
-
         for (var i = 0; i < moves.length; i++) {
           var exp = new Date(moves[i].expiration + 'T12:00:00Z');
-          // If market is closed, skip today's expiry too
-          if (marketClosed) {
-            if (exp > today) return moves[i];
-          } else {
-            if (exp >= today) return moves[i];
-          }
+          if (marketClosed ? exp > today : exp >= today) return moves[i];
         }
-        // Fallback to last move if all have passed
         return moves[moves.length - 1];
       }
 
-      // Top stat cards
+      // ── VIX interpretation ────────────────────────────────
+      function vixLabel(vix) {
+        if (!vix) return { text: '—', cls: 'pill-grey', meaning: '' };
+        if (vix < 15)  return { text: 'Calm',     cls: 'pill-green',  meaning: 'Low fear — markets are relaxed' };
+        if (vix < 20)  return { text: 'Normal',   cls: 'pill-green',  meaning: 'Moderate — typical market conditions' };
+        if (vix < 25)  return { text: 'Elevated', cls: 'pill-yellow', meaning: 'Some uncertainty in the market' };
+        if (vix < 30)  return { text: 'High',     cls: 'pill-red',    meaning: 'Elevated fear — expect bigger swings' };
+        return           { text: 'Extreme',  cls: 'pill-red',    meaning: 'Crisis-level fear — very high volatility' };
+      }
+
+      // ── IV vs HV interpretation ───────────────────────────
+      function ivHvLabel(spread) {
+        if (spread === null || spread === undefined) return { text: '—', cls: 'pill-grey', meaning: '' };
+        if (spread > 5)  return { text: 'Options Expensive', cls: 'pill-red',    meaning: 'IV well above HV — sellers have an edge' };
+        if (spread > 2)  return { text: 'Slight Premium',    cls: 'pill-yellow', meaning: 'Options slightly elevated' };
+        if (spread > -2) return { text: 'Fair Value',        cls: 'pill-green',  meaning: 'IV near HV — fairly priced options' };
+        return            { text: 'Options Cheap',   cls: 'pill-green',  meaning: 'IV below HV — buyers have an edge' };
+      }
+
+      // ── Put/Call interpretation ───────────────────────────
+      function pcLabel(ratio) {
+        if (!ratio) return { text: '—', cls: 'pill-grey', meaning: '' };
+        if (ratio > 1.2) return { text: 'Bearish',  cls: 'pill-red',    meaning: 'More puts than calls — market leaning bearish' };
+        if (ratio > 0.9) return { text: 'Cautious', cls: 'pill-yellow', meaning: 'Slightly more puts — mild bearish lean' };
+        if (ratio > 0.6) return { text: 'Neutral',  cls: 'pill-green',  meaning: 'Balanced — no strong directional bias' };
+        return            { text: 'Bullish',  cls: 'pill-green',  meaning: 'More calls than puts — market leaning bullish' };
+      }
+
+      // ── Top stat cards ────────────────────────────────────
       function renderTopStats(data) {
-        var spy = null;
-        var qqq = null;
+        var spy = null, qqq = null;
         for (var i = 0; i < (data.symbols || []).length; i++) {
           if (data.symbols[i].symbol === 'SPY') spy = data.symbols[i];
           if (data.symbols[i].symbol === 'QQQ') qqq = data.symbols[i];
         }
-
         if (spy && spy.moves.length) {
           var m = getNextExpiry(spy.moves);
           document.getElementById('statSpyPrice').textContent = '$' + spy.current_price.toFixed(2);
@@ -181,22 +241,63 @@
         }
       }
 
-      // Line chart
+      // ── Metric cards ──────────────────────────────────────
+      function renderMetrics(symbol) {
+        if (!emData) return;
+        var sd  = null;
+        for (var i = 0; i < (emData.symbols || []).length; i++) {
+          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
+        }
+        if (!sd) return;
+
+        var vix    = emData.vix;
+        var hv     = sd.hv_20d;
+        var pc     = sd.put_call_ratio;
+        var spread = sd.iv_hv_spread;
+        var n      = getNextExpiry(sd.moves);
+
+        var vixL   = vixLabel(vix);
+        var ivHvL  = ivHvLabel(spread);
+        var pcL    = pcLabel(pc);
+
+        document.getElementById('metricGrid').innerHTML =
+          '<div class="metric-card">' +
+            '<div class="metric-label">VIX — Fear Index</div>' +
+            '<div class="metric-value">' + (vix ? vix.toFixed(1) : '—') + '</div>' +
+            '<div class="metric-sub">' + vixL.meaning + '</div>' +
+            '<span class="metric-pill ' + vixL.cls + '">' + vixL.text + '</span>' +
+          '</div>' +
+          '<div class="metric-card">' +
+            '<div class="metric-label">20-Day Hist. Vol (HV)</div>' +
+            '<div class="metric-value">' + (hv ? hv.toFixed(1) + '%' : '—') + '</div>' +
+            '<div class="metric-sub">What ' + symbol + ' actually moved the last 20 days, annualized</div>' +
+          '</div>' +
+          '<div class="metric-card">' +
+            '<div class="metric-label">IV vs HV Spread</div>' +
+            '<div class="metric-value">' + (spread !== null && spread !== undefined ? (spread > 0 ? '+' : '') + spread.toFixed(1) + '%' : '—') + '</div>' +
+            '<div class="metric-sub">' + ivHvL.meaning + '</div>' +
+            '<span class="metric-pill ' + ivHvL.cls + '">' + ivHvL.text + '</span>' +
+          '</div>' +
+          '<div class="metric-card">' +
+            '<div class="metric-label">Put / Call Ratio</div>' +
+            '<div class="metric-value">' + (pc ? pc.toFixed(2) : '—') + '</div>' +
+            '<div class="metric-sub">' + pcL.meaning + '</div>' +
+            '<span class="metric-pill ' + pcL.cls + '">' + pcL.text + '</span>' +
+          '</div>';
+      }
+
+      // ── Line chart ────────────────────────────────────────
       function renderEmChart(symbol) {
         if (!emData) return;
-
-        var symbolData = null;
+        var sd = null;
         for (var i = 0; i < (emData.symbols || []).length; i++) {
-          if (emData.symbols[i].symbol === symbol) {
-            symbolData = emData.symbols[i];
-            break;
-          }
+          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
         }
-        if (!symbolData) return;
+        if (!sd) return;
 
-        var moves        = symbolData.moves;
-        var currentPrice = symbolData.current_price;
-        var labels       = moves.map(function(m) { return fmtExp(m.expiration); });
+        var moves        = sd.moves;
+        var currentPrice = sd.current_price;
+        var labels       = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
         var uppers       = moves.map(function(m) { return m.upper_target; });
         var lowers       = moves.map(function(m) { return m.lower_target; });
         var centers      = moves.map(function()  { return currentPrice; });
@@ -210,7 +311,7 @@
             labels: labels,
             datasets: [
               {
-                label: 'Upper Target',
+                label: 'Upper Target (+)',
                 data: uppers,
                 borderColor: '#1ABC9C',
                 backgroundColor: 'rgba(26,188,156,0.1)',
@@ -232,7 +333,7 @@
                 fill: false
               },
               {
-                label: 'Lower Target',
+                label: 'Lower Target (-)',
                 data: lowers,
                 borderColor: '#e05252',
                 backgroundColor: 'rgba(224,82,82,0.1)',
@@ -273,13 +374,13 @@
             scales: {
               x: {
                 grid: { color: '#252830' },
-                ticks: { color: '#7F8C8D', font: { size: 12 } }
+                ticks: { color: '#7F8C8D', font: { size: 11 } }
               },
               y: {
                 grid: { color: '#252830' },
                 ticks: {
                   color: '#7F8C8D',
-                  font: { size: 12 },
+                  font: { size: 11 },
                   callback: function(v) { return '$' + v.toFixed(0); }
                 }
               }
@@ -287,56 +388,36 @@
           }
         });
 
-        // Stat cards below chart — use next upcoming expiry
-        var n = getNextExpiry(moves);
-        document.getElementById('emStats').innerHTML =
-          '<div class="em-stat">' +
-            '<div class="em-stat-label">Current Price</div>' +
-            '<div class="em-stat-value">$' + currentPrice.toFixed(2) + '</div>' +
-          '</div>' +
-          '<div class="em-stat">' +
-            '<div class="em-stat-label">Upper (' + fmtExp(n.expiration) + ')</div>' +
-            '<div class="em-stat-value up">$' + n.upper_target.toFixed(2) +
-              ' <span style="font-size:11px;color:#5a6068;">+' + n.expected_move_pct.toFixed(2) + '%</span></div>' +
-          '</div>' +
-          '<div class="em-stat">' +
-            '<div class="em-stat-label">Lower (' + fmtExp(n.expiration) + ')</div>' +
-            '<div class="em-stat-value down">$' + n.lower_target.toFixed(2) +
-              ' <span style="font-size:11px;color:#5a6068;">-' + n.expected_move_pct.toFixed(2) + '%</span></div>' +
-          '</div>';
-
+        renderMetrics(symbol);
         renderTable(symbol);
       }
 
-      // Expiry table
+      // ── Expiry table ──────────────────────────────────────
       function renderTable(symbol) {
-        var symbolData = null;
+        var sd = null;
         for (var i = 0; i < (emData.symbols || []).length; i++) {
-          if (emData.symbols[i].symbol === symbol) {
-            symbolData = emData.symbols[i];
-            break;
-          }
+          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
         }
-        if (!symbolData) return;
+        if (!sd) return;
 
-        document.getElementById('tableTitle').textContent = symbol + ' - All Expirations';
+        document.getElementById('tableTitle').textContent = symbol + ' — All Expirations';
         hide('tableLoading');
         show('tableWrap');
 
-        var now      = new Date();
-        var today    = new Date();
+        var today      = new Date();
         today.setHours(0, 0, 0, 0);
-        var cutoff   = new Date();
+        var cutoff     = new Date();
         cutoff.setUTCHours(21, 0, 0, 0);
-        var marketClosed = now >= cutoff;
+        var mktClosed  = new Date() >= cutoff;
 
-        document.getElementById('expiryBody').innerHTML = symbolData.moves.map(function(m) {
+        document.getElementById('expiryBody').innerHTML = sd.moves.map(function(m) {
           var exp     = new Date(m.expiration + 'T12:00:00Z');
-          var expired = marketClosed ? exp <= today : exp < today;
+          var expired = mktClosed ? exp <= today : exp < today;
           var rowStyle = expired ? 'opacity:0.4;' : '';
           var pastTag  = expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '';
           return '<tr style="' + rowStyle + '">' +
             '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + pastTag + '</td>' +
+            '<td style="color:#7F8C8D;">' + m.days_to_expiry + 'd</td>' +
             '<td>$' + m.current_price.toFixed(2) + '</td>' +
             '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
             '<td style="color:#1ABC9C;">$' + m.call_price.toFixed(2) + '</td>' +
@@ -357,7 +438,7 @@
         renderEmChart(symbol);
       }
 
-      // Init
+      // ── Init ─────────────────────────────────────────────
       function init() {
         fetch(EXP_MOVE_URL + '?t=' + Date.now())
           .then(function(resp) {
