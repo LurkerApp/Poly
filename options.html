@@ -302,6 +302,76 @@
       var pcChart = null;
       var oiChart = null;
 
+      // ── OI Profile plugin — draws horizontal bars on right side ──
+      var oiProfilePlugin = {
+        id: 'oiProfile',
+        afterDraw: function(chart) {
+          if (!chart._oiData) return;
+          var oi      = chart._oiData;
+          var ctx     = chart.ctx;
+          var yAxis   = chart.scales.y;
+          var xRight  = chart.chartArea.right;
+          var barMaxW = 80;   // max bar width in px
+          var maxOI   = oi.maxOI || 1;
+
+          ctx.save();
+
+          // Draw call OI bars (teal, from right going left)
+          oi.calls.forEach(function(c) {
+            if (!c.open_interest) return;
+            var y    = yAxis.getPixelForValue(c.strike);
+            var barW = (c.open_interest / maxOI) * barMaxW;
+            ctx.fillStyle = 'rgba(26,188,156,0.5)';
+            ctx.fillRect(xRight - barW, y - 5, barW, 10);
+          });
+
+          // Draw put OI bars (red, from right going left, slightly offset)
+          oi.puts.forEach(function(p) {
+            if (!p.open_interest) return;
+            var y    = yAxis.getPixelForValue(p.strike);
+            var barW = (p.open_interest / maxOI) * barMaxW;
+            ctx.fillStyle = 'rgba(224,82,82,0.5)';
+            ctx.fillRect(xRight - barW, y + 1, barW, 6);
+          });
+
+          // Draw strike labels for top OI
+          ctx.fillStyle = '#7F8C8D';
+          ctx.font      = '9px Inter, sans-serif';
+          ctx.textAlign = 'right';
+
+          var topCalls = oi.calls.slice().sort(function(a,b){ return b.open_interest - a.open_interest; }).slice(0,3);
+          var topPuts  = oi.puts.slice().sort(function(a,b){ return b.open_interest - a.open_interest; }).slice(0,3);
+
+          topCalls.forEach(function(c) {
+            var y = yAxis.getPixelForValue(c.strike);
+            ctx.fillStyle = '#1ABC9C';
+            ctx.fillText('$' + c.strike, xRight - 2, y - 7);
+          });
+          topPuts.forEach(function(p) {
+            var y = yAxis.getPixelForValue(p.strike);
+            ctx.fillStyle = '#e05252';
+            ctx.fillText('$' + p.strike, xRight - 2, y + 17);
+          });
+
+          // Legend
+          ctx.fillStyle = 'rgba(26,188,156,0.7)';
+          ctx.fillRect(xRight - 79, chart.chartArea.top + 6, 10, 8);
+          ctx.fillStyle = '#7F8C8D';
+          ctx.font      = '9px Inter, sans-serif';
+          ctx.textAlign = 'left';
+          ctx.fillText('Call OI', xRight - 66, chart.chartArea.top + 13);
+
+          ctx.fillStyle = 'rgba(224,82,82,0.7)';
+          ctx.fillRect(xRight - 79, chart.chartArea.top + 18, 10, 8);
+          ctx.fillStyle = '#7F8C8D';
+          ctx.fillText('Put OI', xRight - 66, chart.chartArea.top + 25);
+
+          ctx.restore();
+        }
+      };
+
+      Chart.register(oiProfilePlugin);
+
       // ── Line chart (top) ──────────────────────────────────
       function renderEmChart(symbol) {
         if (!emData) return;
@@ -319,6 +389,18 @@
         var uppers  = moves.map(function(m) { return m.upper_target; });
         var lowers  = moves.map(function(m) { return m.lower_target; });
         var centers = moves.map(function()  { return currentPrice; });
+
+        // Prep OI data for plugin
+        var oiData = null;
+        if (sd.oi_analysis) {
+          var allOI = sd.oi_analysis.top_calls.map(function(c){ return c.open_interest; })
+            .concat(sd.oi_analysis.top_puts.map(function(p){ return p.open_interest; }));
+          oiData = {
+            calls:  sd.oi_analysis.top_calls,
+            puts:   sd.oi_analysis.top_puts,
+            maxOI:  Math.max.apply(null, allOI.filter(function(v){ return v > 0; })) || 1
+          };
+        }
 
         if (emChart) { emChart.destroy(); emChart = null; }
 
@@ -367,6 +449,7 @@
           options: {
             responsive: true,
             maintainAspectRatio: false,
+            layout: { padding: { right: 90 } },
             interaction: { mode: 'index', intersect: false },
             plugins: {
               legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
@@ -379,7 +462,8 @@
                     return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
                   }
                 }
-              }
+              },
+              oiProfile: true
             },
             scales: {
               x: { grid: { color: '#252830' }, ticks: { color: '#7F8C8D', font: { size: 11 } } },
@@ -390,6 +474,9 @@
             }
           }
         });
+
+        // Attach OI data to chart instance for plugin
+        if (oiData) emChart._oiData = oiData;
 
         // ── Bar chart (below) — Put/Call per expiry ───────
         var pcRatios   = moves.map(function(m) { return m.put_call_ratio; });
