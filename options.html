@@ -19,7 +19,8 @@
         transition: all 0.15s;
       }
       .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
-      .em-chart-wrap { position: relative; height: 400px; }
+      .em-chart-wrap { position: relative; height: 320px; }
+      .em-bar-wrap { position: relative; height: 80px; margin-top: 4px; }
 
       .metric-grid {
         display: grid;
@@ -86,6 +87,9 @@
           </div>
           <div class="em-chart-wrap">
             <canvas id="emChart"></canvas>
+          </div>
+          <div class="em-bar-wrap">
+            <canvas id="pcChart"></canvas>
           </div>
           <div class="metric-grid" id="metricGrid"></div>
         </div>
@@ -274,7 +278,9 @@
           '</div>';
       }
 
-      // ── Line + bar chart ──────────────────────────────────
+      var pcChart = null;
+
+      // ── Line chart (top) ──────────────────────────────────
       function renderEmChart(symbol) {
         if (!emData) return;
         var sd = null;
@@ -291,43 +297,28 @@
         var uppers  = moves.map(function(m) { return m.upper_target; });
         var lowers  = moves.map(function(m) { return m.lower_target; });
         var centers = moves.map(function()  { return currentPrice; });
-        var pcRatios = moves.map(function(m) { return m.put_call_ratio; });
-
-        // Bar colors: red if bearish (>1.0), teal if bullish
-        var barColors = pcRatios.map(function(r) {
-          if (r === null) return 'rgba(90,96,104,0.3)';
-          return r > 1.0 ? 'rgba(224,82,82,0.75)' : 'rgba(26,188,156,0.75)';
-        });
-        var barBorders = pcRatios.map(function(r) {
-          if (r === null) return '#5a6068';
-          return r > 1.0 ? '#e05252' : '#1ABC9C';
-        });
 
         if (emChart) { emChart.destroy(); emChart = null; }
 
         var ctx = document.getElementById('emChart').getContext('2d');
         emChart = new Chart(ctx, {
+          type: 'line',
           data: {
             labels: labels,
             datasets: [
               {
-                type: 'line',
-                order: 1,
                 label: 'Upper Target (+)',
                 data: uppers,
                 borderColor: '#1ABC9C',
-                backgroundColor: 'rgba(26,188,156,0.04)',
+                backgroundColor: 'rgba(26,188,156,0.1)',
                 borderWidth: 2,
                 pointBackgroundColor: '#1ABC9C',
                 pointRadius: 5,
                 pointHoverRadius: 7,
                 tension: 0.3,
-                fill: '+1',
-                yAxisID: 'y'
+                fill: '+1'
               },
               {
-                type: 'line',
-                order: 1,
                 label: 'Current Price',
                 data: centers,
                 borderColor: '#7F8C8D',
@@ -335,34 +326,19 @@
                 borderDash: [6, 4],
                 pointRadius: 0,
                 tension: 0,
-                fill: false,
-                yAxisID: 'y'
+                fill: false
               },
               {
-                type: 'line',
-                order: 1,
                 label: 'Lower Target (-)',
                 data: lowers,
                 borderColor: '#e05252',
-                backgroundColor: 'rgba(224,82,82,0.04)',
+                backgroundColor: 'rgba(224,82,82,0.1)',
                 borderWidth: 2,
                 pointBackgroundColor: '#e05252',
                 pointRadius: 5,
                 pointHoverRadius: 7,
                 tension: 0.3,
-                fill: false,
-                yAxisID: 'y'
-              },
-              {
-                type: 'bar',
-                order: 0,
-                label: 'Put/Call Ratio',
-                data: pcRatios,
-                backgroundColor: barColors,
-                borderColor: barBorders,
-                borderWidth: 1,
-                borderRadius: 3,
-                yAxisID: 'y2'
+                fill: false
               }
             ]
           },
@@ -371,28 +347,71 @@
             maintainAspectRatio: false,
             interaction: { mode: 'index', intersect: false },
             plugins: {
-              legend: {
-                labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 }
-              },
+              legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
               tooltip: {
-                backgroundColor: '#1f2224',
-                borderColor: '#2a2d30',
-                borderWidth: 1,
-                titleColor: '#e0e0e0',
-                bodyColor: '#c0c0c0',
-                padding: 10,
+                backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1,
+                titleColor: '#e0e0e0', bodyColor: '#c0c0c0', padding: 10,
                 callbacks: {
                   label: function(ctx) {
-                    if (ctx.dataset.label === 'Current Price') {
-                      return ' Current: $' + ctx.parsed.y.toFixed(2);
-                    }
-                    if (ctx.dataset.label === 'Put/Call Ratio') {
-                      var r = ctx.parsed.y;
-                      if (r === null) return ' Put/Call: —';
-                      var sentiment = r > 1.2 ? 'Bearish' : r > 0.9 ? 'Cautious' : r > 0.6 ? 'Neutral' : 'Bullish';
-                      return ' Put/Call: ' + (r ? r.toFixed(2) : '—') + ' (' + sentiment + ')';
-                    }
+                    if (ctx.dataset.label === 'Current Price') return ' Current: $' + ctx.parsed.y.toFixed(2);
                     return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
+                  }
+                }
+              }
+            },
+            scales: {
+              x: { grid: { color: '#252830' }, ticks: { color: '#7F8C8D', font: { size: 11 } } },
+              y: {
+                grid: { color: '#252830' },
+                ticks: { color: '#7F8C8D', font: { size: 11 }, callback: function(v) { return '$' + v.toFixed(0); } }
+              }
+            }
+          }
+        });
+
+        // ── Bar chart (below) — Put/Call per expiry ───────
+        var pcRatios   = moves.map(function(m) { return m.put_call_ratio; });
+        var barColors  = pcRatios.map(function(r) {
+          if (r === null) return 'rgba(90,96,104,0.4)';
+          return r > 1.0 ? 'rgba(224,82,82,0.8)' : 'rgba(26,188,156,0.8)';
+        });
+        var barBorders = pcRatios.map(function(r) {
+          if (r === null) return '#5a6068';
+          return r > 1.0 ? '#e05252' : '#1ABC9C';
+        });
+
+        if (pcChart) { pcChart.destroy(); pcChart = null; }
+
+        var ctx2 = document.getElementById('pcChart').getContext('2d');
+        pcChart = new Chart(ctx2, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Put/Call Ratio',
+              data: pcRatios,
+              backgroundColor: barColors,
+              borderColor: barBorders,
+              borderWidth: 1,
+              borderRadius: 3,
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1,
+                titleColor: '#e0e0e0', bodyColor: '#c0c0c0', padding: 8,
+                callbacks: {
+                  title: function() { return ''; },
+                  label: function(ctx) {
+                    var r = ctx.parsed.y;
+                    if (r === null) return ' Put/Call: —';
+                    var s = r > 1.2 ? 'Bearish' : r > 0.9 ? 'Cautious' : r > 0.6 ? 'Neutral' : 'Bullish';
+                    return ' P/C: ' + r.toFixed(2) + ' — ' + s;
                   }
                 }
               }
@@ -400,32 +419,23 @@
             scales: {
               x: {
                 grid: { color: '#252830' },
-                ticks: { color: '#7F8C8D', font: { size: 11 } }
+                ticks: { display: false }
               },
               y: {
-                position: 'left',
+                position: 'right',
+                min: 0,
+                max: Math.max(3.0, Math.max.apply(null, pcRatios.filter(function(r){ return r !== null; })) + 0.2),
                 grid: { color: '#252830' },
                 ticks: {
-                  color: '#7F8C8D',
-                  font: { size: 11 },
-                  callback: function(v) { return '$' + v.toFixed(0); }
-                }
-              },
-              y2: {
-                position: 'right',
-                grid: { drawOnChartArea: false },
-                min: 0,
-                max: 3.0,
-                ticks: {
-                  color: '#7F8C8D',
-                  font: { size: 10 },
-                  callback: function(v) { return v.toFixed(1) + 'x'; }
+                  color: '#7F8C8D', font: { size: 9 },
+                  callback: function(v) { return v.toFixed(1) + 'x'; },
+                  maxTicksLimit: 3
                 },
                 title: {
                   display: true,
-                  text: 'Put/Call →',
+                  text: 'Put/Call',
                   color: '#5a6068',
-                  font: { size: 10 }
+                  font: { size: 9 }
                 }
               }
             }
