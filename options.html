@@ -296,7 +296,7 @@
         // Bar colors: red if bearish (>1.0), teal if bullish
         var barColors = pcRatios.map(function(r) {
           if (r === null) return 'rgba(90,96,104,0.3)';
-          return r > 1.0 ? 'rgba(224,82,82,0.5)' : 'rgba(26,188,156,0.5)';
+          return r > 1.0 ? 'rgba(224,82,82,0.75)' : 'rgba(26,188,156,0.75)';
         });
         var barBorders = pcRatios.map(function(r) {
           if (r === null) return '#5a6068';
@@ -312,10 +312,11 @@
             datasets: [
               {
                 type: 'line',
+                order: 1,
                 label: 'Upper Target (+)',
                 data: uppers,
                 borderColor: '#1ABC9C',
-                backgroundColor: 'rgba(26,188,156,0.08)',
+                backgroundColor: 'rgba(26,188,156,0.04)',
                 borderWidth: 2,
                 pointBackgroundColor: '#1ABC9C',
                 pointRadius: 5,
@@ -326,6 +327,7 @@
               },
               {
                 type: 'line',
+                order: 1,
                 label: 'Current Price',
                 data: centers,
                 borderColor: '#7F8C8D',
@@ -338,10 +340,11 @@
               },
               {
                 type: 'line',
+                order: 1,
                 label: 'Lower Target (-)',
                 data: lowers,
                 borderColor: '#e05252',
-                backgroundColor: 'rgba(224,82,82,0.08)',
+                backgroundColor: 'rgba(224,82,82,0.04)',
                 borderWidth: 2,
                 pointBackgroundColor: '#e05252',
                 pointRadius: 5,
@@ -352,14 +355,14 @@
               },
               {
                 type: 'bar',
+                order: 0,
                 label: 'Put/Call Ratio',
                 data: pcRatios,
                 backgroundColor: barColors,
                 borderColor: barBorders,
                 borderWidth: 1,
                 borderRadius: 3,
-                yAxisID: 'y2',
-                order: 2
+                yAxisID: 'y2'
               }
             ]
           },
@@ -412,7 +415,7 @@
                 position: 'right',
                 grid: { drawOnChartArea: false },
                 min: 0,
-                max: 2.5,
+                max: 3.0,
                 ticks: {
                   color: '#7F8C8D',
                   font: { size: 10 },
