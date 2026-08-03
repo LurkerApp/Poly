@@ -21,6 +21,7 @@
       .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
       .em-chart-wrap { position: relative; height: 320px; }
       .em-bar-wrap { position: relative; height: 80px; margin-top: 4px; }
+      .em-oi-wrap { position: relative; height: 160px; margin-top: 1.25rem; }
 
       .metric-grid {
         display: grid;
@@ -92,6 +93,26 @@
             <canvas id="pcChart"></canvas>
           </div>
           <div class="metric-grid" id="metricGrid"></div>
+
+          <!-- OI Analysis -->
+          <div style="margin-top:1.25rem;">
+            <div style="font-size:13px;font-weight:600;color:#e0e0e0;margin-bottom:4px;">Open Interest by Strike <span style="font-size:11px;font-weight:400;color:#5a6068;">— nearest expiration only</span></div>
+            <div style="font-size:12px;color:#7F8C8D;margin-bottom:0.75rem;">Strikes with the most open interest act as price magnets. The <span style="color:#1ABC9C;">teal bars</span> are call strikes (bullish bets), <span style="color:#e05252;">red bars</span> are put strikes (bearish bets). Max Pain is where market makers lose the least.</div>
+            <div style="display:flex;gap:1rem;margin-bottom:0.75rem;flex-wrap:wrap;">
+              <div style="background:#252830;border-radius:6px;padding:0.6rem 1rem;display:flex;align-items:center;gap:0.75rem;">
+                <div>
+                  <div style="font-size:10px;color:#7F8C8D;text-transform:uppercase;letter-spacing:0.5px;">Max Pain</div>
+                  <div style="font-size:18px;font-weight:700;color:#e0e0e0;" id="maxPainVal">—</div>
+                </div>
+                <div style="font-size:11px;color:#5a6068;" id="maxPainDiff"></div>
+              </div>
+              <div style="background:#252830;border-radius:6px;padding:0.6rem 1rem;">
+                <div style="font-size:10px;color:#7F8C8D;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:2px;">What is Max Pain?</div>
+                <div style="font-size:12px;color:#7F8C8D;line-height:1.5;">The strike price where the most options expire worthless — price tends to drift here near expiration</div>
+              </div>
+            </div>
+            <div class="em-oi-wrap"><canvas id="oiChart"></canvas></div>
+          </div>
         </div>
       </div>
 
@@ -279,6 +300,7 @@
       }
 
       var pcChart = null;
+      var oiChart = null;
 
       // ── Line chart (top) ──────────────────────────────────
       function renderEmChart(symbol) {
@@ -443,6 +465,7 @@
         });
 
         renderMetrics(symbol);
+        renderOIChart(symbol);
         renderTable(symbol);
       }
 
@@ -484,6 +507,109 @@
             '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
           '</tr>';
         }).join('');
+      }
+
+      // ── OI Chart ─────────────────────────────────────────
+      function renderOIChart(symbol) {
+        if (!emData) return;
+        var sd = null;
+        for (var i = 0; i < (emData.symbols || []).length; i++) {
+          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
+        }
+        if (!sd || !sd.oi_analysis) return;
+
+        var oi = sd.oi_analysis;
+
+        // Update max pain
+        document.getElementById('maxPainVal').textContent = oi.max_pain ? '$' + oi.max_pain.toFixed(2) : '—';
+        var diff = oi.max_pain_diff;
+        var diffEl = document.getElementById('maxPainDiff');
+        if (diff !== null && diff !== undefined) {
+          var sign = diff >= 0 ? '+' : '';
+          diffEl.textContent = sign + diff.toFixed(2) + ' from current';
+          diffEl.style.color = diff >= 0 ? '#1ABC9C' : '#e05252';
+        }
+
+        // Build combined labels and datasets
+        var callStrikes = oi.top_calls.map(function(c) { return '$' + c.strike; });
+        var putStrikes  = oi.top_puts.map(function(p)  { return '$' + p.strike; });
+        var callOI      = oi.top_calls.map(function(c) { return c.open_interest; });
+        var putOI       = oi.top_puts.map(function(p)  { return p.open_interest; });
+
+        if (oiChart) { oiChart.destroy(); oiChart = null; }
+
+        var ctx3 = document.getElementById('oiChart').getContext('2d');
+        oiChart = new Chart(ctx3, {
+          type: 'bar',
+          data: {
+            labels: ['Calls', '', '', '', '', 'Puts', '', '', '', ''].slice(0, callStrikes.length + putStrikes.length),
+            datasets: [
+              {
+                label: 'Call OI',
+                data: callOI.concat(new Array(putStrikes.length).fill(0)),
+                backgroundColor: 'rgba(26,188,156,0.75)',
+                borderColor: '#1ABC9C',
+                borderWidth: 1,
+                borderRadius: 3,
+              },
+              {
+                label: 'Put OI',
+                data: new Array(callStrikes.length).fill(0).concat(putOI),
+                backgroundColor: 'rgba(224,82,82,0.75)',
+                borderColor: '#e05252',
+                borderWidth: 1,
+                borderRadius: 3,
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+              legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
+              tooltip: {
+                backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1,
+                titleColor: '#e0e0e0', bodyColor: '#c0c0c0', padding: 8,
+                callbacks: {
+                  title: function(items) {
+                    var idx = items[0].dataIndex;
+                    var allStrikes = callStrikes.concat(putStrikes);
+                    return allStrikes[idx] ? 'Strike ' + allStrikes[idx] : '';
+                  },
+                  label: function(ctx) {
+                    if (ctx.parsed.y === 0) return null;
+                    return ' ' + ctx.dataset.label + ': ' + ctx.parsed.y.toLocaleString();
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                stacked: false,
+                grid: { color: '#252830' },
+                ticks: {
+                  color: '#7F8C8D', font: { size: 10 },
+                  callback: function(val, idx) {
+                    var allStrikes = callStrikes.concat(putStrikes);
+                    return allStrikes[idx] || '';
+                  }
+                }
+              },
+              y: {
+                grid: { color: '#252830' },
+                ticks: {
+                  color: '#7F8C8D', font: { size: 10 },
+                  callback: function(v) {
+                    if (v >= 1e6) return (v/1e6).toFixed(1) + 'M';
+                    if (v >= 1e3) return (v/1e3).toFixed(0) + 'K';
+                    return v;
+                  }
+                }
+              }
+            }
+          }
+        });
       }
 
       function switchTab(symbol) {
