@@ -5,42 +5,22 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <style>
-      .em-tabs {
-        display: flex;
-        gap: 0.5rem;
-        margin-bottom: 1.25rem;
-      }
-      .em-tab {
-        font-size: 12px; font-weight: 600;
-        padding: 4px 14px; border-radius: 4px;
-        border: 1px solid #2a2d30;
-        background: transparent; color: #7F8C8D;
-        cursor: pointer; font-family: inherit;
-        transition: all 0.15s;
-      }
-      .em-tab.active { background: #1ABC9C; color: #141618; border-color: #1ABC9C; }
-      .em-chart-wrap { position: relative; height: 320px; }
-      .em-bar-wrap { position: relative; height: 80px; margin-top: 4px; }
-      .em-oi-wrap { position: relative; height: 160px; margin-top: 1.25rem; }
+      .em-tabs { display:flex; gap:0.5rem; margin-bottom:1.25rem; }
+      .em-tab { font-size:12px; font-weight:600; padding:4px 14px; border-radius:4px; border:1px solid #2a2d30; background:transparent; color:#7F8C8D; cursor:pointer; font-family:inherit; transition:all 0.15s; }
+      .em-tab.active { background:#1ABC9C; color:#141618; border-color:#1ABC9C; }
+      .em-chart-wrap { position:relative; height:380px; }
+      .em-bar-wrap   { position:relative; height:80px; margin-top:4px; }
 
-      .metric-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.75rem;
-        margin-top: 1.25rem;
-      }
-      .metric-card {
-        background: #252830; border-radius: 8px;
-        padding: 0.9rem 1rem; border: 1px solid #2a2d30;
-      }
-      .metric-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
-      .metric-value { font-size: 20px; font-weight: 700; color: #e0e0e0; }
-      .metric-sub   { font-size: 11px; color: #5a6068; margin-top: 4px; line-height: 1.4; }
-      .metric-pill  { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px; margin-top: 5px; }
-      .pill-green  { background: #1e2e2a; color: #1ABC9C; }
-      .pill-red    { background: #2e1e1e; color: #e05252; }
-      .pill-yellow { background: #2e2a1a; color: #f0a500; }
-      .pill-grey   { background: #252830; color: #7F8C8D; }
+      .metric-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.75rem; margin-top:1.25rem; }
+      .metric-card { background:#252830; border-radius:8px; padding:0.9rem 1rem; border:1px solid #2a2d30; }
+      .metric-label { font-size:10px; color:#7F8C8D; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:3px; }
+      .metric-value { font-size:20px; font-weight:700; color:#e0e0e0; }
+      .metric-sub   { font-size:11px; color:#5a6068; margin-top:4px; line-height:1.4; }
+      .metric-pill  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:4px; margin-top:5px; }
+      .pill-green  { background:#1e2e2a; color:#1ABC9C; }
+      .pill-red    { background:#2e1e1e; color:#e05252; }
+      .pill-yellow { background:#2e2a1a; color:#f0a500; }
+      .pill-grey   { background:#252830; color:#7F8C8D; }
     </style>
   </head>
   <body>
@@ -52,7 +32,6 @@
         <p>Expected move projections for SPY and QQQ — updated at 9am & 12pm EST daily</p>
       </div>
 
-      <!-- Top stat cards -->
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-label">SPY Price</div>
@@ -76,10 +55,9 @@
         </div>
       </div>
 
-      <!-- Chart -->
       <div class="chart-section">
         <h2>Expected Move Cone <span class="refresh-badge">Live</span></h2>
-        <p class="section-sub">Teal/red bars show the Put/Call ratio per expiration (right axis) — above 1.0 means more bearish bets, below 1.0 means more bullish bets</p>
+        <p class="section-sub">Shaded area shows the expected price range. OI bars on the right show where options are concentrated — teal = calls, red = puts. Orange line = Max Pain.</p>
         <div id="emLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="emWrap" style="display:none;">
           <div class="em-tabs">
@@ -96,22 +74,26 @@
 
           <!-- OI Analysis -->
           <div style="margin-top:1.25rem;">
-            <div style="font-size:13px;font-weight:600;color:#e0e0e0;margin-bottom:4px;">Open Interest by Strike <span style="font-size:11px;font-weight:400;color:#5a6068;">— nearest expiration only</span></div>
-            <div style="font-size:12px;color:#7F8C8D;margin-bottom:0.75rem;">Strikes with the most open interest act as price magnets. The <span style="color:#1ABC9C;">teal bars</span> are call strikes (bullish bets), <span style="color:#e05252;">red bars</span> are put strikes (bearish bets). Max Pain is where market makers lose the least.</div>
+            <div style="font-size:13px;font-weight:600;color:#e0e0e0;margin-bottom:4px;">
+              Open Interest by Strike <span style="font-size:11px;font-weight:400;color:#5a6068;">— nearest expiration only</span>
+            </div>
+            <div style="font-size:12px;color:#7F8C8D;margin-bottom:0.75rem;">
+              Strikes with the most open interest act as price magnets. <span style="color:#1ABC9C;">Teal</span> = calls (bullish bets), <span style="color:#e05252;">Red</span> = puts (bearish bets). Orange dashed line = Max Pain.
+            </div>
             <div style="display:flex;gap:1rem;margin-bottom:0.75rem;flex-wrap:wrap;">
-              <div style="background:#252830;border-radius:6px;padding:0.6rem 1rem;display:flex;align-items:center;gap:0.75rem;">
-                <div>
-                  <div style="font-size:10px;color:#7F8C8D;text-transform:uppercase;letter-spacing:0.5px;">Max Pain</div>
-                  <div style="font-size:18px;font-weight:700;color:#e0e0e0;" id="maxPainVal">—</div>
-                </div>
+              <div style="background:#252830;border-radius:6px;padding:0.6rem 1rem;">
+                <div style="font-size:10px;color:#7F8C8D;text-transform:uppercase;letter-spacing:0.5px;">Max Pain</div>
+                <div style="font-size:18px;font-weight:700;color:#e0e0e0;" id="maxPainVal">—</div>
                 <div style="font-size:11px;color:#5a6068;" id="maxPainDiff"></div>
               </div>
-              <div style="background:#252830;border-radius:6px;padding:0.6rem 1rem;">
+              <div style="background:#252830;border-radius:6px;padding:0.6rem 1rem;flex:1;">
                 <div style="font-size:10px;color:#7F8C8D;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:2px;">What is Max Pain?</div>
-                <div style="font-size:12px;color:#7F8C8D;line-height:1.5;">The strike price where the most options expire worthless — price tends to drift here near expiration</div>
+                <div style="font-size:12px;color:#7F8C8D;line-height:1.5;">The strike price where the most options expire worthless — price tends to drift here near expiration as market makers hedge</div>
               </div>
             </div>
-            <div class="em-oi-wrap"><canvas id="oiChart"></canvas></div>
+            <div style="position:relative;height:200px;">
+              <canvas id="oiChart"></canvas>
+            </div>
           </div>
         </div>
       </div>
@@ -125,17 +107,9 @@
           <table class="data-table">
             <thead>
               <tr>
-                <th>Expiration</th>
-                <th>DTE</th>
-                <th>Price</th>
-                <th>ATM Strike</th>
-                <th>Call</th>
-                <th>Put</th>
-                <th>Expected Move</th>
-                <th>Move %</th>
-                <th>Put/Call</th>
-                <th>Upper</th>
-                <th>Lower</th>
+                <th>Expiration</th><th>DTE</th><th>Price</th><th>ATM Strike</th>
+                <th>Call</th><th>Put</th><th>Expected Move</th><th>Move %</th>
+                <th>Put/Call</th><th>Upper</th><th>Lower</th>
               </tr>
             </thead>
             <tbody id="expiryBody"></tbody>
@@ -146,31 +120,31 @@
       <!-- Glossary -->
       <div class="chart-section" style="margin-top:1.5rem;">
         <h2>What does this mean?</h2>
-        <p class="section-sub">A plain-English guide to the numbers on this page</p>
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1rem;">
-          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">Expected Move</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The range the options market thinks the stock will stay within by expiration. A move of ±$5 on a $500 stock means traders expect the price to stay between $495 and $505.</div>
+        <p class="section-sub">Plain-English guide to the numbers on this page</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem;">
+          <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">Expected Move</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">The range the options market thinks the stock will stay within by expiration. A ±$5 move on a $500 stock means traders expect the price to stay between $495 and $505.</div>
           </div>
-          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">VIX — Fear Index</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The VIX measures how much fear or uncertainty is in the market. Below 15 = calm. 15–25 = moderate uncertainty. Above 25 = elevated fear. Above 30 = high volatility.</div>
+          <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">VIX — Fear Index</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Measures market fear. Below 15 = calm. 15–25 = moderate. Above 25 = elevated fear. Above 30 = high volatility. All-time high was ~90 during 2008 crisis.</div>
           </div>
-          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">IV vs HV Spread</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">Implied Volatility (IV) is what options traders expect. Historical Volatility (HV) is what actually happened. When IV &gt; HV, options are expensive — sellers have an edge. When IV &lt; HV, options are cheap — buyers have an edge.</div>
+          <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">IV vs HV Spread</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">IV is what traders expect. HV is what actually happened. IV &gt; HV means options are expensive — sellers have an edge. IV &lt; HV means options are cheap — buyers have an edge.</div>
           </div>
-          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">Put/Call Ratio (bars)</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">The red/teal bars on the chart compare bearish bets (puts) vs bullish bets (calls) for each expiration. Above 1.0 = more bearish positioning. Below 1.0 = more bullish. The dotted line marks 1.0 (neutral).</div>
+          <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">Put/Call Ratio (bars below chart)</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Red bars = more puts (bearish bets) than calls. Teal bars = more calls (bullish). Above 1.0 = bearish lean. Below 1.0 = bullish lean. The dotted line marks neutral (1.0).</div>
           </div>
-          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">DTE — Days to Expiry</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">How many days until the options contract expires. Shorter DTE = smaller expected move but faster time decay. Longer DTE = larger expected move with more time for the trade to play out.</div>
+          <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">OI Profile (right side of chart)</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Horizontal bars show where options are concentrated by strike price. Wide bars = lots of open interest = strong price magnet. Teal = calls, red = puts, stacked to show total at each level.</div>
           </div>
-          <div style="background:#252830; border-radius:8px; padding:1rem 1.25rem;">
-            <div style="font-size:13px; font-weight:700; color:#1ABC9C; margin-bottom:6px;">ATM Straddle</div>
-            <div style="font-size:13px; color:#c0c0c0; line-height:1.6;">We calculate the expected move by adding the At-The-Money call and put prices. This is the classic "straddle" — buying both sides. The combined price tells you how much the market expects to move.</div>
+          <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">Max Pain</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">The strike price where the most options expire worthless. Market makers profit most here so price tends to drift toward Max Pain as expiration approaches — especially in the final days.</div>
           </div>
         </div>
       </div>
@@ -181,64 +155,171 @@
     <script src="footer.js"></script>
     <script>
       var EXP_MOVE_URL = './data/expected_move.json';
-      var emData       = null;
-      var emChart      = null;
-      var activeTab    = 'SPY';
+      var emData   = null;
+      var emChart  = null;
+      var pcChart  = null;
+      var oiChart  = null;
+      var activeTab = 'SPY';
 
-      function fmtExp(dateStr) {
-        var d = new Date(dateStr + 'T12:00:00Z');
-        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      function fmtExp(d) {
+        return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { month:'short', day:'numeric' });
       }
-
       function show(id) { document.getElementById(id).style.display = ''; }
       function hide(id) { document.getElementById(id).style.display = 'none'; }
 
       function getNextExpiry(moves) {
-        var now   = new Date();
-        var today = new Date();
-        today.setHours(0, 0, 0, 0);
-        var cutoff = new Date();
-        cutoff.setUTCHours(21, 0, 0, 0);
-        var mktClosed = now >= cutoff;
+        var today = new Date(); today.setHours(0,0,0,0);
+        var cutoff = new Date(); cutoff.setUTCHours(21,0,0,0);
+        var closed = new Date() >= cutoff;
         for (var i = 0; i < moves.length; i++) {
           var exp = new Date(moves[i].expiration + 'T12:00:00Z');
-          if (mktClosed ? exp > today : exp >= today) return moves[i];
+          if (closed ? exp > today : exp >= today) return moves[i];
         }
         return moves[moves.length - 1];
       }
 
-      function vixLabel(vix) {
-        if (!vix) return { text: '—', cls: 'pill-grey', meaning: '' };
-        if (vix < 15)  return { text: 'Calm',     cls: 'pill-green',  meaning: 'Low fear — markets are relaxed' };
-        if (vix < 20)  return { text: 'Normal',   cls: 'pill-green',  meaning: 'Moderate — typical market conditions' };
-        if (vix < 25)  return { text: 'Elevated', cls: 'pill-yellow', meaning: 'Some uncertainty in the market' };
-        if (vix < 30)  return { text: 'High',     cls: 'pill-red',    meaning: 'Elevated fear — expect bigger swings' };
-        return           { text: 'Extreme',  cls: 'pill-red',    meaning: 'Crisis-level fear — very high volatility' };
+      function vixLabel(v) {
+        if (!v) return { text:'—', cls:'pill-grey', meaning:'' };
+        if (v < 15)  return { text:'Calm',     cls:'pill-green',  meaning:'Low fear — markets are relaxed' };
+        if (v < 20)  return { text:'Normal',   cls:'pill-green',  meaning:'Moderate — typical market conditions' };
+        if (v < 25)  return { text:'Elevated', cls:'pill-yellow', meaning:'Some uncertainty in the market' };
+        if (v < 30)  return { text:'High',     cls:'pill-red',    meaning:'Elevated fear — expect bigger swings' };
+        return         { text:'Extreme',  cls:'pill-red',    meaning:'Crisis-level fear' };
+      }
+      function ivHvLabel(s) {
+        if (s === null || s === undefined) return { text:'—', cls:'pill-grey', meaning:'' };
+        if (s > 5)  return { text:'Options Expensive', cls:'pill-red',    meaning:'IV well above HV — sellers have an edge' };
+        if (s > 2)  return { text:'Slight Premium',    cls:'pill-yellow', meaning:'Options slightly elevated' };
+        if (s > -2) return { text:'Fair Value',        cls:'pill-green',  meaning:'IV near HV — fairly priced' };
+        return        { text:'Options Cheap',   cls:'pill-green',  meaning:'IV below HV — buyers have an edge' };
+      }
+      function pcLabel(r) {
+        if (!r) return { text:'—', cls:'pill-grey', meaning:'' };
+        if (r > 1.2) return { text:'Bearish',  cls:'pill-red',    meaning:'More puts than calls — market leaning bearish' };
+        if (r > 0.9) return { text:'Cautious', cls:'pill-yellow', meaning:'Slightly more puts — mild bearish lean' };
+        if (r > 0.6) return { text:'Neutral',  cls:'pill-green',  meaning:'Balanced — no strong directional bias' };
+        return         { text:'Bullish',  cls:'pill-green',  meaning:'More calls than puts — market leaning bullish' };
       }
 
-      function ivHvLabel(spread) {
-        if (spread === null || spread === undefined) return { text: '—', cls: 'pill-grey', meaning: '' };
-        if (spread > 5)  return { text: 'Options Expensive', cls: 'pill-red',    meaning: 'IV well above HV — sellers have an edge' };
-        if (spread > 2)  return { text: 'Slight Premium',    cls: 'pill-yellow', meaning: 'Options slightly elevated' };
-        if (spread > -2) return { text: 'Fair Value',        cls: 'pill-green',  meaning: 'IV near HV — fairly priced' };
-        return            { text: 'Options Cheap',   cls: 'pill-green',  meaning: 'IV below HV — buyers have an edge' };
-      }
+      // ── OI profile plugin ─────────────────────────────────
+      // Draws horizontal stacked call/put bars INSIDE the right
+      // portion of the chart canvas using layout padding
+      var oiProfilePlugin = {
+        id: 'oiProfile',
+        afterDraw: function(chart) {
+          if (!chart._oiData || !chart._oiData.profile || !chart._oiData.profile.length) return;
 
-      function pcLabel(ratio) {
-        if (!ratio) return { text: '—', cls: 'pill-grey', meaning: '' };
-        if (ratio > 1.2) return { text: 'Bearish',  cls: 'pill-red',    meaning: 'More puts than calls — market leaning bearish' };
-        if (ratio > 0.9) return { text: 'Cautious', cls: 'pill-yellow', meaning: 'Slightly more puts — mild bearish lean' };
-        if (ratio > 0.6) return { text: 'Neutral',  cls: 'pill-green',  meaning: 'Balanced — no strong directional bias' };
-        return            { text: 'Bullish',  cls: 'pill-green',  meaning: 'More calls than puts — market leaning bullish' };
-      }
+          var oi     = chart._oiData;
+          var ctx    = chart.ctx;
+          var yScale = chart.scales.y;
+          var area   = chart.chartArea;
+
+          // The bars live in the right padding area
+          var xStart = area.right + 8;
+          var barMax = chart.width - xStart - 50;
+          if (barMax < 20) return;
+
+          var maxOI  = oi.maxOI || 1;
+          var barH   = 5;
+
+          ctx.save();
+
+          oi.profile.forEach(function(row) {
+            var y = yScale.getPixelForValue(row.strike);
+            if (y < area.top || y > area.bottom) return;
+
+            var callW = Math.max(0, (row.call_oi / maxOI) * barMax);
+            var putW  = Math.max(0, (row.put_oi  / maxOI) * barMax);
+            var yBar  = y - barH / 2;
+
+            if (callW > 0) {
+              ctx.fillStyle = 'rgba(26,188,156,0.75)';
+              ctx.fillRect(xStart, yBar, callW, barH);
+            }
+            if (putW > 0) {
+              ctx.fillStyle = 'rgba(224,82,82,0.75)';
+              ctx.fillRect(xStart + callW, yBar, putW, barH);
+            }
+          });
+
+          // Max pain line
+          if (oi.maxPain) {
+            var mpY = yScale.getPixelForValue(oi.maxPain);
+            if (mpY >= area.top && mpY <= area.bottom) {
+              ctx.strokeStyle = '#f0a500';
+              ctx.lineWidth   = 1.5;
+              ctx.setLineDash([4, 3]);
+              ctx.beginPath();
+              ctx.moveTo(xStart, mpY);
+              ctx.lineTo(xStart + barMax, mpY);
+              ctx.stroke();
+              ctx.setLineDash([]);
+            }
+          }
+
+          // Top strike labels
+          ctx.font      = '9px Inter,sans-serif';
+          ctx.textAlign = 'right';
+          var labeled   = [];
+
+          (oi.topCalls || []).slice(0, 3).forEach(function(c) {
+            var y = yScale.getPixelForValue(c.strike);
+            if (y < area.top || y > area.bottom) return;
+            ctx.fillStyle = '#1ABC9C';
+            ctx.fillText('$' + c.strike, xStart - 2, y + 3);
+            labeled.push(c.strike);
+          });
+
+          (oi.topPuts || []).slice(0, 3).forEach(function(p) {
+            if (labeled.indexOf(p.strike) > -1) return;
+            var y = yScale.getPixelForValue(p.strike);
+            if (y < area.top || y > area.bottom) return;
+            ctx.fillStyle = '#e05252';
+            ctx.fillText('$' + p.strike, xStart - 2, y + 3);
+          });
+
+          // Max pain label
+          if (oi.maxPain) {
+            var mpY2 = yScale.getPixelForValue(oi.maxPain);
+            if (mpY2 >= area.top && mpY2 <= area.bottom) {
+              ctx.fillStyle = '#f0a500';
+              ctx.textAlign = 'left';
+              ctx.font      = '9px Inter,sans-serif';
+              ctx.fillText('$' + oi.maxPain, xStart + barMax + 2, mpY2 + 3);
+            }
+          }
+
+          // Legend
+          ctx.fillStyle = 'rgba(26,188,156,0.8)';
+          ctx.fillRect(xStart, area.top + 4, 8, 6);
+          ctx.fillStyle = '#9a9a9a';
+          ctx.textAlign = 'left';
+          ctx.font      = '9px Inter,sans-serif';
+          ctx.fillText('Calls', xStart + 11, area.top + 10);
+
+          ctx.fillStyle = 'rgba(224,82,82,0.8)';
+          ctx.fillRect(xStart + 42, area.top + 4, 8, 6);
+          ctx.fillStyle = '#9a9a9a';
+          ctx.fillText('Puts', xStart + 53, area.top + 10);
+
+          ctx.fillStyle = '#f0a500';
+          ctx.fillRect(xStart, area.top + 15, 10, 2);
+          ctx.fillStyle = '#9a9a9a';
+          ctx.fillText('Max Pain', xStart + 13, area.top + 20);
+
+          ctx.restore();
+        }
+      };
+
+      Chart.register(oiProfilePlugin);
 
       // ── Top stat cards ────────────────────────────────────
       function renderTopStats(data) {
         var spy = null, qqq = null;
-        for (var i = 0; i < (data.symbols || []).length; i++) {
-          if (data.symbols[i].symbol === 'SPY') spy = data.symbols[i];
-          if (data.symbols[i].symbol === 'QQQ') qqq = data.symbols[i];
-        }
+        (data.symbols || []).forEach(function(s) {
+          if (s.symbol === 'SPY') spy = s;
+          if (s.symbol === 'QQQ') qqq = s;
+        });
         if (spy && spy.moves.length) {
           var m = getNextExpiry(spy.moves);
           document.getElementById('statSpyPrice').textContent = '$' + spy.current_price.toFixed(2);
@@ -256,176 +337,32 @@
       }
 
       // ── Metric cards ──────────────────────────────────────
-      function renderMetrics(symbol) {
-        if (!emData) return;
-        var sd = null;
-        for (var i = 0; i < (emData.symbols || []).length; i++) {
-          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
-        }
-        if (!sd) return;
-
+      function renderMetrics(sd) {
         var vix    = emData.vix;
         var hv     = sd.hv_20d;
         var pc     = sd.put_call_ratio;
         var spread = sd.iv_hv_spread;
-
-        var vixL  = vixLabel(vix);
-        var ivHvL = ivHvLabel(spread);
-        var pcL   = pcLabel(pc);
+        var vL = vixLabel(vix), iL = ivHvLabel(spread), pL = pcLabel(pc);
 
         document.getElementById('metricGrid').innerHTML =
-          '<div class="metric-card">' +
-            '<div class="metric-label">VIX — Fear Index</div>' +
-            '<div class="metric-value">' + (vix ? vix.toFixed(1) : '—') + '</div>' +
-            '<div class="metric-sub">' + vixL.meaning + '</div>' +
-            '<span class="metric-pill ' + vixL.cls + '">' + vixL.text + '</span>' +
-          '</div>' +
-          '<div class="metric-card">' +
-            '<div class="metric-label">20-Day Hist. Vol</div>' +
-            '<div class="metric-value">' + (hv ? hv.toFixed(1) + '%' : '—') + '</div>' +
-            '<div class="metric-sub">What ' + symbol + ' actually moved the last 20 days, annualized</div>' +
-          '</div>' +
-          '<div class="metric-card">' +
-            '<div class="metric-label">IV vs HV Spread</div>' +
-            '<div class="metric-value">' + (spread !== null && spread !== undefined ? (spread > 0 ? '+' : '') + spread.toFixed(1) + '%' : '—') + '</div>' +
-            '<div class="metric-sub">' + ivHvL.meaning + '</div>' +
-            '<span class="metric-pill ' + ivHvL.cls + '">' + ivHvL.text + '</span>' +
-          '</div>' +
-          '<div class="metric-card">' +
-            '<div class="metric-label">Put / Call Ratio</div>' +
-            '<div class="metric-value">' + (pc ? pc.toFixed(2) : '—') + '</div>' +
-            '<div class="metric-sub">' + pcL.meaning + '</div>' +
-            '<span class="metric-pill ' + pcL.cls + '">' + pcL.text + '</span>' +
-          '</div>';
+          '<div class="metric-card"><div class="metric-label">VIX — Fear Index</div><div class="metric-value">' + (vix ? vix.toFixed(1) : '—') + '</div><div class="metric-sub">' + vL.meaning + '</div><span class="metric-pill ' + vL.cls + '">' + vL.text + '</span></div>' +
+          '<div class="metric-card"><div class="metric-label">20-Day Hist. Vol</div><div class="metric-value">' + (hv ? hv.toFixed(1) + '%' : '—') + '</div><div class="metric-sub">What ' + sd.symbol + ' actually moved the last 20 days, annualized</div></div>' +
+          '<div class="metric-card"><div class="metric-label">IV vs HV Spread</div><div class="metric-value">' + (spread !== null && spread !== undefined ? (spread > 0 ? '+' : '') + spread.toFixed(1) + '%' : '—') + '</div><div class="metric-sub">' + iL.meaning + '</div><span class="metric-pill ' + iL.cls + '">' + iL.text + '</span></div>' +
+          '<div class="metric-card"><div class="metric-label">Put / Call Ratio</div><div class="metric-value">' + (pc ? pc.toFixed(2) : '—') + '</div><div class="metric-sub">' + pL.meaning + '</div><span class="metric-pill ' + pL.cls + '">' + pL.text + '</span></div>';
       }
 
-      var pcChart = null;
-      var oiChart = null;
+      // ── Main line chart + OI profile plugin ──────────────
+      function renderEmChart(sd) {
+        var moves = sd.moves;
+        var cp    = sd.current_price;
+        var labels = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
 
-      // ── OI Profile plugin — stacked call+put bars on right ──
-      var oiProfilePlugin = {
-        id: 'oiProfile',
-        afterDraw: function(chart) {
-          if (!chart._oiData) return;
-          var oi      = chart._oiData;
-          var ctx     = chart.ctx;
-          var yAxis   = chart.scales.y;
-          var area    = chart.chartArea;
-          var xStart  = area.right + 4;
-          var barMaxW = 100;
-          var barH    = 6;
-          var maxOI   = oi.maxOI || 1;
+        if (emChart) { emChart.destroy(); emChart = null; }
 
-          ctx.save();
-
-          // Draw stacked call+put bars per strike from merged profile
-          (oi.profile || []).forEach(function(row) {
-            var y = yAxis.getPixelForValue(row.strike);
-            if (y < area.top || y > area.bottom) return;
-
-            var callW = (row.call_oi / maxOI) * barMaxW;
-            var putW  = (row.put_oi  / maxOI) * barMaxW;
-            var yBar  = y - barH / 2;
-
-            // Call portion (teal)
-            if (callW > 0) {
-              ctx.fillStyle = 'rgba(26,188,156,0.7)';
-              ctx.fillRect(xStart, yBar, callW, barH);
-            }
-            // Put portion (red) stacked after call
-            if (putW > 0) {
-              ctx.fillStyle = 'rgba(224,82,82,0.7)';
-              ctx.fillRect(xStart + callW, yBar, putW, barH);
-            }
-          });
-
-          // Max pain dashed line
-          if (oi.maxPain) {
-            var mpY = yAxis.getPixelForValue(oi.maxPain);
-            if (mpY >= area.top && mpY <= area.bottom) {
-              ctx.strokeStyle = '#f0a500';
-              ctx.lineWidth   = 1.5;
-              ctx.setLineDash([3, 3]);
-              ctx.beginPath();
-              ctx.moveTo(xStart, mpY);
-              ctx.lineTo(xStart + barMaxW, mpY);
-              ctx.stroke();
-              ctx.setLineDash([]);
-              ctx.fillStyle  = '#f0a500';
-              ctx.font       = '9px Inter, sans-serif';
-              ctx.textAlign  = 'left';
-              ctx.fillText('Max Pain $' + oi.maxPain, xStart + barMaxW + 3, mpY + 3);
-            }
-          }
-
-          // Strike labels for top call strikes (teal)
-          ctx.font      = '9px Inter, sans-serif';
-          ctx.textAlign = 'right';
-          (oi.topCalls || []).slice(0, 3).forEach(function(c) {
-            var y = yAxis.getPixelForValue(c.strike);
-            if (y < area.top || y > area.bottom) return;
-            ctx.fillStyle = '#1ABC9C';
-            ctx.fillText('$' + c.strike, xStart - 2, y + 3);
-          });
-
-          // Strike labels for top put strikes (red) — skip if already labeled
-          var labeled = (oi.topCalls || []).slice(0,3).map(function(c){ return c.strike; });
-          (oi.topPuts || []).slice(0, 3).forEach(function(p) {
-            if (labeled.indexOf(p.strike) > -1) return;
-            var y = yAxis.getPixelForValue(p.strike);
-            if (y < area.top || y > area.bottom) return;
-            ctx.fillStyle = '#e05252';
-            ctx.fillText('$' + p.strike, xStart - 2, y + 3);
-          });
-
-          // Legend
-          var lx = xStart, ly = area.top + 6;
-          ctx.fillStyle = 'rgba(26,188,156,0.7)';
-          ctx.fillRect(lx, ly, 8, 6);
-          ctx.fillStyle = '#9a9a9a';
-          ctx.textAlign = 'left';
-          ctx.font      = '9px Inter, sans-serif';
-          ctx.fillText('Calls', lx + 11, ly + 6);
-
-          ctx.fillStyle = 'rgba(224,82,82,0.7)';
-          ctx.fillRect(lx + 44, ly, 8, 6);
-          ctx.fillStyle = '#9a9a9a';
-          ctx.fillText('Puts', lx + 55, ly + 6);
-
-          ctx.fillStyle = '#f0a500';
-          ctx.fillRect(lx, ly + 13, 12, 2);
-          ctx.fillStyle = '#9a9a9a';
-          ctx.fillText('Max Pain', lx + 16, ly + 18);
-
-          ctx.restore();
-        }
-      };
-
-            Chart.register(oiProfilePlugin);
-
-      // ── Line chart (top) ──────────────────────────────────
-      function renderEmChart(symbol) {
-        if (!emData) return;
-        var sd = null;
-        for (var i = 0; i < (emData.symbols || []).length; i++) {
-          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
-        }
-        if (!sd) return;
-
-        var moves        = sd.moves;
-        var currentPrice = sd.current_price;
-        var labels       = moves.map(function(m) {
-          return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)';
-        });
-        var uppers  = moves.map(function(m) { return m.upper_target; });
-        var lowers  = moves.map(function(m) { return m.lower_target; });
-        var centers = moves.map(function()  { return currentPrice; });
-
-        // Prep OI data for plugin
         var oiData = null;
         if (sd.oi_analysis) {
           oiData = {
-            profile:  sd.oi_analysis.profile   || [],
+            profile:  sd.oi_analysis.profile  || [],
             topCalls: sd.oi_analysis.top_calls || [],
             topPuts:  sd.oi_analysis.top_puts  || [],
             maxOI:    sd.oi_analysis.max_oi    || 1,
@@ -433,91 +370,56 @@
           };
         }
 
-        if (emChart) { emChart.destroy(); emChart = null; }
-
         var ctx = document.getElementById('emChart').getContext('2d');
         emChart = new Chart(ctx, {
           type: 'line',
           data: {
             labels: labels,
             datasets: [
-              {
-                label: 'Upper Target (+)',
-                data: uppers,
-                borderColor: '#1ABC9C',
-                backgroundColor: 'rgba(26,188,156,0.1)',
-                borderWidth: 2,
-                pointBackgroundColor: '#1ABC9C',
-                pointRadius: 5,
-                pointHoverRadius: 7,
-                tension: 0.3,
-                fill: '+1'
-              },
-              {
-                label: 'Current Price',
-                data: centers,
-                borderColor: '#7F8C8D',
-                borderWidth: 1.5,
-                borderDash: [6, 4],
-                pointRadius: 0,
-                tension: 0,
-                fill: false
-              },
-              {
-                label: 'Lower Target (-)',
-                data: lowers,
-                borderColor: '#e05252',
-                backgroundColor: 'rgba(224,82,82,0.1)',
-                borderWidth: 2,
-                pointBackgroundColor: '#e05252',
-                pointRadius: 5,
-                pointHoverRadius: 7,
-                tension: 0.3,
-                fill: false
-              }
+              { label:'Upper Target (+)', data: moves.map(function(m){ return m.upper_target; }),
+                borderColor:'#1ABC9C', backgroundColor:'rgba(26,188,156,0.1)', borderWidth:2,
+                pointBackgroundColor:'#1ABC9C', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:'+1' },
+              { label:'Current Price', data: moves.map(function(){ return cp; }),
+                borderColor:'#7F8C8D', borderWidth:1.5, borderDash:[6,4], pointRadius:0, fill:false },
+              { label:'Lower Target (-)', data: moves.map(function(m){ return m.lower_target; }),
+                borderColor:'#e05252', backgroundColor:'rgba(224,82,82,0.1)', borderWidth:2,
+                pointBackgroundColor:'#e05252', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:false }
             ]
           },
           options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            layout: { padding: { right: 130 } },
-            interaction: { mode: 'index', intersect: false },
+            responsive: true, maintainAspectRatio: false,
+            layout: { padding: { right: 140 } },
+            interaction: { mode:'index', intersect:false },
             plugins: {
-              legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
+              legend: { labels: { color:'#7F8C8D', font:{ size:11 }, boxWidth:12 } },
               tooltip: {
-                backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1,
-                titleColor: '#e0e0e0', bodyColor: '#c0c0c0', padding: 10,
-                callbacks: {
-                  label: function(ctx) {
-                    if (ctx.dataset.label === 'Current Price') return ' Current: $' + ctx.parsed.y.toFixed(2);
-                    return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
-                  }
-                }
+                backgroundColor:'#1f2224', borderColor:'#2a2d30', borderWidth:1,
+                titleColor:'#e0e0e0', bodyColor:'#c0c0c0', padding:10,
+                callbacks: { label: function(c) {
+                  if (c.dataset.label === 'Current Price') return ' Current: $' + c.parsed.y.toFixed(2);
+                  return ' ' + c.dataset.label + ': $' + c.parsed.y.toFixed(2);
+                }}
               },
-              oiProfile: true
+              oiProfile: {}
             },
             scales: {
-              x: { grid: { color: '#252830' }, ticks: { color: '#7F8C8D', font: { size: 11 } } },
-              y: {
-                grid: { color: '#252830' },
-                ticks: { color: '#7F8C8D', font: { size: 11 }, callback: function(v) { return '$' + v.toFixed(0); } }
-              }
+              x: { grid:{ color:'#252830' }, ticks:{ color:'#7F8C8D', font:{ size:11 } } },
+              y: { grid:{ color:'#252830' }, ticks:{ color:'#7F8C8D', font:{ size:11 }, callback: function(v){ return '$' + v.toFixed(0); } } }
             }
           }
         });
 
-        // Attach OI data to chart instance for plugin
         if (oiData) emChart._oiData = oiData;
+      }
 
-        // ── Bar chart (below) — Put/Call per expiry ───────
-        var pcRatios   = moves.map(function(m) { return m.put_call_ratio; });
-        var barColors  = pcRatios.map(function(r) {
+      // ── Put/Call bar chart below line ─────────────────────
+      function renderPCChart(sd) {
+        var moves    = sd.moves;
+        var labels   = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
+        var pcRatios = moves.map(function(m) { return m.put_call_ratio; });
+        var barColors = pcRatios.map(function(r) {
           if (r === null) return 'rgba(90,96,104,0.4)';
           return r > 1.0 ? 'rgba(224,82,82,0.8)' : 'rgba(26,188,156,0.8)';
-        });
-        var barBorders = pcRatios.map(function(r) {
-          if (r === null) return '#5a6068';
-          return r > 1.0 ? '#e05252' : '#1ABC9C';
         });
 
         if (pcChart) { pcChart.destroy(); pcChart = null; }
@@ -527,132 +429,61 @@
           type: 'bar',
           data: {
             labels: labels,
-            datasets: [{
-              label: 'Put/Call Ratio',
-              data: pcRatios,
-              backgroundColor: barColors,
-              borderColor: barBorders,
-              borderWidth: 1,
-              borderRadius: 3,
-            }]
+            datasets: [{ label:'Put/Call Ratio', data: pcRatios,
+              backgroundColor: barColors, borderColor: barColors,
+              borderWidth:1, borderRadius:3 }]
           },
           options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            interaction: { mode: 'index', intersect: false },
+            responsive:true, maintainAspectRatio:false,
+            layout: { padding: { right: 140 } },
             plugins: {
-              legend: { display: false },
+              legend: { display:false },
               tooltip: {
-                backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1,
-                titleColor: '#e0e0e0', bodyColor: '#c0c0c0', padding: 8,
+                backgroundColor:'#1f2224', borderColor:'#2a2d30', borderWidth:1,
+                titleColor:'#e0e0e0', bodyColor:'#c0c0c0',
                 callbacks: {
-                  title: function() { return ''; },
-                  label: function(ctx) {
-                    var r = ctx.parsed.y;
-                    if (r === null) return ' Put/Call: —';
+                  title: function(){ return ''; },
+                  label: function(c) {
+                    var r = c.parsed.y;
                     var s = r > 1.2 ? 'Bearish' : r > 0.9 ? 'Cautious' : r > 0.6 ? 'Neutral' : 'Bullish';
-                    return ' P/C: ' + r.toFixed(2) + ' — ' + s;
+                    return ' P/C: ' + (r ? r.toFixed(2) : '—') + ' — ' + s;
                   }
                 }
               }
             },
             scales: {
-              x: {
-                grid: { color: '#252830' },
-                ticks: { display: false }
-              },
-              y: {
-                position: 'right',
-                min: 0,
-                max: Math.max(3.0, Math.max.apply(null, pcRatios.filter(function(r){ return r !== null; })) + 0.2),
-                grid: { color: '#252830' },
-                ticks: {
-                  color: '#7F8C8D', font: { size: 9 },
-                  callback: function(v) { return v.toFixed(1) + 'x'; },
-                  maxTicksLimit: 3
-                },
-                title: {
-                  display: true,
-                  text: 'Put/Call',
-                  color: '#5a6068',
-                  font: { size: 9 }
-                }
+              x: { grid:{ color:'#252830' }, ticks:{ display:false } },
+              y: { position:'right', min:0,
+                grid:{ color:'#252830' },
+                ticks:{ color:'#7F8C8D', font:{ size:9 }, callback: function(v){ return v.toFixed(1) + 'x'; }, maxTicksLimit:3 },
+                title:{ display:true, text:'Put/Call', color:'#5a6068', font:{ size:9 } }
               }
             }
           }
         });
-
-        renderMetrics(symbol);
-        renderOIChart(symbol);
-        renderTable(symbol);
       }
 
-      // ── Expiry table ──────────────────────────────────────
-      function renderTable(symbol) {
-        var sd = null;
-        for (var i = 0; i < (emData.symbols || []).length; i++) {
-          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
-        }
-        if (!sd) return;
-
-        document.getElementById('tableTitle').textContent = symbol + ' — All Expirations';
-        hide('tableLoading');
-        show('tableWrap');
-
-        var today    = new Date(); today.setHours(0, 0, 0, 0);
-        var cutoff   = new Date(); cutoff.setUTCHours(21, 0, 0, 0);
-        var mktClosed = new Date() >= cutoff;
-
-        document.getElementById('expiryBody').innerHTML = sd.moves.map(function(m) {
-          var exp      = new Date(m.expiration + 'T12:00:00Z');
-          var expired  = mktClosed ? exp <= today : exp < today;
-          var rowStyle = expired ? 'opacity:0.4;' : '';
-          var pastTag  = expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '';
-          var pc       = m.put_call_ratio;
-          var pcCls    = pc ? (pc > 1.0 ? 'color:#e05252;' : 'color:#1ABC9C;') : 'color:#5a6068;';
-
-          return '<tr style="' + rowStyle + '">' +
-            '<td style="font-weight:600;color:#e0e0e0;white-space:nowrap;">' + fmtExp(m.expiration) + pastTag + '</td>' +
-            '<td style="color:#7F8C8D;">' + m.days_to_expiry + 'd</td>' +
-            '<td>$' + m.current_price.toFixed(2) + '</td>' +
-            '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
-            '<td style="color:#1ABC9C;">$' + m.call_price.toFixed(2) + '</td>' +
-            '<td style="color:#e05252;">$' + m.put_price.toFixed(2) + '</td>' +
-            '<td style="font-weight:600;color:#e0e0e0;">+/-$' + m.expected_move.toFixed(2) + '</td>' +
-            '<td style="font-weight:600;color:#e0e0e0;">+/-' + m.expected_move_pct.toFixed(2) + '%</td>' +
-            '<td style="font-weight:700;' + pcCls + '">' + (pc ? pc.toFixed(2) : '—') + '</td>' +
-            '<td style="color:#1ABC9C;font-weight:600;">$' + m.upper_target.toFixed(2) + '</td>' +
-            '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
-          '</tr>';
-        }).join('');
-      }
-
-      // ── OI Chart ─────────────────────────────────────────
-      function renderOIChart(symbol) {
-        if (!emData) return;
-        var sd = null;
-        for (var i = 0; i < (emData.symbols || []).length; i++) {
-          if (emData.symbols[i].symbol === symbol) { sd = emData.symbols[i]; break; }
-        }
-        if (!sd || !sd.oi_analysis) return;
-
+      // ── OI horizontal bar chart (below) ───────────────────
+      function renderOIChart(sd) {
+        if (!sd.oi_analysis) return;
         var oi = sd.oi_analysis;
 
-        // Update max pain
+        // Update max pain stat
         document.getElementById('maxPainVal').textContent = oi.max_pain ? '$' + oi.max_pain.toFixed(2) : '—';
         var diff = oi.max_pain_diff;
-        var diffEl = document.getElementById('maxPainDiff');
         if (diff !== null && diff !== undefined) {
-          var sign = diff >= 0 ? '+' : '';
-          diffEl.textContent = sign + diff.toFixed(2) + ' from current';
+          var diffEl = document.getElementById('maxPainDiff');
+          diffEl.textContent = (diff >= 0 ? '+' : '') + diff.toFixed(2) + ' from current';
           diffEl.style.color = diff >= 0 ? '#1ABC9C' : '#e05252';
         }
 
-        // Build combined labels and datasets
-        var callStrikes = oi.top_calls.map(function(c) { return '$' + c.strike; });
-        var putStrikes  = oi.top_puts.map(function(p)  { return '$' + p.strike; });
-        var callOI      = oi.top_calls.map(function(c) { return c.open_interest; });
-        var putOI       = oi.top_puts.map(function(p)  { return p.open_interest; });
+        if (!oi.profile || !oi.profile.length) return;
+
+        var profile   = oi.profile;
+        var labels    = profile.map(function(r){ return '$' + r.strike; });
+        var callOI    = profile.map(function(r){ return r.call_oi; });
+        var putOI     = profile.map(function(r){ return r.put_oi; });
+        var maxPain   = oi.max_pain;
 
         if (oiChart) { oiChart.destroy(); oiChart = null; }
 
@@ -660,102 +491,140 @@
         oiChart = new Chart(ctx3, {
           type: 'bar',
           data: {
-            labels: ['Calls', '', '', '', '', 'Puts', '', '', '', ''].slice(0, callStrikes.length + putStrikes.length),
+            labels: labels,
             datasets: [
-              {
-                label: 'Call OI',
-                data: callOI.concat(new Array(putStrikes.length).fill(0)),
-                backgroundColor: 'rgba(26,188,156,0.75)',
-                borderColor: '#1ABC9C',
-                borderWidth: 1,
-                borderRadius: 3,
-              },
-              {
-                label: 'Put OI',
-                data: new Array(callStrikes.length).fill(0).concat(putOI),
-                backgroundColor: 'rgba(224,82,82,0.75)',
-                borderColor: '#e05252',
-                borderWidth: 1,
-                borderRadius: 3,
-              }
+              { label:'Call OI', data:callOI, backgroundColor:'rgba(26,188,156,0.75)', borderColor:'#1ABC9C', borderWidth:1, borderRadius:2 },
+              { label:'Put OI',  data:putOI,  backgroundColor:'rgba(224,82,82,0.75)',  borderColor:'#e05252', borderWidth:1, borderRadius:2 }
             ]
           },
           options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            interaction: { mode: 'index', intersect: false },
+            responsive:true, maintainAspectRatio:false,
+            interaction:{ mode:'index', intersect:false },
             plugins: {
-              legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
-              tooltip: {
-                backgroundColor: '#1f2224', borderColor: '#2a2d30', borderWidth: 1,
-                titleColor: '#e0e0e0', bodyColor: '#c0c0c0', padding: 8,
-                callbacks: {
-                  title: function(items) {
-                    var idx = items[0].dataIndex;
-                    var allStrikes = callStrikes.concat(putStrikes);
-                    return allStrikes[idx] ? 'Strike ' + allStrikes[idx] : '';
-                  },
-                  label: function(ctx) {
-                    if (ctx.parsed.y === 0) return null;
-                    return ' ' + ctx.dataset.label + ': ' + ctx.parsed.y.toLocaleString();
-                  }
-                }
-              }
-            },
-            scales: {
-              x: {
-                stacked: false,
-                grid: { color: '#252830' },
-                ticks: {
-                  color: '#7F8C8D', font: { size: 10 },
-                  callback: function(val, idx) {
-                    var allStrikes = callStrikes.concat(putStrikes);
-                    return allStrikes[idx] || '';
-                  }
+              legend:{ labels:{ color:'#7F8C8D', font:{ size:11 }, boxWidth:12 } },
+              tooltip:{
+                backgroundColor:'#1f2224', borderColor:'#2a2d30', borderWidth:1,
+                titleColor:'#e0e0e0', bodyColor:'#c0c0c0',
+                callbacks:{
+                  label:function(c){ return ' ' + c.dataset.label + ': ' + (c.parsed.y || 0).toLocaleString(); }
                 }
               },
-              y: {
-                grid: { color: '#252830' },
-                ticks: {
-                  color: '#7F8C8D', font: { size: 10 },
-                  callback: function(v) {
-                    if (v >= 1e6) return (v/1e6).toFixed(1) + 'M';
-                    if (v >= 1e3) return (v/1e3).toFixed(0) + 'K';
-                    return v;
-                  }
+              // Max pain annotation as a vertical line plugin
+              annotation: {}
+            },
+            scales: {
+              x: { stacked:false, grid:{ color:'#252830' }, ticks:{ color:'#7F8C8D', font:{ size:9 }, maxRotation:45 } },
+              y: { grid:{ color:'#252830' }, ticks:{ color:'#7F8C8D', font:{ size:10 },
+                callback:function(v){ return v >= 1e6 ? (v/1e6).toFixed(1)+'M' : v >= 1e3 ? (v/1e3).toFixed(0)+'K' : v; }
+              }}
+            }
+          },
+          plugins: [{
+            id: 'maxPainLine',
+            afterDraw: function(chart) {
+              if (!maxPain) return;
+              var idx = labels.indexOf('$' + maxPain);
+              if (idx < 0) {
+                // Find closest
+                for (var i = 0; i < profile.length; i++) {
+                  if (profile[i].strike === maxPain) { idx = i; break; }
                 }
               }
+              if (idx < 0) return;
+              var meta = chart.getDatasetMeta(0);
+              if (!meta.data[idx]) return;
+              var x   = meta.data[idx].x;
+              var ctx = chart.ctx;
+              var top = chart.chartArea.top;
+              var bot = chart.chartArea.bottom;
+              ctx.save();
+              ctx.strokeStyle = '#f0a500';
+              ctx.lineWidth   = 2;
+              ctx.setLineDash([4, 3]);
+              ctx.beginPath();
+              ctx.moveTo(x, top);
+              ctx.lineTo(x, bot);
+              ctx.stroke();
+              ctx.setLineDash([]);
+              ctx.fillStyle  = '#f0a500';
+              ctx.font       = '10px Inter,sans-serif';
+              ctx.textAlign  = 'center';
+              ctx.fillText('Max Pain', x, top - 4);
+              ctx.restore();
             }
-          }
+          }]
         });
       }
 
+      // ── Expiry table ──────────────────────────────────────
+      function renderTable(sd) {
+        document.getElementById('tableTitle').textContent = sd.symbol + ' — All Expirations';
+        hide('tableLoading'); show('tableWrap');
+
+        var today = new Date(); today.setHours(0,0,0,0);
+        var cutoff = new Date(); cutoff.setUTCHours(21,0,0,0);
+        var closed = new Date() >= cutoff;
+
+        document.getElementById('expiryBody').innerHTML = sd.moves.map(function(m) {
+          var exp     = new Date(m.expiration + 'T12:00:00Z');
+          var expired = closed ? exp <= today : exp < today;
+          var style   = expired ? 'opacity:0.4;' : '';
+          var past    = expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '';
+          var pc      = m.put_call_ratio;
+          var pcStyle = pc ? (pc > 1.0 ? 'color:#e05252;' : 'color:#1ABC9C;') : 'color:#5a6068;';
+          return '<tr style="' + style + '">' +
+            '<td style="font-weight:600;color:#e0e0e0;">' + fmtExp(m.expiration) + past + '</td>' +
+            '<td style="color:#7F8C8D;">' + m.days_to_expiry + 'd</td>' +
+            '<td>$' + m.current_price.toFixed(2) + '</td>' +
+            '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
+            '<td style="color:#1ABC9C;">$' + m.call_price.toFixed(2) + '</td>' +
+            '<td style="color:#e05252;">$' + m.put_price.toFixed(2) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">+/-$' + m.expected_move.toFixed(2) + '</td>' +
+            '<td style="font-weight:600;color:#e0e0e0;">+/-' + m.expected_move_pct.toFixed(2) + '%</td>' +
+            '<td style="font-weight:700;' + pcStyle + '">' + (pc ? pc.toFixed(2) : '—') + '</td>' +
+            '<td style="color:#1ABC9C;font-weight:600;">$' + m.upper_target.toFixed(2) + '</td>' +
+            '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
+          '</tr>';
+        }).join('');
+      }
+
+      // ── Switch tab ────────────────────────────────────────
       function switchTab(symbol) {
         activeTab = symbol;
         document.querySelectorAll('.em-tab').forEach(function(t) {
           t.classList.toggle('active', t.textContent === symbol);
         });
-        renderEmChart(symbol);
+        var sd = null;
+        (emData.symbols || []).forEach(function(s) { if (s.symbol === symbol) sd = s; });
+        if (!sd) return;
+        renderEmChart(sd);
+        renderPCChart(sd);
+        renderOIChart(sd);
+        renderMetrics(sd);
+        renderTable(sd);
       }
 
       // ── Init ─────────────────────────────────────────────
       function init() {
         fetch(EXP_MOVE_URL + '?t=' + Date.now())
-          .then(function(resp) {
-            if (!resp.ok) throw new Error('No data');
-            return resp.json();
-          })
+          .then(function(r) { if (!r.ok) throw new Error('no data'); return r.json(); })
           .then(function(data) {
             emData = data;
             renderTopStats(emData);
-            hide('emLoading');
-            show('emWrap');
+            hide('emLoading'); show('emWrap');
             hide('tableLoading');
-            renderEmChart(activeTab);
+            var sd = null;
+            (emData.symbols || []).forEach(function(s) { if (s.symbol === activeTab) sd = s; });
+            if (sd) {
+              renderEmChart(sd);
+              renderPCChart(sd);
+              renderOIChart(sd);
+              renderMetrics(sd);
+              renderTable(sd);
+            }
           })
           .catch(function(err) {
-            document.getElementById('emLoading').textContent = 'No data yet - run the GitHub Action first.';
-            document.getElementById('tableLoading').textContent = 'No data yet.';
+            document.getElementById('emLoading').textContent = 'No data yet — run the GitHub Action first.';
             console.error(err);
           });
       }
@@ -766,8 +635,8 @@
       function updateDateTime() {
         document.getElementById('datetimeDisplay').textContent =
           new Date().toLocaleDateString('en-US', {
-            weekday: 'short', month: 'short', day: 'numeric',
-            year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'
+            weekday:'short', month:'short', day:'numeric',
+            year:'numeric', hour:'2-digit', minute:'2-digit', second:'2-digit'
           });
       }
       updateDateTime();
