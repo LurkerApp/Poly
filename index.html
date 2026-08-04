@@ -31,6 +31,7 @@
 
       /* 2-col grid */
       .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+      .home-grid > * { min-width: 0; overflow: hidden; }
       @media (max-width: 900px) { .home-grid { grid-template-columns: 1fr; } .macro-strip { grid-template-columns: repeat(2,1fr); } }
 
       /* Expected move */
@@ -121,12 +122,12 @@
           </div>
         </div>
 
-        <div class="chart-section">
+        <div class="chart-section" style="min-width:0;overflow:hidden;">
           <h2>Whale Consensus <span class="refresh-badge">Live</span></h2>
           <p class="section-sub">Most agreed Polymarket bets among top 50 accounts</p>
           <div id="whaleLoading" class="loading"><div class="spinner"></div> Loading…</div>
           <div id="whaleWrap" style="display:none;">
-            <div id="whaleScroll" class="top5-scroll"></div>
+            <div id="whaleScroll" class="top5-scroll" style="max-width:100%;"></div>
           </div>
         </div>
       </div>
