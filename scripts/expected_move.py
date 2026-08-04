@@ -2,8 +2,8 @@
 # Expected Move Calculator — SPY & QQQ
 # ============================================================
 # Calculates ATM straddle expected move for next 5 expirations
-# Also adds VIX, 20-day Historical Volatility, IV vs HV spread
-# Put/Call ratio per expiration, Max Pain, Top OI strikes
+# Adds VIX, 20-day HV, IV vs HV spread, Put/Call per expiry
+# Full OI profile (±5% range, min 100 OI) for volume profile
 # Writes results to data/expected_move.json
 # ============================================================
 # Dependencies: yfinance pandas numpy
@@ -16,13 +16,15 @@ import numpy as np
 from datetime import datetime, timezone
 
 # ── Config ───────────────────────────────────────────────────
-SYMBOLS     = ["SPY", "QQQ"]
-NUM_DAYS    = 5
-OUTPUT_DIR  = "data"
-OUTPUT_FILE = "data/expected_move.json"
-HV_WINDOW   = 20
-HV_LOOKBACK = 30
-TOP_OI      = 5    # number of top OI strikes to return
+SYMBOLS      = ["SPY", "QQQ"]
+NUM_DAYS     = 5
+OUTPUT_DIR   = "data"
+OUTPUT_FILE  = "data/expected_move.json"
+HV_WINDOW    = 20
+HV_LOOKBACK  = 30
+TOP_OI       = 5
+OI_RANGE_PCT = 0.05    # ±5% of current price
+MIN_OI       = 100     # ignore strikes with OI below this
 
 # ── Historical Volatility ─────────────────────────────────────
 def get_historical_volatility(symbol, window=20, lookback=30):
@@ -73,12 +75,12 @@ def straddle_to_iv(straddle_price, current_price, days_to_expiry):
     except Exception:
         return None
 
-# ── Max Pain + Top OI strikes ─────────────────────────────────
+# ── OI Profile + Max Pain ─────────────────────────────────────
 def get_oi_analysis(ticker_obj, expiration, current_price):
     try:
         chain = ticker_obj.option_chain(expiration)
         calls = chain.calls[["strike", "openInterest", "volume"]].copy()
-        puts  = chain.puts[["strike", "openInterest", "volume"]].copy()
+        puts  = chain.puts[["strike",  "openInterest", "volume"]].copy()
 
         # Fill NaN
         calls["openInterest"] = calls["openInterest"].fillna(0)
@@ -86,61 +88,81 @@ def get_oi_analysis(ticker_obj, expiration, current_price):
         calls["volume"]       = calls["volume"].fillna(0)
         puts["volume"]        = puts["volume"].fillna(0)
 
-        # Top OI strikes for calls and puts
-        top_calls = calls.nlargest(TOP_OI, "openInterest")[["strike", "openInterest", "volume"]]
-        top_puts  = puts.nlargest(TOP_OI, "openInterest")[["strike", "openInterest", "volume"]]
+        # ── Filter: ±5% of current price + min OI ────────────
+        lo = current_price * (1 - OI_RANGE_PCT)
+        hi = current_price * (1 + OI_RANGE_PCT)
 
-        # Max pain calculation
-        # At each strike, calculate total loss for option sellers
+        calls_f = calls[
+            (calls["strike"] >= lo) &
+            (calls["strike"] <= hi) &
+            (calls["openInterest"] >= MIN_OI)
+        ]
+        puts_f = puts[
+            (puts["strike"] >= lo) &
+            (puts["strike"] <= hi) &
+            (puts["openInterest"] >= MIN_OI)
+        ]
+
+        print(f"    OI profile: {len(calls_f)} call strikes, {len(puts_f)} put strikes (±5%, min OI {MIN_OI})")
+
+        # ── Build merged profile per strike ───────────────────
+        # Combine calls and puts at each strike into one entry
         all_strikes = sorted(set(
-            calls["strike"].tolist() + puts["strike"].tolist()
+            calls_f["strike"].tolist() + puts_f["strike"].tolist()
         ))
 
-        min_pain  = None
-        min_loss  = float("inf")
-
+        profile = []
         for s in all_strikes:
-            # Loss on calls below strike s (ITM calls)
-            itm_calls     = calls[calls["strike"] < s]
-            call_loss     = float((itm_calls["openInterest"] * (s - itm_calls["strike"])).sum())
+            c_row    = calls_f[calls_f["strike"] == s]
+            p_row    = puts_f[puts_f["strike"] == s]
+            call_oi  = int(c_row["openInterest"].iloc[0]) if len(c_row) > 0 else 0
+            put_oi   = int(p_row["openInterest"].iloc[0]) if len(p_row) > 0 else 0
+            call_vol = int(c_row["volume"].iloc[0]) if len(c_row) > 0 else 0
+            put_vol  = int(p_row["volume"].iloc[0]) if len(p_row) > 0 else 0
+            profile.append({
+                "strike":        round(float(s), 2),
+                "call_oi":       call_oi,
+                "put_oi":        put_oi,
+                "total_oi":      call_oi + put_oi,
+                "call_volume":   call_vol,
+                "put_volume":    put_vol,
+            })
 
-            # Loss on puts above strike s (ITM puts)
-            itm_puts      = puts[puts["strike"] > s]
-            put_loss      = float((itm_puts["openInterest"] * (itm_puts["strike"] - s)).sum())
+        # Max OI for scaling the profile bars
+        max_oi = max((p["total_oi"] for p in profile), default=1)
 
+        # Top 3 call and put strikes by OI (for labels)
+        top_calls = sorted(profile, key=lambda x: x["call_oi"], reverse=True)[:3]
+        top_puts  = sorted(profile, key=lambda x: x["put_oi"],  reverse=True)[:3]
+
+        # ── Max pain (use all strikes, not filtered) ──────────
+        all_strikes_full = sorted(set(
+            calls["strike"].tolist() + puts["strike"].tolist()
+        ))
+        min_pain = None
+        min_loss = float("inf")
+        for s in all_strikes_full:
+            itm_calls  = calls[calls["strike"] < s]
+            call_loss  = float((itm_calls["openInterest"] * (s - itm_calls["strike"])).sum())
+            itm_puts   = puts[puts["strike"] > s]
+            put_loss   = float((itm_puts["openInterest"] * (itm_puts["strike"] - s)).sum())
             total_loss = call_loss + put_loss
             if total_loss < min_loss:
                 min_loss = total_loss
                 min_pain = s
 
-        # Max OI overall (for bar chart scaling)
-        max_oi = max(
-            calls["openInterest"].max(),
-            puts["openInterest"].max(),
-            1
-        )
+        print(f"    Max Pain: ${min_pain}")
+        print(f"    Profile size: {len(profile)} strikes, max OI: {max_oi:,}")
 
         return {
-            "max_pain":  round(float(min_pain), 2) if min_pain is not None else None,
+            "max_pain":      round(float(min_pain), 2) if min_pain is not None else None,
             "max_pain_diff": round(float(min_pain - current_price), 2) if min_pain is not None else None,
-            "max_oi":    int(max_oi),
-            "top_calls": [
-                {
-                    "strike":       round(float(r["strike"]), 2),
-                    "open_interest": int(r["openInterest"]),
-                    "volume":        int(r["volume"])
-                }
-                for _, r in top_calls.iterrows()
-            ],
-            "top_puts": [
-                {
-                    "strike":       round(float(r["strike"]), 2),
-                    "open_interest": int(r["openInterest"]),
-                    "volume":        int(r["volume"])
-                }
-                for _, r in top_puts.iterrows()
-            ],
+            "max_oi":        int(max_oi),
+            "profile":       profile,   # merged call+put OI per strike
+            "top_calls":     top_calls,
+            "top_puts":      top_puts,
         }
+
     except Exception as e:
         print(f"  ⚠ OI analysis error: {e}")
         return None
@@ -154,7 +176,7 @@ def get_implied_moves(symbol, num_days=5):
     print(f"  Fetching put/call ratios per expiration...")
     pc_per_expiry = get_put_call_per_expiry(ticker, expirations)
 
-    print(f"  Fetching OI analysis for nearest expiry ({expirations[0]})...")
+    print(f"  Fetching OI profile for nearest expiry ({expirations[0]})...")
     oi_analysis = get_oi_analysis(ticker, expirations[0], float(current_price))
 
     moves = []
@@ -222,9 +244,10 @@ def print_results(symbol, current_price, moves, hv, pc_ratio, iv_hv_spread, oi):
     print(f"  {symbol}  —  Current Price: ${current_price:.2f}")
     print(f"  HV (20d): {hv}%  |  P/C: {pc_ratio}  |  IV-HV: {iv_hv_spread}%")
     if oi:
-        print(f"  Max Pain: ${oi['max_pain']} ({'+' if oi['max_pain_diff'] >= 0 else ''}{oi['max_pain_diff']})")
-        print(f"  Top Call OI strikes: {[c['strike'] for c in oi['top_calls']]}")
-        print(f"  Top Put  OI strikes: {[p['strike'] for p in oi['top_puts']]}")
+        print(f"  Max Pain    : ${oi['max_pain']} ({'+' if oi['max_pain_diff'] >= 0 else ''}{oi['max_pain_diff']})")
+        print(f"  OI Profile  : {len(oi['profile'])} strikes, max OI: {oi['max_oi']:,}")
+        print(f"  Top call OI : {[(c['strike'], c['call_oi']) for c in oi['top_calls']]}")
+        print(f"  Top put  OI : {[(p['strike'], p['put_oi'])  for p in oi['top_puts']]}")
     print(f"{'='*60}")
     print(f"  {'Expiration':<14} {'DTE':<6} {'±Move':<10} {'%':<8} {'P/C':<6} {'Range'}")
     print(f"  {'-'*65}")
@@ -253,13 +276,13 @@ if __name__ == "__main__":
             current_price, moves, hv, pc_ratio, iv_hv_spread, oi_analysis = get_implied_moves(symbol, NUM_DAYS)
             print_results(symbol, current_price, moves, hv, pc_ratio, iv_hv_spread, oi_analysis)
             results.append({
-                "symbol":          symbol,
-                "current_price":   current_price,
-                "hv_20d":          hv,
-                "put_call_ratio":  pc_ratio,
-                "iv_hv_spread":    iv_hv_spread,
-                "oi_analysis":     oi_analysis,
-                "moves":           moves,
+                "symbol":         symbol,
+                "current_price":  current_price,
+                "hv_20d":         hv,
+                "put_call_ratio": pc_ratio,
+                "iv_hv_spread":   iv_hv_spread,
+                "oi_analysis":    oi_analysis,
+                "moves":          moves,
             })
         except Exception as e:
             print(f"\n❌ Error fetching {symbol}: {e}")
