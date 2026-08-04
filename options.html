@@ -302,7 +302,7 @@
       var pcChart = null;
       var oiChart = null;
 
-      // ── OI Profile plugin — draws horizontal bars on right side ──
+      // ── OI Profile plugin — stacked call+put bars on right ──
       var oiProfilePlugin = {
         id: 'oiProfile',
         afterDraw: function(chart) {
@@ -310,67 +310,98 @@
           var oi      = chart._oiData;
           var ctx     = chart.ctx;
           var yAxis   = chart.scales.y;
-          var xRight  = chart.chartArea.right;
-          var barMaxW = 80;   // max bar width in px
+          var area    = chart.chartArea;
+          var xStart  = area.right + 4;
+          var barMaxW = 100;
+          var barH    = 6;
           var maxOI   = oi.maxOI || 1;
 
           ctx.save();
 
-          // Draw call OI bars (teal, from right going left)
-          oi.calls.forEach(function(c) {
-            if (!c.open_interest) return;
-            var y    = yAxis.getPixelForValue(c.strike);
-            var barW = (c.open_interest / maxOI) * barMaxW;
-            ctx.fillStyle = 'rgba(26,188,156,0.5)';
-            ctx.fillRect(xRight - barW, y - 5, barW, 10);
+          // Draw stacked call+put bars per strike from merged profile
+          (oi.profile || []).forEach(function(row) {
+            var y = yAxis.getPixelForValue(row.strike);
+            if (y < area.top || y > area.bottom) return;
+
+            var callW = (row.call_oi / maxOI) * barMaxW;
+            var putW  = (row.put_oi  / maxOI) * barMaxW;
+            var yBar  = y - barH / 2;
+
+            // Call portion (teal)
+            if (callW > 0) {
+              ctx.fillStyle = 'rgba(26,188,156,0.7)';
+              ctx.fillRect(xStart, yBar, callW, barH);
+            }
+            // Put portion (red) stacked after call
+            if (putW > 0) {
+              ctx.fillStyle = 'rgba(224,82,82,0.7)';
+              ctx.fillRect(xStart + callW, yBar, putW, barH);
+            }
           });
 
-          // Draw put OI bars (red, from right going left, slightly offset)
-          oi.puts.forEach(function(p) {
-            if (!p.open_interest) return;
-            var y    = yAxis.getPixelForValue(p.strike);
-            var barW = (p.open_interest / maxOI) * barMaxW;
-            ctx.fillStyle = 'rgba(224,82,82,0.5)';
-            ctx.fillRect(xRight - barW, y + 1, barW, 6);
-          });
+          // Max pain dashed line
+          if (oi.maxPain) {
+            var mpY = yAxis.getPixelForValue(oi.maxPain);
+            if (mpY >= area.top && mpY <= area.bottom) {
+              ctx.strokeStyle = '#f0a500';
+              ctx.lineWidth   = 1.5;
+              ctx.setLineDash([3, 3]);
+              ctx.beginPath();
+              ctx.moveTo(xStart, mpY);
+              ctx.lineTo(xStart + barMaxW, mpY);
+              ctx.stroke();
+              ctx.setLineDash([]);
+              ctx.fillStyle  = '#f0a500';
+              ctx.font       = '9px Inter, sans-serif';
+              ctx.textAlign  = 'left';
+              ctx.fillText('Max Pain $' + oi.maxPain, xStart + barMaxW + 3, mpY + 3);
+            }
+          }
 
-          // Draw strike labels for top OI
-          ctx.fillStyle = '#7F8C8D';
+          // Strike labels for top call strikes (teal)
           ctx.font      = '9px Inter, sans-serif';
           ctx.textAlign = 'right';
-
-          var topCalls = oi.calls.slice().sort(function(a,b){ return b.open_interest - a.open_interest; }).slice(0,3);
-          var topPuts  = oi.puts.slice().sort(function(a,b){ return b.open_interest - a.open_interest; }).slice(0,3);
-
-          topCalls.forEach(function(c) {
+          (oi.topCalls || []).slice(0, 3).forEach(function(c) {
             var y = yAxis.getPixelForValue(c.strike);
+            if (y < area.top || y > area.bottom) return;
             ctx.fillStyle = '#1ABC9C';
-            ctx.fillText('$' + c.strike, xRight - 2, y - 7);
+            ctx.fillText('$' + c.strike, xStart - 2, y + 3);
           });
-          topPuts.forEach(function(p) {
+
+          // Strike labels for top put strikes (red) — skip if already labeled
+          var labeled = (oi.topCalls || []).slice(0,3).map(function(c){ return c.strike; });
+          (oi.topPuts || []).slice(0, 3).forEach(function(p) {
+            if (labeled.indexOf(p.strike) > -1) return;
             var y = yAxis.getPixelForValue(p.strike);
+            if (y < area.top || y > area.bottom) return;
             ctx.fillStyle = '#e05252';
-            ctx.fillText('$' + p.strike, xRight - 2, y + 17);
+            ctx.fillText('$' + p.strike, xStart - 2, y + 3);
           });
 
           // Legend
+          var lx = xStart, ly = area.top + 6;
           ctx.fillStyle = 'rgba(26,188,156,0.7)';
-          ctx.fillRect(xRight - 79, chart.chartArea.top + 6, 10, 8);
-          ctx.fillStyle = '#7F8C8D';
-          ctx.font      = '9px Inter, sans-serif';
+          ctx.fillRect(lx, ly, 8, 6);
+          ctx.fillStyle = '#9a9a9a';
           ctx.textAlign = 'left';
-          ctx.fillText('Call OI', xRight - 66, chart.chartArea.top + 13);
+          ctx.font      = '9px Inter, sans-serif';
+          ctx.fillText('Calls', lx + 11, ly + 6);
 
           ctx.fillStyle = 'rgba(224,82,82,0.7)';
-          ctx.fillRect(xRight - 79, chart.chartArea.top + 18, 10, 8);
-          ctx.fillStyle = '#7F8C8D';
-          ctx.fillText('Put OI', xRight - 66, chart.chartArea.top + 25);
+          ctx.fillRect(lx + 44, ly, 8, 6);
+          ctx.fillStyle = '#9a9a9a';
+          ctx.fillText('Puts', lx + 55, ly + 6);
+
+          ctx.fillStyle = '#f0a500';
+          ctx.fillRect(lx, ly + 13, 12, 2);
+          ctx.fillStyle = '#9a9a9a';
+          ctx.fillText('Max Pain', lx + 16, ly + 18);
 
           ctx.restore();
         }
       };
 
-      Chart.register(oiProfilePlugin);
+            Chart.register(oiProfilePlugin);
 
       // ── Line chart (top) ──────────────────────────────────
       function renderEmChart(symbol) {
@@ -393,12 +424,12 @@
         // Prep OI data for plugin
         var oiData = null;
         if (sd.oi_analysis) {
-          var allOI = sd.oi_analysis.top_calls.map(function(c){ return c.open_interest; })
-            .concat(sd.oi_analysis.top_puts.map(function(p){ return p.open_interest; }));
           oiData = {
-            calls:  sd.oi_analysis.top_calls,
-            puts:   sd.oi_analysis.top_puts,
-            maxOI:  Math.max.apply(null, allOI.filter(function(v){ return v > 0; })) || 1
+            profile:  sd.oi_analysis.profile   || [],
+            topCalls: sd.oi_analysis.top_calls || [],
+            topPuts:  sd.oi_analysis.top_puts  || [],
+            maxOI:    sd.oi_analysis.max_oi    || 1,
+            maxPain:  sd.oi_analysis.max_pain  || null,
           };
         }
 
@@ -449,7 +480,7 @@
           options: {
             responsive: true,
             maintainAspectRatio: false,
-            layout: { padding: { right: 90 } },
+            layout: { padding: { right: 130 } },
             interaction: { mode: 'index', intersect: false },
             plugins: {
               legend: { labels: { color: '#7F8C8D', font: { size: 11 }, boxWidth: 12 } },
