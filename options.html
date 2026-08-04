@@ -302,29 +302,7 @@
             ctx.fillText('$' + p.strike, xEnd - barMax - 2, y + 3);
           });
 
-          // Legend in top-right
-          var lx = xEnd - barMax, ly = area.top + 8;
-          ctx.fillStyle = 'rgba(26,188,156,0.5)';
-          ctx.fillRect(lx, ly, 8, 5);
-          ctx.strokeStyle = 'rgba(26,188,156,0.9)';
-          ctx.lineWidth = 1;
-          ctx.strokeRect(lx, ly, 8, 5);
-          ctx.fillStyle = '#9a9a9a';
-          ctx.textAlign = 'left';
-          ctx.font      = '9px Inter,sans-serif';
-          ctx.fillText('Calls', lx + 11, ly + 5);
-
-          ctx.fillStyle = 'rgba(224,82,82,0.5)';
-          ctx.fillRect(lx + 42, ly, 8, 5);
-          ctx.strokeStyle = 'rgba(224,82,82,0.9)';
-          ctx.strokeRect(lx + 42, ly, 8, 5);
-          ctx.fillStyle = '#9a9a9a';
-          ctx.fillText('Puts', lx + 53, ly + 5);
-
-          ctx.fillStyle = '#f0a500';
-          ctx.fillRect(lx, ly + 12, 10, 2);
-          ctx.fillStyle = '#9a9a9a';
-          ctx.fillText('Max Pain', lx + 13, ly + 17);
+          // Legend drawn by Chart.js — no custom legend needed here
 
           ctx.restore();
         }
@@ -402,7 +380,13 @@
                 borderColor:'#7F8C8D', borderWidth:1.5, borderDash:[6,4], pointRadius:0, fill:false },
               { label:'Lower Target (-)', data: moves.map(function(m){ return m.lower_target; }),
                 borderColor:'#e05252', backgroundColor:'rgba(224,82,82,0.1)', borderWidth:2,
-                pointBackgroundColor:'#e05252', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:false }
+                pointBackgroundColor:'#e05252', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:false },
+              { label:'Call OI', data: [], borderColor:'rgba(26,188,156,0.9)', backgroundColor:'rgba(26,188,156,0.25)',
+                borderWidth:1, pointRadius:0, fill:false },
+              { label:'Put OI', data: [], borderColor:'rgba(224,82,82,0.9)', backgroundColor:'rgba(224,82,82,0.25)',
+                borderWidth:1, pointRadius:0, fill:false },
+              { label:'Max Pain', data: [], borderColor:'#f0a500', borderWidth:1.5,
+                borderDash:[4,3], pointRadius:0, fill:false }
             ]
           },
           options: {
