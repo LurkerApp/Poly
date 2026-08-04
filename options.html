@@ -201,9 +201,7 @@
         return         { text:'Bullish',  cls:'pill-green',  meaning:'More calls than puts — market leaning bullish' };
       }
 
-      // ── OI profile plugin ─────────────────────────────────
-      // Draws horizontal stacked call/put bars INSIDE the right
-      // portion of the chart canvas using layout padding
+      // ── OI profile plugin — draws inside right portion of chart ──
       var oiProfilePlugin = {
         id: 'oiProfile',
         afterDraw: function(chart) {
@@ -213,36 +211,35 @@
           var ctx    = chart.ctx;
           var yScale = chart.scales.y;
           var area   = chart.chartArea;
-
-          // The bars live in the right padding area
-          var xStart = area.right + 8;
-          var barMax = chart.width - xStart - 50;
-          if (barMax < 20) return;
-
           var maxOI  = oi.maxOI || 1;
+          var barMax = Math.min(120, (area.right - area.left) * 0.25); // max 25% of chart width
+          var xStart = area.right - barMax - 2;
           var barH   = 5;
 
           ctx.save();
+          // Clip strictly to chart area
+          ctx.beginPath();
+          ctx.rect(area.left, area.top, area.right - area.left, area.bottom - area.top);
+          ctx.clip();
 
+          // Draw stacked call+put bars per strike
           oi.profile.forEach(function(row) {
             var y = yScale.getPixelForValue(row.strike);
-            if (y < area.top || y > area.bottom) return;
-
-            var callW = Math.max(0, (row.call_oi / maxOI) * barMax);
-            var putW  = Math.max(0, (row.put_oi  / maxOI) * barMax);
+            if (y < area.top + 30 || y > area.bottom) return;
+            var callW = (row.call_oi / maxOI) * barMax;
+            var putW  = (row.put_oi  / maxOI) * barMax;
             var yBar  = y - barH / 2;
-
             if (callW > 0) {
-              ctx.fillStyle = 'rgba(26,188,156,0.75)';
+              ctx.fillStyle = 'rgba(26,188,156,0.65)';
               ctx.fillRect(xStart, yBar, callW, barH);
             }
             if (putW > 0) {
-              ctx.fillStyle = 'rgba(224,82,82,0.75)';
+              ctx.fillStyle = 'rgba(224,82,82,0.65)';
               ctx.fillRect(xStart + callW, yBar, putW, barH);
             }
           });
 
-          // Max pain line
+          // Max pain line inside chart area
           if (oi.maxPain) {
             var mpY = yScale.getPixelForValue(oi.maxPain);
             if (mpY >= area.top && mpY <= area.bottom) {
@@ -251,7 +248,7 @@
               ctx.setLineDash([4, 3]);
               ctx.beginPath();
               ctx.moveTo(xStart, mpY);
-              ctx.lineTo(xStart + barMax, mpY);
+              ctx.lineTo(area.right - 2, mpY);
               ctx.stroke();
               ctx.setLineDash([]);
             }
@@ -262,56 +259,46 @@
           ctx.textAlign = 'right';
           var labeled   = [];
 
-          (oi.topCalls || []).slice(0, 3).forEach(function(c) {
+          (oi.topCalls || []).slice(0, 2).forEach(function(c) {
             var y = yScale.getPixelForValue(c.strike);
-            if (y < area.top || y > area.bottom) return;
+            if (y < area.top + 30 || y > area.bottom) return;
             ctx.fillStyle = '#1ABC9C';
             ctx.fillText('$' + c.strike, xStart - 2, y + 3);
             labeled.push(c.strike);
           });
 
-          (oi.topPuts || []).slice(0, 3).forEach(function(p) {
+          (oi.topPuts || []).slice(0, 2).forEach(function(p) {
             if (labeled.indexOf(p.strike) > -1) return;
             var y = yScale.getPixelForValue(p.strike);
-            if (y < area.top || y > area.bottom) return;
+            if (y < area.top + 30 || y > area.bottom) return;
             ctx.fillStyle = '#e05252';
             ctx.fillText('$' + p.strike, xStart - 2, y + 3);
           });
 
-          // Max pain label
-          if (oi.maxPain) {
-            var mpY2 = yScale.getPixelForValue(oi.maxPain);
-            if (mpY2 >= area.top && mpY2 <= area.bottom) {
-              ctx.fillStyle = '#f0a500';
-              ctx.textAlign = 'left';
-              ctx.font      = '9px Inter,sans-serif';
-              ctx.fillText('$' + oi.maxPain, xStart + barMax + 2, mpY2 + 3);
-            }
-          }
-
-          // Legend
+          // Legend in top-right of chart area
+          var lx = xStart, ly = area.top + 8;
           ctx.fillStyle = 'rgba(26,188,156,0.8)';
-          ctx.fillRect(xStart, area.top + 4, 8, 6);
+          ctx.fillRect(lx, ly, 8, 5);
           ctx.fillStyle = '#9a9a9a';
           ctx.textAlign = 'left';
           ctx.font      = '9px Inter,sans-serif';
-          ctx.fillText('Calls', xStart + 11, area.top + 10);
+          ctx.fillText('Calls', lx + 11, ly + 5);
 
           ctx.fillStyle = 'rgba(224,82,82,0.8)';
-          ctx.fillRect(xStart + 42, area.top + 4, 8, 6);
+          ctx.fillRect(lx + 42, ly, 8, 5);
           ctx.fillStyle = '#9a9a9a';
-          ctx.fillText('Puts', xStart + 53, area.top + 10);
+          ctx.fillText('Puts', lx + 53, ly + 5);
 
           ctx.fillStyle = '#f0a500';
-          ctx.fillRect(xStart, area.top + 15, 10, 2);
+          ctx.fillRect(lx, ly + 12, 10, 2);
           ctx.fillStyle = '#9a9a9a';
-          ctx.fillText('Max Pain', xStart + 13, area.top + 20);
+          ctx.fillText('Max Pain', lx + 13, ly + 17);
 
           ctx.restore();
         }
       };
 
-      Chart.register(oiProfilePlugin);
+            Chart.register(oiProfilePlugin);
 
       // ── Top stat cards ────────────────────────────────────
       function renderTopStats(data) {
@@ -388,7 +375,6 @@
           },
           options: {
             responsive: true, maintainAspectRatio: false,
-            layout: { padding: { right: 140 } },
             interaction: { mode:'index', intersect:false },
             plugins: {
               legend: { labels: { color:'#7F8C8D', font:{ size:11 }, boxWidth:12 } },
@@ -435,7 +421,6 @@
           },
           options: {
             responsive:true, maintainAspectRatio:false,
-            layout: { padding: { right: 140 } },
             plugins: {
               legend: { display:false },
               tooltip: {
