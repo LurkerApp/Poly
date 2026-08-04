@@ -67,9 +67,6 @@
           <div class="em-chart-wrap">
             <canvas id="emChart"></canvas>
           </div>
-          <div class="em-bar-wrap">
-            <canvas id="pcChart"></canvas>
-          </div>
           <div class="metric-grid" id="metricGrid"></div>
 
           <!-- OI Analysis -->
@@ -95,6 +92,15 @@
               <canvas id="oiChart"></canvas>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Put/Call Ratio bar chart — own section -->
+      <div class="chart-section" style="margin-top:1.5rem;">
+        <h2>Put / Call Ratio by Expiration <span class="refresh-badge">Live</span></h2>
+        <p class="section-sub">Red bars = more puts than calls (bearish lean). Teal bars = more calls than puts (bullish lean). Above 1.0 means more bearish positioning.</p>
+        <div style="position:relative;height:100px;" id="pcWrap">
+          <canvas id="pcChart"></canvas>
         </div>
       </div>
 
@@ -222,24 +228,45 @@
           ctx.rect(area.left, area.top, area.right - area.left, area.bottom - area.top);
           ctx.clip();
 
-          // Draw stacked call+put bars per strike
+          // xEnd is the right edge, bars grow LEFTWARD
+          var xEnd = area.right - 4;
+
+          // Draw stacked call+put bars per strike — outlined, no fill
           oi.profile.forEach(function(row) {
             var y = yScale.getPixelForValue(row.strike);
             if (y < area.top + 30 || y > area.bottom) return;
             var callW = (row.call_oi / maxOI) * barMax;
             var putW  = (row.put_oi  / maxOI) * barMax;
             var yBar  = y - barH / 2;
-            if (callW > 0) {
-              ctx.fillStyle = 'rgba(26,188,156,0.65)';
-              ctx.fillRect(xStart, yBar, callW, barH);
+            var totalW = callW + putW;
+
+            // Outline bar (total width) — no fill
+            if (totalW > 0) {
+              ctx.strokeStyle = 'rgba(90,96,104,0.4)';
+              ctx.lineWidth   = 0.5;
+              ctx.strokeRect(xEnd - totalW, yBar, totalW, barH);
             }
+
+            // Call fill (teal, semi-transparent)
+            if (callW > 0) {
+              ctx.fillStyle = 'rgba(26,188,156,0.25)';
+              ctx.fillRect(xEnd - totalW, yBar, callW, barH);
+              ctx.strokeStyle = 'rgba(26,188,156,0.8)';
+              ctx.lineWidth   = 1;
+              ctx.strokeRect(xEnd - totalW, yBar, callW, barH);
+            }
+
+            // Put fill (red, semi-transparent) — stacked left of calls
             if (putW > 0) {
-              ctx.fillStyle = 'rgba(224,82,82,0.65)';
-              ctx.fillRect(xStart + callW, yBar, putW, barH);
+              ctx.fillStyle = 'rgba(224,82,82,0.25)';
+              ctx.fillRect(xEnd - putW, yBar, putW, barH);
+              ctx.strokeStyle = 'rgba(224,82,82,0.8)';
+              ctx.lineWidth   = 1;
+              ctx.strokeRect(xEnd - putW, yBar, putW, barH);
             }
           });
 
-          // Max pain line inside chart area
+          // Max pain line — horizontal across bar area
           if (oi.maxPain) {
             var mpY = yScale.getPixelForValue(oi.maxPain);
             if (mpY >= area.top && mpY <= area.bottom) {
@@ -247,14 +274,14 @@
               ctx.lineWidth   = 1.5;
               ctx.setLineDash([4, 3]);
               ctx.beginPath();
-              ctx.moveTo(xStart, mpY);
-              ctx.lineTo(area.right - 2, mpY);
+              ctx.moveTo(xEnd - barMax, mpY);
+              ctx.lineTo(xEnd, mpY);
               ctx.stroke();
               ctx.setLineDash([]);
             }
           }
 
-          // Top strike labels
+          // Top strike labels — to the LEFT of bars
           ctx.font      = '9px Inter,sans-serif';
           ctx.textAlign = 'right';
           var labeled   = [];
@@ -263,7 +290,7 @@
             var y = yScale.getPixelForValue(c.strike);
             if (y < area.top + 30 || y > area.bottom) return;
             ctx.fillStyle = '#1ABC9C';
-            ctx.fillText('$' + c.strike, xStart - 2, y + 3);
+            ctx.fillText('$' + c.strike, xEnd - barMax - 2, y + 3);
             labeled.push(c.strike);
           });
 
@@ -272,20 +299,25 @@
             var y = yScale.getPixelForValue(p.strike);
             if (y < area.top + 30 || y > area.bottom) return;
             ctx.fillStyle = '#e05252';
-            ctx.fillText('$' + p.strike, xStart - 2, y + 3);
+            ctx.fillText('$' + p.strike, xEnd - barMax - 2, y + 3);
           });
 
-          // Legend in top-right of chart area
-          var lx = xStart, ly = area.top + 8;
-          ctx.fillStyle = 'rgba(26,188,156,0.8)';
+          // Legend in top-right
+          var lx = xEnd - barMax, ly = area.top + 8;
+          ctx.fillStyle = 'rgba(26,188,156,0.5)';
           ctx.fillRect(lx, ly, 8, 5);
+          ctx.strokeStyle = 'rgba(26,188,156,0.9)';
+          ctx.lineWidth = 1;
+          ctx.strokeRect(lx, ly, 8, 5);
           ctx.fillStyle = '#9a9a9a';
           ctx.textAlign = 'left';
           ctx.font      = '9px Inter,sans-serif';
           ctx.fillText('Calls', lx + 11, ly + 5);
 
-          ctx.fillStyle = 'rgba(224,82,82,0.8)';
+          ctx.fillStyle = 'rgba(224,82,82,0.5)';
           ctx.fillRect(lx + 42, ly, 8, 5);
+          ctx.strokeStyle = 'rgba(224,82,82,0.9)';
+          ctx.strokeRect(lx + 42, ly, 8, 5);
           ctx.fillStyle = '#9a9a9a';
           ctx.fillText('Puts', lx + 53, ly + 5);
 
