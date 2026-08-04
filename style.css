@@ -323,13 +323,20 @@ nav {
 
 /* ── Datetime display ── */
 .datetime-display {
-  position: fixed;
-  top: 80px;
-  right: 2rem;
-  font-size: 13px;
+  text-align: right;
+  font-size: 11px;
   color: #5a6068;
   font-weight: 500;
-  z-index: 50;
+  padding: 0.4rem 2rem 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .datetime-display {
+    font-size: 10px;
+    padding: 0.4rem 1rem 0;
+  }
 }
 
 /* ── Score bar ── */
