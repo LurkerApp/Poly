@@ -9,7 +9,6 @@
       .em-tab { font-size:12px; font-weight:600; padding:4px 14px; border-radius:4px; border:1px solid #2a2d30; background:transparent; color:#7F8C8D; cursor:pointer; font-family:inherit; transition:all 0.15s; }
       .em-tab.active { background:#1ABC9C; color:#141618; border-color:#1ABC9C; }
       .em-chart-wrap { position:relative; height:380px; }
-      .em-bar-wrap   { position:relative; height:80px; margin-top:4px; }
 
       .metric-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.75rem; margin-top:1.25rem; }
       .metric-card { background:#252830; border-radius:8px; padding:0.9rem 1rem; border:1px solid #2a2d30; }
@@ -21,6 +20,15 @@
       .pill-red    { background:#2e1e1e; color:#e05252; }
       .pill-yellow { background:#2e2a1a; color:#f0a500; }
       .pill-grey   { background:#252830; color:#7F8C8D; }
+
+      .oi-legend {
+        display:flex; gap:1rem; align-items:center;
+        margin-bottom:0.75rem; font-size:11px; color:#7F8C8D;
+      }
+      .oi-swatch {
+        display:inline-block; width:14px; height:8px;
+        border-radius:2px; margin-right:4px; vertical-align:middle;
+      }
     </style>
   </head>
   <body>
@@ -57,12 +65,19 @@
 
       <div class="chart-section">
         <h2>Expected Move Cone <span class="refresh-badge">Live</span></h2>
-        <p class="section-sub">Shaded area shows the expected price range. OI bars on the right show where options are concentrated — teal = calls, red = puts. Orange line = Max Pain.</p>
+        <p class="section-sub">Shaded area = expected price range. Right side bars = open interest by strike price.</p>
         <div id="emLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="emWrap" style="display:none;">
-          <div class="em-tabs">
-            <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
-            <button class="em-tab" onclick="switchTab('QQQ')">QQQ</button>
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+            <div class="em-tabs" style="margin-bottom:0;">
+              <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
+              <button class="em-tab" onclick="switchTab('QQQ')">QQQ</button>
+            </div>
+            <div class="oi-legend" style="justify-content:center; gap:2rem; margin-top:0.5rem;">
+              <span><span class="oi-swatch" style="background:rgba(26,188,156,0.4);border:1px solid #1ABC9C;"></span>Call OI</span>
+              <span><span class="oi-swatch" style="background:rgba(224,82,82,0.4);border:1px solid #e05252;"></span>Put OI</span>
+              <span><span class="oi-swatch" style="background:#f0a500;height:2px;width:14px;display:inline-block;vertical-align:middle;margin-right:4px;"></span>Max Pain</span>
+            </div>
           </div>
           <div class="em-chart-wrap">
             <canvas id="emChart"></canvas>
@@ -99,7 +114,7 @@
       <div class="chart-section" style="margin-top:1.5rem;">
         <h2>Put / Call Ratio by Expiration <span class="refresh-badge">Live</span></h2>
         <p class="section-sub">Red bars = more puts than calls (bearish lean). Teal bars = more calls than puts (bullish lean). Above 1.0 means more bearish positioning.</p>
-        <div style="position:relative;height:100px;" id="pcWrap">
+        <div style="position:relative;height:100px;">
           <canvas id="pcChart"></canvas>
         </div>
       </div>
@@ -141,16 +156,16 @@
             <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">IV is what traders expect. HV is what actually happened. IV &gt; HV means options are expensive — sellers have an edge. IV &lt; HV means options are cheap — buyers have an edge.</div>
           </div>
           <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
-            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">Put/Call Ratio (bars below chart)</div>
-            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Red bars = more puts (bearish bets) than calls. Teal bars = more calls (bullish). Above 1.0 = bearish lean. Below 1.0 = bullish lean. The dotted line marks neutral (1.0).</div>
+            <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">Put/Call Ratio</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Red bars = more puts (bearish bets) than calls. Teal bars = more calls (bullish). Above 1.0 = bearish lean. Below 1.0 = bullish lean.</div>
           </div>
           <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
             <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">OI Profile (right side of chart)</div>
-            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Horizontal bars show where options are concentrated by strike price. Wide bars = lots of open interest = strong price magnet. Teal = calls, red = puts, stacked to show total at each level.</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">Horizontal bars show where options are concentrated by strike price. Wide bars = lots of open interest = strong price magnet. Teal = calls, red = puts stacked together.</div>
           </div>
           <div style="background:#252830;border-radius:8px;padding:1rem 1.25rem;">
             <div style="font-size:13px;font-weight:700;color:#1ABC9C;margin-bottom:6px;">Max Pain</div>
-            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">The strike price where the most options expire worthless. Market makers profit most here so price tends to drift toward Max Pain as expiration approaches — especially in the final days.</div>
+            <div style="font-size:13px;color:#c0c0c0;line-height:1.6;">The strike price where the most options expire worthless. Market makers profit most here so price tends to drift toward Max Pain near expiration — especially in the final days.</div>
           </div>
         </div>
       </div>
@@ -207,58 +222,47 @@
         return         { text:'Bullish',  cls:'pill-green',  meaning:'More calls than puts — market leaning bullish' };
       }
 
-      // ── OI profile plugin — draws inside right portion of chart ──
+      // ── OI profile plugin ─────────────────────────────────
       var oiProfilePlugin = {
         id: 'oiProfile',
         afterDraw: function(chart) {
           if (!chart._oiData || !chart._oiData.profile || !chart._oiData.profile.length) return;
-
           var oi     = chart._oiData;
           var ctx    = chart.ctx;
           var yScale = chart.scales.y;
           var area   = chart.chartArea;
           var maxOI  = oi.maxOI || 1;
-          var barMax = Math.min(120, (area.right - area.left) * 0.25); // max 25% of chart width
-          var xStart = area.right - barMax - 2;
+          var barMax = Math.min(120, (area.right - area.left) * 0.25);
           var barH   = 5;
+          var xEnd   = area.right - 4;
 
           ctx.save();
-          // Clip strictly to chart area
           ctx.beginPath();
           ctx.rect(area.left, area.top, area.right - area.left, area.bottom - area.top);
           ctx.clip();
 
-          // xEnd is the right edge, bars grow LEFTWARD
-          var xEnd = area.right - 4;
-
-          // Draw stacked call+put bars per strike — outlined, no fill
           oi.profile.forEach(function(row) {
             var y = yScale.getPixelForValue(row.strike);
             if (y < area.top + 30 || y > area.bottom) return;
-            var callW = (row.call_oi / maxOI) * barMax;
-            var putW  = (row.put_oi  / maxOI) * barMax;
-            var yBar  = y - barH / 2;
+            var callW  = (row.call_oi / maxOI) * barMax;
+            var putW   = (row.put_oi  / maxOI) * barMax;
             var totalW = callW + putW;
+            var yBar   = y - barH / 2;
 
-            // Outline bar (total width) — no fill
             if (totalW > 0) {
-              ctx.strokeStyle = 'rgba(90,96,104,0.4)';
+              ctx.strokeStyle = 'rgba(90,96,104,0.3)';
               ctx.lineWidth   = 0.5;
               ctx.strokeRect(xEnd - totalW, yBar, totalW, barH);
             }
-
-            // Call fill (teal, semi-transparent)
             if (callW > 0) {
-              ctx.fillStyle = 'rgba(26,188,156,0.25)';
+              ctx.fillStyle   = 'rgba(26,188,156,0.25)';
               ctx.fillRect(xEnd - totalW, yBar, callW, barH);
               ctx.strokeStyle = 'rgba(26,188,156,0.8)';
               ctx.lineWidth   = 1;
               ctx.strokeRect(xEnd - totalW, yBar, callW, barH);
             }
-
-            // Put fill (red, semi-transparent) — stacked left of calls
             if (putW > 0) {
-              ctx.fillStyle = 'rgba(224,82,82,0.25)';
+              ctx.fillStyle   = 'rgba(224,82,82,0.25)';
               ctx.fillRect(xEnd - putW, yBar, putW, barH);
               ctx.strokeStyle = 'rgba(224,82,82,0.8)';
               ctx.lineWidth   = 1;
@@ -266,7 +270,6 @@
             }
           });
 
-          // Max pain line — horizontal across bar area
           if (oi.maxPain) {
             var mpY = yScale.getPixelForValue(oi.maxPain);
             if (mpY >= area.top && mpY <= area.bottom) {
@@ -281,11 +284,9 @@
             }
           }
 
-          // Top strike labels — to the LEFT of bars
           ctx.font      = '9px Inter,sans-serif';
           ctx.textAlign = 'right';
           var labeled   = [];
-
           (oi.topCalls || []).slice(0, 2).forEach(function(c) {
             var y = yScale.getPixelForValue(c.strike);
             if (y < area.top + 30 || y > area.bottom) return;
@@ -293,7 +294,6 @@
             ctx.fillText('$' + c.strike, xEnd - barMax - 2, y + 3);
             labeled.push(c.strike);
           });
-
           (oi.topPuts || []).slice(0, 2).forEach(function(p) {
             if (labeled.indexOf(p.strike) > -1) return;
             var y = yScale.getPixelForValue(p.strike);
@@ -302,15 +302,12 @@
             ctx.fillText('$' + p.strike, xEnd - barMax - 2, y + 3);
           });
 
-          // Legend drawn by Chart.js — no custom legend needed here
-
           ctx.restore();
         }
       };
 
-            Chart.register(oiProfilePlugin);
+      Chart.register(oiProfilePlugin);
 
-      // ── Top stat cards ────────────────────────────────────
       function renderTopStats(data) {
         var spy = null, qqq = null;
         (data.symbols || []).forEach(function(s) {
@@ -333,14 +330,9 @@
         }
       }
 
-      // ── Metric cards ──────────────────────────────────────
       function renderMetrics(sd) {
-        var vix    = emData.vix;
-        var hv     = sd.hv_20d;
-        var pc     = sd.put_call_ratio;
-        var spread = sd.iv_hv_spread;
+        var vix = emData.vix, hv = sd.hv_20d, pc = sd.put_call_ratio, spread = sd.iv_hv_spread;
         var vL = vixLabel(vix), iL = ivHvLabel(spread), pL = pcLabel(pc);
-
         document.getElementById('metricGrid').innerHTML =
           '<div class="metric-card"><div class="metric-label">VIX — Fear Index</div><div class="metric-value">' + (vix ? vix.toFixed(1) : '—') + '</div><div class="metric-sub">' + vL.meaning + '</div><span class="metric-pill ' + vL.cls + '">' + vL.text + '</span></div>' +
           '<div class="metric-card"><div class="metric-label">20-Day Hist. Vol</div><div class="metric-value">' + (hv ? hv.toFixed(1) + '%' : '—') + '</div><div class="metric-sub">What ' + sd.symbol + ' actually moved the last 20 days, annualized</div></div>' +
@@ -348,14 +340,10 @@
           '<div class="metric-card"><div class="metric-label">Put / Call Ratio</div><div class="metric-value">' + (pc ? pc.toFixed(2) : '—') + '</div><div class="metric-sub">' + pL.meaning + '</div><span class="metric-pill ' + pL.cls + '">' + pL.text + '</span></div>';
       }
 
-      // ── Main line chart + OI profile plugin ──────────────
       function renderEmChart(sd) {
-        var moves = sd.moves;
-        var cp    = sd.current_price;
+        var moves = sd.moves, cp = sd.current_price;
         var labels = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
-
         if (emChart) { emChart.destroy(); emChart = null; }
-
         var oiData = null;
         if (sd.oi_analysis) {
           oiData = {
@@ -366,7 +354,6 @@
             maxPain:  sd.oi_analysis.max_pain  || null,
           };
         }
-
         var ctx = document.getElementById('emChart').getContext('2d');
         emChart = new Chart(ctx, {
           type: 'line',
@@ -380,23 +367,26 @@
                 borderColor:'#7F8C8D', borderWidth:1.5, borderDash:[6,4], pointRadius:0, fill:false },
               { label:'Lower Target (-)', data: moves.map(function(m){ return m.lower_target; }),
                 borderColor:'#e05252', backgroundColor:'rgba(224,82,82,0.1)', borderWidth:2,
-                pointBackgroundColor:'#e05252', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:false },
-              { label:'Call OI', data: [], borderColor:'rgba(26,188,156,0.9)', backgroundColor:'rgba(26,188,156,0.25)',
-                borderWidth:1, pointRadius:0, fill:false },
-              { label:'Put OI', data: [], borderColor:'rgba(224,82,82,0.9)', backgroundColor:'rgba(224,82,82,0.25)',
-                borderWidth:1, pointRadius:0, fill:false },
-              { label:'Max Pain', data: [], borderColor:'#f0a500', borderWidth:1.5,
-                borderDash:[4,3], pointRadius:0, fill:false }
+                pointBackgroundColor:'#e05252', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:false }
             ]
           },
           options: {
-            responsive: true, maintainAspectRatio: false,
-            layout: { padding: { right: 50 } },
-            interaction: { mode:'index', intersect:false },
+            responsive:true, maintainAspectRatio:false,
+            interaction:{ mode:'index', intersect:false },
             plugins: {
               legend: {
-                align: 'start',
-                labels: { color:'#7F8C8D', font:{ size:11 }, boxWidth:12, padding:16 }
+                display: true,
+                align: 'center',
+                labels: {
+                  color: '#7F8C8D',
+                  font: { size: 11 },
+                  boxWidth: 12,
+                  padding: 20,
+                  filter: function(item) {
+                    // Only show the 3 main line items — OI shown in HTML legend
+                    return ['Upper Target (+)', 'Current Price', 'Lower Target (-)'].indexOf(item.text) > -1;
+                  }
+                }
               },
               tooltip: {
                 backgroundColor:'#1f2224', borderColor:'#2a2d30', borderWidth:1,
@@ -414,31 +404,23 @@
             }
           }
         });
-
         if (oiData) emChart._oiData = oiData;
       }
 
-      // ── Put/Call bar chart below line ─────────────────────
       function renderPCChart(sd) {
-        var moves    = sd.moves;
-        var labels   = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
+        var moves = sd.moves;
+        var labels = moves.map(function(m) { return fmtExp(m.expiration) + ' (' + m.days_to_expiry + 'd)'; });
         var pcRatios = moves.map(function(m) { return m.put_call_ratio; });
         var barColors = pcRatios.map(function(r) {
           if (r === null) return 'rgba(90,96,104,0.4)';
           return r > 1.0 ? 'rgba(224,82,82,0.8)' : 'rgba(26,188,156,0.8)';
         });
-
         if (pcChart) { pcChart.destroy(); pcChart = null; }
-
         var ctx2 = document.getElementById('pcChart').getContext('2d');
         pcChart = new Chart(ctx2, {
           type: 'bar',
-          data: {
-            labels: labels,
-            datasets: [{ label:'Put/Call Ratio', data: pcRatios,
-              backgroundColor: barColors, borderColor: barColors,
-              borderWidth:1, borderRadius:3 }]
-          },
+          data: { labels: labels, datasets: [{ label:'Put/Call Ratio', data: pcRatios,
+            backgroundColor: barColors, borderColor: barColors, borderWidth:1, borderRadius:3 }] },
           options: {
             responsive:true, maintainAspectRatio:false,
             plugins: {
@@ -458,8 +440,7 @@
             },
             scales: {
               x: { grid:{ color:'#252830' }, ticks:{ display:false } },
-              y: { position:'right', min:0,
-                grid:{ color:'#252830' },
+              y: { position:'right', min:0, grid:{ color:'#252830' },
                 ticks:{ color:'#7F8C8D', font:{ size:9 }, callback: function(v){ return v.toFixed(1) + 'x'; }, maxTicksLimit:3 },
                 title:{ display:true, text:'Put/Call', color:'#5a6068', font:{ size:9 } }
               }
@@ -468,12 +449,9 @@
         });
       }
 
-      // ── OI horizontal bar chart (below) ───────────────────
       function renderOIChart(sd) {
         if (!sd.oi_analysis) return;
         var oi = sd.oi_analysis;
-
-        // Update max pain stat
         document.getElementById('maxPainVal').textContent = oi.max_pain ? '$' + oi.max_pain.toFixed(2) : '—';
         var diff = oi.max_pain_diff;
         if (diff !== null && diff !== undefined) {
@@ -481,41 +459,29 @@
           diffEl.textContent = (diff >= 0 ? '+' : '') + diff.toFixed(2) + ' from current';
           diffEl.style.color = diff >= 0 ? '#1ABC9C' : '#e05252';
         }
-
         if (!oi.profile || !oi.profile.length) return;
-
-        var profile   = oi.profile;
-        var labels    = profile.map(function(r){ return '$' + r.strike; });
-        var callOI    = profile.map(function(r){ return r.call_oi; });
-        var putOI     = profile.map(function(r){ return r.put_oi; });
-        var maxPain   = oi.max_pain;
-
+        var profile = oi.profile;
+        var labels  = profile.map(function(r){ return '$' + r.strike; });
+        var callOI  = profile.map(function(r){ return r.call_oi; });
+        var putOI   = profile.map(function(r){ return r.put_oi; });
+        var maxPain = oi.max_pain;
         if (oiChart) { oiChart.destroy(); oiChart = null; }
-
         var ctx3 = document.getElementById('oiChart').getContext('2d');
         oiChart = new Chart(ctx3, {
           type: 'bar',
-          data: {
-            labels: labels,
-            datasets: [
-              { label:'Call OI', data:callOI, backgroundColor:'rgba(26,188,156,0.75)', borderColor:'#1ABC9C', borderWidth:1, borderRadius:2 },
-              { label:'Put OI',  data:putOI,  backgroundColor:'rgba(224,82,82,0.75)',  borderColor:'#e05252', borderWidth:1, borderRadius:2 }
-            ]
-          },
+          data: { labels: labels, datasets: [
+            { label:'Call OI', data:callOI, backgroundColor:'rgba(26,188,156,0.75)', borderColor:'#1ABC9C', borderWidth:1, borderRadius:2 },
+            { label:'Put OI',  data:putOI,  backgroundColor:'rgba(224,82,82,0.75)',  borderColor:'#e05252', borderWidth:1, borderRadius:2 }
+          ]},
           options: {
             responsive:true, maintainAspectRatio:false,
             interaction:{ mode:'index', intersect:false },
             plugins: {
               legend:{ labels:{ color:'#7F8C8D', font:{ size:11 }, boxWidth:12 } },
-              tooltip:{
-                backgroundColor:'#1f2224', borderColor:'#2a2d30', borderWidth:1,
+              tooltip:{ backgroundColor:'#1f2224', borderColor:'#2a2d30', borderWidth:1,
                 titleColor:'#e0e0e0', bodyColor:'#c0c0c0',
-                callbacks:{
-                  label:function(c){ return ' ' + c.dataset.label + ': ' + (c.parsed.y || 0).toLocaleString(); }
-                }
-              },
-              // Max pain annotation as a vertical line plugin
-              annotation: {}
+                callbacks:{ label:function(c){ return ' ' + c.dataset.label + ': ' + (c.parsed.y || 0).toLocaleString(); }}
+              }
             },
             scales: {
               x: { stacked:false, grid:{ color:'#252830' }, ticks:{ color:'#7F8C8D', font:{ size:9 }, maxRotation:45 } },
@@ -528,57 +494,39 @@
             id: 'maxPainLine',
             afterDraw: function(chart) {
               if (!maxPain) return;
-              var idx = labels.indexOf('$' + maxPain);
-              if (idx < 0) {
-                // Find closest
-                for (var i = 0; i < profile.length; i++) {
-                  if (profile[i].strike === maxPain) { idx = i; break; }
-                }
+              var idx = -1;
+              for (var i = 0; i < profile.length; i++) {
+                if (profile[i].strike === maxPain) { idx = i; break; }
               }
               if (idx < 0) return;
               var meta = chart.getDatasetMeta(0);
               if (!meta.data[idx]) return;
-              var x   = meta.data[idx].x;
-              var ctx = chart.ctx;
-              var top = chart.chartArea.top;
-              var bot = chart.chartArea.bottom;
-              ctx.save();
-              ctx.strokeStyle = '#f0a500';
-              ctx.lineWidth   = 2;
-              ctx.setLineDash([4, 3]);
-              ctx.beginPath();
-              ctx.moveTo(x, top);
-              ctx.lineTo(x, bot);
-              ctx.stroke();
-              ctx.setLineDash([]);
-              ctx.fillStyle  = '#f0a500';
-              ctx.font       = '10px Inter,sans-serif';
-              ctx.textAlign  = 'center';
-              ctx.fillText('Max Pain', x, top - 4);
-              ctx.restore();
+              var x = meta.data[idx].x;
+              var c = chart.ctx;
+              c.save();
+              c.strokeStyle = '#f0a500'; c.lineWidth = 2; c.setLineDash([4,3]);
+              c.beginPath(); c.moveTo(x, chart.chartArea.top); c.lineTo(x, chart.chartArea.bottom); c.stroke();
+              c.setLineDash([]);
+              c.fillStyle = '#f0a500'; c.font = '10px Inter,sans-serif'; c.textAlign = 'center';
+              c.fillText('Max Pain', x, chart.chartArea.top - 4);
+              c.restore();
             }
           }]
         });
       }
 
-      // ── Expiry table ──────────────────────────────────────
       function renderTable(sd) {
         document.getElementById('tableTitle').textContent = sd.symbol + ' — All Expirations';
         hide('tableLoading'); show('tableWrap');
-
         var today = new Date(); today.setHours(0,0,0,0);
         var cutoff = new Date(); cutoff.setUTCHours(21,0,0,0);
         var closed = new Date() >= cutoff;
-
         document.getElementById('expiryBody').innerHTML = sd.moves.map(function(m) {
-          var exp     = new Date(m.expiration + 'T12:00:00Z');
+          var exp = new Date(m.expiration + 'T12:00:00Z');
           var expired = closed ? exp <= today : exp < today;
-          var style   = expired ? 'opacity:0.4;' : '';
-          var past    = expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '';
-          var pc      = m.put_call_ratio;
-          var pcStyle = pc ? (pc > 1.0 ? 'color:#e05252;' : 'color:#1ABC9C;') : 'color:#5a6068;';
-          return '<tr style="' + style + '">' +
-            '<td style="font-weight:600;color:#e0e0e0;">' + fmtExp(m.expiration) + past + '</td>' +
+          var pc = m.put_call_ratio;
+          return '<tr style="' + (expired ? 'opacity:0.4;' : '') + '">' +
+            '<td style="font-weight:600;color:#e0e0e0;">' + fmtExp(m.expiration) + (expired ? ' <span style="font-size:10px;color:#5a6068;">(past)</span>' : '') + '</td>' +
             '<td style="color:#7F8C8D;">' + m.days_to_expiry + 'd</td>' +
             '<td>$' + m.current_price.toFixed(2) + '</td>' +
             '<td>$' + m.atm_strike.toFixed(2) + '</td>' +
@@ -586,14 +534,13 @@
             '<td style="color:#e05252;">$' + m.put_price.toFixed(2) + '</td>' +
             '<td style="font-weight:600;color:#e0e0e0;">+/-$' + m.expected_move.toFixed(2) + '</td>' +
             '<td style="font-weight:600;color:#e0e0e0;">+/-' + m.expected_move_pct.toFixed(2) + '%</td>' +
-            '<td style="font-weight:700;' + pcStyle + '">' + (pc ? pc.toFixed(2) : '—') + '</td>' +
+            '<td style="font-weight:700;' + (pc ? (pc > 1.0 ? 'color:#e05252;' : 'color:#1ABC9C;') : 'color:#5a6068;') + '">' + (pc ? pc.toFixed(2) : '—') + '</td>' +
             '<td style="color:#1ABC9C;font-weight:600;">$' + m.upper_target.toFixed(2) + '</td>' +
             '<td style="color:#e05252;font-weight:600;">$' + m.lower_target.toFixed(2) + '</td>' +
           '</tr>';
         }).join('');
       }
 
-      // ── Switch tab ────────────────────────────────────────
       function switchTab(symbol) {
         activeTab = symbol;
         document.querySelectorAll('.em-tab').forEach(function(t) {
@@ -602,31 +549,19 @@
         var sd = null;
         (emData.symbols || []).forEach(function(s) { if (s.symbol === symbol) sd = s; });
         if (!sd) return;
-        renderEmChart(sd);
-        renderPCChart(sd);
-        renderOIChart(sd);
-        renderMetrics(sd);
-        renderTable(sd);
+        renderEmChart(sd); renderPCChart(sd); renderOIChart(sd); renderMetrics(sd); renderTable(sd);
       }
 
-      // ── Init ─────────────────────────────────────────────
       function init() {
         fetch(EXP_MOVE_URL + '?t=' + Date.now())
           .then(function(r) { if (!r.ok) throw new Error('no data'); return r.json(); })
           .then(function(data) {
             emData = data;
             renderTopStats(emData);
-            hide('emLoading'); show('emWrap');
-            hide('tableLoading');
+            hide('emLoading'); show('emWrap'); hide('tableLoading');
             var sd = null;
             (emData.symbols || []).forEach(function(s) { if (s.symbol === activeTab) sd = s; });
-            if (sd) {
-              renderEmChart(sd);
-              renderPCChart(sd);
-              renderOIChart(sd);
-              renderMetrics(sd);
-              renderTable(sd);
-            }
+            if (sd) { renderEmChart(sd); renderPCChart(sd); renderOIChart(sd); renderMetrics(sd); renderTable(sd); }
           })
           .catch(function(err) {
             document.getElementById('emLoading').textContent = 'No data yet — run the GitHub Action first.';
