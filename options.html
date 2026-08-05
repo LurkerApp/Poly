@@ -68,16 +68,9 @@
         <p class="section-sub">Shaded area = expected price range. Right side bars = open interest by strike price.</p>
         <div id="emLoading" class="loading"><div class="spinner"></div> Loading...</div>
         <div id="emWrap" style="display:none;">
-          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
-            <div class="em-tabs" style="margin-bottom:0;">
-              <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
-              <button class="em-tab" onclick="switchTab('QQQ')">QQQ</button>
-            </div>
-            <div class="oi-legend" style="justify-content:center; gap:2rem; margin-top:0.5rem;">
-              <span><span class="oi-swatch" style="background:rgba(26,188,156,0.4);border:1px solid #1ABC9C;"></span>Call OI</span>
-              <span><span class="oi-swatch" style="background:rgba(224,82,82,0.4);border:1px solid #e05252;"></span>Put OI</span>
-              <span><span class="oi-swatch" style="background:#f0a500;height:2px;width:14px;display:inline-block;vertical-align:middle;margin-right:4px;"></span>Max Pain</span>
-            </div>
+          <div class="em-tabs">
+            <button class="em-tab active" onclick="switchTab('SPY')">SPY</button>
+            <button class="em-tab" onclick="switchTab('QQQ')">QQQ</button>
           </div>
           <div class="em-chart-wrap">
             <canvas id="emChart"></canvas>
@@ -372,6 +365,7 @@
           },
           options: {
             responsive:true, maintainAspectRatio:false,
+            layout: { padding: { right: 40 } },
             interaction:{ mode:'index', intersect:false },
             plugins: {
               legend: {
@@ -383,8 +377,7 @@
                   boxWidth: 12,
                   padding: 20,
                   filter: function(item) {
-                    // Only show the 3 main line items — OI shown in HTML legend
-                    return ['Upper Target (+)', 'Current Price', 'Lower Target (-)'].indexOf(item.text) > -1;
+                    return item.text === 'Upper Target (+)' || item.text === 'Current Price' || item.text === 'Lower Target (-)';
                   }
                 }
               },
