@@ -361,8 +361,6 @@
               { label:'Lower Target (-)', data: moves.map(function(m){ return m.lower_target; }),
                 borderColor:'#e05252', backgroundColor:'rgba(224,82,82,0.1)', borderWidth:2,
                 pointBackgroundColor:'#e05252', pointRadius:5, pointHoverRadius:7, tension:0.3, fill:false },
-              { label:'Open Interest', data: [], borderColor:'rgba(26,188,156,0.7)',
-                backgroundColor:'rgba(26,188,156,0.2)', borderWidth:1, pointRadius:0, fill:false }
             ]
           },
           options: {
@@ -378,8 +376,42 @@
                   font: { size: 11 },
                   boxWidth: 12,
                   padding: 20,
-                  filter: function(item) {
-                    return item.text === 'Upper Target (+)' || item.text === 'Current Price' || item.text === 'Lower Target (-)' || item.text === 'Open Interest';
+                  generateLabels: function(chart) {
+                    var base = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+                    // Only keep the 3 main line items
+                    var filtered = base.filter(function(l) {
+                      return l.text === 'Upper Target (+)' || l.text === 'Current Price' || l.text === 'Lower Target (-)';
+                    });
+                    // Add separator
+                    filtered.push({
+                      text: '|',
+                      fillStyle: 'transparent',
+                      strokeStyle: 'transparent',
+                      lineWidth: 0,
+                      hidden: false,
+                      index: 99,
+                      pointStyle: false,
+                      fontColor: '#3a3d40'
+                    });
+                    // Teal square (Call OI)
+                    filtered.push({
+                      text: '',
+                      fillStyle: 'rgba(26,188,156,0.5)',
+                      strokeStyle: 'rgba(26,188,156,0.9)',
+                      lineWidth: 1,
+                      hidden: false,
+                      index: 100
+                    });
+                    // Red square (Put OI)
+                    filtered.push({
+                      text: 'Open Interest',
+                      fillStyle: 'rgba(224,82,82,0.5)',
+                      strokeStyle: 'rgba(224,82,82,0.9)',
+                      lineWidth: 1,
+                      hidden: false,
+                      index: 101
+                    });
+                    return filtered;
                   }
                 }
               },
