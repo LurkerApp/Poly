@@ -56,7 +56,7 @@ COMPANIES = [
 # ── Also track specific high-profile individuals ──────────────
 INDIVIDUALS = {
     "Elon Musk":        "0001494730",
-    "JEFFREY Bezos":    "0001494730",
+    "Jeffrey Bezos":    "0001494730",
     "Warren Buffett":   "0000315090",
     "Bill Ackman":      "0001056513",
     "George Soros":     "0000900203",
