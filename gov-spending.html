@@ -18,6 +18,31 @@
       }
       .rank-num { font-weight: 700; color: #5a6068; font-size: 13px; }
       .amount-cell { font-weight: 600; color: #e0e0e0; white-space: nowrap; }
+      .amount-ceiling { font-weight: 400; color: #5a6068; white-space: nowrap; font-size: 11px; }
+      .desc-cell {
+        font-size: 11px;
+        color: #7F8C8D;
+        max-width: 280px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .legend-row {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        margin-bottom: 0.75rem;
+        font-size: 12px;
+        color: #7F8C8D;
+      }
+      .legend-swatch {
+        display: inline-block;
+        width: 14px;
+        height: 10px;
+        border-radius: 2px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
     </style>
   </head>
   <body>
@@ -31,9 +56,14 @@
 
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-label">Total Awards (90 days)</div>
+          <div class="stat-label">Total Outlayed (90 days)</div>
           <div class="stat-value" id="statTotal">—</div>
-          <div class="stat-sub">to publicly traded companies</div>
+          <div class="stat-sub">actual spend to public companies</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Contract Ceiling (90 days)</div>
+          <div class="stat-value" id="statCeiling">—</div>
+          <div class="stat-sub">total potential contract value</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Contracts Tracked</div>
@@ -45,16 +75,16 @@
           <div class="stat-value" id="statTop" style="font-size:20px;">—</div>
           <div class="stat-sub" id="statTopAmount"></div>
         </div>
-        <div class="stat-card">
-          <div class="stat-label">Data Last Updated</div>
-          <div class="stat-value" id="statUpdated" style="font-size:18px;">—</div>
-          <div class="stat-sub">via GitHub Actions daily at 9:30am</div>
-        </div>
       </div>
 
+      <!-- Chart -->
       <div class="chart-section">
         <h2>Top 10 Recipients — Last 90 Days</h2>
-        <p class="section-sub">Sum of all contract award amounts by publicly traded company</p>
+        <p class="section-sub">Teal = actual outlayed amount. Grey = total contract ceiling (potential value including option years).</p>
+        <div class="legend-row">
+          <span><span class="legend-swatch" style="background:rgba(26,188,156,0.85);"></span>Outlayed (Actual Spend)</span>
+          <span><span class="legend-swatch" style="background:rgba(255,255,255,0.15);border:1px solid #3a3d40;"></span>Contract Ceiling (Total Potential)</span>
+        </div>
         <div id="chartLoading" class="loading">
           <div class="spinner"></div> Loading award data…
         </div>
@@ -63,12 +93,11 @@
         </div>
       </div>
 
+      <!-- Top 10 table -->
       <div class="chart-section">
         <h2>Top 10 Recipients</h2>
-        <p class="section-sub">Ranked by total award amount over the last 90 days</p>
-        <div id="top10Loading" class="loading">
-          <div class="spinner"></div> Loading…
-        </div>
+        <p class="section-sub">Ranked by actual outlayed amount over the last 90 days</p>
+        <div id="top10Loading" class="loading"><div class="spinner"></div> Loading…</div>
         <div id="top10Wrap" style="display:none;">
           <table class="data-table">
             <thead>
@@ -76,7 +105,8 @@
                 <th>#</th>
                 <th>Ticker</th>
                 <th>Company</th>
-                <th>Total Awarded</th>
+                <th>Outlayed</th>
+                <th>Ceiling</th>
                 <th>Contracts</th>
               </tr>
             </thead>
@@ -85,22 +115,22 @@
         </div>
       </div>
 
+      <!-- Latest 50 -->
       <div class="chart-section">
-        <h2>Latest 50 Awards</h2>
-        <p class="section-sub">Most recently recorded contract awards</p>
-        <div id="latestLoading" class="loading">
-          <div class="spinner"></div> Loading…
-        </div>
+        <h2>Latest Awards</h2>
+        <p class="section-sub">Most recently recorded contract awards — includes description</p>
+        <div id="latestLoading" class="loading"><div class="spinner"></div> Loading…</div>
         <div id="latestWrap" class="table-scroll" style="display:none;">
           <table class="data-table">
             <thead>
               <tr>
                 <th>Date</th>
-                <th>Recipient</th>
                 <th>Ticker</th>
-                <th>Amount</th>
+                <th>Recipient</th>
+                <th>Outlayed</th>
+                <th>Ceiling</th>
                 <th>Agency</th>
-                <th>Type</th>
+                <th>Description</th>
               </tr>
             </thead>
             <tbody id="latestBody"></tbody>
@@ -111,18 +141,19 @@
     </div>
 
     <script src="navbar.js"></script>
+    <script src="footer.js"></script>
     <script>
       const SUPABASE_URL = 'https://vhhfoedqioqdoaecxuwx.supabase.co';
       const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
 
-      const headers = {
+      const SB = {
         'apikey': SUPABASE_KEY,
         'Authorization': 'Bearer ' + SUPABASE_KEY,
         'Content-Type': 'application/json'
       };
 
       function fmt(amount) {
-        if (!amount) return '—';
+        if (!amount && amount !== 0) return '—';
         if (amount >= 1e9) return '$' + (amount / 1e9).toFixed(1) + 'B';
         if (amount >= 1e6) return '$' + (amount / 1e6).toFixed(1) + 'M';
         if (amount >= 1e3) return '$' + (amount / 1e3).toFixed(0) + 'K';
@@ -141,35 +172,39 @@
       since.setDate(since.getDate() - 90);
       const sinceISO = since.toISOString();
 
+      // ── Load top 10 ───────────────────────────────────────
       async function loadTop10() {
-        const url = `${SUPABASE_URL}/rest/v1/contract_awards`
-          + `?select=ticker,matched_company,award_amount`
-          + `&ticker=not.is.null`
-          + `&award_amount=gt.0`
-          + `&created_at=gte.${sinceISO}`
-          + `&limit=10000`;
-        const resp = await fetch(url, { headers });
+        const url = SUPABASE_URL + '/rest/v1/contract_awards'
+          + '?select=ticker,matched_company,award_amount,ceiling_amount'
+          + '&ticker=not.is.null'
+          + '&updated_at=gte.' + sinceISO
+          + '&limit=10000';
+        const resp = await fetch(url, { headers: SB });
         const data = await resp.json();
+
         const agg = {};
         for (const row of data) {
           const key = row.ticker;
-          if (!agg[key]) agg[key] = { ticker: row.ticker, company: row.matched_company, total: 0, count: 0 };
-          agg[key].total += row.award_amount || 0;
-          agg[key].count += 1;
+          if (!agg[key]) agg[key] = { ticker: row.ticker, company: row.matched_company, outlayed: 0, ceiling: 0, count: 0 };
+          agg[key].outlayed += row.award_amount   || 0;
+          agg[key].ceiling  += row.ceiling_amount || row.award_amount || 0;
+          agg[key].count    += 1;
         }
-        const sorted = Object.values(agg).sort((a, b) => b.total - a.total).slice(0, 10);
+        const sorted = Object.values(agg).sort((a, b) => b.outlayed - a.outlayed).slice(0, 10);
         return { sorted, allData: data };
       }
 
+      // ── Load latest ───────────────────────────────────────
       async function loadLatest() {
-        const url = `${SUPABASE_URL}/rest/v1/contract_awards`
-          + `?select=created_at,recipient_name,ticker,award_amount,awarding_agency,award_type`
-          + `&order=created_at.desc`
-          + `&limit=50`;
-        const resp = await fetch(url, { headers });
+        const url = SUPABASE_URL + '/rest/v1/contract_awards'
+          + '?select=updated_at,start_date,recipient_name,ticker,award_amount,ceiling_amount,awarding_agency,award_type,description'
+          + '&order=updated_at.desc'
+          + '&limit=50';
+        const resp = await fetch(url, { headers: SB });
         return await resp.json();
       }
 
+      // ── Render chart ──────────────────────────────────────
       function renderChart(top10) {
         hide('chartLoading');
         show('chartWrap');
@@ -177,78 +212,109 @@
           type: 'bar',
           data: {
             labels: top10.map(r => r.ticker),
-            datasets: [{
-              label: 'Total Awarded',
-              data: top10.map(r => r.total),
-              backgroundColor: 'rgba(26, 188, 156, 0.8)',
-              borderRadius: 5,
-              borderSkipped: false,
-            }]
+            datasets: [
+              {
+                label: 'Contract Ceiling',
+                data: top10.map(r => r.ceiling),
+                backgroundColor: 'rgba(255,255,255,0.1)',
+                borderColor: 'rgba(255,255,255,0.2)',
+                borderWidth: 1,
+                borderRadius: 5,
+                borderSkipped: false,
+              },
+              {
+                label: 'Outlayed (Actual)',
+                data: top10.map(r => r.outlayed),
+                backgroundColor: 'rgba(26,188,156,0.85)',
+                borderRadius: 5,
+                borderSkipped: false,
+              }
+            ]
           },
           options: {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
               legend: { display: false },
-              tooltip: { callbacks: { label: ctx => ' ' + fmt(ctx.parsed.y) } }
+              tooltip: {
+                backgroundColor: '#1f2224',
+                borderColor: '#2a2d30',
+                borderWidth: 1,
+                titleColor: '#e0e0e0',
+                bodyColor: '#c0c0c0',
+                callbacks: {
+                  label: ctx => ' ' + ctx.dataset.label + ': ' + fmt(ctx.parsed.y)
+                }
+              }
             },
             scales: {
-              x: { grid: { display: false, color: '#2a2d30' }, ticks: { font: { size: 13, weight: '600' }, color: '#7F8C8D' } },
-              y: { grid: { color: '#2a2d30' }, ticks: { callback: v => fmt(v), font: { size: 12 }, color: '#7F8C8D' } }
+              x: {
+                grid: { display: false },
+                ticks: { font: { size: 12, weight: '600' }, color: '#7F8C8D' }
+              },
+              y: {
+                grid: { color: '#2a2d30' },
+                ticks: { callback: v => fmt(v), font: { size: 11 }, color: '#7F8C8D' }
+              }
             }
           }
         });
       }
 
+      // ── Render top 10 table ───────────────────────────────
       function renderTop10(top10) {
-        hide('top10Loading');
-        show('top10Wrap');
+        hide('top10Loading'); show('top10Wrap');
         const tbody = document.getElementById('top10Body');
         if (!top10.length) {
-          tbody.innerHTML = '<tr><td colspan="5" class="no-data">No data available for the last 90 days.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="6" class="no-data">No data for last 90 days.</td></tr>';
           return;
         }
-        tbody.innerHTML = top10.map((r, i) => `
-          <tr>
-            <td><span class="rank-num">${i + 1}</span></td>
-            <td><span class="ticker-badge">${r.ticker}</span></td>
-            <td>${r.company || '—'}</td>
-            <td class="amount-cell">${fmt(r.total)}</td>
-            <td>${r.count.toLocaleString()}</td>
-          </tr>
-        `).join('');
+        tbody.innerHTML = top10.map((r, i) =>
+          '<tr>' +
+          '<td><span class="rank-num">' + (i+1) + '</span></td>' +
+          '<td><span class="ticker-badge">' + r.ticker + '</span></td>' +
+          '<td>' + (r.company || '—') + '</td>' +
+          '<td class="amount-cell">' + fmt(r.outlayed) + '</td>' +
+          '<td class="amount-ceiling">' + fmt(r.ceiling) + '</td>' +
+          '<td>' + r.count.toLocaleString() + '</td>' +
+          '</tr>'
+        ).join('');
       }
 
+      // ── Render latest table ───────────────────────────────
       function renderLatest(rows) {
-        hide('latestLoading');
-        show('latestWrap');
+        hide('latestLoading'); show('latestWrap');
         const tbody = document.getElementById('latestBody');
         if (!rows.length) {
-          tbody.innerHTML = '<tr><td colspan="6" class="no-data">No awards found.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="7" class="no-data">No awards found.</td></tr>';
           return;
         }
-        tbody.innerHTML = rows.map(r => `
-          <tr>
-            <td style="white-space:nowrap;">${fmtDate(r.created_at)}</td>
-            <td>${r.recipient_name || '—'}</td>
-            <td>${r.ticker ? `<span class="ticker-badge">${r.ticker}</span>` : '—'}</td>
-            <td class="amount-cell">${fmt(r.award_amount)}</td>
-            <td>${r.awarding_agency || '—'}</td>
-            <td>${r.award_type || '—'}</td>
-          </tr>
-        `).join('');
+        tbody.innerHTML = rows.map(r =>
+          '<tr>' +
+          '<td style="white-space:nowrap;">' + fmtDate(r.start_date || r.updated_at) + '</td>' +
+          '<td>' + (r.ticker ? '<span class="ticker-badge">' + r.ticker + '</span>' : '—') + '</td>' +
+          '<td style="color:#c0c0c0;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (r.recipient_name || '—') + '</td>' +
+          '<td class="amount-cell">' + fmt(r.award_amount) + '</td>' +
+          '<td class="amount-ceiling">' + fmt(r.ceiling_amount) + '</td>' +
+          '<td style="color:#7F8C8D;font-size:12px;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (r.awarding_agency || '—') + '</td>' +
+          '<td class="desc-cell" title="' + (r.description || '') + '">' + (r.description || '—') + '</td>' +
+          '</tr>'
+        ).join('');
       }
 
+      // ── Render stats ──────────────────────────────────────
       function renderStats(top10, allData) {
-        const total = allData.reduce((s, r) => s + (r.award_amount || 0), 0);
+        const totalOutlayed = allData.reduce((s, r) => s + (r.award_amount   || 0), 0);
+        const totalCeiling  = allData.reduce((s, r) => s + (r.ceiling_amount || r.award_amount || 0), 0);
         const topRec = top10[0];
-        document.getElementById('statTotal').textContent     = fmt(total);
+        document.getElementById('statTotal').textContent     = fmt(totalOutlayed);
+        document.getElementById('statCeiling').textContent   = fmt(totalCeiling);
         document.getElementById('statCount').textContent     = allData.length.toLocaleString();
         document.getElementById('statTop').textContent       = topRec ? topRec.ticker : '—';
-        document.getElementById('statTopAmount').textContent = topRec ? fmt(topRec.total) : '';
-        document.getElementById('statUpdated').textContent   = fmtDate(new Date().toISOString());
+        document.getElementById('statTopAmount').textContent = topRec ? fmt(topRec.outlayed) + ' outlayed' : '';
       }
 
+      // ── Init ─────────────────────────────────────────────
       async function init() {
         try {
           const [{ sorted, allData }, latest] = await Promise.all([loadTop10(), loadLatest()]);
@@ -259,7 +325,7 @@
         } catch (err) {
           console.error('Failed to load data:', err);
           ['chartLoading', 'top10Loading', 'latestLoading'].forEach(id => {
-            document.getElementById(id).innerHTML = 'Failed to load data.';
+            document.getElementById(id).textContent = 'Failed to load data.';
           });
         }
       }
