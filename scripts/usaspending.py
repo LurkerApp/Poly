@@ -135,6 +135,7 @@ def fetch_awards_page(page: int) -> dict:
             "Award ID",
             "Recipient Name",
             "Award Amount",
+            "Total Outlayed Amount",
             "Awarding Agency",
             "Awarding Sub Agency",
             "Award Type",
@@ -187,7 +188,9 @@ df.columns = [c.strip() for c in df.columns]
 
 # ── Filter: award amount > $1 ────────────────────────────────
 before = len(df)
-df = df[df["Award Amount"].notna() & (df["Award Amount"] > MIN_AMOUNT)]
+# Use Total Outlayed Amount as the real spend figure; fall back to Award Amount
+df["effective_amount"] = df["Total Outlayed Amount"].fillna(df["Award Amount"])
+df = df[df["effective_amount"].notna() & (df["effective_amount"] > MIN_AMOUNT)]
 print(f"\n  After amount filter (>${MIN_AMOUNT}): {len(df):,} of {before:,} records kept")
 
 # ── Fuzzy match against public companies ─────────────────────
@@ -219,7 +222,8 @@ for _, row in df.iterrows():
     records.append({
         "award_id":             clean(str(row.get("Award ID", ""))),
         "recipient_name":       clean(row.get("Recipient Name")),
-        "award_amount":         clean(row.get("Award Amount")),
+        "award_amount":         clean(row.get("Total Outlayed Amount") or row.get("Award Amount")),
+        "ceiling_amount":       clean(row.get("Award Amount")),
         "awarding_agency":      clean(row.get("Awarding Agency")),
         "awarding_sub_agency":  clean(row.get("Awarding Sub Agency")),
         "award_type":           clean(row.get("Award Type")),
@@ -273,7 +277,7 @@ if matched_df.empty:
 else:
     summary = (
         matched_df
-        .groupby(["ticker", "matched_company"])["Award Amount"]
+        .groupby(["ticker", "matched_company"])["effective_amount"]
         .agg(["sum", "count"])
         .reset_index()
         .rename(columns={"sum": "Total Award ($)", "count": "# Contracts"})
