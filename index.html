@@ -16,7 +16,6 @@
       .headline-text { font-size: 13px; font-weight: 600; color: #e0e0e0; line-height: 1.4; flex: 1; text-decoration: none; }
       .headline-text:hover { color: #1ABC9C; }
       .headline-time { font-size: 11px; color: #5a6068; white-space: nowrap; flex-shrink: 0; }
-
       /* Macro strip */
       .macro-strip {
         display: grid;
@@ -28,12 +27,10 @@
       .macro-label { font-size: 10px; color: #7F8C8D; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
       .macro-value { font-size: 18px; font-weight: 700; color: #1ABC9C; }
       .macro-sub   { font-size: 11px; color: #5a6068; margin-top: 2px; }
-
       /* 2-col grid */
       .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
       .home-grid > * { min-width: 0; overflow: hidden; }
       @media (max-width: 900px) { .home-grid { grid-template-columns: 1fr; } .macro-strip { grid-template-columns: repeat(2,1fr); } }
-
       /* Expected move */
       .em-tabs { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; }
       .em-tab { font-size: 12px; font-weight: 600; padding: 4px 14px; border-radius: 4px; border: 1px solid #2a2d30; background: transparent; color: #7F8C8D; cursor: pointer; font-family: inherit; transition: all 0.15s; }
@@ -45,7 +42,6 @@
       .em-stat-value { font-size: 14px; font-weight: 700; color: #e0e0e0; }
       .em-stat-value.up   { color: #1ABC9C; }
       .em-stat-value.down { color: #e05252; }
-
       /* Whale cards */
       .top5-scroll { display: flex; gap: 0.75rem; overflow-x: auto; padding-bottom: 0.5rem; scroll-snap-type: x mandatory; }
       .top5-scroll::-webkit-scrollbar { height: 3px; }
@@ -58,7 +54,6 @@
       .top5-market { font-size: 12px; font-weight: 600; color: #e0e0e0; line-height: 1.4; margin-bottom: 0.5rem; }
       .top5-meta { display: flex; justify-content: space-between; font-size: 11px; color: #7F8C8D; }
       .top5-meta strong { color: #1ABC9C; }
-
       /* Badges */
       .badge-buy  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2e2a; color:#1ABC9C; }
       .badge-sell { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#2e1e1e; color:#e05252; }
@@ -66,7 +61,6 @@
       .badge-put   { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#2e1e1e; color:#e05252; }
       .badge-call  { display:inline-block; font-size:10px; font-weight:700; padding:2px 7px; border-radius:3px; background:#1e2a1e; color:#4ade80; }
       .amount-cell { font-weight:600; color:#e0e0e0; }
-
       /* Pct bar */
       .pct-wrap { display:flex; align-items:center; gap:6px; }
       .pct-bg   { flex:1; height:3px; background:#2a2d30; border-radius:2px; overflow:hidden; min-width:40px; }
@@ -112,7 +106,7 @@
       <div class="home-grid">
         <div class="chart-section">
           <h2>Insider Trades <span class="refresh-badge">30 days</span></h2>
-          <p class="section-sub">Recent buys & sells by tracked insiders</p>
+          <p class="section-sub">Largest buys & sells by tracked insiders</p>
           <div id="tradesLoading" class="loading"><div class="spinner"></div> Loading…</div>
           <div id="tradesWrap" class="table-scroll" style="display:none;">
             <table class="data-table">
@@ -132,7 +126,7 @@
         </div>
       </div>
 
-      <!-- Row 2: Top Hedge Fund Holdings + Top Gov Contracts -->
+      <!-- Row 2: Consensus Holdings + Top Gov Contracts -->
       <div class="home-grid">
         <div class="chart-section">
           <h2>Consensus Holdings <span class="refresh-badge">13F</span></h2>
@@ -168,7 +162,7 @@
       const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZoaGZvZWRxaW9xZG9hZWN4dXd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0MTMxMTYsImV4cCI6MjA5Nzk4OTExNn0.ewy61NGEZriX0kYWksEozRC5JxtSYgu-kZDtVB-UUMQ';
       const WHALES_URL   = './data/whales.json';
       const EXP_MOVE_URL = './data/expected_move.json';
-      const NEWS_URL = './data/news.json';
+      const NEWS_URL     = './data/news.json';
 
       const SB = {
         'apikey': SUPABASE_KEY,
@@ -210,23 +204,17 @@
         const results = await Promise.allSettled(ids.map(id =>
           fetch(SUPABASE_URL + '/rest/v1/fred_observations?select=date,value&series_id=eq.' + id + '&order=date.desc&limit=14', { headers: SB }).then(r => r.json())
         ));
-
         const [ff, t10, cpi, ur] = results.map(r => r.status === 'fulfilled' ? r.value : []);
-
         function latest(rows) { return rows && rows[0] ? parseFloat(rows[0].value) : null; }
         function latestDate(rows) { return rows && rows[0] ? fmtDate(rows[0].date) : ''; }
-
         const ffVal  = latest(ff);
         const t10Val = latest(t10);
         const urVal  = latest(ur);
-
-        // CPI YoY
         let cpiYoY = null;
         if (cpi && cpi.length >= 13) {
           const c = parseFloat(cpi[0].value), p = parseFloat(cpi[12].value);
           cpiYoY = ((c - p) / p * 100).toFixed(1);
         }
-
         if (ffVal  !== null) { document.getElementById('macroFF').textContent   = ffVal.toFixed(2) + '%';  document.getElementById('macroFFsub').textContent  = latestDate(ff); }
         if (t10Val !== null) { document.getElementById('macro10Y').textContent  = t10Val.toFixed(2) + '%'; document.getElementById('macro10Ysub').textContent = latestDate(t10); }
         if (cpiYoY !== null) { document.getElementById('macroCPI').textContent  = cpiYoY + '%';            document.getElementById('macroCPIsub').textContent = 'YoY'; }
@@ -296,7 +284,7 @@
         renderEmChart(symbol);
       }
 
-      // ── Headline — reads from data/news.json (written by GitHub Action) ──
+      // ── Headline ──────────────────────────────────────────
       async function loadHeadline() {
         try {
           const resp = await fetch(NEWS_URL + '?t=' + Date.now());
@@ -312,7 +300,7 @@
         }
       }
 
-      // ── Insider Trades — 30 days ──────────────────────────
+      // ── Insider Trades — 30 days, sorted by notional value ─
       async function loadTrades() {
         const since = new Date();
         since.setDate(since.getDate() - 30);
@@ -321,7 +309,7 @@
           + '&trade_date=gte.' + since.toISOString().split('T')[0]
           + '&ticker=not.is.null'
           + '&ticker=neq.NONE'
-          + '&order=trade_date.desc&limit=20';
+          + '&order=notional_value.desc&limit=20';
         const resp = await fetch(url, { headers: SB });
         return await resp.json();
       }
@@ -365,9 +353,8 @@
         }).join('');
       }
 
-      // ── Top Hedge Fund Holdings ───────────────────────────
+      // ── Consensus Holdings ────────────────────────────────
       async function loadHedgeFunds() {
-        // Get latest quarter positions sorted by value, stocks only
         const resp = await fetch(
           SUPABASE_URL + '/rest/v1/fund_positions' +
           '?select=company_name,fund_name,value_usd,pct_portfolio,put_call,is_option,quarter' +
@@ -381,14 +368,10 @@
         hide('hfLoading'); show('hfWrap');
         const tbody = document.getElementById('hfBody');
         if (!positions?.length) { tbody.innerHTML = '<tr><td colspan="5" class="no-data">No positions found.</td></tr>'; return; }
-
-        // Get latest quarter
         const quarters = [...new Set(positions.map(p => p.quarter))].sort().reverse();
         const latestQ  = quarters[0];
         const filtered = positions.filter(p => p.quarter === latestQ && !p.is_option);
-
-        // Group by company — count funds holding, sum value, avg pct
-        const grouped = {};
+        const grouped  = {};
         filtered.forEach(p => {
           const key = p.company_name;
           if (!grouped[key]) grouped[key] = { company: key, funds: 0, totalValue: 0, totalPct: 0 };
@@ -396,23 +379,17 @@
           grouped[key].totalValue += p.value_usd || 0;
           grouped[key].totalPct  += p.pct_portfolio || 0;
         });
-
-        // Sort by number of funds holding, then by total value
-        const sorted = Object.values(grouped)
-          .sort((a, b) => b.funds - a.funds || b.totalValue - a.totalValue)
-          .slice(0, 10);
-
+        const sorted   = Object.values(grouped).sort((a, b) => b.funds - a.funds || b.totalValue - a.totalValue).slice(0, 10);
         const maxFunds = sorted[0]?.funds || 1;
-
-        tbody.innerHTML = sorted.map((p, i) => {
-          return '<tr>' +
-            '<td style="color:#5a6068;font-weight:700;">' + (i+1) + '</td>' +
-            '<td style="font-weight:600;color:#e0e0e0;">' + (p.company || '—') + '</td>' +
-            '<td style="text-align:center;"><span style="font-size:13px;font-weight:700;color:#1ABC9C;">' + p.funds + '</span><span style="font-size:10px;color:#5a6068;"> funds</span></td>' +
-            '<td class="amount-cell">' + fmt(p.totalValue) + '</td>' +
-            '<td><div class="pct-wrap"><div class="pct-bg"><div class="pct-fill" style="width:' + (p.funds / maxFunds * 100).toFixed(0) + '%;"></div></div><span style="font-size:11px;color:#7F8C8D;">' + (p.totalPct / p.funds).toFixed(1) + '% avg</span></div></td>' +
-          '</tr>';
-        }).join('');
+        tbody.innerHTML = sorted.map((p, i) =>
+          '<tr>' +
+          '<td style="color:#5a6068;font-weight:700;">' + (i+1) + '</td>' +
+          '<td style="font-weight:600;color:#e0e0e0;">' + (p.company || '—') + '</td>' +
+          '<td style="text-align:center;"><span style="font-size:13px;font-weight:700;color:#1ABC9C;">' + p.funds + '</span><span style="font-size:10px;color:#5a6068;"> funds</span></td>' +
+          '<td class="amount-cell">' + fmt(p.totalValue) + '</td>' +
+          '<td><div class="pct-wrap"><div class="pct-bg"><div class="pct-fill" style="width:' + (p.funds / maxFunds * 100).toFixed(0) + '%;"></div></div><span style="font-size:11px;color:#7F8C8D;">' + (p.totalPct / p.funds).toFixed(1) + '% avg</span></div></td>' +
+          '</tr>'
+        ).join('');
       }
 
       // ── Top Gov Contracts ─────────────────────────────────
@@ -432,8 +409,6 @@
         hide('govLoading'); show('govWrap');
         const tbody = document.getElementById('govBody');
         if (!awards?.length) { tbody.innerHTML = '<tr><td colspan="4" class="no-data">No contract data found.</td></tr>'; return; }
-
-        // Group by ticker
         const grouped = {};
         awards.forEach(a => {
           if (!a.ticker) return;
@@ -441,9 +416,7 @@
           grouped[a.ticker].total += a.award_amount || 0;
           grouped[a.ticker].count += 1;
         });
-
         const sorted = Object.entries(grouped).sort((a,b) => b[1].total - a[1].total).slice(0, 10);
-
         tbody.innerHTML = sorted.map(([ticker, d]) =>
           '<tr>' +
           '<td style="font-family:monospace;font-size:12px;color:#1ABC9C;font-weight:700;">' + ticker + '</td>' +
@@ -458,7 +431,6 @@
       async function init() {
         loadHeadline();
         loadMacro();
-
         const [emResult, trades, whaleData, hfData, govData] = await Promise.allSettled([
           loadExpectedMove(),
           loadTrades(),
@@ -466,7 +438,6 @@
           loadHedgeFunds(),
           loadGovContracts(),
         ]);
-
         if (emResult.status === 'fulfilled') {
           emData = emResult.value;
           hide('emLoading'); show('emWrap');
@@ -474,16 +445,12 @@
         } else {
           document.getElementById('emLoading').textContent = 'No expected move data yet.';
         }
-
         if (trades.status    === 'fulfilled') renderTrades(trades.value);
         else document.getElementById('tradesLoading').textContent = 'Failed to load.';
-
         if (whaleData.status === 'fulfilled') renderWhales(whaleData.value?.consensus || []);
         else document.getElementById('whaleLoading').textContent = 'No data yet.';
-
         if (hfData.status    === 'fulfilled') renderHedgeFunds(hfData.value);
         else { hide('hfLoading'); document.getElementById('hfBody').innerHTML = '<tr><td colspan="5" class="no-data">Failed to load.</td></tr>'; show('hfWrap'); }
-
         if (govData.status   === 'fulfilled') renderGovContracts(govData.value);
         else { hide('govLoading'); document.getElementById('govBody').innerHTML = '<tr><td colspan="4" class="no-data">Failed to load.</td></tr>'; show('govWrap'); }
       }
