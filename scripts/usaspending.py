@@ -135,7 +135,7 @@ def fetch_awards_page(page: int) -> dict:
             "Award ID",
             "Recipient Name",
             "Award Amount",
-            "Total Outlayed Amount",
+            "Total Obligated Amount",
             "Awarding Agency",
             "Awarding Sub Agency",
             "Award Type",
@@ -188,8 +188,8 @@ df.columns = [c.strip() for c in df.columns]
 
 # ── Filter: award amount > $1 ────────────────────────────────
 before = len(df)
-# Use Total Outlayed Amount as the real spend figure; fall back to Award Amount
-df["effective_amount"] = df["Total Outlayed Amount"].fillna(df["Award Amount"])
+# Use Total Obligated Amount as the real spend figure; fall back to Award Amount
+df["effective_amount"] = df["Total Obligated Amount"].fillna(df["Award Amount"])
 df = df[df["effective_amount"].notna() & (df["effective_amount"] > MIN_AMOUNT)]
 print(f"\n  After amount filter (>${MIN_AMOUNT}): {len(df):,} of {before:,} records kept")
 
@@ -222,7 +222,7 @@ for _, row in df.iterrows():
     records.append({
         "award_id":             clean(str(row.get("Award ID", ""))),
         "recipient_name":       clean(row.get("Recipient Name")),
-        "award_amount":         clean(row.get("Total Outlayed Amount") or row.get("Award Amount")),
+        "award_amount":         clean(row.get("Total Obligated Amount") or row.get("Award Amount")),
         "ceiling_amount":       clean(row.get("Award Amount")),
         "awarding_agency":      clean(row.get("Awarding Agency")),
         "awarding_sub_agency":  clean(row.get("Awarding Sub Agency")),
