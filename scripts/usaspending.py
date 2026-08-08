@@ -123,9 +123,12 @@ def match_company(recipient_name: str):
 
     return None, None
 
-# ── Fetch awards from USASpending (all pages) ────────────────
+# ── Fetch transactions from USASpending (all pages) ──────────
+# spending_by_transaction returns the actual federal_action_obligation
+# per transaction — the specific amount obligated in each action,
+# not the total contract ceiling value
 def fetch_awards_page(page: int) -> dict:
-    url     = f"{BASE_URL}/search/spending_by_award/"
+    url     = f"{BASE_URL}/search/spending_by_transaction/"
     payload = {
         "filters": {
             "time_period": [{"start_date": date_start, "end_date": date_end}],
@@ -134,17 +137,16 @@ def fetch_awards_page(page: int) -> dict:
         "fields": [
             "Award ID",
             "Recipient Name",
+            "Federal Action Obligation",
             "Award Amount",
-            "Total Obligated Amount",
             "Awarding Agency",
             "Awarding Sub Agency",
             "Award Type",
-            "Start Date",
-            "End Date",
+            "Action Date",
             "Description",
             "Place of Performance State Code",
         ],
-        "sort":  "Award Amount",
+        "sort":  "Federal Action Obligation",
         "order": "desc",
         "limit": PAGE_LIMIT,
         "page":  page,
@@ -189,7 +191,9 @@ df.columns = [c.strip() for c in df.columns]
 # ── Filter: award amount > $1 ────────────────────────────────
 before = len(df)
 # Use Total Obligated Amount as the real spend figure; fall back to Award Amount
-df["effective_amount"] = df["Total Obligated Amount"].fillna(df["Award Amount"])
+# Federal Action Obligation = actual $ obligated in this transaction
+# Award Amount = total contract ceiling
+df["effective_amount"] = df["Federal Action Obligation"].fillna(df["Award Amount"])
 df = df[df["effective_amount"].notna() & (df["effective_amount"] > MIN_AMOUNT)]
 print(f"\n  After amount filter (>${MIN_AMOUNT}): {len(df):,} of {before:,} records kept")
 
@@ -222,13 +226,13 @@ for _, row in df.iterrows():
     records.append({
         "award_id":             clean(str(row.get("Award ID", ""))),
         "recipient_name":       clean(row.get("Recipient Name")),
-        "award_amount":         clean(row.get("Total Obligated Amount") or row.get("Award Amount")),
+        "award_amount":         clean(row.get("Federal Action Obligation") or row.get("Award Amount")),
         "ceiling_amount":       clean(row.get("Award Amount")),
         "awarding_agency":      clean(row.get("Awarding Agency")),
         "awarding_sub_agency":  clean(row.get("Awarding Sub Agency")),
         "award_type":           clean(row.get("Award Type")),
-        "start_date":           clean(row.get("Start Date")),
-        "end_date":             clean(row.get("End Date")),
+        "start_date":           clean(row.get("Action Date")),
+        "end_date":             None,
         "description":          clean(row.get("Description")),
         "place_of_performance": clean(row.get("Place of Performance State Code")),
         "ticker":               clean(row.get("ticker")),
