@@ -56,9 +56,9 @@
 
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-label">Total Outlayed (90 days)</div>
+          <div class="stat-label">Total Obligated (90 days)</div>
           <div class="stat-value" id="statTotal">—</div>
-          <div class="stat-sub">actual spend to public companies</div>
+          <div class="stat-sub">legally committed contract dollars</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Contract Ceiling (90 days)</div>
@@ -80,10 +80,10 @@
       <!-- Chart -->
       <div class="chart-section">
         <h2>Top 10 Recipients — Last 90 Days</h2>
-        <p class="section-sub">Teal = actual outlayed amount. Grey = total contract ceiling (potential value including option years).</p>
+        <p class="section-sub">Teal = total obligated amount (money legally committed to the contract). Grey = contract ceiling (maximum potential value including all option years).</p>
         <div class="legend-row">
-          <span><span class="legend-swatch" style="background:rgba(26,188,156,0.85);"></span>Outlayed (Actual Spend)</span>
-          <span><span class="legend-swatch" style="background:rgba(255,255,255,0.15);border:1px solid #3a3d40;"></span>Contract Ceiling (Total Potential)</span>
+          <span><span class="legend-swatch" style="background:rgba(26,188,156,0.85);"></span>Obligated Amount</span>
+          <span><span class="legend-swatch" style="background:rgba(255,255,255,0.15);border:1px solid #3a3d40;"></span>Contract Ceiling (Max Potential)</span>
         </div>
         <div id="chartLoading" class="loading">
           <div class="spinner"></div> Loading award data…
@@ -96,7 +96,7 @@
       <!-- Top 10 table -->
       <div class="chart-section">
         <h2>Top 10 Recipients</h2>
-        <p class="section-sub">Ranked by actual outlayed amount over the last 90 days</p>
+        <p class="section-sub">Ranked by total obligated amount over the last 90 days</p>
         <div id="top10Loading" class="loading"><div class="spinner"></div> Loading…</div>
         <div id="top10Wrap" style="display:none;">
           <table class="data-table">
@@ -105,7 +105,7 @@
                 <th>#</th>
                 <th>Ticker</th>
                 <th>Company</th>
-                <th>Outlayed</th>
+                <th>Obligated</th>
                 <th>Ceiling</th>
                 <th>Contracts</th>
               </tr>
@@ -127,7 +127,7 @@
                 <th>Date</th>
                 <th>Ticker</th>
                 <th>Recipient</th>
-                <th>Outlayed</th>
+                <th>Obligated</th>
                 <th>Ceiling</th>
                 <th>Agency</th>
                 <th>Description</th>
@@ -223,7 +223,7 @@
                 borderSkipped: false,
               },
               {
-                label: 'Outlayed (Actual)',
+                label: 'Obligated Amount',
                 data: top10.map(r => r.outlayed),
                 backgroundColor: 'rgba(26,188,156,0.85)',
                 borderRadius: 5,
@@ -311,7 +311,7 @@
         document.getElementById('statCeiling').textContent   = fmt(totalCeiling);
         document.getElementById('statCount').textContent     = allData.length.toLocaleString();
         document.getElementById('statTop').textContent       = topRec ? topRec.ticker : '—';
-        document.getElementById('statTopAmount').textContent = topRec ? fmt(topRec.outlayed) + ' outlayed' : '';
+        document.getElementById('statTopAmount').textContent = topRec ? fmt(topRec.outlayed) + ' obligated' : '';
       }
 
       // ── Init ─────────────────────────────────────────────
