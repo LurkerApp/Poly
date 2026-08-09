@@ -123,15 +123,14 @@ def match_company(recipient_name: str):
 
     return None, None
 
-# ── Fetch transactions from USASpending (all pages) ──────────
-# spending_by_transaction returns the actual federal_action_obligation
-# per transaction — the specific amount obligated in each action,
-# not the total contract ceiling value
+# ── Fetch awards from USASpending (all pages) ────────────────
+# Using spending_by_award with action_date filter to catch only
+# newly signed awards in the date range, not modifications
 def fetch_awards_page(page: int) -> dict:
-    url     = f"{BASE_URL}/search/spending_by_transaction/"
+    url     = f"{BASE_URL}/search/spending_by_award/"
     payload = {
         "filters": {
-            "time_period": [{"start_date": date_start, "end_date": date_end}],
+            "time_period": [{"start_date": date_start, "end_date": date_end, "date_type": "action_date"}],
             "award_type_codes": ["A", "B", "C", "D"],
         },
         "fields": [
@@ -141,8 +140,9 @@ def fetch_awards_page(page: int) -> dict:
             "Awarding Agency",
             "Awarding Sub Agency",
             "Award Type",
-            "Action Date",
-            "Action Type",
+            "Start Date",
+            "End Date",
+            "Description",
             "Place of Performance State Code",
         ],
         "sort":  "Award Amount",
@@ -190,7 +190,6 @@ df.columns = [c.strip() for c in df.columns]
 # ── Filter: award amount > $1 ────────────────────────────────
 before = len(df)
 # Use Total Obligated Amount as the real spend figure; fall back to Award Amount
-# Award Amount in spending_by_transaction = amount obligated in this specific transaction
 df["effective_amount"] = df["Award Amount"]
 df = df[df["effective_amount"].notna() & (df["effective_amount"] > MIN_AMOUNT)]
 print(f"\n  After amount filter (>${MIN_AMOUNT}): {len(df):,} of {before:,} records kept")
@@ -229,9 +228,9 @@ for _, row in df.iterrows():
         "awarding_agency":      clean(row.get("Awarding Agency")),
         "awarding_sub_agency":  clean(row.get("Awarding Sub Agency")),
         "award_type":           clean(row.get("Award Type")),
-        "start_date":           clean(row.get("Action Date")),
-        "end_date":             None,
-        "description":          clean(row.get("Action Type")),  # transaction endpoint uses Action Type
+        "start_date":           clean(row.get("Start Date")),
+        "end_date":             clean(row.get("End Date")),
+        "description":          clean(row.get("Description")),
         "place_of_performance": clean(row.get("Place of Performance State Code")),
         "ticker":               clean(row.get("ticker")),
         "matched_company":      clean(row.get("matched_company")),
