@@ -108,6 +108,7 @@
                 <th>Obligated</th>
                 <th>Ceiling</th>
                 <th>Contracts</th>
+                <th>Link</th>
               </tr>
             </thead>
             <tbody id="top10Body"></tbody>
@@ -131,6 +132,7 @@
                 <th>Ceiling</th>
                 <th>Agency</th>
                 <th>Description</th>
+                <th>Link</th>
               </tr>
             </thead>
             <tbody id="latestBody"></tbody>
@@ -175,7 +177,7 @@
       // ── Load top 10 ───────────────────────────────────────
       async function loadTop10() {
         const url = SUPABASE_URL + '/rest/v1/contract_awards'
-          + '?select=ticker,matched_company,award_amount,ceiling_amount'
+          + '?select=ticker,matched_company,award_amount,ceiling_amount,recipient_name'
           + '&ticker=not.is.null'
           + '&updated_at=gte.' + sinceISO
           + '&limit=10000';
@@ -277,6 +279,7 @@
           '<td class="amount-cell">' + fmt(r.outlayed) + '</td>' +
           '<td class="amount-ceiling">' + fmt(r.ceiling) + '</td>' +
           '<td>' + r.count.toLocaleString() + '</td>' +
+          '<td><a href="https://www.usaspending.gov/recipient/?name=' + encodeURIComponent(r.company || r.ticker) + '" target="_blank" style="color:#1ABC9C;font-size:11px;font-weight:600;">USA ↗</a></td>' +
           '</tr>'
         ).join('');
       }
@@ -298,6 +301,7 @@
           '<td class="amount-ceiling">' + fmt(r.ceiling_amount) + '</td>' +
           '<td style="color:#7F8C8D;font-size:12px;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (r.awarding_agency || '—') + '</td>' +
           '<td class="desc-cell" title="' + (r.description || '') + '">' + (r.description || '—') + '</td>' +
+          '<td><a href="https://www.usaspending.gov/award/' + encodeURIComponent(r.award_id || '') + '/" target="_blank" style="color:#1ABC9C;font-size:11px;font-weight:600;white-space:nowrap;">USA ↗</a></td>' +
           '</tr>'
         ).join('');
       }
