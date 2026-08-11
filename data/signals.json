@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T07:04:15.622402+00:00",
+  "last_updated": "2026-08-11T08:30:38.454588+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
@@ -58,6 +58,33 @@
       "signals": []
     },
     {
+      "wallet": "0x5213eb85fcd465c8927a8382f95dd2dc22306a35",
+      "name": "Notradecopy",
+      "score": 56.7,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 72.5,
+      "volume_score": 83.5,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 57707.97,
+      "trade_count": 500,
+      "market_count": 253,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:17:18+00:00",
+      "top_markets": [
+        "National Bank Open: Diana Shnaider vs Iga Swiatek",
+        "Will Columbus Crew win on 2026-08-11?",
+        "Todi: Daniel Michalski vs Lorenzo Carboni"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0x01e1d55a0e61a0c89f16a91b692e648abd9c124a",
       "name": "LahisterEkie",
       "score": 54.9,
@@ -87,23 +114,23 @@
     {
       "wallet": "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8",
       "name": "fRibrenlc",
-      "score": 53.6,
-      "roi_score": 33.3,
+      "score": 53.8,
+      "roi_score": 33.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 75.0,
-      "volume_score": 98.2,
-      "roi": -0.0,
-      "cash_pnl": -6.88,
-      "realized_pnl": 1692.26,
-      "total_usdc": 393241.46,
+      "volume_score": 98.5,
+      "roi": 0.7,
+      "cash_pnl": 285.19,
+      "realized_pnl": 39.24,
+      "total_usdc": 409957.39,
       "trade_count": 500,
-      "market_count": 18,
-      "position_count": 1,
+      "market_count": 17,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T02:14:01+00:00",
+      "last_active": "2026-08-11T08:21:34+00:00",
       "top_markets": [
         "National Bank Open: Joao Fonseca vs Ben Shelton",
         "LoL: Hanwha Life Esports vs Gen.G (BO3) - KeSPA Cup Last Chance Qualifier",
@@ -112,10 +139,18 @@
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.5699,
+          "cur_price": 0.565,
+          "usdc_size": 18833.15,
+          "outcome": "Rafael Jodar"
+        },
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4251,
-          "cur_price": 0.575,
-          "usdc_size": 19494.87,
+          "cur_price": 0.565,
+          "usdc_size": 19953.57,
           "outcome": "Arthur Fils"
         }
       ]
@@ -123,23 +158,23 @@
     {
       "wallet": "0xb272505077cc2c6bde5acca133ea6364152e5030",
       "name": "BaseballBill",
-      "score": 53.2,
-      "roi_score": 32.6,
+      "score": 53.4,
+      "roi_score": 33.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 76.2,
-      "volume_score": 94.5,
-      "roi": -1.1,
-      "cash_pnl": -249.1,
+      "volume_score": 94.4,
+      "roi": 0.0,
+      "cash_pnl": 8.73,
       "realized_pnl": 0.0,
-      "total_usdc": 244413.54,
+      "total_usdc": 240746.75,
       "trade_count": 500,
-      "market_count": 54,
+      "market_count": 53,
       "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:03:15+00:00",
+      "last_active": "2026-08-11T08:26:46+00:00",
       "top_markets": [
         "National Bank Open: Alexandra Eala vs Belinda Bencic",
         "Counter-Strike: paiN Academy vs Keyd (BO3) - BetBoom Storm Group Stage",
@@ -150,8 +185,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4343,
-          "cur_price": 0.575,
-          "usdc_size": 10625.0,
+          "cur_price": 0.565,
+          "usdc_size": 10875.0,
           "outcome": "Arthur Fils"
         }
       ]
@@ -159,23 +194,23 @@
     {
       "wallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
       "name": "BajaBlaster",
-      "score": 52.7,
-      "roi_score": 32.6,
+      "score": 52.5,
+      "roi_score": 31.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 75.0,
       "volume_score": 92.2,
-      "roi": -1.1,
-      "cash_pnl": -240.17,
-      "realized_pnl": -1924.85,
-      "total_usdc": 178518.34,
+      "roi": -2.4,
+      "cash_pnl": -541.94,
+      "realized_pnl": -1884.37,
+      "total_usdc": 179467.97,
       "trade_count": 500,
-      "market_count": 50,
-      "position_count": 44,
+      "market_count": 53,
+      "position_count": 47,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T03:50:06+00:00",
+      "last_active": "2026-08-11T07:34:36+00:00",
       "top_markets": [
         "LoL: Natus Vincere vs G2 Esports - Game 1 Winner",
         "LoL: Dignitas vs LYON - Game 1 Winner",
@@ -186,53 +221,17 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.56,
-          "cur_price": 0.575,
-          "usdc_size": 5060.0,
+          "cur_price": 0.565,
+          "usdc_size": 4972.0,
           "outcome": "Rafael Jodar"
         },
         {
           "market": "Clarity Act (H.R.3633) signed into law in 2026?",
           "signal": "SKIP",
           "avg_price": 0.83,
-          "cur_price": 0.255,
-          "usdc_size": 2607.5,
+          "cur_price": 0.185,
+          "usdc_size": 2852.5,
           "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xca6465345246f543b7cb3152d5f5f54096f84f43",
-      "name": "afraz",
-      "score": 52.2,
-      "roi_score": 31.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 74.4,
-      "volume_score": 91.9,
-      "roi": -3.4,
-      "cash_pnl": -34.09,
-      "realized_pnl": 0.0,
-      "total_usdc": 172630.3,
-      "trade_count": 128,
-      "market_count": 64,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-10T23:04:57+00:00",
-      "top_markets": [
-        "National Bank Open: Arthur Rinderknech vs Brandon Nakashima",
-        "Hagen: Federico Agustin Gomez vs Henri Squire",
-        "Samsun: Constantin Bittoun Kouzmine vs Gabriel Debru"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.575,
-          "usdc_size": 965.91,
-          "outcome": "Arthur Fils"
         }
       ]
     },
@@ -247,7 +246,7 @@
       "volume_score": 95.6,
       "roi": -14.3,
       "cash_pnl": -217.52,
-      "realized_pnl": -302.74,
+      "realized_pnl": -364.71,
       "total_usdc": 280953.63,
       "trade_count": 500,
       "market_count": 154,
@@ -266,23 +265,23 @@
     {
       "wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
       "name": "alpheclabs",
-      "score": 50.1,
-      "roi_score": 27.2,
+      "score": 50.2,
+      "roi_score": 27.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 72.5,
       "volume_score": 86.0,
-      "roi": -9.2,
-      "cash_pnl": -3111.02,
-      "realized_pnl": -21.81,
-      "total_usdc": 79854.06,
+      "roi": -9.0,
+      "cash_pnl": -3054.87,
+      "realized_pnl": 650.03,
+      "total_usdc": 79699.6,
       "trade_count": 500,
-      "market_count": 152,
-      "position_count": 181,
+      "market_count": 153,
+      "position_count": 182,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:00:24+00:00",
+      "last_active": "2026-08-11T08:17:51+00:00",
       "top_markets": [
         "The Hundred: Trent Rockets vs Southern Brave",
         "Will CD Cuenca win on 2026-08-10?",
@@ -301,8 +300,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.41,
-          "cur_price": 0.575,
-          "usdc_size": 1062.5,
+          "cur_price": 0.565,
+          "usdc_size": 1087.5,
           "outcome": "Arthur Fils"
         }
       ]
@@ -311,22 +310,22 @@
       "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
       "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
       "score": 48.5,
-      "roi_score": 15.8,
+      "roi_score": 15.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 75.0,
       "volume_score": 100.0,
-      "roi": -26.3,
-      "cash_pnl": -3630211.72,
-      "realized_pnl": 495939.78,
-      "total_usdc": 3374204.17,
+      "roi": -26.4,
+      "cash_pnl": -3643338.86,
+      "realized_pnl": 122950.29,
+      "total_usdc": 3375301.52,
       "trade_count": 500,
-      "market_count": 52,
+      "market_count": 53,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:03:33+00:00",
+      "last_active": "2026-08-11T08:12:22+00:00",
       "top_markets": [
         "LoL: DN SOOPers vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier",
         "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
@@ -336,9 +335,9 @@
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
-          "avg_price": 0.56,
-          "cur_price": 0.575,
-          "usdc_size": 100567.6,
+          "avg_price": 0.5599,
+          "cur_price": 0.565,
+          "usdc_size": 98818.6,
           "outcome": "Rafael Jodar"
         }
       ]
@@ -351,30 +350,30 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
-      "volume_score": 80.3,
+      "volume_score": 79.8,
       "roi": 0.5,
-      "cash_pnl": 286.68,
-      "realized_pnl": -1046.22,
-      "total_usdc": 37890.21,
+      "cash_pnl": 366.95,
+      "realized_pnl": -1053.24,
+      "total_usdc": 35121.03,
       "trade_count": 500,
-      "market_count": 135,
-      "position_count": 258,
+      "market_count": 145,
+      "position_count": 304,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:03:42+00:00",
+      "last_active": "2026-08-11T08:30:13+00:00",
       "top_markets": [
-        "Will Lions FC win on 2026-08-11?",
         "Will Melbourne City FC win on 2026-08-11?",
-        "Astana: Aziz Ouakaa vs Jie Cui"
+        "Astana: Aziz Ouakaa vs Jie Cui",
+        "Will Lions FC win on 2026-08-11?"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "LATE",
           "avg_price": 0.5466,
-          "cur_price": 0.575,
-          "usdc_size": 1002.66,
+          "cur_price": 0.565,
+          "usdc_size": 985.22,
           "outcome": "Rafael Jodar"
         }
       ]
@@ -382,36 +381,206 @@
     {
       "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
       "name": "swisstony",
-      "score": 47.8,
-      "roi_score": 33.0,
+      "score": 48.0,
+      "roi_score": 33.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
-      "volume_score": 78.7,
-      "roi": -0.4,
-      "cash_pnl": -298.64,
+      "volume_score": 78.8,
+      "roi": 0.7,
+      "cash_pnl": 465.91,
       "realized_pnl": 0.0,
-      "total_usdc": 30466.47,
+      "total_usdc": 30973.28,
       "trade_count": 500,
       "market_count": 92,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:02:54+00:00",
+      "last_active": "2026-08-11T08:29:40+00:00",
       "top_markets": [
         "Astana: Vadym Ursu vs Manoj Dhamne Manas",
-        "Tampa Bay Rays vs. Athletics",
-        "Exact Score: Racing Club De Lens 0 - 1 Paris Saint-Germain?"
+        "Exact Score: Racing Club De Lens 0 - 1 Paris Saint-Germain?",
+        "Astana: Aziz Ouakaa vs Jie Cui"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.42,
-          "cur_price": 0.575,
-          "usdc_size": 864.02,
+          "cur_price": 0.565,
+          "usdc_size": 884.36,
           "outcome": "Arthur Fils"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf95846967c9093e4881506162077ec8f7049db13",
+      "name": "thecomplicatedguy",
+      "score": 46.9,
+      "roi_score": 9.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 82.6,
+      "volume_score": 92.6,
+      "roi": -36.2,
+      "cash_pnl": -23137.29,
+      "realized_pnl": -359.64,
+      "total_usdc": 188787.69,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:28:01+00:00",
+      "top_markets": [
+        "Boston Red Sox vs. Toronto Blue Jays",
+        "LoL: Hanwha Life Esports vs Gen.G (BO3) - KeSPA Cup Last Chance Qualifier",
+        "Will Djurgardens IF win on 2026-08-10?"
+      ],
+      "signals": [
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.5699,
+          "cur_price": 0.565,
+          "usdc_size": 8661.21,
+          "outcome": "Rafael Jodar"
+        },
+        {
+          "market": "LoL: Hanwha Life Esports vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.267,
+          "cur_price": 0.245,
+          "usdc_size": 5751.11,
+          "outcome": "Hanwha Life Esports"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4f640f5e3cd7efff96b2aad28fe6be3aac4f9ca2",
+      "name": "0x4F640F5e3cd7eFff96b2AaD28fE6BE3AAC4f9Ca2-1781797830392",
+      "score": 46.5,
+      "roi_score": 12.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 75.1,
+      "volume_score": 91.2,
+      "roi": -31.7,
+      "cash_pnl": -441.7,
+      "realized_pnl": -15.65,
+      "total_usdc": 158497.45,
+      "trade_count": 500,
+      "market_count": 350,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T07:30:45+00:00",
+      "top_markets": [
+        "National Bank Open: Daniel Merida Aguilar vs Alex Michelsen",
+        "National Bank Open: Tallon Griekspoor vs Matteo Arnaldi AND Lexington: Abedallah Shelbayh vs Dusan Lajovic AND National Bank Open: Daniel Merida Aguilar vs Alex Michelsen AND Lexington: Rei Sakamoto vs Edas Butvilas",
+        "Estoril Open: Alejandro Tabilo vs Tiago Torres"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x4b493d8ea89203ecfa5ac53ff8fc4a45aa050397",
+      "name": "NewTeamSosed",
+      "score": 44.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.3,
+      "volume_score": 89.8,
+      "roi": -99.4,
+      "cash_pnl": -485113.64,
+      "realized_pnl": -4969.38,
+      "total_usdc": 131285.27,
+      "trade_count": 500,
+      "market_count": 27,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:21:34+00:00",
+      "top_markets": [
+        "Houston Astros vs. San Diego Padres",
+        "National Bank Open: Rafael Jodar vs Arthur Fils",
+        "Will CA Central C\u00f3rdoba win on 2026-08-10?"
+      ],
+      "signals": [
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.5699,
+          "cur_price": 0.565,
+          "usdc_size": 2824.98,
+          "outcome": "Rafael Jodar"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0cef54ebc984ac8cbbc15975a76e8fbe01d6fa91",
+      "name": "NewTeamSosed5",
+      "score": 44.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.6,
+      "volume_score": 88.0,
+      "roi": -98.8,
+      "cash_pnl": -192566.05,
+      "realized_pnl": 10913.28,
+      "total_usdc": 102862.67,
+      "trade_count": 500,
+      "market_count": 22,
+      "position_count": 405,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:05:10+00:00",
+      "top_markets": [
+        "National Bank Open: Diana Shnaider vs Iga Swiatek",
+        "Astana: Semen Pankin vs Dominik Palan",
+        "National Bank Open: Rafael Jodar vs Arthur Fils"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf9d6bdeab230b7f65dbe236196d01bad8488730a",
+      "name": "MysteryPlayerAF",
+      "score": 44.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.8,
+      "volume_score": 86.9,
+      "roi": -96.6,
+      "cash_pnl": -248050.06,
+      "realized_pnl": -9777.73,
+      "total_usdc": 89897.76,
+      "trade_count": 500,
+      "market_count": 51,
+      "position_count": 123,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:29:57+00:00",
+      "top_markets": [
+        "Counter-Strike: fnatic vs K27 (BO3) - Esports World Cup Open Qualifier Play-Ins",
+        "Counter-Strike: HOTU vs JiJieHao (BO3) - Esports World Cup Open Qualifier Play-Ins",
+        "Counter-Strike: paiN Academy vs QUINTESS\u00caNCIA (BO3) - CCT South America Challengers #2 Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Hanwha Life Esports vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.3211,
+          "cur_price": 0.245,
+          "usdc_size": 2505.73,
+          "outcome": "Hanwha Life Esports"
         }
       ]
     },
@@ -425,8 +594,8 @@
       "early_entry_score": 76.6,
       "volume_score": 100.0,
       "roi": -99.1,
-      "cash_pnl": -4995919.86,
-      "realized_pnl": 0.0,
+      "cash_pnl": -5066566.03,
+      "realized_pnl": -625726.48,
       "total_usdc": 773281.3,
       "trade_count": 500,
       "market_count": 101,
@@ -443,10 +612,46 @@
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "LATE",
+          "signal": "ENTER",
           "avg_price": 0.5531,
-          "cur_price": 0.575,
-          "usdc_size": 45064.29,
+          "cur_price": 0.565,
+          "usdc_size": 44280.56,
+          "outcome": "Rafael Jodar"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5dab5ed9691fab220535891d9c7f5c28eed322e1",
+      "name": "Weaseloftheweek",
+      "score": 43.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 75.1,
+      "volume_score": 100.0,
+      "roi": -57.4,
+      "cash_pnl": -94779.75,
+      "realized_pnl": -622.98,
+      "total_usdc": 924888.94,
+      "trade_count": 500,
+      "market_count": 9,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:29:01+00:00",
+      "top_markets": [
+        "Will Team Spirit Win The International 2026?",
+        "Will Team Falcons Win The International 2026?",
+        "The Hundred: Trent Rockets vs Southern Brave"
+      ],
+      "signals": [
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.5599,
+          "cur_price": 0.565,
+          "usdc_size": 65076.53,
           "outcome": "Rafael Jodar"
         }
       ]
@@ -461,8 +666,8 @@
       "early_entry_score": 75.1,
       "volume_score": 100.0,
       "roi": -98.5,
-      "cash_pnl": -6920555.51,
-      "realized_pnl": -28079.28,
+      "cash_pnl": -6917223.2,
+      "realized_pnl": -190520.08,
       "total_usdc": 772832.09,
       "trade_count": 500,
       "market_count": 20,
@@ -480,9 +685,9 @@
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.575,
-          "usdc_size": 96127.0,
+          "avg_price": 0.4399,
+          "cur_price": 0.565,
+          "usdc_size": 98388.81,
           "outcome": "Arthur Fils"
         }
       ]
@@ -497,8 +702,8 @@
       "early_entry_score": 74.4,
       "volume_score": 100.0,
       "roi": -100.0,
-      "cash_pnl": -1814391.58,
-      "realized_pnl": -10652.13,
+      "cash_pnl": -1814391.29,
+      "realized_pnl": -48610.91,
       "total_usdc": 2704925.66,
       "trade_count": 500,
       "market_count": 152,
@@ -524,8 +729,8 @@
       "early_entry_score": 80.6,
       "volume_score": 91.0,
       "roi": -99.7,
-      "cash_pnl": -216510.46,
-      "realized_pnl": 771.15,
+      "cash_pnl": -216341.09,
+      "realized_pnl": -12664.13,
       "total_usdc": 153517.7,
       "trade_count": 500,
       "market_count": 107,
@@ -544,8 +749,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.5699,
-          "cur_price": 0.575,
-          "usdc_size": 756.58,
+          "cur_price": 0.565,
+          "usdc_size": 743.42,
           "outcome": "Rafael Jodar"
         }
       ]
@@ -560,8 +765,8 @@
       "early_entry_score": 74.2,
       "volume_score": 100.0,
       "roi": -91.8,
-      "cash_pnl": -53548.24,
-      "realized_pnl": -89.93,
+      "cash_pnl": -53517.16,
+      "realized_pnl": -1318.7,
       "total_usdc": 561378.14,
       "trade_count": 500,
       "market_count": 210,
@@ -578,50 +783,6 @@
       "signals": []
     },
     {
-      "wallet": "0x4b493d8ea89203ecfa5ac53ff8fc4a45aa050397",
-      "name": "NewTeamSosed",
-      "score": 43.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 79.1,
-      "volume_score": 89.8,
-      "roi": -98.3,
-      "cash_pnl": -448960.13,
-      "realized_pnl": -2158.56,
-      "total_usdc": 131238.38,
-      "trade_count": 500,
-      "market_count": 30,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T07:00:55+00:00",
-      "top_markets": [
-        "Houston Astros vs. San Diego Padres",
-        "Will CA Central C\u00f3rdoba win on 2026-08-10?",
-        "LoL: SK Gaming vs Team Vitality (BO3) - LEC Regular Season"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "ENTER",
-          "avg_price": 0.5699,
-          "cur_price": 0.575,
-          "usdc_size": 1471.76,
-          "outcome": "Rafael Jodar"
-        },
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.42,
-          "cur_price": 0.575,
-          "usdc_size": 2125.0,
-          "outcome": "Arthur Fils"
-        }
-      ]
-    },
-    {
       "wallet": "0x38181f43e5802391522583a82d05893df3039797",
       "name": "MissingJoy",
       "score": 43.2,
@@ -629,18 +790,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 73.6,
-      "volume_score": 96.8,
-      "roi": -99.1,
-      "cash_pnl": -661604.54,
-      "realized_pnl": -13894.44,
-      "total_usdc": 330383.86,
+      "volume_score": 96.6,
+      "roi": -98.8,
+      "cash_pnl": -661896.46,
+      "realized_pnl": -37785.81,
+      "total_usdc": 321795.28,
       "trade_count": 500,
-      "market_count": 74,
-      "position_count": 328,
+      "market_count": 70,
+      "position_count": 329,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T02:24:34+00:00",
+      "last_active": "2026-08-11T08:24:46+00:00",
       "top_markets": [
         "New York Mets vs. Atlanta Braves",
         "LoL: Gen.G vs DN SOOPers - Game 1 Winner",
@@ -650,66 +811,12 @@
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
-          "avg_price": 0.5699,
-          "cur_price": 0.575,
-          "usdc_size": 575.0,
+          "avg_price": 0.57,
+          "cur_price": 0.565,
+          "usdc_size": 565.0,
           "outcome": "Rafael Jodar"
         }
       ]
-    },
-    {
-      "wallet": "0xf9d6bdeab230b7f65dbe236196d01bad8488730a",
-      "name": "MysteryPlayerAF",
-      "score": 43.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 80.1,
-      "volume_score": 87.1,
-      "roi": -99.7,
-      "cash_pnl": -247132.61,
-      "realized_pnl": -4090.24,
-      "total_usdc": 92307.66,
-      "trade_count": 500,
-      "market_count": 43,
-      "position_count": 112,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T06:16:45+00:00",
-      "top_markets": [
-        "Counter-Strike: fnatic vs K27 (BO3) - Esports World Cup Open Qualifier Play-Ins",
-        "Counter-Strike: HOTU vs JiJieHao (BO3) - Esports World Cup Open Qualifier Play-Ins",
-        "Counter-Strike: paiN Academy vs QUINTESS\u00caNCIA (BO3) - CCT South America Challengers #2 Playoffs"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x0cef54ebc984ac8cbbc15975a76e8fbe01d6fa91",
-      "name": "NewTeamSosed5",
-      "score": 43.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 79.1,
-      "volume_score": 88.0,
-      "roi": -98.8,
-      "cash_pnl": -192566.09,
-      "realized_pnl": 34929.91,
-      "total_usdc": 102864.85,
-      "trade_count": 500,
-      "market_count": 22,
-      "position_count": 405,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T03:49:58+00:00",
-      "top_markets": [
-        "National Bank Open: Diana Shnaider vs Iga Swiatek",
-        "Astana: Semen Pankin vs Dominik Palan",
-        "National Bank Open: Rafael Jodar vs Arthur Fils"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
@@ -721,65 +828,29 @@
       "early_entry_score": 84.1,
       "volume_score": 79.9,
       "roi": -99.6,
-      "cash_pnl": -1077406.75,
-      "realized_pnl": -6295.3,
-      "total_usdc": 35846.37,
+      "cash_pnl": -1078170.68,
+      "realized_pnl": -19713.61,
+      "total_usdc": 35992.71,
       "trade_count": 500,
       "market_count": 93,
       "position_count": 218,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T06:53:06+00:00",
+      "last_active": "2026-08-11T08:23:19+00:00",
       "top_markets": [
         "LoL: SK Gaming vs Team Vitality (BO3) - LEC Regular Season",
-        "Will FK Crvena zvezda vs. MH Hapoel Be'er Sheva end in a draw?",
-        "Will Rosenborg BK win on 2026-08-09?"
+        "Will FK Bod\u00f8/Glimt win on 2026-08-11?",
+        "Will FK Crvena zvezda vs. MH Hapoel Be'er Sheva end in a draw?"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.563,
-          "cur_price": 0.575,
-          "usdc_size": 1019.05,
+          "cur_price": 0.565,
+          "usdc_size": 1001.33,
           "outcome": "Rafael Jodar"
-        }
-      ]
-    },
-    {
-      "wallet": "0xe5241830e8876c115d7dc8311ad9f43d85fdd34f",
-      "name": "GamblingOdyssey",
-      "score": 43.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 74.7,
-      "volume_score": 93.6,
-      "roi": -97.7,
-      "cash_pnl": -251588.49,
-      "realized_pnl": 0.0,
-      "total_usdc": 216106.06,
-      "trade_count": 500,
-      "market_count": 66,
-      "position_count": 105,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T05:51:42+00:00",
-      "top_markets": [
-        "FC Emmen vs. Roda JC Kerkrade: O/U 2.5",
-        "Will Newport County AFC win on 2026-08-08?",
-        "National Bank Open: Rafael Jodar vs Arthur Fils"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.575,
-          "usdc_size": 5153.55,
-          "outcome": "Arthur Fils"
         }
       ]
     },
@@ -792,9 +863,9 @@
       "consistency_score": 50.0,
       "early_entry_score": 75.1,
       "volume_score": 92.3,
-      "roi": -90.5,
-      "cash_pnl": -168920.44,
-      "realized_pnl": 510.08,
+      "roi": -90.3,
+      "cash_pnl": -167587.47,
+      "realized_pnl": -7286.7,
       "total_usdc": 181315.95,
       "trade_count": 500,
       "market_count": 27,
@@ -813,45 +884,9 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4191,
-          "cur_price": 0.575,
-          "usdc_size": 10797.58,
+          "cur_price": 0.565,
+          "usdc_size": 11051.64,
           "outcome": "Arthur Fils"
-        }
-      ]
-    },
-    {
-      "wallet": "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
-      "name": "TheReturnOfDarthMaul",
-      "score": 43.0,
-      "roi_score": 34.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 2.3,
-      "cash_pnl": 51493.11,
-      "realized_pnl": 5612.42,
-      "total_usdc": 1009914.91,
-      "trade_count": 500,
-      "market_count": 17,
-      "position_count": 67,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T06:50:42+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4657,
-          "cur_price": 0.415,
-          "usdc_size": 245210.71,
-          "outcome": "Yes"
         }
       ]
     },
@@ -865,8 +900,8 @@
       "early_entry_score": 74.5,
       "volume_score": 92.0,
       "roi": -100.0,
-      "cash_pnl": -73737.73,
-      "realized_pnl": -2193.88,
+      "cash_pnl": -73735.48,
+      "realized_pnl": -4151.33,
       "total_usdc": 175794.42,
       "trade_count": 500,
       "market_count": 176,
@@ -890,18 +925,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 75.5,
-      "volume_score": 91.0,
-      "roi": -76.2,
-      "cash_pnl": -6905.45,
-      "realized_pnl": -25.0,
-      "total_usdc": 153420.73,
-      "trade_count": 137,
+      "volume_score": 91.2,
+      "roi": -55.9,
+      "cash_pnl": -7027.54,
+      "realized_pnl": -782.12,
+      "total_usdc": 157018.85,
+      "trade_count": 138,
       "market_count": 61,
-      "position_count": 12,
+      "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-10T23:45:22+00:00",
+      "last_active": "2026-08-11T08:26:57+00:00",
       "top_markets": [
         "Ethereum Up or Down on August 9?",
         "Ethereum Up or Down on August 10?",
@@ -912,88 +947,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.56,
-          "cur_price": 0.575,
-          "usdc_size": 2156.25,
-          "outcome": "Rafael Jodar"
-        }
-      ]
-    },
-    {
-      "wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
-      "name": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-      "score": 42.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.1,
-      "volume_score": 90.1,
-      "roi": -97.9,
-      "cash_pnl": -2641828.16,
-      "realized_pnl": 729554.25,
-      "total_usdc": 136960.94,
-      "trade_count": 500,
-      "market_count": 20,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T07:01:55+00:00",
-      "top_markets": [
-        "National Bank Open: Diana Shnaider vs Iga Swiatek",
-        "National Bank Open: Ekaterina Alexandrova vs Elina Svitolina",
-        "Brownsburg: Ugo Blanchet vs Rei Sakamoto"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "LATE",
-          "avg_price": 0.5544,
-          "cur_price": 0.575,
-          "usdc_size": 17001.04,
-          "outcome": "Rafael Jodar"
-        },
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.4304,
-          "cur_price": 0.575,
-          "usdc_size": 10960.53,
-          "outcome": "Arthur Fils"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf95846967c9093e4881506162077ec8f7049db13",
-      "name": "thecomplicatedguy",
-      "score": 42.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 73.8,
-      "volume_score": 92.1,
-      "roi": -55.1,
-      "cash_pnl": -28568.39,
-      "realized_pnl": 0.0,
-      "total_usdc": 176908.9,
-      "trade_count": 500,
-      "market_count": 21,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T06:38:04+00:00",
-      "top_markets": [
-        "Boston Red Sox vs. Toronto Blue Jays",
-        "LoL: Hanwha Life Esports vs Gen.G (BO3) - KeSPA Cup Last Chance Qualifier",
-        "Will Djurgardens IF win on 2026-08-10?"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "ENTER",
-          "avg_price": 0.5699,
-          "cur_price": 0.575,
-          "usdc_size": 8814.51,
+          "cur_price": 0.565,
+          "usdc_size": 2118.75,
           "outcome": "Rafael Jodar"
         }
       ]
@@ -1007,17 +962,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 72.5,
       "volume_score": 92.9,
-      "roi": -95.6,
-      "cash_pnl": -674441.53,
-      "realized_pnl": -258.09,
-      "total_usdc": 196816.33,
+      "roi": -95.5,
+      "cash_pnl": -673125.47,
+      "realized_pnl": -3527.74,
+      "total_usdc": 197042.07,
       "trade_count": 500,
       "market_count": 198,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:03:07+00:00",
+      "last_active": "2026-08-11T08:29:24+00:00",
       "top_markets": [
         "Valorant: Evil Geniuses vs NRG (BO3) - VCT Americas Stage 2 Group Alpha",
         "Will Atlante FC win on 2026-08-08?",
@@ -1028,8 +983,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.41,
-          "cur_price": 0.575,
-          "usdc_size": 1180.19,
+          "cur_price": 0.565,
+          "usdc_size": 1207.96,
           "outcome": "Arthur Fils"
         }
       ]
@@ -1044,8 +999,8 @@
       "early_entry_score": 73.5,
       "volume_score": 92.2,
       "roi": -100.0,
-      "cash_pnl": -189733.08,
-      "realized_pnl": -12569.83,
+      "cash_pnl": -193110.43,
+      "realized_pnl": -114482.27,
       "total_usdc": 179509.41,
       "trade_count": 500,
       "market_count": 118,
@@ -1070,17 +1025,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 76.2,
       "volume_score": 87.2,
-      "roi": -72.3,
-      "cash_pnl": -45723.59,
-      "realized_pnl": 0.0,
-      "total_usdc": 93644.75,
+      "roi": -71.6,
+      "cash_pnl": -45319.88,
+      "realized_pnl": -54.02,
+      "total_usdc": 93416.68,
       "trade_count": 500,
-      "market_count": 62,
-      "position_count": 51,
+      "market_count": 63,
+      "position_count": 52,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:02:00+00:00",
+      "last_active": "2026-08-11T08:13:13+00:00",
       "top_markets": [
         "Spread: Atlanta Dream (-2.5)",
         "Spread: Detroit Tigers (-1.5)",
@@ -1091,52 +1046,96 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4317,
-          "cur_price": 0.575,
-          "usdc_size": 16999.98,
+          "cur_price": 0.565,
+          "usdc_size": 17399.98,
           "outcome": "Arthur Fils"
         }
       ]
     },
     {
-      "wallet": "0xe8c4d68aff65b38cac46987b9b65e01eb47d395d",
-      "name": "JAMJAMJAM4",
-      "score": 42.7,
+      "wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+      "name": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+      "score": 42.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 76.2,
-      "volume_score": 87.2,
-      "roi": -90.9,
-      "cash_pnl": -613991.36,
-      "realized_pnl": -327.68,
-      "total_usdc": 93721.38,
+      "early_entry_score": 74.2,
+      "volume_score": 90.0,
+      "roi": -97.6,
+      "cash_pnl": -2643420.36,
+      "realized_pnl": 649291.34,
+      "total_usdc": 135452.33,
       "trade_count": 500,
-      "market_count": 111,
+      "market_count": 25,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:01:18+00:00",
+      "last_active": "2026-08-11T08:23:52+00:00",
       "top_markets": [
-        "National Bank Open: Leylah Fernandez vs Naomi Osaka",
-        "US announces end of Iranian blockade by August 22, 2026?",
-        "National Bank Open: Alexandra Eala vs Belinda Bencic"
+        "National Bank Open: Ekaterina Alexandrova vs Elina Svitolina",
+        "National Bank Open: Diana Shnaider vs Iga Swiatek",
+        "Brownsburg: Ugo Blanchet vs Rei Sakamoto"
       ],
       "signals": [
         {
-          "market": "US x Iran Effective Ceasefire by July 31?",
-          "signal": "SKIP",
-          "avg_price": 0.15,
-          "cur_price": 0.935,
-          "usdc_size": 1804.55,
-          "outcome": "Yes"
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.5583,
+          "cur_price": 0.565,
+          "usdc_size": 22375.86,
+          "outcome": "Rafael Jodar"
         },
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.575,
-          "usdc_size": 621.35,
+          "avg_price": 0.4304,
+          "cur_price": 0.565,
+          "usdc_size": 11218.43,
+          "outcome": "Arthur Fils"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+      "name": "38791873984189",
+      "score": 42.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 80.4,
+      "volume_score": 80.4,
+      "roi": -84.4,
+      "cash_pnl": -367420.08,
+      "realized_pnl": -26698.23,
+      "total_usdc": 38039.81,
+      "trade_count": 500,
+      "market_count": 116,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T08:29:58+00:00",
+      "top_markets": [
+        "Astana: Amir Omarkhanov vs Beibit Zhukayev",
+        "Astana: Takuya Kumasaka vs Colin Sinclair",
+        "ITF W15 Tianjin 2 Women: Yuhan Wang vs Yu Jun Lin"
+      ],
+      "signals": [
+        {
+          "market": "LoL: Hanwha Life Esports vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.7663,
+          "cur_price": 0.245,
+          "usdc_size": 597.86,
+          "outcome": "Hanwha Life Esports"
+        },
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "SKIP",
+          "avg_price": 0.414,
+          "cur_price": 0.565,
+          "usdc_size": 834.44,
           "outcome": "Arthur Fils"
         }
       ]
@@ -1150,9 +1149,9 @@
       "consistency_score": 50.0,
       "early_entry_score": 74.0,
       "volume_score": 90.2,
-      "roi": -97.2,
-      "cash_pnl": -28665.4,
-      "realized_pnl": 382.8,
+      "roi": -97.3,
+      "cash_pnl": -28679.66,
+      "realized_pnl": -724.26,
       "total_usdc": 138835.28,
       "trade_count": 422,
       "market_count": 70,
@@ -1171,8 +1170,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.5599,
-          "cur_price": 0.575,
-          "usdc_size": 821.43,
+          "cur_price": 0.565,
+          "usdc_size": 807.14,
           "outcome": "Rafael Jodar"
         }
       ]
@@ -1188,7 +1187,7 @@
       "volume_score": 86.9,
       "roi": -100.0,
       "cash_pnl": -16487.64,
-      "realized_pnl": -171.9,
+      "realized_pnl": -527.63,
       "total_usdc": 90119.05,
       "trade_count": 109,
       "market_count": 33,
@@ -1205,89 +1204,17 @@
       "signals": []
     },
     {
-      "wallet": "0x374e6ec4b01a41d68926c48d197365e65ece87c9",
-      "name": "MundiArAl",
-      "score": 42.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 73.1,
-      "volume_score": 85.9,
-      "roi": -98.2,
-      "cash_pnl": -47519.79,
-      "realized_pnl": -202.59,
-      "total_usdc": 78640.95,
-      "trade_count": 500,
-      "market_count": 296,
-      "position_count": 267,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T01:14:39+00:00",
-      "top_markets": [
-        "La Velada del A\u00f1o 6: Viruzz vs Gero Arias",
-        "San Marino: Daniel Rincon vs Juan Carlos Prado",
-        "Colombia vs. Ghana: O/U 1.5"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "ENTER",
-          "avg_price": 0.58,
-          "cur_price": 0.575,
-          "usdc_size": 690.0,
-          "outcome": "Rafael Jodar"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1b8ffdb4ff99b4622f099465c486e4f75751cca7",
-      "name": "0x1B8FfDb4FF99B4622F099465C486E4F75751cca7-1779298477893",
-      "score": 42.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 74.0,
-      "volume_score": 85.2,
-      "roi": -99.2,
-      "cash_pnl": -253228.41,
-      "realized_pnl": 35.3,
-      "total_usdc": 72113.44,
-      "trade_count": 500,
-      "market_count": 81,
-      "position_count": 353,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T02:04:27+00:00",
-      "top_markets": [
-        "UFC Fight Night: Stephanie Luciano vs. Marina Spasic (Women's Strawweight, Prelims)",
-        "National Bank Open: Nikola Bartunkova vs Bianca Andreescu",
-        "Will Greg Mueller Win the 2026 WSOP Main Event?"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.575,
-          "usdc_size": 1041.08,
-          "outcome": "Arthur Fils"
-        }
-      ]
-    },
-    {
       "wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
       "name": "6512395314597884",
-      "score": 42.0,
-      "roi_score": 2.5,
+      "score": 42.2,
+      "roi_score": 3.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 75.0,
       "volume_score": 75.2,
-      "roi": -46.3,
-      "cash_pnl": -1961.89,
-      "realized_pnl": 3.5,
+      "roi": -45.4,
+      "cash_pnl": -1922.13,
+      "realized_pnl": -10.35,
       "total_usdc": 19359.45,
       "trade_count": 500,
       "market_count": 83,
@@ -1306,9 +1233,81 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.5676,
-          "cur_price": 0.575,
-          "usdc_size": 747.5,
+          "cur_price": 0.565,
+          "usdc_size": 734.5,
           "outcome": "Rafael Jodar"
+        }
+      ]
+    },
+    {
+      "wallet": "0x374e6ec4b01a41d68926c48d197365e65ece87c9",
+      "name": "MundiArAl",
+      "score": 42.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 73.1,
+      "volume_score": 85.9,
+      "roi": -98.2,
+      "cash_pnl": -47529.66,
+      "realized_pnl": -1256.13,
+      "total_usdc": 78640.95,
+      "trade_count": 500,
+      "market_count": 296,
+      "position_count": 267,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T01:14:39+00:00",
+      "top_markets": [
+        "La Velada del A\u00f1o 6: Viruzz vs Gero Arias",
+        "San Marino: Daniel Rincon vs Juan Carlos Prado",
+        "Colombia vs. Ghana: O/U 1.5"
+      ],
+      "signals": [
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.58,
+          "cur_price": 0.565,
+          "usdc_size": 678.0,
+          "outcome": "Rafael Jodar"
+        }
+      ]
+    },
+    {
+      "wallet": "0x1b8ffdb4ff99b4622f099465c486e4f75751cca7",
+      "name": "0x1B8FfDb4FF99B4622F099465C486E4F75751cca7-1779298477893",
+      "score": 42.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 74.0,
+      "volume_score": 85.2,
+      "roi": -99.2,
+      "cash_pnl": -253077.04,
+      "realized_pnl": 1749.59,
+      "total_usdc": 72113.44,
+      "trade_count": 500,
+      "market_count": 81,
+      "position_count": 353,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T02:04:27+00:00",
+      "top_markets": [
+        "UFC Fight Night: Stephanie Luciano vs. Marina Spasic (Women's Strawweight, Prelims)",
+        "National Bank Open: Nikola Bartunkova vs Bianca Andreescu",
+        "Will Greg Mueller Win the 2026 WSOP Main Event?"
+      ],
+      "signals": [
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "SKIP",
+          "avg_price": 0.44,
+          "cur_price": 0.565,
+          "usdc_size": 1065.58,
+          "outcome": "Arthur Fils"
         }
       ]
     },
@@ -1319,39 +1318,39 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 75.3,
-      "volume_score": 81.3,
+      "early_entry_score": 75.1,
+      "volume_score": 80.9,
       "roi": -93.8,
-      "cash_pnl": -533302.48,
-      "realized_pnl": 840209.86,
-      "total_usdc": 43110.9,
+      "cash_pnl": -599669.18,
+      "realized_pnl": 590134.71,
+      "total_usdc": 41025.96,
       "trade_count": 500,
-      "market_count": 62,
+      "market_count": 73,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:01:40+00:00",
+      "last_active": "2026-08-11T08:29:07+00:00",
       "top_markets": [
-        "Will Vancouver Whitecaps FC win on 2026-08-11?",
-        "Will Pumas de la UNAM win on 2026-08-11?",
-        "Will Atlas FC win on 2026-08-11?"
+        "Will GNK Dinamo Zagreb win on 2026-08-11?",
+        "Will Atlas FC win on 2026-08-11?",
+        "Will Pumas de la UNAM win on 2026-08-11?"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "LATE",
-          "avg_price": 0.5426,
-          "cur_price": 0.575,
-          "usdc_size": 6695.86,
+          "avg_price": 0.5453,
+          "cur_price": 0.565,
+          "usdc_size": 7285.66,
           "outcome": "Rafael Jodar"
         },
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4487,
-          "cur_price": 0.575,
-          "usdc_size": 5627.88,
+          "cur_price": 0.565,
+          "usdc_size": 5776.12,
           "outcome": "Arthur Fils"
         }
       ]
@@ -1366,16 +1365,16 @@
       "early_entry_score": 72.5,
       "volume_score": 84.8,
       "roi": -98.7,
-      "cash_pnl": -249113.56,
-      "realized_pnl": 731.85,
-      "total_usdc": 68449.62,
+      "cash_pnl": -254351.24,
+      "realized_pnl": -18708.16,
+      "total_usdc": 68331.75,
       "trade_count": 500,
-      "market_count": 255,
+      "market_count": 251,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T06:36:22+00:00",
+      "last_active": "2026-08-11T08:21:55+00:00",
       "top_markets": [
         "Will Columbus Crew win on 2026-08-11?",
         "Will CF Am\u00e9rica win on 2026-08-09?",
@@ -1386,52 +1385,8 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.42,
-          "cur_price": 0.575,
-          "usdc_size": 910.71,
-          "outcome": "Arthur Fils"
-        }
-      ]
-    },
-    {
-      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
-      "name": "NM-P",
-      "score": 41.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.1,
-      "volume_score": 80.5,
-      "roi": -92.6,
-      "cash_pnl": -523536.94,
-      "realized_pnl": 693241.13,
-      "total_usdc": 38550.92,
-      "trade_count": 500,
-      "market_count": 70,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T07:01:07+00:00",
-      "top_markets": [
-        "Will Pumas de la UNAM win on 2026-08-11?",
-        "Will Charlotte FC win on 2026-08-11?",
-        "Will Columbus Crew win on 2026-08-11?"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "LATE",
-          "avg_price": 0.5444,
-          "cur_price": 0.575,
-          "usdc_size": 6946.95,
-          "outcome": "Rafael Jodar"
-        },
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.4466,
-          "cur_price": 0.575,
-          "usdc_size": 6146.66,
+          "cur_price": 0.565,
+          "usdc_size": 932.14,
           "outcome": "Arthur Fils"
         }
       ]
@@ -1446,8 +1401,8 @@
       "early_entry_score": 73.3,
       "volume_score": 83.2,
       "roi": -99.7,
-      "cash_pnl": -253529.54,
-      "realized_pnl": -0.79,
+      "cash_pnl": -257191.52,
+      "realized_pnl": -21162.28,
       "total_usdc": 55132.89,
       "trade_count": 500,
       "market_count": 49,
@@ -1466,103 +1421,94 @@
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "ENTER",
           "avg_price": 0.58,
-          "cur_price": 0.575,
-          "usdc_size": 741.75,
+          "cur_price": 0.565,
+          "usdc_size": 728.85,
           "outcome": "Rafael Jodar"
         }
       ]
     },
     {
-      "wallet": "0x5213eb85fcd465c8927a8382f95dd2dc22306a35",
-      "name": "Notradecopy",
-      "score": 41.7,
+      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
+      "name": "NM-P",
+      "score": 41.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 72.5,
-      "volume_score": 83.6,
-      "roi": -99.2,
-      "cash_pnl": -290283.07,
-      "realized_pnl": 1407.75,
-      "total_usdc": 58424.28,
+      "volume_score": 80.8,
+      "roi": -92.8,
+      "cash_pnl": -637284.33,
+      "realized_pnl": 423497.02,
+      "total_usdc": 40033.9,
       "trade_count": 500,
-      "market_count": 260,
+      "market_count": 72,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T06:53:04+00:00",
+      "last_active": "2026-08-11T08:29:24+00:00",
       "top_markets": [
-        "National Bank Open: Diana Shnaider vs Iga Swiatek",
-        "Will Columbus Crew win on 2026-08-11?",
-        "Hagen: Tom Gentzsch vs Jerome Kym"
+        "Will Charlotte FC win on 2026-08-11?",
+        "Will Pumas de la UNAM win on 2026-08-11?",
+        "Will Qairat FK win on 2026-08-11?"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+          "signal": "ENTER",
+          "avg_price": 0.5486,
+          "cur_price": 0.565,
+          "usdc_size": 8170.1,
+          "outcome": "Rafael Jodar"
+        },
+        {
+          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
-          "avg_price": 0.42,
-          "cur_price": 0.575,
-          "usdc_size": 860.12,
+          "avg_price": 0.4466,
+          "cur_price": 0.565,
+          "usdc_size": 6291.28,
           "outcome": "Arthur Fils"
         }
       ]
     },
     {
-      "wallet": "0x0c689c8e78588fd3d02e56a6e787e7f9e9b09e76",
-      "name": "monkeyking42",
-      "score": 41.5,
-      "roi_score": 30.7,
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "name": "VeryLucky888",
+      "score": 40.6,
+      "roi_score": 0.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.9,
-      "roi": -4.0,
-      "cash_pnl": -7150.81,
-      "realized_pnl": 0.0,
-      "total_usdc": 379034.15,
-      "trade_count": 39,
-      "market_count": 3,
-      "position_count": 2,
+      "early_entry_score": 69.0,
+      "volume_score": 74.9,
+      "roi": -48.9,
+      "cash_pnl": -85473.52,
+      "realized_pnl": 757.88,
+      "total_usdc": 18624.66,
+      "trade_count": 500,
+      "market_count": 147,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:04:01+00:00",
+      "last_active": "2026-08-11T08:29:24+00:00",
       "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Clarity Act (H.R.3633) signed into law in 2026?",
-        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
+        "KBO: KT Wiz vs. NC Dinos",
+        "Will Melbourne City FC win on 2026-08-11?",
+        "Game Handicap: BW (-1.5) vs Dark Passage (+1.5)"
       ],
-      "signals": [
-        {
-          "market": "Clarity Act (H.R.3633) signed into law in 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.2824,
-          "cur_price": 0.255,
-          "usdc_size": 63750.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5865,
-          "cur_price": 0.415,
-          "usdc_size": 108973.91,
-          "outcome": "No"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x30c16e063c3be66d93acf14c06e2741e348f9f91",
       "name": "Ditto321",
-      "score": 40.5,
-      "roi_score": 28.6,
+      "score": 40.6,
+      "roi_score": 29.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 94.1,
-      "roi": -7.0,
-      "cash_pnl": -3723.67,
+      "roi": -6.5,
+      "cash_pnl": -3411.06,
       "realized_pnl": 247.1,
       "total_usdc": 229199.77,
       "trade_count": 500,
@@ -1582,16 +1528,16 @@
           "market": "Strait of Hormuz traffic returns to normal by August 31?",
           "signal": "SKIP",
           "avg_price": 0.1099,
-          "cur_price": 0.0335,
-          "usdc_size": 1675.0,
+          "cur_price": 0.0345,
+          "usdc_size": 1725.0,
           "outcome": "Yes"
         },
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4277,
-          "cur_price": 0.575,
-          "usdc_size": 9562.5,
+          "cur_price": 0.565,
+          "usdc_size": 9787.5,
           "outcome": "Arthur Fils"
         },
         {
@@ -1605,74 +1551,38 @@
       ]
     },
     {
-      "wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
-      "name": "38791873984189",
-      "score": 37.7,
+      "wallet": "0xa3c2ec158f222f3f4f5f4f57b113d761a4d3df3d",
+      "name": "0xA3c2EC158F222F3F4f5F4f57b113d761a4D3df3d-1774679893278",
+      "score": 40.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 50.0,
-      "volume_score": 76.8,
-      "roi": -81.6,
-      "cash_pnl": -274593.48,
-      "realized_pnl": -24025.11,
-      "total_usdc": 23711.51,
+      "early_entry_score": 71.3,
+      "volume_score": 72.2,
+      "roi": -99.4,
+      "cash_pnl": -310184.35,
+      "realized_pnl": 99432.64,
+      "total_usdc": 13081.3,
       "trade_count": 500,
-      "market_count": 122,
+      "market_count": 147,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:03:34+00:00",
+      "last_active": "2026-08-11T08:29:01+00:00",
       "top_markets": [
-        "Astana: Vadym Ursu vs Manoj Dhamne Manas",
-        "Astana: Aziz Ouakaa vs Jie Cui",
-        "Astana: Petr Bar Biryukov vs Taisei Ichikawa"
+        "Hamburg: Zsombor Piros vs Max Schoenhaus",
+        "Astana: Amir Omarkhanov vs Beibit Zhukayev",
+        "Hamburg: Jamie Mackenzie vs Jan Kumstat"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.414,
-          "cur_price": 0.575,
-          "usdc_size": 1155.26,
-          "outcome": "Arthur Fils"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "name": "VeryLucky888",
-      "score": 37.7,
-      "roi_score": 0.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 50.0,
-      "volume_score": 76.2,
-      "roi": -49.6,
-      "cash_pnl": -86121.67,
-      "realized_pnl": -266.05,
-      "total_usdc": 21963.92,
-      "trade_count": 500,
-      "market_count": 159,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-11T07:02:52+00:00",
-      "top_markets": [
-        "KBO: KT Wiz vs. NC Dinos",
-        "Will Melbourne City FC win on 2026-08-11?",
-        "Valorant: JD Gaming vs EDward Gaming (BO3) - VCT China Stage 2 Play-Ins"
-      ],
-      "signals": [
-        {
-          "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-          "signal": "SKIP",
-          "avg_price": 0.4354,
-          "cur_price": 0.575,
-          "usdc_size": 2619.34,
-          "outcome": "Arthur Fils"
+          "signal": "ENTER",
+          "avg_price": 0.57,
+          "cur_price": 0.565,
+          "usdc_size": 694.39,
+          "outcome": "Rafael Jodar"
         }
       ]
     },
@@ -1684,66 +1594,154 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
-      "volume_score": 75.6,
-      "roi": -99.7,
-      "cash_pnl": -3907310.22,
-      "realized_pnl": 1465809.64,
-      "total_usdc": 20229.97,
+      "volume_score": 76.2,
+      "roi": -98.7,
+      "cash_pnl": -3967467.68,
+      "realized_pnl": 846987.96,
+      "total_usdc": 21886.18,
       "trade_count": 500,
-      "market_count": 17,
+      "market_count": 29,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T07:02:49+00:00",
+      "last_active": "2026-08-11T08:29:52+00:00",
       "top_markets": [
-        "Astana: Vadym Ursu vs Manoj Dhamne Manas",
-        "ITF M15 Tianjin 2 Men: Xirui Han vs Suk Ann",
-        "ITF W15 Astana 5 Women: Yashaswini Panwar vs Anastasiya Krymkova"
+        "ITF W15 Tianjin 2 Women: Yuhan Wang vs Yu Jun Lin",
+        "ITF W15 Tianjin 2 Women: Yushan Shao vs Natsuki Yoshimoto",
+        "Astana: Takuya Kumasaka vs Colin Sinclair"
       ],
       "signals": [
         {
           "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
           "signal": "SKIP",
           "avg_price": 0.4165,
-          "cur_price": 0.575,
-          "usdc_size": 11201.39,
+          "cur_price": 0.565,
+          "usdc_size": 11464.95,
           "outcome": "Arthur Fils"
         }
       ]
     },
     {
-      "wallet": "0xaea33a63323438ddafed2def9bb286d1aeccfe61",
-      "name": "bibibila",
+      "wallet": "0x6933dfe9de300edfdcd4c9db9543fb8dbeb0cea6",
+      "name": "ANZCLS",
+      "score": 37.4,
+      "roi_score": 26.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 69.8,
+      "roi": -10.2,
+      "cash_pnl": -880.95,
+      "realized_pnl": -18.04,
+      "total_usdc": 9556.48,
+      "trade_count": 19,
+      "market_count": 4,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T07:33:13+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.0179,
+          "cur_price": 0.0155,
+          "usdc_size": 2398.24,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6195,
+          "cur_price": 0.565,
+          "usdc_size": 2644.04,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6381,
+          "cur_price": 0.415,
+          "usdc_size": 2633.13,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeee1b757ce93e076fdb4c1f4ff183dc302c53e28",
+      "name": "Dreamlawn",
+      "score": 35.3,
+      "roi_score": 16.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.3,
+      "roi": -25.5,
+      "cash_pnl": -4017.54,
+      "realized_pnl": 0.0,
+      "total_usdc": 32879.75,
+      "trade_count": 72,
+      "market_count": 32,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-11T07:37:24+00:00",
+      "top_markets": [
+        "Will Jannik Sinner win the 2026 Australian Open?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "Thailand x Cambodia ceasefire by December 31?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.4204,
+          "cur_price": 0.415,
+          "usdc_size": 11743.1,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
+      "name": "timetowander",
       "score": 31.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.7,
-      "roi": -69.5,
-      "cash_pnl": -3994.59,
-      "realized_pnl": 835.08,
-      "total_usdc": 219930.22,
+      "volume_score": 93.8,
+      "roi": -99.9,
+      "cash_pnl": -18773221.06,
+      "realized_pnl": -2411699.27,
+      "total_usdc": 222844.16,
       "trade_count": 500,
-      "market_count": 117,
-      "position_count": 40,
+      "market_count": 30,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T06:50:42+00:00",
+      "last_active": "2026-08-11T08:28:00+00:00",
       "top_markets": [
-        "Will Bitcoin reach $67,500 in June?",
-        "Will Bitcoin dip to $62,500 in July?",
-        "Will Bitcoin reach $72,500 in June?"
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+        "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.58,
+          "avg_price": 0.5799,
           "cur_price": 0.415,
-          "usdc_size": 1755.0,
+          "usdc_size": 6319.43,
           "outcome": "No"
         }
       ]
@@ -1751,27 +1749,27 @@
     {
       "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
       "name": "neutralwave23",
-      "score": 30.7,
+      "score": 30.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.6,
-      "roi": -84.3,
-      "cash_pnl": -696210.49,
-      "realized_pnl": -11799.11,
-      "total_usdc": 44805.48,
+      "volume_score": 82.6,
+      "roi": -86.7,
+      "cash_pnl": -840035.07,
+      "realized_pnl": -138384.62,
+      "total_usdc": 50797.48,
       "trade_count": 500,
-      "market_count": 191,
+      "market_count": 222,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-11T06:59:43+00:00",
+      "last_active": "2026-08-11T08:29:12+00:00",
       "top_markets": [
         "Astana: Petr Bar Biryukov vs Taisei Ichikawa",
-        "National Bank Open: Ekaterina Alexandrova vs Elina Svitolina",
-        "Solana Up or Down - August 10, 9:15PM-9:30PM ET"
+        "Solana Up or Down - August 10, 11:10PM-11:15PM ET",
+        "Astana: Amir Omarkhanov vs Beibit Zhukayev"
       ],
       "signals": [
         {
@@ -1779,23 +1777,23 @@
           "signal": "ENTER",
           "avg_price": 0.5731,
           "cur_price": 0.565,
-          "usdc_size": 4923.52,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Clarity Act (H.R.3633) signed into law in 2026?",
-          "signal": "LATE",
-          "avg_price": 0.2437,
-          "cur_price": 0.255,
-          "usdc_size": 5447.51,
+          "usdc_size": 4924.4,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.0216,
-          "cur_price": 0.0165,
-          "usdc_size": 3754.03,
+          "cur_price": 0.0155,
+          "usdc_size": 3526.51,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Clarity Act (H.R.3633) signed into law in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.2443,
+          "cur_price": 0.185,
+          "usdc_size": 4116.0,
           "outcome": "Yes"
         }
       ]
@@ -1805,142 +1803,142 @@
     {
       "id": "0x8fb8c5b5e504f8b1bbf18ac9aa85aefc65bba1ffc5075c91910d0dd9767c7486",
       "question": "National Bank Open: Rafael Jodar vs Arthur Fils",
-      "volume": "1198124.49404",
-      "liquidity": "211688.2388",
+      "volume": "1201140.4115729989",
+      "liquidity": "261995.2148",
       "end_date": "2026-08-18T14:00:00Z"
     },
     {
       "id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
       "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "5571502.446261003",
-      "liquidity": "616753.4887",
+      "volume": "5608836.733799004",
+      "liquidity": "678724.1483",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
-      "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
-      "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
-      "volume": "76722966.729933",
-      "liquidity": "17903.61268",
-      "end_date": "2026-06-01T00:00:00Z"
+      "id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
+      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+      "volume": "6408744.613196",
+      "liquidity": "280019.962",
+      "end_date": "2027-01-01T05:00:00Z"
     },
     {
       "id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
       "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "6494523.196558002",
-      "liquidity": "798492.14932",
+      "volume": "6555049.978500002",
+      "liquidity": "773553.88321",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
-      "id": "0x2e4b58fc18dbffd74d5275d89fb076943f21992763c45dcadd81391b83bde13c",
-      "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "3655433.042121",
-      "liquidity": "372379.10906",
-      "end_date": "2026-09-16T00:00:00Z"
+      "id": "0x45a5bdf9359a730d3dcb814cb34e2ec8527ace22521b53b9f6b067b17a218324",
+      "question": "LoL: Hanwha Life Esports vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+      "volume": "666879.9466870006",
+      "liquidity": "216803.7031",
+      "end_date": "2026-08-11T14:00:00Z"
     },
     {
       "id": "0x60613b262912ce2e3138ec5610a31a2f932b6300843c094053cb33aaff9f2238",
       "question": "Will Kai and Speed beat the Minecraft challenge by August 17?",
-      "volume": "1094605.050851",
-      "liquidity": "78224.1639",
+      "volume": "1105938.889883",
+      "liquidity": "63191.0063",
       "end_date": "2026-08-17T23:59:00Z"
+    },
+    {
+      "id": "0x2e4b58fc18dbffd74d5275d89fb076943f21992763c45dcadd81391b83bde13c",
+      "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
+      "volume": "3655473.0923210015",
+      "liquidity": "376463.53002",
+      "end_date": "2026-09-16T00:00:00Z"
     },
     {
       "id": "0x5e464d85eb49f22d876f3ed6168a7db5e2288e9ae1eb91effd2758e994676f86",
       "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "3138259.4309010003",
-      "liquidity": "391812.08323",
+      "volume": "3140987.3354419996",
+      "liquidity": "401965.87723",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
       "id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
       "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "volume": "5823459.828174999",
-      "liquidity": "503127.8008",
+      "volume": "5840393.373222999",
+      "liquidity": "610813.3805",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
-      "id": "0x49479ffa88e2897569b1d413e3bc558003e21912edee09d080ca6bac6eb20805",
-      "question": "Strait of Hormuz traffic returns to normal by August 15?",
-      "volume": "5501603.886628998",
-      "liquidity": "711004.656",
-      "end_date": "2026-08-15T00:00:00Z"
-    },
-    {
-      "id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
-      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
-      "volume": "6002766.950792001",
-      "liquidity": "228799.9907",
-      "end_date": "2027-01-01T05:00:00Z"
-    },
-    {
-      "id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
-      "question": "Strait of Hormuz traffic returns to normal by August 31?",
-      "volume": "11584645.503663003",
-      "liquidity": "1081394.0312",
-      "end_date": "2026-08-31T00:00:00Z"
+      "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
+      "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
+      "volume": "77026734.72993301",
+      "liquidity": "17560.74478",
+      "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "3606856.3490000004",
-      "liquidity": "240841.30256",
+      "volume": "3633276.4189999998",
+      "liquidity": "271367.39056",
       "end_date": "2027-05-30T23:59:00Z"
+    },
+    {
+      "id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
+      "question": "Strait of Hormuz traffic returns to normal by August 31?",
+      "volume": "11590689.906709",
+      "liquidity": "1044218.873",
+      "end_date": "2026-08-31T00:00:00Z"
     },
     {
       "id": "0xc65fb00eb998335039e5120dc390967576c4bfaee22a2342a17ced0fbc2c7e4e",
       "question": "Will Yabloko gain the most seats in the next Russian parliamentary election?",
-      "volume": "868781.7895439998",
-      "liquidity": "265794.54072",
+      "volume": "869890.809544",
+      "liquidity": "264212.76526",
       "end_date": "2026-09-30T00:00:00Z"
     },
     {
       "id": "0x5a9395dae6c7643ea06e7a555580a5526e81073aea9c9306363529c5b76a8f8b",
       "question": "US x Iran Effective Ceasefire by July 31?",
-      "volume": "7949738.194245006",
-      "liquidity": "106589.6545",
+      "volume": "7968309.316207004",
+      "liquidity": "92265.9931",
       "end_date": "2026-07-31T23:59:00Z"
     },
     {
       "id": "0x32e869cb0f7316273417ec79aa94c8a139f8c390ebff8a24150a18753d257f8e",
       "question": "Will GameStop acquire eBay?",
-      "volume": "2742593.5677039996",
-      "liquidity": "222077.3685",
+      "volume": "2742594.654658999",
+      "liquidity": "222630.8398",
       "end_date": "2026-12-31T00:00:00Z"
     },
     {
-      "id": "0xa055e1cf533c2fcb1f1c89c20c41c8aa25526dcf27c3ff6be69c230fd8898282",
-      "question": "US announces end of Iranian blockade by August 15, 2026?",
-      "volume": "2046014.9198989994",
-      "liquidity": "125553.2143",
-      "end_date": "2026-08-15T23:59:00Z"
-    },
-    {
-      "id": "0x0b4ef8dad7d6d1bc117bf918f09d5d4f99662a0aa375ec9c6a994d1835b3bea9",
-      "question": "Will Josh Stein win the 2028 Democratic presidential nomination?",
-      "volume": "946358.8999920001",
-      "liquidity": "1857436.05553",
-      "end_date": "2028-11-07T00:00:00Z"
+      "id": "0x49479ffa88e2897569b1d413e3bc558003e21912edee09d080ca6bac6eb20805",
+      "question": "Strait of Hormuz traffic returns to normal by August 15?",
+      "volume": "5524618.1540319985",
+      "liquidity": "607800.86399",
+      "end_date": "2026-08-15T00:00:00Z"
     },
     {
       "id": "0x8a6c2288c593fe01201db76111d4c4ab131efb8ccb40a368d63e1662bfd57beb",
       "question": "Counter-Strike: Team Falcons vs K27 (BO1) - Esports World Cup Group B",
-      "volume": "282956.46209199994",
-      "liquidity": "90223.3226",
+      "volume": "283127.94573000004",
+      "liquidity": "91665.7838",
       "end_date": "2026-08-12T19:20:00Z"
-    },
-    {
-      "id": "0x6abd5c19fd4139cde0374e90cd9c73f3988684ad1af7c98c761988603e353cf6",
-      "question": "US announces end of Iranian blockade by August 11, 2026?",
-      "volume": "412335.08539299987",
-      "liquidity": "71477.00685",
-      "end_date": "2026-08-11T23:59:00Z"
     },
     {
       "id": "0x0f8ef3cc906ba7ba94a44724738df44bdd5f73e59e40c9c8b4ff8569e349643c",
       "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
-      "volume": "42717494.50417099",
-      "liquidity": "2647034.91169",
+      "volume": "42717929.79117095",
+      "liquidity": "2648017.71365",
       "end_date": "2028-11-07T00:00:00Z"
+    },
+    {
+      "id": "0x6abd5c19fd4139cde0374e90cd9c73f3988684ad1af7c98c761988603e353cf6",
+      "question": "US announces end of Iranian blockade by August 11, 2026?",
+      "volume": "419561.537434",
+      "liquidity": "80675.5116",
+      "end_date": "2026-08-11T23:59:00Z"
+    },
+    {
+      "id": "0x3d24628169ad139d217a10470c8c4a25f7f1a7307aedaef65d345da3e5c8561b",
+      "question": "Will the price of Bitcoin be above $60,000 on August 11?",
+      "volume": "259345.91415599987",
+      "liquidity": "38714.3078",
+      "end_date": "2026-08-11T16:00:00Z"
     }
   ]
 }
