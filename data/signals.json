@@ -1,1748 +1,2290 @@
 {
-  "last_updated": "2026-08-12T17:02:52.508159+00:00",
+  "last_updated": "2026-08-12T18:26:08.523165+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0xfc25f141ed27bb1787338d2c4e7f51e3a15e1f7f",
-      "name": "-Malfunction",
-      "score": 42.4,
-      "roi_score": 33.4,
+      "wallet": "0xee00ba338c59557141789b127927a55f5cc5cea1",
+      "name": "S-Works",
+      "score": 51.6,
+      "roi_score": 33.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.3,
-      "roi": 0.2,
-      "cash_pnl": 505.49,
-      "realized_pnl": -419.83,
-      "total_usdc": 401225.27,
-      "trade_count": 500,
-      "market_count": 15,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:02:00+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs JD Gaming - Game 1 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-        "LoL: KT Rolster vs Dplus KIA - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdc5bd11896bfb0fb335dad88d99a7e9a6bc3f102",
-      "name": "ztao",
-      "score": 41.7,
-      "roi_score": 32.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.5,
-      "roi": -0.8,
-      "cash_pnl": -0.79,
-      "realized_pnl": 0.0,
-      "total_usdc": 211745.9,
-      "trade_count": 500,
-      "market_count": 343,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:00:25+00:00",
-      "top_markets": [
-        "Counter-Strike: 100 Thieves vs 1WIN - Map 1 Winner",
-        "Counter-Strike: EYEBALLERS vs Phantom (BO3) - Esports World Cup Open Qualifier Group 10",
-        "Counter-Strike: Liquid vs Metizport - Map 1 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x5e8e7771121f4f8f9f7739ddecfe2baa2d918212",
-      "name": "littlelonely888",
-      "score": 41.5,
-      "roi_score": 31.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.0,
-      "roi": -2.2,
-      "cash_pnl": -2160.51,
-      "realized_pnl": 736.82,
-      "total_usdc": 227060.31,
-      "trade_count": 500,
-      "market_count": 33,
-      "position_count": 21,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:01:33+00:00",
-      "top_markets": [
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-        "LoL: KT Rolster vs Dplus KIA - Game 1 Winner",
-        "LoL: KT Rolster vs Dplus KIA - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
-      "name": "suntori",
-      "score": 40.2,
-      "roi_score": 27.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.9,
-      "volume_score": 77.9,
-      "roi": -9.2,
-      "cash_pnl": -17594.18,
-      "realized_pnl": 67209.67,
-      "total_usdc": 27443.0,
-      "trade_count": 500,
-      "market_count": 166,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:02:19+00:00",
-      "top_markets": [
-        "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
-        "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-        "Exact Score: Paris Saint-Germain 1 - 1 Aston Villa?"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain win on 2026-08-12?",
-          "signal": "ENTER",
-          "avg_price": 0.5697,
-          "cur_price": 0.565,
-          "usdc_size": 3008.68,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-          "signal": "ENTER",
-          "avg_price": 0.2471,
-          "cur_price": 0.245,
-          "usdc_size": 648.15,
-          "outcome": "MIBR"
-        },
-        {
-          "market": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.0182,
-          "cur_price": 0.013,
-          "usdc_size": 3956.24,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5444,
-          "cur_price": 0.665,
-          "usdc_size": 23155.39,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5042,
-          "cur_price": 0.335,
-          "usdc_size": 23080.79,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5462,
-          "cur_price": 0.335,
-          "usdc_size": 3207.67,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Clarity Act (H.R.3633) signed into law in 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.2022,
-          "cur_price": 0.185,
-          "usdc_size": 709.44,
-          "outcome": "Yes"
-        },
-        {
-          "market": "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-          "signal": "SKIP",
-          "avg_price": 0.2121,
-          "cur_price": 0.0005,
-          "usdc_size": 1524.4,
-          "outcome": "JD Gaming"
-        },
-        {
-          "market": "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.5531,
-          "cur_price": 0.0005,
-          "usdc_size": 1481.4,
-          "outcome": "FaZe"
-        },
-        {
-          "market": "Counter-Strike: PARIVISION vs B8 (BO1) - Esports World Cup Group C",
-          "signal": "SKIP",
-          "avg_price": 0.3746,
-          "cur_price": 0.0005,
-          "usdc_size": 941.14,
-          "outcome": "B8"
-        },
-        {
-          "market": "LoL: Bilibili Gaming vs JD Gaming - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7609,
-          "cur_price": 0.9995,
-          "usdc_size": 571.96,
-          "outcome": "Bilibili Gaming"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 40.1,
-      "roi_score": 26.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.9,
-      "volume_score": 80.0,
-      "roi": -11.0,
-      "cash_pnl": -17665.9,
-      "realized_pnl": 3210.75,
-      "total_usdc": 36399.8,
-      "trade_count": 500,
-      "market_count": 155,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:02:12+00:00",
-      "top_markets": [
-        "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-        "Hamburg: Raul Brancaccio vs Marvin Moeller",
-        "Valorant: Gentle Mates vs Eintracht Frankfurt (BO3) - VCT EMEA Play-Ins"
-      ],
-      "signals": [
-        {
-          "market": "Clarity Act (H.R.3633) signed into law in 2026?",
-          "signal": "ENTER",
-          "avg_price": 0.1863,
-          "cur_price": 0.185,
-          "usdc_size": 7357.13,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Paris Saint-Germain win on 2026-08-12?",
-          "signal": "ENTER",
-          "avg_price": 0.5672,
-          "cur_price": 0.565,
-          "usdc_size": 1320.25,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.0198,
-          "cur_price": 0.013,
-          "usdc_size": 575.74,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5938,
-          "cur_price": 0.335,
-          "usdc_size": 9861.29,
-          "outcome": "No"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5251,
-          "cur_price": 0.665,
-          "usdc_size": 9743.83,
-          "outcome": "Yes"
-        },
-        {
-          "market": "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-          "signal": "SKIP",
-          "avg_price": 0.4188,
-          "cur_price": 0.0005,
-          "usdc_size": 13522.96,
-          "outcome": "JD Gaming"
-        },
-        {
-          "market": "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.6984,
-          "cur_price": 0.0005,
-          "usdc_size": 4295.38,
-          "outcome": "FaZe"
-        },
-        {
-          "market": "Will Paris Saint-Germain win on 2026-08-12?",
-          "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.565,
-          "usdc_size": 1800.28,
-          "outcome": "No"
-        },
-        {
-          "market": "LoL: Bilibili Gaming vs JD Gaming - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4959,
-          "cur_price": 0.0005,
-          "usdc_size": 2197.95,
-          "outcome": "JD Gaming"
-        },
-        {
-          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.6178,
-          "cur_price": 0.245,
-          "usdc_size": 1464.02,
-          "outcome": "Astralis"
-        }
-      ]
-    },
-    {
-      "wallet": "0x292f242d62653d674ffbb5a0782f035069067fc2",
-      "name": "jackpeter888",
-      "score": 39.3,
-      "roi_score": 24.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.5,
-      "roi": -13.8,
-      "cash_pnl": -18842.27,
-      "realized_pnl": 477.66,
-      "total_usdc": 277963.51,
-      "trade_count": 500,
-      "market_count": 11,
-      "position_count": 11,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:15:18+00:00",
-      "top_markets": [
-        "LoL: JD Gaming vs Team WE - Game 2 Winner",
-        "LoL: Invictus Gaming vs LNG Esports - Game 1 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
-      "name": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-      "score": 36.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 28.2,
+      "early_entry_score": 60.0,
       "volume_score": 100.0,
-      "roi": -99.5,
-      "cash_pnl": -6552449.86,
-      "realized_pnl": -302523.85,
-      "total_usdc": 747994.6,
+      "roi": 0.7,
+      "cash_pnl": 10961.33,
+      "realized_pnl": -8.72,
+      "total_usdc": 923507.78,
       "trade_count": 500,
-      "market_count": 74,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:22:55+00:00",
-      "top_markets": [
-        "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 3-4 Trial Group",
-        "Counter-Strike: Spirit vs JiJieHao (BO1) - Esports World Cup Group A",
-        "Counter-Strike: FUT Esports vs TYLOO (BO1) - Esports World Cup Group C"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
-          "signal": "SKIP",
-          "avg_price": 0.26,
-          "cur_price": 0.745,
-          "usdc_size": 3825.0,
-          "outcome": "100 Thieves"
-        },
-        {
-          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.57,
-          "cur_price": 0.245,
-          "usdc_size": 7550.0,
-          "outcome": "Astralis"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc34b4901be324718c176100e350211d97b199296",
-      "name": "ForAndWithYou",
-      "score": 36.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 35.4,
-      "volume_score": 87.5,
-      "roi": -98.8,
-      "cash_pnl": -328096.07,
-      "realized_pnl": -5518.73,
-      "total_usdc": 97039.23,
-      "trade_count": 500,
-      "market_count": 156,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:49:57+00:00",
-      "top_markets": [
-        "National Bank Open: Rafael Jodar vs Arthur Fils",
-        "Games Total: O/U 2.5",
-        "Counter-Strike: NRG vs Phantom (BO3) - Esports World Cup Open Qualifier Play-Ins"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1b6de094aa5371b056a911aa8c7c66fc612e2f1a",
-      "name": "Bogdanreay",
-      "score": 36.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 27.9,
-      "volume_score": 94.4,
-      "roi": -99.1,
-      "cash_pnl": -83326.09,
-      "realized_pnl": -10134.83,
-      "total_usdc": 240027.96,
-      "trade_count": 500,
-      "market_count": 271,
-      "position_count": 256,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:34:36+00:00",
-      "top_markets": [
-        "France vs. Senegal: France O/U 2.5",
-        "Will there be no change in Fed interest rates after the June 2026 meeting?",
-        "Bitcoin Up or Down - March 25, 6:05AM-6:10AM ET"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xce203519c2db8a050042ded95f9c6bde2ac80b7b",
-      "name": "Aurora3979",
-      "score": 35.3,
-      "roi_score": 8.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 1.4,
-      "volume_score": 100.0,
-      "roi": -37.2,
-      "cash_pnl": -967.9,
-      "realized_pnl": 0.0,
-      "total_usdc": 733089.73,
-      "trade_count": 500,
-      "market_count": 250,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:02:22+00:00",
-      "top_markets": [
-        "LoL: Hanwha Life Esports vs Gen.G - Game 1 Winner",
-        "LoL: DN SOOPers vs HANJIN BRION - Game 1 Winner",
-        "LoL: Gen.G vs Dplus KIA - Game 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.0,
-          "cur_price": 0.245,
-          "usdc_size": 503.33,
-          "outcome": "Astralis"
-        }
-      ]
-    },
-    {
-      "wallet": "0x71791dd9eb28d3331db52bb2d22c02a93c5e987e",
-      "name": "Chrundle.the.great",
-      "score": 34.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 36.4,
-      "volume_score": 69.0,
-      "roi": -95.0,
-      "cash_pnl": -2653.82,
-      "realized_pnl": -85.63,
-      "total_usdc": 8589.63,
-      "trade_count": 119,
-      "market_count": 61,
-      "position_count": 32,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:01:27+00:00",
-      "top_markets": [
-        "Counter-Strike: Metizport vs Johnny Speeds (BO3) - Stake Pulse Beat I Group D",
-        "Warsaw: Elena Micic vs Veronika Podrez",
-        "National Bank Open: Elina Svitolina vs Jessica Bouzas Maneiro"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x4f188afdb7b175eb7728676fa38773a67a2f1ae2",
-      "name": "MMMMUU",
-      "score": 34.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 21.8,
-      "volume_score": 84.3,
-      "roi": -99.4,
-      "cash_pnl": -15939.6,
-      "realized_pnl": -107.93,
-      "total_usdc": 63920.46,
-      "trade_count": 425,
-      "market_count": 180,
-      "position_count": 75,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:40:30+00:00",
-      "top_markets": [
-        "Seattle Storm vs. PortlandFire",
-        "Valorant: G2 Esports vs LOUD (BO3) - VCT Americas Stage 2 Group Omega",
-        "Valorant: TEC Esports vs Dragon Ranger Gaming (BO3) - VCT China Stage 2 Play-Ins"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf377b9fb12a4b7507a4f997461a73eb30b564159",
-      "name": "danielwolfmorales3pddb6dl6",
-      "score": 34.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.7,
-      "volume_score": 100.0,
-      "roi": -98.0,
-      "cash_pnl": -948265.74,
-      "realized_pnl": 223936.99,
-      "total_usdc": 667271.18,
-      "trade_count": 500,
-      "market_count": 57,
-      "position_count": 253,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:01:33+00:00",
-      "top_markets": [
-        "Game Handicap: JDG (-1.5) vs EDward Gaming (+1.5)",
-        "LoL: DN SOOPers Challengers vs KT Rolster Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
-        "LoL: HANJIN BRION Challengers vs Hanwha Life Esports Challengers (BO3) - LCK Challengers League Rounds 3-4 Trial Group"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf9d6bdeab230b7f65dbe236196d01bad8488730a",
-      "name": "MysteryPlayerAF",
-      "score": 33.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.5,
-      "volume_score": 91.8,
-      "roi": -95.3,
-      "cash_pnl": -251716.1,
-      "realized_pnl": -10132.15,
-      "total_usdc": 171357.25,
-      "trade_count": 500,
-      "market_count": 60,
-      "position_count": 118,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:44:25+00:00",
-      "top_markets": [
-        "Hamburg: Jamie Mackenzie vs Jan Kumstat",
-        "Brownsburg: Ugo Blanchet vs Rei Sakamoto",
-        "Counter-Strike: INFURITY Gaming vs Teletubisie (BO3) - United21 Playoffs"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xcfe62595d0daadfc34e724b3b79dba176a734fad",
-      "name": "JOJObsheng",
-      "score": 33.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.8,
-      "volume_score": 88.0,
-      "roi": -76.7,
-      "cash_pnl": -2702.46,
-      "realized_pnl": 0.0,
-      "total_usdc": 103257.73,
-      "trade_count": 500,
-      "market_count": 100,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:19:12+00:00",
-      "top_markets": [
-        "LoL: DN SOOPers vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier",
-        "Valorant: Trace Esports vs FunPlus Phoenix (BO3) - VCT China Stage 2 Play-Ins",
-        "Valorant: JD Gaming vs Trace Esports (BO3) - VCT China Stage 2 Play-Ins"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
-          "signal": "SKIP",
-          "avg_price": 0.26,
-          "cur_price": 0.745,
-          "usdc_size": 510.0,
-          "outcome": "100 Thieves"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd75a4aa401e87ca080a3503c98f446422169d264",
-      "name": "g1set",
-      "score": 32.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.1,
-      "volume_score": 86.8,
-      "roi": -97.7,
-      "cash_pnl": -40442.35,
-      "realized_pnl": -887.84,
-      "total_usdc": 88642.96,
-      "trade_count": 500,
-      "market_count": 238,
-      "position_count": 394,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:54:31+00:00",
-      "top_markets": [
-        "Will CA Bucaramanga win on 2026-08-03?",
-        "Valorant: All Gamers vs TEC Esports - Map 2 Winner",
-        "Houston Astros vs. San Francisco Giants"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xa57e0ffe3726a02b40884a332a0617e9bc89ed54",
-      "name": "kingofbeer",
-      "score": 32.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 12.7,
-      "volume_score": 84.3,
-      "roi": -97.0,
-      "cash_pnl": -20891.71,
-      "realized_pnl": -1119.15,
-      "total_usdc": 63558.34,
-      "trade_count": 338,
-      "market_count": 214,
-      "position_count": 103,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:17:45+00:00",
-      "top_markets": [
-        "Games Total: O/U 2.5",
-        "LoL: RED Canids vs FURIA Esports (BO5) - CBLOL Cup Playoffs",
-        "Dota 2: MOUZ vs Team Liquid (BO3) - DreamLeague Stage 2"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.5199,
-          "cur_price": 0.0005,
-          "usdc_size": 640.06,
-          "outcome": "FaZe"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd4081f280de71b3e82b15bdc724588556f52e85c",
-      "name": "Zetalias",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -100.0,
-      "cash_pnl": -1475.75,
-      "realized_pnl": -8.46,
-      "total_usdc": 776357.61,
-      "trade_count": 500,
-      "market_count": 124,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:50:15+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs T1 (BO3) - LCK Round 3-4 Legend Group",
-        "LoL: Hanwha Life Esports vs LYON (BO5) - Mid-Season Invitational Playoffs",
-        "LoL: ThunderTalk Gaming vs JD Gaming (BO3) - LPL Group Ascend"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x6a937f25ab00ec1edb4416d46485e7aba7a98e36",
-      "name": "flyorange4208",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -99.2,
-      "cash_pnl": -77197.1,
-      "realized_pnl": -1292.14,
-      "total_usdc": 770597.66,
-      "trade_count": 500,
-      "market_count": 168,
-      "position_count": 60,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:43:13+00:00",
-      "top_markets": [
-        "LoL: LOS vs Leviatan Esports - Game 1 Winner",
-        "LoL: Team Heretics vs Fnatic - Game 2 Winner",
-        "LoL: Hanwha Life Esports vs DN SOOPers - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x94807f36a7a1c57e8e19d7531e75f1b48bd17456",
-      "name": "hanlun",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -94.5,
-      "cash_pnl": -41118.73,
-      "realized_pnl": -6246.04,
-      "total_usdc": 1015104.95,
-      "trade_count": 500,
-      "market_count": 121,
+      "market_count": 20,
       "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-12T15:46:24+00:00",
+      "last_active": "2026-08-12T17:38:30+00:00",
       "top_markets": [
-        "UFC Fight Night: Marcin Tybura vs. Aleksandar Rakic (Heavyweight, Main Card)",
-        "Will Zhejiang Zhiye FC win on 2026-08-01?",
-        "UFC Fight Night: Borislav Nikolic vs. Mark Vologdin (Bantamweight, Prelims)"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x85bbb00a84f100a74ec6a479ce6f8f45b04c9ada",
-      "name": "Prelode",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -99.3,
-      "cash_pnl": -1647177.18,
-      "realized_pnl": -33681.75,
-      "total_usdc": 1014559.15,
-      "trade_count": 500,
-      "market_count": 97,
-      "position_count": 274,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:43:40+00:00",
-      "top_markets": [
-        "LoL: DN SOOPers Challengers vs KT Rolster Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
-        "Spain vs. Argentina: Team to Advance",
-        "LoL: Hanwha Life Esports vs Gen.G (BO3) - LCK Round 3-4 Legend Group"
+        "Will TEAM VISION Win The International 2026?",
+        "Lionel Messi: 2+ goals",
+        "Will Aurora Gaming Win The International 2026?"
       ],
       "signals": [
         {
-          "market": "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
-          "signal": "SKIP",
-          "avg_price": 0.5754,
-          "cur_price": 0.0005,
-          "usdc_size": 9995.0,
-          "outcome": "FaZe"
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.7,
+          "cur_price": 0.735,
+          "usdc_size": 241132.64,
+          "outcome": "Vitality"
         }
       ]
     },
     {
-      "wallet": "0xa803c7e478c7539ba363a0de9399c4fc2c0b2949",
-      "name": "Kaiyunman",
-      "score": 32.3,
-      "roi_score": 0.0,
+      "wallet": "0x328188d5901c3e1d6b5302e4ac3db7a32eaeabef",
+      "name": "wopwopwap",
+      "score": 49.9,
+      "roi_score": 32.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.1,
-      "roi": -100.0,
-      "cash_pnl": -249274.95,
-      "realized_pnl": -15180.6,
-      "total_usdc": 387962.14,
-      "trade_count": 500,
-      "market_count": 128,
-      "position_count": 186,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:50:12+00:00",
-      "top_markets": [
-        "Counter-Strike: EYEBALLERS vs Liquid (BO3) - Roman Imperium Cup Playoffs",
-        "Counter-Strike: Wildcard vs TheMongolz (BO3) - BLAST Bounty Qualifier",
-        "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x65fe234bf593f1801b0e26ded7ee5401d696c200",
-      "name": "danding628",
-      "score": 32.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.8,
-      "roi": -100.0,
-      "cash_pnl": -62200.21,
-      "realized_pnl": -1358.17,
-      "total_usdc": 375387.17,
-      "trade_count": 500,
-      "market_count": 243,
-      "position_count": 83,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:57:37+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "LoL: Karmine Corp vs Natus Vincere - Game 2 Winner",
-        "LoL: G2 Esports vs Karmine Corp (BO3) - LEC Regular Season"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x8718865882e085b764825b637788043c16185040",
-      "name": "hurrican",
-      "score": 32.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.2,
-      "roi": -100.0,
-      "cash_pnl": -408194.44,
-      "realized_pnl": -12230.34,
-      "total_usdc": 394146.08,
-      "trade_count": 500,
-      "market_count": 48,
-      "position_count": 126,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:12:30+00:00",
-      "top_markets": [
-        "LoL: Leviatan Esports vs RED Canids (BO3) - CBLOL Regular Season",
-        "Counter-Strike: 1WIN vs BASEMENT BOYS (BO3) - Esports World Cup Open Qualifier Group 6",
-        "Bitcoin Up or Down - August 11, 1:15AM-1:20AM ET"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x2391d84eec47a23fd0cd99fb1a3e7456f713554f",
-      "name": "Mrrocki",
-      "score": 32.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.8,
-      "roi": -100.0,
-      "cash_pnl": -216057.19,
-      "realized_pnl": -2678.65,
-      "total_usdc": 330226.22,
-      "trade_count": 500,
-      "market_count": 84,
-      "position_count": 160,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:09:52+00:00",
-      "top_markets": [
-        "LoL: Hanwha Life Esports vs Gen.G - Game 1 Winner",
-        "LoL: Kaufland Hangry Knights vs G2 NORD - Game 1 Winner",
-        "LoL: CTBC Flying Oyster vs Ground Zero Gaming - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd27cc742d023d06ef633a4c880cf1ff1836ec081",
-      "name": "madkkee",
-      "score": 32.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.1,
-      "roi": -100.0,
-      "cash_pnl": -455963.78,
-      "realized_pnl": -75237.37,
-      "total_usdc": 340994.21,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 153,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:26:31+00:00",
-      "top_markets": [
-        "LoL: DN SOOPers vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier",
-        "Dota 2: Level UP vs MOUZ (BO3) - EPL Masters Playoffs",
-        "Dota 2: Level UP vs Rune Eaters (BO3) - EPL Masters Playoffs"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x0ee52436cfd4c726385fec293d48d99d3b44e798",
-      "name": "bogemika",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.8,
-      "roi": -100.0,
-      "cash_pnl": -262759.86,
-      "realized_pnl": -25465.91,
-      "total_usdc": 220505.15,
-      "trade_count": 500,
-      "market_count": 136,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:18:36+00:00",
-      "top_markets": [
-        "Dota 2: 1win vs Vici Gaming - Game 1 Winner",
-        "Dota 2: Rune Eaters vs LGD Gaming - Game 2 Winner",
-        "Dota 2: Xtreme Gaming vs Team Resilience - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf5d07cdbe42c4166c68adb9812627b1bb5bfd9e8",
-      "name": "23g3g232g",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.7,
-      "roi": -100.0,
-      "cash_pnl": -76144.52,
-      "realized_pnl": -2394.71,
-      "total_usdc": 191043.53,
-      "trade_count": 500,
-      "market_count": 199,
-      "position_count": 137,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:01:01+00:00",
-      "top_markets": [
-        "Will Kim Doo-kyum win the 2026 Ulsan mayoral election?",
-        "KBO: Doosan Bears vs. Hanwha Eagles",
-        "Will Park Heong-joon win the 2026 Busan Mayoral Election?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x0328c7b9cd53be3a47cb61bb218fcdc17fb7bd17",
-      "name": "angry007",
-      "score": 31.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.7,
-      "roi": -97.9,
-      "cash_pnl": -18866.78,
-      "realized_pnl": -724.66,
-      "total_usdc": 168561.57,
-      "trade_count": 500,
-      "market_count": 274,
-      "position_count": 81,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:17:49+00:00",
-      "top_markets": [
-        "Counter-Strike: Imperial vs Fluxo W7M (BO3) - BetBoom RUSH B! Summit Playoffs",
-        "Counter-Strike: M80 vs NIP (BO3) - BLAST Bounty Qualifier",
-        "Argentina vs. Switzerland: Team to Advance"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x7bccd2d3dfd370f65aa3cc5d51c7c9649ad9b4fa",
-      "name": "genrysetaj",
-      "score": 31.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.3,
-      "roi": -92.3,
-      "cash_pnl": -184.61,
+      "early_entry_score": 60.0,
+      "volume_score": 85.8,
+      "roi": -0.9,
+      "cash_pnl": -156.17,
       "realized_pnl": 0.0,
-      "total_usdc": 159190.69,
+      "total_usdc": 77445.45,
       "trade_count": 500,
-      "market_count": 159,
+      "market_count": 4,
       "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-12T15:11:57+00:00",
+      "last_active": "2026-08-12T18:22:04+00:00",
       "top_markets": [
-        "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 3-4 Trial Group",
-        "LoL: Cloud9 vs Disguised - Game 2 Winner",
-        "LoL: T1 vs Hanwha Life Esports - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x67ba140b058900cd7a24f337aeca1f056df9246c",
-      "name": "0x67Ba140B058900Cd7a24f337AEcA1f056df9246C-1770821375858",
-      "score": 31.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.8,
-      "roi": -88.4,
-      "cash_pnl": -20406.89,
-      "realized_pnl": -723.68,
-      "total_usdc": 130927.69,
-      "trade_count": 500,
-      "market_count": 149,
-      "position_count": 70,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:56:39+00:00",
-      "top_markets": [
-        "LoL: HANJIN BRION vs Nongshim Red Force (BO3) - LCK Round 3-4 Rise Group",
-        "LoL: Team Liquid vs Sentinels - Game 2 Winner",
-        "LoL: Team WE vs ThunderTalk Gaming - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
-      "name": "Reformedx",
-      "score": 31.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.0,
-      "roi": -96.4,
-      "cash_pnl": -129781.34,
-      "realized_pnl": -849.27,
-      "total_usdc": 118427.51,
-      "trade_count": 500,
-      "market_count": 113,
-      "position_count": 205,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:59:27+00:00",
-      "top_markets": [
-        "Total Kills Over/Under 27.5 in Game 1?",
-        "LoL: Team Solid vs 7REX (BO3) - Circuito Desafiante Play-In",
-        "Total Kills Over/Under 30.5 in Game 1?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xa45ab8711d4c3793e7b713fd84b57192e74b02e5",
-      "name": "lucifertech123",
-      "score": 31.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.3,
-      "roi": -100.0,
-      "cash_pnl": -25655.89,
-      "realized_pnl": -843.73,
-      "total_usdc": 122580.75,
-      "trade_count": 500,
-      "market_count": 188,
-      "position_count": 324,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:12:57+00:00",
-      "top_markets": [
-        "LoL: HANJIN BRION vs Kiwoom DRX - Game 1 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-        "LoL: T1 vs Hanwha Life Esports - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x59aa284d93b8e9935d998932789e5e28c5f23376",
-      "name": "0x59aA284D93b8E9935d998932789e5e28C5F23376-1770305278054",
-      "score": 31.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.4,
-      "roi": -100.0,
-      "cash_pnl": -130703.24,
-      "realized_pnl": -29548.91,
-      "total_usdc": 123725.05,
-      "trade_count": 500,
-      "market_count": 232,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:11:31+00:00",
-      "top_markets": [
-        "LoL: FlyQuest vs LYON - Game 2 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming - Game 2 Winner",
-        "LoL: T1 vs Hanwha Life Esports (BO3) - LCK Round 3-4 Legend Group"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x84ce7b6307528dcedf39bb2ecfecbdd1f1796c4a",
-      "name": "0x84CE7b6307528DceDf39bB2ECfEcbDd1f1796C4a-1772121270555",
-      "score": 31.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.4,
-      "roi": -100.0,
-      "cash_pnl": -63966.97,
-      "realized_pnl": -23502.41,
-      "total_usdc": 109554.36,
-      "trade_count": 500,
-      "market_count": 299,
-      "position_count": 431,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:54:03+00:00",
-      "top_markets": [
-        "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
-        "LoL: T1 vs Hanwha Life Esports (BO3) - LCK Round 3-4 Legend Group",
-        "LoL: Hanwha Life Esports vs Gen.G (BO3) - LCK Round 3-4 Legend Group"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x5d7e054225d1c58de66249233bf34d8b96ba2ef7",
-      "name": "okokxd",
-      "score": 31.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 1.6,
-      "volume_score": 85.2,
-      "roi": -92.3,
-      "cash_pnl": -34222.93,
-      "realized_pnl": -2112.59,
-      "total_usdc": 71597.68,
-      "trade_count": 500,
-      "market_count": 39,
-      "position_count": 82,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:58:36+00:00",
-      "top_markets": [
-        "Counter-Strike: NEW VISION vs Misa Esports (BO1) - ESEA Advanced Europe Regular Season",
-        "LoL: Nongshim Esports Academy vs Dplus KIA Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
-        "LoL: Nongshim Esports Academy vs Dplus KIA Challengers - Game 2 Winner"
+        "France vs. England: Team to Win",
+        "Spain vs. Argentina: Neither team to score first?",
+        "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C"
       ],
       "signals": [
         {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7244,
+          "cur_price": 0.735,
+          "usdc_size": 16910.39,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+      "name": "0x29b52d98ac9ef9414b04164246c95BC63d7",
+      "score": 49.8,
+      "roi_score": 27.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 64.1,
+      "volume_score": 92.7,
+      "roi": -8.2,
+      "cash_pnl": -1242.28,
+      "realized_pnl": 0.0,
+      "total_usdc": 191726.14,
+      "trade_count": 500,
+      "market_count": 37,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:58:48+00:00",
+      "top_markets": [
+        "Counter-Strike: Ground Zero vs Mindfreak (BO3) - Dfrag Open Series #6 Playoffs",
+        "Counter-Strike: Rooster vs Mindfreak (BO3) - Dfrag Open Series #6 Playoffs",
+        "Games Total: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7417,
+          "cur_price": 0.735,
+          "usdc_size": 13228.93,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x01da987badde6ad5bdf666314f9276a700f5bcd5",
+      "name": "hy4u4u",
+      "score": 48.4,
+      "roi_score": 31.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.2,
+      "volume_score": 75.8,
+      "roi": -3.4,
+      "cash_pnl": -280.98,
+      "realized_pnl": 0.0,
+      "total_usdc": 20758.54,
+      "trade_count": 75,
+      "market_count": 38,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:20:42+00:00",
+      "top_markets": [
+        "Counter-Strike: Spirit vs Vitality (BO5) - IEM Rio Playoffs",
+        "Counter-Strike: Spirit vs Vitality - Map 3 Winner",
+        "WTA Finals, Final Stage: Aryna Sabalenka vs Elena Rybakina"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7287,
+          "cur_price": 0.735,
+          "usdc_size": 8067.6,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x689f7d0a49d2646dc199848ffbdb4757242e259c",
+      "name": "EvenMoneyBonds",
+      "score": 48.4,
+      "roi_score": 26.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.6,
+      "volume_score": 87.2,
+      "roi": -9.7,
+      "cash_pnl": -2398.09,
+      "realized_pnl": -27.74,
+      "total_usdc": 93452.13,
+      "trade_count": 500,
+      "market_count": 51,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:54:42+00:00",
+      "top_markets": [
+        "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+        "LoL: EDward Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2622,
+          "cur_price": 0.735,
+          "usdc_size": 5064.8,
+          "outcome": "100 Thieves"
+        },
+        {
           "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
           "signal": "SKIP",
-          "avg_price": 0.6497,
-          "cur_price": 0.245,
-          "usdc_size": 2383.34,
+          "avg_price": 0.5404,
+          "cur_price": 0.0005,
+          "usdc_size": 14209.45,
           "outcome": "Astralis"
         }
       ]
     },
     {
-      "wallet": "0x08b3a5e0c6aa8cd36198ca231fd495a9a5b048a9",
-      "name": "gouge11",
-      "score": 31.3,
-      "roi_score": 0.0,
+      "wallet": "0xb9abbf527032ba370e3519de95ff907d0154f282",
+      "name": "Stickman22",
+      "score": 47.6,
+      "roi_score": 13.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.0,
-      "roi": -100.0,
-      "cash_pnl": -1095.65,
-      "realized_pnl": -26.27,
-      "total_usdc": 103194.69,
+      "early_entry_score": 85.2,
+      "volume_score": 82.5,
+      "roi": -29.5,
+      "cash_pnl": -6089.34,
+      "realized_pnl": 993.39,
+      "total_usdc": 50345.62,
       "trade_count": 500,
-      "market_count": 282,
-      "position_count": 12,
+      "market_count": 59,
+      "position_count": 30,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-12T15:11:30+00:00",
+      "last_active": "2026-08-12T17:40:33+00:00",
       "top_markets": [
-        "LoL: Gen.G vs DN SOOPers - Game 2 Winner",
-        "LoL: Gen.G vs DN SOOPers - Game 1 Winner",
-        "LoL: Hanwha Life Esports vs Gen.G - Game 1 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb62d6d7191e78e0872e11fa81269527327d1c8cc",
-      "name": "Fung656",
-      "score": 31.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.1,
-      "roi": -100.0,
-      "cash_pnl": -2970.94,
-      "realized_pnl": -129.39,
-      "total_usdc": 104760.82,
-      "trade_count": 500,
-      "market_count": 219,
-      "position_count": 55,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:11:13+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
-        "LoL: Bilibili Gaming vs Hanwha Life Esports - Game 2 Winner",
-        "LoL: Nongshim Red Force vs T1 - Game 1 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf71e15ed4efbadfbc56ede32df791ba1b62d917b",
-      "name": "JasonHaocheng",
-      "score": 31.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 1.7,
-      "volume_score": 85.2,
-      "roi": -98.0,
-      "cash_pnl": -24719.97,
-      "realized_pnl": -1537.79,
-      "total_usdc": 71996.11,
-      "trade_count": 500,
-      "market_count": 147,
-      "position_count": 82,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:58:15+00:00",
-      "top_markets": [
-        "LoL: Hanwha Life Esports vs DN SOOPers - Game 1 Winner",
-        "LoL: Nongshim Esports Academy vs Dplus KIA Challengers - Game 2 Winner",
-        "Valorant: All Gamers vs JD Gaming - Map 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xaea580fb19bfe70c56f4d9eace7a4236b04b6163",
-      "name": "wxgw",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.1,
-      "roi": -100.0,
-      "cash_pnl": -22011.74,
-      "realized_pnl": -3242.83,
-      "total_usdc": 92301.75,
-      "trade_count": 500,
-      "market_count": 89,
-      "position_count": 87,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:08:57+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - August 12, 9:30AM-9:35AM ET",
-        "Bitcoin Up or Down - August 11, 12:20PM-12:25PM ET",
-        "Bitcoin Up or Down - August 11, 1:55PM-2:00PM ET"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x958b12da02ac63d05096b68e3d132c6add0850ce",
-      "name": "Bc.SHi",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.8,
-      "roi": -100.0,
-      "cash_pnl": -2954.75,
-      "realized_pnl": -179.0,
-      "total_usdc": 88186.18,
-      "trade_count": 500,
-      "market_count": 21,
-      "position_count": 11,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:10:58+00:00",
-      "top_markets": [
-        "LoL: Invictus Gaming vs Ninjas in Pyjamas (BO3) - LPL Group Nirvana",
-        "LoL: Hanwha Life Esports vs Gen.G (BO3) - LCK Round 3-4 Legend Group",
-        "LoL: Bilibili Gaming vs Top Esports - Game 1 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xeb5358eb3c746932264252d89e0435554c267b74",
-      "name": "yiluchanghong888",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.3,
-      "roi": -100.0,
-      "cash_pnl": -40466.56,
-      "realized_pnl": -2670.73,
-      "total_usdc": 94320.55,
-      "trade_count": 500,
-      "market_count": 93,
-      "position_count": 160,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:01:13+00:00",
-      "top_markets": [
-        "LoL: Hanwha Life Esports vs DN SOOPers - Game 2 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-        "LoL: BNK FEARX vs Kiwoom DRX - Game 1 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc18205b1002b41feda481f9f3c753639386b1339",
-      "name": "0xc18205B1002b41fedA481f9f3c753639386b1339-1772339014939",
-      "score": 30.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.2,
-      "roi": -100.0,
-      "cash_pnl": -18223.33,
-      "realized_pnl": -2995.12,
-      "total_usdc": 62615.95,
-      "trade_count": 500,
-      "market_count": 305,
-      "position_count": 273,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:13:43+00:00",
-      "top_markets": [
-        "Dota 2: Team Falcons vs Team Liquid - Game 3 Winner",
-        "Dota 2: Team Falcons vs Team Liquid - Game 2 Winner",
-        "Dota 2: Team Falcons vs BetBoom Team - Game 2 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x84301d9c4987a357916379f37cf1d8d904993961",
-      "name": "honghonghongzao",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 1.5,
-      "volume_score": 79.8,
-      "roi": -71.5,
-      "cash_pnl": -463.91,
-      "realized_pnl": 0.0,
-      "total_usdc": 35476.88,
-      "trade_count": 500,
-      "market_count": 91,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:35:46+00:00",
-      "top_markets": [
-        "LoL: Kiwoom DRX Challengers vs BNK FearX Youth - Game 1 Winner",
-        "Total Kills Over/Under 30.5 in Game 2?",
-        "Total Kills Over/Under 33.5 in Game 2?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x60ea1b56b70f604a90e9a743a5be4dc8af1d0a6f",
-      "name": "sdadasadsd",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.9,
-      "roi": -100.0,
-      "cash_pnl": -5063.76,
-      "realized_pnl": -144.75,
-      "total_usdc": 46483.35,
-      "trade_count": 500,
-      "market_count": 259,
-      "position_count": 72,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:15:48+00:00",
-      "top_markets": [
-        "LoL: T1 vs Gen.G (BO5) - LCK Road to MSI",
-        "LoL: ThunderTalk Gaming vs Team WE (BO3) - LPL Group Ascend",
-        "LoL: GIANTX vs SK Gaming (BO3) - LEC Regular Season"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x131142b32b77bb6cbbea899f08dcbdf938bcd450",
-      "name": "czy1999",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.0,
-      "roi": -99.8,
-      "cash_pnl": -174783.04,
-      "realized_pnl": -160.0,
-      "total_usdc": 41557.49,
-      "trade_count": 500,
-      "market_count": 86,
-      "position_count": 358,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T16:49:31+00:00",
-      "top_markets": [
-        "Counter-Strike: EYEBALLERS vs Phantom (BO3) - Esports World Cup Open Qualifier Group 10",
-        "LoL: Cloud9 vs Disguised (BO3) - LCS Regular Season",
-        "Counter-Strike: Inner Circle Esports vs Iberian Soul (BO3) - Esports World Cup Open Qualifier Play-Ins"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x6b2f8f5140534c865059d82ebbc602b17da4ff10",
-      "name": "iuiytctiycftyityfiityftgif",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 11.4,
-      "volume_score": 63.6,
-      "roi": -99.9,
-      "cash_pnl": -1091.09,
-      "realized_pnl": -2.06,
-      "total_usdc": 4186.95,
-      "trade_count": 21,
-      "market_count": 7,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T15:44:42+00:00",
-      "top_markets": [
-        "Counter-Strike: Spirit vs JiJieHao (BO1) - Esports World Cup Group A",
-        "LoL: KT Rolster vs Dplus KIA - Game 1 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
-      "name": "neutralwave23",
-      "score": 30.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.5,
-      "roi": -86.5,
-      "cash_pnl": -830851.8,
-      "realized_pnl": -137434.01,
-      "total_usdc": 33804.9,
-      "trade_count": 500,
-      "market_count": 217,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-12T17:02:30+00:00",
-      "top_markets": [
-        "Todi: Filippo Romano vs Juan Bautista Torres",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
+        "Counter-Strike: NIP vs Legacy (BO1) - Esports World Cup Group B",
+        "Counter-Strike: BIG vs Aurora Gaming (BO1) - Esports World Cup Group A",
         "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B"
       ],
       "signals": [
         {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.72,
+          "cur_price": 0.735,
+          "usdc_size": 2205.0,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.75,
+          "cur_price": 0.9995,
+          "usdc_size": 2498.75,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+          "signal": "SKIP",
+          "avg_price": 0.54,
+          "cur_price": 0.0005,
+          "usdc_size": 2498.74,
+          "outcome": "Astralis"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb272505077cc2c6bde5acca133ea6364152e5030",
+      "name": "BaseballBill",
+      "score": 47.4,
+      "roi_score": 21.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.5,
+      "volume_score": 94.2,
+      "roi": -18.1,
+      "cash_pnl": -4718.23,
+      "realized_pnl": 499.99,
+      "total_usdc": 232953.77,
+      "trade_count": 500,
+      "market_count": 46,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:11:15+00:00",
+      "top_markets": [
+        "National Bank Open: Alexandra Eala vs Belinda Bencic",
+        "Counter-Strike: paiN Academy vs Keyd (BO3) - BetBoom Storm Group Stage",
+        "Counter-Strike: Rooster vs Abyssal (BO3) - Dfrag Open Series #6 Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.75,
+          "cur_price": 0.9995,
+          "usdc_size": 9995.0,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 46.8,
+      "roi_score": 17.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.3,
+      "volume_score": 100.0,
+      "roi": -23.9,
+      "cash_pnl": -3779546.98,
+      "realized_pnl": 121092.21,
+      "total_usdc": 1566274.66,
+      "trade_count": 500,
+      "market_count": 10,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:22:22+00:00",
+      "top_markets": [
+        "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+        "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+        "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7207,
+          "cur_price": 0.735,
+          "usdc_size": 666451.72,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.7998,
+          "cur_price": 0.9995,
+          "usdc_size": 662689.72,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.7985,
+          "cur_price": 0.105,
+          "usdc_size": 8309.23,
+          "outcome": "FURIA"
+        }
+      ]
+    },
+    {
+      "wallet": "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+      "name": "0xheavy888",
+      "score": 45.1,
+      "roi_score": 11.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 65.5,
+      "volume_score": 93.3,
+      "roi": -33.0,
+      "cash_pnl": -130775.27,
+      "realized_pnl": 148.05,
+      "total_usdc": 208666.41,
+      "trade_count": 500,
+      "market_count": 127,
+      "position_count": 249,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:23:57+00:00",
+      "top_markets": [
+        "New York Mets vs. Atlanta Braves: O/U 7.5",
+        "LoL: DN SOOPers vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier",
+        "Valorant: Gentle Mates vs Eintracht Frankfurt - Map 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.85,
+          "cur_price": 0.9995,
+          "usdc_size": 3998.0,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2899,
+          "cur_price": 0.735,
+          "usdc_size": 767.44,
+          "outcome": "100 Thieves"
+        },
+        {
+          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+          "signal": "SKIP",
+          "avg_price": 0.5699,
+          "cur_price": 0.0005,
+          "usdc_size": 933.18,
+          "outcome": "Astralis"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+      "name": "Lakersfan111",
+      "score": 44.0,
+      "roi_score": 5.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 64.6,
+      "volume_score": 100.0,
+      "roi": -41.1,
+      "cash_pnl": -149335.5,
+      "realized_pnl": 11.84,
+      "total_usdc": 983153.94,
+      "trade_count": 500,
+      "market_count": 26,
+      "position_count": 47,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:23:13+00:00",
+      "top_markets": [
+        "Counter-Strike: PARIVISION vs B8 (BO1) - Esports World Cup Group C",
+        "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+        "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7229,
+          "cur_price": 0.735,
+          "usdc_size": 203344.9,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.7901,
+          "cur_price": 0.105,
+          "usdc_size": 9016.7,
+          "outcome": "FURIA"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+      "name": "alpheclabs",
+      "score": 43.6,
+      "roi_score": 10.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.1,
+      "volume_score": 90.7,
+      "roi": -34.8,
+      "cash_pnl": -22055.91,
+      "realized_pnl": 523.69,
+      "total_usdc": 148432.39,
+      "trade_count": 500,
+      "market_count": 94,
+      "position_count": 238,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:25:15+00:00",
+      "top_markets": [
+        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
+        "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
+        "Counter-Strike: PARIVISION vs B8 (BO1) - Esports World Cup Group C"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8889,
+          "cur_price": 0.105,
+          "usdc_size": 3685.45,
+          "outcome": "FURIA"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.67,
+          "cur_price": 0.735,
+          "usdc_size": 818.05,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcbb5623096b78505a26524e642c5c9066e585ed9",
+      "name": "Nicksypoo",
+      "score": 43.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 74.1,
+      "volume_score": 95.9,
+      "roi": -94.0,
+      "cash_pnl": -277641.44,
+      "realized_pnl": -25240.68,
+      "total_usdc": 293077.99,
+      "trade_count": 500,
+      "market_count": 277,
+      "position_count": 453,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:40:43+00:00",
+      "top_markets": [
+        "Will Hanwha Life Esports win MSI 2026?",
+        "Will a team from LCK (South Korea) win MSI 2026?",
+        "Will Kylian Mbappe score 9+ goals during the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7204,
+          "cur_price": 0.735,
+          "usdc_size": 2030.23,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8099,
+          "cur_price": 0.105,
+          "usdc_size": 3848.09,
+          "outcome": "FURIA"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.7899,
+          "cur_price": 0.9995,
+          "usdc_size": 3055.43,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+      "name": "TommyLeePeeca",
+      "score": 42.9,
+      "roi_score": 6.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.1,
+      "volume_score": 94.5,
+      "roi": -40.5,
+      "cash_pnl": -1829.42,
+      "realized_pnl": -1376.46,
+      "total_usdc": 241758.98,
+      "trade_count": 500,
+      "market_count": 10,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:25:15+00:00",
+      "top_markets": [
+        "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+        "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
+        "Counter-Strike: PARIVISION vs B8 (BO1) - Esports World Cup Group C"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.7617,
+          "cur_price": 0.735,
+          "usdc_size": 2553.56,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3724379b7192ddf7fb43aadbba6d8bc3895e69b5",
+      "name": "sportteryqq",
+      "score": 42.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 71.0,
+      "volume_score": 94.7,
+      "roi": -95.1,
+      "cash_pnl": -81144.26,
+      "realized_pnl": -4049.81,
+      "total_usdc": 247954.83,
+      "trade_count": 500,
+      "market_count": 196,
+      "position_count": 127,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:55:51+00:00",
+      "top_markets": [
+        "LoL: T1 vs DN SOOPers (BO1) - KeSPA Cup Group Stage",
+        "LoL: Leviatan Esports vs RED Canids - Game 2 Winner",
+        "Valorant: Pcific Esports vs  REBORN (BO3) - VCT EMEA Play-Ins"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7299,
+          "cur_price": 0.735,
+          "usdc_size": 868.91,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8,
+          "cur_price": 0.105,
+          "usdc_size": 1528.32,
+          "outcome": "FURIA"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8,
+          "cur_price": 0.9995,
+          "usdc_size": 1571.71,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x84d4f0a864c647b88635c0e299da30d7606377a9",
+      "name": "",
+      "score": 42.3,
+      "roi_score": 40.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.2,
+      "roi": 10.9,
+      "cash_pnl": 3794.37,
+      "realized_pnl": -228.14,
+      "total_usdc": 22057.46,
+      "trade_count": 500,
+      "market_count": 167,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:23:37+00:00",
+      "top_markets": [
+        "Will Kai and Speed beat the Minecraft challenge by August 17?",
+        "Exact Score: IK Sirius 1 - 2 IF Brommapojkarna?",
+        "Will Kai and Speed have between 30 and 49 total in-game deaths during their Minecraft marathon?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7299,
+          "cur_price": 0.735,
+          "usdc_size": 1116.55,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Will Kai and Speed beat the Minecraft challenge by August 17?",
+          "signal": "SKIP",
+          "avg_price": 0.1797,
+          "cur_price": 0.805,
+          "usdc_size": 6614.36,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5724,
+          "cur_price": 0.325,
+          "usdc_size": 1367.82,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa9c4b118095a4f67ba9ba461aadf6a9cfe5e7433",
+      "name": "0xA9C4b118095A4F67BA9ba461aAdF6a9cfE5e7433-1721318888203",
+      "score": 41.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 64.0,
+      "volume_score": 95.2,
+      "roi": -93.8,
+      "cash_pnl": -887671.34,
+      "realized_pnl": -1363.26,
+      "total_usdc": 265098.17,
+      "trade_count": 500,
+      "market_count": 53,
+      "position_count": 215,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:21:03+00:00",
+      "top_markets": [
+        "National Bank Open: Alexandra Eala vs Belinda Bencic",
+        "National Bank Open: Diana Shnaider vs Iga Swiatek",
+        "National Bank Open: Rafael Jodar vs Arthur Fils"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7388,
+          "cur_price": 0.735,
+          "usdc_size": 42703.5,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2558,
+          "cur_price": 0.735,
+          "usdc_size": 2984.96,
+          "outcome": "100 Thieves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+      "name": "Djdjdjekekek",
+      "score": 41.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.6,
+      "volume_score": 100.0,
+      "roi": -67.8,
+      "cash_pnl": -1477064.41,
+      "realized_pnl": -28641.2,
+      "total_usdc": 3232936.24,
+      "trade_count": 500,
+      "market_count": 7,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:49:55+00:00",
+      "top_markets": [
+        "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+        "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
+        "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2815,
+          "cur_price": 0.735,
+          "usdc_size": 699701.12,
+          "outcome": "100 Thieves"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc6f1e1e8ae814ff217745da5de7a0fbac6095729",
+      "name": "0xC6f1E1e8ae814Ff217745da5dE7a0FbAC6095729-1783062979431",
+      "score": 41.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.9,
+      "volume_score": 100.0,
+      "roi": -94.9,
+      "cash_pnl": -40123.94,
+      "realized_pnl": -6526.92,
+      "total_usdc": 715418.24,
+      "trade_count": 500,
+      "market_count": 223,
+      "position_count": 50,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:05:21+00:00",
+      "top_markets": [
+        "LoL: EDward Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "LoL: Shifters vs GIANTX - Game 2 Winner",
+        "LoL: DN SOOPers vs BNK FEARX (BO1) - KeSPA Cup Group Stage"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7399,
+          "cur_price": 0.735,
+          "usdc_size": 2141.1,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeac22222ef8d2be457c00101a1a4e4925ec5dddc",
+      "name": "ohehe",
+      "score": 41.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 61.2,
+      "volume_score": 97.3,
+      "roi": -87.5,
+      "cash_pnl": -312751.78,
+      "realized_pnl": 317.12,
+      "total_usdc": 350123.98,
+      "trade_count": 500,
+      "market_count": 18,
+      "position_count": 91,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:23:12+00:00",
+      "top_markets": [
+        "Valorant: All Gamers vs TEC Esports (BO3) - VCT China Stage 2 Play-Ins",
+        "Counter-Strike: Team Falcons vs K27 (BO1) - Esports World Cup Group B",
+        "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8297,
+          "cur_price": 0.105,
+          "usdc_size": 29798.2,
+          "outcome": "FURIA"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8842,
+          "cur_price": 0.9995,
+          "usdc_size": 10899.09,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.33,
+          "cur_price": 0.735,
+          "usdc_size": 1423.85,
+          "outcome": "100 Thieves"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd1a850ad821b49e585edb0af3f2c7e6cb07a6427",
+      "name": "fangfang123",
+      "score": 41.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 64.7,
+      "volume_score": 92.2,
+      "roi": -95.8,
+      "cash_pnl": -99178.5,
+      "realized_pnl": 2957.97,
+      "total_usdc": 179538.96,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 131,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:22:12+00:00",
+      "top_markets": [
+        "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+        "Valorant: All Gamers vs TEC Esports - Map 2 Winner",
+        "Counter-Strike: magic vs TheMongolz (BO1) - Esports World Cup Group D"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7299,
+          "cur_price": 0.735,
+          "usdc_size": 1006.85,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.3278,
+          "cur_price": 0.735,
+          "usdc_size": 747.28,
+          "outcome": "100 Thieves"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8117,
+          "cur_price": 0.9995,
+          "usdc_size": 2203.96,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x51c7d30511ed096b39a9392bad97e0dc76c298aa",
+      "name": "Chopperyyy",
+      "score": 41.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.6,
+      "volume_score": 100.0,
+      "roi": -99.3,
+      "cash_pnl": -295306.32,
+      "realized_pnl": -23436.32,
+      "total_usdc": 742540.14,
+      "trade_count": 500,
+      "market_count": 368,
+      "position_count": 244,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:17:30+00:00",
+      "top_markets": [
+        "Counter-Strike: TheMongolz vs EYEBALLERS (BO3) - PGL Bucharest Group Stage",
+        "Dota 2: REKONIX vs Yakult Brothers (BO3) - Games of the Future Playoffs",
+        "Counter-Strike: NRG vs MOUZ (BO3) - CS Asia Championships Group A"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7399,
+          "cur_price": 0.735,
+          "usdc_size": 1986.49,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd619b68e64f256f8ddd185b261c8679eacf0c461",
+      "name": "CAcap",
+      "score": 41.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.9,
+      "volume_score": 86.9,
+      "roi": -86.5,
+      "cash_pnl": -259778.09,
+      "realized_pnl": -664.27,
+      "total_usdc": 89339.84,
+      "trade_count": 500,
+      "market_count": 91,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:15:22+00:00",
+      "top_markets": [
+        "Spread: Seattle Storm (-1.5)",
+        "Valorant: Team Heretics vs Natus Vincere - Map 1 Winner",
+        "Games Total: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.755,
+          "cur_price": 0.735,
+          "usdc_size": 2940.0,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2739,
+          "cur_price": 0.735,
+          "usdc_size": 1765.25,
+          "outcome": "100 Thieves"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.7433,
+          "cur_price": 0.9995,
+          "usdc_size": 5997.0,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.78,
+          "cur_price": 0.105,
+          "usdc_size": 1930.0,
+          "outcome": "FURIA"
+        },
+        {
+          "market": "Philadelphia Phillies vs. St. Louis Cardinals: O/U 7.5",
+          "signal": "SKIP",
+          "avg_price": 0.53,
+          "cur_price": 0.485,
+          "usdc_size": 721.95,
+          "outcome": "Over"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf1ef8705e9f63c790c6fffd6329aea7011718cd6",
+      "name": "Outsid3rTrading",
+      "score": 41.3,
+      "roi_score": 32.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.5,
+      "roi": -1.5,
+      "cash_pnl": -6073.37,
+      "realized_pnl": 7785.49,
+      "total_usdc": 163511.97,
+      "trade_count": 500,
+      "market_count": 31,
+      "position_count": 63,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:21:49+00:00",
+      "top_markets": [
+        "Will Francesca Hong win the 2026 Wisconsin Governor Democratic primary election?",
+        "Will JD Vance win the 2028 US Presidential Election?",
+        "Cleveland Guardians vs. Detroit Tigers: O/U 8.5"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7411,
+          "cur_price": 0.735,
+          "usdc_size": 13230.0,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.8135,
+          "cur_price": 0.175,
+          "usdc_size": 33000.0,
+          "outcome": "No"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.58,
+          "cur_price": 0.665,
+          "usdc_size": 19958.0,
+          "outcome": "Yes"
+        },
+        {
           "market": "Clarity Act (H.R.3633) signed into law in 2026?",
           "signal": "SKIP",
-          "avg_price": 0.2435,
+          "avg_price": 0.2499,
           "cur_price": 0.185,
-          "usdc_size": 4214.55,
+          "usdc_size": 5550.06,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.35,
+          "cur_price": 0.325,
+          "usdc_size": 2091.81,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.26,
+          "cur_price": 0.735,
+          "usdc_size": 1677.17,
+          "outcome": "100 Thieves"
+        },
+        {
+          "market": "Will Francesca Hong win the 2026 Wisconsin Governor Democratic primary election?",
+          "signal": "SKIP",
+          "avg_price": 0.5967,
+          "cur_price": 0.0005,
+          "usdc_size": 4997.48,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+      "name": "InAirdropWeTrust",
+      "score": 41.2,
+      "roi_score": 5.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.5,
+      "volume_score": 79.5,
+      "roi": -41.5,
+      "cash_pnl": -34455.39,
+      "realized_pnl": 1217.61,
+      "total_usdc": 33860.05,
+      "trade_count": 500,
+      "market_count": 56,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:24:58+00:00",
+      "top_markets": [
+        "Valorant: Gentle Mates vs Eintracht Frankfurt (BO3) - VCT EMEA Play-Ins",
+        "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
+        "Will MH Hapoel Tel Aviv win on 2026-08-12?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7198,
+          "cur_price": 0.735,
+          "usdc_size": 3397.18,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8561,
+          "cur_price": 0.9995,
+          "usdc_size": 8338.72,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+          "signal": "SKIP",
+          "avg_price": 0.5309,
+          "cur_price": 0.0005,
+          "usdc_size": 4152.9,
+          "outcome": "Astralis"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2d395d11014415644fe9a8599fe050e7f3a06053",
+      "name": "minji",
+      "score": 41.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.0,
+      "volume_score": 95.3,
+      "roi": -85.9,
+      "cash_pnl": -151670.09,
+      "realized_pnl": 45089.99,
+      "total_usdc": 268495.22,
+      "trade_count": 500,
+      "market_count": 67,
+      "position_count": 313,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:23:57+00:00",
+      "top_markets": [
+        "LoL: Sentinels vs Shopify Rebellion (BO3) - LCS Regular Season",
+        "Valorant: Team Heretics vs Natus Vincere - Map 1 Winner",
+        "LoL: Hanwha Life Esports vs Gen.G - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8495,
+          "cur_price": 0.9995,
+          "usdc_size": 3043.96,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.29,
+          "cur_price": 0.735,
+          "usdc_size": 795.0,
+          "outcome": "100 Thieves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x880b1fc5d3beb01c237f0848b249fd72b48fc98b",
+      "name": "cruzNBA",
+      "score": 40.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.9,
+      "volume_score": 93.7,
+      "roi": -98.8,
+      "cash_pnl": -1172648.19,
+      "realized_pnl": -18310.61,
+      "total_usdc": 220039.24,
+      "trade_count": 500,
+      "market_count": 59,
+      "position_count": 326,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:24:07+00:00",
+      "top_markets": [
+        "Valorant: FUT Esports vs Team Vitality (BO3) - VCT EMEA Group Alpha",
+        "Counter-Strike: FaZe vs Spirit (BO3) - BLAST Bounty Playoffs",
+        "Counter-Strike: FaZe vs Spirit - Map 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.7627,
+          "cur_price": 0.735,
+          "usdc_size": 4439.75,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.35,
+          "cur_price": 0.735,
+          "usdc_size": 2215.82,
+          "outcome": "100 Thieves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0c6367b4e0022ca702ad6f33cd2cf504b2cc3cbb",
+      "name": "0x0c6367B4e0022cA702AD6F33cD2cF504B2cC3CbB-1772720948464",
+      "score": 40.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.3,
+      "volume_score": 92.4,
+      "roi": -98.6,
+      "cash_pnl": -69483.15,
+      "realized_pnl": -7378.3,
+      "total_usdc": 183403.99,
+      "trade_count": 500,
+      "market_count": 147,
+      "position_count": 93,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:39:54+00:00",
+      "top_markets": [
+        "Counter-Strike: FaZe vs BetBoom Team (BO3) - XSE Pro League Playoffs",
+        "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
+        "Counter-Strike: FaZe vs Spirit - Map 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7199,
+          "cur_price": 0.735,
+          "usdc_size": 987.91,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0xdc40c985063d50aa00cc5f637f7e83203b3b89cf",
+      "name": "Villson",
+      "score": 40.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.5,
+      "volume_score": 92.7,
+      "roi": -98.7,
+      "cash_pnl": -66974.6,
+      "realized_pnl": -4175.53,
+      "total_usdc": 191229.47,
+      "trade_count": 500,
+      "market_count": 35,
+      "position_count": 80,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:21:12+00:00",
+      "top_markets": [
+        "Will Spain win on 2026-07-10?",
+        "France vs. Morocco: Team to Advance",
+        "France vs. Morocco: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.73,
+          "cur_price": 0.735,
+          "usdc_size": 859.81,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf32de5829daae9ab35a9ece9200bc0a43f64bbbb",
+      "name": "Hakbsnn",
+      "score": 40.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.6,
+      "volume_score": 92.2,
+      "roi": -70.3,
+      "cash_pnl": -2023.24,
+      "realized_pnl": -29.33,
+      "total_usdc": 180750.26,
+      "trade_count": 500,
+      "market_count": 114,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:15:39+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - August 4, 12:00AM-12:05AM ET",
+        "Bitcoin Up or Down - August 4, 12:35AM-12:40AM ET",
+        "LoL: Maze Gaming vs Malvinas Gaming (BO5) - LRS Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7399,
+          "cur_price": 0.735,
+          "usdc_size": 856.12,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x081e14554b92ee3dc53a21bd5b01f306692ef76e",
+      "name": "RebornAthena",
+      "score": 40.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.5,
+      "volume_score": 91.5,
+      "roi": -99.9,
+      "cash_pnl": -1566217.41,
+      "realized_pnl": -68283.21,
+      "total_usdc": 163707.96,
+      "trade_count": 500,
+      "market_count": 203,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:48:57+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - August 10, 12:35PM-12:40PM ET",
+        "Bitcoin Up or Down - July 27, 4:10AM-4:15AM ET",
+        "LoL: HANJIN BRION vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf1771327cccb5cda15e0eaa3c56755bbf3655f6a",
+      "name": "dauntlesswitness",
+      "score": 40.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.3,
+      "volume_score": 91.3,
+      "roi": -51.7,
+      "cash_pnl": -2993.51,
+      "realized_pnl": -74.89,
+      "total_usdc": 160596.53,
+      "trade_count": 62,
+      "market_count": 16,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:42:12+00:00",
+      "top_markets": [
+        "Counter-Strike: Galorys vs MEIA NOITE (BO3) - BetBoom Storm Group Stage",
+        "Counter-Strike: paiN vs Astralis (BO3) - BLAST Bounty Playoffs",
+        "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Bounty Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7227,
+          "cur_price": 0.735,
+          "usdc_size": 2799.88,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0a6356d95e871f7288063d56a2db518ea004fc03",
+      "name": "f3arless",
+      "score": 40.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.5,
+      "volume_score": 88.8,
+      "roi": -98.6,
+      "cash_pnl": -1894345.19,
+      "realized_pnl": -71113.86,
+      "total_usdc": 115280.55,
+      "trade_count": 500,
+      "market_count": 29,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:25:12+00:00",
+      "top_markets": [
+        "LoL: EDward Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "LoL: DN SOOPers vs Nongshim Red Force (BO3) - LCK Round 3-4 Rise Group",
+        "LoL: KT Rolster vs Dplus KIA (BO3) - LCK Round 3-4 Legend Group"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2885,
+          "cur_price": 0.735,
+          "usdc_size": 2847.59,
+          "outcome": "100 Thieves"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.7655,
+          "cur_price": 0.9995,
+          "usdc_size": 8990.3,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.79,
+          "cur_price": 0.105,
+          "usdc_size": 6754.98,
+          "outcome": "FURIA"
+        }
+      ]
+    },
+    {
+      "wallet": "0xafd492974cd531aae7786210438ae46b42047e61",
+      "name": "TheMafiaa",
+      "score": 40.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.9,
+      "volume_score": 90.5,
+      "roi": -55.7,
+      "cash_pnl": -24745.05,
+      "realized_pnl": -55.35,
+      "total_usdc": 144595.12,
+      "trade_count": 500,
+      "market_count": 44,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:58:16+00:00",
+      "top_markets": [
+        "LoL: EDward Gaming vs Anyone's Legend - Game 2 Winner",
+        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
+        "LoL: DN SOOPers vs Nongshim Red Force - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7185,
+          "cur_price": 0.735,
+          "usdc_size": 17185.17,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3885adcec9cf57dd27edd0a878309dc077462cd8",
+      "name": "Eiqual",
+      "score": 40.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.2,
+      "volume_score": 88.7,
+      "roi": -96.7,
+      "cash_pnl": -29064.36,
+      "realized_pnl": -360.22,
+      "total_usdc": 113894.2,
+      "trade_count": 500,
+      "market_count": 315,
+      "position_count": 151,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:44:37+00:00",
+      "top_markets": [
+        "Counter-Strike: FOKUS vs MOUZ - Map 2 Winner",
+        "Counter-Strike: HOTU vs Astralis - Map 2 Winner",
+        "Counter-Strike: FaZe vs Spirit - Map 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7299,
+          "cur_price": 0.735,
+          "usdc_size": 1006.85,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9f9cd1eaa62428d5b3e849b68f9cfafac63e101c",
+      "name": "0x9F9CD1eAA62428d5B3e849B68f9CfaFAC63E101C-1772301157253",
+      "score": 40.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.0,
+      "volume_score": 87.7,
+      "roi": -95.2,
+      "cash_pnl": -14416.66,
+      "realized_pnl": -1888.18,
+      "total_usdc": 98976.29,
+      "trade_count": 500,
+      "market_count": 102,
+      "position_count": 29,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:08:48+00:00",
+      "top_markets": [
+        "LoL: Dplus KIA vs Gen.G - Game 1 Winner",
+        "Dota 2: Virtus.pro vs  Pipsqueak+4 (BO3) - PREMIER SERIES Group B",
+        "LoL: JD Gaming vs Team WE - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7399,
+          "cur_price": 0.735,
+          "usdc_size": 728.2,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x1bcddab836d0406761f46c2981339d8f365c0a69",
+      "name": "BROKY-lv",
+      "score": 40.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.2,
+      "volume_score": 86.8,
+      "roi": -82.9,
+      "cash_pnl": -28974.27,
+      "realized_pnl": -842.05,
+      "total_usdc": 88325.69,
+      "trade_count": 500,
+      "market_count": 57,
+      "position_count": 26,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:19:25+00:00",
+      "top_markets": [
+        "Counter-Strike: TrafficPills Esports vs TheBoys (BO3) - CCT Europe Contenders #6 Playoffs",
+        "Counter-Strike: BESTIA Academy vs MAGICOS (BO3) - CCT South America Series 4 Group Stage",
+        "Counter-Strike: Betclic Apogee Esports vs Liquid (BO3) - Stake Pulse Beat I Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2699,
+          "cur_price": 0.735,
+          "usdc_size": 5005.72,
+          "outcome": "100 Thieves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6c439f2c136efab50b08cd8a52de3dfb070dfb9b",
+      "name": "BlueBase-568",
+      "score": 40.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.2,
+      "volume_score": 85.1,
+      "roi": -91.8,
+      "cash_pnl": -146574.19,
+      "realized_pnl": 9475.01,
+      "total_usdc": 70750.67,
+      "trade_count": 500,
+      "market_count": 108,
+      "position_count": 251,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:57:24+00:00",
+      "top_markets": [
+        "Valorant: Gentle Mates vs Team Vitality (BO3) - VCT EMEA Group Alpha",
+        "National Bank Open: Arthur Rinderknech vs Brandon Nakashima",
+        "Map 3 Total Rounds: Over/Under 22.5"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.7,
+          "cur_price": 0.735,
+          "usdc_size": 1039.29,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x084425dedaa0a4d92164adb33b294005518df46a",
+      "name": "ripplecs",
+      "score": 39.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 63.6,
+      "volume_score": 78.9,
+      "roi": -93.6,
+      "cash_pnl": -534142.35,
+      "realized_pnl": -206604.73,
+      "total_usdc": 31287.73,
+      "trade_count": 500,
+      "market_count": 72,
+      "position_count": 102,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:22:45+00:00",
+      "top_markets": [
+        "Will Djurgardens IF win on 2026-08-10?",
+        "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
+        "Will Once Caldas win on 2026-08-09?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.78,
+          "cur_price": 0.9995,
+          "usdc_size": 1499.25,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9cbc5731f45bca075c842eff9af0a8ebc24696a6",
+      "name": "0x9Cbc5731F45BCa075c842EFf9Af0a8ebC24696a6",
+      "score": 39.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.8,
+      "volume_score": 83.9,
+      "roi": -70.2,
+      "cash_pnl": -3710.67,
+      "realized_pnl": -143.31,
+      "total_usdc": 60080.53,
+      "trade_count": 411,
+      "market_count": 215,
+      "position_count": 59,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:59:06+00:00",
+      "top_markets": [
+        "Will the Steam Machine cost $700 or more at release?",
+        "Counter-Strike: Astralis vs Spirit - Map 1 Winner",
+        "Will Max Verstappen be the 2025 Drivers Champion?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7399,
+          "cur_price": 0.735,
+          "usdc_size": 595.95,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+      "name": "ASPEN88888",
+      "score": 39.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.8,
+      "volume_score": 81.9,
+      "roi": -70.6,
+      "cash_pnl": -19213.58,
+      "realized_pnl": 89235.51,
+      "total_usdc": 46639.65,
+      "trade_count": 500,
+      "market_count": 5,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:25:24+00:00",
+      "top_markets": [
+        "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+        "Counter-Strike: Endless Journey vs HAVU - Map 1 Winner",
+        "Counter-Strike: Endless Journey vs HAVU (BO3) - CCT Europe Closed Qualifier: Series #7 Group B"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.6915,
+          "cur_price": 0.735,
+          "usdc_size": 3523.54,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.2435,
+          "cur_price": 0.735,
+          "usdc_size": 1335.67,
+          "outcome": "100 Thieves"
+        },
+        {
+          "market": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8681,
+          "cur_price": 0.105,
+          "usdc_size": 2122.18,
+          "outcome": "FURIA"
+        }
+      ]
+    },
+    {
+      "wallet": "0x865c39f519a8a6fc1989cecbcd7d28b49a7d4079",
+      "name": "sauhda",
+      "score": 39.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.7,
+      "volume_score": 79.7,
+      "roi": -92.1,
+      "cash_pnl": -15753.75,
+      "realized_pnl": 334.76,
+      "total_usdc": 35061.85,
+      "trade_count": 500,
+      "market_count": 69,
+      "position_count": 46,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:24:04+00:00",
+      "top_markets": [
+        "LoL: Top Esports vs ThunderTalk Gaming - Game 1 Winner",
+        "LoL: EDward Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "Valorant: QT DIG\u221e vs Fennel (BO3) - VCL Japan Season Finals Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.77,
+          "cur_price": 0.9995,
+          "usdc_size": 779.61,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x592997c2d8119d82d71f21119957c6434d244684",
+      "name": "kitopesivan",
+      "score": 39.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.0,
+      "volume_score": 78.3,
+      "roi": -86.9,
+      "cash_pnl": -87747.05,
+      "realized_pnl": -3189.21,
+      "total_usdc": 29035.52,
+      "trade_count": 500,
+      "market_count": 162,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:23:13+00:00",
+      "top_markets": [
+        "GKS GieKSa Katowice vs. MH Hapoel Tel Aviv: Both Teams to Score",
+        "Everton FC vs. Newcastle United: Both Teams to Score",
+        "Counter-Strike: Bushido Wildcats vs ex-MANA eSports (BO3) - CCT Europe Closed Qualifier: Series #7 Group A"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7399,
+          "cur_price": 0.735,
+          "usdc_size": 1830.02,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+          "signal": "SKIP",
+          "avg_price": 0.8,
+          "cur_price": 0.9995,
+          "usdc_size": 624.69,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7361fa0118278ac4ff1a89434c4fabfb0efa0050",
+      "name": "strulci",
+      "score": 39.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 59.9,
+      "volume_score": 77.9,
+      "roi": -56.8,
+      "cash_pnl": -1760.73,
+      "realized_pnl": -24.83,
+      "total_usdc": 27678.57,
+      "trade_count": 82,
+      "market_count": 44,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:41:22+00:00",
+      "top_markets": [
+        "Counter-Strike: Nemiga vs G2 (BO3) - BLAST Bounty Qualifier",
+        "Counter-Strike: Sinners vs FUT Esports (BO3) - BLAST Bounty Qualifier",
+        "Counter-Strike: Aurora Gaming vs K27 (BO3) - StarLadder StarSeries Group A"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.72,
+          "cur_price": 0.735,
+          "usdc_size": 1340.64,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3f26cc445ec3f2c3914ffa29535053e1107fc83b",
+      "name": "Limitless0",
+      "score": 39.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.5,
+      "volume_score": 75.6,
+      "roi": -99.8,
+      "cash_pnl": -98.91,
+      "realized_pnl": 0.0,
+      "total_usdc": 20314.77,
+      "trade_count": 500,
+      "market_count": 71,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:40:33+00:00",
+      "top_markets": [
+        "Will Bogota FC win on 2026-08-06?",
+        "Bitcoin Up or Down - August 12, 7AM ET",
+        "Bitcoin Up or Down - August 10, 2PM ET"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "score": 38.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 43.6,
+      "volume_score": 92.7,
+      "roi": -100.0,
+      "cash_pnl": -21058117.43,
+      "realized_pnl": -2521411.43,
+      "total_usdc": 192866.75,
+      "trade_count": 500,
+      "market_count": 21,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:24:58+00:00",
+      "top_markets": [
+        "LoL: Galions vs Joblife - Game 1 Winner",
+        "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+        "Valorant: Team Heretics vs Natus Vincere - Map 1 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+      "name": "Hakei.",
+      "score": 35.5,
+      "roi_score": 12.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.6,
+      "roi": -30.8,
+      "cash_pnl": -23720.73,
+      "realized_pnl": 115.33,
+      "total_usdc": 166255.56,
+      "trade_count": 500,
+      "market_count": 110,
+      "position_count": 96,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:20:58+00:00",
+      "top_markets": [
+        "Will Kai or Speed have more in-game deaths?",
+        "LoL: T1 vs Hanwha Life Esports (BO3) - LCK Round 3-4 Legend Group",
+        "Strait of Hormuz traffic returns to normal by August 15?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.74,
+          "cur_price": 0.735,
+          "usdc_size": 1633.17,
+          "outcome": "Vitality"
+        }
+      ]
+    },
+    {
+      "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "name": "purplegatto",
+      "score": 34.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 24.0,
+      "volume_score": 86.9,
+      "roi": -96.0,
+      "cash_pnl": -3214994.93,
+      "realized_pnl": -38704.81,
+      "total_usdc": 89265.97,
+      "trade_count": 500,
+      "market_count": 43,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T18:25:34+00:00",
+      "top_markets": [
+        "Will Paris Saint-Germain win on 2026-08-12?",
+        "Baltimore Orioles vs. Minnesota Twins: O/U 8.5",
+        "Paris Saint-Germain vs. Aston Villa: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-12?",
+          "signal": "ENTER",
+          "avg_price": 0.584,
+          "cur_price": 0.585,
+          "usdc_size": 48845.43,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5901,
+          "avg_price": 0.446,
           "cur_price": 0.665,
-          "usdc_size": 7206.32,
+          "usdc_size": 15680.7,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4037,
+          "cur_price": 0.665,
+          "usdc_size": 3781.48,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4581,
+          "cur_price": 0.325,
+          "usdc_size": 6554.25,
+          "outcome": "No"
+        },
+        {
+          "market": "Clarity Act (H.R.3633) signed into law in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.6131,
+          "cur_price": 0.185,
+          "usdc_size": 6806.88,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0224bb9eb0a5c9fd261ac9123a72cbdd5748292a",
+      "name": "zb8",
+      "score": 34.5,
+      "roi_score": 7.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.4,
+      "roi": -38.9,
+      "cash_pnl": -157538.01,
+      "realized_pnl": 54318.76,
+      "total_usdc": 356274.61,
+      "trade_count": 500,
+      "market_count": 46,
+      "position_count": 63,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-12T17:55:51+00:00",
+      "top_markets": [
+        "LoL: Weibo Gaming vs LNG Esports - Game 1 Winner",
+        "LoL: Invictus Gaming vs LNG Esports - Game 1 Winner",
+        "LoL: Dignitas vs LYON - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "ENTER",
+          "avg_price": 0.7299,
+          "cur_price": 0.735,
+          "usdc_size": 14699.98,
+          "outcome": "Vitality"
+        },
+        {
+          "market": "Will the U.S. invade Iran before 2027?",
+          "signal": "SKIP",
+          "avg_price": 0.7352,
+          "cur_price": 0.175,
+          "usdc_size": 37899.94,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Kai and Speed beat the Minecraft challenge by August 17?",
+          "signal": "SKIP",
+          "avg_price": 0.3259,
+          "cur_price": 0.805,
+          "usdc_size": 34477.52,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x13125080cb1407b11376b8d5ce37e34e739d39ce",
-      "name": "PATTARASSEN",
-      "score": 29.4,
+      "wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+      "name": "redvinny",
+      "score": 32.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 68.5,
-      "roi": -100.0,
-      "cash_pnl": -1072.0,
-      "realized_pnl": -26.0,
-      "total_usdc": 8043.96,
-      "trade_count": 28,
-      "market_count": 10,
-      "position_count": 3,
+      "volume_score": 98.4,
+      "roi": -98.9,
+      "cash_pnl": -4146252.8,
+      "realized_pnl": -513256.43,
+      "total_usdc": 402850.55,
+      "trade_count": 500,
+      "market_count": 37,
+      "position_count": 354,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-12T15:12:46+00:00",
+      "last_active": "2026-08-12T18:24:58+00:00",
       "top_markets": [
-        "LoL: RMD Gaming vs RED Academy - Game 1 Winner",
-        "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-        "LoL: HANJIN BRION Challengers vs Hanwha Life Esports Challengers (BO3) - LCK Challengers League Rounds 3-4 Trial Group"
+        "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+        "Will Arsenal FC win on 2026-08-05?",
+        "National Bank Open: Talia Gibson vs Ekaterina Alexandrova"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.6643,
+          "cur_price": 0.665,
+          "usdc_size": 7239.1,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "SKIP",
+          "avg_price": 0.8199,
+          "cur_price": 0.735,
+          "usdc_size": 10152.67,
+          "outcome": "Vitality"
+        }
+      ]
     },
     {
-      "wallet": "0x3eae34c0c4cb87f262cb4cf1737e81e4a100a3f0",
-      "name": "awdszxc59",
-      "score": 28.4,
-      "roi_score": 0.0,
+      "wallet": "0x35c82cc0b533d0c3491b6d66e9e348532241ce5c",
+      "name": "guizhoumaotai",
+      "score": 31.7,
+      "roi_score": 1.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 59.3,
-      "roi": -53.9,
-      "cash_pnl": -135.16,
-      "realized_pnl": -2.74,
-      "total_usdc": 2410.62,
-      "trade_count": 122,
-      "market_count": 20,
-      "position_count": 6,
+      "early_entry_score": 0.2,
+      "volume_score": 86.2,
+      "roi": -47.2,
+      "cash_pnl": -3732.03,
+      "realized_pnl": -1140.21,
+      "total_usdc": 81740.14,
+      "trade_count": 500,
+      "market_count": 41,
+      "position_count": 20,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-12T15:52:49+00:00",
+      "last_active": "2026-08-12T18:22:04+00:00",
       "top_markets": [
-        "Pistons vs. Celtics",
-        "Nuggets vs. Cavaliers",
-        "Mavericks vs. Wizards"
+        "LoL: Hanwha Life Esports vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+        "LoL: EDward Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "LoL: Hanwha Life Esports vs DN SOOPers - Game 3 Winner"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+          "signal": "LATE",
+          "avg_price": 0.71,
+          "cur_price": 0.735,
+          "usdc_size": 735.0,
+          "outcome": "Vitality"
+        }
+      ]
     }
   ],
   "markets": [
     {
-      "id": "0x0643b1b4ba5556e1900e347b4660567817d59bb008c53afd599f7cadb8929acf",
-      "question": "LoL: Bilibili Gaming vs JD Gaming (BO3) - LPL Group Ascend",
-      "volume": "2475593.804301",
-      "liquidity": "713217.01813",
-      "end_date": "2026-08-12T18:30:00Z"
+      "id": "0x3dd97c070ee813453634f553b89912075ee9e76cc1ceaa403e86dfc8d332cfb3",
+      "question": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
+      "volume": "3087189.026028001",
+      "liquidity": "169883.6798",
+      "end_date": "2026-08-13T00:20:00Z"
     },
     {
-      "id": "0x5268a07f58df791c6d71c9d1d50c1abbf7b9ead3c67f4bfec0519d7b33a4d9a6",
-      "question": "Counter-Strike: BetBoom Team vs FaZe (BO1) - Esports World Cup Group B",
-      "volume": "2153637.252165",
-      "liquidity": "1572617.7613",
-      "end_date": "2026-08-12T21:10:00Z"
+      "id": "0x0ac031b4eb98e3adc6d0a1f9bc7acf62762a01dc5f0805537dfb84afe6a052ce",
+      "question": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
+      "volume": "2382347.503496999",
+      "liquidity": "1198250.75336",
+      "end_date": "2026-08-12T22:25:00Z"
     },
     {
-      "id": "0x41904c1ddf43fd90b92e247e6b150a796eb23389eace700980c77e280960be1e",
-      "question": "Counter-Strike: PARIVISION vs B8 (BO1) - Esports World Cup Group C",
-      "volume": "1958904.4437049998",
-      "liquidity": "755597.92374",
-      "end_date": "2026-08-12T20:45:00Z"
+      "id": "0x01045c82b90d77c851604beabfdd3e977d24fec6ec70cb4388fb2a27c5e765c8",
+      "question": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+      "volume": "1985445.524655",
+      "liquidity": "1855112.96811",
+      "end_date": "2026-08-12T22:40:00Z"
+    },
+    {
+      "id": "0xa010c8e7ab644ca49a8c7d015bd80d6524e2d822fec6077e1f1019327507c65b",
+      "question": "Will Paris Saint-Germain win on 2026-08-12?",
+      "volume": "1727438.3549449993",
+      "liquidity": "3078789.8531",
+      "end_date": "2026-08-12T19:00:00Z"
     },
     {
       "id": "0x00925aafdbb3fbec14b49f343eb430ddb9cc1f827e5934b5513703d13f2851de",
       "question": "Will Francesca Hong win the 2026 Wisconsin Governor Democratic primary election?",
-      "volume": "1834253.6790999991",
-      "liquidity": "489041.84399",
+      "volume": "1835523.8691",
+      "liquidity": "483070.12718",
       "end_date": "2026-08-11T00:00:00Z"
     },
     {
       "id": "0xf23716a3fdb338cdc046144994d9b451cc8d7a7a7d1d3296e4252499a2edc1f7",
       "question": "Will David Crowley win the 2026 Wisconsin Governor Democratic primary election?",
-      "volume": "1400317.7306689995",
-      "liquidity": "445727.7025",
+      "volume": "1404356.3506689994",
+      "liquidity": "445292.92112",
       "end_date": "2026-08-11T00:00:00Z"
-    },
-    {
-      "id": "0x0ac031b4eb98e3adc6d0a1f9bc7acf62762a01dc5f0805537dfb84afe6a052ce",
-      "question": "Counter-Strike: MIBR vs Astralis (BO1) - Esports World Cup Group B",
-      "volume": "1231513.784532999",
-      "liquidity": "130588.9405",
-      "end_date": "2026-08-12T22:25:00Z"
     },
     {
       "id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
       "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "7881646.343339999",
-      "liquidity": "741418.55143",
+      "volume": "7895743.801910003",
+      "liquidity": "762395.2441",
       "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0xa393bc216c1087869c3c55e41c8bafa0b0d6f3a939aca82d7ca7aa6ac0d8d46c",
-      "question": "LoL: Bilibili Gaming vs JD Gaming - Game 1 Winner",
-      "volume": "1161317.924333999",
-      "liquidity": "375366.34991",
-      "end_date": "2026-08-12T18:30:00Z"
-    },
-    {
-      "id": "0x46c9e520fa287ae597bd81193786234e4e7817e3f1f9e66af525ab021fea7a08",
-      "question": "LoL: Bilibili Gaming vs JD Gaming - Game 2 Winner",
-      "volume": "1027803.4608590002",
-      "liquidity": "1023068.6056",
-      "end_date": "2026-08-12T18:30:00Z"
     },
     {
       "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
       "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
-      "volume": "78553285.84526598",
-      "liquidity": "17565.379",
+      "volume": "78553285.845266",
+      "liquidity": "16837.89513",
       "end_date": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "0x3dd97c070ee813453634f553b89912075ee9e76cc1ceaa403e86dfc8d332cfb3",
-      "question": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
-      "volume": "935526.4279680001",
-      "liquidity": "699025.1603",
-      "end_date": "2026-08-13T00:00:00Z"
     },
     {
       "id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
       "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "volume": "6838093.386639001",
-      "liquidity": "254068.145",
+      "volume": "6840636.786329",
+      "liquidity": "268541.484",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
       "id": "0x2e4b58fc18dbffd74d5275d89fb076943f21992763c45dcadd81391b83bde13c",
       "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "4539119.1356339995",
-      "liquidity": "1029579.95579",
+      "volume": "4539395.145634002",
+      "liquidity": "1009456.0616",
       "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0xa010c8e7ab644ca49a8c7d015bd80d6524e2d822fec6077e1f1019327507c65b",
-      "question": "Will Paris Saint-Germain win on 2026-08-12?",
-      "volume": "724260.1750089988",
-      "liquidity": "437648.0822",
-      "end_date": "2026-08-12T19:00:00Z"
     },
     {
       "id": "0x60613b262912ce2e3138ec5610a31a2f932b6300843c094053cb33aaff9f2238",
       "question": "Will Kai and Speed beat the Minecraft challenge by August 17?",
-      "volume": "1904935.432941999",
-      "liquidity": "90357.8452",
+      "volume": "2026044.4037340004",
+      "liquidity": "58357.853",
       "end_date": "2026-08-17T23:59:00Z"
-    },
-    {
-      "id": "0x5a9395dae6c7643ea06e7a555580a5526e81073aea9c9306363529c5b76a8f8b",
-      "question": "US x Iran Effective Ceasefire by July 31?",
-      "volume": "8898453.298237007",
-      "liquidity": "131059.83832",
-      "end_date": "2026-07-31T23:59:00Z"
     },
     {
       "id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
       "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "6476762.270247002",
-      "liquidity": "374356.1922",
+      "volume": "6477930.261797002",
+      "liquidity": "397361.8657",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
       "id": "0x5e464d85eb49f22d876f3ed6168a7db5e2288e9ae1eb91effd2758e994676f86",
       "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "4026042.569421999",
-      "liquidity": "555117.81254",
+      "volume": "4027846.335074",
+      "liquidity": "628868.50533",
       "end_date": "2026-09-16T00:00:00Z"
+    },
+    {
+      "id": "0xc1701c9cdd0dcca7403e3c4b36e804ecef7d25d9bd7abb5426fb9fc9771aaaf5",
+      "question": "Philadelphia Phillies vs. St. Louis Cardinals: O/U 7.5",
+      "volume": "447887.20183700015",
+      "liquidity": "39229.9144",
+      "end_date": "2026-08-12T18:15:00Z"
     },
     {
       "id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
       "question": "Clarity Act (H.R.3633) signed into law in 2026?",
-      "volume": "6918187.1216009995",
-      "liquidity": "198916.0151",
+      "volume": "6918260.402688002",
+      "liquidity": "190942.2061",
       "end_date": "2027-01-01T05:00:00Z"
+    },
+    {
+      "id": "0xd6186948bef90b9a69a12fe759f418bcaf113b0308cf27e6bacd70932ed697b1",
+      "question": "Counter-Strike: Wildcard vs FURIA (BO1) - Esports World Cup Group D",
+      "volume": "498805.21140599996",
+      "liquidity": "138412.858",
+      "end_date": "2026-08-13T00:00:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "4191966.092",
-      "liquidity": "262635.22767",
+      "volume": "4218391.092",
+      "liquidity": "263327.28693",
       "end_date": "2027-05-30T23:59:00Z"
+    },
+    {
+      "id": "0x49479ffa88e2897569b1d413e3bc558003e21912edee09d080ca6bac6eb20805",
+      "question": "Strait of Hormuz traffic returns to normal by August 15?",
+      "volume": "6090493.486069999",
+      "liquidity": "897121.9138",
+      "end_date": "2026-08-15T00:00:00Z"
+    },
+    {
+      "id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "volume": "58447669.00008501",
+      "liquidity": "1012884.8212",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0x06c8f5d3afbfbc90b72a776a36fa05eae3cc2649853584d1e4340bcb676f4aac",
+      "question": "Baltimore Orioles vs. Minnesota Twins",
+      "volume": "276960.30535699986",
+      "liquidity": "297840.0214",
+      "end_date": "2026-08-19T17:40:00Z"
     }
   ]
 }
