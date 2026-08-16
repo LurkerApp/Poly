@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T05:25:55.390819+00:00",
+  "last_updated": "2026-08-16T05:54:10.204730+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
@@ -38,31 +38,56 @@
       ]
     },
     {
-      "wallet": "0xfc25f141ed27bb1787338d2c4e7f51e3a15e1f7f",
-      "name": "-Malfunction",
-      "score": 56.3,
-      "roi_score": 33.0,
+      "wallet": "0x72f039e9bbf2ccf22ef7683729d9867fa09d6be8",
+      "name": "coupedegrace",
+      "score": 56.4,
+      "roi_score": 34.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 92.8,
-      "volume_score": 100.0,
-      "roi": -0.5,
-      "cash_pnl": -1823.37,
-      "realized_pnl": -419.83,
-      "total_usdc": 896202.33,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 17,
+      "early_entry_score": 93.4,
+      "volume_score": 94.4,
+      "roi": 2.3,
+      "cash_pnl": 1847.36,
+      "realized_pnl": 0.0,
+      "total_usdc": 239348.66,
+      "trade_count": 153,
+      "market_count": 15,
+      "position_count": 11,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:24:37+00:00",
+      "last_active": "2026-08-16T05:51:43+00:00",
       "top_markets": [
-        "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
-        "Dota 2: Team Falcons vs Vici Gaming - Game 2 Winner",
-        "LoL: Vivo Keyd Stars vs LOS - Game 2 Winner"
+        "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
+        "Dota 2: Team Resilience vs Xtreme Gaming - Game 1 Winner",
+        "Dota 2: Aurora vs BoomBoys - Game 1 Winner"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.44,
+          "cur_price": 0.0005,
+          "usdc_size": 34982.45,
+          "outcome": "BoomBoys"
+        },
+        {
+          "market": "Dota 2: Aurora vs BoomBoys (BO3) - The International Elimination Round",
+          "signal": "SKIP",
+          "avg_price": 0.65,
+          "cur_price": 0.0005,
+          "usdc_size": 30191.88,
+          "outcome": "BoomBoys"
+        },
+        {
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.27,
+          "cur_price": 0.695,
+          "usdc_size": 8548.62,
+          "outcome": "Team Resilience"
+        }
+      ]
     },
     {
       "wallet": "0xa16a1302ca05463f30faebeb5c045767fde233a1",
@@ -74,20 +99,47 @@
       "early_entry_score": 93.0,
       "volume_score": 97.2,
       "roi": 0.1,
-      "cash_pnl": 77.86,
+      "cash_pnl": 82.06,
       "realized_pnl": 109.27,
-      "total_usdc": 345797.89,
+      "total_usdc": 347118.95,
       "trade_count": 500,
-      "market_count": 68,
+      "market_count": 63,
       "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:24:33+00:00",
+      "last_active": "2026-08-16T05:50:09+00:00",
       "top_markets": [
         "Counter-Strike: BIG vs Spirit (BO3) - Esports World Cup Group A",
         "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
         "Dota 2: Team Falcons vs Vici Gaming (BO3) - The International Elimination Round"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xcd3675803ac7c8242a83fd6ecdfe3d2239ae0f01",
+      "name": "DotG",
+      "score": 55.9,
+      "roi_score": 31.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 92.6,
+      "volume_score": 100.0,
+      "roi": -2.6,
+      "cash_pnl": -320.36,
+      "realized_pnl": -9.48,
+      "total_usdc": 505637.43,
+      "trade_count": 500,
+      "market_count": 41,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:24:07+00:00",
+      "top_markets": [
+        "Dota 2: TEAM VISION vs Team Spirit - Game 1 Winner",
+        "Dota 2: Aurora vs Team Yandex - Game 1 Winner",
+        "Dota 2: OG vs GamerLegion - Game 1 Winner"
       ],
       "signals": []
     },
@@ -119,96 +171,52 @@
       "signals": []
     },
     {
-      "wallet": "0xcd3675803ac7c8242a83fd6ecdfe3d2239ae0f01",
-      "name": "DotG",
-      "score": 55.0,
-      "roi_score": 28.7,
+      "wallet": "0xfc25f141ed27bb1787338d2c4e7f51e3a15e1f7f",
+      "name": "-Malfunction",
+      "score": 53.0,
+      "roi_score": 33.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 92.6,
+      "early_entry_score": 70.2,
       "volume_score": 100.0,
-      "roi": -6.9,
-      "cash_pnl": -834.9,
-      "realized_pnl": -9.48,
-      "total_usdc": 505637.43,
+      "roi": 0.1,
+      "cash_pnl": 188.33,
+      "realized_pnl": -419.83,
+      "total_usdc": 806046.56,
       "trade_count": 500,
-      "market_count": 41,
-      "position_count": 9,
+      "market_count": 47,
+      "position_count": 18,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:24:07+00:00",
+      "last_active": "2026-08-16T05:50:07+00:00",
       "top_markets": [
-        "Dota 2: TEAM VISION vs Team Spirit - Game 1 Winner",
-        "Dota 2: Aurora vs Team Yandex - Game 1 Winner",
-        "Dota 2: OG vs GamerLegion - Game 1 Winner"
+        "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
+        "Dota 2: Team Falcons vs Vici Gaming - Game 2 Winner",
+        "LoL: T1 Academy vs DN SOOPers Challengers - Game 2 Winner"
       ],
       "signals": []
     },
     {
-      "wallet": "0x72f039e9bbf2ccf22ef7683729d9867fa09d6be8",
-      "name": "coupedegrace",
-      "score": 54.9,
-      "roi_score": 29.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 93.6,
-      "volume_score": 94.1,
-      "roi": -5.3,
-      "cash_pnl": -3852.45,
-      "realized_pnl": 0.0,
-      "total_usdc": 231476.63,
-      "trade_count": 146,
-      "market_count": 14,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:16:37+00:00",
-      "top_markets": [
-        "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-        "Dota 2: Team Resilience vs Xtreme Gaming - Game 1 Winner",
-        "Dota 2: Aurora vs BoomBoys - Game 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.085,
-          "usdc_size": 32024.96,
-          "outcome": "BoomBoys"
-        },
-        {
-          "market": "Dota 2: Aurora vs BoomBoys (BO3) - The International Elimination Round",
-          "signal": "SKIP",
-          "avg_price": 0.65,
-          "cur_price": 0.055,
-          "usdc_size": 28545.6,
-          "outcome": "BoomBoys"
-        }
-      ]
-    },
-    {
       "wallet": "0x8002f0f179219531566886c539aaf83967a58b6c",
       "name": "Vladooos",
-      "score": 50.0,
-      "roi_score": 14.3,
+      "score": 47.7,
+      "roi_score": 6.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 87.8,
       "volume_score": 100.0,
-      "roi": -28.6,
-      "cash_pnl": -12725.91,
+      "roi": -39.6,
+      "cash_pnl": -14630.38,
       "realized_pnl": -12959.25,
-      "total_usdc": 836394.99,
+      "total_usdc": 843294.05,
       "trade_count": 500,
       "market_count": 71,
-      "position_count": 8,
+      "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:21:18+00:00",
+      "last_active": "2026-08-16T05:30:30+00:00",
       "top_markets": [
         "Cincinnati Open: Novak Djokovic vs Thiago Agustin Tirante",
         "Dota 2: Iron Wing vs Team Yandex (BO3) - The International Group Stage",
@@ -219,53 +227,9 @@
           "market": "Cincinnati Open: Alexander Zverev vs Cameron Norrie",
           "signal": "SKIP",
           "avg_price": 0.7799,
-          "cur_price": 0.85,
-          "usdc_size": 8400.78,
+          "cur_price": 0.685,
+          "usdc_size": 7524.62,
           "outcome": "Alexander Zverev"
-        },
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.8331,
-          "cur_price": 0.085,
-          "usdc_size": 8388.28,
-          "outcome": "BoomBoys"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6bea184d24deac1e6ce9bc5d89facb6274585d50",
-      "name": "Trumplol",
-      "score": 47.0,
-      "roi_score": 6.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 93.1,
-      "volume_score": 87.7,
-      "roi": -41.1,
-      "cash_pnl": -1381.28,
-      "realized_pnl": 469.0,
-      "total_usdc": 99354.45,
-      "trade_count": 500,
-      "market_count": 67,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:24:51+00:00",
-      "top_markets": [
-        "Dota 2: Nigma Galaxy vs Team Spirit - Game 1 Winner",
-        "LoL: T1 Academy vs DN SOOPers Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
-        "LoL: G2 Esports vs Shifters - Game 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5791,
-          "cur_price": 0.085,
-          "usdc_size": 679.74,
-          "outcome": "BoomBoys"
         }
       ]
     },
@@ -328,8 +292,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 93.1,
       "volume_score": 100.0,
-      "roi": -96.3,
-      "cash_pnl": -29521.56,
+      "roi": -96.0,
+      "cash_pnl": -29416.64,
       "realized_pnl": -3952.07,
       "total_usdc": 530221.59,
       "trade_count": 451,
@@ -349,8 +313,8 @@
           "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.8053,
-          "cur_price": 0.085,
-          "usdc_size": 1136.11,
+          "cur_price": 0.0005,
+          "usdc_size": 1241.03,
           "outcome": "BoomBoys"
         }
       ]
@@ -416,8 +380,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 93.2,
       "volume_score": 98.1,
-      "roi": -98.0,
-      "cash_pnl": -95457.96,
+      "roi": -97.8,
+      "cash_pnl": -95277.45,
       "realized_pnl": -35388.77,
       "total_usdc": 389517.16,
       "trade_count": 500,
@@ -437,8 +401,8 @@
           "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.5518,
-          "cur_price": 0.085,
-          "usdc_size": 1954.6,
+          "cur_price": 0.0005,
+          "usdc_size": 2135.11,
           "outcome": "BoomBoys"
         }
       ]
@@ -452,8 +416,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 93.2,
       "volume_score": 98.5,
-      "roi": -78.1,
-      "cash_pnl": -52192.32,
+      "roi": -77.5,
+      "cash_pnl": -51804.26,
       "realized_pnl": -1400.08,
       "total_usdc": 409035.26,
       "trade_count": 206,
@@ -473,17 +437,9 @@
           "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.4397,
-          "cur_price": 0.085,
-          "usdc_size": 13755.35,
+          "cur_price": 0.0005,
+          "usdc_size": 15025.65,
           "outcome": "BoomBoys"
-        },
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4788,
-          "cur_price": 0.085,
-          "usdc_size": 887.46,
-          "outcome": "Aurora"
         }
       ]
     },
@@ -494,32 +450,32 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 93.2,
+      "early_entry_score": 93.0,
       "volume_score": 98.1,
-      "roi": -98.1,
-      "cash_pnl": -966770.59,
+      "roi": -99.6,
+      "cash_pnl": -975990.07,
       "realized_pnl": -11748.27,
-      "total_usdc": 389250.67,
+      "total_usdc": 388577.23,
       "trade_count": 500,
-      "market_count": 50,
-      "position_count": 293,
+      "market_count": 46,
+      "position_count": 292,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T04:45:55+00:00",
+      "last_active": "2026-08-16T05:42:57+00:00",
       "top_markets": [
         "Dota 2: TEAM VISION vs Team Spirit - Game 1 Winner",
         "Dota 2: Team Resilience vs Team Yandex - Game 1 Winner",
-        "Dota 2: Nigma Galaxy vs Vici Gaming - Game 2 Winner"
+        "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner"
       ],
       "signals": [
         {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4699,
-          "cur_price": 0.085,
-          "usdc_size": 13724.99,
-          "outcome": "BoomBoys"
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+          "signal": "LATE",
+          "avg_price": 0.72,
+          "cur_price": 0.695,
+          "usdc_size": 3574.96,
+          "outcome": "Team Spirit"
         }
       ]
     },
@@ -651,58 +607,40 @@
       "signals": []
     },
     {
-      "wallet": "0x7635ed586336bc7246b39cd416ed17e4858963f6",
-      "name": "jiafanpomarke001",
-      "score": 46.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 93.2,
-      "volume_score": 97.0,
-      "roi": -75.5,
-      "cash_pnl": -8545.24,
-      "realized_pnl": 246.17,
-      "total_usdc": 338966.19,
-      "trade_count": 500,
-      "market_count": 143,
-      "position_count": 31,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:20:46+00:00",
-      "top_markets": [
-        "Dota 2: LGD Gaming vs Vici Gaming - Game 1 Winner",
-        "Dota 2: Team Resilience vs OG (BO3) - The International Group Stage",
-        "Dota 2: Team Yandex vs Team Liquid - Game 1 Winner"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x8dc5667e182f4ba1ac9c8a6ed02db849e05fc07d",
       "name": "Trungl",
       "score": 46.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 93.2,
-      "volume_score": 96.5,
-      "roi": -99.7,
-      "cash_pnl": -56831.61,
+      "early_entry_score": 92.8,
+      "volume_score": 96.6,
+      "roi": -95.2,
+      "cash_pnl": -57263.36,
       "realized_pnl": -830.36,
-      "total_usdc": 317088.24,
+      "total_usdc": 320215.24,
       "trade_count": 500,
-      "market_count": 99,
-      "position_count": 44,
+      "market_count": 100,
+      "position_count": 45,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T04:46:00+00:00",
+      "last_active": "2026-08-16T05:45:37+00:00",
       "top_markets": [
         "Dota 2: Iron Wing vs Team Falcons - Game 2 Winner",
         "Dota 2: LGD Gaming vs Vici Gaming - Game 1 Winner",
         "Dota 2: MOUZ vs Rune Eaters - Game 2 Winner"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.7782,
+          "cur_price": 0.695,
+          "usdc_size": 2860.0,
+          "outcome": "Team Spirit"
+        }
+      ]
     },
     {
       "wallet": "0xbf1af4eaa64ecc3aafff7a64d32fce6136ba83ea",
@@ -739,33 +677,24 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 93.1,
-      "volume_score": 95.2,
-      "roi": -98.1,
-      "cash_pnl": -61482.03,
+      "volume_score": 95.3,
+      "roi": -100.0,
+      "cash_pnl": -61953.35,
       "realized_pnl": -1859.4,
-      "total_usdc": 267989.79,
+      "total_usdc": 268953.37,
       "trade_count": 500,
       "market_count": 132,
-      "position_count": 138,
+      "position_count": 137,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:19:18+00:00",
+      "last_active": "2026-08-16T05:48:36+00:00",
       "top_markets": [
         "Dota 2: BetBoom Team vs LGD Gaming - Game 1 Winner",
         "Dota 2: Team Falcons vs Team Liquid - Game 1 Winner",
         "Dota 2: Team Yandex vs LGD Gaming (BO1) - BLAST Slam Group Stage"
       ],
-      "signals": [
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5999,
-          "cur_price": 0.085,
-          "usdc_size": 1067.5,
-          "outcome": "BoomBoys"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x475c2f94b99ad79758b6ae6789a191c408c37fbe",
@@ -920,23 +849,23 @@
     {
       "wallet": "0x60dd7009460d0bc6949ea6429fefba0df41840e5",
       "name": "Hermesz",
-      "score": 45.8,
+      "score": 45.7,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 93.5,
+      "early_entry_score": 93.1,
       "volume_score": 92.5,
-      "roi": -76.4,
-      "cash_pnl": -11359.56,
+      "roi": -72.2,
+      "cash_pnl": -11464.6,
       "realized_pnl": -106.11,
-      "total_usdc": 185913.24,
+      "total_usdc": 186917.67,
       "trade_count": 500,
-      "market_count": 33,
-      "position_count": 8,
+      "market_count": 34,
+      "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:13:25+00:00",
+      "last_active": "2026-08-16T05:44:40+00:00",
       "top_markets": [
         "Dota 2: TEAM VISION vs Team Spirit - Game 1 Winner",
         "Dota 2: Nigma Galaxy vs Team Spirit - Game 2 Winner",
@@ -944,55 +873,19 @@
       ],
       "signals": [
         {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.59,
-          "cur_price": 0.085,
-          "usdc_size": 2745.0,
-          "outcome": "BoomBoys"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4aec70021891ea712aaf3e2dd76c30f6b09a4ce9",
-      "name": "gxxyy",
-      "score": 45.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 93.2,
-      "volume_score": 93.0,
-      "roi": -99.1,
-      "cash_pnl": -976793.86,
-      "realized_pnl": -10459.98,
-      "total_usdc": 200072.79,
-      "trade_count": 500,
-      "market_count": 10,
-      "position_count": 190,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:21:18+00:00",
-      "top_markets": [
-        "Dota 2: Nigma Galaxy vs Team Spirit - Game 2 Winner",
-        "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-        "Dota 2: Team Falcons vs Vici Gaming - Game 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.419,
-          "cur_price": 0.085,
-          "usdc_size": 3074.64,
-          "outcome": "Aurora"
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+          "signal": "LATE",
+          "avg_price": 0.7299,
+          "cur_price": 0.695,
+          "usdc_size": 979.45,
+          "outcome": "Team Spirit"
         },
         {
           "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.5199,
-          "cur_price": 0.085,
-          "usdc_size": 5489.98,
+          "avg_price": 0.59,
+          "cur_price": 0.0005,
+          "usdc_size": 2998.5,
           "outcome": "BoomBoys"
         }
       ]
@@ -1006,32 +899,23 @@
       "consistency_score": 50.0,
       "early_entry_score": 93.2,
       "volume_score": 92.2,
-      "roi": -99.6,
-      "cash_pnl": -118883.09,
+      "roi": -100.0,
+      "cash_pnl": -118992.64,
       "realized_pnl": -10820.61,
-      "total_usdc": 180618.77,
+      "total_usdc": 180828.02,
       "trade_count": 500,
       "market_count": 124,
-      "position_count": 345,
+      "position_count": 344,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:12:55+00:00",
+      "last_active": "2026-08-16T05:28:49+00:00",
       "top_markets": [
         "Dota 2: Team Falcons vs Vici Gaming - Game 1 Winner",
         "Dota 2: Team Falcons vs Team Liquid - Game 1 Winner",
         "Dota 2: Xtreme Gaming vs LGD Gaming (BO3) - Games of the Future Group D"
       ],
-      "signals": [
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7186,
-          "cur_price": 0.085,
-          "usdc_size": 510.55,
-          "outcome": "BoomBoys"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x60d014a76d7788ae6d80b7ca7947ff7869cbe05f",
@@ -1040,19 +924,19 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 93.0,
-      "volume_score": 92.6,
-      "roi": -97.8,
-      "cash_pnl": -285794.17,
+      "early_entry_score": 92.8,
+      "volume_score": 92.4,
+      "roi": -96.8,
+      "cash_pnl": -286430.9,
       "realized_pnl": -549.3,
-      "total_usdc": 189927.86,
+      "total_usdc": 185232.88,
       "trade_count": 500,
-      "market_count": 59,
-      "position_count": 208,
+      "market_count": 57,
+      "position_count": 209,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:19:52+00:00",
+      "last_active": "2026-08-16T05:40:09+00:00",
       "top_markets": [
         "Dota 2: Team Liquid vs 1win - Game 1 Winner",
         "Dota 2: Team Falcons vs Vici Gaming - Game 1 Winner",
@@ -1060,12 +944,12 @@
       ],
       "signals": [
         {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.1604,
-          "cur_price": 0.085,
-          "usdc_size": 565.08,
-          "outcome": "Aurora"
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+          "signal": "LATE",
+          "avg_price": 0.7299,
+          "cur_price": 0.695,
+          "usdc_size": 3574.99,
+          "outcome": "Team Spirit"
         },
         {
           "market": "Dota 2: Team Falcons vs Vici Gaming - Game 2 Winner",
@@ -1084,33 +968,6 @@
           "outcome": "Team Spirit"
         }
       ]
-    },
-    {
-      "wallet": "0x7bccd2d3dfd370f65aa3cc5d51c7c9649ad9b4fa",
-      "name": "genrysetaj",
-      "score": 45.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 93.2,
-      "volume_score": 91.8,
-      "roi": -98.3,
-      "cash_pnl": -485.83,
-      "realized_pnl": 0.0,
-      "total_usdc": 170978.3,
-      "trade_count": 500,
-      "market_count": 167,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:25:22+00:00",
-      "top_markets": [
-        "LoL: Solary vs Vitality.Bee - Game 2 Winner",
-        "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 3-4 Trial Group",
-        "Dota 2: Team Falcons vs GamerLegion - Game 2 Winner"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x317d7c82a6a89f9e673f1413883cfb8f052eaf28",
@@ -1219,59 +1076,50 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 93.2,
-      "volume_score": 89.6,
-      "roi": -95.3,
-      "cash_pnl": -49460.15,
+      "early_entry_score": 92.8,
+      "volume_score": 89.8,
+      "roi": -99.1,
+      "cash_pnl": -49986.77,
       "realized_pnl": -12977.0,
-      "total_usdc": 127626.39,
+      "total_usdc": 130516.46,
       "trade_count": 500,
-      "market_count": 60,
+      "market_count": 61,
       "position_count": 54,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T04:52:01+00:00",
+      "last_active": "2026-08-16T05:53:22+00:00",
       "top_markets": [
         "Dota 2: PlayTime vs Nigma Galaxy - Game 1 Winner",
         "Dota 2: LGD Gaming vs Team Resilience - Game 2 Winner",
         "Dota 2: Aurora vs BoomBoys - Game 1 Winner"
       ],
-      "signals": [
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5588,
-          "cur_price": 0.085,
-          "usdc_size": 2462.69,
-          "outcome": "BoomBoys"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0x15687ef2b9fe1905c228118c538b27ca9c422a89",
-      "name": "0x15687Ef2b9Fe1905C228118C538b27cA9c422A89-1772261386919",
+      "wallet": "0xdbaf488fd5e23fced831a80472b50a9f0018f5d1",
+      "name": "kumz12",
       "score": 45.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 92.9,
-      "volume_score": 88.2,
-      "roi": -66.7,
-      "cash_pnl": -598.57,
-      "realized_pnl": 0.0,
-      "total_usdc": 106038.77,
+      "early_entry_score": 93.0,
+      "volume_score": 88.5,
+      "roi": -99.9,
+      "cash_pnl": -310003.28,
+      "realized_pnl": -3806.46,
+      "total_usdc": 110740.09,
       "trade_count": 500,
-      "market_count": 144,
-      "position_count": 3,
+      "market_count": 72,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:21:18+00:00",
+      "last_active": "2026-08-16T05:42:25+00:00",
       "top_markets": [
-        "Dota 2: HULIGANI vs Vici Gaming (BO3) - The International Group Stage",
-        "Dota 2: TEAM VISION vs Team Spirit - Game 1 Winner",
-        "Dota 2: LGD Gaming vs Xtreme Gaming - Game 1 Winner"
+        "LoL: GIANTX vs Team Vitality - Game 1 Winner",
+        "Counter-Strike: K27 vs MIBR - Map 1 Winner",
+        "Counter-Strike: FUT Esports vs MOUZ - Map 2 Winner"
       ],
       "signals": []
     },
@@ -1284,8 +1132,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 93.0,
       "volume_score": 87.5,
-      "roi": -94.1,
-      "cash_pnl": -37846.23,
+      "roi": -93.6,
+      "cash_pnl": -37628.61,
       "realized_pnl": -7025.53,
       "total_usdc": 96586.76,
       "trade_count": 500,
@@ -1305,11 +1153,38 @@
           "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.522,
-          "cur_price": 0.085,
-          "usdc_size": 2356.45,
+          "cur_price": 0.0005,
+          "usdc_size": 2574.07,
           "outcome": "BoomBoys"
         }
       ]
+    },
+    {
+      "wallet": "0x332f6e6b727c5737daf97cb9a032883eda341ee8",
+      "name": "jackcartwright",
+      "score": 45.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 92.7,
+      "volume_score": 86.2,
+      "roi": -99.3,
+      "cash_pnl": -76973.09,
+      "realized_pnl": -504.2,
+      "total_usdc": 81788.16,
+      "trade_count": 500,
+      "market_count": 100,
+      "position_count": 111,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:41:22+00:00",
+      "top_markets": [
+        "LoL: G2 Esports vs Dplus KIA - Game 2 Winner",
+        "LoL: Movistar KOI vs GAM Esports (BO3) - Esports World Cup Group C",
+        "Dota 2: Team Falcons vs Vici Gaming - Game 1 Winner"
+      ],
+      "signals": []
     },
     {
       "wallet": "0x7fca30cb62b61179c1ac8e8db708c9d088ff6ac3",
@@ -1366,100 +1241,29 @@
       "signals": []
     },
     {
-      "wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
-      "name": "Jimmyman132",
-      "score": 44.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 93.8,
-      "volume_score": 77.2,
-      "roi": -96.8,
-      "cash_pnl": -122105.38,
-      "realized_pnl": -437.11,
-      "total_usdc": 25065.33,
-      "trade_count": 500,
-      "market_count": 29,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:25:25+00:00",
-      "top_markets": [
-        "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-        "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
-        "LoL: T1 Academy vs DN SOOPers Challengers - Game 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Dota 2: Team Spirit vs Team Resilience - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7602,
-          "cur_price": 0.9995,
-          "usdc_size": 771.95,
-          "outcome": "Team Spirit"
-        },
-        {
-          "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5046,
-          "cur_price": 0.085,
-          "usdc_size": 635.45,
-          "outcome": "BoomBoys"
-        }
-      ]
-    },
-    {
       "wallet": "0x55223a5883fcf352ee620c065f093a689102c807",
       "name": "0x55223A5883fCF352Ee620C065F093A689102c807-1774198521129",
       "score": 44.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 92.8,
+      "early_entry_score": 92.7,
       "volume_score": 78.8,
-      "roi": -96.6,
-      "cash_pnl": -36971.79,
+      "roi": -96.4,
+      "cash_pnl": -36900.18,
       "realized_pnl": -1216.2,
-      "total_usdc": 31061.52,
+      "total_usdc": 31045.31,
       "trade_count": 500,
       "market_count": 130,
-      "position_count": 258,
+      "position_count": 259,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T05:23:13+00:00",
+      "last_active": "2026-08-16T05:53:22+00:00",
       "top_markets": [
         "Will the highest temperature in Shenzhen be 30\u00b0C on August 14?",
         "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
         "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - The International Group Stage"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
-      "name": "neutralwave23",
-      "score": 44.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 89.8,
-      "volume_score": 80.6,
-      "roi": -83.4,
-      "cash_pnl": -829357.6,
-      "realized_pnl": -120178.95,
-      "total_usdc": 38994.01,
-      "trade_count": 500,
-      "market_count": 192,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T05:24:33+00:00",
-      "top_markets": [
-        "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
-        "Cincinnati Open: Rafael Jodar vs Denis Shapovalov",
-        "UFC 330: Mackenzie Dern vs. Gillian Robertson (Women's Strawweight, Main Card)"
       ],
       "signals": []
     },
@@ -1472,8 +1276,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 93.6,
       "volume_score": 70.6,
-      "roi": -90.0,
-      "cash_pnl": -2820.89,
+      "roi": -89.9,
+      "cash_pnl": -2816.93,
       "realized_pnl": -68.14,
       "total_usdc": 10566.42,
       "trade_count": 74,
@@ -1491,25 +1295,177 @@
       "signals": []
     },
     {
+      "wallet": "0x6bea184d24deac1e6ce9bc5d89facb6274585d50",
+      "name": "Trumplol",
+      "score": 42.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 74.2,
+      "volume_score": 87.7,
+      "roi": -99.3,
+      "cash_pnl": -2766.94,
+      "realized_pnl": 659.76,
+      "total_usdc": 99605.47,
+      "trade_count": 500,
+      "market_count": 67,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:48:06+00:00",
+      "top_markets": [
+        "LoL: T1 Academy vs DN SOOPers Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
+        "Dota 2: Nigma Galaxy vs Team Spirit - Game 1 Winner",
+        "LoL: G2 Esports vs Shifters - Game 1 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
+      "name": "Jimmyman132",
+      "score": 42.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 79.6,
+      "volume_score": 77.2,
+      "roi": -97.1,
+      "cash_pnl": -122039.86,
+      "realized_pnl": -526.82,
+      "total_usdc": 25224.21,
+      "trade_count": 500,
+      "market_count": 26,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:49:51+00:00",
+      "top_markets": [
+        "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
+        "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
+        "LoL: T1 Academy vs DN SOOPers Challengers - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.7602,
+          "cur_price": 0.9995,
+          "usdc_size": 771.95,
+          "outcome": "Team Spirit"
+        },
+        {
+          "market": "LoL: T1 Academy vs DN SOOPers Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
+          "signal": "SKIP",
+          "avg_price": 0.5833,
+          "cur_price": 0.9995,
+          "usdc_size": 752.65,
+          "outcome": "T1 Academy"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+      "name": "neutralwave23",
+      "score": 42.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 76.3,
+      "volume_score": 80.5,
+      "roi": -83.4,
+      "cash_pnl": -829664.17,
+      "realized_pnl": -120178.95,
+      "total_usdc": 38483.53,
+      "trade_count": 500,
+      "market_count": 197,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:49:57+00:00",
+      "top_markets": [
+        "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
+        "UFC 330: Mackenzie Dern vs. Gillian Robertson (Women's Strawweight, Main Card)",
+        "Cincinnati Open: Rafael Jodar vs Denis Shapovalov"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7bccd2d3dfd370f65aa3cc5d51c7c9649ad9b4fa",
+      "name": "genrysetaj",
+      "score": 40.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 55.4,
+      "volume_score": 91.8,
+      "roi": -98.4,
+      "cash_pnl": -518.78,
+      "realized_pnl": 0.0,
+      "total_usdc": 170260.02,
+      "trade_count": 500,
+      "market_count": 167,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:35:51+00:00",
+      "top_markets": [
+        "LoL: Solary vs Vitality.Bee - Game 2 Winner",
+        "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 3-4 Trial Group",
+        "Dota 2: Team Falcons vs GamerLegion - Game 2 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7635ed586336bc7246b39cd416ed17e4858963f6",
+      "name": "jiafanpomarke001",
+      "score": 37.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 36.7,
+      "volume_score": 97.0,
+      "roi": -75.5,
+      "cash_pnl": -8554.72,
+      "realized_pnl": 246.17,
+      "total_usdc": 338938.61,
+      "trade_count": 500,
+      "market_count": 143,
+      "position_count": 31,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T05:36:09+00:00",
+      "top_markets": [
+        "Dota 2: LGD Gaming vs Vici Gaming - Game 1 Winner",
+        "Dota 2: Team Resilience vs OG (BO3) - The International Group Stage",
+        "Dota 2: Team Yandex vs Team Liquid - Game 1 Winner"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0xc83597e739cb613c9ea4680c977631f0f1e13911",
       "name": "muglishainer",
-      "score": 31.1,
+      "score": 31.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.3,
-      "roi": -86.1,
-      "cash_pnl": -21613.98,
+      "volume_score": 87.2,
+      "roi": -61.8,
+      "cash_pnl": -21717.95,
       "realized_pnl": -522.83,
-      "total_usdc": 82633.59,
-      "trade_count": 61,
-      "market_count": 15,
-      "position_count": 8,
+      "total_usdc": 92810.26,
+      "trade_count": 63,
+      "market_count": 16,
+      "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T04:36:09+00:00",
+      "last_active": "2026-08-16T05:46:27+00:00",
       "top_markets": [
         "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
         "Dota 2: BoomBoys vs Aurora - Game 2 Winner",
@@ -1517,10 +1473,18 @@
       ],
       "signals": [
         {
+          "market": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+          "signal": "LATE",
+          "avg_price": 0.7224,
+          "cur_price": 0.695,
+          "usdc_size": 9933.5,
+          "outcome": "Team Spirit"
+        },
+        {
           "market": "Dota 2: Team Spirit vs Team Resilience (BO3) - The International Elimination Round",
           "signal": "SKIP",
           "avg_price": 0.79,
-          "cur_price": 0.915,
+          "cur_price": 0.905,
           "usdc_size": 3495.3,
           "outcome": "Team Spirit"
         }
@@ -1531,142 +1495,142 @@
     {
       "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
       "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
-      "volume": "82405679.006377",
-      "liquidity": "22185.43067",
+      "volume": "82405679.00637698",
+      "liquidity": "22233.9965",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0x24a86f59ea6f32be34804a0f015f9e823d65f364bf5b13f2968781b4319a900d",
       "question": "Dota 2: Aurora vs BoomBoys - Game 1 Winner",
-      "volume": "1297392.2608949996",
-      "liquidity": "566504.63212",
+      "volume": "1303535.8408949992",
+      "liquidity": "569149.26861",
       "end_date": "2026-08-16T09:00:00Z"
     },
     {
       "id": "0x5302e8310617ef07577fd9e9d6b7c924f3cc2a9849a5e1ce06bdc9d41f2d1842",
       "question": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
-      "volume": "941656.522138",
-      "liquidity": "197051.6434",
+      "volume": "1258159.805825",
+      "liquidity": "1167261.46435",
       "end_date": "2026-08-16T09:00:00Z"
     },
     {
       "id": "0xa0ebf629ede719e165eb8f1383a979640f70b0fbbc0996ae2fac178e207787c0",
       "question": "Cincinnati Open: Alexander Zverev vs Cameron Norrie",
-      "volume": "476111.1710019998",
-      "liquidity": "335333.9223",
+      "volume": "553574.2431620002",
+      "liquidity": "395732.3426",
       "end_date": "2026-08-22T14:00:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "5661365.162",
-      "liquidity": "248398.57331",
+      "volume": "5670135.161999999",
+      "liquidity": "239808.61551",
       "end_date": "2027-05-30T23:59:00Z"
     },
     {
       "id": "0xc3822feacd68137d5aa7efcd38015a2f24f7c802144b93d7cc8384d3fd8b90a4",
       "question": "Dota 2: Team Falcons vs Vici Gaming - Game 2 Winner",
-      "volume": "357297.3713140001",
-      "liquidity": "488929.62074",
+      "volume": "372477.0813140001",
+      "liquidity": "459225.23745",
       "end_date": "2026-08-16T06:00:00Z"
+    },
+    {
+      "id": "0x79d06e6619745e26a500f5e3141a8a86c871cf599b20b4ca04f8357a97e57048",
+      "question": "Dota 2: Aurora vs BoomBoys (BO3) - The International Elimination Round",
+      "volume": "353837.6873719999",
+      "liquidity": "951575.23079",
+      "end_date": "2026-08-16T09:00:00Z"
+    },
+    {
+      "id": "0x6acdc3316f0b43ca4fbc13623fc018e30f2fd20ae7b93bdc07c8193e99b0ac4d",
+      "question": "Israel x Iran ceasefire continues through August 15?",
+      "volume": "2432638.6120070023",
+      "liquidity": "224783.57582",
+      "end_date": "2026-08-15T23:59:00Z"
     },
     {
       "id": "0x5e464d85eb49f22d876f3ed6168a7db5e2288e9ae1eb91effd2758e994676f86",
       "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "4947678.451807001",
-      "liquidity": "546055.26089",
+      "volume": "4947687.833057002",
+      "liquidity": "547792.44489",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
       "id": "0xa055e1cf533c2fcb1f1c89c20c41c8aa25526dcf27c3ff6be69c230fd8898282",
       "question": "US announces end of Iranian blockade by August 15, 2026?",
-      "volume": "3287285.311075002",
-      "liquidity": "166712.98409",
+      "volume": "3291960.5710750013",
+      "liquidity": "163806.73719",
       "end_date": "2026-08-15T23:59:00Z"
     },
     {
       "id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
       "question": "Strait of Hormuz traffic returns to normal by August 31?",
-      "volume": "13922855.787182022",
-      "liquidity": "746422.59178",
+      "volume": "13929092.92856302",
+      "liquidity": "814188.90769",
       "end_date": "2026-08-31T00:00:00Z"
     },
     {
-      "id": "0x6acdc3316f0b43ca4fbc13623fc018e30f2fd20ae7b93bdc07c8193e99b0ac4d",
-      "question": "Israel x Iran ceasefire continues through August 15?",
-      "volume": "2406026.7320070025",
-      "liquidity": "125668.09162",
-      "end_date": "2026-08-15T23:59:00Z"
+      "id": "0xcfd7b6c5cb6ac707696fc97f7cd4db5427343b3ee868bc8039533e20305db5d6",
+      "question": "Dota 2: Team Spirit vs Team Resilience - Game 2 Winner",
+      "volume": "295968.6308369995",
+      "liquidity": "175244.4786",
+      "end_date": "2026-08-16T09:00:00Z"
     },
     {
       "id": "0x054725b2a7971376f7924a7021221b12acc50fe78d97817824fe411704d5b5a2",
       "question": "Will Romeu Zema win the 2026 Brazilian presidential election?",
-      "volume": "5418419.678771",
-      "liquidity": "331957.57939",
+      "volume": "5418419.678770998",
+      "liquidity": "391345.5854",
       "end_date": "2026-10-04T00:00:00Z"
     },
     {
-      "id": "0x79d06e6619745e26a500f5e3141a8a86c871cf599b20b4ca04f8357a97e57048",
-      "question": "Dota 2: Aurora vs BoomBoys (BO3) - The International Elimination Round",
-      "volume": "284858.03163599974",
-      "liquidity": "200398.5234",
+      "id": "0x7437cf646cc0c08495f4065b2e89664d2b9c6f2cfeb0737d9277ae0cea2cba28",
+      "question": "LoL: T1 Academy vs DN SOOPers Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group",
+      "volume": "287987.57035699993",
+      "liquidity": "598455.50163",
+      "end_date": "2026-08-16T09:00:00Z"
+    },
+    {
+      "id": "0xa5d4705e97381854c6cf2f58dd994e92927c764469c6e14f5370332611594098",
+      "question": "Dota 2: Team Spirit vs Team Resilience - Game 1 Winner",
+      "volume": "284629.86569099984",
+      "liquidity": "813105.56742",
       "end_date": "2026-08-16T09:00:00Z"
     },
     {
       "id": "0x7f695758278e6d4d9e63df862afa88d664d3402a3d26e4d32ae05121cdbddba6",
       "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
       "volume": "40072960.22061602",
-      "liquidity": "1960224.69371",
+      "liquidity": "1960376.97371",
       "end_date": "2028-11-07T00:00:00Z"
+    },
+    {
+      "id": "0xae564cd0f9fa44c4d475bcfabcdfdd5396e36ad29ca883fbe04065813d1994cf",
+      "question": "Dota 2: Team Spirit vs Team Resilience (BO3) - The International Elimination Round",
+      "volume": "239858.75931499977",
+      "liquidity": "188303.7123",
+      "end_date": "2026-08-16T11:00:00Z"
     },
     {
       "id": "0x49479ffa88e2897569b1d413e3bc558003e21912edee09d080ca6bac6eb20805",
       "question": "Strait of Hormuz traffic returns to normal by August 15?",
-      "volume": "7144492.569747997",
-      "liquidity": "2191605.75177",
+      "volume": "7144514.009747996",
+      "liquidity": "2191573.28567",
       "end_date": "2026-08-15T00:00:00Z"
     },
     {
       "id": "0xc1556ecbe613e403dfb9e38bf1b25a8aee2aa1687f2b343bc896dd2c9763ed74",
       "question": "Israel x Iran ceasefire continues through August 31?",
-      "volume": "1988558.4750310006",
-      "liquidity": "59776.3402",
+      "volume": "1990500.3850310005",
+      "liquidity": "69376.3843",
       "end_date": "2026-08-31T23:59:00Z"
     },
     {
       "id": "0x34ca32cf938667c0364c601808162dd57ef6eac7fde891089b992c6933463108",
       "question": "Will Tigres de la UANL win on 2026-08-15?",
-      "volume": "222361.92735700007",
-      "liquidity": "457748.03949",
+      "volume": "222896.48735700003",
+      "liquidity": "335988.16517",
       "end_date": "2026-08-16T03:10:00Z"
-    },
-    {
-      "id": "0xa5d4705e97381854c6cf2f58dd994e92927c764469c6e14f5370332611594098",
-      "question": "Dota 2: Team Spirit vs Team Resilience - Game 1 Winner",
-      "volume": "215876.94085899997",
-      "liquidity": "1330456.08666",
-      "end_date": "2026-08-16T09:00:00Z"
-    },
-    {
-      "id": "0x4fc889e9cabcfaf2dca7f9f7af0e9bca69ac54dbf529a6d9e61ae35d0526d7df",
-      "question": "Arsenal FC vs. Manchester City: O/U 2.5",
-      "volume": "208744.5112459999",
-      "liquidity": "93995.0364",
-      "end_date": "2026-08-16T14:00:00Z"
-    },
-    {
-      "id": "0xae564cd0f9fa44c4d475bcfabcdfdd5396e36ad29ca883fbe04065813d1994cf",
-      "question": "Dota 2: Team Spirit vs Team Resilience (BO3) - The International Elimination Round",
-      "volume": "205375.49350999977",
-      "liquidity": "210123.0915",
-      "end_date": "2026-08-16T11:00:00Z"
-    },
-    {
-      "id": "0x480f13228e5e6b3f8ab489447a08a415713877c1104693f3cd70aa89fe06920f",
-      "question": "Will the price of Bitcoin be above $60,000 on August 16?",
-      "volume": "250758.99105399984",
-      "liquidity": "20094.53679",
-      "end_date": "2026-08-16T16:00:00Z"
     }
   ]
 }
