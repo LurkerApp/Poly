@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T19:20:53.863687+00:00",
+  "last_updated": "2026-08-16T19:44:12.774612+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
@@ -85,29 +85,37 @@
     {
       "wallet": "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8",
       "name": "fRibrenlc",
-      "score": 43.2,
-      "roi_score": 19.2,
+      "score": 43.5,
+      "roi_score": 16.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 34.5,
-      "volume_score": 98.0,
-      "roi": -21.2,
-      "cash_pnl": -22680.67,
-      "realized_pnl": -1546.79,
-      "total_usdc": 386581.96,
+      "early_entry_score": 41.4,
+      "volume_score": 98.1,
+      "roi": -25.3,
+      "cash_pnl": -27687.07,
+      "realized_pnl": 0.0,
+      "total_usdc": 390216.87,
       "trade_count": 500,
       "market_count": 34,
       "position_count": 11,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:12:19+00:00",
+      "last_active": "2026-08-16T19:42:43+00:00",
       "top_markets": [
         "LoL: Weibo Gaming vs Invictus Gaming (BO3) - LPL Group Nirvana",
         "Cincinnati Open: Lois Boisson vs Belinda Bencic",
         "UFC 330: Charles Johnson vs. Eduardo Chapolin (Catchweight, Prelims)"
       ],
       "signals": [
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.5671,
+          "cur_price": 0.195,
+          "usdc_size": 10047.38,
+          "outcome": "Juan Manuel Cerundolo"
+        },
         {
           "market": "Counter-Strike: Astralis vs NIP (BO3) - Esports World Cup Group B",
           "signal": "SKIP",
@@ -120,53 +128,9 @@
           "market": "Counter-Strike: Legacy vs MIBR (BO3) - Esports World Cup Group B",
           "signal": "SKIP",
           "avg_price": 0.38,
-          "cur_price": 0.865,
-          "usdc_size": 4777.73,
+          "cur_price": 0.985,
+          "usdc_size": 2333.31,
           "outcome": "MIBR"
-        },
-        {
-          "market": "LoL: Movistar KOI vs Natus Vincere (BO3) - LEC Regular Season",
-          "signal": "SKIP",
-          "avg_price": 0.79,
-          "cur_price": 0.9995,
-          "usdc_size": 16879.79,
-          "outcome": "Movistar KOI"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfc24e28d5f70690cde4feb4e0d35eaf6ee0a0ca6",
-      "name": "alphasp",
-      "score": 42.8,
-      "roi_score": 44.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.0,
-      "roi": 16.4,
-      "cash_pnl": 135.68,
-      "realized_pnl": 0.0,
-      "total_usdc": 9753.77,
-      "trade_count": 138,
-      "market_count": 36,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T17:57:21+00:00",
-      "top_markets": [
-        "Bloomfield Hills: Michael Zheng vs Adam Walton",
-        "Will Yokohama FC win on 2026-08-16?",
-        "Will Ipswich Town win on 2026-08-15?"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain win on 2026-08-16?",
-          "signal": "ENTER",
-          "avg_price": 0.58,
-          "cur_price": 0.595,
-          "usdc_size": 964.04,
-          "outcome": "Yes"
         }
       ]
     },
@@ -198,121 +162,137 @@
       "signals": []
     },
     {
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "name": "RN1",
-      "score": 42.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 74.0,
-      "volume_score": 87.0,
-      "roi": -93.2,
-      "cash_pnl": -3918062.88,
-      "realized_pnl": 833624.83,
-      "total_usdc": 90504.26,
-      "trade_count": 500,
-      "market_count": 128,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:57+00:00",
-      "top_markets": [
-        "Cincinnati Open: Taylor Fritz vs Alex Michelsen",
-        "Arizona Diamondbacks vs. Atlanta Braves",
-        "RCD Espanyol de Barcelona vs. Levante UD: O/U 3.5"
-      ],
-      "signals": [
-        {
-          "market": "Will Manchester City win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.7806,
-          "cur_price": 0.0005,
-          "usdc_size": 27997.91,
-          "outcome": "No"
-        },
-        {
-          "market": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
-          "signal": "SKIP",
-          "avg_price": 0.788,
-          "cur_price": 0.0005,
-          "usdc_size": 25450.35,
-          "outcome": "Felix Auger-Aliassime"
-        },
-        {
-          "market": "Will Arsenal FC win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.7021,
-          "cur_price": 0.9995,
-          "usdc_size": 15876.99,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
       "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
       "name": "swisstony",
-      "score": 40.7,
-      "roi_score": 32.8,
+      "score": 40.9,
+      "roi_score": 32.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.6,
-      "roi": -0.8,
-      "cash_pnl": -10047.3,
-      "realized_pnl": -46955.88,
-      "total_usdc": 57784.12,
+      "volume_score": 86.8,
+      "roi": -1.2,
+      "cash_pnl": -10978.48,
+      "realized_pnl": -29092.91,
+      "total_usdc": 88454.2,
       "trade_count": 500,
-      "market_count": 202,
+      "market_count": 164,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:58+00:00",
+      "last_active": "2026-08-16T19:43:16+00:00",
       "top_markets": [
         "Will Paris Saint-Germain win on 2026-08-16?",
-        "SS Lazio vs. Mantova 1911: O/U 4.5",
-        "CR Vasco da Gama vs. Santos FC: Both Teams to Score"
+        "Will Quer\u00e9taro FC win on 2026-08-16?",
+        "Will Racing Club De Lens vs. Paris Saint-Germain end in a draw?"
       ],
       "signals": [
         {
           "market": "Will Paris Saint-Germain win on 2026-08-16?",
           "signal": "ENTER",
-          "avg_price": 0.5999,
-          "cur_price": 0.595,
-          "usdc_size": 2866.68,
+          "avg_price": 0.5578,
+          "cur_price": 0.55,
+          "usdc_size": 627.19,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.5603,
+          "cur_price": 0.765,
+          "usdc_size": 9100.03,
           "outcome": "Yes"
         },
         {
           "market": "Will Paris Saint-Germain win on 2026-08-16?",
           "signal": "SKIP",
-          "avg_price": 0.475,
-          "cur_price": 0.595,
-          "usdc_size": 2410.26,
+          "avg_price": 0.4531,
+          "cur_price": 0.55,
+          "usdc_size": 4886.22,
           "outcome": "No"
+        },
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.5317,
+          "cur_price": 0.195,
+          "usdc_size": 4378.9,
+          "outcome": "Arthur Rinderknech"
+        },
+        {
+          "market": "Arsenal FC vs. Manchester City: O/U 3.5",
+          "signal": "SKIP",
+          "avg_price": 0.6756,
+          "cur_price": 0.0005,
+          "usdc_size": 2877.77,
+          "outcome": "Under"
+        },
+        {
+          "market": "Will FC Arouca win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.7747,
+          "cur_price": 0.9995,
+          "usdc_size": 2419.06,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xfc24e28d5f70690cde4feb4e0d35eaf6ee0a0ca6",
+      "name": "alphasp",
+      "score": 39.6,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 70.6,
+      "roi": 0.0,
+      "cash_pnl": 0.59,
+      "realized_pnl": 0.0,
+      "total_usdc": 10529.9,
+      "trade_count": 140,
+      "market_count": 36,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:28:55+00:00",
+      "top_markets": [
+        "Bloomfield Hills: Michael Zheng vs Adam Walton",
+        "Will Yokohama FC win on 2026-08-16?",
+        "Will Ipswich Town win on 2026-08-15?"
+      ],
+      "signals": [
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "signal": "LATE",
+          "avg_price": 0.5847,
+          "cur_price": 0.55,
+          "usdc_size": 1589.48,
+          "outcome": "Yes"
         }
       ]
     },
     {
       "wallet": "0x1f624696c102b99bea92c75a502fa7e4a6d676f6",
       "name": "emacron",
-      "score": 39.3,
-      "roi_score": 30.5,
+      "score": 39.2,
+      "roi_score": 30.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 76.7,
-      "roi": -4.2,
-      "cash_pnl": -1935.24,
-      "realized_pnl": 17.02,
-      "total_usdc": 23573.86,
+      "volume_score": 76.8,
+      "roi": -4.9,
+      "cash_pnl": -2126.27,
+      "realized_pnl": 15.78,
+      "total_usdc": 23665.22,
       "trade_count": 500,
-      "market_count": 252,
+      "market_count": 257,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:18:37+00:00",
+      "last_active": "2026-08-16T19:43:31+00:00",
       "top_markets": [
         "New York City FC vs. Philadelphia Union: New York City FC 1st Half O/U 1.5",
         "Al Ta'ee Saudi Club vs. Al Qadisiyah Saudi Club: Al Ta'ee Saudi Club O/U 0.5",
@@ -330,7 +310,7 @@
       "early_entry_score": 0.2,
       "volume_score": 81.8,
       "roi": -8.9,
-      "cash_pnl": -332.23,
+      "cash_pnl": -335.13,
       "realized_pnl": 0.0,
       "total_usdc": 45605.34,
       "trade_count": 375,
@@ -357,25 +337,79 @@
       ]
     },
     {
-      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "name": "VeryLucky888",
-      "score": 38.9,
-      "roi_score": 3.7,
+      "wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
+      "name": "bluemario",
+      "score": 38.7,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
-      "volume_score": 77.7,
-      "roi": -44.5,
-      "cash_pnl": -146268.7,
-      "realized_pnl": -1024.79,
-      "total_usdc": 26759.31,
+      "volume_score": 87.1,
+      "roi": -96.4,
+      "cash_pnl": -33674.41,
+      "realized_pnl": 10337.34,
+      "total_usdc": 91993.93,
       "trade_count": 500,
-      "market_count": 124,
+      "market_count": 8,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:40:48+00:00",
+      "top_markets": [
+        "RCD Espanyol de Barcelona vs. Levante UD: O/U 2.5",
+        "RCD Espanyol de Barcelona vs. Levante UD: O/U 1.5",
+        "Pumas de la UNAM vs. Quer\u00e9taro FC: O/U 0.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7d0caf83488431bb760f204d52bdf5246e2fa3b7",
+      "name": "mr-sarkozy",
+      "score": 38.7,
+      "roi_score": 28.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.6,
+      "roi": -7.3,
+      "cash_pnl": -3796.42,
+      "realized_pnl": -179.44,
+      "total_usdc": 23251.45,
+      "trade_count": 500,
+      "market_count": 206,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:04+00:00",
+      "last_active": "2026-08-16T19:38:48+00:00",
+      "top_markets": [
+        "New York City FC vs. Philadelphia Union: New York City FC 1st Half O/U 1.5",
+        "Al Ta'ee Saudi Club vs. Al Qadisiyah Saudi Club: Al Ta'ee Saudi Club O/U 0.5",
+        "Will Seattle Sounders FC vs. Vancouver Whitecaps FC end in a draw?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "name": "VeryLucky888",
+      "score": 38.3,
+      "roi_score": 1.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 77.7,
+      "roi": -47.6,
+      "cash_pnl": -154403.02,
+      "realized_pnl": -701.38,
+      "total_usdc": 26871.72,
+      "trade_count": 500,
+      "market_count": 128,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:43:40+00:00",
       "top_markets": [
         "SS Lazio vs. Mantova 1911: O/U 4.5",
         "SS Lazio vs. Mantova 1911: O/U 1.5",
@@ -383,28 +417,20 @@
       ],
       "signals": [
         {
-          "market": "Counter-Strike: Legacy vs MIBR (BO3) - Esports World Cup Group B",
+          "market": "Will CA Mineiro win on 2026-08-15?",
           "signal": "SKIP",
-          "avg_price": 0.3524,
-          "cur_price": 0.865,
-          "usdc_size": 770.83,
-          "outcome": "MIBR"
+          "avg_price": 0.4599,
+          "cur_price": 0.765,
+          "usdc_size": 2114.99,
+          "outcome": "No"
         },
         {
           "market": "Counter-Strike: Legacy vs MIBR - Map 2 Winner",
           "signal": "SKIP",
           "avg_price": 0.57,
-          "cur_price": 0.755,
-          "usdc_size": 1110.0,
+          "cur_price": 0.945,
+          "usdc_size": 1570.0,
           "outcome": "Legacy"
-        },
-        {
-          "market": "LoL: Movistar KOI vs Natus Vincere - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.5599,
-          "cur_price": 0.9995,
-          "usdc_size": 1866.4,
-          "outcome": "Movistar KOI"
         },
         {
           "market": "Counter-Strike: Legacy vs MIBR - Map 1 Winner",
@@ -417,116 +443,56 @@
       ]
     },
     {
-      "wallet": "0x7d0caf83488431bb760f204d52bdf5246e2fa3b7",
-      "name": "mr-sarkozy",
-      "score": 38.6,
-      "roi_score": 28.0,
+      "wallet": "0xbe0b51cd591efa9f0e4a5356617b23ad0c4e48fd",
+      "name": "sanazz",
+      "score": 36.8,
+      "roi_score": 19.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 76.5,
-      "roi": -7.9,
-      "cash_pnl": -4311.01,
-      "realized_pnl": -180.03,
-      "total_usdc": 23004.5,
-      "trade_count": 500,
-      "market_count": 200,
-      "position_count": 500,
+      "volume_score": 84.5,
+      "roi": -20.7,
+      "cash_pnl": -458.83,
+      "realized_pnl": -2161.77,
+      "total_usdc": 65374.68,
+      "trade_count": 72,
+      "market_count": 36,
+      "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:07+00:00",
+      "last_active": "2026-08-16T19:21:13+00:00",
       "top_markets": [
-        "New York City FC vs. Philadelphia Union: New York City FC 1st Half O/U 1.5",
-        "Al Ta'ee Saudi Club vs. Al Qadisiyah Saudi Club: Al Ta'ee Saudi Club O/U 0.5",
-        "Will Seattle Sounders FC vs. Vancouver Whitecaps FC end in a draw?"
+        "Athens Open: Clara Tauson vs Sara Bejlek",
+        "Racing Club De Lens vs. Paris Saint-Germain: O/U 0.5",
+        "Arsenal FC vs. Manchester City: O/U 1.5"
       ],
       "signals": []
     },
     {
-      "wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
-      "name": "GoalLineGhost",
-      "score": 37.6,
+      "wallet": "0x6b60a3f8b855d2957641a2ebe7affff05ff9edbe",
+      "name": "TrumpFaather",
+      "score": 35.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 50.0,
-      "volume_score": 76.4,
-      "roi": -65.4,
-      "cash_pnl": -1059192.41,
-      "realized_pnl": -4902.36,
-      "total_usdc": 22490.25,
+      "early_entry_score": 17.4,
+      "volume_score": 99.1,
+      "roi": -99.9,
+      "cash_pnl": -17403.27,
+      "realized_pnl": 0.0,
+      "total_usdc": 446813.38,
       "trade_count": 500,
-      "market_count": 108,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T19:20:24+00:00",
-      "top_markets": [
-        "Be\u015fikta\u015f JK vs. Ey\u00fcpspor: O/U 3.5",
-        "Pumas de la UNAM vs. Quer\u00e9taro FC: O/U 0.5",
-        "Will Gr\u00eamio FBPA win on 2026-08-15?"
-      ],
-      "signals": [
-        {
-          "market": "Will Arsenal FC win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.7309,
-          "cur_price": 0.9995,
-          "usdc_size": 53151.3,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Manchester City win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.8857,
-          "cur_price": 0.0005,
-          "usdc_size": 33773.76,
-          "outcome": "No"
-        },
-        {
-          "market": "Will RCD Espanyol de Barcelona win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.7387,
-          "cur_price": 0.9995,
-          "usdc_size": 20814.88,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Arsenal FC vs. Manchester City: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.5222,
-          "cur_price": 0.9995,
-          "usdc_size": 12370.14,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0xde8255bfde4de8ceefc7658462234da51ef8705d",
-      "name": "spnir",
-      "score": 34.8,
-      "roi_score": 9.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.3,
-      "volume_score": 94.3,
-      "roi": -35.9,
-      "cash_pnl": -4989.88,
-      "realized_pnl": 17.4,
-      "total_usdc": 236910.07,
-      "trade_count": 500,
-      "market_count": 27,
+      "market_count": 50,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T18:23:16+00:00",
+      "last_active": "2026-08-16T17:12:22+00:00",
       "top_markets": [
-        "Dota 2: Team Liquid vs Aurora (BO3) - The International Group Stage",
         "Dota 2: Team Resilience vs Team Yandex (BO3) - The International Group Stage",
-        "Dota 2: Team Liquid vs Team Spirit (BO3) - The International Group Stage"
+        "Dota 2: Iron Wing vs Team Falcons (BO3) - The International Group Stage",
+        "Dota 2: Iron Wing vs Team Liquid (BO3) - The International Group Stage"
       ],
       "signals": []
     },
@@ -558,31 +524,66 @@
       "signals": []
     },
     {
+      "wallet": "0x656236bb88c779b22dc3327bdd17eed482e64e48",
+      "name": "AT7",
+      "score": 34.1,
+      "roi_score": 12.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.6,
+      "roi": -31.0,
+      "cash_pnl": -254.35,
+      "realized_pnl": -0.4,
+      "total_usdc": 26405.8,
+      "trade_count": 500,
+      "market_count": 238,
+      "position_count": 18,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:27:46+00:00",
+      "top_markets": [
+        "Los Angeles FC vs. Quer\u00e9taro FC: O/U 1.5",
+        "Racing Club De Lens vs. Paris Saint-Germain: O/U 0.5",
+        "Arsenal FC vs. Manchester City: O/U 2.5"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
       "name": "wr0ngw4yb3tt0r",
-      "score": 33.2,
+      "score": 33.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 4.7,
+      "early_entry_score": 5.6,
       "volume_score": 100.0,
-      "roi": -98.6,
-      "cash_pnl": -12396104.49,
+      "roi": -98.5,
+      "cash_pnl": -12402082.15,
       "realized_pnl": -63401.25,
-      "total_usdc": 1040866.74,
+      "total_usdc": 1055304.64,
       "trade_count": 500,
-      "market_count": 82,
+      "market_count": 71,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:20:09+00:00",
+      "last_active": "2026-08-16T19:41:10+00:00",
       "top_markets": [
         "Racing Club De Lens vs. Paris Saint-Germain: O/U 3.5",
         "Arizona Diamondbacks vs. Atlanta Braves",
-        "Texas Rangers vs. Athletics: O/U 10.5"
+        "Spread: Atlanta Braves (-2.5)"
       ],
       "signals": [
+        {
+          "market": "Miami Marlins vs. Cincinnati Reds",
+          "signal": "LATE",
+          "avg_price": 0.4544,
+          "cur_price": 0.475,
+          "usdc_size": 5934.72,
+          "outcome": "Cincinnati Reds"
+        },
         {
           "market": "Arsenal FC vs. Manchester City: O/U 2.5",
           "signal": "SKIP",
@@ -592,49 +593,22 @@
           "outcome": "Under"
         },
         {
+          "market": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "signal": "SKIP",
+          "avg_price": 0.62,
+          "cur_price": 0.375,
+          "usdc_size": 19217.74,
+          "outcome": "Los Angeles Dodgers"
+        },
+        {
           "market": "Will Manchester City win on 2026-08-16?",
           "signal": "SKIP",
           "avg_price": 0.6101,
           "cur_price": 0.0005,
           "usdc_size": 8291.39,
           "outcome": "No"
-        },
-        {
-          "market": "Baltimore Orioles vs. Tampa Bay Rays",
-          "signal": "SKIP",
-          "avg_price": 0.6731,
-          "cur_price": 0.9995,
-          "usdc_size": 6959.43,
-          "outcome": "Baltimore Orioles"
         }
       ]
-    },
-    {
-      "wallet": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-      "name": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-      "score": 32.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 5.9,
-      "volume_score": 95.0,
-      "roi": -93.1,
-      "cash_pnl": -844964.09,
-      "realized_pnl": -4256.94,
-      "total_usdc": 258775.03,
-      "trade_count": 500,
-      "market_count": 203,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T18:51:52+00:00",
-      "top_markets": [
-        "Set Handicap: Altmaier (-1.5) vs Wong (+1.5)",
-        "Sion: Daniel Salazar Martinez vs Lorenzo Bocchi",
-        "Kansas City Royals vs. Los Angeles Angels"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x3aa508427bbc8e3f7519dfebf40d82b570c1cd80",
@@ -718,33 +692,6 @@
       "signals": []
     },
     {
-      "wallet": "0x6b60a3f8b855d2957641a2ebe7affff05ff9edbe",
-      "name": "TrumpFaather",
-      "score": 32.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.1,
-      "roi": -95.8,
-      "cash_pnl": -17221.18,
-      "realized_pnl": 0.0,
-      "total_usdc": 446813.38,
-      "trade_count": 500,
-      "market_count": 50,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T17:12:22+00:00",
-      "top_markets": [
-        "Dota 2: Team Resilience vs Team Yandex (BO3) - The International Group Stage",
-        "Dota 2: Iron Wing vs Team Falcons (BO3) - The International Group Stage",
-        "Dota 2: Iron Wing vs Team Liquid (BO3) - The International Group Stage"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x336bf6f91a4619d54f0711a20fe468adf4d71233",
       "name": "ArturitoFilito",
       "score": 32.2,
@@ -754,7 +701,7 @@
       "early_entry_score": 0.2,
       "volume_score": 97.2,
       "roi": -98.4,
-      "cash_pnl": -848032.3,
+      "cash_pnl": -848217.23,
       "realized_pnl": 23717.47,
       "total_usdc": 346970.96,
       "trade_count": 500,
@@ -779,18 +726,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 95.7,
-      "roi": -70.2,
-      "cash_pnl": -51258.44,
+      "volume_score": 95.8,
+      "roi": -69.2,
+      "cash_pnl": -51251.95,
       "realized_pnl": -4627.5,
-      "total_usdc": 286260.94,
+      "total_usdc": 286709.0,
       "trade_count": 500,
-      "market_count": 94,
-      "position_count": 158,
+      "market_count": 96,
+      "position_count": 160,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T18:08:12+00:00",
+      "last_active": "2026-08-16T19:26:00+00:00",
       "top_markets": [
         "Atlante FC vs. Deportivo Toluca FC: O/U 0.5",
         "AC Milan vs. Manchester United: O/U 1.5",
@@ -817,7 +764,7 @@
       "early_entry_score": 0.6,
       "volume_score": 95.2,
       "roi": -94.5,
-      "cash_pnl": -280835.71,
+      "cash_pnl": -280851.98,
       "realized_pnl": -4435.24,
       "total_usdc": 267532.36,
       "trade_count": 500,
@@ -843,13 +790,13 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 96.3,
-      "roi": -83.1,
-      "cash_pnl": -100354.62,
+      "roi": -100.0,
+      "cash_pnl": -100752.6,
       "realized_pnl": 72.41,
       "total_usdc": 306444.77,
       "trade_count": 500,
       "market_count": 27,
-      "position_count": 9,
+      "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
@@ -862,6 +809,50 @@
       "signals": []
     },
     {
+      "wallet": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+      "name": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+      "score": 32.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.3,
+      "roi": -94.1,
+      "cash_pnl": -853695.4,
+      "realized_pnl": -4256.94,
+      "total_usdc": 270686.01,
+      "trade_count": 500,
+      "market_count": 204,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:21:25+00:00",
+      "top_markets": [
+        "Set Handicap: Altmaier (-1.5) vs Wong (+1.5)",
+        "Sion: Daniel Salazar Martinez vs Lorenzo Bocchi",
+        "Kansas City Royals vs. Los Angeles Angels"
+      ],
+      "signals": [
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.4453,
+          "cur_price": 0.765,
+          "usdc_size": 2375.31,
+          "outcome": "No"
+        },
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.3806,
+          "cur_price": 0.195,
+          "usdc_size": 1305.59,
+          "outcome": "Juan Manuel Cerundolo"
+        }
+      ]
+    },
+    {
       "wallet": "0x51089c0c128100e6c9210759fd932aecf76d29cb",
       "name": "zzqq35",
       "score": 31.9,
@@ -870,8 +861,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.3,
       "volume_score": 93.4,
-      "roi": -51.2,
-      "cash_pnl": -8693.18,
+      "roi": -53.1,
+      "cash_pnl": -9009.48,
       "realized_pnl": 243.68,
       "total_usdc": 209370.99,
       "trade_count": 500,
@@ -889,40 +880,49 @@
       "signals": [
         {
           "market": "Will Paris Saint-Germain win on 2026-08-16?",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.5999,
-          "cur_price": 0.595,
-          "usdc_size": 1575.0,
+          "cur_price": 0.55,
+          "usdc_size": 1225.0,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xbe0b51cd591efa9f0e4a5356617b23ad0c4e48fd",
-      "name": "sanazz",
+      "wallet": "0xde8255bfde4de8ceefc7658462234da51ef8705d",
+      "name": "spnir",
       "score": 31.9,
-      "roi_score": 3.3,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.3,
-      "roi": -45.1,
-      "cash_pnl": -277.0,
-      "realized_pnl": -2161.77,
-      "total_usdc": 63770.12,
-      "trade_count": 70,
-      "market_count": 35,
-      "position_count": 6,
+      "volume_score": 94.3,
+      "roi": -66.1,
+      "cash_pnl": -9189.88,
+      "realized_pnl": 17.4,
+      "total_usdc": 236910.07,
+      "trade_count": 500,
+      "market_count": 27,
+      "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:51+00:00",
+      "last_active": "2026-08-16T18:23:16+00:00",
       "top_markets": [
-        "Athens Open: Clara Tauson vs Sara Bejlek",
-        "Racing Club De Lens vs. Paris Saint-Germain: O/U 0.5",
-        "Arsenal FC vs. Manchester City: O/U 1.5"
+        "Dota 2: Team Liquid vs Aurora (BO3) - The International Group Stage",
+        "Dota 2: Team Resilience vs Team Yandex (BO3) - The International Group Stage",
+        "Dota 2: Team Liquid vs Team Spirit (BO3) - The International Group Stage"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.43,
+          "cur_price": 0.765,
+          "usdc_size": 4700.0,
+          "outcome": "No"
+        }
+      ]
     },
     {
       "wallet": "0xfed13032babfdb49ad387b7136e6a6fbd746eedb",
@@ -1021,25 +1021,34 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.5,
-      "volume_score": 90.7,
-      "roi": -97.9,
-      "cash_pnl": -49592.24,
+      "early_entry_score": 0.2,
+      "volume_score": 90.9,
+      "roi": -92.6,
+      "cash_pnl": -49592.0,
       "realized_pnl": -1446.19,
-      "total_usdc": 148109.2,
-      "trade_count": 254,
-      "market_count": 109,
-      "position_count": 72,
+      "total_usdc": 151099.05,
+      "trade_count": 256,
+      "market_count": 111,
+      "position_count": 74,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T18:31:21+00:00",
+      "last_active": "2026-08-16T19:41:19+00:00",
       "top_markets": [
         "Bitcoin Up or Down - July 14, 5:20PM-5:25PM ET",
         "Will Trump say \"Iran\" during events with Xi Jinping?",
         "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "signal": "ENTER",
+          "avg_price": 0.5532,
+          "cur_price": 0.55,
+          "usdc_size": 2372.17,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
       "wallet": "0x1d6f9cd9a2be5a4a9652ebe2dac3f4bd5466789b",
@@ -1050,9 +1059,9 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.9,
       "volume_score": 89.8,
-      "roi": -93.4,
-      "cash_pnl": -39279.94,
-      "realized_pnl": -190.21,
+      "roi": -94.0,
+      "cash_pnl": -39535.11,
+      "realized_pnl": -189.04,
       "total_usdc": 131435.32,
       "trade_count": 500,
       "market_count": 53,
@@ -1069,25 +1078,101 @@
       "signals": []
     },
     {
-      "wallet": "0x224f7ef690d952cf551a471846d5afb4892e514a",
-      "name": "WeBuyHighWeSelllow",
-      "score": 31.5,
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "score": 31.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.6,
-      "volume_score": 88.8,
-      "roi": -97.5,
-      "cash_pnl": -2000065.11,
+      "early_entry_score": 0.0,
+      "volume_score": 90.9,
+      "roi": -93.2,
+      "cash_pnl": -3934043.05,
+      "realized_pnl": 834643.52,
+      "total_usdc": 152107.88,
+      "trade_count": 500,
+      "market_count": 105,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:43:28+00:00",
+      "top_markets": [
+        "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+        "Cincinnati Open: Marta Kostyuk vs Sofia Kenin",
+        "St. Louis Cardinals vs. Chicago Cubs"
+      ],
+      "signals": [
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.6266,
+          "cur_price": 0.195,
+          "usdc_size": 33874.42,
+          "outcome": "Juan Manuel Cerundolo"
+        },
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.4996,
+          "cur_price": 0.195,
+          "usdc_size": 30955.35,
+          "outcome": "Arthur Rinderknech"
+        },
+        {
+          "market": "Will Manchester City win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.7806,
+          "cur_price": 0.0005,
+          "usdc_size": 27997.91,
+          "outcome": "No"
+        },
+        {
+          "market": "Will FC Arouca win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.8899,
+          "cur_price": 0.9995,
+          "usdc_size": 23608.74,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Arsenal FC vs. Manchester City: O/U 3.5",
+          "signal": "SKIP",
+          "avg_price": 0.5167,
+          "cur_price": 0.0005,
+          "usdc_size": 21744.35,
+          "outcome": "Under"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.7021,
+          "cur_price": 0.9995,
+          "usdc_size": 15876.99,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x224f7ef690d952cf551a471846d5afb4892e514a",
+      "name": "WeBuyHighWeSelllow",
+      "score": 31.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.2,
+      "roi": -97.0,
+      "cash_pnl": -1995916.21,
       "realized_pnl": -34038.0,
-      "total_usdc": 114865.72,
+      "total_usdc": 120817.49,
       "trade_count": 500,
       "market_count": 187,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:20:03+00:00",
+      "last_active": "2026-08-16T19:43:12+00:00",
       "top_markets": [
         "UFC 330: Mackenzie Dern vs. Gillian Robertson (Women's Strawweight, Main Card)",
         "UD Las Palmas vs. Albacete Balompi\u00e9: Albacete Balompi\u00e9 O/U 1.5",
@@ -1095,74 +1180,19 @@
       ],
       "signals": [
         {
+          "market": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "signal": "SKIP",
+          "avg_price": 0.62,
+          "cur_price": 0.375,
+          "usdc_size": 6000.0,
+          "outcome": "Los Angeles Dodgers"
+        },
+        {
           "market": "Arsenal FC vs. Manchester City: O/U 2.5",
           "signal": "SKIP",
           "avg_price": 0.53,
           "cur_price": 0.9995,
           "usdc_size": 5597.2,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
-      "name": "bluemario",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.4,
-      "roi": -82.2,
-      "cash_pnl": -33909.55,
-      "realized_pnl": 9253.73,
-      "total_usdc": 95579.07,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:09+00:00",
-      "top_markets": [
-        "RCD Espanyol de Barcelona vs. Levante UD: O/U 2.5",
-        "RCD Espanyol de Barcelona vs. Levante UD: O/U 1.5",
-        "Real Racing Club vs. Villarreal CF: O/U 4.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf059aff5075d2bb73405d9fe301f8ae20ed46dd9",
-      "name": "kkpay19888",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.9,
-      "volume_score": 85.3,
-      "roi": -98.9,
-      "cash_pnl": -953975.04,
-      "realized_pnl": -15284.63,
-      "total_usdc": 72281.55,
-      "trade_count": 500,
-      "market_count": 57,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T18:17:12+00:00",
-      "top_markets": [
-        "Will Philadelphia Union win on 2026-08-13?",
-        "Will CF Am\u00e9rica win on 2026-08-13?",
-        "Will Inter Milano win on 2026-08-15?"
-      ],
-      "signals": [
-        {
-          "market": "Arsenal FC vs. Manchester City: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.51,
-          "cur_price": 0.9995,
-          "usdc_size": 4997.5,
           "outcome": "Over"
         }
       ]
@@ -1197,14 +1227,14 @@
     {
       "wallet": "0x443bcce588e26763987e9ae44b6b7845f09fe8bb",
       "name": "0x443BCCe588E26763987e9Ae44b6b7845F09Fe8bB-1769536380439",
-      "score": 31.2,
+      "score": 31.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.6,
+      "early_entry_score": 0.0,
       "volume_score": 86.0,
-      "roi": -99.2,
-      "cash_pnl": -379295.72,
+      "roi": -99.0,
+      "cash_pnl": -378695.72,
       "realized_pnl": -74135.34,
       "total_usdc": 79915.5,
       "trade_count": 500,
@@ -1222,54 +1252,38 @@
       "signals": []
     },
     {
-      "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
-      "name": "GC-P",
+      "wallet": "0xf059aff5075d2bb73405d9fe301f8ae20ed46dd9",
+      "name": "kkpay19888",
       "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 1.0,
-      "volume_score": 83.9,
-      "roi": -87.3,
-      "cash_pnl": -603739.1,
-      "realized_pnl": 427063.74,
-      "total_usdc": 60207.73,
+      "early_entry_score": 0.0,
+      "volume_score": 85.3,
+      "roi": -98.9,
+      "cash_pnl": -953379.33,
+      "realized_pnl": -15284.63,
+      "total_usdc": 72281.55,
       "trade_count": 500,
-      "market_count": 85,
+      "market_count": 57,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:18:31+00:00",
+      "last_active": "2026-08-16T18:17:12+00:00",
       "top_markets": [
-        "Will Pumas de la UNAM win on 2026-08-16?",
-        "Will Paris Saint-Germain win on 2026-08-16?",
-        "Will CA Mineiro win on 2026-08-15?"
+        "Will Philadelphia Union win on 2026-08-13?",
+        "Will CF Am\u00e9rica win on 2026-08-13?",
+        "Will Inter Milano win on 2026-08-15?"
       ],
       "signals": [
         {
-          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "market": "Arsenal FC vs. Manchester City: O/U 2.5",
           "signal": "SKIP",
-          "avg_price": 0.4179,
-          "cur_price": 0.595,
-          "usdc_size": 878.83,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Manchester City win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.6338,
-          "cur_price": 0.0005,
-          "usdc_size": 2573.45,
-          "outcome": "No"
-        },
-        {
-          "market": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
-          "signal": "SKIP",
-          "avg_price": 0.5799,
-          "cur_price": 0.0005,
-          "usdc_size": 2519.14,
-          "outcome": "Felix Auger-Aliassime"
+          "avg_price": 0.51,
+          "cur_price": 0.9995,
+          "usdc_size": 4997.5,
+          "outcome": "Over"
         }
       ]
     },
@@ -1283,8 +1297,8 @@
       "early_entry_score": 0.0,
       "volume_score": 84.1,
       "roi": -79.9,
-      "cash_pnl": -3093.8,
-      "realized_pnl": -513.71,
+      "cash_pnl": -3093.59,
+      "realized_pnl": -514.87,
       "total_usdc": 62021.27,
       "trade_count": 500,
       "market_count": 108,
@@ -1301,46 +1315,70 @@
       "signals": []
     },
     {
-      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
-      "name": "NM-P",
+      "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
+      "name": "GC-P",
       "score": 30.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.9,
-      "volume_score": 82.7,
-      "roi": -83.3,
-      "cash_pnl": -630242.46,
-      "realized_pnl": 348080.75,
-      "total_usdc": 51969.13,
+      "early_entry_score": 0.0,
+      "volume_score": 83.7,
+      "roi": -89.9,
+      "cash_pnl": -613651.61,
+      "realized_pnl": 485782.84,
+      "total_usdc": 59175.51,
       "trade_count": 500,
-      "market_count": 76,
+      "market_count": 93,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:20:00+00:00",
+      "last_active": "2026-08-16T19:43:39+00:00",
       "top_markets": [
-        "Will Paris Saint-Germain win on 2026-08-16?",
         "Will Pumas de la UNAM win on 2026-08-16?",
-        "Will Ey\u00fcpspor win on 2026-08-16?"
+        "Will Paris Saint-Germain win on 2026-08-16?",
+        "Will CA Mineiro win on 2026-08-15?"
       ],
       "signals": [
         {
-          "market": "Will Paris Saint-Germain win on 2026-08-16?",
-          "signal": "ENTER",
-          "avg_price": 0.5799,
-          "cur_price": 0.595,
-          "usdc_size": 7609.32,
-          "outcome": "Yes"
+          "market": "Arsenal FC vs. Manchester City: O/U 3.5",
+          "signal": "SKIP",
+          "avg_price": 0.6931,
+          "cur_price": 0.0005,
+          "usdc_size": 2898.55,
+          "outcome": "Under"
         },
         {
           "market": "Will Paris Saint-Germain win on 2026-08-16?",
           "signal": "SKIP",
-          "avg_price": 0.4164,
-          "cur_price": 0.595,
-          "usdc_size": 4676.87,
+          "avg_price": 0.4179,
+          "cur_price": 0.55,
+          "usdc_size": 1122.2,
           "outcome": "No"
+        },
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.4509,
+          "cur_price": 0.765,
+          "usdc_size": 625.64,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Manchester City win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.6338,
+          "cur_price": 0.0005,
+          "usdc_size": 2573.45,
+          "outcome": "No"
+        },
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.3852,
+          "cur_price": 0.195,
+          "usdc_size": 717.87,
+          "outcome": "Juan Manuel Cerundolo"
         }
       ]
     },
@@ -1353,8 +1391,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.5,
       "volume_score": 83.6,
-      "roi": -96.6,
-      "cash_pnl": -79311.38,
+      "roi": -96.3,
+      "cash_pnl": -79029.45,
       "realized_pnl": -685.63,
       "total_usdc": 58006.46,
       "trade_count": 500,
@@ -1387,10 +1425,10 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.6,
+      "early_entry_score": 0.0,
       "volume_score": 83.6,
       "roi": -99.8,
-      "cash_pnl": -1477198.3,
+      "cash_pnl": -1476898.3,
       "realized_pnl": -117334.28,
       "total_usdc": 57813.45,
       "trade_count": 500,
@@ -1408,6 +1446,142 @@
       "signals": []
     },
     {
+      "wallet": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
+      "name": "SnakeBall",
+      "score": 30.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 83.0,
+      "roi": -85.3,
+      "cash_pnl": -442377.61,
+      "realized_pnl": -2583.78,
+      "total_usdc": 53941.72,
+      "trade_count": 500,
+      "market_count": 209,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:43:10+00:00",
+      "top_markets": [
+        "Racing Club De Lens vs. Paris Saint-Germain: Racing Club De Lens O/U 2.5",
+        "Will Paris Saint-Germain win on 2026-08-16?",
+        "Will Ey\u00fcpspor win on 2026-08-16?"
+      ],
+      "signals": [
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "signal": "LATE",
+          "avg_price": 0.586,
+          "cur_price": 0.55,
+          "usdc_size": 7750.02,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.3993,
+          "cur_price": 0.55,
+          "usdc_size": 5822.57,
+          "outcome": "No"
+        },
+        {
+          "market": "Arsenal FC vs. Manchester City: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.7328,
+          "cur_price": 0.9995,
+          "usdc_size": 2844.79,
+          "outcome": "Over"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.8252,
+          "cur_price": 0.9995,
+          "usdc_size": 2362.38,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
+      "name": "NM-P",
+      "score": 30.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 83.2,
+      "roi": -84.7,
+      "cash_pnl": -637549.86,
+      "realized_pnl": 348275.45,
+      "total_usdc": 55032.46,
+      "trade_count": 500,
+      "market_count": 82,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:42:57+00:00",
+      "top_markets": [
+        "Will Paris Saint-Germain win on 2026-08-16?",
+        "Will Pumas de la UNAM win on 2026-08-16?",
+        "Will Ey\u00fcpspor win on 2026-08-16?"
+      ],
+      "signals": [
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "signal": "LATE",
+          "avg_price": 0.5799,
+          "cur_price": 0.55,
+          "usdc_size": 6594.75,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Paris Saint-Germain win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.4164,
+          "cur_price": 0.55,
+          "usdc_size": 5972.01,
+          "outcome": "No"
+        },
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.4536,
+          "cur_price": 0.765,
+          "usdc_size": 2011.74,
+          "outcome": "No"
+        },
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.5532,
+          "cur_price": 0.765,
+          "usdc_size": 4555.76,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Arsenal FC vs. Manchester City: O/U 3.5",
+          "signal": "SKIP",
+          "avg_price": 0.6971,
+          "cur_price": 0.0005,
+          "usdc_size": 2606.34,
+          "outcome": "Under"
+        },
+        {
+          "market": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "signal": "SKIP",
+          "avg_price": 0.39,
+          "cur_price": 0.195,
+          "usdc_size": 650.37,
+          "outcome": "Juan Manuel Cerundolo"
+        }
+      ]
+    },
+    {
       "wallet": "0x24aed16ebf76464505c4c9a7c0ba625656cdd35b",
       "name": "Win-666168",
       "score": 30.8,
@@ -1416,8 +1590,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.6,
       "volume_score": 82.0,
-      "roi": -91.8,
-      "cash_pnl": -18908.83,
+      "roi": -90.8,
+      "cash_pnl": -18711.19,
       "realized_pnl": -826.51,
       "total_usdc": 47104.39,
       "trade_count": 500,
@@ -1441,7 +1615,7 @@
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.3,
+      "early_entry_score": 0.2,
       "volume_score": 81.3,
       "roi": -98.0,
       "cash_pnl": -897151.18,
@@ -1479,8 +1653,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.3,
       "volume_score": 80.8,
-      "roi": -98.2,
-      "cash_pnl": -4982.91,
+      "roi": -97.4,
+      "cash_pnl": -4940.91,
       "realized_pnl": -226.81,
       "total_usdc": 40212.41,
       "trade_count": 500,
@@ -1498,6 +1672,33 @@
       "signals": []
     },
     {
+      "wallet": "0xeb739f5e4f45b0b68688bb252f08327bc01653b0",
+      "name": "WINSONS",
+      "score": 30.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.2,
+      "volume_score": 80.3,
+      "roi": -99.9,
+      "cash_pnl": -446197.07,
+      "realized_pnl": -44705.56,
+      "total_usdc": 37880.84,
+      "trade_count": 500,
+      "market_count": 63,
+      "position_count": 307,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-16T19:42:42+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - August 16, 11:55AM-12:00PM ET",
+        "Bitcoin Up or Down - August 16, 11:45AM-11:50AM ET",
+        "Bitcoin Up or Down - August 16, 3:10PM-3:15PM ET"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0x191f77486cb1c5af42e54734621804936a204a8d",
       "name": "LaarsY",
       "score": 30.6,
@@ -1506,108 +1707,21 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.4,
       "volume_score": 79.9,
-      "roi": -99.1,
-      "cash_pnl": -439163.77,
+      "roi": -98.9,
+      "cash_pnl": -439504.39,
       "realized_pnl": 5225.15,
-      "total_usdc": 35624.35,
+      "total_usdc": 35581.41,
       "trade_count": 500,
-      "market_count": 50,
+      "market_count": 48,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:31+00:00",
+      "last_active": "2026-08-16T19:40:57+00:00",
       "top_markets": [
         "Will Inter Miami CF win on 2026-08-12?",
         "Will CF Am\u00e9rica win on 2026-08-13?",
         "Will CF Cruz Azul win on 2026-08-13?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-      "name": "SnakeBall",
-      "score": 30.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.2,
-      "roi": -82.9,
-      "cash_pnl": -445817.52,
-      "realized_pnl": -2583.78,
-      "total_usdc": 37263.27,
-      "trade_count": 500,
-      "market_count": 247,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T19:20:03+00:00",
-      "top_markets": [
-        "Will RCD Espanyol de Barcelona win on 2026-08-16?",
-        "Will Paris Saint-Germain win on 2026-08-16?",
-        "SS Lazio vs. Mantova 1911: SS Lazio O/U 0.5"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain win on 2026-08-16?",
-          "signal": "ENTER",
-          "avg_price": 0.6025,
-          "cur_price": 0.595,
-          "usdc_size": 7337.96,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Paris Saint-Germain win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.375,
-          "cur_price": 0.595,
-          "usdc_size": 2894.92,
-          "outcome": "No"
-        },
-        {
-          "market": "Arsenal FC vs. Manchester City: O/U 2.5",
-          "signal": "SKIP",
-          "avg_price": 0.7328,
-          "cur_price": 0.9995,
-          "usdc_size": 2844.79,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will Arsenal FC win on 2026-08-16?",
-          "signal": "SKIP",
-          "avg_price": 0.8252,
-          "cur_price": 0.9995,
-          "usdc_size": 2362.38,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xeb739f5e4f45b0b68688bb252f08327bc01653b0",
-      "name": "WINSONS",
-      "score": 30.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.2,
-      "volume_score": 80.1,
-      "roi": -100.0,
-      "cash_pnl": -446182.07,
-      "realized_pnl": -44737.18,
-      "total_usdc": 36787.34,
-      "trade_count": 500,
-      "market_count": 60,
-      "position_count": 307,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-16T19:19:18+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - August 16, 11:55AM-12:00PM ET",
-        "Bitcoin Up or Down - August 16, 11:45AM-11:50AM ET",
-        "Bitcoin Up or Down - August 16, 3:10PM-3:15PM ET"
       ],
       "signals": []
     },
@@ -1639,31 +1753,88 @@
       "signals": []
     },
     {
-      "wallet": "0x656236bb88c779b22dc3327bdd17eed482e64e48",
-      "name": "AT7",
-      "score": 30.2,
+      "wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+      "name": "GoalLineGhost",
+      "score": 29.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.4,
-      "roi": -85.1,
-      "cash_pnl": -180.64,
-      "realized_pnl": -0.27,
-      "total_usdc": 25863.35,
+      "volume_score": 73.4,
+      "roi": -71.5,
+      "cash_pnl": -1073925.2,
+      "realized_pnl": -4933.99,
+      "total_usdc": 15232.3,
       "trade_count": 500,
-      "market_count": 238,
-      "position_count": 17,
+      "market_count": 82,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-16T19:20:18+00:00",
+      "last_active": "2026-08-16T19:43:15+00:00",
       "top_markets": [
-        "Los Angeles FC vs. Quer\u00e9taro FC: O/U 1.5",
-        "Racing Club De Lens vs. Paris Saint-Germain: O/U 0.5",
-        "Arsenal FC vs. Manchester City: O/U 2.5"
+        "Will CA Sarmiento win on 2026-08-16?",
+        "Pumas de la UNAM vs. Quer\u00e9taro FC: O/U 0.5",
+        "Will Gr\u00eamio FBPA win on 2026-08-15?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Arsenal FC win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.7309,
+          "cur_price": 0.9995,
+          "usdc_size": 53151.3,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Arsenal FC vs. Manchester City: O/U 3.5",
+          "signal": "SKIP",
+          "avg_price": 0.5003,
+          "cur_price": 0.0005,
+          "usdc_size": 38580.55,
+          "outcome": "Under"
+        },
+        {
+          "market": "Will Manchester City win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.8857,
+          "cur_price": 0.0005,
+          "usdc_size": 33773.76,
+          "outcome": "No"
+        },
+        {
+          "market": "Arsenal FC vs. Manchester City: O/U 2.5",
+          "signal": "SKIP",
+          "avg_price": 0.5222,
+          "cur_price": 0.9995,
+          "usdc_size": 12370.14,
+          "outcome": "Over"
+        },
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.4389,
+          "cur_price": 0.765,
+          "usdc_size": 1348.63,
+          "outcome": "No"
+        },
+        {
+          "market": "Will CA Mineiro win on 2026-08-15?",
+          "signal": "SKIP",
+          "avg_price": 0.6281,
+          "cur_price": 0.765,
+          "usdc_size": 3179.83,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will FC Arouca win on 2026-08-16?",
+          "signal": "SKIP",
+          "avg_price": 0.5667,
+          "cur_price": 0.9995,
+          "usdc_size": 2271.33,
+          "outcome": "Yes"
+        }
+      ]
     },
     {
       "wallet": "0xd239b47d0ae11526e3f9a3df61fb8b7a683b4ac2",
@@ -1674,8 +1845,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 1.1,
       "volume_score": 70.3,
-      "roi": -81.1,
-      "cash_pnl": -4452.53,
+      "roi": -84.1,
+      "cash_pnl": -4618.88,
       "realized_pnl": 72.86,
       "total_usdc": 10127.36,
       "trade_count": 24,
@@ -1695,8 +1866,8 @@
           "market": "Will Paris Saint-Germain win on 2026-08-16?",
           "signal": "SKIP",
           "avg_price": 0.41,
-          "cur_price": 0.595,
-          "usdc_size": 663.33,
+          "cur_price": 0.55,
+          "usdc_size": 847.02,
           "outcome": "No"
         }
       ]
@@ -1706,142 +1877,142 @@
     {
       "id": "0x4fc889e9cabcfaf2dca7f9f7af0e9bca69ac54dbf529a6d9e61ae35d0526d7df",
       "question": "Arsenal FC vs. Manchester City: O/U 2.5",
-      "volume": "3996223.7300620032",
-      "liquidity": "189555.03473",
+      "volume": "3996225.6900620004",
+      "liquidity": "189545.14463",
       "end_date": "2026-08-16T14:00:00Z"
     },
     {
       "id": "0xbfbf42bef7dc25cd95c59937a4216db962670d78f766e7730befa4cdad9bad31",
       "question": "Will Arsenal FC win on 2026-08-16?",
-      "volume": "2596123.2647990026",
-      "liquidity": "813368.50878",
+      "volume": "2596151.114798999",
+      "liquidity": "808330.32703",
       "end_date": "2026-08-16T14:00:00Z"
     },
     {
       "id": "0x2fb15810a854d163b5c5321907d0621208b743ee89b02a7afafea019e66c83fd",
       "question": "Will Manchester City win on 2026-08-16?",
-      "volume": "1875125.1467420019",
-      "liquidity": "422243.48253",
+      "volume": "1876340.3467420002",
+      "liquidity": "421901.64573",
       "end_date": "2026-08-16T14:00:00Z"
     },
     {
       "id": "0x32a9e1c910b0938abf010cde694578a21437ebbf2a8d33fa773e21297c27ede7",
       "question": "Counter-Strike: Astralis vs NIP (BO3) - Esports World Cup Group B",
-      "volume": "1256527.8639269986",
-      "liquidity": "475659.42834",
+      "volume": "1260120.3339269983",
+      "liquidity": "479967.51338",
       "end_date": "2026-08-16T22:00:00Z"
     },
     {
       "id": "0x7d0aaf81bbd3fd73b6a1651cce08a452c0cbf9c0cbb4520ce0f981065b639d88",
       "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
-      "volume": "83441524.339377",
-      "liquidity": "24386.92105",
+      "volume": "83441524.33937699",
+      "liquidity": "21518.74166",
       "end_date": "2026-06-01T00:00:00Z"
     },
     {
       "id": "0xaae790e6d4aaae7bbf7679ab993fc6928ab4c521258a779a51135276043d1404",
       "question": "Counter-Strike: Astralis vs NIP - Map 2 Winner",
-      "volume": "969541.2492960002",
-      "liquidity": "1042694.89218",
+      "volume": "969962.2092960002",
+      "liquidity": "1043356.13341",
       "end_date": "2026-08-16T22:00:00Z"
     },
     {
       "id": "0x8f6e3bc77cacdb7112dc476a356e2ff815ac81ac7ebaefd139c5d488037ca1d5",
       "question": "LoL: G2 Esports vs Fnatic - Game 1 Winner",
-      "volume": "809683.5435019996",
-      "liquidity": "973627.9954",
+      "volume": "809686.3235019997",
+      "liquidity": "979454.03178",
       "end_date": "2026-08-16T23:05:00Z"
-    },
-    {
-      "id": "0x091cf26c853682dbdc91ee38d63b1838801842992bdd4dc761b39cffc531e106",
-      "question": "Will RCD Espanyol de Barcelona win on 2026-08-16?",
-      "volume": "776320.4596409994",
-      "liquidity": "314662.3495",
-      "end_date": "2026-08-16T17:00:00Z"
-    },
-    {
-      "id": "0x9d7581efd5b13397ff17584c1b32cf85672fc6e394b866a7b46fc17af8716616",
-      "question": "LoL: Movistar KOI vs Natus Vincere - Game 2 Winner",
-      "volume": "687846.8282699995",
-      "liquidity": "507796.07678",
-      "end_date": "2026-08-16T21:05:00Z"
-    },
-    {
-      "id": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56",
-      "question": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
-      "volume": "668610.5385089999",
-      "liquidity": "260830.07455",
-      "end_date": "2026-08-23T14:00:00Z"
     },
     {
       "id": "0x7da4c1f8aa302a0424a00c371e8f956ae6bfe222ab283ae2d45177c43ff5348a",
       "question": "Counter-Strike: Legacy vs MIBR - Map 1 Winner",
-      "volume": "610499.0549890002",
-      "liquidity": "650088.45378",
+      "volume": "613299.5149890002",
+      "liquidity": "658216.99618",
       "end_date": "2026-08-16T23:50:00Z"
     },
     {
       "id": "0x4c58ecd28e545198cd0054113f9f038a5afb1e7f04d7fc4d8a0e792b2cb724de",
       "question": "LoL: G2 Esports vs Fnatic (BO3) - LEC Regular Season",
-      "volume": "584088.688499",
-      "liquidity": "477787.39644",
+      "volume": "587905.7484989999",
+      "liquidity": "499120.47431",
       "end_date": "2026-08-16T23:05:00Z"
     },
     {
       "id": "0x722eaec8a96bd39b6738bc3e39421b82e34ed73f74bffdd21a069ddcb2c18d43",
       "question": "LoL: G2 Esports vs Fnatic - Game 2 Winner",
-      "volume": "543862.2574589999",
-      "liquidity": "434253.31501",
+      "volume": "544842.7174589998",
+      "liquidity": "456262.71993",
       "end_date": "2026-08-16T23:05:00Z"
-    },
-    {
-      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
-      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "5905566.041999999",
-      "liquidity": "255138.00278",
-      "end_date": "2027-05-30T23:59:00Z"
-    },
-    {
-      "id": "0xceb95b92110903907f8630f1c554b996753f021ce02689535929b5e4757b1666",
-      "question": "Counter-Strike: Legacy vs MIBR (BO3) - Esports World Cup Group B",
-      "volume": "406708.0627109999",
-      "liquidity": "179455.0281",
-      "end_date": "2026-08-16T23:50:00Z"
-    },
-    {
-      "id": "0x3640b1eee9454fd27dac2ad95834d03ef623859b9f8b358148d7e840b3808351",
-      "question": "LoL: Movistar KOI vs Natus Vincere (BO3) - LEC Regular Season",
-      "volume": "411052.6773140002",
-      "liquidity": "758015.02376",
-      "end_date": "2026-08-16T21:05:00Z"
-    },
-    {
-      "id": "0x6b059637d3cca3928f49b1129cbf9f638f5b32964b9ee07a2dd57337c19cabb8",
-      "question": "LoL: Movistar KOI vs Natus Vincere - Game 1 Winner",
-      "volume": "376923.62608800014",
-      "liquidity": "505925.74078",
-      "end_date": "2026-08-16T21:05:00Z"
     },
     {
       "id": "0x0e8fccff7c045c4567603f1902b09c661fab005ca625d53573477fa341217923",
       "question": "Counter-Strike: Legacy vs MIBR - Map 2 Winner",
-      "volume": "375987.4300349999",
-      "liquidity": "121265.9707",
+      "volume": "514765.9575910001",
+      "liquidity": "158246.3673",
+      "end_date": "2026-08-16T23:50:00Z"
+    },
+    {
+      "id": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046",
+      "question": "Miami Marlins vs. Cincinnati Reds",
+      "volume": "451855.53356300015",
+      "liquidity": "240233.8688",
+      "end_date": "2026-08-23T17:40:00Z"
+    },
+    {
+      "id": "0xceb95b92110903907f8630f1c554b996753f021ce02689535929b5e4757b1666",
+      "question": "Counter-Strike: Legacy vs MIBR (BO3) - Esports World Cup Group B",
+      "volume": "451478.3929909999",
+      "liquidity": "141007.3023",
       "end_date": "2026-08-16T23:50:00Z"
     },
     {
       "id": "0x4234a8fc59b3e003c00d5f590bce15bd7f778b2049dabd7bcb3e6d0e409398a6",
       "question": "Will Paris Saint-Germain win on 2026-08-16?",
-      "volume": "386233.77160699986",
-      "liquidity": "124765.5905",
+      "volume": "447046.8644449999",
+      "liquidity": "136984.0278",
       "end_date": "2026-08-16T18:45:00Z"
     },
     {
-      "id": "0x99826ff0b8ab2562bf6d23b56efc61a38434352e6fc173c3bf9709044b6df890",
-      "question": "Baltimore Orioles vs. Tampa Bay Rays",
-      "volume": "377843.30044399964",
-      "liquidity": "388605.94432",
-      "end_date": "2026-08-23T16:15:00Z"
+      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
+      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+      "volume": "5909831.0419999985",
+      "liquidity": "244653.7457",
+      "end_date": "2027-05-30T23:59:00Z"
+    },
+    {
+      "id": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340",
+      "question": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "volume": "389920.3653240001",
+      "liquidity": "546759.4272",
+      "end_date": "2026-08-23T20:10:00Z"
+    },
+    {
+      "id": "0x793f5e86fa07ff4edd06ebfe33d0cbd66f9db68aa516c0aedca494d15f5684b3",
+      "question": "Will CA Mineiro win on 2026-08-15?",
+      "volume": "335575.2462699997",
+      "liquidity": "109444.7375",
+      "end_date": "2026-08-16T19:00:00Z"
+    },
+    {
+      "id": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73",
+      "question": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+      "volume": "326528.2581409998",
+      "liquidity": "258358.1559",
+      "end_date": "2026-08-23T14:00:00Z"
+    },
+    {
+      "id": "0xa8d30f318897125cb3326a29415598e4725372f0c20c3cd439e34b56d0008010",
+      "question": "Will FC Arouca win on 2026-08-16?",
+      "volume": "310938.297008",
+      "liquidity": "231659.51405",
+      "end_date": "2026-08-16T17:00:00Z"
+    },
+    {
+      "id": "0x27f268860c11313eb1838b8194a17879f6349548b2e52e30b64812679db572fa",
+      "question": "Arsenal FC vs. Manchester City: O/U 3.5",
+      "volume": "304546.499973",
+      "liquidity": "123840.715",
+      "end_date": "2026-08-16T14:00:00Z"
     }
   ]
 }
