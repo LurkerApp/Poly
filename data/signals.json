@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T15:50:08.245148+00:00",
+  "last_updated": "2026-08-17T16:24:48.596427+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
@@ -15,14 +15,14 @@
       "roi": null,
       "cash_pnl": 0,
       "realized_pnl": 0,
-      "total_usdc": 1054812.6,
+      "total_usdc": 1056174.77,
       "trade_count": 500,
-      "market_count": 42,
+      "market_count": 44,
       "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:38:13+00:00",
+      "last_active": "2026-08-17T16:23:19+00:00",
       "top_markets": [
         "LoL: T1 vs DN SOOPers - Game 2 Winner",
         "LoL: T1 vs DN SOOPers - Game 4 Winner",
@@ -84,58 +84,74 @@
       "signals": []
     },
     {
-      "wallet": "0x5b395d55116310abae449110a4d60791533f1f68",
-      "name": "AncientCipher",
-      "score": 49.5,
-      "roi_score": 40.9,
+      "wallet": "0x73b18f50526851ac8e52f07ae0f3cc665bfdbd8b",
+      "name": "landighertz",
+      "score": 48.6,
+      "roi_score": 33.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 43.8,
-      "volume_score": 81.8,
-      "roi": 11.3,
-      "cash_pnl": 53.1,
-      "realized_pnl": 0.0,
-      "total_usdc": 45712.15,
+      "early_entry_score": 41.9,
+      "volume_score": 97.8,
+      "roi": 0.0,
+      "cash_pnl": 32.99,
+      "realized_pnl": 4.27,
+      "total_usdc": 375224.38,
       "trade_count": 500,
-      "market_count": 214,
-      "position_count": 3,
+      "market_count": 15,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:41:52+00:00",
+      "last_active": "2026-08-17T15:47:12+00:00",
       "top_markets": [
-        "Roehampton: Radu Albot vs Leonardo Rossi",
-        "LoL: LYON vs Sentinels - Game 2 Winner",
-        "LoL: DN SOOPers vs Kiwoom DRX - Game 2 Winner"
+        "Will Arsenal FC win on 2026-08-16?",
+        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+        "LoL: Top Esports vs EDward Gaming - Game 1 Winner"
       ],
       "signals": []
     },
     {
       "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
       "name": "suntori",
-      "score": 49.3,
-      "roi_score": 34.9,
+      "score": 48.6,
+      "roi_score": 33.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 56.1,
-      "volume_score": 79.6,
-      "roi": 2.3,
-      "cash_pnl": 4749.53,
-      "realized_pnl": -1752.07,
-      "total_usdc": 34168.31,
+      "early_entry_score": 52.0,
+      "volume_score": 81.6,
+      "roi": 0.8,
+      "cash_pnl": 1701.44,
+      "realized_pnl": 2012.36,
+      "total_usdc": 44720.95,
       "trade_count": 500,
-      "market_count": 192,
+      "market_count": 173,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:49:34+00:00",
+      "last_active": "2026-08-17T16:24:10+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - August 17, 10:30AM-10:35AM ET",
-        "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
+        "US Sassuolo Calcio vs. Cesena FC: O/U 2.5",
+        "LoL: Natus Vincere vs Team Heretics - Game 2 Winner",
         "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season"
       ],
       "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6244,
+          "cur_price": 0.245,
+          "usdc_size": 59501.62,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5021,
+          "cur_price": 0.245,
+          "usdc_size": 2238.83,
+          "outcome": "Yes"
+        },
         {
           "market": "Counter-Strike: Noir Verse vs ex-RUSTEC (BO3) - CCT Europe Closed Qualifier: Series #7 Play-In",
           "signal": "SKIP",
@@ -153,11 +169,19 @@
           "outcome": "DN SOOPers"
         },
         {
+          "market": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
+          "signal": "SKIP",
+          "avg_price": 0.5401,
+          "cur_price": 0.69,
+          "usdc_size": 1056.47,
+          "outcome": "Iga Swiatek"
+        },
+        {
           "market": "LoL: T1 vs DN SOOPers - Game 4 Winner",
           "signal": "SKIP",
           "avg_price": 0.7059,
           "cur_price": 0.0005,
-          "usdc_size": 1417.9,
+          "usdc_size": 1367.3,
           "outcome": "DN SOOPers"
         },
         {
@@ -165,7 +189,7 @@
           "signal": "SKIP",
           "avg_price": 0.4884,
           "cur_price": 0.0005,
-          "usdc_size": 1055.29,
+          "usdc_size": 1042.91,
           "outcome": "DN SOOPers"
         },
         {
@@ -173,7 +197,7 @@
           "signal": "SKIP",
           "avg_price": 0.6337,
           "cur_price": 0.9995,
-          "usdc_size": 814.37,
+          "usdc_size": 941.0,
           "outcome": "Natus Vincere"
         },
         {
@@ -187,91 +211,31 @@
       ]
     },
     {
-      "wallet": "0x73b18f50526851ac8e52f07ae0f3cc665bfdbd8b",
-      "name": "landighertz",
-      "score": 47.8,
-      "roi_score": 30.8,
+      "wallet": "0xd5cbe978435ad311c45baf76e799e4fbf6e46303",
+      "name": "smiley-958",
+      "score": 47.9,
+      "roi_score": 31.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 41.9,
-      "volume_score": 97.8,
-      "roi": -3.7,
-      "cash_pnl": -4249.21,
-      "realized_pnl": 4.27,
-      "total_usdc": 375224.38,
-      "trade_count": 500,
-      "market_count": 15,
+      "early_entry_score": 51.7,
+      "volume_score": 82.0,
+      "roi": -3.0,
+      "cash_pnl": -18.25,
+      "realized_pnl": 0.0,
+      "total_usdc": 47375.81,
+      "trade_count": 354,
+      "market_count": 148,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:47:12+00:00",
+      "last_active": "2026-08-17T16:12:39+00:00",
       "top_markets": [
-        "Will Arsenal FC win on 2026-08-16?",
-        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-        "LoL: Top Esports vs EDward Gaming - Game 1 Winner"
+        "Will Bitcoin dip to $60,000 in April?",
+        "Indian Premier League: Gujarat Titans vs Rajasthan Royals",
+        "The Hundred: Manchester Super Giants vs Sunrisers Leeds"
       ],
       "signals": []
-    },
-    {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 47.1,
-      "roi_score": 28.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 55.9,
-      "volume_score": 75.9,
-      "roi": -6.8,
-      "cash_pnl": -9545.92,
-      "realized_pnl": 4636.82,
-      "total_usdc": 21058.74,
-      "trade_count": 500,
-      "market_count": 182,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-17T15:49:25+00:00",
-      "top_markets": [
-        "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
-        "Will the price of Bitcoin be above $64,000 on August 17?",
-        "Bitcoin Up or Down - August 17, 11:05AM-11:10AM ET"
-      ],
-      "signals": [
-        {
-          "market": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.5023,
-          "cur_price": 0.0005,
-          "usdc_size": 9843.78,
-          "outcome": "DN SOOPers"
-        },
-        {
-          "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
-          "signal": "SKIP",
-          "avg_price": 0.6846,
-          "cur_price": 0.865,
-          "usdc_size": 1504.89,
-          "outcome": "Natus Vincere"
-        },
-        {
-          "market": "LoL: T1 vs DN SOOPers - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6654,
-          "cur_price": 0.9995,
-          "usdc_size": 873.12,
-          "outcome": "T1"
-        },
-        {
-          "market": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6651,
-          "cur_price": 0.9995,
-          "usdc_size": 669.5,
-          "outcome": "Natus Vincere"
-        }
-      ]
     },
     {
       "wallet": "0x0bd1a026c711ed3de48da6f4eaf2065e2f1742d2",
@@ -297,6 +261,153 @@
         "LoL: T1 vs DN SOOPers - Game 3 Winner",
         "LoL: T1 vs DN SOOPers - Game 4 Winner",
         "LoL: T1 vs DN SOOPers - Game 2 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
+      "score": 46.7,
+      "roi_score": 28.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 53.1,
+      "volume_score": 76.8,
+      "roi": -7.2,
+      "cash_pnl": -10461.65,
+      "realized_pnl": 4059.36,
+      "total_usdc": 23798.25,
+      "trade_count": 500,
+      "market_count": 180,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-17T16:23:40+00:00",
+      "top_markets": [
+        "LoL: Natus Vincere vs Team Heretics - Game 2 Winner",
+        "Will the price of Bitcoin be above $64,000 on August 17?",
+        "LoL: Natus Vincere vs Team Heretics - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.5023,
+          "cur_price": 0.0005,
+          "usdc_size": 9248.86,
+          "outcome": "DN SOOPers"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5959,
+          "cur_price": 0.245,
+          "usdc_size": 4110.24,
+          "outcome": "No"
+        },
+        {
+          "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
+          "signal": "SKIP",
+          "avg_price": 0.6846,
+          "cur_price": 0.97,
+          "usdc_size": 1681.39,
+          "outcome": "Natus Vincere"
+        },
+        {
+          "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
+          "signal": "SKIP",
+          "avg_price": 0.5301,
+          "cur_price": 0.795,
+          "usdc_size": 580.06,
+          "outcome": "Thiago Agustin Tirante"
+        },
+        {
+          "market": "LoL: T1 vs DN SOOPers - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6654,
+          "cur_price": 0.9995,
+          "usdc_size": 873.12,
+          "outcome": "T1"
+        },
+        {
+          "market": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6651,
+          "cur_price": 0.9995,
+          "usdc_size": 773.61,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0xff80bb23621f03fc6300808730316c78abe09b4d",
+      "name": "Zenhack",
+      "score": 46.2,
+      "roi_score": 25.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 46.1,
+      "volume_score": 91.4,
+      "roi": -11.6,
+      "cash_pnl": -5525.35,
+      "realized_pnl": -36.86,
+      "total_usdc": 161222.72,
+      "trade_count": 500,
+      "market_count": 34,
+      "position_count": 19,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-17T15:51:52+00:00",
+      "top_markets": [
+        "LoL: T1 vs DN SOOPers - Game 4 Winner",
+        "US x Iran diplomatic meeting by August 31, 2026?",
+        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
+          "signal": "SKIP",
+          "avg_price": 0.5999,
+          "cur_price": 0.795,
+          "usdc_size": 2105.09,
+          "outcome": "Martin Landaluce"
+        },
+        {
+          "market": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6124,
+          "cur_price": 0.9995,
+          "usdc_size": 2575.55,
+          "outcome": "Natus Vincere"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3b4c4ff8459237e1c65c981d7a8ee43746e5e850",
+      "name": "cc9999",
+      "score": 46.1,
+      "roi_score": 25.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 40.9,
+      "volume_score": 97.9,
+      "roi": -11.7,
+      "cash_pnl": -1327.41,
+      "realized_pnl": -10.04,
+      "total_usdc": 379630.98,
+      "trade_count": 500,
+      "market_count": 22,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-17T16:23:45+00:00",
+      "top_markets": [
+        "LoL: LGD Gaming vs JD Gaming (BO3) - LPL Group Ascend",
+        "Counter-Strike: 9z vs magic (BO3) - Esports World Cup Group D",
+        "LoL: Movistar KOI vs Natus Vincere (BO3) - LEC Regular Season"
       ],
       "signals": []
     },
@@ -328,77 +439,6 @@
       "signals": []
     },
     {
-      "wallet": "0xff80bb23621f03fc6300808730316c78abe09b4d",
-      "name": "Zenhack",
-      "score": 44.6,
-      "roi_score": 20.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 46.1,
-      "volume_score": 91.5,
-      "roi": -19.9,
-      "cash_pnl": -9495.07,
-      "realized_pnl": -36.86,
-      "total_usdc": 163924.09,
-      "trade_count": 500,
-      "market_count": 34,
-      "position_count": 19,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-17T15:47:39+00:00",
-      "top_markets": [
-        "LoL: T1 vs DN SOOPers - Game 4 Winner",
-        "US x Iran diplomatic meeting by August 31, 2026?",
-        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
-          "signal": "LATE",
-          "avg_price": 0.5999,
-          "cur_price": 0.635,
-          "usdc_size": 3328.31,
-          "outcome": "Martin Landaluce"
-        },
-        {
-          "market": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6124,
-          "cur_price": 0.9995,
-          "usdc_size": 2228.97,
-          "outcome": "Natus Vincere"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd5cbe978435ad311c45baf76e799e4fbf6e46303",
-      "name": "smiley-958",
-      "score": 44.2,
-      "roi_score": 14.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 61.4,
-      "volume_score": 81.9,
-      "roi": -28.3,
-      "cash_pnl": -27.72,
-      "realized_pnl": 0.0,
-      "total_usdc": 46672.89,
-      "trade_count": 349,
-      "market_count": 147,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-17T15:39:30+00:00",
-      "top_markets": [
-        "Will Bitcoin dip to $60,000 in April?",
-        "Indian Premier League: Gujarat Titans vs Rajasthan Royals",
-        "The Hundred: Manchester Super Giants vs Sunrisers Leeds"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x1e386b0e0f1fc58c67ce738d7bbc4ba7ec74fd47",
       "name": "beeemw",
       "score": 43.9,
@@ -407,8 +447,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 75.8,
       "volume_score": 100.0,
-      "roi": -91.5,
-      "cash_pnl": -23983.83,
+      "roi": -92.4,
+      "cash_pnl": -24222.2,
       "realized_pnl": -1819.79,
       "total_usdc": 611269.0,
       "trade_count": 500,
@@ -428,8 +468,8 @@
           "market": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
           "signal": "SKIP",
           "avg_price": 0.8599,
-          "cur_price": 0.615,
-          "usdc_size": 837.21,
+          "cur_price": 0.69,
+          "usdc_size": 598.84,
           "outcome": "Iga Swiatek"
         }
       ]
@@ -470,17 +510,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 72.0,
       "volume_score": 100.0,
-      "roi": -97.4,
-      "cash_pnl": -1219900.62,
-      "realized_pnl": 211125.41,
-      "total_usdc": 499573.24,
+      "roi": -97.3,
+      "cash_pnl": -1228802.69,
+      "realized_pnl": 211005.44,
+      "total_usdc": 506417.64,
       "trade_count": 500,
-      "market_count": 55,
-      "position_count": 324,
+      "market_count": 56,
+      "position_count": 325,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:47:13+00:00",
+      "last_active": "2026-08-17T16:01:24+00:00",
       "top_markets": [
         "Sion: Petr Nesterov vs Calvin Hemery",
         "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
@@ -489,26 +529,26 @@
       "signals": [
         {
           "market": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
-          "signal": "ENTER",
-          "avg_price": 0.62,
-          "cur_price": 0.615,
-          "usdc_size": 7200.0,
+          "signal": "SKIP",
+          "avg_price": 0.5699,
+          "cur_price": 0.69,
+          "usdc_size": 10299.98,
           "outcome": "Iga Swiatek"
         },
         {
           "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
           "signal": "SKIP",
           "avg_price": 0.397,
-          "cur_price": 0.635,
-          "usdc_size": 7096.66,
+          "cur_price": 0.795,
+          "usdc_size": 4549.14,
           "outcome": "Martin Landaluce"
         },
         {
           "market": "Cincinnati Open: Alexander Blockx vs Flavio Cobolli",
           "signal": "SKIP",
           "avg_price": 0.48,
-          "cur_price": 0.4,
-          "usdc_size": 4800.0,
+          "cur_price": 0.335,
+          "usdc_size": 7350.0,
           "outcome": "Flavio Cobolli"
         }
       ]
@@ -516,14 +556,14 @@
     {
       "wallet": "0x214039968998abdcdbd998d15d699296f3570e12",
       "name": "q136084",
-      "score": 42.8,
-      "roi_score": 7.6,
+      "score": 42.5,
+      "roi_score": 6.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 63.6,
       "volume_score": 84.6,
-      "roi": -38.6,
-      "cash_pnl": -1865.03,
+      "roi": -39.9,
+      "cash_pnl": -1928.94,
       "realized_pnl": -2.34,
       "total_usdc": 66005.15,
       "trade_count": 500,
@@ -576,8 +616,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 69.4,
       "volume_score": 83.9,
-      "roi": -98.3,
-      "cash_pnl": -85166.21,
+      "roi": -97.9,
+      "cash_pnl": -84802.12,
       "realized_pnl": 78.85,
       "total_usdc": 60808.13,
       "trade_count": 500,
@@ -600,6 +640,69 @@
           "cur_price": 0.0005,
           "usdc_size": 899.55,
           "outcome": "ex-RUSTEC"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5b395d55116310abae449110a4d60791533f1f68",
+      "name": "AncientCipher",
+      "score": 41.2,
+      "roi_score": 13.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 43.8,
+      "volume_score": 81.8,
+      "roi": -30.5,
+      "cash_pnl": -132.9,
+      "realized_pnl": 0.0,
+      "total_usdc": 45712.15,
+      "trade_count": 500,
+      "market_count": 214,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-17T15:41:52+00:00",
+      "top_markets": [
+        "Roehampton: Radu Albot vs Leonardo Rossi",
+        "LoL: LYON vs Sentinels - Game 2 Winner",
+        "LoL: DN SOOPers vs Kiwoom DRX - Game 2 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb035c5b61f2efeaa0b6ff34346cf7ed18165ff78",
+      "name": "Nootpengu",
+      "score": 41.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 64.8,
+      "volume_score": 89.0,
+      "roi": -71.5,
+      "cash_pnl": -1820.61,
+      "realized_pnl": 60.17,
+      "total_usdc": 118427.63,
+      "trade_count": 76,
+      "market_count": 26,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-17T15:53:21+00:00",
+      "top_markets": [
+        "Counter-Strike: Noir Verse vs ex-RUSTEC (BO3) - CCT Europe Closed Qualifier: Series #7 Play-In",
+        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+        "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group"
+      ],
+      "signals": [
+        {
+          "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
+          "signal": "SKIP",
+          "avg_price": 0.5098,
+          "cur_price": 0.795,
+          "usdc_size": 725.65,
+          "outcome": "Martin Landaluce"
         }
       ]
     },
@@ -631,31 +734,40 @@
       "signals": []
     },
     {
-      "wallet": "0xb035c5b61f2efeaa0b6ff34346cf7ed18165ff78",
-      "name": "Nootpengu",
-      "score": 40.6,
+      "wallet": "0xd27cc742d023d06ef633a4c880cf1ff1836ec081",
+      "name": "madkkee",
+      "score": 39.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 61.2,
-      "volume_score": 89.0,
-      "roi": -99.9,
-      "cash_pnl": -1546.26,
-      "realized_pnl": 60.17,
-      "total_usdc": 117403.12,
-      "trade_count": 75,
-      "market_count": 25,
-      "position_count": 1,
+      "early_entry_score": 51.3,
+      "volume_score": 95.6,
+      "roi": -98.1,
+      "cash_pnl": -463437.35,
+      "realized_pnl": -75258.95,
+      "total_usdc": 280824.11,
+      "trade_count": 500,
+      "market_count": 39,
+      "position_count": 157,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:46:10+00:00",
+      "last_active": "2026-08-17T16:24:21+00:00",
       "top_markets": [
-        "Counter-Strike: Noir Verse vs ex-RUSTEC (BO3) - CCT Europe Closed Qualifier: Series #7 Play-In",
+        "LoL: T1 vs Gen.G (BO3) - LCK Round 3-4 Legend Group",
         "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-        "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO3) - LCK Challengers League Rounds 3-4 Challenge Group"
+        "Jaguars vs. Saints"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
+          "signal": "ENTER",
+          "avg_price": 0.7099,
+          "cur_price": 0.69,
+          "usdc_size": 3331.33,
+          "outcome": "Iga Swiatek"
+        }
+      ]
     },
     {
       "wallet": "0x83c82ead85134e9beb0324af7196991068153b6c",
@@ -665,18 +777,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 59.7,
-      "volume_score": 81.1,
-      "roi": -96.3,
-      "cash_pnl": -25871.76,
-      "realized_pnl": -667.33,
-      "total_usdc": 41784.45,
+      "volume_score": 81.2,
+      "roi": -98.7,
+      "cash_pnl": -26065.08,
+      "realized_pnl": -680.09,
+      "total_usdc": 42234.21,
       "trade_count": 500,
-      "market_count": 111,
+      "market_count": 110,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:32:49+00:00",
+      "last_active": "2026-08-17T16:21:37+00:00",
       "top_markets": [
         "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - The International Group Stage",
         "Counter-Strike: Esport Academy Copenhagen vs BASEMENT BOYS (BO3) - ESL Challenger League Europe Cup #3 Playoffs",
@@ -693,17 +805,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 53.5,
       "volume_score": 86.4,
-      "roi": -98.0,
-      "cash_pnl": -48744.85,
+      "roi": -97.1,
+      "cash_pnl": -48773.4,
       "realized_pnl": -2784.39,
-      "total_usdc": 83459.89,
+      "total_usdc": 83880.18,
       "trade_count": 500,
-      "market_count": 239,
-      "position_count": 339,
+      "market_count": 240,
+      "position_count": 340,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:39:00+00:00",
+      "last_active": "2026-08-17T15:57:57+00:00",
       "top_markets": [
         "LoL: Nongshim Red Force vs T1 (BO3) - KeSPA Cup Last Chance Qualifier",
         "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
@@ -748,7 +860,7 @@
       "early_entry_score": 46.3,
       "volume_score": 94.3,
       "roi": -99.7,
-      "cash_pnl": -178207.84,
+      "cash_pnl": -178295.06,
       "realized_pnl": -3201.56,
       "total_usdc": 238091.26,
       "trade_count": 500,
@@ -766,29 +878,29 @@
       "signals": []
     },
     {
-      "wallet": "0xc186fb1468c17d44abb38ed1ff60c789914ee96e",
-      "name": "Dimasboss",
-      "score": 38.5,
+      "wallet": "0xa5142c69ca4aa60218ad245deaf2dc7a25899c8f",
+      "name": "SomonG",
+      "score": 38.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 44.4,
-      "volume_score": 93.5,
-      "roi": -99.4,
-      "cash_pnl": -59887.15,
-      "realized_pnl": -1420.2,
-      "total_usdc": 213221.25,
-      "trade_count": 418,
-      "market_count": 297,
-      "position_count": 119,
+      "early_entry_score": 44.0,
+      "volume_score": 95.0,
+      "roi": -99.9,
+      "cash_pnl": -66461.05,
+      "realized_pnl": -1670.33,
+      "total_usdc": 258569.51,
+      "trade_count": 500,
+      "market_count": 357,
+      "position_count": 148,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:27:06+00:00",
+      "last_active": "2026-08-17T16:15:52+00:00",
       "top_markets": [
-        "LoL: Weibo Gaming vs Ninjas in Pyjamas - Game 1 Winner",
-        "LoL: DN SOOPers vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier",
-        "LoL: JD Gaming vs Team WE - Game 1 Winner"
+        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+        "Games Total: O/U 2.5",
+        "LoL: LGD Gaming vs JD Gaming - Game 2 Winner"
       ],
       "signals": []
     },
@@ -828,17 +940,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 39.2,
       "volume_score": 100.0,
-      "roi": -99.7,
-      "cash_pnl": -6631048.39,
-      "realized_pnl": -300846.36,
-      "total_usdc": 646867.28,
+      "roi": -99.6,
+      "cash_pnl": -6625542.58,
+      "realized_pnl": -300754.2,
+      "total_usdc": 649754.76,
       "trade_count": 500,
       "market_count": 75,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:10:00+00:00",
+      "last_active": "2026-08-17T16:20:19+00:00",
       "top_markets": [
         "LoL: Dplus KIA Challengers vs KT Rolster Challengers - Game 1 Winner",
         "Games Total: O/U 2.5",
@@ -850,7 +962,7 @@
           "signal": "SKIP",
           "avg_price": 0.6465,
           "cur_price": 0.9995,
-          "usdc_size": 17300.0,
+          "usdc_size": 19990.0,
           "outcome": "Natus Vincere"
         }
       ]
@@ -863,18 +975,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 47.4,
-      "volume_score": 87.1,
-      "roi": -87.1,
-      "cash_pnl": -43029.42,
+      "volume_score": 87.0,
+      "roi": -86.5,
+      "cash_pnl": -43137.05,
       "realized_pnl": 790.85,
-      "total_usdc": 91964.57,
+      "total_usdc": 91057.44,
       "trade_count": 500,
-      "market_count": 33,
-      "position_count": 45,
+      "market_count": 34,
+      "position_count": 47,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:45:06+00:00",
+      "last_active": "2026-08-17T16:08:30+00:00",
       "top_markets": [
         "LoL: T1 vs DN SOOPers - Game 1 Winner",
         "LoL: T1 vs DN SOOPers - Game 2 Winner",
@@ -902,7 +1014,7 @@
           "signal": "SKIP",
           "avg_price": 0.83,
           "cur_price": 0.9995,
-          "usdc_size": 865.0,
+          "usdc_size": 999.5,
           "outcome": "Natus Vincere"
         }
       ]
@@ -916,8 +1028,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 38.3,
       "volume_score": 100.0,
-      "roi": -98.7,
-      "cash_pnl": -102275.52,
+      "roi": -98.6,
+      "cash_pnl": -102104.59,
       "realized_pnl": -2657.72,
       "total_usdc": 751155.16,
       "trade_count": 500,
@@ -935,10 +1047,10 @@
       "signals": [
         {
           "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.8599,
-          "cur_price": 0.865,
-          "usdc_size": 1318.6,
+          "cur_price": 0.97,
+          "usdc_size": 1489.53,
           "outcome": "Natus Vincere"
         }
       ]
@@ -1006,8 +1118,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 39.7,
       "volume_score": 96.3,
-      "roi": -68.9,
-      "cash_pnl": -294333.21,
+      "roi": -68.1,
+      "cash_pnl": -290662.4,
       "realized_pnl": 7611.13,
       "total_usdc": 309681.85,
       "trade_count": 500,
@@ -1043,8 +1155,8 @@
           "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
           "signal": "SKIP",
           "avg_price": 0.6999,
-          "cur_price": 0.865,
-          "usdc_size": 24300.06,
+          "cur_price": 0.97,
+          "usdc_size": 27450.07,
           "outcome": "Natus Vincere"
         }
       ]
@@ -1158,50 +1270,6 @@
       "signals": []
     },
     {
-      "wallet": "0xf49614e63fb15383d4a9b717a1be03ad2410fe79",
-      "name": "Arisham",
-      "score": 37.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 42.8,
-      "volume_score": 88.4,
-      "roi": -95.1,
-      "cash_pnl": -171187.64,
-      "realized_pnl": -4715.62,
-      "total_usdc": 109292.76,
-      "trade_count": 500,
-      "market_count": 34,
-      "position_count": 123,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-17T14:05:22+00:00",
-      "top_markets": [
-        "LoL: T1 vs DN SOOPers - Game 2 Winner",
-        "LoL: FURIA Esports vs RED Canids - Game 2 Winner",
-        "LoL: SK Gaming vs Fnatic - Game 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "LoL: T1 vs DN SOOPers - Game 4 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.7568,
-          "cur_price": 0.0005,
-          "usdc_size": 5941.73,
-          "outcome": "DN SOOPers"
-        },
-        {
-          "market": "LoL: T1 vs DN SOOPers - Game 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.4859,
-          "cur_price": 0.0005,
-          "usdc_size": 1593.48,
-          "outcome": "DN SOOPers"
-        }
-      ]
-    },
-    {
       "wallet": "0xed032a3900bf4037c170c7f6a49472d8cb4f1caa",
       "name": "winnersun",
       "score": 37.6,
@@ -1210,17 +1278,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 47.2,
       "volume_score": 80.6,
-      "roi": -100.0,
-      "cash_pnl": -8105.86,
+      "roi": -94.9,
+      "cash_pnl": -8033.62,
       "realized_pnl": -94.55,
-      "total_usdc": 39200.55,
+      "total_usdc": 39446.59,
       "trade_count": 500,
-      "market_count": 169,
-      "position_count": 127,
+      "market_count": 170,
+      "position_count": 128,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T14:32:03+00:00",
+      "last_active": "2026-08-17T16:21:54+00:00",
       "top_markets": [
         "Dota 2: KW vs Team Syntax - Game 1 Winner",
         "Counter-Strike: INOX Division vs Atreides (BO3) - NODWIN Clutch Series Group Stage",
@@ -1291,8 +1359,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 45.7,
       "volume_score": 76.9,
-      "roi": -96.4,
-      "cash_pnl": -2211.46,
+      "roi": -97.8,
+      "cash_pnl": -2243.35,
       "realized_pnl": -50.24,
       "total_usdc": 23988.35,
       "trade_count": 500,
@@ -1337,42 +1405,6 @@
       "signals": []
     },
     {
-      "wallet": "0xd27cc742d023d06ef633a4c880cf1ff1836ec081",
-      "name": "madkkee",
-      "score": 36.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 32.4,
-      "volume_score": 95.4,
-      "roi": -98.4,
-      "cash_pnl": -461941.73,
-      "realized_pnl": -75338.38,
-      "total_usdc": 273877.37,
-      "trade_count": 500,
-      "market_count": 38,
-      "position_count": 157,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-17T15:25:34+00:00",
-      "top_markets": [
-        "LoL: T1 vs Gen.G (BO3) - LCK Round 3-4 Legend Group",
-        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-        "Jaguars vs. Saints"
-      ],
-      "signals": [
-        {
-          "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
-          "signal": "SKIP",
-          "avg_price": 0.7107,
-          "cur_price": 0.865,
-          "usdc_size": 1912.4,
-          "outcome": "Natus Vincere"
-        }
-      ]
-    },
-    {
       "wallet": "0x9b52c0c38b5b8cbf1fcf0ad2c6decd5081dff071",
       "name": "mlpoi",
       "score": 36.9,
@@ -1408,9 +1440,9 @@
       "consistency_score": 50.0,
       "early_entry_score": 39.1,
       "volume_score": 83.8,
-      "roi": -51.2,
-      "cash_pnl": -1964.68,
-      "realized_pnl": -107.52,
+      "roi": -79.0,
+      "cash_pnl": -3029.08,
+      "realized_pnl": -108.0,
       "total_usdc": 59624.39,
       "trade_count": 500,
       "market_count": 85,
@@ -1435,8 +1467,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 35.8,
       "volume_score": 83.8,
-      "roi": -99.4,
-      "cash_pnl": -12996.69,
+      "roi": -100.0,
+      "cash_pnl": -13078.2,
       "realized_pnl": -3995.21,
       "total_usdc": 59464.68,
       "trade_count": 311,
@@ -1462,8 +1494,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 31.9,
       "volume_score": 88.7,
-      "roi": -91.9,
-      "cash_pnl": -64498.33,
+      "roi": -90.9,
+      "cash_pnl": -63763.33,
       "realized_pnl": -311.59,
       "total_usdc": 113248.67,
       "trade_count": 500,
@@ -1483,38 +1515,11 @@
           "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
           "signal": "SKIP",
           "avg_price": 0.69,
-          "cur_price": 0.865,
-          "usdc_size": 5670.0,
+          "cur_price": 0.97,
+          "usdc_size": 6405.0,
           "outcome": "Natus Vincere"
         }
       ]
-    },
-    {
-      "wallet": "0x6818bf53ed1fdd51b733708bec28394f3f688f14",
-      "name": "genius1892",
-      "score": 36.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 38.9,
-      "volume_score": 77.8,
-      "roi": -99.8,
-      "cash_pnl": -4752.63,
-      "realized_pnl": 2.22,
-      "total_usdc": 27324.75,
-      "trade_count": 500,
-      "market_count": 279,
-      "position_count": 360,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-08-17T14:23:55+00:00",
-      "top_markets": [
-        "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-        "Counter-Strike: Black Phoenix vs CYBERSHOKE Esports (BO3) - CCT Europe Series #6 Playoffs",
-        "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - VCT EMEA Play-Ins"
-      ],
-      "signals": []
     },
     {
       "wallet": "0xa6137559ef905f9b0e026afd3204e35bdf3bd494",
@@ -1524,18 +1529,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 30.9,
-      "volume_score": 88.8,
-      "roi": -99.5,
-      "cash_pnl": -335998.31,
+      "volume_score": 88.9,
+      "roi": -99.4,
+      "cash_pnl": -336091.82,
       "realized_pnl": -5545.02,
-      "total_usdc": 114854.6,
+      "total_usdc": 115756.86,
       "trade_count": 500,
       "market_count": 149,
       "position_count": 195,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:08:55+00:00",
+      "last_active": "2026-08-17T16:03:39+00:00",
       "top_markets": [
         "Atlanta Braves vs. Chicago White Sox",
         "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
@@ -1543,19 +1548,11 @@
       ],
       "signals": [
         {
-          "market": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.6499,
-          "cur_price": 0.9995,
-          "usdc_size": 665.38,
-          "outcome": "Natus Vincere"
-        },
-        {
           "market": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
           "signal": "SKIP",
           "avg_price": 0.69,
-          "cur_price": 0.865,
-          "usdc_size": 593.93,
+          "cur_price": 0.97,
+          "usdc_size": 670.92,
           "outcome": "Natus Vincere"
         }
       ]
@@ -1588,6 +1585,33 @@
       "signals": []
     },
     {
+      "wallet": "0xc186fb1468c17d44abb38ed1ff60c789914ee96e",
+      "name": "Dimasboss",
+      "score": 31.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.5,
+      "roi": -100.0,
+      "cash_pnl": -59740.72,
+      "realized_pnl": -1420.2,
+      "total_usdc": 213221.25,
+      "trade_count": 418,
+      "market_count": 297,
+      "position_count": 118,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-08-17T15:27:06+00:00",
+      "top_markets": [
+        "LoL: Weibo Gaming vs Ninjas in Pyjamas - Game 1 Winner",
+        "LoL: DN SOOPers vs Kiwoom DRX (BO3) - KeSPA Cup Last Chance Qualifier",
+        "LoL: JD Gaming vs Team WE - Game 1 Winner"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0x810b5ab0cef57a8fc91b7103cc5b786d52a6fdae",
       "name": "trancata",
       "score": 31.0,
@@ -1595,18 +1619,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.6,
-      "roi": -71.0,
-      "cash_pnl": -934.25,
+      "volume_score": 84.7,
+      "roi": -65.8,
+      "cash_pnl": -934.41,
       "realized_pnl": -129.99,
-      "total_usdc": 66706.46,
+      "total_usdc": 66736.79,
       "trade_count": 500,
-      "market_count": 238,
-      "position_count": 45,
+      "market_count": 240,
+      "position_count": 49,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-08-17T15:44:16+00:00",
+      "last_active": "2026-08-17T16:14:46+00:00",
       "top_markets": [
         "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
         "Dota 2: Team Spirit vs Team Resilience (BO3) - The International Elimination Round",
@@ -1619,142 +1643,142 @@
     {
       "id": "0x4309301a91299029ad86c47a79f96580e4082eaae05562829e2939439b49c00b",
       "question": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-      "volume": "2501863.698180003",
-      "liquidity": "1868691.20376",
-      "end_date": "2026-08-17T15:15:00Z"
-    },
-    {
-      "id": "0xf444cc2fa0c6d7b6ef05d15c07b8f8ba7d2d02e00073845e37b142a4e9bbbe6a",
-      "question": "LoL: T1 vs DN SOOPers - Game 1 Winner",
-      "volume": "997835.0259970006",
-      "liquidity": "519911.87055",
+      "volume": "2505145.6781800026",
+      "liquidity": "1988231.73435",
       "end_date": "2026-08-17T15:15:00Z"
     },
     {
       "id": "0xe7567eb9c84e1f859a7e18f1042c724dbf57c3cc0459b312bee22156a57e60ea",
       "question": "Will Pablo Mar\u00e7al win the 2026 Brazilian presidential election?",
-      "volume": "987838.5173540004",
-      "liquidity": "116677.57163",
+      "volume": "1037195.4842690002",
+      "liquidity": "150520.99883",
       "end_date": "2026-10-04T00:00:00Z"
+    },
+    {
+      "id": "0xf444cc2fa0c6d7b6ef05d15c07b8f8ba7d2d02e00073845e37b142a4e9bbbe6a",
+      "question": "LoL: T1 vs DN SOOPers - Game 1 Winner",
+      "volume": "997835.0259970006",
+      "liquidity": "565076.15325",
+      "end_date": "2026-08-17T15:15:00Z"
     },
     {
       "id": "0xd6e29406fc0d2546dd460e9639c6f03bb75768f3262b0652618bc50bd2afd6e0",
       "question": "LoL: T1 vs DN SOOPers - Game 2 Winner",
-      "volume": "935980.5389769995",
-      "liquidity": "885354.90767",
+      "volume": "937719.7989769995",
+      "liquidity": "1019303.34673",
+      "end_date": "2026-08-17T15:15:00Z"
+    },
+    {
+      "id": "0xcdd8c1c70c32085630497dff3ce53ef7309061c4437ea2bf1aad9543a1c3abc5",
+      "question": "LoL: T1 vs DN SOOPers - Game 4 Winner",
+      "volume": "871925.9783290001",
+      "liquidity": "1061061.84154",
       "end_date": "2026-08-17T15:15:00Z"
     },
     {
       "id": "0x142d2f1b31d2ebb28fb2e62d883ece12b672e05e6510ebf68e37876959f1d516",
       "question": "LoL: T1 vs DN SOOPers - Game 3 Winner",
       "volume": "871847.3033439993",
-      "liquidity": "488260.28544",
-      "end_date": "2026-08-17T15:15:00Z"
-    },
-    {
-      "id": "0xcdd8c1c70c32085630497dff3ce53ef7309061c4437ea2bf1aad9543a1c3abc5",
-      "question": "LoL: T1 vs DN SOOPers - Game 4 Winner",
-      "volume": "868826.4783290002",
-      "liquidity": "1026602.98187",
+      "liquidity": "556496.16544",
       "end_date": "2026-08-17T15:15:00Z"
     },
     {
       "id": "0xf5ee4b6bd7d585c0e12e530074d0324493c302b82e127c832d15c89a610c0453",
       "question": "Will Demeke Mekonnen be the next Prime Minister of Ethiopia?",
-      "volume": "27397713.058477007",
-      "liquidity": "25375.24264",
+      "volume": "27397713.05847701",
+      "liquidity": "24200.80412",
       "end_date": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "0xf8f65bfb31236b0a83b75a4ece401e8ebe7ade332201a6ce773fd49e9b2fdb58",
-      "question": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
-      "volume": "471508.78431",
-      "liquidity": "696501.83675",
-      "end_date": "2026-08-17T19:00:00Z"
     },
     {
       "id": "0x1aeb392f4e0e96215fc360b9dc09ca664fe1d02fe09ec7bc3c47cb2afe0a68b1",
       "question": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
-      "volume": "458531.1138840001",
-      "liquidity": "233751.3296",
+      "volume": "542656.3370129999",
+      "liquidity": "273747.7945",
       "end_date": "2026-08-24T14:00:00Z"
+    },
+    {
+      "id": "0xf8f65bfb31236b0a83b75a4ece401e8ebe7ade332201a6ce773fd49e9b2fdb58",
+      "question": "LoL: Natus Vincere vs Team Heretics - Game 1 Winner",
+      "volume": "482640.8843099997",
+      "liquidity": "680991.23777",
+      "end_date": "2026-08-17T19:00:00Z"
     },
     {
       "id": "0x0c333c54fd6562d4eb6f14d7dc95b021f1a610966c21491a7ce5b7fc0209af93",
       "question": "Counter-Strike: Noir Verse vs ex-RUSTEC (BO3) - CCT Europe Closed Qualifier: Series #7 Play-In",
-      "volume": "449555.4702479999",
-      "liquidity": "217897.26633",
+      "volume": "449984.04024799983",
+      "liquidity": "217414.99908",
       "end_date": "2026-08-17T18:30:00Z"
+    },
+    {
+      "id": "0x5a84f759cc706f148f1e38988346e483286f41468fbabecd5a5c077945d3fa70",
+      "question": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
+      "volume": "443687.379725",
+      "liquidity": "233440.8611",
+      "end_date": "2026-08-24T15:00:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "6262799.461999998",
-      "liquidity": "251179.18907",
+      "volume": "6271369.461999999",
+      "liquidity": "268984.63907",
       "end_date": "2027-05-30T23:59:00Z"
     },
     {
       "id": "0x518df6d694ad4658fe6c284850c029c6f00c9b3609cf05f7757d1fecba1641f8",
       "question": "US-Iran 60 day negotiation period extended?",
-      "volume": "2252563.286189005",
-      "liquidity": "68525.45706",
+      "volume": "2256224.6459970037",
+      "liquidity": "72097.88839",
       "end_date": "2026-08-20T23:59:00Z"
-    },
-    {
-      "id": "0x6bd56627aa21311850825edb27e53434a0e17a4f782be0086bc07f71eee00d0d",
-      "question": "Putin out as President of Russia by December 31, 2026?",
-      "volume": "19322880.641445998",
-      "liquidity": "495548.0159",
-      "end_date": "2026-12-31T18:30:00Z"
     },
     {
       "id": "0x4284537fc00a8be5de5b7a76608a85e4a31db83ca4af430105acad7da68bea16",
       "question": "LoL: Natus Vincere vs Team Heretics (BO3) - LEC Regular Season",
-      "volume": "321138.4367349999",
-      "liquidity": "228602.4989",
+      "volume": "346360.53530799964",
+      "liquidity": "171296.57798",
       "end_date": "2026-08-17T21:00:00Z"
     },
     {
-      "id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
-      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "volume": "4554912.940993998",
-      "liquidity": "90928.6746",
-      "end_date": "2027-01-01T05:00:00Z"
-    },
-    {
-      "id": "0x78cf766ae15f9ae5f9eda779b8078572ac3e52977270812249e8a4e0c690fa72",
-      "question": "Bitcoin Up or Down on August 17?",
-      "volume": "298075.9189680002",
-      "liquidity": "14362.86062",
-      "end_date": "2026-08-17T16:00:00Z"
-    },
-    {
-      "id": "0xd8b94a79241263ba30e9cd7f58e88bf2a9013ce2ccdce73606916b2f53033466",
-      "question": "Will James Fishback be the Republican nominee for Florida Governor?",
-      "volume": "2435089.1187940007",
-      "liquidity": "321368.63062",
+      "id": "0xd4a3de1964b1f3fa1edeca40dbc3ef6663a56fda84e804066c23096b615904f9",
+      "question": "Will Byron Donalds be the Republican nominee for Florida Governor?",
+      "volume": "837876.9929340006",
+      "liquidity": "130566.06264",
       "end_date": "2026-08-18T00:00:00Z"
     },
     {
       "id": "0xd4eee5db908a943598d8d6bb8409f716c429c6d1bbd5be07567741904428c025",
       "question": "Cincinnati Open: Alexander Blockx vs Flavio Cobolli",
-      "volume": "270369.0115330001",
-      "liquidity": "199134.9473",
+      "volume": "330456.55964799994",
+      "liquidity": "306446.7808",
       "end_date": "2026-08-24T14:00:00Z"
     },
     {
-      "id": "0xa0feaa28b78c05b86455ea6324256f2bd9e197576f284fc960e3dbe98b03367c",
-      "question": "Will the price of Bitcoin be above $62,000 on August 17?",
-      "volume": "282877.39607200003",
-      "liquidity": "42771.46598",
-      "end_date": "2026-08-17T16:00:00Z"
+      "id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "volume": "4555407.942242",
+      "liquidity": "105766.8674",
+      "end_date": "2027-01-01T05:00:00Z"
     },
     {
-      "id": "0x5a84f759cc706f148f1e38988346e483286f41468fbabecd5a5c077945d3fa70",
-      "question": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
-      "volume": "245284.62625000015",
-      "liquidity": "240589.8265",
-      "end_date": "2026-08-24T15:00:00Z"
+      "id": "0x6bd56627aa21311850825edb27e53434a0e17a4f782be0086bc07f71eee00d0d",
+      "question": "Putin out as President of Russia by December 31, 2026?",
+      "volume": "19322880.641446",
+      "liquidity": "509689.909",
+      "end_date": "2026-12-31T18:30:00Z"
+    },
+    {
+      "id": "0xd8b94a79241263ba30e9cd7f58e88bf2a9013ce2ccdce73606916b2f53033466",
+      "question": "Will James Fishback be the Republican nominee for Florida Governor?",
+      "volume": "2447870.53765",
+      "liquidity": "318152.90552",
+      "end_date": "2026-08-18T00:00:00Z"
+    },
+    {
+      "id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+      "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "volume": "7434951.455043002",
+      "liquidity": "565715.9949",
+      "end_date": "2026-09-16T00:00:00Z"
     }
   ]
 }
