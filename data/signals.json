@@ -1,8 +1,52 @@
 {
-  "last_updated": "2026-09-05T21:30:18.799534+00:00",
+  "last_updated": "2026-09-05T23:12:37.070718+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
+    {
+      "wallet": "0x7414f47e227846765c8abb1048606003a57072a3",
+      "name": "hamlo",
+      "score": 58.9,
+      "roi_score": 50.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 75.6,
+      "volume_score": 98.5,
+      "roi": 26.3,
+      "cash_pnl": 3513.06,
+      "realized_pnl": 551.81,
+      "total_usdc": 408827.08,
+      "trade_count": 500,
+      "market_count": 51,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:08:01+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs Lynn Vision (BO3) - BLAST Open Porto Group B",
+        "LoL: Gen.G vs KT Rolster - Game 3 Winner",
+        "LoL: Hanwha Life Esports vs T1 - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.5357,
+          "cur_price": 0.325,
+          "usdc_size": 9213.69,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.4619,
+          "cur_price": 0.545,
+          "usdc_size": 7663.49,
+          "outcome": "Botic van de Zandschulp"
+        }
+      ]
+    },
     {
       "wallet": "0x4ad6cadefae3c28f5b2caa32a99ebba3a614464c",
       "name": "noreasapa",
@@ -48,52 +92,25 @@
       ]
     },
     {
-      "wallet": "0xa4f0a8f6133ab2fb2002b01c56e92479d166b287",
-      "name": "babonski",
-      "score": 58.1,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 73.3,
-      "volume_score": 95.8,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 289304.27,
-      "trade_count": 453,
-      "market_count": 62,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:16:46+00:00",
-      "top_markets": [
-        "Counter-Strike: MOUZ vs Team Falcons - Map 2 Winner",
-        "Counter-Strike: M80 vs FURIA - Map 2 Winner",
-        "Counter-Strike: Inner Circle Esports vs FUT Esports - Map 1 Winner"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x4755072010b0a6963d5140b4c34ba6a544664338",
       "name": "QMG-MACRO",
-      "score": 56.8,
-      "roi_score": 82.6,
+      "score": 57.0,
+      "roi_score": 83.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 95.4,
-      "roi": 73.8,
-      "cash_pnl": 20905.45,
-      "realized_pnl": -11189.62,
-      "total_usdc": 271983.43,
+      "roi": 74.8,
+      "cash_pnl": 20889.81,
+      "realized_pnl": -11178.4,
+      "total_usdc": 272378.56,
       "trade_count": 500,
       "market_count": 22,
       "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T19:58:15+00:00",
+      "last_active": "2026-09-05T21:47:28+00:00",
       "top_markets": [
         "Will the Bank of Russia increase the key rate after the July Meeting?",
         "Fed rate cut by September 2026 meeting?",
@@ -117,96 +134,6 @@
           "outcome": "Yes"
         }
       ]
-    },
-    {
-      "wallet": "0x99fc64e30de1d36502c984d69d3b81f39910ec26",
-      "name": "barocco",
-      "score": 55.4,
-      "roi_score": 40.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 74.3,
-      "volume_score": 95.7,
-      "roi": 10.8,
-      "cash_pnl": 57.16,
-      "realized_pnl": 0.0,
-      "total_usdc": 285730.11,
-      "trade_count": 500,
-      "market_count": 206,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:20:48+00:00",
-      "top_markets": [
-        "Mubadala Citi DC Open: Alex de Minaur vs Brandon Nakashima",
-        "US Open, Qualification ATP: Titouan Droguet vs Daniel Rincon",
-        "US Open ATP: Otto Virtanen vs Andrey Rublev"
-      ],
-      "signals": [
-        {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
-          "signal": "SKIP",
-          "avg_price": 0.5099,
-          "cur_price": 0.565,
-          "usdc_size": 587.16,
-          "outcome": "Michael Zheng"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2037bb7a0773499b3afc9b4a4c18ff8fb715473d",
-      "name": "0xAlikz",
-      "score": 53.3,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 72.5,
-      "volume_score": 98.8,
-      "roi": 0.1,
-      "cash_pnl": 26.3,
-      "realized_pnl": 0.0,
-      "total_usdc": 429514.18,
-      "trade_count": 500,
-      "market_count": 19,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:14:45+00:00",
-      "top_markets": [
-        "Will Manchester City FC win on 2026-09-05?",
-        "US Open ATP: Ben Shelton vs Denis Shapovalov",
-        "US Open ATP: Taylor Fritz vs Francisco Cerundolo"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9909dfa7a317343039193b349909e2094b59311c",
-      "name": "LhordGryffin",
-      "score": 53.2,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 72.5,
-      "volume_score": 97.8,
-      "roi": 0.1,
-      "cash_pnl": 18.5,
-      "realized_pnl": 0.0,
-      "total_usdc": 375154.11,
-      "trade_count": 500,
-      "market_count": 75,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:23:31+00:00",
-      "top_markets": [
-        "Will FC Seoul win on 2026-09-05?",
-        "Zhangjiagang: Kasidit Samrej vs Enzo Aguiard",
-        "Will AS Roma win on 2026-09-05?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0xf7ca6c9b65a15721eaa298898c666d816e94cd59",
@@ -253,50 +180,6 @@
       ]
     },
     {
-      "wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
-      "name": "38791873984189",
-      "score": 46.1,
-      "roi_score": 28.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 48.2,
-      "volume_score": 79.0,
-      "roi": -7.8,
-      "cash_pnl": -6792.68,
-      "realized_pnl": 5761.57,
-      "total_usdc": 31698.5,
-      "trade_count": 500,
-      "market_count": 153,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:30:04+00:00",
-      "top_markets": [
-        "LoL: Sentinels vs Cloud9 (BO3) - LCS Regular Season",
-        "LoL: Sentinels vs Cloud9 - Game 2 Winner",
-        "Dota 2: DYNASTY vs Spirit Academy (BO3) - EPL Masters Group B"
-      ],
-      "signals": [
-        {
-          "market": "Boise State vs. Oregon",
-          "signal": "SKIP",
-          "avg_price": 0.7842,
-          "cur_price": 0.1705,
-          "usdc_size": 1132.97,
-          "outcome": "Oregon"
-        },
-        {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
-          "signal": "SKIP",
-          "avg_price": 0.491,
-          "cur_price": 0.565,
-          "usdc_size": 537.26,
-          "outcome": "Michael Zheng"
-        }
-      ]
-    },
-    {
       "wallet": "0xe64e507ed07244db50674beb7e10fdc0bbc20f87",
       "name": "dcluni",
       "score": 44.3,
@@ -322,202 +205,183 @@
       "signals": []
     },
     {
-      "wallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-      "name": "olegio",
-      "score": 43.6,
+      "wallet": "0x979fc186184ae75754d32c4ef68d8ca00f744032",
+      "name": "degenfren",
+      "score": 44.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 74.9,
-      "volume_score": 98.7,
-      "roi": -99.2,
-      "cash_pnl": -213868.56,
-      "realized_pnl": -2832.86,
-      "total_usdc": 419211.82,
+      "early_entry_score": 78.5,
+      "volume_score": 100.0,
+      "roi": -96.4,
+      "cash_pnl": -505406.63,
+      "realized_pnl": -2756.08,
+      "total_usdc": 746417.35,
       "trade_count": 500,
-      "market_count": 121,
-      "position_count": 75,
+      "market_count": 65,
+      "position_count": 65,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:13:57+00:00",
+      "last_active": "2026-09-05T22:50:46+00:00",
       "top_markets": [
-        "Cincinnati Open: Coleman Wong vs Daniel Altmaier",
-        "LoL: Gen.G vs Hanwha Life Esports - Game 2 Winner",
-        "Dota 2: Team Spirit vs TEAM VISION - Game 1 Winner"
+        "US Open ATP: Mariano Navone vs Novak Djokovic",
+        "US Open ATP: Alexander Zverev vs Quentin Halys",
+        "US Open ATP: Benjamin Bonzi vs Ignacio Buse"
       ],
       "signals": [
         {
           "market": "US Open ATP: Michael Zheng vs Arthur Gea",
           "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.565,
-          "usdc_size": 1625.01,
-          "outcome": "Michael Zheng"
+          "avg_price": 0.4842,
+          "cur_price": 0.325,
+          "usdc_size": 13500.0,
+          "outcome": "Arthur Gea"
         }
       ]
     },
     {
-      "wallet": "0xaa00bd99d8c8c3f0221c4d10803f7d6c95a3f736",
-      "name": "Notag12411",
-      "score": 43.5,
+      "wallet": "0x0353aaf82abbd3e69c00059df0a825bc198fc2ff",
+      "name": "AGUGava",
+      "score": 43.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 73.3,
+      "early_entry_score": 75.9,
       "volume_score": 100.0,
-      "roi": -76.7,
-      "cash_pnl": -34751.08,
-      "realized_pnl": -2087.54,
-      "total_usdc": 679946.1,
-      "trade_count": 453,
-      "market_count": 152,
-      "position_count": 30,
+      "roi": -98.4,
+      "cash_pnl": -1062498.96,
+      "realized_pnl": -10086.46,
+      "total_usdc": 588885.76,
+      "trade_count": 500,
+      "market_count": 55,
+      "position_count": 245,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:22:48+00:00",
+      "last_active": "2026-09-05T23:10:54+00:00",
       "top_markets": [
-        "Will Team Falcons Win The International 2026?",
-        "Will Team Spirit Win The International 2026?",
-        "Will Nigma Galaxy Win The International 2026?"
+        "US Open ATP: Michael Zheng vs Arthur Gea",
+        "Newcastle United FC vs. AFC Bournemouth: O/U 3.5",
+        "US Open ATP: Tomas Etcheverry vs Mariano Navone"
       ],
       "signals": []
     },
     {
-      "wallet": "0x7efe92e2c13d1d6ddc402484f85d5014957e2e32",
-      "name": "casper7",
-      "score": 43.5,
+      "wallet": "0xafac3978537771688598b0b65b9bb222e8318730",
+      "name": "gysh.qs",
+      "score": 43.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 73.1,
+      "early_entry_score": 75.3,
       "volume_score": 100.0,
-      "roi": -100.0,
-      "cash_pnl": -21479.58,
-      "realized_pnl": -863.91,
-      "total_usdc": 858683.48,
+      "roi": -97.1,
+      "cash_pnl": -524202.59,
+      "realized_pnl": -11212.17,
+      "total_usdc": 612659.89,
       "trade_count": 500,
-      "market_count": 58,
-      "position_count": 3,
+      "market_count": 262,
+      "position_count": 311,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:11:21+00:00",
+      "last_active": "2026-09-05T23:11:34+00:00",
       "top_markets": [
-        "Italy vs. Lithuania",
-        "Will France win the 2026 FIFA World Cup?",
-        "Brazil vs. Norway: Team to Advance"
+        "Will \u00c9douard Philippe win the 2027 French presidential election?",
+        "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
+        "Wimbledon WTA: Naomi Osaka vs Karolina Muchova"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.5098,
+          "cur_price": 0.325,
+          "usdc_size": 1324.01,
+          "outcome": "Arthur Gea"
+        }
+      ]
     },
     {
-      "wallet": "0x63739796b47577a15c0b6d05cde710bda76da0b7",
-      "name": "KARTEROR",
+      "wallet": "0x7dde7e21a2a96b5d3c5a53587584c2889d525af9",
+      "name": "LeBronGamer",
       "score": 43.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 72.4,
-      "volume_score": 97.2,
-      "roi": -98.3,
-      "cash_pnl": -367602.18,
-      "realized_pnl": -12176.49,
-      "total_usdc": 345090.89,
+      "early_entry_score": 75.8,
+      "volume_score": 92.1,
+      "roi": -72.4,
+      "cash_pnl": -15983.25,
+      "realized_pnl": 16963.92,
+      "total_usdc": 177393.01,
       "trade_count": 500,
-      "market_count": 22,
-      "position_count": 256,
+      "market_count": 23,
+      "position_count": 25,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:12+00:00",
+      "last_active": "2026-09-05T23:03:25+00:00",
       "top_markets": [
-        "Dota 2: Team Synapse vs Team Lynx (BO3) - EPL Masters Group A",
-        "US Open WTA: Madison Keys vs Qinwen Zheng",
-        "Dota 2: Team Synapse vs Team Lynx - Game 2 Winner"
+        "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+        "Mubadala Citi DC Open: Alexandra Eala vs Qinwen Zheng",
+        "Connecticut Sun vs. Washington Mystics"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.6091,
+          "cur_price": 0.325,
+          "usdc_size": 4437.49,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.6399,
+          "cur_price": 0.545,
+          "usdc_size": 1660.83,
+          "outcome": "Botic van de Zandschulp"
+        }
+      ]
     },
     {
-      "wallet": "0x44a1159b925c145e70f746bb3f0f58380553bd21",
-      "name": "yupiiiiiiiii",
-      "score": 43.1,
+      "wallet": "0xe07744c53c273de2acfd485a5212553bced6f5ee",
+      "name": "BIess",
+      "score": 43.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 72.5,
-      "volume_score": 97.0,
-      "roi": -79.8,
-      "cash_pnl": -438609.08,
-      "realized_pnl": -180241.31,
-      "total_usdc": 337634.47,
+      "early_entry_score": 75.0,
+      "volume_score": 92.3,
+      "roi": -96.9,
+      "cash_pnl": -109012.48,
+      "realized_pnl": -2373.65,
+      "total_usdc": 181139.37,
       "trade_count": 500,
-      "market_count": 19,
-      "position_count": 218,
+      "market_count": 352,
+      "position_count": 283,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:06+00:00",
+      "last_active": "2026-09-05T23:06:24+00:00",
       "top_markets": [
-        "Clarity Act (H.R.3633) signed into law in 2026?",
-        "Will Rodri win the 2026 Ballon d'Or?",
-        "US Open ATP: Dane Sweeny vs Lorenzo Musetti"
+        "Counter-Strike: Vitality vs FUT Esports (BO3) - IEM Cologne Major Stage 3",
+        "Dota 2: Team Falcons vs Aurora - Game 1 Winner",
+        "MicroStrategy sells any Bitcoin by May 31, 2026?"
       ],
-      "signals": []
-    },
-    {
-      "wallet": "0xec9f344ac6b942bf2a8bb36ebc0294a73cd9e57b",
-      "name": "0xEc9f344ac6B942BF2A8bb36Ebc0294a73Cd9e57b-1783498927827",
-      "score": 43.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 80.3,
-      "volume_score": 85.6,
-      "roi": -100.0,
-      "cash_pnl": -27629.81,
-      "realized_pnl": -628.28,
-      "total_usdc": 75840.98,
-      "trade_count": 465,
-      "market_count": 134,
-      "position_count": 39,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:02:58+00:00",
-      "top_markets": [
-        "S&P 500 (SPX) Up or Down on July 20?",
-        "SPY (SPY) Up or Down on July 20?",
-        "Will the highest temperature in Warsaw be 26\u00b0C on July 18?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x51ad675fcb07c4b690501aea44605f798ede5e56",
-      "name": "tennis-loser",
-      "score": 42.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 73.7,
-      "volume_score": 92.0,
-      "roi": -87.5,
-      "cash_pnl": -21061.77,
-      "realized_pnl": -5034.66,
-      "total_usdc": 174424.14,
-      "trade_count": 500,
-      "market_count": 123,
-      "position_count": 107,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:11:21+00:00",
-      "top_markets": [
-        "Zhangjiagang: Bernard Tomic vs Masamichi Imamura",
-        "US Open ATP: Luciano Darderi vs Harry Wendelken",
-        "US Open ATP: Taylor Fritz vs Francisco Cerundolo"
-      ],
-      "signals": []
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.68,
+          "cur_price": 0.325,
+          "usdc_size": 3442.5,
+          "outcome": "Arthur Gea"
+        }
+      ]
     },
     {
       "wallet": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -547,31 +411,296 @@
       "signals": []
     },
     {
-      "wallet": "0x0dbecac99a2e849a708dea4ec6a711c885dc1999",
-      "name": "prizrak17",
+      "wallet": "0x013eaad3c13fb6c38aaacd0b482dcbaa222865dd",
+      "name": "0x013eaAD3C13fb6C38AaAcD0B482dcbAa222865dd-1763806069449",
+      "score": 42.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 75.0,
+      "volume_score": 87.5,
+      "roi": -93.1,
+      "cash_pnl": -15890.28,
+      "realized_pnl": -288.43,
+      "total_usdc": 97330.23,
+      "trade_count": 369,
+      "market_count": 84,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:06:03+00:00",
+      "top_markets": [
+        "Ethereum Up or Down - November 22, 2:15PM-2:30PM ET",
+        "Indiana Fever vs. Las Vegas Aces",
+        "O/U 2.5 Rounds"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.6799,
+          "cur_price": 0.325,
+          "usdc_size": 1186.72,
+          "outcome": "Arthur Gea"
+        }
+      ]
+    },
+    {
+      "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+      "name": "Flaznorp",
+      "score": 42.4,
+      "roi_score": 31.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 14.3,
+      "volume_score": 84.2,
+      "roi": -3.1,
+      "cash_pnl": -12811.09,
+      "realized_pnl": -5044.05,
+      "total_usdc": 63024.62,
+      "trade_count": 500,
+      "market_count": 176,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:12:15+00:00",
+      "top_markets": [
+        "Spread: Philadelphia Union (-1.5)",
+        "Will CD Guadalajara win on 2026-09-05?",
+        "Will Cear\u00e1 SC win on 2026-09-05?"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "ENTER",
+          "avg_price": 0.5317,
+          "cur_price": 0.545,
+          "usdc_size": 791.65,
+          "outcome": "Botic van de Zandschulp"
+        },
+        {
+          "market": "Spread: Philadelphia Union (-1.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5404,
+          "cur_price": 0.445,
+          "usdc_size": 62708.33,
+          "outcome": "CF Montr\u00e9al"
+        },
+        {
+          "market": "Will Red Bull Bragantino win on 2026-09-05?",
+          "signal": "SKIP",
+          "avg_price": 0.5044,
+          "cur_price": 0.0005,
+          "usdc_size": 13730.51,
+          "outcome": "No"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.4768,
+          "cur_price": 0.545,
+          "usdc_size": 4156.04,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.4623,
+          "cur_price": 0.325,
+          "usdc_size": 2888.41,
+          "outcome": "Michael Zheng"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.6735,
+          "cur_price": 0.325,
+          "usdc_size": 4869.76,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "Will Columbus Crew win on 2026-09-05?",
+          "signal": "SKIP",
+          "avg_price": 0.548,
+          "cur_price": 0.485,
+          "usdc_size": 3112.32,
+          "outcome": "No"
+        },
+        {
+          "market": "Atlanta Braves vs. Philadelphia Phillies",
+          "signal": "SKIP",
+          "avg_price": 0.189,
+          "cur_price": 0.175,
+          "usdc_size": 935.51,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Boise State vs. Oregon",
+          "signal": "SKIP",
+          "avg_price": 0.7765,
+          "cur_price": 0.0005,
+          "usdc_size": 4329.95,
+          "outcome": "Oregon"
+        },
+        {
+          "market": "Tulane vs. Duke",
+          "signal": "SKIP",
+          "avg_price": 0.8325,
+          "cur_price": 0.045,
+          "usdc_size": 1654.41,
+          "outcome": "Duke"
+        },
+        {
+          "market": "Chicago Cubs vs. Miami Marlins",
+          "signal": "SKIP",
+          "avg_price": 0.7782,
+          "cur_price": 0.665,
+          "usdc_size": 638.71,
+          "outcome": "Chicago Cubs"
+        }
+      ]
+    },
+    {
+      "wallet": "0x77d581f2b6e5e3a12c1bdb743bcc7e47a344732e",
+      "name": "DrStatistics",
+      "score": 42.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 75.3,
+      "volume_score": 85.4,
+      "roi": -73.5,
+      "cash_pnl": -5372.52,
+      "realized_pnl": 0.0,
+      "total_usdc": 73670.86,
+      "trade_count": 500,
+      "market_count": 116,
+      "position_count": 17,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:03:03+00:00",
+      "top_markets": [
+        "US Open ATP: Jaime Faria vs Jenson Brooksby",
+        "Monterrey Open: Diane Parry vs Elise Mertens",
+        "Set 2 Winner: Fery vs Kovacevic"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.65,
+          "cur_price": 0.325,
+          "usdc_size": 1039.5,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.6,
+          "cur_price": 0.545,
+          "usdc_size": 877.5,
+          "outcome": "Botic van de Zandschulp"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+      "name": "cigarettes",
+      "score": 42.2,
+      "roi_score": 22.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 34.1,
+      "volume_score": 79.2,
+      "roi": -16.6,
+      "cash_pnl": -46857.95,
+      "realized_pnl": 630964.32,
+      "total_usdc": 32836.98,
+      "trade_count": 500,
+      "market_count": 81,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:12:01+00:00",
+      "top_markets": [
+        "Will Boyac\u00e1 Chic\u00f3 FC win on 2026-09-05?",
+        "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
+        "Will Once Caldas win on 2026-09-05?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.3548,
+          "cur_price": 0.495,
+          "usdc_size": 69397.29,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.4528,
+          "cur_price": 0.0005,
+          "usdc_size": 11011.44,
+          "outcome": "LOUD"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+      "name": "thestingsnake",
       "score": 42.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 72.7,
-      "volume_score": 88.3,
-      "roi": -100.0,
-      "cash_pnl": -9501.42,
-      "realized_pnl": -105.76,
-      "total_usdc": 107809.71,
-      "trade_count": 115,
-      "market_count": 43,
-      "position_count": 6,
+      "early_entry_score": 76.1,
+      "volume_score": 83.2,
+      "roi": -98.2,
+      "cash_pnl": -103478.52,
+      "realized_pnl": -28495.57,
+      "total_usdc": 55182.2,
+      "trade_count": 500,
+      "market_count": 13,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:28+00:00",
+      "last_active": "2026-09-05T23:11:51+00:00",
       "top_markets": [
-        "Counter-Strike: G2 vs Aurora Gaming (BO3) - BLAST Open Porto Group A",
-        "US Open ATP: Alexander Bublik vs Adrian Mannarino",
-        "VfL Osnabr\u00fcck vs. FC Bayern M\u00fcnchen: O/U 5.5"
+        "US Open ATP: Alexander Blockx vs Flavio Cobolli",
+        "US Open ATP: Michael Zheng vs Arthur Gea",
+        "US Open ATP: Taylor Fritz vs Francisco Cerundolo"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.4176,
+          "cur_price": 0.325,
+          "usdc_size": 551.15,
+          "outcome": "Michael Zheng"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.497,
+          "cur_price": 0.545,
+          "usdc_size": 587.66,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.502,
+          "cur_price": 0.545,
+          "usdc_size": 676.33,
+          "outcome": "Botic van de Zandschulp"
+        }
+      ]
     },
     {
       "wallet": "0x8a7b576b7a53ef54876f9eca18bcd84f12d8782f",
@@ -583,7 +712,7 @@
       "early_entry_score": 0.0,
       "volume_score": 87.0,
       "roi": 4.3,
-      "cash_pnl": 963.57,
+      "cash_pnl": 960.44,
       "realized_pnl": 2918.06,
       "total_usdc": 90366.64,
       "trade_count": 500,
@@ -601,43 +730,52 @@
       "signals": []
     },
     {
-      "wallet": "0xdbfc4b441475745b149e77281022cf540066e3ee",
-      "name": "Neludos",
+      "wallet": "0x3ec3f4fd481c6e93733f817e8e119e8f473ae330",
+      "name": "",
       "score": 42.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 73.4,
-      "volume_score": 86.0,
-      "roi": -92.4,
-      "cash_pnl": -19946.81,
-      "realized_pnl": -66.57,
-      "total_usdc": 79388.63,
-      "trade_count": 395,
-      "market_count": 123,
-      "position_count": 48,
+      "early_entry_score": 75.5,
+      "volume_score": 83.0,
+      "roi": -97.3,
+      "cash_pnl": -26911.98,
+      "realized_pnl": -2330.54,
+      "total_usdc": 53410.87,
+      "trade_count": 500,
+      "market_count": 189,
+      "position_count": 253,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:24:10+00:00",
+      "last_active": "2026-09-05T22:56:55+00:00",
       "top_markets": [
-        "US Open ATP: Benjamin Bonzi vs Ignacio Buse",
-        "LoL: BNK FEARX vs Dplus KIA (BO5) - LCK Playoffs",
-        "LoL: LYON vs Team Liquid - Game 1 Winner"
+        "ITF W35 Erwitte Women: Josy Daems vs Valentina Steiner",
+        "Set Handicap: Matusevich (-1.5) vs Ceban (+1.5)",
+        "Cincinnati Open: Sorana Cirstea vs Anna Kalinskaya"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.4799,
+          "cur_price": 0.545,
+          "usdc_size": 747.36,
+          "outcome": "Botic van de Zandschulp"
+        }
+      ]
     },
     {
       "wallet": "0x1fa0a90956ba1035aed765389618103817800465",
       "name": "ggdajiba",
       "score": 42.0,
-      "roi_score": 33.8,
+      "roi_score": 33.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 93.8,
-      "roi": 0.7,
-      "cash_pnl": 304.5,
+      "roi": 0.6,
+      "cash_pnl": 242.39,
       "realized_pnl": 97.31,
       "total_usdc": 220740.71,
       "trade_count": 500,
@@ -664,16 +802,16 @@
       "early_entry_score": 0.0,
       "volume_score": 95.7,
       "roi": -0.3,
-      "cash_pnl": -900.69,
-      "realized_pnl": 86978.0,
-      "total_usdc": 283073.3,
+      "cash_pnl": -963.65,
+      "realized_pnl": 86971.02,
+      "total_usdc": 283129.75,
       "trade_count": 500,
-      "market_count": 28,
-      "position_count": 130,
+      "market_count": 29,
+      "position_count": 129,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T19:30:22+00:00",
+      "last_active": "2026-09-05T22:17:10+00:00",
       "top_markets": [
         "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
         "2026 Balance of Power: Other",
@@ -691,66 +829,6 @@
       ]
     },
     {
-      "wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
-      "name": "thestingsnake",
-      "score": 42.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.1,
-      "volume_score": 82.7,
-      "roi": -92.6,
-      "cash_pnl": -102964.96,
-      "realized_pnl": -27890.38,
-      "total_usdc": 51563.86,
-      "trade_count": 500,
-      "market_count": 14,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:36+00:00",
-      "top_markets": [
-        "US Open ATP: Alexander Blockx vs Flavio Cobolli",
-        "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
-        "US Open ATP: Karen Khachanov vs Benjamin Bonzi"
-      ],
-      "signals": [
-        {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
-          "signal": "LATE",
-          "avg_price": 0.5859,
-          "cur_price": 0.565,
-          "usdc_size": 1203.15,
-          "outcome": "Arthur Gea"
-        },
-        {
-          "market": "US Open ATP: Luciano Darderi vs Dane Sweeny",
-          "signal": "SKIP",
-          "avg_price": 0.8304,
-          "cur_price": 0.9995,
-          "usdc_size": 3181.85,
-          "outcome": "Luciano Darderi"
-        },
-        {
-          "market": "US Open WTA: Cristina Bucsa vs Coco Gauff",
-          "signal": "SKIP",
-          "avg_price": 0.8955,
-          "cur_price": 0.0005,
-          "usdc_size": 2869.89,
-          "outcome": "Coco Gauff"
-        },
-        {
-          "market": "US Open ATP: Karen Khachanov vs Benjamin Bonzi",
-          "signal": "SKIP",
-          "avg_price": 0.8625,
-          "cur_price": 0.9995,
-          "usdc_size": 829.9,
-          "outcome": "Karen Khachanov"
-        }
-      ]
-    },
-    {
       "wallet": "0x753c9d75503e744a3ea0a90f3c1df6259a4ce3ad",
       "name": "lenny4878",
       "score": 41.9,
@@ -760,7 +838,7 @@
       "early_entry_score": 0.0,
       "volume_score": 88.3,
       "roi": 3.0,
-      "cash_pnl": 1206.82,
+      "cash_pnl": 1203.21,
       "realized_pnl": -4.27,
       "total_usdc": 108032.4,
       "trade_count": 325,
@@ -778,33 +856,6 @@
       "signals": []
     },
     {
-      "wallet": "0x2a019dc0089ea8c6edbbafc8a7cc9ba77b4b6397",
-      "name": "aviato",
-      "score": 41.5,
-      "roi_score": 30.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.9,
-      "roi": -4.3,
-      "cash_pnl": -7114.8,
-      "realized_pnl": -9286.12,
-      "total_usdc": 434204.88,
-      "trade_count": 500,
-      "market_count": 95,
-      "position_count": 94,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:28+00:00",
-      "top_markets": [
-        "Will the total domestic gross for Spider-Man: Brand New Day be at least 1080m by August 31?",
-        "UFC Fight Night: Far\u00e9s Ziam vs. Axel Sola (Lightweight, Main Card)",
-        "UFC Fight Night: Michael Page vs. Nursulton Ruziboev (Middleweight, Main Card)"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x72a22d4d155079da8f50c89d4c6c03b6428e7b65",
       "name": "meowtai",
       "score": 41.5,
@@ -812,22 +863,49 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.2,
-      "roi": 0.1,
-      "cash_pnl": 199.47,
+      "volume_score": 90.1,
+      "roi": 0.2,
+      "cash_pnl": 251.12,
       "realized_pnl": 4877.86,
-      "total_usdc": 138991.01,
+      "total_usdc": 135519.71,
       "trade_count": 500,
       "market_count": 98,
       "position_count": 104,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T20:35:13+00:00",
+      "last_active": "2026-09-05T22:53:27+00:00",
       "top_markets": [
         "Will Augusto Cury win the 2026 Brazilian presidential election?",
         "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
         "Will Anthropic IPO by September 15, 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2a019dc0089ea8c6edbbafc8a7cc9ba77b4b6397",
+      "name": "aviato",
+      "score": 41.4,
+      "roi_score": 30.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.6,
+      "roi": -4.9,
+      "cash_pnl": -7148.49,
+      "realized_pnl": -9264.56,
+      "total_usdc": 414889.18,
+      "trade_count": 500,
+      "market_count": 98,
+      "position_count": 95,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T22:38:07+00:00",
+      "top_markets": [
+        "Will the total domestic gross for Spider-Man: Brand New Day be at least 1080m by August 31?",
+        "UFC Fight Night: Far\u00e9s Ziam vs. Axel Sola (Lightweight, Main Card)",
+        "UFC Fight Night: Michael Page vs. Nursulton Ruziboev (Middleweight, Main Card)"
       ],
       "signals": []
     },
@@ -841,82 +919,22 @@
       "early_entry_score": 0.0,
       "volume_score": 85.3,
       "roi": 1.5,
-      "cash_pnl": 1019.13,
+      "cash_pnl": 1024.2,
       "realized_pnl": 1623.5,
-      "total_usdc": 72273.32,
+      "total_usdc": 72460.67,
       "trade_count": 500,
       "market_count": 19,
       "position_count": 32,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T18:21:30+00:00",
+      "last_active": "2026-09-05T22:18:24+00:00",
       "top_markets": [
         "Israel closes its airspace by September 30?",
         "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
         "Will there be no change in Fed interest rates after the September 2026 meeting?"
       ],
       "signals": []
-    },
-    {
-      "wallet": "0x365f951dc281322d83f6fcda884c7f66a938706a",
-      "name": "efntrick",
-      "score": 41.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.0,
-      "volume_score": 73.4,
-      "roi": -69.5,
-      "cash_pnl": -27129.69,
-      "realized_pnl": -8.28,
-      "total_usdc": 15330.41,
-      "trade_count": 500,
-      "market_count": 10,
-      "position_count": 189,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:30:09+00:00",
-      "top_markets": [
-        "US Open ATP: Karen Khachanov vs Benjamin Bonzi",
-        "US Open WTA: Iga Swiatek vs Marie Bouzkova",
-        "US Open WTA: Cristina Bucsa vs Coco Gauff"
-      ],
-      "signals": [
-        {
-          "market": "US Open ATP: Karen Khachanov vs Benjamin Bonzi",
-          "signal": "SKIP",
-          "avg_price": 0.7965,
-          "cur_price": 0.9995,
-          "usdc_size": 5132.61,
-          "outcome": "Karen Khachanov"
-        },
-        {
-          "market": "US Open ATP: Luciano Darderi vs Dane Sweeny",
-          "signal": "SKIP",
-          "avg_price": 0.8993,
-          "cur_price": 0.9995,
-          "usdc_size": 2744.91,
-          "outcome": "Luciano Darderi"
-        },
-        {
-          "market": "US Open WTA: Cristina Bucsa vs Coco Gauff",
-          "signal": "SKIP",
-          "avg_price": 0.8957,
-          "cur_price": 0.0005,
-          "usdc_size": 1416.6,
-          "outcome": "Coco Gauff"
-        },
-        {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
-          "signal": "SKIP",
-          "avg_price": 0.3932,
-          "cur_price": 0.565,
-          "usdc_size": 579.24,
-          "outcome": "Michael Zheng"
-        }
-      ]
     },
     {
       "wallet": "0xc5ce76fd24f0b7ae2b73f9c75f2318f34890266d",
@@ -976,13 +994,13 @@
       "wallet": "0x2a5ffc44aeb0aa4d1cdf41df7e6be60ed4476c92",
       "name": "",
       "score": 40.7,
-      "roi_score": 29.3,
+      "roi_score": 29.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 94.0,
       "roi": -6.0,
-      "cash_pnl": -18398.44,
+      "cash_pnl": -18370.54,
       "realized_pnl": -18069.28,
       "total_usdc": 228701.44,
       "trade_count": 500,
@@ -1025,17 +1043,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 77.8,
-      "roi": 0.0,
-      "cash_pnl": 1.29,
-      "realized_pnl": 5044.2,
-      "total_usdc": 27077.22,
+      "roi": -0.0,
+      "cash_pnl": -8.12,
+      "realized_pnl": 5047.61,
+      "total_usdc": 27101.3,
       "trade_count": 500,
       "market_count": 3,
       "position_count": 32,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:21:03+00:00",
+      "last_active": "2026-09-05T22:57:13+00:00",
       "top_markets": [
         "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
         "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
@@ -1047,84 +1065,132 @@
           "signal": "ENTER",
           "avg_price": 0.0034,
           "cur_price": 0.0035,
-          "usdc_size": 3029.22,
+          "usdc_size": 3008.3,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 40.1,
-      "roi_score": 25.2,
+      "wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+      "name": "0xD9E0AACa471f48F91A26E8669A805f2",
+      "score": 40.0,
+      "roi_score": 24.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 10.6,
-      "volume_score": 84.5,
-      "roi": -12.2,
-      "cash_pnl": -31536.14,
-      "realized_pnl": -2684.91,
-      "total_usdc": 65499.27,
+      "early_entry_score": 10.7,
+      "volume_score": 84.1,
+      "roi": -12.8,
+      "cash_pnl": -77482.79,
+      "realized_pnl": 30077.16,
+      "total_usdc": 62138.35,
       "trade_count": 500,
-      "market_count": 107,
+      "market_count": 20,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:54+00:00",
+      "last_active": "2026-09-05T23:11:49+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - September 5, 5:00PM-5:05PM ET",
-        "Ethereum Up or Down - September 5, 4:15PM-4:30PM ET",
-        "Bitcoin Up or Down - September 5, 4:35PM-4:40PM ET"
+        "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
+        "US Open ATP: Michael Zheng vs Arthur Gea",
+        "Baylor vs. Auburn"
       ],
       "signals": [
         {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
           "signal": "ENTER",
-          "avg_price": 0.5599,
-          "cur_price": 0.565,
-          "usdc_size": 782.84,
+          "avg_price": 0.5526,
+          "cur_price": 0.545,
+          "usdc_size": 10306.32,
+          "outcome": "Botic van de Zandschulp"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.5007,
+          "cur_price": 0.325,
+          "usdc_size": 29006.6,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.471,
+          "cur_price": 0.325,
+          "usdc_size": 13643.2,
           "outcome": "Michael Zheng"
         },
         {
-          "market": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
           "signal": "SKIP",
-          "avg_price": 0.0084,
-          "cur_price": 0.0035,
-          "usdc_size": 1329.4,
-          "outcome": "Yes"
+          "avg_price": 0.4425,
+          "cur_price": 0.545,
+          "usdc_size": 7430.88,
+          "outcome": "Zizou Bergs"
         },
         {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "market": "Baylor vs. Auburn",
           "signal": "SKIP",
-          "avg_price": 0.5503,
-          "cur_price": 0.495,
-          "usdc_size": 40290.62,
-          "outcome": "Yes"
+          "avg_price": 0.7191,
+          "cur_price": 0.205,
+          "usdc_size": 7998.29,
+          "outcome": "Auburn"
         },
         {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "market": "Baylor vs. Auburn",
           "signal": "SKIP",
-          "avg_price": 0.5901,
-          "cur_price": 0.495,
-          "usdc_size": 34458.34,
-          "outcome": "No"
-        },
-        {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
-          "signal": "SKIP",
-          "avg_price": 0.5211,
-          "cur_price": 0.565,
-          "usdc_size": 2594.07,
-          "outcome": "Arthur Gea"
+          "avg_price": 0.2624,
+          "cur_price": 0.205,
+          "usdc_size": 2886.79,
+          "outcome": "Baylor"
         },
         {
           "market": "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.7027,
-          "cur_price": 0.265,
-          "usdc_size": 939.9,
+          "avg_price": 0.6048,
+          "cur_price": 0.0005,
+          "usdc_size": 7314.14,
           "outcome": "LOUD"
+        },
+        {
+          "market": "Boise State vs. Oregon",
+          "signal": "SKIP",
+          "avg_price": 0.7835,
+          "cur_price": 0.0005,
+          "usdc_size": 6747.33,
+          "outcome": "Oregon"
+        },
+        {
+          "market": "Chicago Cubs vs. Miami Marlins",
+          "signal": "SKIP",
+          "avg_price": 0.2451,
+          "cur_price": 0.665,
+          "usdc_size": 1239.84,
+          "outcome": "Miami Marlins"
+        },
+        {
+          "market": "Chicago Cubs vs. Miami Marlins",
+          "signal": "SKIP",
+          "avg_price": 0.7567,
+          "cur_price": 0.665,
+          "usdc_size": 2377.17,
+          "outcome": "Chicago Cubs"
+        },
+        {
+          "market": "Atlanta Braves vs. Philadelphia Phillies",
+          "signal": "SKIP",
+          "avg_price": 0.8302,
+          "cur_price": 0.175,
+          "usdc_size": 1001.77,
+          "outcome": "Philadelphia Phillies"
+        },
+        {
+          "market": "Detroit Tigers vs. Cleveland Guardians",
+          "signal": "SKIP",
+          "avg_price": 0.5379,
+          "cur_price": 0.735,
+          "usdc_size": 523.13,
+          "outcome": "Detroit Tigers"
         }
       ]
     },
@@ -1132,22 +1198,22 @@
       "wallet": "0xcaab19659b995951a44cc992447cb2ad5be324dd",
       "name": "QMG-CORE",
       "score": 39.9,
-      "roi_score": 27.0,
+      "roi_score": 27.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.8,
-      "roi": -9.5,
-      "cash_pnl": -45418.43,
-      "realized_pnl": -23680.37,
-      "total_usdc": 194082.19,
+      "volume_score": 92.9,
+      "roi": -9.4,
+      "cash_pnl": -45453.64,
+      "realized_pnl": -23679.02,
+      "total_usdc": 198111.9,
       "trade_count": 500,
       "market_count": 65,
       "position_count": 155,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T19:47:15+00:00",
+      "last_active": "2026-09-05T22:15:33+00:00",
       "top_markets": [
         "Will the Bank of Japan announce a 25 bps increase at the September 2026 meeting?",
         "Will the ECB announce a 25 bps increase at the September 2026 meeting?",
@@ -1180,18 +1246,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 75.5,
+      "volume_score": 75.6,
       "roi": -0.6,
-      "cash_pnl": -42.83,
-      "realized_pnl": -32.85,
-      "total_usdc": 20133.79,
+      "cash_pnl": -43.57,
+      "realized_pnl": -32.83,
+      "total_usdc": 20283.94,
       "trade_count": 500,
       "market_count": 109,
       "position_count": 108,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T20:17:13+00:00",
+      "last_active": "2026-09-05T22:17:18+00:00",
       "top_markets": [
         "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
         "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
@@ -1244,216 +1310,108 @@
       "signals": []
     },
     {
-      "wallet": "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027",
-      "name": "0xfBd8C9C22cA76B3662d0e53A4f79719FDC684027-1779347618060",
+      "wallet": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
+      "name": "suhail-frenz-account187",
       "score": 37.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
-      "volume_score": 72.1,
-      "roi": -98.4,
-      "cash_pnl": -8429.42,
-      "realized_pnl": 49923.58,
-      "total_usdc": 12885.56,
+      "volume_score": 71.6,
+      "roi": -99.5,
+      "cash_pnl": -169135.18,
+      "realized_pnl": -70799.44,
+      "total_usdc": 11995.03,
       "trade_count": 500,
-      "market_count": 356,
+      "market_count": 270,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:10:54+00:00",
+      "last_active": "2026-09-05T23:11:33+00:00",
       "top_markets": [
-        "Will Meta have the best AI model at the end of September 2026?",
-        "Will Anthropic have the best AI model at the end of September 2026?",
-        "Will SpaceXAI have the best AI model at the end of September 2026?"
+        "Will MrBeast's next video get between 40 and 50 million views on week 1?",
+        "Will MrBeast's next video get between 60 and 70 million views on week 1?",
+        "Will MrBeast's next video get between 70 and 80 million views on week 1?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-      "name": "cigarettes",
-      "score": 37.1,
-      "roi_score": 20.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 1.7,
-      "volume_score": 81.3,
-      "roi": -18.9,
-      "cash_pnl": -53279.29,
-      "realized_pnl": 629516.57,
-      "total_usdc": 42769.12,
-      "trade_count": 500,
-      "market_count": 149,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-05T21:26:57+00:00",
-      "top_markets": [
-        "UFC Fight Night: Michael Page vs. Nursulton Ruziboev (Middleweight, Main Card)",
-        "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
-        "UFC Fight Night: Morgan Charri\u00e8re vs. Felipe Lima (Featherweight, Main Card)"
-      ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.3548,
-          "cur_price": 0.495,
-          "usdc_size": 69397.29,
-          "outcome": "Yes"
-        },
-        {
-          "market": "UFC Fight Night: Dan Hooker vs. Salahdine Parnasse (Lightweight, Main Card)",
-          "signal": "SKIP",
-          "avg_price": 0.17,
-          "cur_price": 0.205,
-          "usdc_size": 2049.99,
-          "outcome": "Dan Hooker"
-        },
-        {
-          "market": "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.4226,
-          "cur_price": 0.265,
-          "usdc_size": 6644.0,
-          "outcome": "LOUD"
-        },
-        {
-          "market": "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.0788,
-          "cur_price": 0.265,
-          "usdc_size": 925.41,
-          "outcome": "NRG"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
-      "name": "suhail-frenz-account187",
-      "score": 37.0,
+      "wallet": "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027",
+      "name": "0xfBd8C9C22cA76B3662d0e53A4f79719FDC684027-1779347618060",
+      "score": 36.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
-      "volume_score": 70.4,
-      "roi": -99.5,
-      "cash_pnl": -168964.54,
-      "realized_pnl": -75466.27,
-      "total_usdc": 10217.71,
+      "volume_score": 69.4,
+      "roi": -98.4,
+      "cash_pnl": -8460.75,
+      "realized_pnl": 49925.98,
+      "total_usdc": 8979.76,
       "trade_count": 500,
-      "market_count": 216,
+      "market_count": 385,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:26:57+00:00",
+      "last_active": "2026-09-05T23:11:49+00:00",
       "top_markets": [
-        "Will the highest temperature in Buenos Aires be 13\u00b0C on September 5?",
-        "Will the highest temperature in Buenos Aires be 12\u00b0C on September 5?",
-        "Will MrBeast's next video get between 80 and 90 million views on week 1?"
+        "Will Washington Mystics win the 2026 WNBA Finals?",
+        "Will the Democratic Party candidate win the 2026 NJ-07 House election by 6%-9%?",
+        "Will the Democratic Party candidate win the 2026 NJ-07 House election by 0%-3%?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-      "name": "HomeRunHazard",
-      "score": 36.5,
+      "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+      "name": "",
+      "score": 36.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 28.7,
-      "volume_score": 96.8,
-      "roi": -70.8,
-      "cash_pnl": -1179088.89,
-      "realized_pnl": -25392.43,
-      "total_usdc": 327051.94,
+      "early_entry_score": 30.0,
+      "volume_score": 94.1,
+      "roi": -96.7,
+      "cash_pnl": -2512506.86,
+      "realized_pnl": -75345.0,
+      "total_usdc": 229808.75,
       "trade_count": 500,
-      "market_count": 120,
+      "market_count": 201,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:29:39+00:00",
+      "last_active": "2026-09-05T23:12:12+00:00",
       "top_markets": [
-        "US Open ATP: Karen Khachanov vs Benjamin Bonzi",
-        "US Open WTA: Cristina Bucsa vs Coco Gauff",
-        "US Open WTA: Iga Swiatek vs Marie Bouzkova"
+        "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+        "US Open ATP: Alexander Blockx vs Flavio Cobolli",
+        "Frosinone Calcio vs. Venezia FC: O/U 2.5"
       ],
       "signals": [
         {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
           "signal": "LATE",
-          "avg_price": 0.5317,
-          "cur_price": 0.565,
-          "usdc_size": 11473.66,
+          "avg_price": 0.5287,
+          "cur_price": 0.545,
+          "usdc_size": 2510.57,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.5975,
+          "cur_price": 0.325,
+          "usdc_size": 8871.43,
           "outcome": "Arthur Gea"
         },
         {
-          "market": "Boise State vs. Oregon",
+          "market": "Will Columbus Crew win on 2026-09-05?",
           "signal": "SKIP",
-          "avg_price": 0.1524,
-          "cur_price": 0.1705,
-          "usdc_size": 6023.29,
-          "outcome": "Boise State"
-        },
-        {
-          "market": "Tulane vs. Duke",
-          "signal": "SKIP",
-          "avg_price": 0.7413,
-          "cur_price": 0.185,
-          "usdc_size": 20735.4,
-          "outcome": "Duke"
-        },
-        {
-          "market": "San Francisco Giants vs. New York Mets",
-          "signal": "SKIP",
-          "avg_price": 0.585,
-          "cur_price": 0.815,
-          "usdc_size": 3805.19,
-          "outcome": "New York Mets"
-        },
-        {
-          "market": "San Francisco Giants vs. New York Mets",
-          "signal": "SKIP",
-          "avg_price": 0.4341,
-          "cur_price": 0.815,
-          "usdc_size": 14776.14,
-          "outcome": "San Francisco Giants"
-        },
-        {
-          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
-          "signal": "SKIP",
-          "avg_price": 0.4769,
-          "cur_price": 0.565,
-          "usdc_size": 9661.51,
-          "outcome": "Michael Zheng"
-        },
-        {
-          "market": "US Open ATP: Karen Khachanov vs Benjamin Bonzi",
-          "signal": "SKIP",
-          "avg_price": 0.6887,
-          "cur_price": 0.9995,
-          "usdc_size": 15807.8,
-          "outcome": "Karen Khachanov"
-        },
-        {
-          "market": "US Open ATP: Luciano Darderi vs Dane Sweeny",
-          "signal": "SKIP",
-          "avg_price": 0.7727,
-          "cur_price": 0.9995,
-          "usdc_size": 9541.42,
-          "outcome": "Luciano Darderi"
-        },
-        {
-          "market": "Boise State vs. Oregon",
-          "signal": "SKIP",
-          "avg_price": 0.7096,
-          "cur_price": 0.1705,
-          "usdc_size": 1922.25,
-          "outcome": "Oregon"
+          "avg_price": 0.5539,
+          "cur_price": 0.485,
+          "usdc_size": 6624.1,
+          "outcome": "No"
         }
       ]
     },
@@ -1467,7 +1425,7 @@
       "early_entry_score": 0.0,
       "volume_score": 87.3,
       "roi": -25.0,
-      "cash_pnl": -4273.51,
+      "cash_pnl": -4274.75,
       "realized_pnl": 1553.93,
       "total_usdc": 94853.5,
       "trade_count": 500,
@@ -1494,7 +1452,7 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": -40.3,
-      "cash_pnl": -357439.37,
+      "cash_pnl": -357469.38,
       "realized_pnl": 252577.38,
       "total_usdc": 949972.92,
       "trade_count": 500,
@@ -1530,16 +1488,16 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": -52.5,
-      "cash_pnl": -163601.52,
-      "realized_pnl": 7897.13,
-      "total_usdc": 856250.41,
+      "cash_pnl": -163487.23,
+      "realized_pnl": 7897.67,
+      "total_usdc": 856259.91,
       "trade_count": 500,
       "market_count": 53,
       "position_count": 129,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:13:46+00:00",
+      "last_active": "2026-09-05T23:10:30+00:00",
       "top_markets": [
         "Strait of Hormuz traffic returns to normal by December 31?",
         "Will GameStop acquire eBay?",
@@ -1557,7 +1515,7 @@
       "early_entry_score": 0.0,
       "volume_score": 100.0,
       "roi": -70.0,
-      "cash_pnl": -638400.78,
+      "cash_pnl": -638148.16,
       "realized_pnl": 59008.19,
       "total_usdc": 529818.0,
       "trade_count": 500,
@@ -1600,6 +1558,289 @@
       ]
     },
     {
+      "wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+      "name": "6512395314597884",
+      "score": 32.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 2.0,
+      "volume_score": 94.3,
+      "roi": -67.8,
+      "cash_pnl": -92715.04,
+      "realized_pnl": -4129.78,
+      "total_usdc": 238168.27,
+      "trade_count": 500,
+      "market_count": 60,
+      "position_count": 276,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:10:43+00:00",
+      "top_markets": [
+        "US Open ATP: Michael Zheng vs Arthur Gea",
+        "US Open ATP: Alexander Blockx vs Flavio Cobolli",
+        "Porto: Gustavo Heide vs Facundo Mena"
+      ],
+      "signals": [
+        {
+          "market": "Atlanta Braves vs. Philadelphia Phillies",
+          "signal": "SKIP",
+          "avg_price": 0.2473,
+          "cur_price": 0.175,
+          "usdc_size": 4025.0,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Tulane vs. Duke",
+          "signal": "SKIP",
+          "avg_price": 0.0902,
+          "cur_price": 0.045,
+          "usdc_size": 657.73,
+          "outcome": "Tulane"
+        },
+        {
+          "market": "Baylor vs. Auburn",
+          "signal": "SKIP",
+          "avg_price": 0.3236,
+          "cur_price": 0.205,
+          "usdc_size": 3113.24,
+          "outcome": "Baylor"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.482,
+          "cur_price": 0.325,
+          "usdc_size": 2790.35,
+          "outcome": "Michael Zheng"
+        },
+        {
+          "market": "Chicago Cubs vs. Miami Marlins",
+          "signal": "SKIP",
+          "avg_price": 0.8037,
+          "cur_price": 0.665,
+          "usdc_size": 4208.38,
+          "outcome": "Chicago Cubs"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.3524,
+          "cur_price": 0.545,
+          "usdc_size": 1712.39,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "Detroit Tigers vs. Cleveland Guardians",
+          "signal": "SKIP",
+          "avg_price": 0.4,
+          "cur_price": 0.735,
+          "usdc_size": 3020.0,
+          "outcome": "Detroit Tigers"
+        },
+        {
+          "market": "Boise State vs. Oregon",
+          "signal": "SKIP",
+          "avg_price": 0.82,
+          "cur_price": 0.0005,
+          "usdc_size": 3998.0,
+          "outcome": "Oregon"
+        },
+        {
+          "market": "Detroit Tigers vs. Cleveland Guardians",
+          "signal": "SKIP",
+          "avg_price": 0.3,
+          "cur_price": 0.735,
+          "usdc_size": 592.35,
+          "outcome": "Cleveland Guardians"
+        },
+        {
+          "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+          "signal": "SKIP",
+          "avg_price": 0.61,
+          "cur_price": 0.545,
+          "usdc_size": 533.05,
+          "outcome": "Botic van de Zandschulp"
+        }
+      ]
+    },
+    {
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "score": 31.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.3,
+      "roi": -99.9,
+      "cash_pnl": -22480306.28,
+      "realized_pnl": 847414.03,
+      "total_usdc": 207949.34,
+      "trade_count": 500,
+      "market_count": 65,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:12:07+00:00",
+      "top_markets": [
+        "Milwaukee Brewers vs. Cincinnati Reds",
+        "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
+        "Atlanta Braves vs. Philadelphia Phillies: O/U 8.5"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.486,
+          "cur_price": 0.325,
+          "usdc_size": 29304.27,
+          "outcome": "Michael Zheng"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2de2237e3ac4784425575ea5a09d3652d0b811a9",
+      "name": "bei88688",
+      "score": 31.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.5,
+      "roi": -88.6,
+      "cash_pnl": -14252.95,
+      "realized_pnl": -363.88,
+      "total_usdc": 187419.32,
+      "trade_count": 380,
+      "market_count": 228,
+      "position_count": 18,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T22:54:22+00:00",
+      "top_markets": [
+        "ITF Chacabuco: Josefina Estevez vs Fernanda Labrana",
+        "FK Liepaja vs. FK Grobina: Both Teams to Score",
+        "Spread: Deportivo Toluca FC (-1.5)"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.3599,
+          "cur_price": 0.325,
+          "usdc_size": 541.67,
+          "outcome": "Michael Zheng"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "score": 31.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.2,
+      "roi": -94.4,
+      "cash_pnl": -3875564.09,
+      "realized_pnl": 1400851.34,
+      "total_usdc": 121337.1,
+      "trade_count": 500,
+      "market_count": 109,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T23:11:58+00:00",
+      "top_markets": [
+        "Baylor vs. Auburn",
+        "US Open ATP: Michael Zheng vs Arthur Gea",
+        "Boise State vs. Oregon"
+      ],
+      "signals": [
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.4868,
+          "cur_price": 0.325,
+          "usdc_size": 35689.22,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "US Open ATP: Michael Zheng vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.4952,
+          "cur_price": 0.325,
+          "usdc_size": 16753.9,
+          "outcome": "Michael Zheng"
+        },
+        {
+          "market": "Baylor vs. Auburn",
+          "signal": "SKIP",
+          "avg_price": 0.7825,
+          "cur_price": 0.205,
+          "usdc_size": 32368.35,
+          "outcome": "Auburn"
+        },
+        {
+          "market": "Boise State vs. Oregon",
+          "signal": "SKIP",
+          "avg_price": 0.8214,
+          "cur_price": 0.0005,
+          "usdc_size": 46751.28,
+          "outcome": "Oregon"
+        },
+        {
+          "market": "Baylor vs. Auburn",
+          "signal": "SKIP",
+          "avg_price": 0.3094,
+          "cur_price": 0.205,
+          "usdc_size": 10718.07,
+          "outcome": "Baylor"
+        },
+        {
+          "market": "Will Red Bull Bragantino win on 2026-09-05?",
+          "signal": "SKIP",
+          "avg_price": 0.5335,
+          "cur_price": 0.0005,
+          "usdc_size": 13200.02,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x06129889c2f05342812d03b24f89128a5a438d12",
+      "name": "MiqiFund",
+      "score": 31.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.2,
+      "roi": -74.4,
+      "cash_pnl": -3570.95,
+      "realized_pnl": -529.41,
+      "total_usdc": 93700.89,
+      "trade_count": 500,
+      "market_count": 76,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-05T22:53:57+00:00",
+      "top_markets": [
+        "Atlanta Dream vs. Los Angeles Sparks",
+        "Golden State Valkyries vs. Chicago Sky",
+        "Will Real Betis Balompi\u00e9 vs. Real Sociedad de F\u00fatbol end in a draw?"
+      ],
+      "signals": []
+    },
+    {
       "wallet": "0x6933dfe9de300edfdcd4c9db9543fb8dbeb0cea6",
       "name": "ANZCLS",
       "score": 31.0,
@@ -1608,8 +1849,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 85.0,
-      "roi": -52.5,
-      "cash_pnl": -3.68,
+      "roi": -51.7,
+      "cash_pnl": -3.62,
       "realized_pnl": 0.0,
       "total_usdc": 69733.41,
       "trade_count": 56,
@@ -1630,13 +1871,13 @@
       "wallet": "0x856f3a22368a9e33aee5f45cbc11a66d4d5d2f64",
       "name": "SamAlterman",
       "score": 30.7,
-      "roi_score": 0.9,
+      "roi_score": 1.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 79.4,
       "roi": -48.6,
-      "cash_pnl": -4687.51,
+      "cash_pnl": -4680.82,
       "realized_pnl": -14.71,
       "total_usdc": 33313.44,
       "trade_count": 149,
@@ -1673,26 +1914,26 @@
     {
       "wallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
       "name": "e46m3",
-      "score": 30.3,
+      "score": 30.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.6,
+      "volume_score": 74.8,
       "roi": -97.3,
-      "cash_pnl": -330031.08,
+      "cash_pnl": -330058.45,
       "realized_pnl": 98904.04,
-      "total_usdc": 26536.37,
+      "total_usdc": 18274.99,
       "trade_count": 500,
-      "market_count": 346,
+      "market_count": 353,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T21:26:57+00:00",
+      "last_active": "2026-09-05T23:10:58+00:00",
       "top_markets": [
-        "Detroit Tigers vs. Cleveland Guardians",
         "Spread: LSU (-9.5)",
+        "Will Anthropic have the highest IPO Market Cap 2026?",
         "Will Gr\u00fcne win between 5% and 7% of all valid second votes?"
       ],
       "signals": []
@@ -1707,7 +1948,7 @@
       "early_entry_score": 0.0,
       "volume_score": 72.5,
       "roi": -77.2,
-      "cash_pnl": -8277.66,
+      "cash_pnl": -8278.06,
       "realized_pnl": 10655.22,
       "total_usdc": 13499.95,
       "trade_count": 500,
@@ -1778,16 +2019,16 @@
       "early_entry_score": 0.0,
       "volume_score": 62.4,
       "roi": -80.8,
-      "cash_pnl": -47313.9,
+      "cash_pnl": -47312.03,
       "realized_pnl": -1293.57,
-      "total_usdc": 3612.32,
+      "total_usdc": 3612.11,
       "trade_count": 500,
       "market_count": 3,
       "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-05T20:30:51+00:00",
+      "last_active": "2026-09-05T21:47:19+00:00",
       "top_markets": [
         "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
         "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
@@ -1817,142 +2058,142 @@
     {
       "id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
       "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "30523108.52965599",
-      "liquidity": "3140567.67836",
+      "volume": "30530759.562656",
+      "liquidity": "3105976.88571",
       "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0xf4c13355df3e9f175de1ac245c64324fa26f5f6a5b8e5ca5326ea8c0d411e3df",
-      "question": "US Open ATP: Karen Khachanov vs Benjamin Bonzi",
-      "volume": "808516.9259029998",
-      "liquidity": "446869.86391",
-      "end_date": "2026-09-11T15:00:00Z"
-    },
-    {
-      "id": "0x5e464d85eb49f22d876f3ed6168a7db5e2288e9ae1eb91effd2758e994676f86",
-      "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "13015936.172785",
-      "liquidity": "906558.12572",
-      "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0x5144bc696c66207af55278b9b261a13e4b45b7c63c624d441417d792c02c55b5",
-      "question": "UFC Fight Night: Michael Page vs. Nursulton Ruziboev (Middleweight, Main Card)",
-      "volume": "576467.3167149998",
-      "liquidity": "281289.31039",
-      "end_date": "2026-09-06T03:59:59.999Z"
     },
     {
       "id": "0xcd02e77a716f0f03b878cd21397eb57bb53217d9a8769931b5ad6b4d67a77056",
       "question": "US Open ATP: Michael Zheng vs Arthur Gea",
-      "volume": "507181.49470499996",
-      "liquidity": "222113.4132",
+      "volume": "1041417.485937",
+      "liquidity": "76098.9587",
       "end_date": "2026-09-12T15:00:00Z"
+    },
+    {
+      "id": "0x5e464d85eb49f22d876f3ed6168a7db5e2288e9ae1eb91effd2758e994676f86",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
+      "volume": "13015937.273784993",
+      "liquidity": "900321.28665",
+      "end_date": "2026-09-16T00:00:00Z"
+    },
+    {
+      "id": "0x90dab25da3664b7a341a6114a8c310ea526d578e1286ca97987ffb5207b8c939",
+      "question": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
+      "volume": "593130.9925460003",
+      "liquidity": "273219.532",
+      "end_date": "2026-09-12T15:00:00Z"
+    },
+    {
+      "id": "0xcb316ba3df8b00a180006d2c74f91e4dd013b28fee827e83c65c7b9f2ce97334",
+      "question": "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
+      "volume": "557574.6935259998",
+      "liquidity": "371011.93712",
+      "end_date": "2026-09-06T00:30:00Z"
     },
     {
       "id": "0x363f382da6e5b3def687e8b8000e7b13398d0c11db9b6af7556ef3626246ff5f",
       "question": "Will Red Bull Bragantino win on 2026-09-05?",
-      "volume": "471249.9580489999",
-      "liquidity": "310603.64625",
+      "volume": "500352.0280489998",
+      "liquidity": "280236.95212",
       "end_date": "2026-09-05T19:00:00Z"
     },
     {
       "id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
       "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "volume": "23037642.744315013",
-      "liquidity": "776179.6708",
+      "volume": "23040813.903528005",
+      "liquidity": "768298.8697",
       "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0xd445027f4e4a4fcbc29c13eced012e9643a6f589380fd936c4e8eb93e10e75c2",
-      "question": "US Open WTA: Cristina Bucsa vs Coco Gauff",
-      "volume": "436026.2276409999",
-      "liquidity": "346123.63671",
-      "end_date": "2026-09-12T15:00:00Z"
     },
     {
       "id": "0xcfbc2e5fbabb9e8a03bf234367244d4c97eaaf3ac33e2ba001541ee3e0e62416",
       "question": "Israel closes its airspace by September 30?",
-      "volume": "1082644.9948070003",
-      "liquidity": "101844.9617",
+      "volume": "1099016.2092249994",
+      "liquidity": "94336.1182",
       "end_date": "2026-10-01T03:59:00Z"
-    },
-    {
-      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
-      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "13827884.647",
-      "liquidity": "343908.28034",
-      "end_date": "2027-05-30T23:59:00Z"
     },
     {
       "id": "0xefabaceecde105644a40f338c79d4b5fcaa5c2903b4a37120f7bfe97c7089e89",
       "question": "Tulane vs. Duke",
-      "volume": "380198.583162",
-      "liquidity": "24756.3061",
+      "volume": "419125.58464599994",
+      "liquidity": "25462.4593",
       "end_date": "2026-09-05T19:30:00Z"
     },
     {
-      "id": "0xcb316ba3df8b00a180006d2c74f91e4dd013b28fee827e83c65c7b9f2ce97334",
-      "question": "Valorant: NRG vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
-      "volume": "376735.8016329997",
-      "liquidity": "24693.496",
-      "end_date": "2026-09-06T00:30:00Z"
-    },
-    {
-      "id": "0x323e42463f28e1857bf362779f197447e5844867be9732d98283d61b8de3a444",
-      "question": "US Open ATP: Luciano Darderi vs Dane Sweeny",
-      "volume": "371136.5105560001",
-      "liquidity": "363035.65301",
-      "end_date": "2026-09-11T15:00:00Z"
-    },
-    {
-      "id": "0xc42bf8f349b10d74c8f059c0c9bb331c0b809e52808060dc906fc61af361f2f9",
-      "question": "UFC Fight Night: Far\u00e9s Ziam vs. Axel Sola (Lightweight, Main Card)",
-      "volume": "382579.38569900044",
-      "liquidity": "228093.75971",
-      "end_date": "2026-09-06T03:59:59.999Z"
-    },
-    {
-      "id": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e",
-      "question": "San Francisco Giants vs. New York Mets",
-      "volume": "349022.6737189999",
-      "liquidity": "30264.4643",
-      "end_date": "2026-09-12T20:10:00Z"
-    },
-    {
-      "id": "0x094772b3529f455e881a4483eaf1c24266384f55e97c23f24f638f5726ba9920",
-      "question": "Iran leadership change by September 30?",
-      "volume": "1000824.5444809997",
-      "liquidity": "127708.4419",
-      "end_date": "2026-10-01T03:59:00Z"
-    },
-    {
-      "id": "0x6c3f1009a0c91ba9f7aae44aeadf86863b0d433b60f7a090fd00c945019aa32f",
-      "question": "Russia x Ukraine ceasefire agreement by October 31, 2026?",
-      "volume": "1510759.1903779996",
-      "liquidity": "58838.89",
-      "end_date": "2026-11-01T03:59:00Z"
-    },
-    {
-      "id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
-      "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "18483768.682931997",
-      "liquidity": "767289.0104",
-      "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0x7ff9b0dcc91cd7e19d645a903f36eb0e7eb2589a941bdf54de306c0899b88bce",
-      "question": "UFC Fight Night: Dan Hooker vs. Salahdine Parnasse (Lightweight, Main Card)",
-      "volume": "412789.7865220001",
-      "liquidity": "457219.0264",
-      "end_date": "2026-09-06T03:59:59.999Z"
+      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
+      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+      "volume": "13856543.387000002",
+      "liquidity": "352305.3375",
+      "end_date": "2027-05-30T23:59:00Z"
     },
     {
       "id": "0x61f6a4fe40ecd58ff3dcf96ff4ef362ea69d2e7c0ba1a059aa8c6c0f95fc6189",
       "question": "Boise State vs. Oregon",
-      "volume": "281384.51316099986",
-      "liquidity": "53206.32106",
+      "volume": "372301.2239980002",
+      "liquidity": "190249.6701",
       "end_date": "2026-09-05T19:30:00Z"
+    },
+    {
+      "id": "0x18245c7ba321a1961c29d97610ff927125be7e6fab4d25badfa7e6acba45ad29",
+      "question": "Will Columbus Crew win on 2026-09-05?",
+      "volume": "365570.91495000024",
+      "liquidity": "158001.2293",
+      "end_date": "2026-09-05T23:30:00Z"
+    },
+    {
+      "id": "0x679ece81e640f56639491fa669595308dbe23ae5973abb046d43900b2bcaaa2b",
+      "question": "Chicago Cubs vs. Miami Marlins",
+      "volume": "338375.437657",
+      "liquidity": "47274.8758",
+      "end_date": "2026-09-12T20:10:00Z"
+    },
+    {
+      "id": "0xd46d00efd8c768ca800367653f34538a00864c8193dfb5be4c3e162c8ed7ff16",
+      "question": "Baylor vs. Auburn",
+      "volume": "308522.887638",
+      "liquidity": "101082.44",
+      "end_date": "2026-09-05T19:30:00Z"
+    },
+    {
+      "id": "0x094772b3529f455e881a4483eaf1c24266384f55e97c23f24f638f5726ba9920",
+      "question": "Iran leadership change by September 30?",
+      "volume": "1001333.3744810002",
+      "liquidity": "133022.9402",
+      "end_date": "2026-10-01T03:59:00Z"
+    },
+    {
+      "id": "0x308e7d08e587b0d5a1b7c9f991e0bf6186007e6c7d0a73e6edd77b2b14594926",
+      "question": "Atlanta Braves vs. Philadelphia Phillies",
+      "volume": "288504.9294579999",
+      "liquidity": "110150.9818",
+      "end_date": "2026-09-12T22:05:00Z"
+    },
+    {
+      "id": "0xc3a5b1bb04fde0f37d20b106fecd537a57366ead6c554282d5e8cbaf6747e4d8",
+      "question": "Detroit Tigers vs. Cleveland Guardians",
+      "volume": "285723.49558500026",
+      "liquidity": "61149.6771",
+      "end_date": "2026-09-12T22:10:00Z"
+    },
+    {
+      "id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+      "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "volume": "18493980.192729995",
+      "liquidity": "750081.3217",
+      "end_date": "2026-09-16T00:00:00Z"
+    },
+    {
+      "id": "0x8a2e7737d04cf353c9d74124f572a20c5440187074d0cbad83faa9bf3745ee0c",
+      "question": "Spread: Philadelphia Union (-1.5)",
+      "volume": "267186.390872",
+      "liquidity": "79145.2463",
+      "end_date": "2026-09-05T23:30:00Z"
+    },
+    {
+      "id": "0x6c3f1009a0c91ba9f7aae44aeadf86863b0d433b60f7a090fd00c945019aa32f",
+      "question": "Russia x Ukraine ceasefire agreement by October 31, 2026?",
+      "volume": "1514723.0846589988",
+      "liquidity": "63504.6942",
+      "end_date": "2026-11-01T03:59:00Z"
     }
   ]
 }
