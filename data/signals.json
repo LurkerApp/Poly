@@ -1,528 +1,410 @@
 {
-  "last_updated": "2026-09-10T13:01:55.599094+00:00",
+  "last_updated": "2026-09-10T17:05:20.986275+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0xadc25030c7b911aecd29412779299cb8eca896eb",
-      "name": "",
-      "score": 45.4,
-      "roi_score": 50.0,
+      "wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+      "name": "ratehikes",
+      "score": 47.3,
+      "roi_score": 50.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 78.7,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 30486.59,
-      "trade_count": 137,
-      "market_count": 88,
-      "position_count": 0,
+      "volume_score": 96.1,
+      "roi": 25.7,
+      "cash_pnl": 118967.83,
+      "realized_pnl": 66151.93,
+      "total_usdc": 300450.29,
+      "trade_count": 500,
+      "market_count": 6,
+      "position_count": 16,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:37:22+00:00",
+      "last_active": "2026-09-10T16:54:49+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "United States vs. Belgium: Team to Advance",
-        "United States vs. Bosnia and Herzegovina: Team to Advance"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x30817864e203c8743ee266c30639a1fae7ffefed",
-      "name": "py3-888",
-      "score": 45.3,
-      "roi_score": 47.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.6,
-      "roi": 21.0,
-      "cash_pnl": 3905.76,
-      "realized_pnl": 515.8,
-      "total_usdc": 75294.63,
-      "trade_count": 225,
-      "market_count": 135,
-      "position_count": 15,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:49:06+00:00",
-      "top_markets": [
-        "Will OpenAI\u2019s Astra model be released by September 3, 2026?",
-        "Patriots vs. Seahawks",
-        "Will Apple release a foldable iPhone before 2027?"
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?"
       ],
       "signals": [
         {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.3481,
+          "cur_price": 0.635,
+          "usdc_size": 359978.0,
+          "outcome": "Yes"
+        },
+        {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5499,
+          "avg_price": 0.6299,
           "cur_price": 0.365,
-          "usdc_size": 2034.88,
+          "usdc_size": 2540.0,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x9c02fb0be74593049cf07a744f4dc8cf8b74285c",
-      "name": "barndoor3",
+      "wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+      "name": "mr.ozi",
       "score": 44.9,
-      "roi_score": 44.2,
+      "roi_score": 42.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 91.4,
-      "roi": 16.3,
-      "cash_pnl": 25812.01,
-      "realized_pnl": 0.0,
-      "total_usdc": 162335.98,
-      "trade_count": 47,
-      "market_count": 2,
-      "position_count": 2,
+      "volume_score": 97.9,
+      "roi": 13.2,
+      "cash_pnl": 54967.88,
+      "realized_pnl": 20532.25,
+      "total_usdc": 381582.68,
+      "trade_count": 500,
+      "market_count": 18,
+      "position_count": 23,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:51:21+00:00",
+      "last_active": "2026-09-10T16:45:12+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?"
+        "Israel closes its airspace by September 30?",
+        "Iran leadership change by December 31?",
+        "Israel x Iran ceasefire continues through September 30?"
       ],
       "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5462,
-          "cur_price": 0.365,
-          "usdc_size": 182030.36,
-          "outcome": "No"
-        },
         {
           "market": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.008,
-          "cur_price": 0.0095,
-          "usdc_size": 2518.82,
+          "avg_price": 0.0055,
+          "cur_price": 0.0085,
+          "usdc_size": 962.41,
           "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
-      "name": "TheReturnOfDarthMaul",
-      "score": 44.4,
-      "roi_score": 39.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 9.6,
-      "cash_pnl": 590603.47,
-      "realized_pnl": 5335.31,
-      "total_usdc": 703259.41,
-      "trade_count": 500,
-      "market_count": 11,
-      "position_count": 71,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:24+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Fed Rate Hike by September 2026 Meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.3532,
-          "cur_price": 0.365,
-          "usdc_size": 150157.32,
-          "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4364,
-          "cur_price": 0.625,
-          "usdc_size": 1673273.41,
+          "avg_price": 0.4816,
+          "cur_price": 0.635,
+          "usdc_size": 41936.04,
           "outcome": "Yes"
         },
         {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "market": "Strait of Hormuz traffic returns to normal by December 31?",
           "signal": "SKIP",
-          "avg_price": 0.602,
-          "cur_price": 0.475,
-          "usdc_size": 273042.42,
+          "avg_price": 0.3947,
+          "cur_price": 0.165,
+          "usdc_size": 2941.73,
           "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeb6f0a13ea8c5a7a0514c25495adbe815c1025f0",
+      "name": "GORILLA987",
+      "score": 44.7,
+      "roi_score": 42.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.8,
+      "roi": 13.7,
+      "cash_pnl": 12966.55,
+      "realized_pnl": 23916.11,
+      "total_usdc": 251247.87,
+      "trade_count": 500,
+      "market_count": 14,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T17:03:04+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4662,
+          "cur_price": 0.635,
+          "usdc_size": 35709.42,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6399,
+          "cur_price": 0.365,
+          "usdc_size": 11876.92,
+          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0x16f04595fe97082d1341e42936a358a96569aba5",
       "name": "Skovorodnikov",
-      "score": 44.2,
-      "roi_score": 42.2,
+      "score": 43.7,
+      "roi_score": 40.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.6,
-      "roi": 13.3,
-      "cash_pnl": 263.93,
-      "realized_pnl": 359.05,
-      "total_usdc": 145345.42,
+      "volume_score": 90.7,
+      "roi": 10.4,
+      "cash_pnl": 129.7,
+      "realized_pnl": 1097.88,
+      "total_usdc": 147573.74,
       "trade_count": 500,
       "market_count": 154,
       "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:37:22+00:00",
+      "last_active": "2026-09-10T14:47:34+00:00",
       "top_markets": [
         "Will the Bank of Russia make no change to the key rate after the September Meeting?",
         "Counter-Strike: FUT Esports vs Lynn Vision (BO3) - BLAST Open Porto Group B",
         "Will Vitality Win the BLAST Open Porto 2026?"
       ],
+      "signals": []
+    },
+    {
+      "wallet": "0x55f35253852930ef05a1a3f8dcd0007f6b0acada",
+      "name": "Yirmeyahu",
+      "score": 42.4,
+      "roi_score": 33.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.3,
+      "roi": -0.4,
+      "cash_pnl": -236.13,
+      "realized_pnl": -421.55,
+      "total_usdc": 454457.58,
+      "trade_count": 500,
+      "market_count": 74,
+      "position_count": 21,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:31:46+00:00",
+      "top_markets": [
+        "Will Sarah Knafo advance to the second round of the 2026 Paris municipal election?",
+        "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
+        "Will Spencer Pratt win the 2026 Los Angeles mayoral election?"
+      ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5766,
+          "avg_price": 0.4395,
           "cur_price": 0.365,
-          "usdc_size": 952.5,
+          "usdc_size": 4925.59,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x407dd149f1e92c91d0053e0240e03318a1e01bae",
+      "name": "moonlight2020",
+      "score": 42.3,
+      "roi_score": 36.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.2,
+      "roi": 4.5,
+      "cash_pnl": 2338.54,
+      "realized_pnl": 0.85,
+      "total_usdc": 121430.53,
+      "trade_count": 500,
+      "market_count": 67,
+      "position_count": 20,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:55:36+00:00",
+      "top_markets": [
+        "Will STRC hit $100 by December 31?",
+        "Clarity Act (H.R.3633) signed into law in 2026?",
+        "US announces end of Iranian blockade by September 30, 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4139,
+          "cur_price": 0.365,
+          "usdc_size": 3650.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc6dd722558dbfbd8fa780efcbe819ed8c6604b9f",
+      "name": "tourists",
+      "score": 41.5,
+      "roi_score": 30.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -5.0,
+      "cash_pnl": -12477.5,
+      "realized_pnl": 844.18,
+      "total_usdc": 706206.05,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 30,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:37:34+00:00",
+      "top_markets": [
+        "2026 Balance of Power: R Senate, R House",
+        "Will the U.S. invade Iran before 2027?",
+        "Will Gentner Drummond win the 2026 Oklahoma Governor Republican primary election?"
+      ],
+      "signals": [
+        {
+          "market": "Strait of Hormuz traffic returns to normal by December 31?",
+          "signal": "SKIP",
+          "avg_price": 0.6999,
+          "cur_price": 0.165,
+          "usdc_size": 6305.03,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xe3f06cbd3b207e97d82e957f7051564415fbc57c",
-      "name": "Babamoney",
-      "score": 43.9,
-      "roi_score": 50.0,
+      "wallet": "0x52b9e9e72be374e9993c470b4c0f612ab697df61",
+      "name": "RR344KK",
+      "score": 41.2,
+      "roi_score": 33.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 64.4,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 4655.72,
-      "trade_count": 2,
-      "market_count": 1,
-      "position_count": 0,
+      "volume_score": 85.4,
+      "roi": 0.8,
+      "cash_pnl": 222.1,
+      "realized_pnl": 37.25,
+      "total_usdc": 73588.38,
+      "trade_count": 284,
+      "market_count": 24,
+      "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:35:00+00:00",
+      "last_active": "2026-09-10T16:54:31+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+        "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
+        "NATO x Russia military clash by August 31, 2026?",
+        "Will Gentner Drummond win the 2026 Oklahoma Governor Republican primary election?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
-      "name": "PantheraUncia",
-      "score": 43.5,
-      "roi_score": 38.9,
+      "wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+      "name": "Lolakis",
+      "score": 40.8,
+      "roi_score": 33.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.7,
-      "roi": 8.3,
-      "cash_pnl": 17694.0,
-      "realized_pnl": 6936.82,
-      "total_usdc": 219626.79,
+      "volume_score": 82.6,
+      "roi": 0.1,
+      "cash_pnl": 1.15,
+      "realized_pnl": -1230.86,
+      "total_usdc": 51149.3,
       "trade_count": 500,
-      "market_count": 19,
-      "position_count": 31,
+      "market_count": 14,
+      "position_count": 5,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
+      "last_active": "2026-09-10T16:57:34+00:00",
+      "top_markets": [
+        "US x Iran Effective Ceasefire by September 4?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.6299,
+          "cur_price": 0.635,
+          "usdc_size": 618.75,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x45f64bcc5239a3494226b48fbcbfbe8a5d58b18d",
+      "name": "Banga-Ranga",
+      "score": 40.8,
+      "roi_score": 38.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 69.4,
+      "roi": 7.1,
+      "cash_pnl": 1774.67,
+      "realized_pnl": 0.0,
+      "total_usdc": 8977.8,
+      "trade_count": 48,
+      "market_count": 3,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T15:09:40+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will Pete Buttigieg win the 2028 US Presidential Election?",
+        "US x Iran permanent peace deal by June 15, 2026?",
         "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.473,
+          "avg_price": 0.6299,
           "cur_price": 0.365,
-          "usdc_size": 35184.76,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9e4b72109654373d9955a60aa59bef8305be2c67",
-      "name": "",
-      "score": 43.4,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 58.6,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 2172.48,
-      "trade_count": 4,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:49:00+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-      "name": "MisTKy",
-      "score": 43.3,
-      "roi_score": 36.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.8,
-      "roi": 5.1,
-      "cash_pnl": 11852.31,
-      "realized_pnl": 2413.63,
-      "total_usdc": 372236.91,
-      "trade_count": 500,
-      "market_count": 21,
-      "position_count": 49,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T13:01:01+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "US x Iran Effective Ceasefire by September 4?",
-        "Russia x Ukraine ceasefire by December 31, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4996,
-          "cur_price": 0.625,
-          "usdc_size": 41160.92,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by December 31?",
-          "signal": "SKIP",
-          "avg_price": 0.653,
-          "cur_price": 0.16,
-          "usdc_size": 45836.89,
+          "usdc_size": 6261.04,
           "outcome": "No"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.6042,
-          "cur_price": 0.475,
-          "usdc_size": 14244.69,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x57b00c3ccef1b6bd6962fb9ca463c4e0b38e76f4",
-      "name": "nchgbhy",
-      "score": 42.3,
-      "roi_score": 36.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.2,
-      "roi": 3.9,
-      "cash_pnl": 3520.18,
-      "realized_pnl": 5425.93,
-      "total_usdc": 138752.23,
-      "trade_count": 500,
-      "market_count": 60,
-      "position_count": 66,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:54:49+00:00",
-      "top_markets": [
-        "Israel x Iran ceasefire continues through September 30?",
-        "Russia x Ukraine ceasefire agreement by October 31, 2026?",
-        "Israel closes its airspace by September 30?"
-      ],
-      "signals": [
-        {
-          "market": "Strait of Hormuz traffic returns to normal by December 31?",
-          "signal": "SKIP",
-          "avg_price": 0.3759,
-          "cur_price": 0.16,
-          "usdc_size": 800.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7289e262334f777a958e5e173ef579e49d65cdbf",
-      "name": "Ninusik",
-      "score": 41.7,
-      "roi_score": 34.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.8,
-      "roi": 1.4,
-      "cash_pnl": 52.96,
-      "realized_pnl": -13.04,
-      "total_usdc": 114317.68,
-      "trade_count": 173,
-      "market_count": 25,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:55:25+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Democrats and Republicans both lose the 2024 Presidential Election?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.36,
-          "cur_price": 0.365,
-          "usdc_size": 3895.16,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa9aca75fb5d8f04c2ec9eeb0eb0c30d2e526c5d1",
-      "name": "suraxy",
-      "score": 41.7,
-      "roi_score": 34.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.7,
-      "roi": 2.3,
-      "cash_pnl": 358.37,
-      "realized_pnl": -872.47,
-      "total_usdc": 99551.79,
-      "trade_count": 500,
-      "market_count": 51,
-      "position_count": 28,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:46:33+00:00",
-      "top_markets": [
-        "US x Iran Effective Ceasefire by September 4?",
-        "Will Apple be the largest company in the world by market cap on September 30?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "US x Iran Effective Ceasefire by September 4?",
-          "signal": "SKIP",
-          "avg_price": 0.3899,
-          "cur_price": 0.595,
-          "usdc_size": 1038.46,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x54b56146656e7eef9da02b3a030c18e06e924b31",
-      "name": "pup1",
-      "score": 40.9,
-      "roi_score": 31.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.9,
-      "roi": -2.9,
-      "cash_pnl": -3100.12,
-      "realized_pnl": 24436.74,
-      "total_usdc": 133178.66,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:43:58+00:00",
-      "top_markets": [
-        "Will Manchester City FC win on 2026-09-08?",
-        "Will FC Barcelona win on 2026-09-09?",
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?"
-      ],
-      "signals": [
-        {
-          "market": "Strait of Hormuz traffic returns to normal by December 31?",
-          "signal": "SKIP",
-          "avg_price": 0.2698,
-          "cur_price": 0.16,
-          "usdc_size": 5600.0,
-          "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5051,
-          "cur_price": 0.625,
-          "usdc_size": 6250.01,
+          "avg_price": 0.28,
+          "cur_price": 0.635,
+          "usdc_size": 3086.1,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4758,
-          "cur_price": 0.365,
-          "usdc_size": 3650.01,
-          "outcome": "Yes"
-        },
-        {
-          "market": "LAPTOP FDV above $1B one day after launch?",
-          "signal": "SKIP",
-          "avg_price": 0.556,
-          "cur_price": 0.155,
-          "usdc_size": 845.0,
-          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0xb36cfbf83a716c55507a81ace255480b9ed31077",
       "name": "20260601",
-      "score": 40.7,
-      "roi_score": 33.3,
+      "score": 40.8,
+      "roi_score": 33.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.7,
-      "roi": -0.0,
-      "cash_pnl": -5.12,
-      "realized_pnl": -731.93,
-      "total_usdc": 45177.21,
+      "volume_score": 82.4,
+      "roi": 0.5,
+      "cash_pnl": 155.84,
+      "realized_pnl": -999.05,
+      "total_usdc": 49889.63,
       "trade_count": 500,
-      "market_count": 20,
+      "market_count": 21,
       "position_count": 30,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:51:10+00:00",
+      "last_active": "2026-09-10T16:38:03+00:00",
       "top_markets": [
         "US x Iran Effective Ceasefire by September 4?",
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
@@ -532,212 +414,376 @@
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5318,
+          "avg_price": 0.492,
           "cur_price": 0.365,
-          "usdc_size": 5948.31,
+          "usdc_size": 6678.31,
           "outcome": "Yes"
         },
         {
           "market": "US x Iran Effective Ceasefire by September 4?",
           "signal": "SKIP",
           "avg_price": 0.4372,
-          "cur_price": 0.595,
-          "usdc_size": 4735.09,
+          "cur_price": 0.585,
+          "usdc_size": 4655.5,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-      "name": "Lolakis",
-      "score": 40.7,
-      "roi_score": 33.6,
+      "wallet": "0x5b9115312cb4fc2b2b57c65045e611092f222709",
+      "name": "x26",
+      "score": 39.8,
+      "roi_score": 28.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.3,
-      "roi": 0.4,
-      "cash_pnl": 1.05,
-      "realized_pnl": 232.17,
-      "total_usdc": 42828.95,
+      "volume_score": 89.3,
+      "roi": -8.0,
+      "cash_pnl": -7355.26,
+      "realized_pnl": -817.38,
+      "total_usdc": 122959.26,
       "trade_count": 500,
-      "market_count": 13,
-      "position_count": 3,
+      "market_count": 66,
+      "position_count": 53,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:58:01+00:00",
+      "last_active": "2026-09-10T14:34:27+00:00",
       "top_markets": [
-        "US x Iran Effective Ceasefire by September 4?",
-        "Israel x Iran ceasefire continues through September 30?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb81ea24bda361fcbed501fadfc5e8c635b1db640",
-      "name": "0x8a704186eEa1aDA4E1459f48f1e8DD5611Be93c5-1776728326344",
-      "score": 38.8,
-      "roi_score": 29.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.1,
-      "roi": -6.5,
-      "cash_pnl": -474.9,
-      "realized_pnl": 0.0,
-      "total_usdc": 21693.67,
-      "trade_count": 40,
-      "market_count": 5,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:55:25+00:00",
-      "top_markets": [
-        "Strait of Hormuz traffic returns to normal by end of June?",
-        "US x Iran permanent peace deal by June 15, 2026?",
-        "US x Iran permanent peace deal by June 30, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.437,
-          "cur_price": 0.365,
-          "usdc_size": 5092.81,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x24c5f71a023196fcbcc7007d5c821e5b8bc1e372",
-      "name": "LITEForevr",
-      "score": 38.5,
-      "roi_score": 24.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.5,
-      "roi": -12.6,
-      "cash_pnl": -354.08,
-      "realized_pnl": 0.0,
-      "total_usdc": 74890.06,
-      "trade_count": 500,
-      "market_count": 52,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:40:24+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs Nongshim Red Force - Game 1 Winner",
-        "First Round Pool C: South Korea vs. Chinese Taipei",
-        "Heat vs. Hornets: O/U 230.5"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4178,
-          "cur_price": 0.365,
-          "usdc_size": 2447.29,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfc7d6673d1cde299bfd768a3f6116ba176de9107",
-      "name": "skycapital9527",
-      "score": 38.3,
-      "roi_score": 26.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.9,
-      "roi": -11.0,
-      "cash_pnl": -269.99,
-      "realized_pnl": -80.84,
-      "total_usdc": 36001.25,
-      "trade_count": 60,
-      "market_count": 6,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:37:37+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will CXMT\u2019s closing IPO market cap be at least 2T yuan?"
+        "Will SpaceX (SPCX) beat quarterly earnings?",
+        "Fed Rate Hike by October 2026 Meeting?"
       ],
       "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "LATE",
+          "avg_price": 0.6,
+          "cur_price": 0.635,
+          "usdc_size": 6223.0,
+          "outcome": "Yes"
+        },
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4099,
+          "avg_price": 0.6224,
           "cur_price": 0.365,
-          "usdc_size": 2190.0,
+          "usdc_size": 10511.99,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x12350eeeb1c810cc92c2a17035fe1e636735b640",
-      "name": "cc20",
-      "score": 37.9,
-      "roi_score": 29.3,
+      "wallet": "0xb96dc5001b9076b25386d9c48db81e3087a24179",
+      "name": "0xb96DC5001b9076B25386D9C48db81E3087a24179-1767837485551",
+      "score": 39.6,
+      "roi_score": 23.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 65.8,
-      "roi": -6.0,
-      "cash_pnl": -63.7,
-      "realized_pnl": 0.0,
-      "total_usdc": 5610.88,
-      "trade_count": 38,
-      "market_count": 7,
-      "position_count": 2,
+      "volume_score": 100.0,
+      "roi": -14.6,
+      "cash_pnl": -2175.05,
+      "realized_pnl": -13.26,
+      "total_usdc": 2049041.27,
+      "trade_count": 243,
+      "market_count": 101,
+      "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
+      "last_active": "2026-09-10T14:37:30+00:00",
       "top_markets": [
-        "Ethereum Up or Down on September 8?",
-        "Ethereum Up or Down on September 5?",
-        "Ethereum Up or Down on September 4?"
+        "Australian Open Men's: Carlos Alcaraz vs Tommy Paul",
+        "Australian Open Men's: Ben Shelton vs Casper Ruud",
+        "Australian Open Men's: Alexander Zverev vs Francisco Cerundolo"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.3878,
+          "signal": "ENTER",
+          "avg_price": 0.3699,
           "cur_price": 0.365,
-          "usdc_size": 989.15,
+          "usdc_size": 12733.32,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xd8e545062edd33951faaba99d0d17568142162c1",
-      "name": "",
-      "score": 37.5,
-      "roi_score": 28.3,
+      "wallet": "0xc6630c8d4671d5a2434eae850757a30cf6ceb208",
+      "name": "CFFFFFFFSA",
+      "score": 39.1,
+      "roi_score": 32.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 64.9,
-      "roi": -7.6,
-      "cash_pnl": -367.48,
+      "volume_score": 68.4,
+      "roi": -1.4,
+      "cash_pnl": -104.12,
       "realized_pnl": 0.0,
-      "total_usdc": 4991.27,
-      "trade_count": 17,
+      "total_usdc": 7949.04,
+      "trade_count": 1,
       "market_count": 1,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:47:39+00:00",
+      "last_active": "2026-09-10T16:40:57+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.3699,
+          "cur_price": 0.365,
+          "usdc_size": 7602.15,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x80cf0749b26556cb2ce5bad513388309865d614d",
+      "name": "TRADER420",
+      "score": 38.7,
+      "roi_score": 27.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.1,
+      "roi": -8.8,
+      "cash_pnl": -1735.7,
+      "realized_pnl": 102.04,
+      "total_usdc": 32206.6,
+      "trade_count": 500,
+      "market_count": 58,
+      "position_count": 37,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T13:59:58+00:00",
+      "top_markets": [
+        "US x Iran permanent peace deal by June 7, 2026?",
+        "US x Iran permanent peace deal by May 31, 2026?",
+        "Iran agrees to unrestricted shipping through Hormuz by June 30?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.64,
+          "cur_price": 0.365,
+          "usdc_size": 1905.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcd012ba3f7fc3edf59cb867fc34684254c11ba64",
+      "name": "HARRY1231",
+      "score": 38.6,
+      "roi_score": 32.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 63.4,
+      "roi": -1.4,
+      "cash_pnl": -54.04,
+      "realized_pnl": 0.0,
+      "total_usdc": 4126.0,
+      "trade_count": 1,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:23:37+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.3699,
+          "cur_price": 0.365,
+          "usdc_size": 3945.95,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xed49defb36f77e74912c0ff38d2667317bad8783",
+      "name": "EducatedGuess69420",
+      "score": 37.7,
+      "roi_score": 18.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.9,
+      "roi": -22.8,
+      "cash_pnl": -10539.72,
+      "realized_pnl": -1858.98,
+      "total_usdc": 377772.85,
+      "trade_count": 348,
+      "market_count": 87,
+      "position_count": 18,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:43:09+00:00",
+      "top_markets": [
+        " Iran agrees to end enrichment of uranium by June 30?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Strait of Hormuz traffic returns to normal by July 31?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4894,
+          "cur_price": 0.365,
+          "usdc_size": 9650.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Strait of Hormuz traffic returns to normal by December 31?",
+          "signal": "SKIP",
+          "avg_price": 0.5787,
+          "cur_price": 0.165,
+          "usdc_size": 2238.15,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x04a33ec8b7781a42c4b4ece31a70b66465a64ae8",
+      "name": "Alphax0",
+      "score": 36.9,
+      "roi_score": 19.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.2,
+      "roi": -20.1,
+      "cash_pnl": -1025.85,
+      "realized_pnl": 30.23,
+      "total_usdc": 62896.22,
+      "trade_count": 171,
+      "market_count": 18,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:23:37+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will Microstrategy announce a Bitcoin purchase August 25-31?",
+        "Will Argentina win the 2026 FIFA World Cup?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x53ac6cbcef96cbc0d4595a8604e084f026609e5d",
+      "name": "ShawnLu",
+      "score": 36.8,
+      "roi_score": 22.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.5,
+      "roi": -16.6,
+      "cash_pnl": -1519.33,
+      "realized_pnl": 644.66,
+      "total_usdc": 23035.8,
+      "trade_count": 94,
+      "market_count": 21,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:23:10+00:00",
+      "top_markets": [
+        "Will MrBeast's million-dollar puzzle be solved by March 15?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4266,
+          "cur_price": 0.365,
+          "usdc_size": 5016.77,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4583,
+          "cur_price": 0.635,
+          "usdc_size": 2628.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcbc5d8509552a47be7a2386311e43a05cee3e175",
+      "name": "larkspur",
+      "score": 36.3,
+      "roi_score": 12.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.3,
+      "roi": -30.7,
+      "cash_pnl": -7141.44,
+      "realized_pnl": 507.69,
+      "total_usdc": 457788.18,
+      "trade_count": 500,
+      "market_count": 22,
+      "position_count": 31,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:27:21+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "Will Bitcoin reach $70,000 in August?",
+        "Will Bitcoin dip to $57,500 in August?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.3699,
+          "cur_price": 0.365,
+          "usdc_size": 16141.11,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb48228b1611ad4c4592187b944457975cdc66c27",
+      "name": "FractalMonk",
+      "score": 36.2,
+      "roi_score": 22.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 70.2,
+      "roi": -16.6,
+      "cash_pnl": -1617.77,
+      "realized_pnl": 0.0,
+      "total_usdc": 9999.4,
+      "trade_count": 11,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T15:33:58+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?"
       ],
@@ -745,205 +791,121 @@
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.3951,
+          "avg_price": 0.4378,
           "cur_price": 0.365,
-          "usdc_size": 4454.3,
+          "usdc_size": 8110.38,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x81525952f172646a4104030e9a9ef1e769c7bfda",
-      "name": "KimJonEn",
-      "score": 37.4,
-      "roi_score": 20.1,
+      "wallet": "0xa00e30a41bbe1a3a19dc063919002461342487be",
+      "name": "thethirdreferral",
+      "score": 36.2,
+      "roi_score": 19.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.4,
-      "roi": -19.9,
-      "cash_pnl": -8970.33,
-      "realized_pnl": 167.93,
-      "total_usdc": 109291.97,
-      "trade_count": 500,
-      "market_count": 100,
-      "position_count": 28,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:39:25+00:00",
-      "top_markets": [
-        "Will 4 Fed rate cuts happen in 2026?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will Trump and Putin not meet?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5208,
-          "cur_price": 0.365,
-          "usdc_size": 12774.99,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x011175c87089797b1c5bebcfb6d501b4c51d60f7",
-      "name": "hqzxbktmrawplhncxfgdjyvsoeuikmtb",
-      "score": 36.8,
-      "roi_score": 14.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -28.3,
-      "cash_pnl": -54596.75,
-      "realized_pnl": -57666.43,
-      "total_usdc": 678166.72,
-      "trade_count": 500,
-      "market_count": 11,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:41:54+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will 6 Fed rate cuts happen in 2026?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5077,
-          "cur_price": 0.365,
-          "usdc_size": 136933.68,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
-      "name": "GollumGekko",
-      "score": 36.3,
-      "roi_score": 16.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.9,
-      "roi": -25.8,
-      "cash_pnl": -94232.87,
-      "realized_pnl": 25390.67,
-      "total_usdc": 133029.68,
-      "trade_count": 500,
-      "market_count": 95,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:56:15+00:00",
-      "top_markets": [
-        "Will Tulsi Gabbard win the 2028 Republican presidential nomination?",
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-        "Will J.D. Vance win the 2028 Republican presidential nomination?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5041,
-          "cur_price": 0.365,
-          "usdc_size": 3477.85,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by December 31?",
-          "signal": "SKIP",
-          "avg_price": 0.6604,
-          "cur_price": 0.16,
-          "usdc_size": 4676.88,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x03280ccbdfa1c158e858e649d8c391eaea180fae",
-      "name": "smartzz",
-      "score": 36.1,
-      "roi_score": 20.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 74.7,
-      "roi": -19.2,
-      "cash_pnl": -1098.86,
-      "realized_pnl": -93.42,
-      "total_usdc": 17990.88,
-      "trade_count": 18,
-      "market_count": 4,
+      "volume_score": 78.2,
+      "roi": -20.7,
+      "cash_pnl": -5634.32,
+      "realized_pnl": 0.0,
+      "total_usdc": 28502.79,
+      "trade_count": 43,
+      "market_count": 3,
       "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
+      "last_active": "2026-09-10T14:38:16+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will NVIDIA be the largest company in the world by market cap on July 31?"
+        "Will Hong Kong have less than 425mm of precipitation in August?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4518,
+          "avg_price": 0.4475,
           "cur_price": 0.365,
-          "usdc_size": 4617.25,
+          "usdc_size": 17423.02,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5128,
+          "cur_price": 0.635,
+          "usdc_size": 4183.44,
+          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
       "name": "suntori",
-      "score": 35.8,
-      "roi_score": 18.7,
+      "score": 36.0,
+      "roi_score": 19.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.0,
-      "roi": -22.0,
-      "cash_pnl": -71913.86,
-      "realized_pnl": -8558.74,
-      "total_usdc": 24325.18,
+      "volume_score": 77.5,
+      "roi": -21.5,
+      "cash_pnl": -75626.66,
+      "realized_pnl": -9451.45,
+      "total_usdc": 26088.67,
       "trade_count": 500,
-      "market_count": 192,
+      "market_count": 200,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T13:01:30+00:00",
+      "last_active": "2026-09-10T17:04:34+00:00",
       "top_markets": [
-        "Counter-Strike: MIBR vs BetBoom Team - Map 2 Winner",
-        "Counter-Strike: MIBR vs BetBoom Team (BO3) - FISSURE PLAYGROUND Group A",
-        "Counter-Strike: Wildcard vs EYEBALLERS (BO3) - Thunderpick World Championship Closed Qualifier Group B"
+        "Dota 2: Natus Vincere vs Klim Sani4 (BO5) - EPL Masters Playoffs",
+        "Will Jesus Christ return before 2027?",
+        "Counter-Strike: 3DMAX vs BBL (BO3) - Thunderpick World Championship Closed Qualifier Group C"
       ],
       "signals": [
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
           "signal": "ENTER",
-          "avg_price": 0.6197,
-          "cur_price": 0.625,
-          "usdc_size": 34164.88,
+          "avg_price": 0.6178,
+          "cur_price": 0.635,
+          "usdc_size": 33511.67,
           "outcome": "No"
+        },
+        {
+          "market": "Will Como 1907 win on 2026-09-10?",
+          "signal": "ENTER",
+          "avg_price": 0.5516,
+          "cur_price": 0.565,
+          "usdc_size": 2328.07,
+          "outcome": "Yes"
         },
         {
           "market": "Will AS Roma win on 2026-09-10?",
           "signal": "LATE",
-          "avg_price": 0.4505,
-          "cur_price": 0.465,
-          "usdc_size": 5025.19,
+          "avg_price": 0.4559,
+          "cur_price": 0.475,
+          "usdc_size": 5770.43,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Manchester United FC win on 2026-09-10?",
+          "signal": "LATE",
+          "avg_price": 0.899,
+          "cur_price": 0.895,
+          "usdc_size": 5314.33,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will PSV win on 2026-09-10?",
+          "signal": "LATE",
+          "avg_price": 0.6603,
+          "cur_price": 0.625,
+          "usdc_size": 1426.69,
           "outcome": "Yes"
         },
         {
@@ -951,79 +913,89 @@
           "signal": "SKIP",
           "avg_price": 0.01,
           "cur_price": 0.0035,
-          "usdc_size": 3860.99,
+          "usdc_size": 3876.25,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4589,
+          "avg_price": 0.4506,
           "cur_price": 0.365,
-          "usdc_size": 107804.8,
+          "usdc_size": 114848.97,
           "outcome": "Yes"
-        },
-        {
-          "market": "Counter-Strike: MIBR vs BetBoom Team - Map 2 Winner",
-          "signal": "SKIP",
-          "avg_price": 0.2702,
-          "cur_price": 0.455,
-          "usdc_size": 2655.84,
-          "outcome": "BetBoom Team"
         },
         {
           "market": "Strait of Hormuz traffic returns to normal by December 31?",
           "signal": "SKIP",
           "avg_price": 0.2069,
-          "cur_price": 0.16,
-          "usdc_size": 728.7,
+          "cur_price": 0.165,
+          "usdc_size": 751.47,
           "outcome": "Yes"
-        },
-        {
-          "market": "Counter-Strike: MIBR vs BetBoom Team (BO3) - FISSURE PLAYGROUND Group A",
-          "signal": "SKIP",
-          "avg_price": 0.6347,
-          "cur_price": 0.18,
-          "usdc_size": 1412.18,
-          "outcome": "BetBoom Team"
         },
         {
           "market": "Phan Thiet 3: Philip Sekulic vs Koki Matsuda",
           "signal": "SKIP",
-          "avg_price": 0.6814,
-          "cur_price": 0.604,
-          "usdc_size": 808.99,
+          "avg_price": 0.6544,
+          "cur_price": 0.588,
+          "usdc_size": 1087.98,
           "outcome": "Philip Sekulic"
-        },
+        }
+      ]
+    },
+    {
+      "wallet": "0x5295b77433acdd38bb7b584f6f455f1c06dae5cb",
+      "name": "xiaolifeidao007",
+      "score": 36.0,
+      "roi_score": 23.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 63.9,
+      "roi": -14.6,
+      "cash_pnl": -619.34,
+      "realized_pnl": 0.0,
+      "total_usdc": 4372.63,
+      "trade_count": 15,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:11:57+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
         {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.3601,
-          "cur_price": 0.475,
-          "usdc_size": 563.91,
-          "outcome": "No"
+          "avg_price": 0.4272,
+          "cur_price": 0.365,
+          "usdc_size": 3633.55,
+          "outcome": "Yes"
         }
       ]
     },
     {
       "wallet": "0xc4f0d8e94a90ad0ad24bb27529df26a8949be891",
       "name": "semi-semi-",
-      "score": 35.0,
-      "roi_score": 13.4,
+      "score": 35.8,
+      "roi_score": 16.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.5,
-      "roi": -29.8,
-      "cash_pnl": -11634.39,
-      "realized_pnl": 4704.77,
-      "total_usdc": 65389.58,
-      "trade_count": 162,
+      "volume_score": 85.1,
+      "roi": -25.9,
+      "cash_pnl": -10880.47,
+      "realized_pnl": 4593.63,
+      "total_usdc": 70963.16,
+      "trade_count": 181,
       "market_count": 11,
       "position_count": 11,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
+      "last_active": "2026-09-10T16:58:45+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
         "LAPTOP FDV above $100M one day after launch?",
@@ -1033,274 +1005,266 @@
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4241,
+          "avg_price": 0.4033,
           "cur_price": 0.365,
-          "usdc_size": 16477.26,
+          "usdc_size": 18932.17,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4341,
-          "cur_price": 0.625,
-          "usdc_size": 4582.87,
+          "avg_price": 0.4184,
+          "cur_price": 0.635,
+          "usdc_size": 5658.2,
           "outcome": "No"
         },
         {
           "market": "LAPTOP FDV above $500M one day after launch?",
           "signal": "SKIP",
           "avg_price": 0.15,
-          "cur_price": 0.83,
-          "usdc_size": 566.61,
+          "cur_price": 0.78,
+          "usdc_size": 766.59,
           "outcome": "No"
         },
         {
           "market": "LAPTOP FDV above $1B one day after launch?",
           "signal": "SKIP",
           "avg_price": 0.73,
-          "cur_price": 0.155,
-          "usdc_size": 1877.57,
+          "cur_price": 0.0445,
+          "usdc_size": 2123.09,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x9531648404719924d349dd4911a55a268fc69099",
-      "name": "Obey2162",
-      "score": 34.9,
-      "roi_score": 11.0,
+      "wallet": "0xd182164064cdf4a4da5fa6c42b2312ec94df9681",
+      "name": "Anon0o",
+      "score": 35.6,
+      "roi_score": 19.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.9,
-      "roi": -33.5,
-      "cash_pnl": -4167.6,
-      "realized_pnl": -936.05,
-      "total_usdc": 150855.06,
-      "trade_count": 500,
-      "market_count": 31,
-      "position_count": 13,
+      "volume_score": 72.9,
+      "roi": -20.9,
+      "cash_pnl": -565.68,
+      "realized_pnl": -101.12,
+      "total_usdc": 14269.91,
+      "trade_count": 104,
+      "market_count": 84,
+      "position_count": 18,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:38:22+00:00",
+      "last_active": "2026-09-10T16:23:37+00:00",
       "top_markets": [
-        "Will Julian Alvarez join Arsenal?",
-        "US announces end of Iranian blockade by August 22, 2026?",
-        "Will Apple be the largest company in the world by market cap on July 31?"
+        "Bitcoin Up or Down - September 6, 8:10AM-8:15AM ET",
+        "Will Pierre-Yves Bournazel win the Paris mayor election?",
+        "Will Geert Wilders become the next Prime Minister of the Netherlands?"
       ],
       "signals": [
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.59,
-          "cur_price": 0.625,
-          "usdc_size": 3125.0,
+          "signal": "ENTER",
+          "avg_price": 0.64,
+          "cur_price": 0.635,
+          "usdc_size": 2139.63,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x37d7a1d0c54656670590d8a3c697c9bb0da0f42a",
-      "name": "woofy9999",
-      "score": 34.5,
-      "roi_score": 14.5,
+      "wallet": "0x7d2aabb868b40f379e75deafffde027be6464f31",
+      "name": "u7901",
+      "score": 35.5,
+      "roi_score": 18.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 76.7,
-      "roi": -28.2,
-      "cash_pnl": -684.25,
-      "realized_pnl": -6120.71,
-      "total_usdc": 23593.38,
-      "trade_count": 28,
-      "market_count": 4,
+      "volume_score": 76.1,
+      "roi": -23.0,
+      "cash_pnl": -2383.74,
+      "realized_pnl": 0.0,
+      "total_usdc": 21665.32,
+      "trade_count": 52,
+      "market_count": 27,
       "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:40+00:00",
+      "last_active": "2026-09-10T16:11:55+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Spread: Colombia (-1.5)",
-        "Will Spain win on 2026-07-06?"
+        "Solana above $170 on November 1?",
+        "Will FTX payouts start in Q4 2024?"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5079,
+          "avg_price": 0.4731,
           "cur_price": 0.365,
-          "usdc_size": 1741.25,
+          "usdc_size": 7876.23,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x799b6aa710f1c1af137fdd25cc2834c9f0412102",
-      "name": "user098422",
-      "score": 34.4,
-      "roi_score": 9.0,
+      "wallet": "0x97347c2f629fd69e738db6c34ad2b14ed1169d78",
+      "name": "Raggy0",
+      "score": 35.1,
+      "roi_score": 20.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.6,
-      "roi": -36.6,
-      "cash_pnl": -43813.2,
-      "realized_pnl": -12563.18,
-      "total_usdc": 189619.58,
-      "trade_count": 151,
-      "market_count": 2,
-      "position_count": 2,
+      "volume_score": 63.6,
+      "roi": -18.9,
+      "cash_pnl": -775.06,
+      "realized_pnl": 0.0,
+      "total_usdc": 4209.72,
+      "trade_count": 7,
+      "market_count": 1,
+      "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:36:16+00:00",
+      "last_active": "2026-09-10T15:20:34+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will Javier Milei win the 2027 Argentina presidential election?"
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5865,
+          "avg_price": 0.4501,
           "cur_price": 0.365,
-          "usdc_size": 72497.67,
+          "usdc_size": 3323.53,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
-      "name": "0x122Cb94C437EA5e6f088c6c0C143c592ab8EFBed-1782168978900",
-      "score": 33.9,
-      "roi_score": 12.6,
+      "wallet": "0xb2eb25ee0e96a70c30078e3a1eb6ccfd482c5998",
+      "name": "",
+      "score": 34.1,
+      "roi_score": 16.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 76.4,
-      "roi": -31.1,
-      "cash_pnl": -34285.75,
-      "realized_pnl": -13381.54,
-      "total_usdc": 22528.0,
+      "volume_score": 67.5,
+      "roi": -25.6,
+      "cash_pnl": -1748.46,
+      "realized_pnl": 0.0,
+      "total_usdc": 7029.74,
+      "trade_count": 12,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T17:02:04+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4906,
+          "cur_price": 0.365,
+          "usdc_size": 5080.3,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x05374492e37f036fb751d708fe487aeca60b5b0f",
+      "name": "Frigg",
+      "score": 33.7,
+      "roi_score": 11.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.0,
+      "roi": -33.4,
+      "cash_pnl": -419.59,
+      "realized_pnl": -114819.84,
+      "total_usdc": 31965.03,
       "trade_count": 500,
-      "market_count": 139,
-      "position_count": 500,
+      "market_count": 9,
+      "position_count": 5,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T13:01:06+00:00",
+      "last_active": "2026-09-10T16:50:48+00:00",
       "top_markets": [
-        "Bab el-Mandeb Strait effectively closed by September 30?",
-        "Will the highest temperature in Munich be 19\u00b0C on September 10?",
-        "Will MrBeast's latest video get between 71 and 72 million views on day 5?"
+        "Will the Communist Party of the Russian Federation (KPRF) gain the most seats in the next Russian parliamentary election?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1",
-      "name": "debased",
+      "wallet": "0x21c209fd0960f5884dff26550a965abf6e0a144b",
+      "name": "henry1895",
       "score": 33.1,
-      "roi_score": 6.6,
+      "roi_score": 15.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.2,
-      "roi": -40.0,
-      "cash_pnl": -470214.19,
-      "realized_pnl": 862934.08,
-      "total_usdc": 81234.92,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 252,
+      "volume_score": 59.4,
+      "roi": -26.6,
+      "cash_pnl": -355.26,
+      "realized_pnl": -3.72,
+      "total_usdc": 2419.33,
+      "trade_count": 19,
+      "market_count": 9,
+      "position_count": 5,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:46:36+00:00",
+      "last_active": "2026-09-10T15:45:39+00:00",
       "top_markets": [
-        "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-        "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-        "Will Brooklyn Nets win the 2027 NBA Finals?"
+        "Will Portugal win the 2026 FIFA World Cup?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will Victor Wembanyama win the 2025\u20132026 NBA MVP?"
       ],
       "signals": [
         {
-          "market": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.1108,
-          "cur_price": 0.0095,
-          "usdc_size": 870.6,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.259,
-          "cur_price": 0.625,
-          "usdc_size": 31415.19,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.2794,
+          "signal": "LATE",
+          "avg_price": 0.3799,
           "cur_price": 0.365,
-          "usdc_size": 16066.41,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.4393,
-          "cur_price": 0.475,
-          "usdc_size": 4465.89,
+          "usdc_size": 979.74,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xd1049158a102840ce595efc6ab683a0cb6fbacef",
-      "name": "pilimili",
+      "wallet": "0xff76dd29f8376dfdaac3aa470467d6ca38c59c05",
+      "name": "Gmoas",
       "score": 32.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -75.8,
-      "cash_pnl": -592147.91,
-      "realized_pnl": -37038.2,
-      "total_usdc": 695244.9,
+      "roi": -94.5,
+      "cash_pnl": -1133.3,
+      "realized_pnl": 368.36,
+      "total_usdc": 823518.89,
       "trade_count": 500,
-      "market_count": 41,
-      "position_count": 76,
+      "market_count": 39,
+      "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
+      "last_active": "2026-09-10T16:16:07+00:00",
       "top_markets": [
-        "Clarity Act (H.R.3633) signed into law in 2026?",
-        "Israel closes its airspace by September 30?",
-        "US-Iran Final Nuclear Deal by August 31, 2026?"
+        "Will Zohran Mamdani win the 2025 NYC mayoral election?",
+        "Will STRC hit $100 by September 30?",
+        "US forces enter Iran by March 31?"
       ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.3899,
-          "cur_price": 0.365,
-          "usdc_size": 14600.0,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.41,
-          "cur_price": 0.625,
-          "usdc_size": 7500.0,
-          "outcome": "No"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
@@ -1311,89 +1275,37 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -63.6,
-      "cash_pnl": -414207.07,
-      "realized_pnl": 62708.66,
-      "total_usdc": 914660.83,
+      "roi": -69.2,
+      "cash_pnl": -414202.57,
+      "realized_pnl": 59905.6,
+      "total_usdc": 846578.05,
       "trade_count": 500,
-      "market_count": 24,
+      "market_count": 22,
       "position_count": 34,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:49:28+00:00",
+      "last_active": "2026-09-10T16:47:33+00:00",
       "top_markets": [
         "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will Anthropic IPO by September 30, 2026?"
+        "US announces end of Iranian blockade by September 30, 2026?"
       ],
       "signals": [
         {
           "market": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.0059,
-          "cur_price": 0.0095,
-          "usdc_size": 3539.79,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4199,
-          "cur_price": 0.365,
-          "usdc_size": 27375.0,
+          "cur_price": 0.0085,
+          "usdc_size": 3167.18,
           "outcome": "Yes"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.4299,
-          "cur_price": 0.625,
-          "usdc_size": 27785.64,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
-      "name": "wan123",
-      "score": 32.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.2,
-      "roi": -75.4,
-      "cash_pnl": -2994746.69,
-      "realized_pnl": 229538.82,
-      "total_usdc": 452036.14,
-      "trade_count": 500,
-      "market_count": 17,
-      "position_count": 278,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:56:28+00:00",
-      "top_markets": [
-        "Netanyahu out by end of 2026?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Los Angeles Chargers win the 2027 NFL league championship?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.552,
-          "cur_price": 0.365,
-          "usdc_size": 158131.45,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.3899,
-          "cur_price": 0.625,
-          "usdc_size": 2194.5,
+          "cur_price": 0.635,
+          "usdc_size": 16083.24,
           "outcome": "No"
         }
       ]
@@ -1401,27 +1313,27 @@
     {
       "wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
       "name": "timetowander",
-      "score": 32.2,
+      "score": 32.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 96.6,
+      "volume_score": 95.8,
       "roi": -99.9,
-      "cash_pnl": -1619308.25,
-      "realized_pnl": -3047968.09,
-      "total_usdc": 319980.29,
+      "cash_pnl": -1638139.91,
+      "realized_pnl": -4296662.74,
+      "total_usdc": 288310.11,
       "trade_count": 500,
-      "market_count": 16,
+      "market_count": 14,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T13:00:30+00:00",
+      "last_active": "2026-09-10T17:02:49+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
         "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?"
+        "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?"
       ],
       "signals": [
         {
@@ -1429,160 +1341,10 @@
           "signal": "SKIP",
           "avg_price": 0.1999,
           "cur_price": 0.0015,
-          "usdc_size": 533.6,
+          "usdc_size": 577.91,
           "outcome": "Yes"
         }
       ]
-    },
-    {
-      "wallet": "0x8fbb3c32496d4bcff8f456c3342f90edaaa09a17",
-      "name": "ipop00",
-      "score": 32.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.2,
-      "roi": -99.7,
-      "cash_pnl": -4796446.08,
-      "realized_pnl": 1528.59,
-      "total_usdc": 348358.18,
-      "trade_count": 500,
-      "market_count": 11,
-      "position_count": 72,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:31:07+00:00",
-      "top_markets": [
-        "Spain vs. Argentina: Team to Advance",
-        "Spain vs. Argentina: Both Teams to Score",
-        "Will Argentina win on 2026-07-19?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4556,
-          "cur_price": 0.365,
-          "usdc_size": 11049.53,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4649,
-          "cur_price": 0.625,
-          "usdc_size": 1125.0,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7cf93583951552553bc0d243a8582a3410ed2798",
-      "name": "SheltonDoubter",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.2,
-      "roi": -60.7,
-      "cash_pnl": -387749.18,
-      "realized_pnl": 5041.39,
-      "total_usdc": 302438.77,
-      "trade_count": 500,
-      "market_count": 7,
-      "position_count": 12,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T13:00:58+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.0319,
-          "cur_price": 0.0095,
-          "usdc_size": 7035.6,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4186,
-          "cur_price": 0.625,
-          "usdc_size": 172230.67,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4515,
-          "cur_price": 0.365,
-          "usdc_size": 69567.25,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8e9eedf20dfa70956d49f608a205e402d9df38e4",
-      "name": "Siziriv",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.0,
-      "roi": -100.0,
-      "cash_pnl": -3858870.49,
-      "realized_pnl": -1207658.93,
-      "total_usdc": 296557.1,
-      "trade_count": 500,
-      "market_count": 144,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:30:57+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will AEK vs. OFI end in a draw?",
-        "Will LeBron James play for the Cleveland Cavaliers in 2026-27?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x7d56d84778fc6caa66f517be0ebe1df5d9f54950",
-      "name": "AF2028",
-      "score": 32.0,
-      "roi_score": 0.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.2,
-      "roi": -49.4,
-      "cash_pnl": -25540.8,
-      "realized_pnl": -228.25,
-      "total_usdc": 233353.62,
-      "trade_count": 500,
-      "market_count": 22,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
-      "top_markets": [
-        "Will Tucker Carlson win the 2028 Republican presidential nomination?",
-        "Will Tucker Carlson win the 2028 US Presidential Election?",
-        "Will Thomas Massie win the 2028 US Presidential Election?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0xd45c93b5e68f043963e34977a3a4a97f7a9536c4",
@@ -1592,18 +1354,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 94.7,
-      "roi": -63.7,
-      "cash_pnl": -73556.41,
+      "volume_score": 94.9,
+      "roi": -61.0,
+      "cash_pnl": -73627.57,
       "realized_pnl": -6.13,
-      "total_usdc": 250665.57,
-      "trade_count": 364,
+      "total_usdc": 256020.23,
+      "trade_count": 368,
       "market_count": 15,
       "position_count": 5,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:48:51+00:00",
+      "last_active": "2026-09-10T16:08:12+00:00",
       "top_markets": [
         "Nuggets vs. Pistons",
         "Will there be no change in Fed interest rates after the September 2026 meeting?",
@@ -1621,180 +1383,160 @@
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4782,
+          "avg_price": 0.4657,
           "cur_price": 0.365,
-          "usdc_size": 40494.16,
+          "usdc_size": 45777.44,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x63c2df23cdd924bbdf0f2cb4995349c3ab66afd4",
-      "name": "zhuoyue",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.6,
-      "roi": -67.1,
-      "cash_pnl": -68216.98,
-      "realized_pnl": -147.4,
-      "total_usdc": 247069.11,
-      "trade_count": 500,
-      "market_count": 13,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:38:33+00:00",
-      "top_markets": [
-        "Will France vs. Senegal end in a draw?",
-        "Will Iraq vs. Norway end in a draw?",
-        "Will Portugal win on 2026-06-17?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4,
-          "cur_price": 0.365,
-          "usdc_size": 33446.97,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb3a46b503eb0cf7b858b96c65604fcc9241b6c3e",
-      "name": "tzyyng",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.8,
-      "roi": -98.0,
-      "cash_pnl": -44241.95,
-      "realized_pnl": -779.29,
-      "total_usdc": 221698.43,
-      "trade_count": 500,
-      "market_count": 51,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:31:06+00:00",
-      "top_markets": [
-        "Dota 2: Team Resilience vs Team Yandex (BO3) - The International Group Stage",
-        "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - The International Group Stage",
-        "Dota 2: Iron Wing vs Team Spirit (BO3) - The International Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4685,
-          "cur_price": 0.365,
-          "usdc_size": 730.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfbfd14dd4bb607373119de95f1d4b21c3b6c0029",
-      "name": "XAE12Archangel",
-      "score": 31.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.3,
-      "roi": -99.3,
-      "cash_pnl": -13282858.14,
-      "realized_pnl": -8346999.78,
-      "total_usdc": 183187.88,
-      "trade_count": 500,
-      "market_count": 79,
-      "position_count": 188,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:59:58+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Democratic Party control the House after the 2026 Midterm elections?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdde1a0257ddcc19522df5128049ce5619944f1d7",
-      "name": "PhilIvey9",
-      "score": 31.7,
-      "roi_score": 4.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.5,
-      "roi": -43.8,
-      "cash_pnl": -5257.91,
-      "realized_pnl": -1380.76,
-      "total_usdc": 33914.36,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 25,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:49:34+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will no Fed rate cuts happen in 2026?",
-        "US announces end of Iranian blockade by September 30, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.625,
-          "usdc_size": 770.86,
-          "outcome": "No"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4207,
-          "cur_price": 0.365,
-          "usdc_size": 678.66,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2e617f2cb474acaba820030e4819fe92148519bd",
-      "name": "Javier777Milei",
+      "wallet": "0x69e7ad68b5f11e97927e4bd938baf7dfb60bd3b0",
+      "name": "InsiderrrZ",
       "score": 31.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 89.6,
-      "roi": -56.0,
-      "cash_pnl": -54699.72,
-      "realized_pnl": -3493.88,
-      "total_usdc": 128304.24,
+      "volume_score": 89.8,
+      "roi": -82.6,
+      "cash_pnl": -192918.77,
+      "realized_pnl": 45459.25,
+      "total_usdc": 131532.56,
       "trade_count": 500,
-      "market_count": 69,
-      "position_count": 136,
+      "market_count": 32,
+      "position_count": 126,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:52:15+00:00",
+      "last_active": "2026-09-10T14:23:37+00:00",
       "top_markets": [
-        "Will Spain win the 2026 FIFA World Cup?",
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Will Marine Le Pen win the 2027 French presidential election?"
+        "Will Argentina reach the Semifinals at the 2026 FIFA World Cup?",
+        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+        "Will Troy Jackson be the Maine Senate Democratic nominee on July 27?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x332f6e6b727c5737daf97cb9a032883eda341ee8",
+      "name": "jackcartwright",
+      "score": 31.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.1,
+      "roi": -93.8,
+      "cash_pnl": -128278.5,
+      "realized_pnl": -379.57,
+      "total_usdc": 119207.11,
+      "trade_count": 500,
+      "market_count": 60,
+      "position_count": 151,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:23:10+00:00",
+      "top_markets": [
+        "LoL: Invictus Gaming vs Top Esports - Game 2 Winner",
+        "LoL: T1 Academy vs Dplus KIA Challengers - Game 2 Winner",
+        "LoL: Gen.G vs Hanwha Life Esports - Game 4 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4539,
+          "cur_price": 0.365,
+          "usdc_size": 8395.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "name": "purplegatto",
+      "score": 31.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.3,
+      "roi": -95.2,
+      "cash_pnl": -3680666.51,
+      "realized_pnl": -39002.69,
+      "total_usdc": 94147.55,
+      "trade_count": 500,
+      "market_count": 125,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:52:09+00:00",
+      "top_markets": [
+        "Will Inter Miami CF win on 2026-09-09?",
+        "Will Manchester United FC win on 2026-09-10?",
+        "AS Roma leading at halftime?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4702,
+          "cur_price": 0.635,
+          "usdc_size": 68642.55,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Manchester United FC win on 2026-09-10?",
+          "signal": "SKIP",
+          "avg_price": 0.1,
+          "cur_price": 0.895,
+          "usdc_size": 8901.8,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.0061,
+          "cur_price": 0.0085,
+          "usdc_size": 705.34,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5346,
+          "cur_price": 0.365,
+          "usdc_size": 30667.33,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa6c323320f52302f9068bd4bcb9b64fcfc6655a3",
+      "name": "Ilovewinning9999",
+      "score": 31.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.3,
+      "roi": -97.9,
+      "cash_pnl": -33833.79,
+      "realized_pnl": -10052.67,
+      "total_usdc": 94561.3,
+      "trade_count": 500,
+      "market_count": 148,
+      "position_count": 156,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:56:49+00:00",
+      "top_markets": [
+        "Roland Garros ATP: Mariano Navone vs Jakub Mensik",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Roland Garros ATP: Facundo Acosta vs Learner Tien"
       ],
       "signals": [
         {
@@ -1802,227 +1544,401 @@
           "signal": "ENTER",
           "avg_price": 0.37,
           "cur_price": 0.365,
-          "usdc_size": 1825.0,
+          "usdc_size": 730.0,
           "outcome": "Yes"
-        },
-        {
-          "market": "Strait of Hormuz traffic returns to normal by December 31?",
-          "signal": "SKIP",
-          "avg_price": 0.11,
-          "cur_price": 0.16,
-          "usdc_size": 10080.01,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.451,
-          "cur_price": 0.625,
-          "usdc_size": 3060.33,
-          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x5856c7708ac2466c2d504153c15cb070fcb5d005",
-      "name": "Leoooooooooooooooooo",
-      "score": 31.4,
+      "wallet": "0xbafdb19e98db609ec5ce2f1e12de4ffecdd52964",
+      "name": "rumpuld",
+      "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.5,
-      "roi": -60.1,
-      "cash_pnl": -13604.09,
-      "realized_pnl": -101.63,
-      "total_usdc": 111175.59,
-      "trade_count": 78,
-      "market_count": 29,
-      "position_count": 10,
+      "volume_score": 84.9,
+      "roi": -63.2,
+      "cash_pnl": -22391.13,
+      "realized_pnl": 5816.26,
+      "total_usdc": 68750.53,
+      "trade_count": 296,
+      "market_count": 18,
+      "position_count": 12,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:44:04+00:00",
+      "last_active": "2026-09-10T16:54:49+00:00",
       "top_markets": [
-        "Will Bitcoin reach $75,000 in April?",
-        "Ethereum above $3,500 on April 12?",
+        "Argentina vs. Switzerland: Team to Advance",
+        "Iran Nuke before 2027?",
         "Will there be no change in Fed interest rates after the September 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4439,
+          "avg_price": 0.4033,
           "cur_price": 0.365,
-          "usdc_size": 8842.84,
+          "usdc_size": 10009.39,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xd52b8dcb4b812c4056faf41164a6f6c73f4c5c72",
-      "name": "TBill1",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.6,
-      "roi": -63.3,
-      "cash_pnl": -198251.27,
-      "realized_pnl": 111643.14,
-      "total_usdc": 86339.37,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 126,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-10T12:49:51+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.0051,
-          "cur_price": 0.0095,
-          "usdc_size": 2069.08,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.515,
-          "cur_price": 0.365,
-          "usdc_size": 55496.2,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5143,
-          "cur_price": 0.625,
-          "usdc_size": 17612.65,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x661daf6af6d884012dd6db73c09d72e8be224dc6",
-      "name": "DOLLAR-PRINTER",
+      "wallet": "0xe4e6aa2f9eb66b76d372d80cd91f6bc592d04bd4",
+      "name": "bulusi56",
       "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.5,
-      "roi": -93.8,
-      "cash_pnl": -1186327.07,
-      "realized_pnl": 57196.19,
-      "total_usdc": 65477.82,
+      "volume_score": 85.2,
+      "roi": -90.5,
+      "cash_pnl": -6959.23,
+      "realized_pnl": -5230.1,
+      "total_usdc": 71882.14,
       "trade_count": 500,
-      "market_count": 47,
-      "position_count": 500,
+      "market_count": 62,
+      "position_count": 38,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:42:30+00:00",
+      "last_active": "2026-09-10T16:38:12+00:00",
       "top_markets": [
-        "Counter-Strike: G2 vs Astralis (BO3) - FISSURE PLAYGROUND Group A",
-        "Will the first announced price of the foldable iPhone be at least $2,000?",
-        "Counter-Strike: Alliance vs FaZe (BO3) - FISSURE PLAYGROUND Group B"
+        "Will OpenAI\u2019s Astra model be released by September 4, 2026?",
+        "Will OpenAI\u2019s Astra model be released by September 3, 2026?",
+        "Israel closes its airspace by September 30?"
       ],
       "signals": [
         {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.4896,
-          "cur_price": 0.475,
-          "usdc_size": 4645.9,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.459,
-          "cur_price": 0.625,
-          "usdc_size": 25063.08,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5007,
+          "signal": "ENTER",
+          "avg_price": 0.37,
           "cur_price": 0.365,
-          "usdc_size": 19874.49,
-          "outcome": "No"
+          "usdc_size": 730.0,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xefde9ff487fae209ab6e3157a8acb4276f9c783d",
-      "name": "Umaroth",
+      "wallet": "0x541ce4a5104a6d110b6610d869851bee3f85c462",
+      "name": "DanGabriel",
       "score": 30.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.6,
-      "roi": -60.7,
-      "cash_pnl": -9849.44,
-      "realized_pnl": -235.17,
-      "total_usdc": 58273.39,
+      "volume_score": 83.8,
+      "roi": -69.4,
+      "cash_pnl": -2915.59,
+      "realized_pnl": -352.57,
+      "total_usdc": 59893.34,
       "trade_count": 500,
-      "market_count": 50,
-      "position_count": 69,
+      "market_count": 27,
+      "position_count": 37,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T12:58:28+00:00",
+      "last_active": "2026-09-10T17:03:06+00:00",
       "top_markets": [
-        "Will Trump say \"Barack Hussein Obama\" during remarks in New York?",
-        "US x Iran Effective Ceasefire by July 31?",
-        "Iran charges Hormuz fees by December 31?"
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "US x Iran ceasefire by December 31?",
+        "Will Core CPI MoM be 0.1% in August?"
       ],
       "signals": [
         {
-          "market": "LAPTOP FDV above $500M one day after launch?",
-          "signal": "LATE",
-          "avg_price": 0.8579,
-          "cur_price": 0.83,
-          "usdc_size": 787.57,
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.3649,
+          "cur_price": 0.365,
+          "usdc_size": 730.0,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x06fb6a9076bd43360d93660c0ca9086db5dd9713",
-      "name": "jinwujinshu",
+      "wallet": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
+      "name": "lissartter",
+      "score": 30.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.2,
+      "roi": -68.1,
+      "cash_pnl": -246759.2,
+      "realized_pnl": 183343.77,
+      "total_usdc": 62938.57,
+      "trade_count": 500,
+      "market_count": 95,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T17:04:25+00:00",
+      "top_markets": [
+        "LAPTOP FDV above $1B one day after launch?",
+        "Patriots vs. Seahawks",
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4134,
+          "cur_price": 0.635,
+          "usdc_size": 14185.83,
+          "outcome": "No"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5817,
+          "cur_price": 0.365,
+          "usdc_size": 19600.25,
+          "outcome": "No"
+        },
+        {
+          "market": "US x Iran Effective Ceasefire by September 4?",
+          "signal": "SKIP",
+          "avg_price": 0.5427,
+          "cur_price": 0.585,
+          "usdc_size": 2482.32,
+          "outcome": "No"
+        },
+        {
+          "market": "LAPTOP FDV above $1B one day after launch?",
+          "signal": "SKIP",
+          "avg_price": 0.6628,
+          "cur_price": 0.0445,
+          "usdc_size": 2412.24,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5a5c3fb3b4c7f4a624238f6a2dd5c404fd14c09e",
+      "name": "sslz",
+      "score": 30.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.2,
+      "roi": -59.7,
+      "cash_pnl": -20431.34,
+      "realized_pnl": -53.82,
+      "total_usdc": 62518.33,
+      "trade_count": 45,
+      "market_count": 27,
+      "position_count": 15,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T13:59:58+00:00",
+      "top_markets": [
+        "France vs. England: O/U 2.5",
+        "Ethereum Up or Down on January 12?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4305,
+          "cur_price": 0.365,
+          "usdc_size": 13773.59,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xaee155cfcdbea58f38ae6dea1475a0198f443cea",
+      "name": "OutcomeUnclear",
+      "score": 30.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.4,
+      "roi": -72.8,
+      "cash_pnl": -7950.09,
+      "realized_pnl": -332.83,
+      "total_usdc": 64898.96,
+      "trade_count": 500,
+      "market_count": 53,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:04:48+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Israel x Iran ceasefire continues through August 15?",
+        "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb7b3ed1c02a77a200b600ac407747be2f3b79573",
+      "name": "cuti",
       "score": 30.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 80.2,
-      "roi": -75.2,
-      "cash_pnl": -2352.69,
-      "realized_pnl": -504.78,
-      "total_usdc": 37022.63,
+      "roi": -99.5,
+      "cash_pnl": -217747.46,
+      "realized_pnl": -35177.25,
+      "total_usdc": 36983.62,
       "trade_count": 500,
-      "market_count": 173,
-      "position_count": 122,
+      "market_count": 92,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-10T13:01:18+00:00",
+      "last_active": "2026-09-10T14:04:52+00:00",
       "top_markets": [
-        "Will Bitcoin reach $82,000 August 31-September 6?",
-        "Will Bitcoin reach $80,000 August 31-September 6?",
-        "Will WTI Crude Oil (WTI) hit (LOW) $85 in September?"
+        "Counter-Strike: magic vs FaZe (BO3) - FISSURE PLAYGROUND Group B",
+        "LoL: T1 Academy vs KT Rolster Challengers - Game 4 Winner",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.3599,
+          "cur_price": 0.365,
+          "usdc_size": 1188.77,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0feb1bf966bc7f954c2da0293ae2fdc572c5db5d",
+      "name": "CentralCasting",
+      "score": 30.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.4,
+      "roi": -89.8,
+      "cash_pnl": -100253.36,
+      "realized_pnl": 13065.49,
+      "total_usdc": 33365.62,
+      "trade_count": 500,
+      "market_count": 11,
+      "position_count": 35,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T15:50:28+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - August 1, 8:25PM-8:30PM ET",
+        "Bitcoin Up or Down - August 1, 8:20PM-8:25PM ET",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6199,
+          "cur_price": 0.365,
+          "usdc_size": 11428.11,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb98b176859c2b375cf06c1c4974e46ed69cd7e18",
+      "name": "PrognosticatorOfPraha",
+      "score": 30.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.7,
+      "roi": -67.4,
+      "cash_pnl": -6284.98,
+      "realized_pnl": -156.28,
+      "total_usdc": 23645.35,
+      "trade_count": 500,
+      "market_count": 145,
+      "position_count": 172,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T16:08:12+00:00",
+      "top_markets": [
+        "Will Dillon Gabriel be the Browns' Week 1 starting QB?",
+        "Will Taylor Green be the Browns' Week 1 starting QB?",
+        "Will Shedeur Sanders be the Browns' Week 1 starting QB?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4518,
+          "cur_price": 0.365,
+          "usdc_size": 2409.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x146fda3540946f1da00c10b80eac9e9d955a9410",
+      "name": "HatakeKakashi",
+      "score": 29.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 72.9,
+      "roi": -71.6,
+      "cash_pnl": -262.47,
+      "realized_pnl": 113.28,
+      "total_usdc": 14238.69,
+      "trade_count": 308,
+      "market_count": 61,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T14:34:27+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - November 17, 12:15PM-12:30PM ET",
+        "Ethereum Up or Down - November 17, 12:15PM-12:30PM ET",
+        "Bitcoin Up or Down - November 17, 12:00PM-12:15PM ET"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+      "name": "WarriorH",
+      "score": 21.4,
+      "roi_score": 0.0,
+      "calibration_score": 20.8,
+      "consistency_score": 41.7,
+      "early_entry_score": 0.0,
+      "volume_score": 79.1,
+      "roi": -88.1,
+      "cash_pnl": -30968.4,
+      "realized_pnl": -33914.53,
+      "total_usdc": 32370.62,
+      "trade_count": 500,
+      "market_count": 196,
+      "position_count": 500,
+      "resolved_count": 1,
+      "win_rate": 0.0,
+      "z_score": 0.0,
+      "last_active": "2026-09-10T17:04:24+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will 5 Fed rate cuts happen in 2026?",
+        "Will Anthropic have the best AI model at the end of September 2026?"
       ],
       "signals": []
     }
@@ -2031,142 +1947,142 @@
     {
       "id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
       "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "volume": "26783558.44957416",
-      "liquidity": "309646.2303",
+      "volume": "27287540.9698392",
+      "liquidity": "402152.5729",
       "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0x92d4a582d72b73a18b1d9a1efd900918dd4cd71a4ad274853bd77e84b6e05db7",
-      "question": "Counter-Strike: MIBR vs BetBoom Team - Map 2 Winner",
-      "volume": "1578780.2658509987",
-      "liquidity": "15034.4129",
-      "end_date": "2026-09-10T16:40:00Z"
     },
     {
       "id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
       "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "21121735.152990047",
-      "liquidity": "345312.2449",
+      "volume": "21554579.406300068",
+      "liquidity": "445975.5374",
       "end_date": "2026-09-16T00:00:00Z"
+    },
+    {
+      "id": "0xa1eba63a9c6490b57dac32d31fbbe97ab19807adf171250fdf35543c2598aff3",
+      "question": "Will AS Roma win on 2026-09-10?",
+      "volume": "1216466.4286169987",
+      "liquidity": "123520.5533",
+      "end_date": "2026-09-10T16:45:00Z"
+    },
+    {
+      "id": "0x24fa528980f193bc54e7143dc303a7800ddac43775782ff47a895a073c7d8104",
+      "question": "Will FK Bod\u00f8/Glimt win on 2026-09-10?",
+      "volume": "1033581.7359690004",
+      "liquidity": "782338.36262",
+      "end_date": "2026-09-10T19:00:00Z"
     },
     {
       "id": "0x2e4b58fc18dbffd74d5275d89fb076943f21992763c45dcadd81391b83bde13c",
       "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "15383723.526867013",
-      "liquidity": "835628.20335",
+      "volume": "15479980.995069018",
+      "liquidity": "931570.47792",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
       "id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
       "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-      "volume": "33756193.621527985",
-      "liquidity": "1348237.20986",
+      "volume": "33830235.35752799",
+      "liquidity": "1360948.54085",
       "end_date": "2026-09-16T00:00:00Z"
-    },
-    {
-      "id": "0x24fa528980f193bc54e7143dc303a7800ddac43775782ff47a895a073c7d8104",
-      "question": "Will FK Bod\u00f8/Glimt win on 2026-09-10?",
-      "volume": "933541.2649209999",
-      "liquidity": "749417.61628",
-      "end_date": "2026-09-10T19:00:00Z"
-    },
-    {
-      "id": "0x320a0116959f7573f87212ce61e323438862689cdb4dc5e38b3a9f0fbd1cbed4",
-      "question": "LAPTOP FDV above $1B one day after launch?",
-      "volume": "1347739.9900530004",
-      "liquidity": "27984.5557",
-      "end_date": "2026-12-31T23:59:00Z"
     },
     {
       "id": "0x5e464d85eb49f22d876f3ed6168a7db5e2288e9ae1eb91effd2758e994676f86",
       "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
-      "volume": "14736162.10478499",
-      "liquidity": "1223335.77919",
+      "volume": "14781463.100784998",
+      "liquidity": "1385431.58954",
       "end_date": "2026-09-16T00:00:00Z"
     },
     {
-      "id": "0xcc7de410ca27dc50c9ff8ac3e892492c02d807d504bc916954a5a0b67ae620e5",
-      "question": "Counter-Strike: MIBR vs BetBoom Team (BO3) - FISSURE PLAYGROUND Group A",
-      "volume": "982145.9798780002",
-      "liquidity": "48197.1043",
-      "end_date": "2026-09-10T15:00:00Z"
-    },
-    {
-      "id": "0xa526fc837cb8824074152805e508daa44017fd4b0729fe3d6f0fc69aa8cedd13",
-      "question": "LAPTOP FDV above $500M one day after launch?",
-      "volume": "905219.2572060002",
-      "liquidity": "38471.9664",
+      "id": "0x320a0116959f7573f87212ce61e323438862689cdb4dc5e38b3a9f0fbd1cbed4",
+      "question": "LAPTOP FDV above $1B one day after launch?",
+      "volume": "1476027.6565179997",
+      "liquidity": "146665.31966",
       "end_date": "2026-12-31T23:59:00Z"
     },
     {
       "id": "0x42b633e7acfedf301c4eb85acefc7430f2e76825c1f3324a39a5582d7a26599b",
       "question": "US x Iran Effective Ceasefire by September 4?",
-      "volume": "1324743.7001649993",
-      "liquidity": "58754.4763",
+      "volume": "1332536.2106930004",
+      "liquidity": "68645.6517",
       "end_date": "2026-09-04T23:59:00Z"
+    },
+    {
+      "id": "0x3cf790e534d59f6261152e0958ecac38519436b09b4bc1b300bb28490993394e",
+      "question": "Tampa Bay Rays vs. Atlanta Braves",
+      "volume": "459801.01324299973",
+      "liquidity": "60541.876",
+      "end_date": "2026-09-17T16:15:00Z"
+    },
+    {
+      "id": "0xa526fc837cb8824074152805e508daa44017fd4b0729fe3d6f0fc69aa8cedd13",
+      "question": "LAPTOP FDV above $500M one day after launch?",
+      "volume": "994256.3261320002",
+      "liquidity": "17634.556",
+      "end_date": "2026-12-31T23:59:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "15749711.893",
-      "liquidity": "383873.67682",
+      "volume": "15820693.332999999",
+      "liquidity": "389892.92679",
       "end_date": "2027-05-30T23:59:00Z"
     },
     {
-      "id": "0x607ecc84f1b92e42bbf1e5d855f49d0949111dca5ff1502d8970154a4a34c2f3",
-      "question": "LAPTOP FDV above $250M one day after launch?",
-      "volume": "506505.26352999976",
-      "liquidity": "87355.55802",
-      "end_date": "2026-12-31T23:59:00Z"
-    },
-    {
-      "id": "0x83ad701abaa7f29df91b66180fd3e5e12eed08024b217e77b61b769698afa957",
-      "question": "Counter-Strike: 1WIN vs B8 (BO3) - PGL Masters Bucharest: European Qualifier Playoffs",
-      "volume": "302946.67327699997",
-      "liquidity": "136696.8599",
-      "end_date": "2026-09-10T20:00:00Z"
-    },
-    {
-      "id": "0x5c79dfde05559b79a9cb9f7c4187e4d49632dd042572ae676952f812732591cc",
-      "question": "Strait of Hormuz traffic returns to normal by December 31?",
-      "volume": "11154808.824597994",
-      "liquidity": "383778.6394",
-      "end_date": "2026-12-31T00:00:00Z"
-    },
-    {
-      "id": "0x79b46363157f54f6c216e69a729951fa7a56406657b818986a7fdced2122e461",
-      "question": "Phan Thiet 3: Philip Sekulic vs Koki Matsuda",
-      "volume": "286438.8404870001",
-      "liquidity": "13575.03062",
-      "end_date": "2026-09-17T03:00:00Z"
-    },
-    {
-      "id": "0xa1eba63a9c6490b57dac32d31fbbe97ab19807adf171250fdf35543c2598aff3",
-      "question": "Will AS Roma win on 2026-09-10?",
-      "volume": "297918.4337740004",
-      "liquidity": "469463.4604",
-      "end_date": "2026-09-10T16:45:00Z"
+      "id": "0x159b4767e9a41095e4b1d0b57147e88e4e6cbfb40f1db14849e73641304b49db",
+      "question": "Will Manchester United FC win on 2026-09-10?",
+      "volume": "416174.07742499956",
+      "liquidity": "222207.1416",
+      "end_date": "2026-09-10T19:00:00Z"
     },
     {
       "id": "0xaed88e69aa25b45dc1a0d57e364b218433b0caebb84b07a2de08c67003f501c8",
       "question": "Will FC Bayern M\u00fcnchen win on 2026-09-10?",
-      "volume": "283054.528692",
-      "liquidity": "1026959.0709",
+      "volume": "398130.1545830001",
+      "liquidity": "1043685.338",
       "end_date": "2026-09-10T19:00:00Z"
     },
     {
       "id": "0xbc2411ad32549a7d62055cc59ecef3ce98e8c827451addc324321fffe5c29b86",
       "question": "Will Como 1907 win on 2026-09-10?",
-      "volume": "252084.01851100012",
-      "liquidity": "362282.9767",
+      "volume": "372897.20426100073",
+      "liquidity": "401663.1622",
       "end_date": "2026-09-10T19:00:00Z"
     },
     {
-      "id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
-      "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "volume": "10403206.548371999",
-      "liquidity": "194850.2115",
-      "end_date": "2026-10-04T00:00:00Z"
+      "id": "0x79b46363157f54f6c216e69a729951fa7a56406657b818986a7fdced2122e461",
+      "question": "Phan Thiet 3: Philip Sekulic vs Koki Matsuda",
+      "volume": "335489.8537320001",
+      "liquidity": "17044.05632",
+      "end_date": "2026-09-17T03:00:00Z"
+    },
+    {
+      "id": "0xb204bb8f27dc61561b20b7b45ce05f35e5b2bb9a8b0b6fc5d7407536989e07c4",
+      "question": "Will PSV win on 2026-09-10?",
+      "volume": "322532.4653630006",
+      "liquidity": "70810.7532",
+      "end_date": "2026-09-10T16:45:00Z"
+    },
+    {
+      "id": "0x5c79dfde05559b79a9cb9f7c4187e4d49632dd042572ae676952f812732591cc",
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "volume": "11185854.401729995",
+      "liquidity": "400934.6075",
+      "end_date": "2026-12-31T00:00:00Z"
+    },
+    {
+      "id": "0x96ca1dc52be749bcf3e3c40d1b9f3f07f8e7dcab24877480306c9920c0edd5e8",
+      "question": "Tulln: Juan Manuel La Serna vs Lukas Neumayer",
+      "volume": "291391.8048919999",
+      "liquidity": "173019.0862",
+      "end_date": "2026-09-17T08:00:00Z"
+    },
+    {
+      "id": "0x3dc0c0259c47c3283f7a8e4b0f36d6fbef5a5c05d91b7705b25ad862439aeb41",
+      "question": "Will Sabah FK win on 2026-09-10?",
+      "volume": "298027.929244",
+      "liquidity": "226919.11454",
+      "end_date": "2026-09-10T19:00:00Z"
     }
   ]
 }
