@@ -1,588 +1,749 @@
 {
-  "last_updated": "2026-09-27T15:45:53.702580+00:00",
+  "last_updated": "2026-09-27T19:32:30.599112+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x581dbb72e16a20eaa47422cfaffbde8494da3458",
-      "name": "pisynchik1",
-      "score": 46.8,
-      "roi_score": 50.0,
+      "wallet": "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff",
+      "name": "sulumos",
+      "score": 52.1,
+      "roi_score": 67.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.8,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 193871.26,
-      "trade_count": 185,
-      "market_count": 56,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:25:23+00:00",
-      "top_markets": [
-        "Will Al Nassr Club win on 2026-09-15?",
-        "Dota 2: 4ikibamboni vs Inner Circle (BO3) - EPL Masters Group A",
-        "Counter-Strike: K27 vs Nuclear TigeRES (BO3) - Moscow Cyber Games European Qualifier Group Stage"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc96e5287ab294ac0388c2ddb00180fc464cff1f9",
-      "name": "wigglew",
-      "score": 43.2,
-      "roi_score": 35.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 3.7,
-      "cash_pnl": 2393.07,
-      "realized_pnl": 373.87,
-      "total_usdc": 1475527.21,
+      "volume_score": 92.7,
+      "roi": 51.6,
+      "cash_pnl": 41550.34,
+      "realized_pnl": 5.82,
+      "total_usdc": 192933.48,
       "trade_count": 500,
-      "market_count": 62,
+      "market_count": 24,
       "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:31:09+00:00",
+      "last_active": "2026-09-27T19:04:03+00:00",
       "top_markets": [
-        "Will Cardiff City FC win on 2026-08-25?",
-        "Will Norway win on 2026-09-24?",
-        "Will Arsenal FC win on 2026-08-31?"
+        "Will Poland win on 2026-09-25?",
+        "Dota 2: LGD Gaming vs Team Yandex - Game 1 Winner",
+        "Will France win on 2026-09-25?"
       ],
       "signals": [
         {
           "market": "Seahawks vs. Commanders",
+          "signal": "ENTER",
+          "avg_price": 0.4492,
+          "cur_price": 0.445,
+          "usdc_size": 5272.3,
+          "outcome": "Commanders"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
           "signal": "LATE",
-          "avg_price": 0.77,
-          "cur_price": 0.775,
-          "usdc_size": 27521.56,
-          "outcome": "Seahawks"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 23517.04,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7d9d476786b0c811d89fdeca2f9ee0e9fd3b3c52",
-      "name": "mirotvorets",
-      "score": 42.5,
-      "roi_score": 33.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -0.1,
-      "cash_pnl": -17.75,
-      "realized_pnl": 0.0,
-      "total_usdc": 650312.85,
-      "trade_count": 500,
-      "market_count": 97,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:25:51+00:00",
-      "top_markets": [
-        "Will CF Monterrey win on 2026-07-26?",
-        "Counter-Strike: Legacy vs FaZe (BO3) - Esports World Cup Group B",
-        "LoL: Movistar KOI vs Natus Vincere (BO3) - LEC Regular Season"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.45,
-          "cur_price": 0.445,
-          "usdc_size": 4205.25,
+          "avg_price": 0.8867,
+          "cur_price": 0.9,
+          "usdc_size": 20476.5,
           "outcome": "Chiefs"
         },
         {
-          "market": "Seahawks vs. Commanders",
-          "signal": "LATE",
-          "avg_price": 0.77,
-          "cur_price": 0.775,
-          "usdc_size": 10695.0,
-          "outcome": "Seahawks"
-        }
-      ]
-    },
-    {
-      "wallet": "0x89a636baae1c31a712eff86c564601ac4135429a",
-      "name": "n0tTODAY",
-      "score": 42.4,
-      "roi_score": 33.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -0.5,
-      "cash_pnl": -171.5,
-      "realized_pnl": -44.53,
-      "total_usdc": 850206.09,
-      "trade_count": 500,
-      "market_count": 90,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:32:20+00:00",
-      "top_markets": [
-        "Spread: Chiefs (-10.5)",
-        "AC Monza vs. US Sassuolo Calcio: O/U 3.5",
-        "LoL: Invictus Gaming vs Top Esports - Game 4 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4537,
-          "cur_price": 0.445,
-          "usdc_size": 25264.67,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
+          "market": "Spread: Bills (-6.5)",
           "signal": "SKIP",
-          "avg_price": 0.1599,
-          "cur_price": 0.835,
-          "usdc_size": 10789.63,
-          "outcome": "Dolphins"
+          "avg_price": 0.4431,
+          "cur_price": 0.2,
+          "usdc_size": 74404.47,
+          "outcome": "Chargers"
         }
       ]
     },
     {
-      "wallet": "0x6ac96d439f44a8dd84de19a781fcbbab5bdee85a",
-      "name": "sifonman",
-      "score": 42.4,
-      "roi_score": 32.9,
+      "wallet": "0x5a97162e423b5545ee5373a24f8e4a289e327a1b",
+      "name": "Lunesta",
+      "score": 45.9,
+      "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -0.6,
-      "cash_pnl": -359.64,
-      "realized_pnl": 0.0,
-      "total_usdc": 942141.78,
+      "volume_score": 84.0,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 61456.56,
       "trade_count": 500,
-      "market_count": 85,
-      "position_count": 2,
+      "market_count": 98,
+      "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T14:24:39+00:00",
+      "last_active": "2026-09-27T18:07:42+00:00",
       "top_markets": [
-        "Spread: Bills (-2.5)",
-        "Arsenal FC vs. Chelsea FC: O/U 2.5",
-        "US Open ATP: Frances Tiafoe vs Alex Michelsen"
+        "Valorant: JD Gaming vs FUT Esports - Map 2 Winner",
+        "Valorant: 100 Thieves vs T1 - Map 2 Winner",
+        "Clemson vs. California"
       ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4527,
-          "cur_price": 0.445,
-          "usdc_size": 30289.81,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Seahawks vs. Commanders",
-          "signal": "LATE",
-          "avg_price": 0.77,
-          "cur_price": 0.775,
-          "usdc_size": 26143.85,
-          "outcome": "Seahawks"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0xda856317923415a534d8952e6f8abde17c2e1ca7",
-      "name": "Yellow-Fever",
-      "score": 42.1,
-      "roi_score": 32.9,
+      "wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+      "name": "alpheclabs",
+      "score": 45.0,
+      "roi_score": 45.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 97.6,
-      "roi": -0.7,
-      "cash_pnl": -735.0,
-      "realized_pnl": -0.01,
-      "total_usdc": 364495.27,
+      "volume_score": 89.7,
+      "roi": 17.9,
+      "cash_pnl": 20201.11,
+      "realized_pnl": 932.08,
+      "total_usdc": 128977.04,
       "trade_count": 500,
-      "market_count": 24,
-      "position_count": 12,
+      "market_count": 194,
+      "position_count": 292,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:26+00:00",
+      "last_active": "2026-09-27T19:26:39+00:00",
       "top_markets": [
-        "Will Netherlands win on 2026-09-24?",
-        "Will Norway win on 2026-09-24?",
-        "Falcons vs. Packers: O/U 40.5"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4539,
-          "cur_price": 0.445,
-          "usdc_size": 42880.79,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "ENTER",
-          "avg_price": 0.47,
-          "cur_price": 0.465,
-          "usdc_size": 6794.58,
-          "outcome": "Over"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 1980.0,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdd92daf151fe1d21a771d6bde1c8ddffd4f09931",
-      "name": "walter-whitewich",
-      "score": 42.0,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.9,
-      "roi": -0.1,
-      "cash_pnl": -36.73,
-      "realized_pnl": 0.0,
-      "total_usdc": 255274.71,
-      "trade_count": 212,
-      "market_count": 85,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:13:21+00:00",
-      "top_markets": [
-        "Spread: Real Madrid CF (-1.5)",
-        "Counter-Strike: Alliance vs FaZe - Map 2 Winner",
-        "Spread: Manchester City FC (-2.5)"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.455,
-          "cur_price": 0.445,
-          "usdc_size": 8409.83,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 2403.55,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7cb6f070068633886c131b867b4696668f952252",
-      "name": "Zlatan1233",
-      "score": 41.8,
-      "roi_score": 33.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.1,
-      "roi": -0.0,
-      "cash_pnl": -26.51,
-      "realized_pnl": 0.0,
-      "total_usdc": 202221.85,
-      "trade_count": 500,
-      "market_count": 30,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:17:18+00:00",
-      "top_markets": [
-        "Will Real Madrid CF win on 2026-09-15?",
-        "Will Paris Saint-Germain FC win on 2026-09-20?",
-        "LoL: Gen.G vs Hanwha Life Esports (BO5) - LCK Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 6373.93,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "name": "VeryLucky888",
-      "score": 41.8,
-      "roi_score": 33.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.6,
-      "roi": -0.5,
-      "cash_pnl": -3248.28,
-      "realized_pnl": 311.01,
-      "total_usdc": 215450.67,
-      "trade_count": 500,
-      "market_count": 127,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:45:26+00:00",
-      "top_markets": [
-        "Spread: Bengals (-4.5)",
-        "Spread: 49ers (-7.5)",
-        "Spread: Panthers (-2.5)"
+        "Laver Cup: Carlos Alcaraz vs Alex de Minaur",
+        "Bari: Gianmarco Ferrari vs Filippo Moroni",
+        "Counter-Strike: FOKUS vs Iberian Soul (BO3) - NODWIN Clutch Series Playoffs"
       ],
       "signals": [
         {
           "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4085,
-          "cur_price": 0.405,
-          "usdc_size": 27649.98,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.61,
-          "cur_price": 0.605,
-          "usdc_size": 18150.02,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4935,
-          "cur_price": 0.505,
-          "usdc_size": 9659.33,
-          "outcome": "Titans"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4699,
-          "cur_price": 0.465,
-          "usdc_size": 5608.19,
-          "outcome": "Bills"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "ENTER",
-          "avg_price": 0.48,
-          "cur_price": 0.485,
-          "usdc_size": 4736.74,
-          "outcome": "Over"
-        },
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "ENTER",
-          "avg_price": 0.4761,
-          "cur_price": 0.465,
-          "usdc_size": 4420.0,
-          "outcome": "Over"
-        },
-        {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "ENTER",
-          "avg_price": 0.5,
-          "cur_price": 0.505,
-          "usdc_size": 2307.31,
-          "outcome": "Under"
-        },
-        {
-          "market": "Will Norway win on 2026-09-27?",
           "signal": "SKIP",
-          "avg_price": 0.58,
-          "cur_price": 0.425,
-          "usdc_size": 14028.24,
-          "outcome": "No"
-        },
-        {
-          "market": "Panthers vs. Browns",
-          "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.545,
-          "usdc_size": 4550.0,
-          "outcome": "Browns"
-        },
-        {
-          "market": "Laver Cup: Carlos Alcaraz vs Alex de Minaur",
-          "signal": "SKIP",
-          "avg_price": 0.7228,
-          "cur_price": 0.505,
-          "usdc_size": 2499.75,
-          "outcome": "Carlos Alcaraz"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9030cd617fd95307d5121d065c9d37864119cf12",
-      "name": "skembinator",
-      "score": 41.7,
-      "roi_score": 36.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.0,
-      "roi": 5.3,
-      "cash_pnl": 436.91,
-      "realized_pnl": 0.0,
-      "total_usdc": 41198.34,
-      "trade_count": 500,
-      "market_count": 211,
-      "position_count": 11,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:36:36+00:00",
-      "top_markets": [
-        "Oklahoma vs. Georgia",
-        "LoL: FlyQuest vs Shopify Rebellion (BO5) - LCS Playoffs",
-        "Virginia Tech vs. Boston College: O/U 30.5"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 584.5,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "SKIP",
-          "avg_price": 0.6,
-          "cur_price": 0.405,
-          "usdc_size": 3025.0,
+          "avg_price": 0.57,
+          "cur_price": 0.005,
+          "usdc_size": 6693.67,
           "outcome": "Jaguars"
         }
       ]
     },
     {
-      "wallet": "0x39d3c773be30fcc73161fc6768f46d563a779ef0",
-      "name": "matanovik",
-      "score": 41.6,
-      "roi_score": 30.4,
+      "wallet": "0x5685bf6758facce7d1221d3cc3ab0fdb836a62e2",
+      "name": "SirHarryOakes",
+      "score": 44.1,
+      "roi_score": 39.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 99.6,
-      "roi": -4.5,
-      "cash_pnl": -2868.16,
-      "realized_pnl": 1114.81,
-      "total_usdc": 476696.2,
+      "volume_score": 97.2,
+      "roi": 9.5,
+      "cash_pnl": 7975.48,
+      "realized_pnl": 1865.73,
+      "total_usdc": 344248.71,
       "trade_count": 500,
-      "market_count": 60,
-      "position_count": 9,
+      "market_count": 89,
+      "position_count": 21,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:39:24+00:00",
+      "last_active": "2026-09-27T19:00:02+00:00",
       "top_markets": [
-        "Will Norway win on 2026-09-24?",
-        "Spread: Packers (-7.5)",
-        "Will Switzerland win on 2026-09-26?"
+        "Will Renan Santos win the 2026 Brazilian presidential election?",
+        "Iran leadership change by May 31?",
+        "Will the Iranian regime fall by June 30?"
       ],
       "signals": [
         {
           "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8552,
+          "cur_price": 0.9,
+          "usdc_size": 931.49,
+          "outcome": "Chiefs"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+      "name": "suitcase6628",
+      "score": 42.4,
+      "roi_score": 38.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.9,
+      "roi": 8.1,
+      "cash_pnl": 1611.77,
+      "realized_pnl": 3129.2,
+      "total_usdc": 53097.01,
+      "trade_count": 500,
+      "market_count": 160,
+      "position_count": 115,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:29:08+00:00",
+      "top_markets": [
+        "Will Los Angeles Galaxy win on 2026-09-26?",
+        "Chiefs vs. Dolphins",
+        "Will Netherlands win on 2026-09-27?"
+      ],
+      "signals": [
+        {
+          "market": "Titans vs. Giants",
+          "signal": "LATE",
+          "avg_price": 0.08,
+          "cur_price": 0.085,
+          "usdc_size": 1731.35,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Jets vs. Lions",
           "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 15173.4,
+          "avg_price": 0.1945,
+          "cur_price": 0.0905,
+          "usdc_size": 1111.04,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.2535,
+          "cur_price": 0.165,
+          "usdc_size": 896.92,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.8564,
+          "cur_price": 0.005,
+          "usdc_size": 2250.06,
+          "outcome": "Jaguars"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.38,
+          "cur_price": 0.445,
+          "usdc_size": 778.66,
+          "outcome": "Commanders"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+      "name": "",
+      "score": 42.3,
+      "roi_score": 35.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.6,
+      "roi": 2.5,
+      "cash_pnl": 28980.8,
+      "realized_pnl": 8638.42,
+      "total_usdc": 189076.07,
+      "trade_count": 500,
+      "market_count": 86,
+      "position_count": 465,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:54:33+00:00",
+      "top_markets": [
+        "Spread: Chiefs (-10.5)",
+        "Seahawks vs. Commanders",
+        "Patriots vs. Jaguars"
+      ],
+      "signals": [
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "LATE",
+          "avg_price": 0.5619,
+          "cur_price": 0.53,
+          "usdc_size": 17278.73,
+          "outcome": "Steelers"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.1047,
+          "cur_price": 0.9,
+          "usdc_size": 7103.37,
           "outcome": "Dolphins"
         },
         {
-          "market": "Will Greece win on 2026-09-27?",
+          "market": "Chargers vs. Bills",
           "signal": "SKIP",
-          "avg_price": 0.11,
-          "cur_price": 0.125,
-          "usdc_size": 840.0,
+          "avg_price": 0.575,
+          "cur_price": 0.405,
+          "usdc_size": 53114.98,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.3758,
+          "cur_price": 0.445,
+          "usdc_size": 23272.4,
+          "outcome": "Commanders"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.7615,
+          "cur_price": 0.165,
+          "usdc_size": 27816.4,
+          "outcome": "Colts"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.3348,
+          "cur_price": 0.505,
+          "usdc_size": 21329.55,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.7795,
+          "cur_price": 0.0905,
+          "usdc_size": 13064.75,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.7539,
+          "cur_price": 0.085,
+          "usdc_size": 12308.93,
+          "outcome": "Giants"
+        },
+        {
+          "market": "Spread: Seahawks (-8.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4202,
+          "cur_price": 0.27,
+          "usdc_size": 3593.55,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.6084,
+          "cur_price": 0.505,
+          "usdc_size": 4868.66,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Spread: Lions (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5175,
+          "cur_price": 0.64,
+          "usdc_size": 4188.91,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.7329,
+          "cur_price": 0.445,
+          "usdc_size": 5620.52,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Spread: Chiefs (-10.5)",
+          "signal": "SKIP",
+          "avg_price": 0.6204,
+          "cur_price": 0.245,
+          "usdc_size": 7950.52,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.693,
+          "cur_price": 0.005,
+          "usdc_size": 7152.92,
+          "outcome": "Jaguars"
+        },
+        {
+          "market": "Spread: Giants (-2.5)",
+          "signal": "SKIP",
+          "avg_price": 0.421,
+          "cur_price": 0.895,
+          "usdc_size": 1365.66,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.2777,
+          "cur_price": 0.085,
+          "usdc_size": 776.07,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Spread: Bills (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5386,
+          "cur_price": 0.2,
+          "usdc_size": 2997.92,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Spread: Lions (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4602,
+          "cur_price": 0.64,
+          "usdc_size": 1884.78,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.2668,
+          "cur_price": 0.0905,
+          "usdc_size": 510.69,
+          "outcome": "Jets"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3a55b0c45449b955e43ec10734bd988bb5d1394e",
+      "name": "0x264379C47E653dafa153841a995Cf975B6a02fxo",
+      "score": 42.1,
+      "roi_score": 33.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.0,
+      "roi": -0.1,
+      "cash_pnl": -222.45,
+      "realized_pnl": 0.0,
+      "total_usdc": 297155.26,
+      "trade_count": 500,
+      "market_count": 43,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:23:03+00:00",
+      "top_markets": [
+        "Spurs vs. Thunder",
+        "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card)",
+        "Noche UFC: Tommy McMillen vs. Marwan Rahiki (Featherweight, Main Card)"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.88,
+          "cur_price": 0.9,
+          "usdc_size": 1789.59,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.3276,
+          "cur_price": 0.165,
+          "usdc_size": 1350.0,
+          "outcome": "Texans"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9055a9e36aa73274e3a92dc2dbb081bb4d9e756a",
+      "name": "okalright",
+      "score": 42.1,
+      "roi_score": 32.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.5,
+      "roi": -0.8,
+      "cash_pnl": -301.08,
+      "realized_pnl": 0.0,
+      "total_usdc": 361894.81,
+      "trade_count": 500,
+      "market_count": 76,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:23:11+00:00",
+      "top_markets": [
+        "Dota 2: Aurora vs GamerLegion (BO3) - PGL Wallachia Playoffs",
+        "Dota 2: Xtreme Gaming vs Team Nemesis (BO3) - PGL Wallachia Playoffs",
+        "Dota 2: LGD Gaming vs MOUZ (BO3) - PGL Wallachia Group Stage"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x44ccbd392120677fb8c589f4048f3fab13f3038d",
+      "name": "Anson41",
+      "score": 41.5,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.9,
+      "roi": 0.0,
+      "cash_pnl": 1.74,
+      "realized_pnl": 0.0,
+      "total_usdc": 132185.77,
+      "trade_count": 500,
+      "market_count": 198,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:25:51+00:00",
+      "top_markets": [
+        "Counter-Strike: fnatic vs Team Nemesis (BO3) - Stake Ranked Episode 5: Closed Qualifier Playoffs",
+        "Counter-Strike: Team Nemesis vs Sashi Esport (BO3) - Stake Ranked Episode 5: Closed Qualifier Playoffs",
+        "Plovdiv 4: Adrian Andreev vs Jonas Forejtek"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8883,
+          "cur_price": 0.9,
+          "usdc_size": 1336.62,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Will Netherlands win on 2026-09-27?",
+          "signal": "SKIP",
+          "avg_price": 0.893,
+          "cur_price": 0.9995,
+          "usdc_size": 3133.72,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-      "name": "nigiri99",
-      "score": 41.2,
-      "roi_score": 31.5,
+      "wallet": "0x7635ed586336bc7246b39cd416ed17e4858963f6",
+      "name": "jiafanpomarke001",
+      "score": 41.4,
+      "roi_score": 31.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.9,
-      "roi": -2.8,
-      "cash_pnl": -27895.63,
-      "realized_pnl": -11862.68,
-      "total_usdc": 197018.71,
+      "volume_score": 95.0,
+      "roi": -2.9,
+      "cash_pnl": -917.02,
+      "realized_pnl": -305.81,
+      "total_usdc": 259741.32,
       "trade_count": 500,
-      "market_count": 84,
-      "position_count": 431,
+      "market_count": 128,
+      "position_count": 53,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:45:24+00:00",
+      "last_active": "2026-09-27T19:31:30+00:00",
       "top_markets": [
-        "Spread: Bills (-7.5)",
-        "Titans vs. Giants",
-        "Texans vs. Colts: O/U 42.5"
+        "Valorant: LOUD vs EDward Gaming - Map 2 Winner",
+        "Valorant: LOUD vs EDward Gaming - Map 1 Winner",
+        "Dota 2: LGD Gaming vs Team Yandex (BO3) - PGL Wallachia Playoffs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x994ec8e910b433265f3a46eaf666bfa28b1a6136",
+      "name": "TrippleEX",
+      "score": 40.3,
+      "roi_score": 27.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.4,
+      "roi": -8.3,
+      "cash_pnl": -3833.7,
+      "realized_pnl": 0.0,
+      "total_usdc": 238356.95,
+      "trade_count": 500,
+      "market_count": 40,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:30:09+00:00",
+      "top_markets": [
+        "Counter-Strike: magic vs EYEBALLERS (BO3) - 1win Private Club #1 Playoffs",
+        "Counter-Strike: NIP vs magic - Map 2 Winner",
+        "Will England win on 2026-09-26?"
       ],
       "signals": [
         {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4601,
-          "cur_price": 0.455,
-          "usdc_size": 25344.41,
-          "outcome": "Bengals"
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.88,
+          "cur_price": 0.9,
+          "usdc_size": 7947.5,
+          "outcome": "Chiefs"
         },
         {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4912,
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.75,
           "cur_price": 0.505,
-          "usdc_size": 26263.71,
-          "outcome": "Titans"
+          "usdc_size": 4893.35,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.7831,
+          "cur_price": 0.0905,
+          "usdc_size": 8150.0,
+          "outcome": "Lions"
         },
         {
           "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.6118,
-          "cur_price": 0.605,
-          "usdc_size": 25575.77,
+          "signal": "SKIP",
+          "avg_price": 0.69,
+          "cur_price": 0.53,
+          "usdc_size": 6384.0,
           "outcome": "Bengals"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9653f32f21f057b78dfb70fd19a94a65022b4228",
+      "name": "ElsaMi",
+      "score": 40.3,
+      "roi_score": 33.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.5,
+      "roi": -0.3,
+      "cash_pnl": -54.71,
+      "realized_pnl": 52.77,
+      "total_usdc": 29704.68,
+      "trade_count": 215,
+      "market_count": 18,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:40:45+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - June 8, 8 AM ET",
+        "Will Russia capture Yunakivka before July?",
+        "Chiefs vs. Dolphins"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.884,
+          "cur_price": 0.9,
+          "usdc_size": 16712.03,
+          "outcome": "Chiefs"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+      "name": "Gaditima",
+      "score": 40.2,
+      "roi_score": 32.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.8,
+      "roi": -2.0,
+      "cash_pnl": -2747.91,
+      "realized_pnl": 978.76,
+      "total_usdc": 40238.98,
+      "trade_count": 500,
+      "market_count": 247,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:51+00:00",
+      "top_markets": [
+        "Fight to Go the Distance?",
+        "Will the Philadelphia Phillies clinch a spot in the 2026 MLB Postseason?",
+        "UFC 332: Roman Kopylov vs. Ateba Gautier (Middleweight, Main Card)"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8706,
+          "cur_price": 0.9,
+          "usdc_size": 1870.0,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.7631,
+          "cur_price": 0.005,
+          "usdc_size": 3943.58,
+          "outcome": "Jaguars"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7e418bf276b3462235a09c51fa8dda146b5aca06",
+      "name": "luckydees",
+      "score": 40.1,
+      "roi_score": 28.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.1,
+      "roi": -7.4,
+      "cash_pnl": -190.71,
+      "realized_pnl": 173.4,
+      "total_usdc": 155880.79,
+      "trade_count": 500,
+      "market_count": 110,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:27:09+00:00",
+      "top_markets": [
+        "Plymouth Argyle FC vs. Burton Albion FC: O/U 0.5",
+        "Wycombe Wanderers FC vs. Reading FC: O/U 0.5",
+        "Charlotte FC vs. Chicago Fire FC: O/U 0.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+      "name": "nigiri99",
+      "score": 39.9,
+      "roi_score": 29.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.4,
+      "roi": -6.4,
+      "cash_pnl": -88284.98,
+      "realized_pnl": -4410.77,
+      "total_usdc": 84472.6,
+      "trade_count": 500,
+      "market_count": 91,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:57+00:00",
+      "top_markets": [
+        "Ravens vs. Cowboys: O/U 52.5",
+        "Norway vs. Portugal: Both Teams to Score",
+        "Norway vs. Portugal: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "ENTER",
+          "avg_price": 0.5101,
+          "cur_price": 0.505,
+          "usdc_size": 19410.73,
+          "outcome": "Panthers"
         },
         {
           "market": "Spread: 49ers (-7.5)",
@@ -593,542 +754,1001 @@
           "outcome": "Cardinals"
         },
         {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "ENTER",
-          "avg_price": 0.4994,
-          "cur_price": 0.505,
-          "usdc_size": 2019.11,
-          "outcome": "Under"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4,
+          "market": "Chargers vs. Bills",
+          "signal": "LATE",
+          "avg_price": 0.42,
           "cur_price": 0.405,
-          "usdc_size": 810.93,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "LATE",
-          "avg_price": 0.469,
-          "cur_price": 0.445,
-          "usdc_size": 94819.28,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "LATE",
-          "avg_price": 0.4867,
-          "cur_price": 0.465,
-          "usdc_size": 21433.71,
-          "outcome": "Over"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "LATE",
-          "avg_price": 0.5149,
-          "cur_price": 0.485,
-          "usdc_size": 12085.5,
-          "outcome": "Under"
+          "usdc_size": 773.5,
+          "outcome": "Chargers"
         },
         {
           "market": "Spread: Bills (-7.5)",
           "signal": "SKIP",
-          "avg_price": 0.5192,
-          "cur_price": 0.465,
-          "usdc_size": 78190.57,
+          "avg_price": 0.5248,
+          "cur_price": 0.115,
+          "usdc_size": 217455.0,
           "outcome": "Chargers"
+        },
+        {
+          "market": "Spread: Chiefs (-10.5)",
+          "signal": "SKIP",
+          "avg_price": 0.469,
+          "cur_price": 0.245,
+          "usdc_size": 44746.18,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Spread: Giants (-2.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4908,
+          "cur_price": 0.895,
+          "usdc_size": 14321.15,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.45,
+          "cur_price": 0.085,
+          "usdc_size": 7957.29,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.16,
+          "cur_price": 0.9,
+          "usdc_size": 3283.84,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.6054,
+          "cur_price": 0.53,
+          "usdc_size": 30040.7,
+          "outcome": "Bengals"
         },
         {
           "market": "Spread: Lions (-6.5)",
           "signal": "SKIP",
-          "avg_price": 0.484,
-          "cur_price": 0.525,
-          "usdc_size": 12617.42,
+          "avg_price": 0.482,
+          "cur_price": 0.64,
+          "usdc_size": 24960.49,
           "outcome": "Jets"
+        },
+        {
+          "market": "Vikings vs. Buccaneers",
+          "signal": "SKIP",
+          "avg_price": 0.48,
+          "cur_price": 0.515,
+          "usdc_size": 19637.65,
+          "outcome": "Buccaneers"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.5265,
+          "cur_price": 0.165,
+          "usdc_size": 9989.38,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Spread: Seahawks (-8.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4978,
+          "cur_price": 0.27,
+          "usdc_size": 7897.23,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.7361,
+          "cur_price": 0.0905,
+          "usdc_size": 23278.3,
+          "outcome": "Lions"
         },
         {
           "market": "Will Norway win on 2026-09-27?",
           "signal": "SKIP",
-          "avg_price": 0.3885,
-          "cur_price": 0.425,
-          "usdc_size": 7009.35,
+          "avg_price": 0.3796,
+          "cur_price": 0.215,
+          "usdc_size": 3846.35,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.6351,
+          "cur_price": 0.405,
+          "usdc_size": 6696.34,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Will Netherlands win on 2026-09-27?",
+          "signal": "SKIP",
+          "avg_price": 0.6996,
+          "cur_price": 0.9995,
+          "usdc_size": 11374.31,
           "outcome": "Yes"
         },
         {
           "market": "Seahawks vs. Commanders",
           "signal": "SKIP",
-          "avg_price": 0.2358,
-          "cur_price": 0.775,
-          "usdc_size": 2463.75,
+          "avg_price": 0.2559,
+          "cur_price": 0.445,
+          "usdc_size": 3443.76,
           "outcome": "Commanders"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.4798,
+          "cur_price": 0.445,
+          "usdc_size": 3097.5,
+          "outcome": "Seahawks"
         },
         {
           "market": "Panthers vs. Browns",
           "signal": "SKIP",
-          "avg_price": 0.4449,
-          "cur_price": 0.545,
-          "usdc_size": 1233.96,
+          "avg_price": 0.5964,
+          "cur_price": 0.505,
+          "usdc_size": 654.5,
           "outcome": "Browns"
         }
       ]
     },
     {
-      "wallet": "0xf23365834e18039263541472a161197c53a3ddb6",
-      "name": "Zhoumin528",
-      "score": 41.1,
-      "roi_score": 35.4,
+      "wallet": "0x75a34b1dbec38b6ad334cb70477be9755c308275",
+      "name": "stackm",
+      "score": 39.4,
+      "roi_score": 28.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 79.4,
-      "roi": 3.1,
-      "cash_pnl": 15.0,
+      "volume_score": 84.6,
+      "roi": -7.7,
+      "cash_pnl": -400.0,
       "realized_pnl": 0.0,
-      "total_usdc": 33397.44,
-      "trade_count": 170,
-      "market_count": 20,
-      "position_count": 1,
+      "total_usdc": 65879.25,
+      "trade_count": 303,
+      "market_count": 33,
+      "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T14:59:11+00:00",
+      "last_active": "2026-09-27T18:44:32+00:00",
       "top_markets": [
-        "Will Germany win on 2026-09-27?",
-        "Will Norway win on 2026-09-24?",
-        "Will Spain win on 2026-09-26?"
+        "Celtics vs. 76ers",
+        "Pistons vs. Magic",
+        "NBA Playoffs: Who Will Win Series? - Lakers vs. Rockets "
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8449,
+          "cur_price": 0.9,
+          "usdc_size": 3720.0,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.77,
+          "cur_price": 0.445,
+          "usdc_size": 1050.0,
+          "outcome": "Seahawks"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa7b5bf2089e3de036ae68425461407343466fa78",
+      "name": "TaxIsTheft",
+      "score": 39.3,
+      "roi_score": 31.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.7,
+      "roi": -3.2,
+      "cash_pnl": -1509.81,
+      "realized_pnl": 396.37,
+      "total_usdc": 18032.99,
+      "trade_count": 500,
+      "market_count": 37,
+      "position_count": 51,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:16:27+00:00",
+      "top_markets": [
+        "Will the Los Angeles Chargers win the 2027 NFL league championship?",
+        "Will the Detroit Lions win the 2027 NFL league championship?",
+        "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8649,
+          "cur_price": 0.9,
+          "usdc_size": 2609.5,
+          "outcome": "Chiefs"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0811586db1ad9d8d7e0945f6e4139cea8be85d31",
+      "name": "Larics",
+      "score": 38.9,
+      "roi_score": 24.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.3,
+      "roi": -13.5,
+      "cash_pnl": -1157.49,
+      "realized_pnl": -234.05,
+      "total_usdc": 160212.52,
+      "trade_count": 202,
+      "market_count": 88,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:07:33+00:00",
+      "top_markets": [
+        "LoL: Team Vitality vs G2 Esports - Game 2 Winner",
+        "Will Spain win the 2026 FIFA World Cup?",
+        "Tampa Bay Rays vs. New York Yankees"
       ],
       "signals": []
     },
     {
-      "wallet": "0xa697d0b3fff7d285a0f92d6ee03a7f97809e59d5",
-      "name": "0xa697d0b3FFf7D285a0F92d6Ee03a7f97809E59d5-1774326306031",
-      "score": 41.1,
-      "roi_score": 32.8,
+      "wallet": "0x6dd9b2a9559fafebc3fa0bf860b56ca3a56fbfe8",
+      "name": "huynu",
+      "score": 38.7,
+      "roi_score": 25.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.8,
-      "roi": -0.8,
-      "cash_pnl": -755.28,
-      "realized_pnl": -315.55,
-      "total_usdc": 100221.77,
+      "volume_score": 84.9,
+      "roi": -11.5,
+      "cash_pnl": -2088.19,
+      "realized_pnl": -82.7,
+      "total_usdc": 68531.48,
       "trade_count": 500,
-      "market_count": 136,
-      "position_count": 196,
+      "market_count": 138,
+      "position_count": 53,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:29+00:00",
+      "last_active": "2026-09-27T19:12:29+00:00",
       "top_markets": [
-        "Spread: 49ers (-7.5)",
-        "Seahawks vs. Commanders: O/U 40.5",
-        "Spread: Seahawks (-8.5)"
+        "Valorant: Team Liquid vs Paper Rex (BO3) - VCT Champions Group C",
+        "Will Australia win on 2026-09-25?",
+        "Stars vs. Wild"
       ],
       "signals": [
         {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4068,
-          "cur_price": 0.405,
-          "usdc_size": 2947.59,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4996,
-          "cur_price": 0.505,
-          "usdc_size": 2412.14,
-          "outcome": "Cardinals"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "ENTER",
-          "avg_price": 0.48,
-          "cur_price": 0.485,
-          "usdc_size": 834.41,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.51,
-          "cur_price": 0.505,
-          "usdc_size": 863.05,
-          "outcome": "49ers"
-        },
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "ENTER",
-          "avg_price": 0.4678,
-          "cur_price": 0.465,
-          "usdc_size": 777.87,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.495,
-          "cur_price": 0.505,
-          "usdc_size": 511.86,
-          "outcome": "Titans"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5146,
-          "cur_price": 0.525,
-          "usdc_size": 526.58,
-          "outcome": "Lions"
-        },
-        {
           "market": "Chiefs vs. Dolphins",
           "signal": "LATE",
-          "avg_price": 0.835,
-          "cur_price": 0.835,
-          "usdc_size": 2338.03,
+          "avg_price": 0.8592,
+          "cur_price": 0.9,
+          "usdc_size": 1215.5,
           "outcome": "Chiefs"
         },
         {
-          "market": "Spread: Bills (-7.5)",
+          "market": "Seahawks vs. Commanders",
           "signal": "SKIP",
-          "avg_price": 0.5051,
-          "cur_price": 0.465,
-          "usdc_size": 1250.32,
-          "outcome": "Chargers"
+          "avg_price": 0.7244,
+          "cur_price": 0.445,
+          "usdc_size": 1030.0,
+          "outcome": "Seahawks"
         },
         {
-          "market": "Panthers vs. Browns",
+          "market": "Patriots vs. Jaguars",
           "signal": "SKIP",
-          "avg_price": 0.45,
-          "cur_price": 0.545,
-          "usdc_size": 637.0,
-          "outcome": "Browns"
+          "avg_price": 0.7981,
+          "cur_price": 0.005,
+          "usdc_size": 1892.82,
+          "outcome": "Jaguars"
         },
         {
-          "market": "Spread: Bengals (-3.5)",
+          "market": "Chargers vs. Bills",
           "signal": "SKIP",
-          "avg_price": 0.5358,
-          "cur_price": 0.455,
-          "usdc_size": 570.91,
-          "outcome": "Steelers"
+          "avg_price": 0.7363,
+          "cur_price": 0.405,
+          "usdc_size": 1102.0,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.79,
+          "cur_price": 0.165,
+          "usdc_size": 604.0,
+          "outcome": "Colts"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.85,
+          "cur_price": 0.085,
+          "usdc_size": 591.5,
+          "outcome": "Giants"
         }
       ]
     },
     {
-      "wallet": "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814",
-      "name": "sbsigner",
-      "score": 40.4,
-      "roi_score": 30.3,
+      "wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+      "name": "0xD9E0AACa471f48F91A26E8669A805f2",
+      "score": 38.4,
+      "roi_score": 26.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.7,
-      "roi": -4.5,
-      "cash_pnl": -1507.4,
-      "realized_pnl": -0.01,
-      "total_usdc": 99014.38,
+      "volume_score": 79.7,
+      "roi": -10.3,
+      "cash_pnl": -78358.21,
+      "realized_pnl": 28107.66,
+      "total_usdc": 34858.04,
       "trade_count": 500,
-      "market_count": 105,
-      "position_count": 50,
+      "market_count": 33,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:34:15+00:00",
+      "last_active": "2026-09-27T19:31:29+00:00",
       "top_markets": [
-        "Will Faroe Islands win on 2026-09-26?",
-        "Will Norway win on 2026-09-27?",
-        "Chiefs vs. Dolphins"
+        "Will Germany win on 2026-09-27?",
+        "New York Liberty vs. Minnesota Lynx",
+        "Chargers vs. Bills"
       ],
       "signals": [
         {
+          "market": "Bengals vs. Steelers",
+          "signal": "ENTER",
+          "avg_price": 0.5259,
+          "cur_price": 0.53,
+          "usdc_size": 20635.2,
+          "outcome": "Bengals"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8572,
+          "cur_price": 0.9,
+          "usdc_size": 41459.83,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "LATE",
+          "avg_price": 0.5118,
+          "cur_price": 0.53,
+          "usdc_size": 9829.93,
+          "outcome": "Steelers"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.4552,
+          "cur_price": 0.405,
+          "usdc_size": 22600.2,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.5309,
+          "cur_price": 0.405,
+          "usdc_size": 38199.43,
+          "outcome": "Bills"
+        },
+        {
           "market": "Chiefs vs. Dolphins",
           "signal": "SKIP",
-          "avg_price": 0.1683,
-          "cur_price": 0.835,
-          "usdc_size": 18856.36,
+          "avg_price": 0.1129,
+          "cur_price": 0.9,
+          "usdc_size": 3533.69,
           "outcome": "Dolphins"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.3561,
+          "cur_price": 0.445,
+          "usdc_size": 17880.15,
+          "outcome": "Commanders"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.5566,
+          "cur_price": 0.445,
+          "usdc_size": 18445.67,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.297,
+          "cur_price": 0.165,
+          "usdc_size": 7926.76,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.6665,
+          "cur_price": 0.165,
+          "usdc_size": 20223.42,
+          "outcome": "Colts"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.2434,
+          "cur_price": 0.085,
+          "usdc_size": 3888.33,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.7105,
+          "cur_price": 0.085,
+          "usdc_size": 18506.34,
+          "outcome": "Giants"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.5553,
+          "cur_price": 0.505,
+          "usdc_size": 8090.72,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.6534,
+          "cur_price": 0.005,
+          "usdc_size": 19595.41,
+          "outcome": "Jaguars"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.421,
+          "cur_price": 0.505,
+          "usdc_size": 12075.39,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.1898,
+          "cur_price": 0.0905,
+          "usdc_size": 2295.59,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.8096,
+          "cur_price": 0.0905,
+          "usdc_size": 10047.53,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Will Netherlands win on 2026-09-27?",
+          "signal": "SKIP",
+          "avg_price": 0.7383,
+          "cur_price": 0.9995,
+          "usdc_size": 2502.07,
+          "outcome": "Yes"
         },
         {
           "market": "Will Norway win on 2026-09-27?",
           "signal": "SKIP",
-          "avg_price": 0.5799,
-          "cur_price": 0.425,
-          "usdc_size": 5301.2,
+          "avg_price": 0.7007,
+          "cur_price": 0.215,
+          "usdc_size": 1014.39,
           "outcome": "No"
         },
         {
           "market": "Will Greece win on 2026-09-27?",
           "signal": "SKIP",
-          "avg_price": 0.8715,
-          "cur_price": 0.125,
-          "usdc_size": 772.0,
+          "avg_price": 0.8633,
+          "cur_price": 0.13,
+          "usdc_size": 707.59,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x95e95f53bb002b766d0132c21917150d22927313",
-      "name": "alhamdulala",
-      "score": 40.1,
-      "roi_score": 32.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.2,
-      "roi": -1.1,
-      "cash_pnl": -83.2,
-      "realized_pnl": 0.0,
-      "total_usdc": 28441.18,
-      "trade_count": 11,
-      "market_count": 6,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:16:53+00:00",
-      "top_markets": [
-        "Spread: Chiefs (-10.5)",
-        "Colts vs. Chiefs",
-        "Eagles vs. Titans"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4499,
-          "cur_price": 0.445,
-          "usdc_size": 7406.14,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
-      "name": "0F62",
-      "score": 39.8,
-      "roi_score": 24.2,
+      "wallet": "0xc3ca1a42fd9217b2d02fb05980c1803af462688e",
+      "name": "ThePrinceThatWasPromised",
+      "score": 38.2,
+      "roi_score": 18.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -13.7,
-      "cash_pnl": -28969.24,
-      "realized_pnl": -34.27,
-      "total_usdc": 658385.87,
+      "roi": -21.6,
+      "cash_pnl": -31333.25,
+      "realized_pnl": 0.0,
+      "total_usdc": 1355916.61,
       "trade_count": 500,
-      "market_count": 47,
-      "position_count": 14,
+      "market_count": 32,
+      "position_count": 11,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:41:41+00:00",
+      "last_active": "2026-09-27T19:27:32+00:00",
       "top_markets": [
-        "Spread: Greece (-1.5)",
-        "Will Ethereum dip to $2,700 in September?",
-        "Milwaukee Brewers vs. Philadelphia Phillies"
+        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+        "Seahawks vs. Commanders"
       ],
       "signals": [
         {
           "market": "Chiefs vs. Dolphins",
           "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 3340.0,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Seahawks vs. Commanders",
-          "signal": "LATE",
-          "avg_price": 0.78,
-          "cur_price": 0.775,
-          "usdc_size": 3100.0,
-          "outcome": "Seahawks"
-        },
-        {
-          "market": "Will Greece win on 2026-09-27?",
-          "signal": "SKIP",
-          "avg_price": 0.8899,
-          "cur_price": 0.125,
-          "usdc_size": 33175.87,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x54b56146656e7eef9da02b3a030c18e06e924b31",
-      "name": "pup1",
-      "score": 38.3,
-      "roi_score": 21.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.6,
-      "roi": -18.0,
-      "cash_pnl": -15349.18,
-      "realized_pnl": -8659.42,
-      "total_usdc": 216873.7,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 35,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:33:14+00:00",
-      "top_markets": [
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "Will Anthropic's valuation hit (HIGH) $3.0T by December 31?",
-        "UFC Fight Night: Robert Bryczek vs. Rodolfo Vieira (Middleweight, Main Card)"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 11243.91,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x445e88628a68c596c857085eb26f6379a1f49be0",
-      "name": "WALLYFIGHTS",
-      "score": 35.1,
-      "roi_score": 14.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.6,
-      "roi": -28.4,
-      "cash_pnl": -13068.62,
-      "realized_pnl": 1029.25,
-      "total_usdc": 51301.95,
-      "trade_count": 500,
-      "market_count": 134,
-      "position_count": 67,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:15:36+00:00",
-      "top_markets": [
-        "Panthers vs. Falcons",
-        "Will the Las Vegas Raiders win the 2027 NFL league championship?",
-        "Navy vs. UAB"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 1669.99,
+          "avg_price": 0.8977,
+          "cur_price": 0.9,
+          "usdc_size": 22676.54,
           "outcome": "Chiefs"
         },
         {
           "market": "Panthers vs. Browns",
           "signal": "LATE",
-          "avg_price": 0.58,
-          "cur_price": 0.545,
-          "usdc_size": 817.5,
+          "avg_price": 0.54,
+          "cur_price": 0.505,
+          "usdc_size": 10460.53,
           "outcome": "Panthers"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.7636,
+          "cur_price": 0.445,
+          "usdc_size": 23198.73,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.75,
+          "cur_price": 0.405,
+          "usdc_size": 22456.25,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.7893,
+          "cur_price": 0.0905,
+          "usdc_size": 24366.05,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.6,
+          "cur_price": 0.53,
+          "usdc_size": 10647.98,
+          "outcome": "Bengals"
         }
       ]
     },
     {
-      "wallet": "0x5f38747053bb642bb3ad456c5766ad9e6fb9eb70",
-      "name": "vilkaZ",
-      "score": 34.4,
-      "roi_score": 6.2,
+      "wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+      "name": "takeormake",
+      "score": 38.0,
+      "roi_score": 18.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -40.6,
-      "cash_pnl": -70440.64,
-      "realized_pnl": -299.18,
-      "total_usdc": 745784.13,
+      "roi": -22.6,
+      "cash_pnl": -287989.2,
+      "realized_pnl": -575.3,
+      "total_usdc": 552056.18,
       "trade_count": 500,
-      "market_count": 95,
-      "position_count": 21,
+      "market_count": 97,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:14:05+00:00",
+      "last_active": "2026-09-27T19:31:53+00:00",
       "top_markets": [
-        "Broncos vs. Chiefs: O/U 46.5",
-        "Spread: Chiefs (-2.5)",
-        "Map Handicap: 9z (-1.5) vs MIBR (+1.5)"
+        "Vikings vs. Buccaneers",
+        "Minnesota vs. Washington",
+        "Spread: Panthers (-3.5)"
       ],
       "signals": [
         {
-          "market": "Spread: Chiefs (-10.5)",
+          "market": "Vikings vs. Buccaneers",
           "signal": "ENTER",
+          "avg_price": 0.52,
+          "cur_price": 0.515,
+          "usdc_size": 93741.29,
+          "outcome": "Vikings"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "LATE",
+          "avg_price": 0.5348,
+          "cur_price": 0.505,
+          "usdc_size": 6650.55,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.5493,
+          "cur_price": 0.505,
+          "usdc_size": 224216.55,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.2646,
+          "cur_price": 0.0905,
+          "usdc_size": 21614.39,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Spread: Lions (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.48,
+          "cur_price": 0.64,
+          "usdc_size": 64882.81,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Spread: Chiefs (-10.5)",
+          "signal": "SKIP",
           "avg_price": 0.45,
-          "cur_price": 0.445,
-          "usdc_size": 16643.14,
+          "cur_price": 0.245,
+          "usdc_size": 17333.16,
           "outcome": "Chiefs"
         },
         {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "ENTER",
-          "avg_price": 0.47,
-          "cur_price": 0.465,
-          "usdc_size": 11606.39,
-          "outcome": "Over"
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.23,
+          "cur_price": 0.445,
+          "usdc_size": 35361.37,
+          "outcome": "Commanders"
         },
         {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "ENTER",
-          "avg_price": 0.46,
-          "cur_price": 0.455,
-          "usdc_size": 11238.5,
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.6516,
+          "cur_price": 0.005,
+          "usdc_size": 66888.7,
+          "outcome": "Jaguars"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.3769,
+          "cur_price": 0.53,
+          "usdc_size": 15855.25,
+          "outcome": "Steelers"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.7409,
+          "cur_price": 0.405,
+          "usdc_size": 9783.5,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.4698,
+          "cur_price": 0.53,
+          "usdc_size": 8856.68,
           "outcome": "Bengals"
         },
         {
-          "market": "Seahawks vs. Commanders",
-          "signal": "LATE",
-          "avg_price": 0.77,
-          "cur_price": 0.775,
-          "usdc_size": 10694.23,
-          "outcome": "Seahawks"
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.813,
+          "cur_price": 0.0905,
+          "usdc_size": 5558.92,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.7553,
+          "cur_price": 0.085,
+          "usdc_size": 3037.35,
+          "outcome": "Giants"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.3698,
+          "cur_price": 0.405,
+          "usdc_size": 632.94,
+          "outcome": "Chargers"
         },
         {
           "market": "Chiefs vs. Dolphins",
           "signal": "SKIP",
+          "avg_price": 0.8376,
+          "cur_price": 0.9,
+          "usdc_size": 1105.11,
+          "outcome": "Chiefs"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+      "name": "cigarettes",
+      "score": 37.8,
+      "roi_score": 26.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.6,
+      "roi": -10.6,
+      "cash_pnl": -26872.62,
+      "realized_pnl": 468028.8,
+      "total_usdc": 17835.4,
+      "trade_count": 500,
+      "market_count": 215,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:45+00:00",
+      "top_markets": [
+        "LoL: Forsaken vs The Otter Side (BO1) - EMEA Masters Swiss Stage",
+        "Will Burgos CF win on 2026-09-27?",
+        "LoL: G2 NORD vs NightBirds (BO1) - EMEA Masters Swiss Stage"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
           "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 2772.0,
+          "cur_price": 0.9,
+          "usdc_size": 700.0,
           "outcome": "Dolphins"
+        },
+        {
+          "market": "Spread: Bills (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.67,
+          "cur_price": 0.2,
+          "usdc_size": 1891.25,
+          "outcome": "Chargers"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b",
+      "name": "cosmicxbt",
+      "score": 35.8,
+      "roi_score": 10.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -33.6,
+      "cash_pnl": -131284.61,
+      "realized_pnl": -148.71,
+      "total_usdc": 2982672.29,
+      "trade_count": 487,
+      "market_count": 22,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:59:27+00:00",
+      "top_markets": [
+        "Will LeBron James play for the Miami Heat in 2026-27?",
+        "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.8325,
+          "cur_price": 0.9,
+          "usdc_size": 162750.0,
+          "outcome": "Chiefs"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7a75a4183e577123db9ff0adff520561ef95d288",
+      "name": "177-letsgo",
+      "score": 35.8,
+      "roi_score": 11.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -33.5,
+      "cash_pnl": -63649.07,
+      "realized_pnl": -0.08,
+      "total_usdc": 982372.1,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:02:29+00:00",
+      "top_markets": [
+        "South Alabama vs. Kentucky",
+        "USC vs. Rutgers",
+        "UTEP vs. Michigan"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+      "name": "dips.",
+      "score": 34.8,
+      "roi_score": 14.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.3,
+      "roi": -27.6,
+      "cash_pnl": -14892.95,
+      "realized_pnl": 132.06,
+      "total_usdc": 28810.15,
+      "trade_count": 500,
+      "market_count": 204,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:32:14+00:00",
+      "top_markets": [
+        "Will UD Almer\u00eda win on 2026-09-27?",
+        "Gibraltar vs. Andorra: O/U 0.5",
+        "Will Denmark win on 2026-09-27?"
+      ],
+      "signals": [
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "ENTER",
+          "avg_price": 0.4,
+          "cur_price": 0.405,
+          "usdc_size": 884.38,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.4,
+          "cur_price": 0.445,
+          "usdc_size": 712.93,
+          "outcome": "Commanders"
+        }
+      ]
+    },
+    {
+      "wallet": "0x15fbfa17c966239e525467c93b6872613428d13a",
+      "name": "0x15FBFA17C966239e525467c93B6872613428d13A-1764575993832",
+      "score": 34.5,
+      "roi_score": 10.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.3,
+      "roi": -34.9,
+      "cash_pnl": -321.42,
+      "realized_pnl": -192.24,
+      "total_usdc": 139269.36,
+      "trade_count": 500,
+      "market_count": 191,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:41+00:00",
+      "top_markets": [
+        "Rockets vs. Lakers",
+        "Internazionali BNL d'Italia, Qualification: Dominika Salkova vs Sinja Kraus",
+        "Falcons vs. Packers"
+      ],
+      "signals": [
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "LATE",
+          "avg_price": 0.4299,
+          "cur_price": 0.445,
+          "usdc_size": 598.84,
+          "outcome": "Seahawks"
+        }
+      ]
+    },
+    {
+      "wallet": "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+      "name": "ndb1",
+      "score": 34.3,
+      "roi_score": 5.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -41.1,
+      "cash_pnl": -958468.22,
+      "realized_pnl": 1074.84,
+      "total_usdc": 665629.95,
+      "trade_count": 500,
+      "market_count": 35,
+      "position_count": 394,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:49:05+00:00",
+      "top_markets": [
+        "Spread: Bills (-7.5)",
+        "Panthers vs. Browns: O/U 42.5",
+        "Will Sonny Gray lead MLB in pitcher wins for the 2026 season?"
+      ],
+      "signals": [
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.77,
+          "cur_price": 0.445,
+          "usdc_size": 43043.47,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.85,
+          "cur_price": 0.005,
+          "usdc_size": 1091.59,
+          "outcome": "Jaguars"
         }
       ]
     },
     {
       "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
       "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "score": 34.3,
-      "roi_score": 6.0,
+      "score": 32.5,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -41.0,
-      "cash_pnl": -5173761.97,
-      "realized_pnl": 509264.65,
-      "total_usdc": 1982429.28,
+      "roi": -56.8,
+      "cash_pnl": -4551190.8,
+      "realized_pnl": 244710.25,
+      "total_usdc": 1910858.55,
       "trade_count": 500,
-      "market_count": 75,
+      "market_count": 47,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:45:15+00:00",
+      "last_active": "2026-09-27T19:31:29+00:00",
       "top_markets": [
         "Spread: Bengals (-3.5)",
         "Chiefs vs. Dolphins",
-        "UFC Fight Night: Ilimbek Akylbek Uulu vs. Mehemmedeli Osmanli (Bantamweight, Main Card)"
+        "Chargers vs. Bills: O/U 50.5"
       ],
       "signals": [
         {
@@ -1140,264 +1760,208 @@
           "outcome": "49ers"
         },
         {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5,
-          "cur_price": 0.505,
-          "usdc_size": 54406.01,
-          "outcome": "Giants"
-        },
-        {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "ENTER",
-          "avg_price": 0.51,
-          "cur_price": 0.505,
-          "usdc_size": 20642.71,
-          "outcome": "Under"
-        },
-        {
           "market": "Chiefs vs. Dolphins",
           "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 468863.92,
+          "avg_price": 0.8531,
+          "cur_price": 0.9,
+          "usdc_size": 1175543.87,
           "outcome": "Chiefs"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "LATE",
-          "avg_price": 0.5,
-          "cur_price": 0.465,
-          "usdc_size": 5855.65,
-          "outcome": "Chargers"
         },
         {
           "market": "Spread: Lions (-6.5)",
           "signal": "SKIP",
           "avg_price": 0.48,
-          "cur_price": 0.525,
-          "usdc_size": 278946.06,
+          "cur_price": 0.64,
+          "usdc_size": 345082.58,
           "outcome": "Jets"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.56,
+          "cur_price": 0.085,
+          "usdc_size": 177814.8,
+          "outcome": "Giants"
         },
         {
           "market": "Spread: Chiefs (-10.5)",
           "signal": "SKIP",
           "avg_price": 0.55,
-          "cur_price": 0.445,
-          "usdc_size": 111000.0,
+          "cur_price": 0.245,
+          "usdc_size": 160000.0,
           "outcome": "Dolphins"
         },
         {
-          "market": "Spread: Bengals (-3.5)",
+          "market": "Texans vs. Colts",
           "signal": "SKIP",
-          "avg_price": 0.54,
-          "cur_price": 0.455,
-          "usdc_size": 16944.88,
-          "outcome": "Steelers"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-      "name": "HomeRunHazard",
-      "score": 33.5,
-      "roi_score": 3.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -45.2,
-      "cash_pnl": -1767417.38,
-      "realized_pnl": -10194.3,
-      "total_usdc": 913640.85,
-      "trade_count": 500,
-      "market_count": 155,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:26+00:00",
-      "top_markets": [
-        "Canucks vs. Oilers: O/U 6.5",
-        "Bari: Franco Agamenone vs Ignacio Parisca Romera",
-        "Bari: Federico Arnaboldi vs Federico Iannaccone"
-      ],
-      "signals": [
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "ENTER",
-          "avg_price": 0.4747,
-          "cur_price": 0.465,
-          "usdc_size": 33123.2,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5051,
-          "cur_price": 0.505,
-          "usdc_size": 17865.08,
-          "outcome": "49ers"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.499,
-          "cur_price": 0.505,
-          "usdc_size": 14040.13,
-          "outcome": "Cardinals"
-        },
-        {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "ENTER",
-          "avg_price": 0.51,
-          "cur_price": 0.505,
-          "usdc_size": 13105.28,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "ENTER",
-          "avg_price": 0.465,
-          "cur_price": 0.455,
-          "usdc_size": 11928.18,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.61,
-          "cur_price": 0.605,
-          "usdc_size": 15851.0,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "ENTER",
           "avg_price": 0.47,
-          "cur_price": 0.465,
-          "usdc_size": 11674.47,
-          "outcome": "Bills"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "ENTER",
-          "avg_price": 0.4772,
-          "cur_price": 0.485,
-          "usdc_size": 11041.84,
-          "outcome": "Over"
+          "cur_price": 0.165,
+          "usdc_size": 116170.74,
+          "outcome": "Colts"
         },
         {
           "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.5,
-          "cur_price": 0.505,
-          "usdc_size": 7679.29,
+          "cur_price": 0.895,
+          "usdc_size": 99970.65,
           "outcome": "Giants"
         },
         {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4905,
-          "cur_price": 0.505,
-          "usdc_size": 7073.02,
-          "outcome": "Titans"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4,
-          "cur_price": 0.405,
-          "usdc_size": 4813.07,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "LATE",
-          "avg_price": 0.4738,
-          "cur_price": 0.445,
-          "usdc_size": 53659.64,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.8463,
-          "cur_price": 0.835,
-          "usdc_size": 91350.98,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "LATE",
-          "avg_price": 0.5069,
-          "cur_price": 0.485,
-          "usdc_size": 21556.21,
-          "outcome": "Under"
-        },
-        {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "LATE",
-          "avg_price": 0.4792,
-          "cur_price": 0.505,
-          "usdc_size": 14277.88,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "LATE",
-          "avg_price": 0.4998,
-          "cur_price": 0.525,
-          "usdc_size": 6653.89,
-          "outcome": "Lions"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
+          "market": "Chargers vs. Bills",
           "signal": "SKIP",
-          "avg_price": 0.5155,
-          "cur_price": 0.465,
-          "usdc_size": 51794.67,
+          "avg_price": 0.4993,
+          "cur_price": 0.405,
+          "usdc_size": 29782.55,
           "outcome": "Chargers"
         },
         {
-          "market": "Spread: Chiefs (-10.5)",
+          "market": "Chargers vs. Bills",
           "signal": "SKIP",
-          "avg_price": 0.5284,
-          "cur_price": 0.445,
-          "usdc_size": 50918.44,
-          "outcome": "Dolphins"
+          "avg_price": 0.5093,
+          "cur_price": 0.405,
+          "usdc_size": 40680.08,
+          "outcome": "Bills"
         },
         {
           "market": "Seahawks vs. Commanders",
           "signal": "SKIP",
-          "avg_price": 0.23,
-          "cur_price": 0.775,
-          "usdc_size": 5524.94,
-          "outcome": "Commanders"
+          "avg_price": 0.6685,
+          "cur_price": 0.445,
+          "usdc_size": 21660.79,
+          "outcome": "Seahawks"
         },
         {
-          "market": "Spread: Lions (-6.5)",
+          "market": "Panthers vs. Browns",
           "signal": "SKIP",
-          "avg_price": 0.48,
-          "cur_price": 0.525,
-          "usdc_size": 7274.05,
-          "outcome": "Jets"
+          "avg_price": 0.45,
+          "cur_price": 0.505,
+          "usdc_size": 16429.08,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Spread: Bills (-7.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.115,
+          "usdc_size": 8591.93,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.23,
+          "cur_price": 0.165,
+          "usdc_size": 1518.39,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.3618,
+          "cur_price": 0.53,
+          "usdc_size": 2128.29,
+          "outcome": "Bengals"
+        }
+      ]
+    },
+    {
+      "wallet": "0x927cf2bb94d15707993f954552e56c74eb6d6633",
+      "name": "jarosbill",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -94.6,
+      "cash_pnl": -1381981.41,
+      "realized_pnl": -19715.08,
+      "total_usdc": 523904.5,
+      "trade_count": 500,
+      "market_count": 88,
+      "position_count": 336,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:44:02+00:00",
+      "top_markets": [
+        "Will Arsenal FC win on 2026-09-19?",
+        "Miami Marlins vs. Chicago Cubs",
+        "Spread: Chiefs (-7.5)"
+      ],
+      "signals": [
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "ENTER",
+          "avg_price": 0.5233,
+          "cur_price": 0.53,
+          "usdc_size": 1767.68,
+          "outcome": "Steelers"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "LATE",
+          "avg_price": 0.51,
+          "cur_price": 0.53,
+          "usdc_size": 15376.8,
+          "outcome": "Bengals"
         },
         {
           "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.1487,
-          "cur_price": 0.835,
-          "usdc_size": 2389.72,
-          "outcome": "Dolphins"
+          "signal": "LATE",
+          "avg_price": 0.8795,
+          "cur_price": 0.9,
+          "usdc_size": 14880.0,
+          "outcome": "Chiefs"
         },
         {
-          "market": "Panthers vs. Browns: O/U 42.5",
+          "market": "Texans vs. Colts",
           "signal": "SKIP",
-          "avg_price": 0.5299,
-          "cur_price": 0.465,
-          "usdc_size": 4999.37,
-          "outcome": "Under"
+          "avg_price": 0.6193,
+          "cur_price": 0.165,
+          "usdc_size": 22402.5,
+          "outcome": "Colts"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.36,
+          "cur_price": 0.0905,
+          "usdc_size": 4144.0,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.7915,
+          "cur_price": 0.445,
+          "usdc_size": 5652.47,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.78,
+          "cur_price": 0.0905,
+          "usdc_size": 7714.0,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.75,
+          "cur_price": 0.505,
+          "usdc_size": 1051.05,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Spread: Bills (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.45,
+          "cur_price": 0.2,
+          "usdc_size": 2279.2,
+          "outcome": "Chargers"
         }
       ]
     },
@@ -1410,17 +1974,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -95.2,
-      "cash_pnl": -2376769.89,
+      "roi": -90.0,
+      "cash_pnl": -2390399.77,
       "realized_pnl": 6898.6,
-      "total_usdc": 835918.38,
+      "total_usdc": 992892.11,
       "trade_count": 500,
-      "market_count": 17,
-      "position_count": 55,
+      "market_count": 29,
+      "position_count": 67,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:40:41+00:00",
+      "last_active": "2026-09-27T18:34:23+00:00",
       "top_markets": [
         "Will Norway win on 2026-09-24?",
         "Spread: Rams (-6.5)",
@@ -1428,1654 +1992,1273 @@
       ],
       "signals": [
         {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.1308,
+          "cur_price": 0.9,
+          "usdc_size": 15260.0,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Spread: Bills (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.45,
+          "cur_price": 0.2,
+          "usdc_size": 26771.75,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.77,
+          "cur_price": 0.165,
+          "usdc_size": 21291.0,
+          "outcome": "Colts"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.44,
+          "cur_price": 0.085,
+          "usdc_size": 4320.0,
+          "outcome": "Titans"
+        },
+        {
           "market": "Spread: Chiefs (-10.5)",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.47,
-          "cur_price": 0.445,
-          "usdc_size": 11436.5,
+          "cur_price": 0.245,
+          "usdc_size": 5268.5,
           "outcome": "Chiefs"
         },
         {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "LATE",
-          "avg_price": 0.47,
-          "cur_price": 0.455,
-          "usdc_size": 11670.75,
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.7792,
+          "cur_price": 0.0905,
+          "usdc_size": 20915.0,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.57,
+          "cur_price": 0.505,
+          "usdc_size": 9663.5,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.3929,
+          "cur_price": 0.53,
+          "usdc_size": 13831.99,
           "outcome": "Bengals"
         },
         {
-          "market": "Chiefs vs. Dolphins",
+          "market": "Seahawks vs. Commanders",
           "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 20988.0,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
-      "name": "ic4cream",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.6,
-      "roi": -98.8,
-      "cash_pnl": -5171467.54,
-      "realized_pnl": -50412.5,
-      "total_usdc": 472986.77,
-      "trade_count": 500,
-      "market_count": 157,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:47+00:00",
-      "top_markets": [
-        "Will IR Iran win on 2026-09-24?",
-        "Spread: UTSA (-14.5)",
-        "Clemson vs. California"
-      ],
-      "signals": [
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5,
-          "cur_price": 0.505,
-          "usdc_size": 5566.77,
-          "outcome": "Cardinals"
+          "avg_price": 0.81,
+          "cur_price": 0.445,
+          "usdc_size": 8662.5,
+          "outcome": "Seahawks"
         },
         {
-          "market": "Patriots vs. Jaguars",
+          "market": "Chargers vs. Bills",
           "signal": "SKIP",
-          "avg_price": 0.5917,
+          "avg_price": 0.5,
           "cur_price": 0.405,
-          "usdc_size": 3879.86,
-          "outcome": "Jaguars"
+          "usdc_size": 9900.0,
+          "outcome": "Bills"
         }
       ]
     },
     {
-      "wallet": "0xaaaa30bb9079a6287eb39dd2c53ef17fc2e374d8",
-      "name": "xasdasdas21",
+      "wallet": "0x7b88161f737e26b60bc86a3adf9089aaf1285d08",
+      "name": "Ajwritescrypt0",
       "score": 32.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -84.5,
-      "cash_pnl": -105434.57,
-      "realized_pnl": -1135.07,
-      "total_usdc": 605835.5,
+      "roi": -99.5,
+      "cash_pnl": -126921.48,
+      "realized_pnl": -2023.02,
+      "total_usdc": 548682.75,
       "trade_count": 500,
-      "market_count": 105,
-      "position_count": 27,
+      "market_count": 313,
+      "position_count": 187,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T14:26:15+00:00",
+      "last_active": "2026-09-27T19:02:36+00:00",
       "top_markets": [
-        "Map Handicap: G2 (-1.5) vs BetBoom Team (+1.5)",
-        "Philadelphia Phillies vs. Atlanta Braves",
-        "Spread: Seahawks (-4.5)"
+        "Falcons vs. Packers",
+        "Colts vs. Chiefs",
+        "Commanders vs. Cowboys"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x412fe1a101554f0b382181c3af932e4b2d8030fa",
+      "name": "GrizzliesSuck",
+      "score": 32.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 98.7,
+      "roi": -84.5,
+      "cash_pnl": -45230.34,
+      "realized_pnl": -597.6,
+      "total_usdc": 423073.32,
+      "trade_count": 500,
+      "market_count": 94,
+      "position_count": 32,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:27:29+00:00",
+      "top_markets": [
+        "Dota 2: Aurora vs Natus Vincere - Game 2 Winner",
+        "Valorant: LOUD vs EDward Gaming - Map 1 Winner",
+        "Dota 2: Natus Vincere vs Xtreme Gaming - Game 1 Winner"
       ],
       "signals": [
         {
-          "market": "Spread: Chiefs (-10.5)",
+          "market": "Chargers vs. Bills",
           "signal": "ENTER",
-          "avg_price": 0.45,
-          "cur_price": 0.445,
-          "usdc_size": 8487.93,
-          "outcome": "Chiefs"
+          "avg_price": 0.4081,
+          "cur_price": 0.405,
+          "usdc_size": 2551.5,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "LATE",
+          "avg_price": 0.1742,
+          "cur_price": 0.165,
+          "usdc_size": 1690.5,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.0894,
+          "cur_price": 0.9,
+          "usdc_size": 601.25,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.06,
+          "cur_price": 0.085,
+          "usdc_size": 1440.0,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.1677,
+          "cur_price": 0.0905,
+          "usdc_size": 1246.2,
+          "outcome": "Jets"
         }
       ]
     },
     {
-      "wallet": "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de",
-      "name": "gambamaster",
+      "wallet": "0xb7fffe75ad88a55987cd8c60ad6a53640e80aa79",
+      "name": "yoyoyoyoer",
       "score": 32.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 98.4,
-      "roi": -100.0,
-      "cash_pnl": -5158205.39,
-      "realized_pnl": -22430.96,
-      "total_usdc": 406240.64,
+      "volume_score": 97.6,
+      "roi": -65.4,
+      "cash_pnl": -82388.81,
+      "realized_pnl": -302.6,
+      "total_usdc": 365944.36,
       "trade_count": 500,
-      "market_count": 14,
-      "position_count": 68,
+      "market_count": 25,
+      "position_count": 17,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:42+00:00",
+      "last_active": "2026-09-27T18:51:48+00:00",
       "top_markets": [
-        "Will Manchester City FC win on 2026-09-17?",
-        "Will Real Madrid CF win on 2026-09-15?",
-        "Will FC Barcelona win on 2026-09-16?"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 2361.66,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8c406c3275517b345e9481c49125e9a6629780df",
-      "name": "Daemon99",
-      "score": 32.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.0,
-      "roi": -99.2,
-      "cash_pnl": -849744.31,
-      "realized_pnl": -1707.41,
-      "total_usdc": 338882.1,
-      "trade_count": 500,
-      "market_count": 27,
-      "position_count": 49,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:29:47+00:00",
-      "top_markets": [
-        "Will AFC Bournemouth win on 2026-09-17?",
         "Will England win on 2026-09-26?",
-        "Will AFC Bournemouth win on 2026-09-20?"
+        "Will US Virgin Islands win on 2026-09-26?",
+        "Will Paris Saint-Germain FC win on 2026-09-20?"
       ],
       "signals": [
         {
           "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8783,
+          "cur_price": 0.9,
+          "usdc_size": 16625.46,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Titans vs. Giants",
           "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 6673.26,
-          "outcome": "Dolphins"
+          "avg_price": 0.44,
+          "cur_price": 0.085,
+          "usdc_size": 8345.66,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.72,
+          "cur_price": 0.165,
+          "usdc_size": 17267.55,
+          "outcome": "Colts"
         }
       ]
     },
     {
-      "wallet": "0x3a51ac088ea7537707bfca1317db6c4406b6fd7f",
-      "name": "TestingMyGangster",
+      "wallet": "0x3355473bd5051c97d90a2d8d860a1cef8f1add2f",
+      "name": "BDairo",
+      "score": 32.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.7,
+      "roi": -84.7,
+      "cash_pnl": -53082.39,
+      "realized_pnl": -286.67,
+      "total_usdc": 371829.13,
+      "trade_count": 500,
+      "market_count": 138,
+      "position_count": 30,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:30:51+00:00",
+      "top_markets": [
+        "Counter-Strike: FUT Esports vs Spirit - Map 4 Winner",
+        "Will Argentina win on 2026-06-22?",
+        "Will Atlas FC win on 2026-07-25?"
+      ],
+      "signals": [
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.88,
+          "cur_price": 0.9,
+          "usdc_size": 9256.5,
+          "outcome": "Chiefs"
+        }
+      ]
+    },
+    {
+      "wallet": "0x58a382757ceb02e6f78fecb643f944c155195336",
+      "name": "gmhenry",
       "score": 32.2,
-      "roi_score": 3.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.5,
-      "roi": -44.8,
-      "cash_pnl": -3855.15,
-      "realized_pnl": -521.13,
-      "total_usdc": 84498.02,
-      "trade_count": 500,
-      "market_count": 72,
-      "position_count": 36,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:23:30+00:00",
-      "top_markets": [
-        "Sher-E-Punjab T20: Jalandhar Warriors vs Amritsar Soormas",
-        "Raphinha: Anytime Goalscorer",
-        "Clarity Act (H.R.3633) signed into law in 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 835.0,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0x50f97e9c24050ca2cd7f0fef900df984e1d0c327",
-      "name": "0x50f97e9C24050cA2cd7f0fEf900Df984e1d0c327-1759622213387",
-      "score": 32.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 95.8,
-      "roi": -64.0,
-      "cash_pnl": -26159.28,
-      "realized_pnl": -15638.41,
-      "total_usdc": 287677.96,
+      "volume_score": 96.6,
+      "roi": -98.8,
+      "cash_pnl": -325916.79,
+      "realized_pnl": -3951.96,
+      "total_usdc": 321855.76,
       "trade_count": 500,
-      "market_count": 101,
-      "position_count": 76,
+      "market_count": 68,
+      "position_count": 138,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T14:59:11+00:00",
+      "last_active": "2026-09-27T18:40:00+00:00",
       "top_markets": [
-        "Counter-Strike: MOUZ vs Team Falcons (BO3) - BLAST Open Porto Group B",
-        "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
-        "Counter-Strike: FUT Esports vs Spirit - Map 3 Winner"
+        "LoL: Team WE vs JD Gaming - Game 2 Winner",
+        "LoL: ZSK vs Saigon Warriors (BO1) - World Star Challengers Invitational Group D",
+        "LoL: LYON vs Cloud9 - Game 4 Winner"
       ],
       "signals": [
         {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.8399,
-          "cur_price": 0.835,
-          "usdc_size": 14723.57,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9703676286b93c2eca71ca96e8757104519a69c2",
-      "name": "AnonymousUsername",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.5,
-      "roi": -93.3,
-      "cash_pnl": -5655298.6,
-      "realized_pnl": 2637262.31,
-      "total_usdc": 278671.43,
-      "trade_count": 500,
-      "market_count": 62,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:45:08+00:00",
-      "top_markets": [
-        "Titans vs. Giants",
-        "Spread: Giants (-2.5)",
-        "Chargers vs. Bills"
-      ],
-      "signals": [
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.6094,
-          "cur_price": 0.605,
-          "usdc_size": 39378.19,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4,
-          "cur_price": 0.405,
-          "usdc_size": 22385.29,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4925,
-          "cur_price": 0.505,
-          "usdc_size": 14786.66,
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.3464,
+          "cur_price": 0.085,
+          "usdc_size": 2401.69,
           "outcome": "Titans"
         },
         {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.492,
-          "cur_price": 0.505,
-          "usdc_size": 14470.83,
-          "outcome": "Cardinals"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.8368,
-          "cur_price": 0.835,
-          "usdc_size": 125293.66,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Seahawks vs. Commanders",
+          "market": "Jets vs. Lions",
           "signal": "SKIP",
-          "avg_price": 0.223,
-          "cur_price": 0.775,
-          "usdc_size": 6020.76,
-          "outcome": "Commanders"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4768,
-          "cur_price": 0.525,
-          "usdc_size": 11847.09,
+          "avg_price": 0.2223,
+          "cur_price": 0.0905,
+          "usdc_size": 1380.06,
           "outcome": "Jets"
         }
       ]
     },
     {
-      "wallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "name": "Herdonia",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.3,
-      "roi": -50.1,
-      "cash_pnl": -1669688.54,
-      "realized_pnl": -9555.71,
-      "total_usdc": 309290.35,
-      "trade_count": 500,
-      "market_count": 65,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:17+00:00",
-      "top_markets": [
-        "Cardinals vs. 49ers",
-        "Spread: 49ers (-8.5)",
-        "Jets vs. Lions: O/U 48.5"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4954,
-          "cur_price": 0.505,
-          "usdc_size": 53617.84,
-          "outcome": "Titans"
-        },
-        {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4672,
-          "cur_price": 0.455,
-          "usdc_size": 43295.94,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5185,
-          "cur_price": 0.525,
-          "usdc_size": 38455.37,
-          "outcome": "Lions"
-        },
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.6157,
-          "cur_price": 0.605,
-          "usdc_size": 30527.18,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "ENTER",
-          "avg_price": 0.4989,
-          "cur_price": 0.505,
-          "usdc_size": 24594.33,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: Giants (-2.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5011,
-          "cur_price": 0.505,
-          "usdc_size": 22673.18,
-          "outcome": "Giants"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4977,
-          "cur_price": 0.505,
-          "usdc_size": 14392.16,
-          "outcome": "Cardinals"
-        },
-        {
-          "market": "Panthers vs. Browns",
-          "signal": "ENTER",
-          "avg_price": 0.5499,
-          "cur_price": 0.545,
-          "usdc_size": 10368.97,
-          "outcome": "Panthers"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "ENTER",
-          "avg_price": 0.4852,
-          "cur_price": 0.485,
-          "usdc_size": 6889.37,
-          "outcome": "Over"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4098,
-          "cur_price": 0.405,
-          "usdc_size": 4465.1,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5162,
-          "cur_price": 0.505,
-          "usdc_size": 1113.05,
-          "outcome": "49ers"
-        },
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "LATE",
-          "avg_price": 0.4658,
-          "cur_price": 0.445,
-          "usdc_size": 79004.56,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "LATE",
-          "avg_price": 0.4972,
-          "cur_price": 0.465,
-          "usdc_size": 53455.7,
-          "outcome": "Bills"
-        },
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "LATE",
-          "avg_price": 0.48,
-          "cur_price": 0.465,
-          "usdc_size": 33328.24,
-          "outcome": "Over"
-        },
-        {
-          "market": "Cardinals vs. 49ers: O/U 48.5",
-          "signal": "LATE",
-          "avg_price": 0.4894,
-          "cur_price": 0.505,
-          "usdc_size": 32163.65,
-          "outcome": "Over"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.8508,
-          "cur_price": 0.835,
-          "usdc_size": 43630.82,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Seahawks vs. Commanders",
-          "signal": "LATE",
-          "avg_price": 0.763,
-          "cur_price": 0.775,
-          "usdc_size": 12881.94,
-          "outcome": "Seahawks"
-        },
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "LATE",
-          "avg_price": 0.5197,
-          "cur_price": 0.485,
-          "usdc_size": 8513.71,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "SKIP",
-          "avg_price": 0.507,
-          "cur_price": 0.465,
-          "usdc_size": 118066.53,
-          "outcome": "Chargers"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4805,
-          "cur_price": 0.525,
-          "usdc_size": 75695.12,
-          "outcome": "Jets"
-        },
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5394,
-          "cur_price": 0.445,
-          "usdc_size": 78956.88,
-          "outcome": "Dolphins"
-        },
-        {
-          "market": "Panthers vs. Browns: O/U 42.5",
-          "signal": "SKIP",
-          "avg_price": 0.525,
-          "cur_price": 0.465,
-          "usdc_size": 34665.64,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5339,
-          "cur_price": 0.455,
-          "usdc_size": 35016.89,
-          "outcome": "Steelers"
-        },
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "SKIP",
-          "avg_price": 0.3853,
-          "cur_price": 0.605,
-          "usdc_size": 9610.22,
-          "outcome": "Steelers"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "SKIP",
-          "avg_price": 0.5899,
-          "cur_price": 0.405,
-          "usdc_size": 11506.9,
-          "outcome": "Jaguars"
-        },
-        {
-          "market": "Panthers vs. Browns",
-          "signal": "SKIP",
-          "avg_price": 0.4369,
-          "cur_price": 0.545,
-          "usdc_size": 7353.26,
-          "outcome": "Browns"
-        },
-        {
-          "market": "Seahawks vs. Commanders",
-          "signal": "SKIP",
-          "avg_price": 0.238,
-          "cur_price": 0.775,
-          "usdc_size": 3169.63,
-          "outcome": "Commanders"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.1488,
-          "cur_price": 0.835,
-          "usdc_size": 1669.45,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x45721362269008ac5988bec2e5c22ca463af5e86",
-      "name": "maksimsoldout",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.4,
-      "roi": -93.9,
-      "cash_pnl": -574783.7,
-      "realized_pnl": -1355.86,
-      "total_usdc": 311194.48,
-      "trade_count": 500,
-      "market_count": 49,
-      "position_count": 124,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:39:35+00:00",
-      "top_markets": [
-        "Will SSC Napoli win on 2026-09-20?",
-        "Will Norway win on 2026-09-24?",
-        "Will Tottenham Hotspur FC vs. Aston Villa FC end in a draw?"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.45,
-          "cur_price": 0.445,
-          "usdc_size": 5213.18,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 1683.0,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x111d276fb4fbcc1d913ae24df58dfbc5499a21ba",
-      "name": "Sinnerr",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.8,
-      "roi": -98.9,
-      "cash_pnl": -86272.01,
-      "realized_pnl": -1338.26,
-      "total_usdc": 254213.41,
-      "trade_count": 500,
-      "market_count": 109,
-      "position_count": 53,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:17:48+00:00",
-      "top_markets": [
-        "US Open, Qualification ATP: Kei Nishikori vs Michael Antonius",
-        "US Open, Qualification ATP: Andrea Guerrieri vs Joel Schwaerzler",
-        "Cincinnati Open: Amanda Anisimova vs Jessica Pegula"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 918.39,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
-      "name": "SharkbetX-com",
+      "wallet": "0x02911ceb589252dcb7c38e0dfef27632deb7034b",
+      "name": "ianshawny",
       "score": 31.9,
-      "roi_score": 0.0,
+      "roi_score": 0.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 94.4,
-      "roi": -98.7,
-      "cash_pnl": -2384655.85,
-      "realized_pnl": -11585.68,
-      "total_usdc": 238614.29,
-      "trade_count": 500,
-      "market_count": 15,
-      "position_count": 475,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:53:38+00:00",
-      "top_markets": [
-        "Will Spain win on 2026-09-26?",
-        "Will Belgium win on 2026-09-25?",
-        "Will Sweden win on 2026-09-25?"
-      ],
-      "signals": [
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.61,
-          "cur_price": 0.605,
-          "usdc_size": 1983.61,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 27229.12,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0a77bc0638f13892c8b1d1d2c13ba178540f9d74",
-      "name": "0x0A77exmm",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.6,
-      "roi": -96.7,
-      "cash_pnl": -1097983.49,
-      "realized_pnl": 48.51,
-      "total_usdc": 214600.32,
-      "trade_count": 500,
-      "market_count": 99,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:43:45+00:00",
-      "top_markets": [
-        "Oklahoma State vs. West Virginia",
-        "Spread: Bills (-7.5)",
-        "UFC Fight Night: Christian Edwards vs. Rodolfo Bellato (Light Heavyweight, Prelims)"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.47,
-          "cur_price": 0.465,
-          "usdc_size": 4792.29,
-          "outcome": "Bills"
-        },
-        {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "ENTER",
-          "avg_price": 0.45,
-          "cur_price": 0.455,
-          "usdc_size": 2527.52,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Panthers vs. Browns",
-          "signal": "ENTER",
-          "avg_price": 0.55,
-          "cur_price": 0.545,
-          "usdc_size": 1951.08,
-          "outcome": "Panthers"
-        },
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.61,
-          "cur_price": 0.605,
-          "usdc_size": 1115.59,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "LATE",
-          "avg_price": 0.4614,
-          "cur_price": 0.445,
-          "usdc_size": 4068.63,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "SKIP",
-          "avg_price": 0.48,
-          "cur_price": 0.525,
-          "usdc_size": 3710.7,
-          "outcome": "Jets"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
-          "signal": "SKIP",
-          "avg_price": 0.51,
-          "cur_price": 0.465,
-          "usdc_size": 2294.07,
-          "outcome": "Chargers"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
-      "name": "primm",
-      "score": 31.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.4,
-      "roi": -98.6,
-      "cash_pnl": -6660344.13,
+      "volume_score": 91.3,
+      "roi": -48.7,
+      "cash_pnl": -0.3,
       "realized_pnl": 0.0,
-      "total_usdc": 184741.86,
+      "total_usdc": 160111.8,
       "trade_count": 500,
-      "market_count": 94,
-      "position_count": 462,
+      "market_count": 26,
+      "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:36:21+00:00",
+      "last_active": "2026-09-27T19:12:59+00:00",
       "top_markets": [
-        "Spread: Stanford (-4.5)",
-        "Spread: Minnesota (-7.5)",
-        "Minnesota vs. Washington"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 8350.0,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "SKIP",
-          "avg_price": 0.59,
-          "cur_price": 0.405,
-          "usdc_size": 84822.09,
-          "outcome": "Jaguars"
-        }
-      ]
-    },
-    {
-      "wallet": "0x49f206f4fb2210a28af4795e4e0b6532cf0bd7b4",
-      "name": "0x49F206",
-      "score": 31.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.2,
-      "roi": -57.3,
-      "cash_pnl": -55222.58,
-      "realized_pnl": 1550.21,
-      "total_usdc": 138633.55,
-      "trade_count": 500,
-      "market_count": 142,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:41:18+00:00",
-      "top_markets": [
-        "NATO x Russia military clash by December 31, 2026?",
-        "Will there be no change in Fed interest rates after the December 2026 meeting?",
-        "Oklahoma vs. Georgia: O/U 43.5"
+        "Broncos vs. Chiefs",
+        "Colts vs. Chiefs",
+        "Cardinals vs. Chargers"
       ],
       "signals": []
     },
     {
-      "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
-      "name": "GC-P",
-      "score": 31.3,
+      "wallet": "0xfb681e23db8d1cca8a6b7e2a70a29e000ddfa240",
+      "name": "royalestake",
+      "score": 31.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.6,
-      "roi": -92.0,
-      "cash_pnl": -786349.53,
-      "realized_pnl": 225586.34,
-      "total_usdc": 98155.52,
+      "volume_score": 93.7,
+      "roi": -90.9,
+      "cash_pnl": -966489.34,
+      "realized_pnl": -1805.51,
+      "total_usdc": 217504.82,
       "trade_count": 500,
-      "market_count": 133,
-      "position_count": 500,
+      "market_count": 132,
+      "position_count": 416,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:17+00:00",
+      "last_active": "2026-09-27T19:27:11+00:00",
       "top_markets": [
-        "Will Denmark win on 2026-09-27?",
-        "Spread: 49ers (-7.5)",
-        "Jets vs. Lions"
+        "Avalanche vs. Utah",
+        "Garrett Wilson: Anytime Touchdown",
+        "UFC Fight Night: Vanessa Demopoulos vs. Yazmin Jauregui (Women's Strawweight, Prelims)"
       ],
       "signals": [
         {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.611,
-          "cur_price": 0.605,
-          "usdc_size": 1694.94,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Panthers vs. Browns",
-          "signal": "ENTER",
-          "avg_price": 0.5493,
-          "cur_price": 0.545,
-          "usdc_size": 1510.12,
-          "outcome": "Panthers"
+          "market": "Spread: Bills (-7.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5099,
+          "cur_price": 0.115,
+          "usdc_size": 4882.35,
+          "outcome": "Chargers"
         },
         {
           "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4001,
-          "cur_price": 0.405,
-          "usdc_size": 1093.31,
-          "outcome": "Patriots"
+          "signal": "SKIP",
+          "avg_price": 0.6,
+          "cur_price": 0.005,
+          "usdc_size": 4975.0,
+          "outcome": "Jaguars"
         },
         {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.837,
-          "cur_price": 0.835,
-          "usdc_size": 3570.78,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Will Norway win on 2026-09-27?",
+          "market": "Spread: Chiefs (-10.5)",
           "signal": "SKIP",
-          "avg_price": 0.5908,
-          "cur_price": 0.425,
-          "usdc_size": 2769.92,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd2678dc3b152a54900f28b0e849afe2049df9dc6",
-      "name": "xfile",
-      "score": 31.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.0,
-      "roi": -99.7,
-      "cash_pnl": -1699690.08,
-      "realized_pnl": -17791.38,
-      "total_usdc": 103725.33,
-      "trade_count": 500,
-      "market_count": 61,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:45:23+00:00",
-      "top_markets": [
-        "Will Paris Saint-Germain FC win on 2026-09-20?",
-        "Will Real Betis Balompi\u00e9 win on 2026-09-17?",
-        "Will Deportivo Alav\u00e9s win on 2026-09-15?"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 3762.0,
+          "avg_price": 0.5099,
+          "cur_price": 0.245,
+          "usdc_size": 2338.24,
           "outcome": "Dolphins"
         }
       ]
     },
     {
-      "wallet": "0xc4f0d8e94a90ad0ad24bb27529df26a8949be891",
-      "name": "semi-semi-",
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "score": 31.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.4,
+      "roi": -97.7,
+      "cash_pnl": -23173290.68,
+      "realized_pnl": 979783.65,
+      "total_usdc": 210946.29,
+      "trade_count": 500,
+      "market_count": 79,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:48+00:00",
+      "top_markets": [
+        "LoL: HMBLE vs White Dragons (BO1) - EMEA Masters Swiss Stage",
+        "Porto 2: Francisco Rocha vs Lui Maxted",
+        "Seahawks vs. Commanders"
+      ],
+      "signals": [
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.3879,
+          "cur_price": 0.165,
+          "usdc_size": 161185.72,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.4203,
+          "cur_price": 0.085,
+          "usdc_size": 39187.1,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.2906,
+          "cur_price": 0.505,
+          "usdc_size": 98061.74,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.4486,
+          "cur_price": 0.405,
+          "usdc_size": 55555.51,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.5213,
+          "cur_price": 0.445,
+          "usdc_size": 44914.61,
+          "outcome": "Commanders"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.0578,
+          "cur_price": 0.0905,
+          "usdc_size": 15534.43,
+          "outcome": "Jets"
+        }
+      ]
+    },
+    {
+      "wallet": "0x46996fc536f8828aadbb6bd7f9065b4e10175051",
+      "name": "Bigr100",
+      "score": 31.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.6,
+      "roi": -94.0,
+      "cash_pnl": -13710.15,
+      "realized_pnl": -455.28,
+      "total_usdc": 188792.92,
+      "trade_count": 500,
+      "market_count": 326,
+      "position_count": 40,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:22:18+00:00",
+      "top_markets": [
+        "Set 2 Winner: Renata Zarazua vs Caroline Dolehide",
+        "Bari: John Sperle vs Giuseppe La Vela",
+        "US Open ATP (Doubles): Helioevaara/Patten vs Harrison/Skupski"
+      ],
+      "signals": [
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.0829,
+          "cur_price": 0.0905,
+          "usdc_size": 663.07,
+          "outcome": "Jets"
+        }
+      ]
+    },
+    {
+      "wallet": "0x57db0634b02eff8cca7f6bf46adf4837cb9385ef",
+      "name": "henryttok",
       "score": 31.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 87.9,
-      "roi": -61.8,
-      "cash_pnl": -21776.95,
-      "realized_pnl": -920.79,
-      "total_usdc": 101892.7,
-      "trade_count": 243,
-      "market_count": 18,
-      "position_count": 16,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:14:00+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "LAPTOP FDV above $100M one day after launch?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "SKIP",
-          "avg_price": 0.55,
-          "cur_price": 0.445,
-          "usdc_size": 4316.23,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-      "name": "Sakan1",
-      "score": 31.2,
-      "roi_score": 1.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.6,
-      "roi": -48.0,
-      "cash_pnl": -62308.5,
-      "realized_pnl": 0.0,
-      "total_usdc": 51047.73,
+      "roi": -85.1,
+      "cash_pnl": -28979.65,
+      "realized_pnl": -665.89,
+      "total_usdc": 101710.2,
       "trade_count": 500,
-      "market_count": 43,
-      "position_count": 274,
+      "market_count": 9,
+      "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:42:56+00:00",
+      "last_active": "2026-09-27T19:31:32+00:00",
       "top_markets": [
-        "Hangzhou Open: Daniil Medvedev vs Coleman Wong",
-        "Chengdu Open: Lloyd Harris vs Hubert Hurkacz",
-        "Tampa Bay Rays vs. Philadelphia Phillies"
+        "Falcons vs. Packers",
+        "Bengals vs. Steelers",
+        "Seahawks vs. Commanders"
       ],
       "signals": [
         {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "ENTER",
-          "avg_price": 0.465,
-          "cur_price": 0.455,
-          "usdc_size": 3318.63,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4992,
-          "cur_price": 0.505,
-          "usdc_size": 1006.75,
-          "outcome": "49ers"
-        },
-        {
-          "market": "Spread: 49ers (-7.5)",
-          "signal": "ENTER",
-          "avg_price": 0.4925,
-          "cur_price": 0.505,
-          "usdc_size": 649.45,
-          "outcome": "Cardinals"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "ENTER",
-          "avg_price": 0.5195,
-          "cur_price": 0.525,
-          "usdc_size": 634.44,
-          "outcome": "Lions"
-        },
-        {
-          "market": "Bengals vs. Steelers",
-          "signal": "ENTER",
-          "avg_price": 0.61,
-          "cur_price": 0.605,
-          "usdc_size": 693.37,
-          "outcome": "Bengals"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.8499,
-          "cur_price": 0.835,
-          "usdc_size": 23992.17,
-          "outcome": "Chiefs"
-        },
-        {
-          "market": "Spread: Bills (-7.5)",
+          "market": "Seahawks vs. Commanders",
           "signal": "SKIP",
-          "avg_price": 0.5219,
-          "cur_price": 0.465,
-          "usdc_size": 8962.64,
-          "outcome": "Chargers"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 1560.34,
-          "outcome": "Dolphins"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "SKIP",
-          "avg_price": 0.5899,
-          "cur_price": 0.405,
-          "usdc_size": 3308.56,
-          "outcome": "Jaguars"
-        },
-        {
-          "market": "Spread: Lions (-6.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4841,
-          "cur_price": 0.525,
-          "usdc_size": 2007.11,
-          "outcome": "Jets"
-        },
-        {
-          "market": "Spread: Bengals (-3.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5308,
-          "cur_price": 0.455,
-          "usdc_size": 1821.3,
-          "outcome": "Steelers"
-        },
-        {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4954,
+          "avg_price": 0.6417,
           "cur_price": 0.445,
-          "usdc_size": 996.42,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
-      "name": "lissartter",
-      "score": 31.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.1,
-      "roi": -71.9,
-      "cash_pnl": -279603.37,
-      "realized_pnl": 39198.06,
-      "total_usdc": 80235.3,
-      "trade_count": 500,
-      "market_count": 82,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:43:29+00:00",
-      "top_markets": [
-        "US x Iran ceasefire continues through September 30?",
-        "Saudi Oil Pipeline (East-West) restarts by October 15?",
-        "US x Iran ceasefire continues through October 31?"
-      ],
-      "signals": [
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.41,
-          "cur_price": 0.405,
-          "usdc_size": 1167.45,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Panthers vs. Browns",
-          "signal": "ENTER",
-          "avg_price": 0.55,
-          "cur_price": 0.545,
-          "usdc_size": 1090.0,
-          "outcome": "Panthers"
+          "usdc_size": 2731.25,
+          "outcome": "Commanders"
         },
         {
           "market": "Seahawks vs. Commanders",
           "signal": "SKIP",
-          "avg_price": 0.23,
-          "cur_price": 0.775,
-          "usdc_size": 585.11,
-          "outcome": "Commanders"
+          "avg_price": 0.3552,
+          "cur_price": 0.445,
+          "usdc_size": 2051.82,
+          "outcome": "Seahawks"
         }
       ]
     },
     {
-      "wallet": "0xc4c9893c36e02a6ffe02bef6b8e007f0781819d9",
-      "name": "Number39",
-      "score": 31.1,
+      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+      "name": "justaluckydude",
+      "score": 31.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.8,
-      "roi": -71.6,
-      "cash_pnl": -25970.85,
-      "realized_pnl": 0.0,
-      "total_usdc": 77068.72,
-      "trade_count": 426,
-      "market_count": 188,
-      "position_count": 105,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:45:00+00:00",
-      "top_markets": [
-        "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card)",
-        "O/U 1.5 Rounds",
-        "O/U 2.5 Rounds"
-      ],
-      "signals": [
-        {
-          "market": "Seahawks vs. Commanders: O/U 40.5",
-          "signal": "ENTER",
-          "avg_price": 0.4804,
-          "cur_price": 0.485,
-          "usdc_size": 2088.11,
-          "outcome": "Over"
-        },
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4,
-          "cur_price": 0.405,
-          "usdc_size": 658.33,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.83,
-          "cur_price": 0.835,
-          "usdc_size": 1501.15,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1e3f673cbd329df727d564e07e9f9dfcd40ae00b",
-      "name": "pmic3",
-      "score": 31.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.9,
-      "roi": -52.1,
-      "cash_pnl": -10410.37,
-      "realized_pnl": 25.24,
-      "total_usdc": 78565.21,
+      "volume_score": 87.7,
+      "roi": -80.1,
+      "cash_pnl": -759680.05,
+      "realized_pnl": -12221.89,
+      "total_usdc": 99178.54,
       "trade_count": 500,
-      "market_count": 29,
-      "position_count": 29,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:37:24+00:00",
-      "top_markets": [
-        "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-        "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
-        "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.83,
-          "cur_price": 0.835,
-          "usdc_size": 4175.0,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0x52d93dcf81444f793dda7fedc370f7a35101fb1a",
-      "name": "LuckyLoo",
-      "score": 31.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.4,
-      "roi": -97.2,
-      "cash_pnl": -1061319.08,
-      "realized_pnl": -325.22,
-      "total_usdc": 73470.35,
-      "trade_count": 500,
-      "market_count": 280,
+      "market_count": 210,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:42+00:00",
+      "last_active": "2026-09-27T19:31:47+00:00",
       "top_markets": [
-        "Real Valladolid CF vs. C\u00f3rdoba CF: O/U 4.5",
-        "Lithuania vs. Azerbaijan: O/U 2.5",
-        "Will De Graafschap win on 2026-09-27?"
+        "Chargers vs. Bills",
+        "New York Mets vs. Washington Nationals",
+        "Seahawks vs. Commanders"
       ],
       "signals": [
         {
-          "market": "Panthers vs. Browns: O/U 42.5",
+          "market": "Spread: Lions (-6.5)",
           "signal": "ENTER",
-          "avg_price": 0.4775,
-          "cur_price": 0.465,
-          "usdc_size": 1418.02,
-          "outcome": "Over"
+          "avg_price": 0.6215,
+          "cur_price": 0.64,
+          "usdc_size": 1994.34,
+          "outcome": "Lions"
         },
         {
-          "market": "Will Norway win on 2026-09-27?",
+          "market": "Chargers vs. Bills",
           "signal": "SKIP",
-          "avg_price": 0.58,
-          "cur_price": 0.425,
-          "usdc_size": 6702.93,
-          "outcome": "No"
+          "avg_price": 0.6519,
+          "cur_price": 0.405,
+          "usdc_size": 10820.88,
+          "outcome": "Bills"
         },
         {
-          "market": "Will Greece win on 2026-09-27?",
+          "market": "Chiefs vs. Dolphins",
           "signal": "SKIP",
-          "avg_price": 0.1156,
-          "cur_price": 0.125,
-          "usdc_size": 834.59,
-          "outcome": "Yes"
+          "avg_price": 0.1952,
+          "cur_price": 0.9,
+          "usdc_size": 1239.96,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.5183,
+          "cur_price": 0.445,
+          "usdc_size": 6663.3,
+          "outcome": "Commanders"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.4502,
+          "cur_price": 0.405,
+          "usdc_size": 2523.82,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.5566,
+          "cur_price": 0.445,
+          "usdc_size": 3197.92,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Spread: Chiefs (-10.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5267,
+          "cur_price": 0.245,
+          "usdc_size": 3671.59,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.3867,
+          "cur_price": 0.53,
+          "usdc_size": 2468.22,
+          "outcome": "Bengals"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.5869,
+          "cur_price": 0.505,
+          "usdc_size": 1121.06,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.4303,
+          "cur_price": 0.505,
+          "usdc_size": 1328.51,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.2916,
+          "cur_price": 0.165,
+          "usdc_size": 566.67,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.7594,
+          "cur_price": 0.0905,
+          "usdc_size": 1409.74,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Spread: Lions (-6.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4796,
+          "cur_price": 0.64,
+          "usdc_size": 866.36,
+          "outcome": "Jets"
         }
       ]
     },
     {
-      "wallet": "0xef7c60dbebeb76789fbd47a339e7102f6300159f",
-      "name": "vlklshk",
+      "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+      "name": "0x4f2",
+      "score": 31.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.9,
+      "roi": -99.3,
+      "cash_pnl": -3425128.96,
+      "realized_pnl": -140956.05,
+      "total_usdc": 102133.15,
+      "trade_count": 500,
+      "market_count": 169,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:56+00:00",
+      "top_markets": [
+        "Tampa Bay Rays vs. Philadelphia Phillies: O/U 9.5",
+        "Sharks vs. Golden Knights",
+        "Missouri State vs. SMU"
+      ],
+      "signals": [
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.5283,
+          "cur_price": 0.405,
+          "usdc_size": 8558.74,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.8093,
+          "cur_price": 0.085,
+          "usdc_size": 10963.0,
+          "outcome": "Giants"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.1199,
+          "cur_price": 0.9,
+          "usdc_size": 520.34,
+          "outcome": "Dolphins"
+        }
+      ]
+    },
+    {
+      "wallet": "0x02906bd40c479ab7f2cdff8489d3577dea4ae1bc",
+      "name": "0x02906bD40C479ab7F2CDFF8489d3577DEA4Ae1BC-1766675202950",
+      "score": 31.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.4,
+      "roi": -100.0,
+      "cash_pnl": -1469.34,
+      "realized_pnl": -178.98,
+      "total_usdc": 83483.92,
+      "trade_count": 500,
+      "market_count": 105,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T18:41:38+00:00",
+      "top_markets": [
+        "Valorant: T1 vs DetonatioN FocusMe (BO3) - VCT Pacific Group Omega",
+        "Valorant: 100 Thieves vs LOUD (BO5) - VCT Americas Stage 2 Playoffs",
+        "Valorant: Nongshim RedForce vs Global Esports (BO5) - VCT Pacific Playoffs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
       "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.7,
-      "roi": -75.4,
-      "cash_pnl": -6615.55,
-      "realized_pnl": -110.83,
-      "total_usdc": 67190.09,
-      "trade_count": 142,
-      "market_count": 49,
-      "position_count": 7,
+      "volume_score": 85.2,
+      "roi": -82.9,
+      "cash_pnl": -3836549.01,
+      "realized_pnl": 1269756.55,
+      "total_usdc": 72043.04,
+      "trade_count": 500,
+      "market_count": 119,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T14:15:38+00:00",
+      "last_active": "2026-09-27T19:31:24+00:00",
       "top_markets": [
-        "Atlanta Braves vs. Miami Marlins",
-        "Baltimore Orioles vs. New York Yankees",
-        "Colorado Rockies vs. Detroit Tigers"
+        "Spread: Giants (-14.5)",
+        "Counter-Strike: M80 vs DENDELE CS (BO3) - iBUYPOWER Masters FML Playoffs",
+        "Spread: Giants (-3.5)"
       ],
       "signals": [
         {
-          "market": "Spread: Chiefs (-10.5)",
-          "signal": "ENTER",
-          "avg_price": 0.45,
-          "cur_price": 0.445,
-          "usdc_size": 2163.59,
+          "market": "Bengals vs. Steelers",
+          "signal": "LATE",
+          "avg_price": 0.5604,
+          "cur_price": 0.53,
+          "usdc_size": 16069.78,
+          "outcome": "Steelers"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "LATE",
+          "avg_price": 0.8773,
+          "cur_price": 0.9,
+          "usdc_size": 42180.81,
           "outcome": "Chiefs"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.4626,
+          "cur_price": 0.405,
+          "usdc_size": 32989.39,
+          "outcome": "Chargers"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.5648,
+          "cur_price": 0.405,
+          "usdc_size": 54742.45,
+          "outcome": "Bills"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.3492,
+          "cur_price": 0.445,
+          "usdc_size": 36307.53,
+          "outcome": "Commanders"
+        },
+        {
+          "market": "Chiefs vs. Dolphins",
+          "signal": "SKIP",
+          "avg_price": 0.1259,
+          "cur_price": 0.9,
+          "usdc_size": 4594.92,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Bengals vs. Steelers",
+          "signal": "SKIP",
+          "avg_price": 0.5735,
+          "cur_price": 0.53,
+          "usdc_size": 32086.51,
+          "outcome": "Bengals"
+        },
+        {
+          "market": "Seahawks vs. Commanders",
+          "signal": "SKIP",
+          "avg_price": 0.6551,
+          "cur_price": 0.445,
+          "usdc_size": 25027.53,
+          "outcome": "Seahawks"
+        },
+        {
+          "market": "Patriots vs. Jaguars",
+          "signal": "SKIP",
+          "avg_price": 0.6121,
+          "cur_price": 0.005,
+          "usdc_size": 37438.55,
+          "outcome": "Jaguars"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.2658,
+          "cur_price": 0.165,
+          "usdc_size": 9631.04,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.4381,
+          "cur_price": 0.505,
+          "usdc_size": 20838.86,
+          "outcome": "Panthers"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.6989,
+          "cur_price": 0.165,
+          "usdc_size": 24241.37,
+          "outcome": "Colts"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.5573,
+          "cur_price": 0.505,
+          "usdc_size": 11940.77,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.2127,
+          "cur_price": 0.0905,
+          "usdc_size": 5409.02,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.2225,
+          "cur_price": 0.085,
+          "usdc_size": 4476.09,
+          "outcome": "Titans"
+        },
+        {
+          "market": "Jets vs. Lions",
+          "signal": "SKIP",
+          "avg_price": 0.8228,
+          "cur_price": 0.0905,
+          "usdc_size": 20233.96,
+          "outcome": "Lions"
+        },
+        {
+          "market": "Spread: Chiefs (-10.5)",
+          "signal": "SKIP",
+          "avg_price": 0.3981,
+          "cur_price": 0.245,
+          "usdc_size": 4896.45,
+          "outcome": "Chiefs"
+        },
+        {
+          "market": "Spread: Chiefs (-10.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4966,
+          "cur_price": 0.245,
+          "usdc_size": 15043.35,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Titans vs. Giants",
+          "signal": "SKIP",
+          "avg_price": 0.7332,
+          "cur_price": 0.085,
+          "usdc_size": 15730.73,
+          "outcome": "Giants"
+        },
+        {
+          "market": "Will Norway win on 2026-09-27?",
+          "signal": "SKIP",
+          "avg_price": 0.6965,
+          "cur_price": 0.215,
+          "usdc_size": 14147.19,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xf93f33cc7d962e9286ca08c285fb4c7508b8f94b",
-      "name": "neymar1",
+      "wallet": "0x46ca395d519ecc8fa9a4fa5c77917f762cf8ac4c",
+      "name": "leandroj",
+      "score": 31.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.8,
+      "roi": -100.0,
+      "cash_pnl": -3438.01,
+      "realized_pnl": -1796.64,
+      "total_usdc": 67762.93,
+      "trade_count": 500,
+      "market_count": 53,
+      "position_count": 20,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:20:26+00:00",
+      "top_markets": [
+        "Oud-Heverlee Leuven Women vs. AS Roma: O/U 0.5",
+        "England vs. Spain: O/U 5.5",
+        "Real Madrid CF Femenino vs. Paris Saint-Germain FC: O/U 2.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "name": "curie",
       "score": 30.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.5,
-      "roi": -97.1,
-      "cash_pnl": -583979.56,
-      "realized_pnl": -5152.75,
-      "total_usdc": 57675.59,
+      "volume_score": 83.8,
+      "roi": -63.2,
+      "cash_pnl": -96705.11,
+      "realized_pnl": 10909.27,
+      "total_usdc": 60017.87,
       "trade_count": 500,
-      "market_count": 64,
+      "market_count": 209,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T15:44:30+00:00",
+      "last_active": "2026-09-27T19:31:39+00:00",
       "top_markets": [
-        "Will the Cincinnati Bengals win the 2027 NFL league championship?",
-        "Will the Toronto Blue Jays win the 2026 World Series?",
-        "Will Philadelphia Union win the 2026 MLS Cup?"
+        "New York Mets vs. Washington Nationals",
+        "Spread: Jaguars (-7.5)",
+        "1H Spread: Lions (-2.5)"
       ],
       "signals": [
         {
-          "market": "Seahawks vs. Commanders",
+          "market": "Chiefs vs. Dolphins",
           "signal": "SKIP",
-          "avg_price": 0.23,
-          "cur_price": 0.775,
-          "usdc_size": 675.0,
-          "outcome": "Commanders"
+          "avg_price": 0.1419,
+          "cur_price": 0.9,
+          "usdc_size": 7208.79,
+          "outcome": "Dolphins"
+        },
+        {
+          "market": "Panthers vs. Browns",
+          "signal": "SKIP",
+          "avg_price": 0.5646,
+          "cur_price": 0.505,
+          "usdc_size": 7194.88,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Texans vs. Colts",
+          "signal": "SKIP",
+          "avg_price": 0.234,
+          "cur_price": 0.165,
+          "usdc_size": 2834.8,
+          "outcome": "Texans"
+        },
+        {
+          "market": "Chargers vs. Bills",
+          "signal": "SKIP",
+          "avg_price": 0.6699,
+          "cur_price": 0.405,
+          "usdc_size": 692.96,
+          "outcome": "Chargers"
         }
       ]
     },
     {
-      "wallet": "0x37a1b6cb61b969e9bd9783f707e8ff7646366691",
-      "name": "NNNNNobita",
+      "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+      "name": "UpTheBlues",
+      "score": 30.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 81.9,
+      "roi": -95.4,
+      "cash_pnl": -3774030.1,
+      "realized_pnl": -82609.67,
+      "total_usdc": 46760.98,
+      "trade_count": 500,
+      "market_count": 171,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:31:59+00:00",
+      "top_markets": [
+        "New York Liberty vs. Minnesota Lynx",
+        "Columbus: Duncan Chan vs Denis Petak",
+        "Will Germany win on 2026-09-27?"
+      ],
+      "signals": [
+        {
+          "market": "Will Greece win on 2026-09-27?",
+          "signal": "SKIP",
+          "avg_price": 0.112,
+          "cur_price": 0.13,
+          "usdc_size": 21558.92,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win on 2026-09-27?",
+          "signal": "SKIP",
+          "avg_price": 0.7161,
+          "cur_price": 0.215,
+          "usdc_size": 13797.32,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x047702acaf73eea2c4ca7d931646c0ca54f8d19c",
+      "name": "sukichan",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.9,
+      "roi": -100.0,
+      "cash_pnl": -439.62,
+      "realized_pnl": 0.0,
+      "total_usdc": 35695.94,
+      "trade_count": 104,
+      "market_count": 44,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-27T19:22:30+00:00",
+      "top_markets": [
+        "Will MegaETH perform an airdrop by February 15?",
+        "Over $10M committed to the Infinex public sale?",
+        "Spread: Netherlands (-2.5)"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x893575c7d99542163c6b6e8a0fe5af0b6d217daa",
+      "name": "antec",
       "score": 30.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 78.5,
-      "roi": -79.7,
-      "cash_pnl": -27557.01,
-      "realized_pnl": -2150.08,
-      "total_usdc": 29780.27,
+      "roi": -93.1,
+      "cash_pnl": -273531.03,
+      "realized_pnl": 488460.36,
+      "total_usdc": 29828.16,
       "trade_count": 500,
-      "market_count": 82,
-      "position_count": 325,
+      "market_count": 88,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-27T14:33:36+00:00",
+      "last_active": "2026-09-27T19:32:06+00:00",
       "top_markets": [
-        "Will Bitcoin dip to $70,000 in September?",
-        "Will Bitcoin reach $95,000 in September?",
-        "Will Hyperliquid reach $100 in September?"
+        "LoL: LOS vs LOUD - Game 4 Winner",
+        "Counter-Strike: Nemiga vs Color (BO3) - NODWIN Clutch Series Playoffs",
+        "LoL: MAGAZA vs Gamespace Mediterranean College Esports (BO1) - EMEA Masters Swiss Stage"
       ],
-      "signals": [
-        {
-          "market": "Patriots vs. Jaguars",
-          "signal": "ENTER",
-          "avg_price": 0.4056,
-          "cur_price": 0.405,
-          "usdc_size": 566.03,
-          "outcome": "Patriots"
-        },
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.84,
-          "cur_price": 0.835,
-          "usdc_size": 2604.83,
-          "outcome": "Chiefs"
-        }
-      ]
-    },
-    {
-      "wallet": "0xbdeb958ab1be000526026f62756fc468c0bc3e3d",
-      "name": "0xBdeB958aB1be000526026f62756Fc468C0bC3e3D-1782146791998",
-      "score": 30.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.9,
-      "roi": -85.1,
-      "cash_pnl": -8643.69,
-      "realized_pnl": -92.3,
-      "total_usdc": 24156.25,
-      "trade_count": 176,
-      "market_count": 12,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T14:20:08+00:00",
-      "top_markets": [
-        "Will Brazil win on 2026-07-05?",
-        "Will FC Bayern M\u00fcnchen win on 2026-09-10?",
-        "Will England win on 2026-07-01?"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "SKIP",
-          "avg_price": 0.16,
-          "cur_price": 0.835,
-          "usdc_size": 1514.9,
-          "outcome": "Dolphins"
-        }
-      ]
-    },
-    {
-      "wallet": "0x3108a63863f460055693ca283631f2f5a477a522",
-      "name": "route69",
-      "score": 29.9,
-      "roi_score": 3.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 64.4,
-      "roi": -45.2,
-      "cash_pnl": -1608.0,
-      "realized_pnl": -3.88,
-      "total_usdc": 4650.78,
-      "trade_count": 92,
-      "market_count": 47,
-      "position_count": 26,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-27T15:20:27+00:00",
-      "top_markets": [
-        "Brazil vs. Japan: O/U 1.5",
-        "Switzerland vs. Algeria: Team to Advance",
-        "Spread: HOU (-1.5)"
-      ],
-      "signals": [
-        {
-          "market": "Chiefs vs. Dolphins",
-          "signal": "LATE",
-          "avg_price": 0.83,
-          "cur_price": 0.835,
-          "usdc_size": 1021.9,
-          "outcome": "Chiefs"
-        }
-      ]
+      "signals": []
     }
   ],
   "markets": [
     {
       "id": "0xed537832cbf6774d5b54da06732b53ce6866d82941e593ca71292f8e247babc5",
       "question": "Chiefs vs. Dolphins",
-      "volume": "2402059.0712089995",
-      "liquidity": "2057662.1501",
+      "volume": "5051586.226957001",
+      "liquidity": "25520.8753",
+      "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0x78d330c13885ac6fd36f082f2c502aefdb2a9bd53cc6a5765ce4375b650b9d35",
+      "question": "Patriots vs. Jaguars",
+      "volume": "2298220.1855670013",
+      "liquidity": "72155.61815",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
       "id": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c",
       "question": "Spread: Chiefs (-10.5)",
-      "volume": "2066659.1355080009",
-      "liquidity": "714402.4921",
+      "volume": "2259547.0837639985",
+      "liquidity": "1895.4974",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
       "id": "0xf44ade6df83c8d227bfa92d193f9ea6c820d5377ace87b0f01b836ad3d6c7bb2",
       "question": "Spread: Bills (-7.5)",
-      "volume": "1758808.110871",
-      "liquidity": "416638.6824",
+      "volume": "2308970.0095180003",
+      "liquidity": "6166.89",
+      "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0xd5021817f63063feb5556d3183ee1912b9e2902bbbf669146e45560487ca6dde",
+      "question": "Seahawks vs. Commanders",
+      "volume": "1965573.7161159983",
+      "liquidity": "196834.5879",
+      "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0x14cc6f806bf7f724433747c8a56b9a8a3f5f68ea3fc17b0c82a5ae2515a3e868",
+      "question": "Texans vs. Colts",
+      "volume": "1950266.3339480003",
+      "liquidity": "21409.1148",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
       "id": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78",
       "question": "Spread: Lions (-6.5)",
-      "volume": "1729056.9226930006",
-      "liquidity": "741992.3754",
+      "volume": "2337818.7589799995",
+      "liquidity": "937.11",
+      "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0xabe1b08804513d42b9eeccd04b9b5cb5f25612ce4b2939f0c18ccfaeafc42cf6",
+      "question": "Panthers vs. Browns",
+      "volume": "1772731.0592359963",
+      "liquidity": "29742.566",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
       "id": "0xfe6316520fcb10c4a70f93c153a99a5823dd4eaf26681c8d5f8cabf578a2aa83",
       "question": "Spread: Giants (-2.5)",
-      "volume": "1093763.4282040002",
-      "liquidity": "915677.6602",
+      "volume": "1645825.3475010002",
+      "liquidity": "6353.1",
+      "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0x837a47d804fa81dec254d758531ccb88da58990790aceb0e0872e3d3f220e99b",
+      "question": "Chargers vs. Bills",
+      "volume": "1666832.956985999",
+      "liquidity": "304000.4828",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
       "id": "0xfea85a806f39550c7517e450a70719f0b1656b5134227044ad49bdfccfabe667",
       "question": "Spread: 49ers (-7.5)",
-      "volume": "1007522.0747620001",
-      "liquidity": "1121858.9097",
+      "volume": "1565387.751339001",
+      "liquidity": "1254134.5159",
       "end_date": "2026-09-27T20:05:00Z"
     },
     {
       "id": "0xc4c47aa2f37a68d5f500939cf2be654fce34a003e8e5dafe0ad9fb6e36878811",
       "question": "Bengals vs. Steelers",
-      "volume": "800296.4504960001",
-      "liquidity": "1515163.4496",
+      "volume": "1573479.0001769965",
+      "liquidity": "159021.5091",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
-      "id": "0x7f9b12d4ea58df14900681647d75eaacfe0101cb285bf6ff9904b0c13be3ed34",
-      "question": "Dota 2: Team Yandex vs Natus Vincere - Game 3 Winner",
-      "volume": "586359.4125770007",
-      "liquidity": "78909.8573",
-      "end_date": "2026-09-27T18:55:00Z"
-    },
-    {
-      "id": "0x78d330c13885ac6fd36f082f2c502aefdb2a9bd53cc6a5765ce4375b650b9d35",
-      "question": "Patriots vs. Jaguars",
-      "volume": "651435.9181910002",
-      "liquidity": "1520757.5275",
+      "id": "0x00c5537715464238fe3548f938a5ee91a7e8c6642451e9ebaa890a96ce8310b9",
+      "question": "Titans vs. Giants",
+      "volume": "1292488.132280001",
+      "liquidity": "188007.0767",
       "end_date": "2026-09-27T17:00:00Z"
     },
     {
-      "id": "0xbf7a12b30d3ae16031fe07d7d46593fe53f78a2841cab277238184c06c86e16b",
-      "question": "Panthers vs. Browns: O/U 42.5",
-      "volume": "573750.104645",
-      "liquidity": "543299.1107",
-      "end_date": "2026-09-27T17:00:00Z"
+      "id": "0x87b64455d7fab6b6988c1a33213afc1dcf17f4136765d24e38202a220ac3ee5f",
+      "question": "Will Netherlands win on 2026-09-27?",
+      "volume": "918272.022347999",
+      "liquidity": "808706.12198",
+      "end_date": "2026-09-27T16:00:00Z"
     },
     {
       "id": "0x0ac7e4700e9149b1d296fc6e536071012dde62a983de995ef70703c2d5bb019b",
       "question": "Will Norway win on 2026-09-27?",
-      "volume": "517909.20100100007",
-      "liquidity": "586882.717",
+      "volume": "905678.7412590004",
+      "liquidity": "90988.7736",
       "end_date": "2026-09-27T18:45:00Z"
     },
     {
-      "id": "0xabe1b08804513d42b9eeccd04b9b5cb5f25612ce4b2939f0c18ccfaeafc42cf6",
-      "question": "Panthers vs. Browns",
-      "volume": "539180.605393",
-      "liquidity": "1575054.0906",
+      "id": "0x1910cf92ace0d5718ed2fe7756c27067c7dd218d644cbf52bbe21d1350587774",
+      "question": "Spread: Seahawks (-8.5)",
+      "volume": "833434.5171320002",
+      "liquidity": "424.17",
       "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819",
+      "question": "Jets vs. Lions",
+      "volume": "898001.880015",
+      "liquidity": "5678.06731",
+      "end_date": "2026-09-27T17:00:00Z"
+    },
+    {
+      "id": "0xfddf61ec7e14707fe765917ef9b9aa626c63abae0585df1346ad220a3804746b",
+      "question": "Vikings vs. Buccaneers",
+      "volume": "740846.185439",
+      "liquidity": "1734059.7441",
+      "end_date": "2026-09-27T20:05:00Z"
     },
     {
       "id": "0xa4575122229d33f838e383152226f6d8d82fa37b515a725301c1b92d914e8baf",
       "question": "Will Greece win on 2026-09-27?",
-      "volume": "450333.830459",
-      "liquidity": "239792.8585",
+      "volume": "616746.9681720012",
+      "liquidity": "41608.2532",
       "end_date": "2026-09-27T18:45:00Z"
     },
     {
-      "id": "0x0f49d8f1f0ec7c5b782f02948273dfc3c959bed25431209fd916c05139fa3cf6",
-      "question": "Laver Cup: Carlos Alcaraz vs Alex de Minaur",
-      "volume": "437328.3310399999",
-      "liquidity": "144447.2046",
-      "end_date": "2026-10-04T14:00:00Z"
-    },
-    {
-      "id": "0xd5021817f63063feb5556d3183ee1912b9e2902bbbf669146e45560487ca6dde",
-      "question": "Seahawks vs. Commanders",
-      "volume": "478662.5645919998",
-      "liquidity": "1703945.6896",
-      "end_date": "2026-09-27T17:00:00Z"
-    },
-    {
-      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
-      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "23054658.621999998",
-      "liquidity": "438967.14953",
-      "end_date": "2027-05-30T23:59:00Z"
-    },
-    {
-      "id": "0x690fafd3b7bb8b4919ccf0f219b0014b65334411a1076162e76353e76d7f9bec",
-      "question": "US x Iran ceasefire continues through September 30?",
-      "volume": "1746434.4464669998",
-      "liquidity": "166095.2239",
-      "end_date": "2026-09-30T23:59:00Z"
-    },
-    {
-      "id": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8",
-      "question": "Cardinals vs. 49ers: O/U 48.5",
-      "volume": "554465.9665380002",
-      "liquidity": "605299.6435",
-      "end_date": "2026-09-27T20:05:00Z"
-    },
-    {
-      "id": "0xe2033349e8343193938b216a1f176ae5fdb1de011fe07374a819456d52aa1992",
-      "question": "Spread: Bengals (-3.5)",
-      "volume": "687585.833368",
-      "liquidity": "731857.2373",
-      "end_date": "2026-09-27T17:00:00Z"
-    },
-    {
-      "id": "0x9d232fb0b16979c4b3f281d3a53a0441ace232a0b79e1aa0f45fac51e7870be3",
-      "question": "Seahawks vs. Commanders: O/U 40.5",
-      "volume": "485132.29977200006",
-      "liquidity": "379441.1757",
+      "id": "0x55c8cc86a70447f48949f61ec7c3c0184512c0ae8eabc120ee46d7123f680892",
+      "question": "Spread: Bills (-6.5)",
+      "volume": "601965.972684",
+      "liquidity": "7100.68",
       "end_date": "2026-09-27T17:00:00Z"
     }
   ]
