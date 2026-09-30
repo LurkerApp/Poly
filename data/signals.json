@@ -1,48 +1,392 @@
 {
-  "last_updated": "2026-09-30T15:37:51.392164+00:00",
+  "last_updated": "2026-09-30T20:32:47.644236+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x7cf93583951552553bc0d243a8582a3410ed2798",
-      "name": "MysticFind",
-      "score": 44.8,
-      "roi_score": 42.5,
+      "wallet": "0xf83ec0e37ac9eece71c064507270e9001a734663",
+      "name": "JustClickeverywhere",
+      "score": 60.2,
+      "roi_score": 100.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 95.7,
-      "roi": 13.7,
-      "cash_pnl": 28268.57,
-      "realized_pnl": 12090.6,
-      "total_usdc": 285791.01,
+      "volume_score": 76.8,
+      "roi": 186.8,
+      "cash_pnl": 9.25,
+      "realized_pnl": 0.48,
+      "total_usdc": 23966.32,
       "trade_count": 500,
-      "market_count": 7,
-      "position_count": 7,
+      "market_count": 326,
+      "position_count": 49,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:36:39+00:00",
+      "last_active": "2026-09-30T20:32:17+00:00",
       "top_markets": [
-        "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "Will Turkmenistan win on 2026-10-02?",
+        "Will China PR vs. Turkmenistan end in a draw?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x694da87a3d29e40e52ac6135db04290c2e07e762",
+      "name": "IASLA",
+      "score": 56.5,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.6,
+      "volume_score": 88.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 115510.83,
+      "trade_count": 500,
+      "market_count": 107,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:22:02+00:00",
+      "top_markets": [
+        "LoL: T1 vs Dplus KIA - Game 2 Winner",
+        "LoL: EDward Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "LoL: G2 Esports vs Shifters - Game 1 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+      "name": "",
+      "score": 51.8,
+      "roi_score": 31.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 72.6,
+      "volume_score": 87.9,
+      "roi": -2.1,
+      "cash_pnl": -391.81,
+      "realized_pnl": 1577.52,
+      "total_usdc": 102464.81,
+      "trade_count": 500,
+      "market_count": 56,
+      "position_count": 29,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:30:54+00:00",
+      "top_markets": [
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Boston Red Sox vs. New York Yankees",
+        "China Open: Nuno Borges vs Novak Djokovic"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.874,
+          "cur_price": 0.225,
+          "usdc_size": 2987.01,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.1075,
+          "cur_price": 0.225,
+          "usdc_size": 1886.37,
+          "outcome": "Philadelphia Phillies"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+      "name": "0xD9E0AACa471f48F91A26E8669A805f2",
+      "score": 49.1,
+      "roi_score": 18.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 81.7,
+      "volume_score": 87.1,
+      "roi": -21.9,
+      "cash_pnl": -92169.47,
+      "realized_pnl": 29132.59,
+      "total_usdc": 92454.35,
+      "trade_count": 500,
+      "market_count": 14,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:31:45+00:00",
+      "top_markets": [
+        "Adana: Leolia Jeanjean vs Melisa Ercan",
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Columbus: Darwin Blanch vs Daniel Milavsky"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "LATE",
+          "avg_price": 0.2337,
+          "cur_price": 0.225,
+          "usdc_size": 7513.61,
+          "outcome": "Philadelphia Phillies"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.653,
+          "cur_price": 0.225,
+          "usdc_size": 8343.91,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+          "signal": "SKIP",
+          "avg_price": 0.28,
+          "cur_price": 0.395,
+          "usdc_size": 4312.25,
+          "outcome": "Cagla Buyukakcay"
+        },
+        {
+          "market": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+          "signal": "SKIP",
+          "avg_price": 0.754,
+          "cur_price": 0.395,
+          "usdc_size": 6785.72,
+          "outcome": "Lucrezia Stefanini"
+        },
+        {
+          "market": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+          "signal": "SKIP",
+          "avg_price": 0.209,
+          "cur_price": 0.115,
+          "usdc_size": 1015.81,
+          "outcome": "Lucas Poullain"
+        },
+        {
+          "market": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+          "signal": "SKIP",
+          "avg_price": 0.639,
+          "cur_price": 0.115,
+          "usdc_size": 3862.64,
+          "outcome": "Remy Bertola"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.1663,
+          "cur_price": 0.87,
+          "usdc_size": 578.42,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.8036,
+          "cur_price": 0.87,
+          "usdc_size": 1972.73,
+          "outcome": "Jiri Lehecka"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe07b0a4c359b313c3f7f38c1bad9231219b121a3",
+      "name": "Steve.",
+      "score": 44.9,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.2,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 17029.21,
+      "trade_count": 6,
+      "market_count": 2,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T16:38:26+00:00",
+      "top_markets": [
+        "US x Iran permanent peace deal by May 31, 2026?",
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
+      "name": "sleepy-panda",
+      "score": 44.3,
+      "roi_score": 39.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": 9.0,
+      "cash_pnl": 3932.64,
+      "realized_pnl": 8609.5,
+      "total_usdc": 531338.12,
+      "trade_count": 500,
+      "market_count": 50,
+      "position_count": 57,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:01:06+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Howard vs. Rutgers",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5448,
+          "cur_price": 0.665,
+          "usdc_size": 30058.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5435,
+          "cur_price": 0.325,
+          "usdc_size": 951.61,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "name": "HomeRunHazard",
+      "score": 44.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 81.6,
+      "volume_score": 94.8,
+      "roi": -88.0,
+      "cash_pnl": -2025512.86,
+      "realized_pnl": -11177.13,
+      "total_usdc": 252736.32,
+      "trade_count": 500,
+      "market_count": 62,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:31:26+00:00",
+      "top_markets": [
+        "Adana: Leolia Jeanjean vs Melisa Ercan",
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Spread: Atlanta Braves (-1.5)"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.647,
+          "cur_price": 0.225,
+          "usdc_size": 74845.17,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.3491,
+          "cur_price": 0.225,
+          "usdc_size": 45687.09,
+          "outcome": "Philadelphia Phillies"
+        },
+        {
+          "market": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+          "signal": "SKIP",
+          "avg_price": 0.6374,
+          "cur_price": 0.115,
+          "usdc_size": 10233.45,
+          "outcome": "Remy Bertola"
+        },
+        {
+          "market": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+          "signal": "SKIP",
+          "avg_price": 0.7106,
+          "cur_price": 0.395,
+          "usdc_size": 8196.29,
+          "outcome": "Lucrezia Stefanini"
+        },
+        {
+          "market": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+          "signal": "SKIP",
+          "avg_price": 0.3464,
+          "cur_price": 0.395,
+          "usdc_size": 3307.0,
+          "outcome": "Cagla Buyukakcay"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.1302,
+          "cur_price": 0.87,
+          "usdc_size": 690.21,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+          "signal": "SKIP",
+          "avg_price": 0.2112,
+          "cur_price": 0.115,
+          "usdc_size": 1033.88,
+          "outcome": "Lucas Poullain"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7cf93583951552553bc0d243a8582a3410ed2798",
+      "name": "MysticFind",
+      "score": 44.2,
+      "roi_score": 40.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.8,
+      "roi": 10.4,
+      "cash_pnl": 21115.47,
+      "realized_pnl": 20402.17,
+      "total_usdc": 288463.72,
+      "trade_count": 500,
+      "market_count": 7,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:08:53+00:00",
+      "top_markets": [
         "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
         "Will there be no change in Fed interest rates after the October 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5043,
-          "cur_price": 0.365,
-          "usdc_size": 94761.77,
+          "avg_price": 0.4998,
+          "cur_price": 0.325,
+          "usdc_size": 84574.78,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.3439,
-          "cur_price": 0.635,
-          "usdc_size": 134779.26,
+          "cur_price": 0.665,
+          "usdc_size": 137805.43,
           "outcome": "Yes"
         },
         {
@@ -52,165 +396,225 @@
           "cur_price": 0.0055,
           "usdc_size": 937.76,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.3499,
-          "cur_price": 0.635,
-          "usdc_size": 3127.32,
-          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
-      "name": "simpleman",
-      "score": 44.2,
-      "roi_score": 39.7,
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "score": 44.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.6,
-      "roi": 9.5,
-      "cash_pnl": 15488.74,
-      "realized_pnl": -20501.72,
-      "total_usdc": 365657.83,
+      "early_entry_score": 81.0,
+      "volume_score": 94.5,
+      "roi": -99.6,
+      "cash_pnl": -23735321.84,
+      "realized_pnl": 985221.67,
+      "total_usdc": 241671.74,
       "trade_count": 500,
-      "market_count": 38,
-      "position_count": 104,
+      "market_count": 37,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T13:21:56+00:00",
+      "last_active": "2026-09-30T20:32:06+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Another Fed rate hike in 2026?"
+        "LoL: Team Heretics Academy vs NightBirds (BO3) - EMEA Masters Swiss Stage",
+        "Dota 2: Level UP vs Xtreme Gaming - Game 2 Winner",
+        "Adana: Cagla Buyukakcay vs Lucrezia Stefanini"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
           "signal": "SKIP",
-          "avg_price": 0.4714,
-          "cur_price": 0.635,
-          "usdc_size": 41535.6,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Another Fed rate hike in 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.8851,
-          "cur_price": 0.805,
-          "usdc_size": 26547.5,
-          "outcome": "Yes"
+          "avg_price": 0.8763,
+          "cur_price": 0.225,
+          "usdc_size": 73201.91,
+          "outcome": "Atlanta Braves"
         }
       ]
     },
     {
-      "wallet": "0xf83ec0e37ac9eece71c064507270e9001a734663",
-      "name": "JustClickeverywhere",
-      "score": 43.7,
-      "roi_score": 45.0,
+      "wallet": "0xa2c908ce8b8386bc8c5471120c5a662551332c23",
+      "name": "jaytee158",
+      "score": 44.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.0,
-      "roi": 17.4,
-      "cash_pnl": 9.06,
-      "realized_pnl": 0.48,
-      "total_usdc": 24382.22,
+      "early_entry_score": 77.4,
+      "volume_score": 100.0,
+      "roi": -92.9,
+      "cash_pnl": -553680.31,
+      "realized_pnl": -3699.23,
+      "total_usdc": 697562.91,
       "trade_count": 500,
-      "market_count": 345,
-      "position_count": 49,
+      "market_count": 25,
+      "position_count": 35,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:37:36+00:00",
+      "last_active": "2026-09-30T20:26:03+00:00",
       "top_markets": [
-        "Will Turkmenistan win on 2026-10-02?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?"
+        "Titans vs. Giants",
+        "LoL: T1 Academy vs Cupid Esports (BO5) - World Star Challengers Invitational Playoffs",
+        "Will Matthew Fitzpatrick win the 2026 Open de France?"
+      ],
+      "signals": [
+        {
+          "market": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+          "signal": "SKIP",
+          "avg_price": 0.8798,
+          "cur_price": 0.395,
+          "usdc_size": 13995.33,
+          "outcome": "Lucrezia Stefanini"
+        }
+      ]
+    },
+    {
+      "wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+      "name": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+      "score": 43.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 82.7,
+      "volume_score": 90.1,
+      "roi": -98.2,
+      "cash_pnl": -3717765.35,
+      "realized_pnl": 651535.04,
+      "total_usdc": 136329.99,
+      "trade_count": 500,
+      "market_count": 19,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:32:11+00:00",
+      "top_markets": [
+        "China Open: Anna Bondar vs Renata Zarazua",
+        "Adana: Leolia Jeanjean vs Melisa Ercan",
+        "Philadelphia Phillies vs. Atlanta Braves"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.645,
+          "cur_price": 0.225,
+          "usdc_size": 25980.48,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+          "signal": "SKIP",
+          "avg_price": 0.6678,
+          "cur_price": 0.395,
+          "usdc_size": 15248.06,
+          "outcome": "Lucrezia Stefanini"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.3834,
+          "cur_price": 0.225,
+          "usdc_size": 8927.19,
+          "outcome": "Philadelphia Phillies"
+        },
+        {
+          "market": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+          "signal": "SKIP",
+          "avg_price": 0.66,
+          "cur_price": 0.115,
+          "usdc_size": 12024.91,
+          "outcome": "Remy Bertola"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.2614,
+          "cur_price": 0.87,
+          "usdc_size": 1475.48,
+          "outcome": "Zizou Bergs"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf609a93627c7e7dbaadab47acbcda2619440ac40",
+      "name": "Roikk",
+      "score": 43.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 79.2,
+      "volume_score": 95.4,
+      "roi": -100.0,
+      "cash_pnl": -36763.34,
+      "realized_pnl": 1067.81,
+      "total_usdc": 273362.6,
+      "trade_count": 500,
+      "market_count": 203,
+      "position_count": 101,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:25:14+00:00",
+      "top_markets": [
+        "Chicago White Sox vs. Cleveland Guardians",
+        "Milwaukee Brewers vs. Pittsburgh Pirates",
+        "Philadelphia Phillies vs. Atlanta Braves"
       ],
       "signals": []
     },
     {
-      "wallet": "0xe617861a96631d7cefdb1ad43e95c33b5946f251",
-      "name": "",
-      "score": 43.6,
-      "roi_score": 36.9,
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 43.2,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
+      "early_entry_score": 71.5,
       "volume_score": 100.0,
-      "roi": 5.3,
-      "cash_pnl": 5299.45,
-      "realized_pnl": 0.0,
-      "total_usdc": 952201.03,
+      "roi": -95.3,
+      "cash_pnl": -6459673.46,
+      "realized_pnl": 263228.19,
+      "total_usdc": 875243.61,
       "trade_count": 500,
-      "market_count": 344,
-      "position_count": 39,
+      "market_count": 29,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:24:14+00:00",
+      "last_active": "2026-09-30T20:30:26+00:00",
       "top_markets": [
-        "SpaceX IPO closing market cap above $2.8T?",
-        "SpaceX IPO closing market cap above $3T?",
-        "Will no Fed rate cuts happen in 2026?"
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "China Open: Karen Khachanov vs Felix Auger-Aliassime",
+        "Boston Red Sox vs. New York Yankees"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.6529,
-          "cur_price": 0.635,
-          "usdc_size": 4786.12,
-          "outcome": "Yes"
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.5057,
+          "cur_price": 0.225,
+          "usdc_size": 206879.6,
+          "outcome": "Philadelphia Phillies"
         },
         {
-          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-          "signal": "ENTER",
-          "avg_price": 0.3299,
-          "cur_price": 0.325,
-          "usdc_size": 984.85,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb4d2b5c75b176f364beefe9dffb605c8b161fa62",
-      "name": "obakobakk",
-      "score": 43.4,
-      "roi_score": 41.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.4,
-      "roi": 11.7,
-      "cash_pnl": 1443.83,
-      "realized_pnl": 701.47,
-      "total_usdc": 73646.5,
-      "trade_count": 500,
-      "market_count": 59,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:35:53+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will the highest temperature in Wuhan be 26\u00b0C on September 10?",
-        "Will the highest temperature in Milan be 24\u00b0C on September 9?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
           "signal": "SKIP",
-          "avg_price": 0.5597,
-          "cur_price": 0.635,
-          "usdc_size": 13830.75,
-          "outcome": "Yes"
+          "avg_price": 0.8598,
+          "cur_price": 0.225,
+          "usdc_size": 65361.33,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.1604,
+          "cur_price": 0.87,
+          "usdc_size": 1228.21,
+          "outcome": "Zizou Bergs"
         }
       ]
     },
@@ -218,26 +622,26 @@
       "wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
       "name": "mr.ozi",
       "score": 43.2,
-      "roi_score": 36.5,
+      "roi_score": 36.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 97.2,
-      "roi": 4.8,
-      "cash_pnl": 14854.78,
-      "realized_pnl": -1071.12,
-      "total_usdc": 344908.99,
+      "volume_score": 97.1,
+      "roi": 5.1,
+      "cash_pnl": 15824.15,
+      "realized_pnl": -1099.21,
+      "total_usdc": 342876.65,
       "trade_count": 500,
-      "market_count": 31,
+      "market_count": 30,
       "position_count": 23,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:18:00+00:00",
+      "last_active": "2026-09-30T17:19:38+00:00",
       "top_markets": [
         "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "Billionaire one-time wealth tax passes in California election 2026?"
+        "Billionaire one-time wealth tax passes in California election 2026?",
+        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?"
       ],
       "signals": [
         {
@@ -249,129 +653,553 @@
           "outcome": "No"
         },
         {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.5585,
+          "cur_price": 0.6035,
+          "usdc_size": 16229.59,
+          "outcome": "Yes"
+        },
+        {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.65,
-          "cur_price": 0.365,
-          "usdc_size": 9375.0,
+          "cur_price": 0.325,
+          "usdc_size": 10125.0,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x3c918a8ef8c379304f744592120cbb4d76149af7",
-      "name": "Vilgefortz",
-      "score": 42.9,
-      "roi_score": 34.7,
+      "wallet": "0x39d0f1dca6fb7e5514858c1a337724a426764fe8",
+      "name": "kekkone",
+      "score": 43.1,
+      "roi_score": 39.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 2.1,
-      "cash_pnl": 7650.65,
-      "realized_pnl": 8177.3,
-      "total_usdc": 1020708.67,
+      "volume_score": 86.6,
+      "roi": 9.6,
+      "cash_pnl": 3344.83,
+      "realized_pnl": 3353.36,
+      "total_usdc": 86381.2,
       "trade_count": 500,
-      "market_count": 22,
-      "position_count": 12,
+      "market_count": 28,
+      "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T12:15:27+00:00",
+      "last_active": "2026-09-30T19:59:36+00:00",
       "top_markets": [
-        "Will the U.S. invade Iran before 2027?",
-        "Will Xi Jinping visit US by September 24?",
-        "Will Xi Jinping visit US by September 30?"
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5298,
-          "cur_price": 0.635,
-          "usdc_size": 17500.0,
+          "avg_price": 0.5878,
+          "cur_price": 0.665,
+          "usdc_size": 4620.66,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4181,
+          "cur_price": 0.325,
+          "usdc_size": 1884.88,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.6994,
+          "cur_price": 0.325,
+          "usdc_size": 3717.79,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x2792dfa780a27bcd40c34c116544756811497e0c",
-      "name": "MR.K-473",
+      "wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
+      "name": "BrotherObama",
       "score": 42.8,
-      "roi_score": 38.3,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.0,
-      "roi": 7.4,
-      "cash_pnl": 342.59,
-      "realized_pnl": 63.26,
-      "total_usdc": 103351.61,
-      "trade_count": 371,
-      "market_count": 82,
-      "position_count": 2,
+      "early_entry_score": 68.5,
+      "volume_score": 100.0,
+      "roi": -100.0,
+      "cash_pnl": -3252984.81,
+      "realized_pnl": -84916.21,
+      "total_usdc": 8097885.08,
+      "trade_count": 500,
+      "market_count": 159,
+      "position_count": 183,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T12:31:15+00:00",
+      "last_active": "2026-09-30T20:31:45+00:00",
       "top_markets": [
-        "Will Marcel Ciolacu win the 2024 Romanian Presidential election?",
-        "Will another candidate win the 2024 Romanian Presidential election?",
-        "Will there be no change in Fed interest rates after the March 2026 meeting?"
+        "Counter-Strike: magic vs GamerLegion (BO3) - 1win Private Club #1 Playoffs",
+        "LoL: Gen.G vs Hanwha Life Esports (BO5) - LCK Playoffs",
+        "Toronto Blue Jays vs. Athletics: O/U 9.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2c2abaa25bc357aab18b032d2b720595c362267e",
+      "name": "ziyoucui",
+      "score": 42.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 69.1,
+      "volume_score": 99.3,
+      "roi": -61.7,
+      "cash_pnl": -78972.23,
+      "realized_pnl": -1807.89,
+      "total_usdc": 458139.67,
+      "trade_count": 500,
+      "market_count": 114,
+      "position_count": 58,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:22:05+00:00",
+      "top_markets": [
+        "LoL: G2 Esports vs Bilibili Gaming (BO5) - First Stand Playoffs",
+        "LoL: Bilibili Gaming vs JD Gaming (BO5) - First Stand Playoffs",
+        "LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6071,
-          "cur_price": 0.635,
-          "usdc_size": 1235.19,
-          "outcome": "Yes"
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.6152,
+          "cur_price": 0.225,
+          "usdc_size": 49077.78,
+          "outcome": "Atlanta Braves"
         }
       ]
     },
     {
-      "wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
-      "name": "classified",
-      "score": 42.4,
-      "roi_score": 34.9,
+      "wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+      "name": "6512395314597884",
+      "score": 42.7,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.4,
-      "roi": 2.3,
-      "cash_pnl": 5761.22,
-      "realized_pnl": 13270.14,
-      "total_usdc": 241159.57,
+      "early_entry_score": 74.0,
+      "volume_score": 91.4,
+      "roi": -56.3,
+      "cash_pnl": -24454.73,
+      "realized_pnl": -3566.71,
+      "total_usdc": 161005.56,
       "trade_count": 500,
-      "market_count": 32,
-      "position_count": 46,
+      "market_count": 73,
+      "position_count": 156,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:36:03+00:00",
+      "last_active": "2026-09-30T20:30:51+00:00",
       "top_markets": [
-        "US x Iran ceasefire continues through September 30?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "China Open: Anna Bondar vs Renata Zarazua",
+        "Porto 2: Otto Virtanen vs Tiago Pereira"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.1424,
+          "cur_price": 0.225,
+          "usdc_size": 7108.01,
+          "outcome": "Philadelphia Phillies"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.1563,
+          "cur_price": 0.87,
+          "usdc_size": 753.6,
+          "outcome": "Zizou Bergs"
+        },
+        {
+          "market": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+          "signal": "SKIP",
+          "avg_price": 0.62,
+          "cur_price": 0.115,
+          "usdc_size": 3683.24,
+          "outcome": "Remy Bertola"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.5541,
+          "cur_price": 0.225,
+          "usdc_size": 825.05,
+          "outcome": "Atlanta Braves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x368ba69507fd67972059fa178af5e459b72f2458",
+      "name": "RockyZet",
+      "score": 42.7,
+      "roi_score": 34.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.6,
+      "roi": 1.2,
+      "cash_pnl": 789.06,
+      "realized_pnl": 2624.05,
+      "total_usdc": 476280.24,
+      "trade_count": 500,
+      "market_count": 22,
+      "position_count": 10,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T19:20:20+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will IShowSpeed attend Cristiano Ronaldo's wedding?",
         "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
       ],
       "signals": [
         {
-          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.6122,
-          "cur_price": 0.365,
-          "usdc_size": 18924.62,
+          "avg_price": 0.36,
+          "cur_price": 0.665,
+          "usdc_size": 6700.0,
           "outcome": "No"
         },
         {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.7059,
+          "cur_price": 0.325,
+          "usdc_size": 3750.02,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7a75a4183e577123db9ff0adff520561ef95d288",
+      "name": "177-letsgo",
+      "score": 42.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.0,
+      "volume_score": 100.0,
+      "roi": -75.6,
+      "cash_pnl": -64783.63,
+      "realized_pnl": -0.08,
+      "total_usdc": 1375588.74,
+      "trade_count": 500,
+      "market_count": 32,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:27:02+00:00",
+      "top_markets": [
+        "South Alabama vs. Kentucky",
+        "USC vs. Rutgers",
+        "Cardinals vs. 49ers"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x52870486f74fcd2fe707821b9aa8da0f6d8c3a16",
+      "name": "",
+      "score": 42.3,
+      "roi_score": 36.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.2,
+      "roi": 4.2,
+      "cash_pnl": 0.32,
+      "realized_pnl": -64.2,
+      "total_usdc": 121651.52,
+      "trade_count": 500,
+      "market_count": 21,
+      "position_count": 8,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T19:11:53+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will 1 Fed rate hike happen in 2026?",
+        "Will the Fed Hike\u2013Hike\u2013Hike in the next three decisions (Sep\u2013Oct\u2013Dec)?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x256818aca89f3b3012e82831ecf856bf6055ef92",
+      "name": "LimitOrderLarry",
+      "score": 42.1,
+      "roi_score": 37.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.3,
+      "roi": 5.5,
+      "cash_pnl": 704.2,
+      "realized_pnl": -124.95,
+      "total_usdc": 73114.64,
+      "trade_count": 500,
+      "market_count": 120,
+      "position_count": 45,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:26:02+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "Falcons vs. Packers: O/U 40.5"
+      ],
+      "signals": [
+        {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4178,
-          "cur_price": 0.635,
-          "usdc_size": 9000.0,
-          "outcome": "No"
+          "avg_price": 0.6199,
+          "cur_price": 0.665,
+          "usdc_size": 2476.66,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+      "name": "justaluckydude",
+      "score": 42.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 68.2,
+      "volume_score": 92.9,
+      "roi": -94.9,
+      "cash_pnl": -767385.47,
+      "realized_pnl": -13449.01,
+      "total_usdc": 197181.66,
+      "trade_count": 500,
+      "market_count": 107,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:30:27+00:00",
+      "top_markets": [
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Chicago White Sox vs. Houston Astros",
+        "Eagles vs. Bears: O/U 42.5"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "ENTER",
+          "avg_price": 0.2307,
+          "cur_price": 0.225,
+          "usdc_size": 26988.95,
+          "outcome": "Philadelphia Phillies"
         },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.5528,
+          "cur_price": 0.225,
+          "usdc_size": 5069.16,
+          "outcome": "Atlanta Braves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+      "name": "wr0ngw4yb3tt0r",
+      "score": 41.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 63.9,
+      "volume_score": 97.9,
+      "roi": -98.0,
+      "cash_pnl": -18578452.03,
+      "realized_pnl": -62031.43,
+      "total_usdc": 379335.79,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:31:45+00:00",
+      "top_markets": [
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Will St. Louis City SC win on 2026-09-26?",
+        "Chicago Cubs vs. San Diego Padres"
+      ],
+      "signals": [
+        {
+          "market": "Chicago Cubs vs. San Diego Padres",
+          "signal": "ENTER",
+          "avg_price": 0.4387,
+          "cur_price": 0.435,
+          "usdc_size": 80621.77,
+          "outcome": "Chicago Cubs"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.6108,
+          "cur_price": 0.225,
+          "usdc_size": 153235.91,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.4826,
+          "cur_price": 0.225,
+          "usdc_size": 46310.29,
+          "outcome": "Philadelphia Phillies"
+        }
+      ]
+    },
+    {
+      "wallet": "0x43372356634781eea88d61bbdd7824cdce958882",
+      "name": "Anjun",
+      "score": 41.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.0,
+      "volume_score": 92.3,
+      "roi": -80.8,
+      "cash_pnl": -3451170.22,
+      "realized_pnl": 148289.48,
+      "total_usdc": 181070.2,
+      "trade_count": 500,
+      "market_count": 132,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:25:47+00:00",
+      "top_markets": [
+        "Will Faroe Islands win on 2026-09-26?",
+        "Will San Marino win on 2026-09-29?",
+        "LoL: T1 Academy vs Galions (BO5) - World Star Challengers Invitational Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.89,
+          "cur_price": 0.225,
+          "usdc_size": 13222.09,
+          "outcome": "Atlanta Braves"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+      "name": "InAirdropWeTrust",
+      "score": 41.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 77.7,
+      "volume_score": 74.9,
+      "roi": -95.8,
+      "cash_pnl": -97101.3,
+      "realized_pnl": 4168.56,
+      "total_usdc": 18678.77,
+      "trade_count": 500,
+      "market_count": 38,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:30:26+00:00",
+      "top_markets": [
+        "Dota 2: Level UP vs Xtreme Gaming - Game 2 Winner",
+        "Dota 2: Level UP vs Xtreme Gaming - Game 1 Winner",
+        "W100 Templeton, CA: Kristina Penickova vs Iryna Shymanovich"
+      ],
+      "signals": [
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.7165,
+          "cur_price": 0.225,
+          "usdc_size": 2292.45,
+          "outcome": "Atlanta Braves"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5f0718ff03268ac06ab4623f755ea4d4d77f9d0f",
+      "name": "Orbit2126",
+      "score": 41.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.3,
+      "volume_score": 90.2,
+      "roi": -99.6,
+      "cash_pnl": -104127.23,
+      "realized_pnl": -4417.75,
+      "total_usdc": 137682.57,
+      "trade_count": 500,
+      "market_count": 155,
+      "position_count": 238,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:23:21+00:00",
+      "top_markets": [
+        "Boston Red Sox vs. Miami Marlins",
+        "Will monthly inflation increase by 0.4% in August?",
+        "Will there be no change in Fed interest rates after the September 2026 meeting?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+      "name": "classified",
+      "score": 41.4,
+      "roi_score": 31.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.9,
+      "roi": -2.2,
+      "cash_pnl": -6174.65,
+      "realized_pnl": 8417.0,
+      "total_usdc": 224060.8,
+      "trade_count": 500,
+      "market_count": 26,
+      "position_count": 45,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:32:23+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will Ethereum reach $4,000 in September?"
+      ],
+      "signals": [
         {
           "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
           "signal": "SKIP",
@@ -383,176 +1211,273 @@
       ]
     },
     {
-      "wallet": "0x68c24bf4a8ad4d79a6fe4b8eec6f93a02dfd1711",
-      "name": "mombil",
-      "score": 42.3,
-      "roi_score": 35.8,
+      "wallet": "0x228b8d11eba89bf1c554f8879a9293b7106daf4c",
+      "name": "0x228B8d11EBa89BF1c554f8879a9293B7106DaF4c-1765442354872",
+      "score": 41.3,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.1,
-      "roi": 3.6,
-      "cash_pnl": 16586.53,
-      "realized_pnl": 32283.75,
-      "total_usdc": 155651.49,
+      "early_entry_score": 68.3,
+      "volume_score": 85.1,
+      "roi": -91.1,
+      "cash_pnl": -141229.49,
+      "realized_pnl": 258234.04,
+      "total_usdc": 70941.62,
       "trade_count": 500,
-      "market_count": 64,
-      "position_count": 147,
+      "market_count": 32,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:17:39+00:00",
+      "last_active": "2026-09-30T20:31:56+00:00",
       "top_markets": [
-        "Will SPD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
-        "Strait of Hormuz traffic returns to normal by December 31?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
+        "Minnesota Lynx vs. New York Liberty",
+        "Boston Red Sox vs. New York Yankees: O/U 5.5",
+        "Boston Red Sox vs. New York Yankees"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x701c7da18d0847ccd269a5fd988cb78fe9b0ce2c",
+      "name": "0x701C7Da18d0847CCD269A5FD988cb78Fe9B0Ce2c-1768571811901",
+      "score": 41.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.0,
+      "volume_score": 86.0,
+      "roi": -83.7,
+      "cash_pnl": -2429.48,
+      "realized_pnl": -18.75,
+      "total_usdc": 79609.24,
+      "trade_count": 437,
+      "market_count": 174,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:29:12+00:00",
+      "top_markets": [
+        "Houston Astros vs. Athletics",
+        "Will Iran win the 2026 FIFA World Cup?",
+        "Atlanta Braves vs. Houston Astros"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+      "name": "0x4f2",
+      "score": 41.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 68.3,
+      "volume_score": 82.7,
+      "roi": -99.8,
+      "cash_pnl": -3438535.87,
+      "realized_pnl": -139722.52,
+      "total_usdc": 51956.09,
+      "trade_count": 500,
+      "market_count": 20,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:31:42+00:00",
+      "top_markets": [
+        "Blackhawks vs. Golden Knights: O/U 6.5",
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Spread: Golden Knights (-1.5)"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6097,
-          "cur_price": 0.635,
-          "usdc_size": 5597.0,
-          "outcome": "Yes"
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.7785,
+          "cur_price": 0.225,
+          "usdc_size": 6752.35,
+          "outcome": "Atlanta Braves"
         }
       ]
     },
     {
-      "wallet": "0xb7b8e9681f5c863dfbd3ac7ec66bac69fa0edb31",
-      "name": "charlatta",
-      "score": 42.2,
-      "roi_score": 32.9,
+      "wallet": "0x4929d4c1d4dd1abffa0b8301a80c69c9805df37a",
+      "name": "0x4929d4C1d4dD1abffA0B8301A80c69c9805Df37a-1782676641165",
+      "score": 41.0,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.3,
-      "roi": -0.6,
-      "cash_pnl": -778.7,
-      "realized_pnl": 880.7,
-      "total_usdc": 400662.99,
+      "early_entry_score": 68.4,
+      "volume_score": 82.0,
+      "roi": -52.8,
+      "cash_pnl": -733.14,
+      "realized_pnl": -12.68,
+      "total_usdc": 47233.31,
       "trade_count": 500,
-      "market_count": 61,
-      "position_count": 60,
+      "market_count": 207,
+      "position_count": 27,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:35:23+00:00",
+      "last_active": "2026-09-30T20:23:51+00:00",
       "top_markets": [
-        "Will Crude Oil reach a new all-time high by December 31?",
-        "Will Renan Santos win the 2026 Brazilian presidential election?",
-        "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?"
+        "Will Germany win on 2026-09-27?",
+        "Counter-Strike: ex-RUBY vs CYBERSHOKE Prospects (BO3) - NODWIN Clutch Series Group Stage",
+        "Counter-Strike: Nuclear TigeRES vs ECHO (BO3) - StarLadder StarSeries European Qualifier Group D"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
+      "name": "dabossrealman",
+      "score": 40.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 68.3,
+      "volume_score": 81.0,
+      "roi": -96.7,
+      "cash_pnl": -40672.5,
+      "realized_pnl": -10464.03,
+      "total_usdc": 41144.41,
+      "trade_count": 500,
+      "market_count": 18,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:31:45+00:00",
+      "top_markets": [
+        "Counter-Strike: Young TigeRES vs Fire Flux Esports (BO3) - ESEA European Finals Playoffs",
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "LoL: Team Heretics Academy vs NightBirds (BO3) - EMEA Masters Swiss Stage"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
+      "name": "averagejoetraders",
+      "score": 40.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 67.1,
+      "volume_score": 81.3,
+      "roi": -55.2,
+      "cash_pnl": -4628.28,
+      "realized_pnl": -78.85,
+      "total_usdc": 42990.85,
+      "trade_count": 500,
+      "market_count": 213,
+      "position_count": 113,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:30:21+00:00",
+      "top_markets": [
+        "Ravens vs. Cowboys",
+        "Philadelphia Phillies vs. New York Mets",
+        "Seahawks vs. Commanders"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.6202,
-          "cur_price": 0.635,
-          "usdc_size": 5836.96,
-          "outcome": "Yes"
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.7159,
+          "cur_price": 0.225,
+          "usdc_size": 2292.45,
+          "outcome": "Atlanta Braves"
         },
         {
-          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
           "signal": "SKIP",
-          "avg_price": 0.5102,
-          "cur_price": 0.365,
-          "usdc_size": 3337.5,
-          "outcome": "Yes"
+          "avg_price": 0.2,
+          "cur_price": 0.225,
+          "usdc_size": 1458.0,
+          "outcome": "Philadelphia Phillies"
         }
       ]
     },
     {
-      "wallet": "0xa0c37cb0587b0dd1542f794bcfa345762bba5b9a",
-      "name": "kukubaja",
-      "score": 41.7,
+      "wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+      "name": "Gaditima",
+      "score": 40.6,
       "roi_score": 33.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.9,
-      "roi": -0.3,
-      "cash_pnl": -98.93,
-      "realized_pnl": -19505.14,
-      "total_usdc": 196601.66,
+      "volume_score": 81.3,
+      "roi": -0.4,
+      "cash_pnl": -483.7,
+      "realized_pnl": 5051.84,
+      "total_usdc": 43098.16,
       "trade_count": 500,
-      "market_count": 69,
-      "position_count": 35,
+      "market_count": 111,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:34:44+00:00",
+      "last_active": "2026-09-30T20:31:56+00:00",
       "top_markets": [
-        "Clarity Act (H.R.3633) signed into law in 2026?",
-        "Russia Elections: United Russia Wins Every Region?",
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
+        "Dota 2: BetBoom Team vs OG (BO3) - BLAST Slam Group C",
+        "Will Taylor Brown win Big Brother season 28?",
+        "Counter-Strike: megoshort vs eternal premium (BO3) - CCT Europe Challengers Series Playoffs"
       ],
       "signals": [
         {
-          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "market": "LoL: The Secret Club Esport vs SU Esports (BO3) - EMEA Masters Swiss Stage",
           "signal": "SKIP",
-          "avg_price": 0.4507,
-          "cur_price": 0.365,
-          "usdc_size": 6750.18,
-          "outcome": "Yes"
+          "avg_price": 0.827,
+          "cur_price": 0.495,
+          "usdc_size": 2476.01,
+          "outcome": "SU Esports"
         },
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
           "signal": "SKIP",
-          "avg_price": 0.4499,
-          "cur_price": 0.635,
-          "usdc_size": 3750.0,
-          "outcome": "Yes"
+          "avg_price": 0.459,
+          "cur_price": 0.225,
+          "usdc_size": 1278.42,
+          "outcome": "Philadelphia Phillies"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.8311,
+          "cur_price": 0.225,
+          "usdc_size": 1253.59,
+          "outcome": "Atlanta Braves"
+        },
+        {
+          "market": "Will Erick Visconde win by KO or TKO?",
+          "signal": "SKIP",
+          "avg_price": 0.8091,
+          "cur_price": 0.265,
+          "usdc_size": 882.0,
+          "outcome": "No"
         }
       ]
-    },
-    {
-      "wallet": "0x8a7b576b7a53ef54876f9eca18bcd84f12d8782f",
-      "name": "0xB16B00B5",
-      "score": 41.4,
-      "roi_score": 37.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.0,
-      "roi": 5.8,
-      "cash_pnl": 1098.06,
-      "realized_pnl": 2771.34,
-      "total_usdc": 24558.29,
-      "trade_count": 500,
-      "market_count": 67,
-      "position_count": 125,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:41:02+00:00",
-      "top_markets": [
-        "Will the upper bound of the target federal funds rate be 2.0% at the end of 2026?",
-        "Will the upper bound of the target federal funds rate be 1.75% at the end of 2026?",
-        "Will US GDP growth in 2026 be between 0.5% and 1.0%?"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
       "name": "Lolakis",
       "score": 40.6,
-      "roi_score": 30.4,
+      "roi_score": 30.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 89.4,
-      "roi": -4.3,
-      "cash_pnl": -959.19,
-      "realized_pnl": -478.87,
-      "total_usdc": 124692.2,
+      "volume_score": 90.6,
+      "roi": -4.7,
+      "cash_pnl": -1579.87,
+      "realized_pnl": 1686.13,
+      "total_usdc": 146334.56,
       "trade_count": 500,
-      "market_count": 36,
-      "position_count": 22,
+      "market_count": 38,
+      "position_count": 24,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:36:03+00:00",
+      "last_active": "2026-09-30T20:32:11+00:00",
       "top_markets": [
         "Will there be no change in Fed interest rates after the October 2026 meeting?",
         "Trump renames AI by September 30?",
@@ -562,686 +1487,225 @@
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5746,
-          "cur_price": 0.365,
-          "usdc_size": 5381.83,
+          "avg_price": 0.4971,
+          "cur_price": 0.325,
+          "usdc_size": 5884.41,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.4627,
-          "cur_price": 0.635,
-          "usdc_size": 7548.86,
+          "avg_price": 0.5474,
+          "cur_price": 0.665,
+          "usdc_size": 9052.88,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x8a8bc9920202f24e6bcefdaf21dd9e297d9e375c",
-      "name": "0x8a8bC9920202F24e6BcEfdaf21dd9e297d9E375c-1772569386028",
-      "score": 40.6,
-      "roi_score": 28.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.8,
-      "roi": -7.4,
-      "cash_pnl": -3817.71,
-      "realized_pnl": -999.18,
-      "total_usdc": 288396.94,
-      "trade_count": 500,
-      "market_count": 107,
-      "position_count": 30,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:35:51+00:00",
-      "top_markets": [
-        "US announces end of Iranian blockade by September 14, 2026?",
-        "Will Enzo Fernandez join Manchester City?",
-        "Will OpenAI\u2019s Astra model be released between August 31 and September 6, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.628,
-          "cur_price": 0.635,
-          "usdc_size": 8881.86,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xbf961d0c79db0bf55050cadc0995835f09c09942",
-      "name": "browne",
-      "score": 40.6,
-      "roi_score": 29.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.3,
-      "roi": -5.6,
-      "cash_pnl": -3872.88,
-      "realized_pnl": -8074.67,
-      "total_usdc": 182705.8,
-      "trade_count": 500,
-      "market_count": 77,
-      "position_count": 48,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:32:08+00:00",
-      "top_markets": [
-        "US x Iran Effective Ceasefire by September 4?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Iran full airspace closure by September 30?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5423,
-          "cur_price": 0.635,
-          "usdc_size": 15066.42,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf1fd308b0857a2cce7fb17d4f0b5330a2bfae00d",
-      "name": "QuietEdgeX",
-      "score": 40.0,
-      "roi_score": 38.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 59.3,
-      "roi": 7.7,
-      "cash_pnl": 20.61,
-      "realized_pnl": -0.24,
-      "total_usdc": 2389.47,
-      "trade_count": 45,
-      "market_count": 18,
-      "position_count": 17,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T13:17:53+00:00",
-      "top_markets": [
-        "Will the Republican Party win the OH-01 House seat?",
-        "US announces end of Iranian blockade by October 31, 2026?",
-        "Will the Texas 2026 Senate race be within 5%?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xbf859e1500cb4e078ba15b6fa96bc3c29bf7a803",
-      "name": "Kennette",
+      "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "name": "curie",
       "score": 39.9,
-      "roi_score": 29.8,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.6,
-      "roi": -5.3,
-      "cash_pnl": -195.94,
-      "realized_pnl": -1541.32,
-      "total_usdc": 65981.84,
-      "trade_count": 428,
-      "market_count": 159,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T13:55:21+00:00",
-      "top_markets": [
-        "Will Bitcoin reach $80,000 in April?",
-        "Bitcoin Up or Down on April 21?",
-        "Bitcoin Up or Down - April 24, 8:00AM-8:15AM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6599,
-          "cur_price": 0.635,
-          "usdc_size": 3499.16,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6ad509baaadfd5c4b76ad0f151b4a96041bd12e9",
-      "name": "",
-      "score": 39.9,
-      "roi_score": 31.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.7,
-      "roi": -2.9,
-      "cash_pnl": -89.71,
-      "realized_pnl": 88.0,
-      "total_usdc": 34936.61,
-      "trade_count": 125,
-      "market_count": 8,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:59:47+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will the Bank of Brazil decrease the target for the Selic rate by 25 bps at the November meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6599,
-          "cur_price": 0.635,
-          "usdc_size": 2178.03,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6d6fbef2e36d344a24edb4eab64661148a3b0f95",
-      "name": "oral.kite5633",
-      "score": 39.3,
-      "roi_score": 31.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 73.9,
-      "roi": -3.1,
-      "cash_pnl": -352.17,
-      "realized_pnl": -6.63,
-      "total_usdc": 16171.52,
-      "trade_count": 115,
-      "market_count": 9,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T14:55:51+00:00",
-      "top_markets": [
-        "Will Harry Kane win the 2026 Ballon d'Or?",
-        "Will Lamine Yamal win the 2026 Ballon d'Or?",
-        "Will Alexia Putellas win the 2026 Women's Ballon d'Or?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.57,
-          "cur_price": 0.635,
-          "usdc_size": 2375.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf036f9631ae2fc83821b3a8581892109d506b8f1",
-      "name": "Randomfool",
-      "score": 39.1,
-      "roi_score": 21.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -17.2,
-      "cash_pnl": -2808.76,
-      "realized_pnl": -25.74,
-      "total_usdc": 594988.96,
+      "early_entry_score": 67.5,
+      "volume_score": 72.6,
+      "roi": -95.3,
+      "cash_pnl": -170691.03,
+      "realized_pnl": 12262.45,
+      "total_usdc": 13678.33,
       "trade_count": 500,
-      "market_count": 32,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T13:08:56+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
-        "Will the ECB announce no change at the July 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.68,
-          "cur_price": 0.635,
-          "usdc_size": 6250.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x625864bd8667374f9c0295664a64eddec22da616",
-      "name": "warandpeace",
-      "score": 38.7,
-      "roi_score": 32.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 64.1,
-      "roi": -1.0,
-      "cash_pnl": -28.92,
-      "realized_pnl": 459.85,
-      "total_usdc": 4527.28,
-      "trade_count": 5,
-      "market_count": 2,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T14:52:18+00:00",
-      "top_markets": [
-        "Will Harry Kane win the 2026 Ballon d'Or?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.3399,
-          "cur_price": 0.635,
-          "usdc_size": 838.24,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xbd2b2070fc9c7e4fe5f0ed772ff7b7aa69d11a1b",
-      "name": "almosthere",
-      "score": 38.4,
-      "roi_score": 30.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 66.5,
-      "roi": -4.0,
-      "cash_pnl": -223.44,
-      "realized_pnl": 46.63,
-      "total_usdc": 6176.13,
-      "trade_count": 178,
-      "market_count": 52,
-      "position_count": 48,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:33:47+00:00",
-      "top_markets": [
-        "Will \u201cHomewrecker\u201d by Sombr win Best Alternative at the 2026 MTV Video Music Awards?",
-        "Will the 30-year Treasury yield hit 5.60% in September?",
-        "Will Xiaomi have the best Chinese AI model at the end of September 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.6399,
-          "cur_price": 0.635,
-          "usdc_size": 1803.39,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdceecdb83fcbcc37d381f90ad0c7516824e3bda5",
-      "name": "rspa",
-      "score": 37.0,
-      "roi_score": 15.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.0,
-      "roi": -26.8,
-      "cash_pnl": -5300.66,
-      "realized_pnl": 1082.9,
-      "total_usdc": 440181.86,
-      "trade_count": 500,
-      "market_count": 57,
-      "position_count": 80,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T13:01:23+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Bank of Brazil decrease the target for the Selic rate by 25 bps at the September meeting?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6558,
-          "cur_price": 0.635,
-          "usdc_size": 3656.85,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Another Fed rate hike in 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.1993,
-          "cur_price": 0.805,
-          "usdc_size": 586.91,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xde5868f5b8b7d9cb6c5f91fb92c3c736738af55c",
-      "name": "faceverification",
-      "score": 36.4,
-      "roi_score": 13.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.0,
-      "roi": -30.1,
-      "cash_pnl": -14905.32,
-      "realized_pnl": 696.47,
-      "total_usdc": 439761.74,
-      "trade_count": 500,
-      "market_count": 24,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:16:21+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "US x Iran diplomatic meeting by June 19, 2026?",
-        "Will the next diplomatic US-Iran meeting be in Switzerland?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5169,
-          "cur_price": 0.635,
-          "usdc_size": 11468.53,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0c03c9dc19cb175810b0e0fd7aabb62154d2a169",
-      "name": "iknowdaveyang1",
-      "score": 35.7,
-      "roi_score": 20.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 69.7,
-      "roi": -19.0,
-      "cash_pnl": -292.9,
-      "realized_pnl": 0.0,
-      "total_usdc": 9330.61,
-      "trade_count": 28,
-      "market_count": 3,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T14:34:23+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will there be no change in Fed interest rates after the December 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.66,
-          "cur_price": 0.635,
-          "usdc_size": 712.5,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x71ca04d689bc38c5e4dcda8a4d743f279c5a3501",
-      "name": "Ronaldo2100",
-      "score": 35.2,
-      "roi_score": 9.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -36.5,
-      "cash_pnl": -211114.76,
-      "realized_pnl": 1077.65,
-      "total_usdc": 1093701.12,
-      "trade_count": 500,
-      "market_count": 23,
-      "position_count": 176,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:16:21+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will the next diplomatic US-Iran meeting be in Switzerland?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.516,
-          "cur_price": 0.635,
-          "usdc_size": 34721.88,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
-      "name": "feeder-of-markets",
-      "score": 34.9,
-      "roi_score": 12.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.2,
-      "roi": -31.0,
-      "cash_pnl": -1543.62,
-      "realized_pnl": 0.0,
-      "total_usdc": 81580.92,
-      "trade_count": 93,
-      "market_count": 22,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T13:18:39+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "No change or Hike 25 bps favored on October 27?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "ENTER",
-          "avg_price": 0.65,
-          "cur_price": 0.635,
-          "usdc_size": 2305.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2f633efb75256a2f2445110c8978684ab8936643",
-      "name": "fillit98",
-      "score": 34.2,
-      "roi_score": 8.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.4,
-      "roi": -37.2,
-      "cash_pnl": -532.85,
-      "realized_pnl": 8.92,
-      "total_usdc": 161462.03,
-      "trade_count": 500,
-      "market_count": 183,
-      "position_count": 11,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:34:09+00:00",
-      "top_markets": [
-        "Will Mark Sanford be the new republican nominee for Senate in South Carolina?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
-      "name": "Cb94C437EA5e6f088c6c0C143c592ab8EFBed",
-      "score": 34.0,
-      "roi_score": 12.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.3,
-      "roi": -30.8,
-      "cash_pnl": -34614.8,
-      "realized_pnl": -32781.23,
-      "total_usdc": 22341.8,
-      "trade_count": 500,
-      "market_count": 126,
+      "market_count": 73,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:36:36+00:00",
+      "last_active": "2026-09-30T20:30:51+00:00",
       "top_markets": [
-        "Will the highest temperature in London be 25\u00b0C on September 30?",
-        "Will the highest temperature in London be 24\u00b0C on September 30?",
-        "Will the highest temperature in Madrid be 29\u00b0C on September 30?"
+        "Bitcoin Up or Down - September 30, 10:30AM-10:45AM ET",
+        "Solana Up or Down - September 30, 9:45AM-10:00AM ET",
+        "XRP Up or Down - September 30, 9:45AM-10:00AM ET"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.36,
-          "cur_price": 0.635,
-          "usdc_size": 750.0,
-          "outcome": "No"
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "ENTER",
+          "avg_price": 0.2228,
+          "cur_price": 0.225,
+          "usdc_size": 1884.06,
+          "outcome": "Philadelphia Phillies"
         }
       ]
     },
     {
-      "wallet": "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1",
-      "name": "debased",
-      "score": 33.4,
-      "roi_score": 5.7,
+      "wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+      "name": "nigiri99",
+      "score": 39.9,
+      "roi_score": 29.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.3,
-      "roi": -41.5,
-      "cash_pnl": -483046.06,
-      "realized_pnl": 844018.22,
-      "total_usdc": 182136.82,
+      "volume_score": 85.7,
+      "roi": -5.7,
+      "cash_pnl": -15932.44,
+      "realized_pnl": -1844.57,
+      "total_usdc": 76143.36,
       "trade_count": 500,
-      "market_count": 26,
-      "position_count": 284,
+      "market_count": 78,
+      "position_count": 273,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T12:59:27+00:00",
+      "last_active": "2026-09-30T20:32:21+00:00",
       "top_markets": [
-        "2026 Balance of Power: R Senate, R House",
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?"
+        "Will Norway win on 2026-10-01?",
+        "1st 5 Innings Spread: Philadelphia Phillies (-1.5)",
+        "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4464,
-          "cur_price": 0.635,
-          "usdc_size": 9434.95,
+          "signal": "ENTER",
+          "avg_price": 0.6623,
+          "cur_price": 0.665,
+          "usdc_size": 9414.41,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will Norway win on 2026-10-01?",
+          "signal": "ENTER",
+          "avg_price": 0.6561,
+          "cur_price": 0.665,
+          "usdc_size": 5873.94,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Philadelphia Phillies vs. Atlanta Braves",
+          "signal": "SKIP",
+          "avg_price": 0.4917,
+          "cur_price": 0.225,
+          "usdc_size": 35400.71,
+          "outcome": "Atlanta Braves"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.3193,
-          "cur_price": 0.365,
-          "usdc_size": 4916.62,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-          "signal": "SKIP",
-          "avg_price": 0.71,
+          "avg_price": 0.6113,
           "cur_price": 0.325,
-          "usdc_size": 3749.6,
+          "usdc_size": 16815.25,
           "outcome": "No"
+        },
+        {
+          "market": "Chicago Cubs vs. San Diego Padres",
+          "signal": "SKIP",
+          "avg_price": 0.5631,
+          "cur_price": 0.435,
+          "usdc_size": 7561.4,
+          "outcome": "San Diego Padres"
+        },
+        {
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+          "signal": "SKIP",
+          "avg_price": 0.1569,
+          "cur_price": 0.87,
+          "usdc_size": 1603.02,
+          "outcome": "Zizou Bergs"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.6754,
-          "cur_price": 0.365,
-          "usdc_size": 2733.81,
-          "outcome": "No"
+          "avg_price": 0.5552,
+          "cur_price": 0.325,
+          "usdc_size": 2009.8,
+          "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.3466,
-          "cur_price": 0.635,
-          "usdc_size": 1249.86,
+          "avg_price": 0.5181,
+          "cur_price": 0.665,
+          "usdc_size": 2058.24,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x61e0cb043c88e34d1502139a682c75d286284b62",
-      "name": "LCN99",
-      "score": 32.5,
+      "wallet": "0x7ac72aa44b533866c9b5fc5e8e06b3d62bdcca76",
+      "name": "0x7Ac72AA44b533866C9b5FC5E8E06b3D62BDcCa76-1777814498992",
+      "score": 39.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.7,
-      "roi": -94.6,
-      "cash_pnl": -16609.85,
-      "realized_pnl": -1783.93,
-      "total_usdc": 479217.93,
-      "trade_count": 500,
-      "market_count": 246,
-      "position_count": 49,
+      "early_entry_score": 67.9,
+      "volume_score": 68.6,
+      "roi": -63.8,
+      "cash_pnl": -2690.01,
+      "realized_pnl": -44.44,
+      "total_usdc": 8135.55,
+      "trade_count": 190,
+      "market_count": 113,
+      "position_count": 64,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T13:05:05+00:00",
+      "last_active": "2026-09-30T20:28:15+00:00",
       "top_markets": [
-        "Knicks vs. Spurs",
-        "Will DR Congo win on 2026-07-01?",
-        "Will the New York Knicks win the 2026 NBA Finals?"
+        "Hamburg European Open: Yannick Hanfmann vs Max Schoenhaus",
+        "KBO: KT Wiz vs. Hanwha Eagles",
+        "Set Handicap: Comesana (-1.5) vs Riedi (+1.5)"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "market": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
           "signal": "LATE",
-          "avg_price": 0.6599,
-          "cur_price": 0.635,
-          "usdc_size": 946.97,
+          "avg_price": 0.86,
+          "cur_price": 0.87,
+          "usdc_size": 902.19,
+          "outcome": "Jiri Lehecka"
+        }
+      ]
+    },
+    {
+      "wallet": "0xfe41328c99802a1103d74514f71a16b0eee19f23",
+      "name": "Digital-Boy",
+      "score": 37.3,
+      "roi_score": 21.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.3,
+      "roi": -17.2,
+      "cash_pnl": -2918.27,
+      "realized_pnl": -2549.66,
+      "total_usdc": 49219.48,
+      "trade_count": 500,
+      "market_count": 87,
+      "position_count": 184,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:31:39+00:00",
+      "top_markets": [
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Trump renames AI by September 30?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.3979,
+          "cur_price": 0.6035,
+          "usdc_size": 793.0,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.37,
+          "cur_price": 0.325,
+          "usdc_size": 650.0,
           "outcome": "Yes"
         }
       ]
@@ -1255,8 +1719,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -57.9,
-      "cash_pnl": -1021567.85,
+      "roi": -59.6,
+      "cash_pnl": -1051038.53,
       "realized_pnl": 38022.11,
       "total_usdc": 5069413.04,
       "trade_count": 500,
@@ -1276,116 +1740,113 @@
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.4586,
-          "cur_price": 0.365,
-          "usdc_size": 244290.45,
+          "cur_price": 0.325,
+          "usdc_size": 211718.39,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.5225,
-          "cur_price": 0.635,
-          "usdc_size": 47292.28,
+          "cur_price": 0.665,
+          "usdc_size": 50318.98,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
-      "name": "betwick",
+      "wallet": "0x30e443872ddf63b2908a49f92cd690c304a55102",
+      "name": "truthteller",
       "score": 32.4,
-      "roi_score": 0.0,
+      "roi_score": 2.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 98.7,
-      "roi": -71.1,
-      "cash_pnl": -448624.94,
-      "realized_pnl": 79380.32,
-      "total_usdc": 422847.52,
+      "volume_score": 90.2,
+      "roi": -45.8,
+      "cash_pnl": -36764.57,
+      "realized_pnl": 4653.63,
+      "total_usdc": 138526.4,
       "trade_count": 500,
-      "market_count": 24,
-      "position_count": 44,
+      "market_count": 31,
+      "position_count": 110,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T13:41:50+00:00",
+      "last_active": "2026-09-30T20:09:02+00:00",
       "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "NATO x Russia military clash by October 31, 2026?",
-        "US announces end of Iranian blockade by September 30, 2026?"
+        "Trump renames AI by September 30?",
+        "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+        "Will Marco Rubio win the 2028 Republican presidential nomination?"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "ENTER",
+          "avg_price": 0.33,
+          "cur_price": 0.325,
+          "usdc_size": 1083.22,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.3883,
+          "cur_price": 0.665,
+          "usdc_size": 4744.91,
+          "outcome": "No"
+        }
+      ]
     },
     {
-      "wallet": "0x6af72a7d6ca36735fbbbd54feb991b2055e25a6f",
-      "name": "chillballer",
+      "wallet": "0x74471a007ddcc488f6d57b5e86dfb35a8d48a16d",
+      "name": "tetrose",
       "score": 32.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 96.3,
-      "roi": -57.5,
-      "cash_pnl": -28553.49,
-      "realized_pnl": -2711.13,
-      "total_usdc": 308115.9,
+      "volume_score": 95.8,
+      "roi": -74.1,
+      "cash_pnl": -747109.88,
+      "realized_pnl": 83164.19,
+      "total_usdc": 287437.55,
       "trade_count": 500,
-      "market_count": 76,
-      "position_count": 24,
+      "market_count": 27,
+      "position_count": 307,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T12:59:27+00:00",
+      "last_active": "2026-09-30T19:11:53+00:00",
       "top_markets": [
-        "Will LeBron James play for the Cleveland Cavaliers in 2026-27?",
-        "Will Spain vs. Cabo Verde end in a draw?",
-        "Will Australia win on 2026-07-03?"
+        "NATO x Russia military clash by October 31, 2026?",
+        "Strait of Hormuz traffic returns to normal by December 31?",
+        "Will the U.S. invade Iran before 2027?"
       ],
       "signals": [
         {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6599,
-          "cur_price": 0.635,
-          "usdc_size": 1893.94,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4d417fb3c36b435dd5ba5f038c42ca70890b6aca",
-      "name": "slobber",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.9,
-      "roi": -65.2,
-      "cash_pnl": -22954.74,
-      "realized_pnl": -3618.97,
-      "total_usdc": 224650.86,
-      "trade_count": 262,
-      "market_count": 114,
-      "position_count": 51,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:25:35+00:00",
-      "top_markets": [
-        "Will Wes Streeting be the next Chancellor of the Exchequer of the UK in 2026?",
-        "Will UK annual GDP growth in 2026 be between 1% and 2%?",
-        "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?"
-      ],
-      "signals": [
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.7136,
+          "cur_price": 0.325,
+          "usdc_size": 60337.8,
+          "outcome": "No"
+        },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.5754,
-          "cur_price": 0.635,
-          "usdc_size": 6961.11,
+          "avg_price": 0.5041,
+          "cur_price": 0.665,
+          "usdc_size": 16739.41,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4865,
+          "cur_price": 0.325,
+          "usdc_size": 3099.52,
+          "outcome": "No"
         }
       ]
     },
@@ -1397,49 +1858,93 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.5,
-      "roi": -99.8,
-      "cash_pnl": -1581326.91,
-      "realized_pnl": -3638931.72,
-      "total_usdc": 187157.84,
+      "volume_score": 92.7,
+      "roi": -99.4,
+      "cash_pnl": -1589423.61,
+      "realized_pnl": -3551550.65,
+      "total_usdc": 193047.42,
       "trade_count": 500,
-      "market_count": 18,
+      "market_count": 19,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:16:30+00:00",
+      "last_active": "2026-09-30T20:31:23+00:00",
       "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1674,
+          "cur_price": 0.665,
+          "usdc_size": 4454.81,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.3989,
+          "cur_price": 0.6035,
+          "usdc_size": 1995.46,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf2088ef95f5c1c0eee2640e8da537d6a1c175eef",
+      "name": "richsmith",
+      "score": 31.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.5,
+      "roi": -96.1,
+      "cash_pnl": -8456.22,
+      "realized_pnl": -3187.91,
+      "total_usdc": 110836.51,
+      "trade_count": 500,
+      "market_count": 105,
+      "position_count": 64,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:09:02+00:00",
+      "top_markets": [
+        "US x Iran permanent peace deal by May 31, 2026?",
+        "US announces new Iran agreement/ceasefire extension by May 31?",
+        "SpaceX (Space Exploration Technologies Corp.) IPO before 2027?"
       ],
       "signals": []
     },
     {
       "wallet": "0x758dac51ba3cc9a246a79787da9df11c5f425d9e",
       "name": "a5533",
-      "score": 31.5,
-      "roi_score": 7.3,
+      "score": 31.1,
+      "roi_score": 7.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 68.0,
-      "roi": -39.0,
-      "cash_pnl": -7398.99,
-      "realized_pnl": 94862.52,
-      "total_usdc": 7455.87,
+      "volume_score": 64.8,
+      "roi": -39.2,
+      "cash_pnl": -7425.51,
+      "realized_pnl": 103029.66,
+      "total_usdc": 4953.99,
       "trade_count": 500,
-      "market_count": 144,
+      "market_count": 131,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:37:08+00:00",
+      "last_active": "2026-09-30T20:32:42+00:00",
       "top_markets": [
-        "LoL: eSuba vs UCAM Esports Club - Game 1 Winner",
-        "Bitcoin Up or Down - September 30, 8:00AM-12:00PM ET",
-        "Counter-Strike: megoshort vs eternal premium (BO3) - CCT Europe Challengers Series Playoffs"
+        "Counter-Strike: Gr\u00eamio Esports vs QUINTESS\u00caNCIA - Map 2 Winner",
+        "Counter-Strike: Young TigeRES vs Fire Flux Esports (BO3) - ESEA European Finals Playoffs",
+        "Counter-Strike: CYBERSHOKE Esports vs K27 (BO3) - CIS LAN Championship Group C"
       ],
       "signals": [
         {
@@ -1447,569 +1952,301 @@
           "signal": "ENTER",
           "avg_price": 0.3299,
           "cur_price": 0.325,
-          "usdc_size": 1037.81,
+          "usdc_size": 942.33,
           "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
-          "avg_price": 0.3519,
-          "cur_price": 0.635,
-          "usdc_size": 2773.63,
+          "avg_price": 0.3537,
+          "cur_price": 0.665,
+          "usdc_size": 2754.67,
           "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.6592,
-          "cur_price": 0.365,
-          "usdc_size": 3586.23,
+          "cur_price": 0.325,
+          "usdc_size": 3873.13,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xaabbd33103b0664da203a438efff634a04330ac6",
-      "name": "KKreturn",
-      "score": 31.5,
+      "wallet": "0x2c1060b1548ab350ee41899f21d6e17f77c9336c",
+      "name": "0x2c1060B1548ab350ee41899F21D6E17f77c9336c-1744813027924",
+      "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 89.8,
-      "roi": -74.9,
-      "cash_pnl": -16941.86,
-      "realized_pnl": 128.31,
-      "total_usdc": 131970.03,
-      "trade_count": 500,
-      "market_count": 31,
-      "position_count": 30,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:35:18+00:00",
-      "top_markets": [
-        "Will Ethereum reach $1,900 in July?",
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will Bitcoin reach $70,000 in July?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4039,
-          "cur_price": 0.635,
-          "usdc_size": 5625.01,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
-      "name": "Bigggggggg",
-      "score": 31.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.4,
-      "roi": -99.7,
-      "cash_pnl": -232211.22,
-      "realized_pnl": -95182.7,
-      "total_usdc": 141864.33,
-      "trade_count": 500,
-      "market_count": 131,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:36:12+00:00",
-      "top_markets": [
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-        "Will there be no change in Fed interest rates after the December 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x414b72342bd67e4fcdace1eb151e4842c6f22374",
-      "name": "Adventure142",
-      "score": 31.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.1,
-      "roi": -64.7,
-      "cash_pnl": -10351.59,
-      "realized_pnl": -990.14,
-      "total_usdc": 80955.31,
-      "trade_count": 500,
-      "market_count": 138,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T13:40:56+00:00",
-      "top_markets": [
-        "Strait of Hormuz traffic returns to normal by July 15?",
-        "Will the price of Bitcoin be above $80,000 on September 7?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.6584,
-          "cur_price": 0.635,
-          "usdc_size": 2847.56,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x661daf6af6d884012dd6db73c09d72e8be224dc6",
-      "name": "DOLLAR-PRINTER",
-      "score": 31.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.4,
-      "roi": -96.2,
-      "cash_pnl": -1197007.34,
-      "realized_pnl": 54088.35,
-      "total_usdc": 83863.33,
-      "trade_count": 500,
-      "market_count": 89,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T14:52:36+00:00",
-      "top_markets": [
-        "UFC Fight Night: Norma Dumont vs. Ailin Perez (Women's Bantamweight, Prelims)",
-        "LoL: Solary vs DN SOOPers Challengers - Game 3 Winner",
-        "Australia Tour of South Africa ODIs: South Africa vs Australia"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4096,
-          "cur_price": 0.635,
-          "usdc_size": 4231.51,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
-      "name": "puravida",
-      "score": 30.9,
-      "roi_score": 0.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.0,
-      "roi": -49.0,
-      "cash_pnl": -49051.39,
-      "realized_pnl": -6222.53,
-      "total_usdc": 47071.35,
-      "trade_count": 500,
-      "market_count": 49,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:18:08+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Saudi Oil Pipeline (East-West) restarts by October 15?",
-        "Next US-Iran senior diplomatic meeting by October 31, 2026? (copy)"
-      ],
-      "signals": [
-        {
-          "market": "Another Fed rate hike in 2026?",
-          "signal": "LATE",
-          "avg_price": 0.7999,
-          "cur_price": 0.805,
-          "usdc_size": 2012.6,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.466,
-          "cur_price": 0.635,
-          "usdc_size": 3749.88,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.6259,
-          "cur_price": 0.365,
-          "usdc_size": 1500.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
-      "name": "lissartter",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.6,
-      "roi": -68.8,
-      "cash_pnl": -287443.2,
-      "realized_pnl": 35604.56,
-      "total_usdc": 44878.65,
-      "trade_count": 500,
-      "market_count": 85,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:37:15+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5409,
-          "cur_price": 0.635,
-          "usdc_size": 11925.24,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.4992,
-          "cur_price": 0.365,
-          "usdc_size": 16908.42,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1f5f9fa318fbda8350ac143b4df657287df850fa",
-      "name": "lpgb",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.3,
-      "roi": -96.8,
-      "cash_pnl": -3767.83,
-      "realized_pnl": -7890.6,
-      "total_usdc": 42918.39,
-      "trade_count": 440,
-      "market_count": 183,
-      "position_count": 70,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:32:33+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
-        "Will \"Digger\" Opening Weekend Box Office be less than 17m?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdf0e455ca4896232ba935a8176e5e8cfbb38c02b",
-      "name": "SPLPB",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.2,
-      "roi": -75.6,
-      "cash_pnl": -8348.15,
-      "realized_pnl": 379.82,
-      "total_usdc": 42181.39,
-      "trade_count": 500,
-      "market_count": 165,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T15:28:17+00:00",
-      "top_markets": [
-        "Trump renames AI by September 30?",
-        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-        "Will the lowest temperature in Seoul (Incheon) be 17\u00b0C on September 30?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb658c328bcb4f875d1e4630ee1df6fd9feb23a5b",
-      "name": "Hai688",
-      "score": 30.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.4,
+      "volume_score": 85.5,
       "roi": -100.0,
-      "cash_pnl": -555.0,
-      "realized_pnl": -21.59,
-      "total_usdc": 38345.3,
-      "trade_count": 50,
-      "market_count": 14,
-      "position_count": 5,
+      "cash_pnl": -2173.01,
+      "realized_pnl": -162.21,
+      "total_usdc": 74211.46,
+      "trade_count": 500,
+      "market_count": 76,
+      "position_count": 29,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T13:25:17+00:00",
+      "last_active": "2026-09-30T14:19:51+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
+        "Bitcoin Up or Down - September 11, 4:05PM-4:10PM ET",
+        "Bitcoin Up or Down - June 27, 7:30PM-7:35PM ET",
+        "Bitcoin Up or Down - June 27, 7:15PM-7:20PM ET"
       ],
       "signals": []
     },
     {
-      "wallet": "0x9791ef4e74a649b095c8ef2d46039e419b01a891",
-      "name": "0x3695408E580EB3c183D384A2CC40dfC5CA2f262c-1761416345730",
-      "score": 29.6,
+      "wallet": "0x05374492e37f036fb751d708fe487aeca60b5b0f",
+      "name": "Frigg",
+      "score": 30.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 71.3,
-      "roi": -89.6,
-      "cash_pnl": -9799.29,
-      "realized_pnl": -253.77,
-      "total_usdc": 11551.15,
-      "trade_count": 22,
-      "market_count": 5,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-09-30T12:05:23+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will 1 Fed rate cut happen in 2026?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.5596,
-          "cur_price": 0.635,
-          "usdc_size": 1109.66,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdca09343e647bc46c4b341f89b0bb39660c58ab0",
-      "name": "taipan852",
-      "score": 28.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 63.2,
-      "roi": -100.0,
-      "cash_pnl": -2512.36,
-      "realized_pnl": -40.4,
-      "total_usdc": 4005.82,
-      "trade_count": 33,
-      "market_count": 2,
+      "volume_score": 82.7,
+      "roi": -95.7,
+      "cash_pnl": -742.45,
+      "realized_pnl": -463.04,
+      "total_usdc": 51448.27,
+      "trade_count": 500,
+      "market_count": 23,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T14:41:14+00:00",
+      "last_active": "2026-09-30T13:23:20+00:00",
       "top_markets": [
-        "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
+        "Will the Communist Party of the Russian Federation (KPRF) gain the most seats in the next Russian parliamentary election?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?"
       ],
       "signals": []
     },
     {
       "wallet": "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
       "name": "WarriorH",
-      "score": 21.7,
+      "score": 30.5,
       "roi_score": 0.0,
-      "calibration_score": 20.8,
-      "consistency_score": 41.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.4,
-      "roi": -95.3,
-      "cash_pnl": -57176.95,
-      "realized_pnl": -54885.34,
-      "total_usdc": 43667.98,
+      "volume_score": 79.5,
+      "roi": -93.9,
+      "cash_pnl": -57251.71,
+      "realized_pnl": -49958.36,
+      "total_usdc": 34079.73,
       "trade_count": 500,
-      "market_count": 218,
+      "market_count": 238,
       "position_count": 500,
-      "resolved_count": 1,
-      "win_rate": 0.0,
+      "resolved_count": 0,
+      "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-09-30T15:34:26+00:00",
+      "last_active": "2026-09-30T20:31:51+00:00",
       "top_markets": [
-        "Will Mistral have the best AI model at the end of October 2026?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will Harry Kane win the 2026 Ballon d'Or?"
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "Will Xiaomi have the best AI model at the end of October 2026?",
+        "Will Renan Santos finish in second place in the first round of the 2026 Brazilian presidential election?"
       ],
       "signals": []
+    },
+    {
+      "wallet": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
+      "name": "lissartter",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.3,
+      "roi": -69.4,
+      "cash_pnl": -288514.64,
+      "realized_pnl": 35290.49,
+      "total_usdc": 37939.28,
+      "trade_count": 500,
+      "market_count": 90,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-09-30T20:29:41+00:00",
+      "top_markets": [
+        "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
+      ],
+      "signals": [
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.5359,
+          "cur_price": 0.665,
+          "usdc_size": 12034.82,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.4997,
+          "cur_price": 0.325,
+          "usdc_size": 18633.81,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.417,
+          "cur_price": 0.6035,
+          "usdc_size": 3388.09,
+          "outcome": "No"
+        }
+      ]
     }
   ],
   "markets": [
     {
-      "id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
-      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "volume": "5222494.543081002",
-      "liquidity": "259908.149",
-      "end_date": "2026-10-29T03:59:00Z"
+      "id": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322",
+      "question": "Philadelphia Phillies vs. Atlanta Braves",
+      "volume": "1695425.9489540001",
+      "liquidity": "34958.6047",
+      "end_date": "2026-10-07T18:00:00Z"
     },
     {
       "id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
       "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "volume": "4960520.654869999",
-      "liquidity": "252506.6939",
+      "volume": "5024053.070369999",
+      "liquidity": "200606.0777",
       "end_date": "2026-10-29T03:59:00Z"
     },
     {
-      "id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
-      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "volume": "5423711.483102002",
-      "liquidity": "832728.3381",
-      "end_date": "2026-10-28T03:59:00Z"
-    },
-    {
-      "id": "0xe6f62f8bf823bc41db938c157a87efd9898e0c7278f61f309034fd71c257d834",
-      "question": "Dota 2: Team Nemesis vs Natus Vincere - Game 1 Winner",
-      "volume": "755867.2533609996",
-      "liquidity": "590392.58726",
-      "end_date": "2026-09-30T20:20:00Z"
-    },
-    {
-      "id": "0x6bd56627aa21311850825edb27e53434a0e17a4f782be0086bc07f71eee00d0d",
-      "question": "Putin out as President of Russia by December 31, 2026?",
-      "volume": "22920960.37182302",
-      "liquidity": "794979.3278",
-      "end_date": "2027-01-01T04:59:00Z"
-    },
-    {
-      "id": "0xa69ef420d8b4075ad8ba8611d02c63cb2ece46f5c8c643af223c272689b0c96f",
-      "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
-      "volume": "2942881.8003629996",
-      "liquidity": "591018.91572",
+      "id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "volume": "5361902.077997003",
+      "liquidity": "256178.2886",
       "end_date": "2026-10-29T03:59:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "24355563.071999993",
-      "liquidity": "409869.37213",
+      "volume": "24446190.67199999",
+      "liquidity": "414905.2021",
       "end_date": "2027-05-30T23:59:00Z"
     },
     {
-      "id": "0x091c4d8f1253c044cb417adcb4fc4bc6216e58934d60b3f8cdc65b91d98a6077",
-      "question": "LoL: Colossal Gaming vs Lodis (BO1) - EMEA Masters Swiss Stage",
-      "volume": "415827.1511070003",
-      "liquidity": "77478.91443",
-      "end_date": "2026-09-30T20:00:00Z"
-    },
-    {
-      "id": "0xde5d75ab7702875623ba509bc923241e1211da74a113521b3b70ddac930d7316",
-      "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
-      "volume": "2864536.782004999",
-      "liquidity": "603672.60404",
+      "id": "0xa69ef420d8b4075ad8ba8611d02c63cb2ece46f5c8c643af223c272689b0c96f",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+      "volume": "2946212.036196999",
+      "liquidity": "959031.10921",
       "end_date": "2026-10-29T03:59:00Z"
     },
     {
-      "id": "0x278cb326ad00fe29188d553ed567f4a8b88363a2a8c1c926bb13bf50a18e1c02",
-      "question": "West Indies Tour of India ODIs: India vs West Indies",
-      "volume": "390853.8319919999",
-      "liquidity": "49997.13191",
-      "end_date": "2026-10-07T08:30:00Z"
-    },
-    {
-      "id": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322",
-      "question": "Philadelphia Phillies vs. Atlanta Braves",
-      "volume": "382500.0697700001",
-      "liquidity": "898194.1312",
-      "end_date": "2026-10-07T18:00:00Z"
-    },
-    {
-      "id": "0x91332ec5a13696700d92dbcd314f1a97061c01e7bf9bc7e77a917c4f3c75b6c9",
-      "question": "China Open: Anna Bondar vs Renata Zarazua",
-      "volume": "371449.91575399996",
-      "liquidity": "37511.6367",
-      "end_date": "2026-10-07T03:00:00Z"
-    },
-    {
-      "id": "0xa6c3848b7861841cc9d93a5c2c1d26b3f44e0298a49889968a627214a2b177ae",
-      "question": "Will Manuel Bompard win the 2027 French presidential election?",
-      "volume": "5176251.843262998",
-      "liquidity": "264140.38174",
-      "end_date": "2027-04-19T03:59:00Z"
-    },
-    {
-      "id": "0xddf54fcd0689f0fd4bb3f67b463da4354820d2c43b27bd15207a4a76c2bfcabd",
-      "question": "Will the price of Bitcoin be above $86,000 on September 30?",
-      "volume": "317946.0269030003",
-      "liquidity": "24084.42518",
-      "end_date": "2026-09-30T16:00:00Z"
+      "id": "0x4777910ec678af46a0f50e3d1bb75d17e639c176dfd2880109ef1b3a9ee70c23",
+      "question": "Will Norway win on 2026-10-01?",
+      "volume": "376870.73141400004",
+      "liquidity": "134497.19",
+      "end_date": "2026-10-01T18:45:00Z"
     },
     {
       "id": "0x363bc3aff317061cdb8ab82c69b7ac7161f40cd156bbe67a80772f05ab6ed9bf",
       "question": "Chicago Cubs vs. San Diego Padres",
-      "volume": "282163.7400860002",
-      "liquidity": "527953.097",
+      "volume": "309655.554593",
+      "liquidity": "745334.7807",
       "end_date": "2026-10-08T02:00:00Z"
     },
     {
-      "id": "0xbe2ad10f09f3618b0553f9b778327455a3e058c71099b4fc52ccde8d6554eaa1",
-      "question": "Dota 2: PARIVISION vs LGD Gaming - Game 1 Winner",
-      "volume": "259509.56505299994",
-      "liquidity": "369627.82918",
-      "end_date": "2026-09-30T20:30:00Z"
+      "id": "0x53dcc4ebc77570254ef6088a5b93f2a2589eb2c37d7026e6f80f89d8e06fb511",
+      "question": "Will OpenAI resume US ChatGPT Pro signups by September 30, 2026?",
+      "volume": "296730.07973399997",
+      "liquidity": "130716.38615",
+      "end_date": "2026-10-01T03:59:00Z"
     },
     {
-      "id": "0x2d54643178d08630377167a5c32d896fd87bec4ca87be8957817d99ccbcf351c",
-      "question": "Bitcoin Up or Down on September 30?",
-      "volume": "259524.6083130001",
-      "liquidity": "15148.9776",
-      "end_date": "2026-09-30T16:00:00Z"
+      "id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "volume": "5445106.022753001",
+      "liquidity": "827386.9441",
+      "end_date": "2026-10-28T03:59:00Z"
+    },
+    {
+      "id": "0xc92d378903796b5837cc4b82e35a12d3d4f86be6eeb27166d1cda12d4699d1c8",
+      "question": "Adana: Cagla Buyukakcay vs Lucrezia Stefanini",
+      "volume": "260212.7176400001",
+      "liquidity": "161559.174",
+      "end_date": "2026-10-07T15:00:00Z"
     },
     {
       "id": "0xe79d24bef3d86bff900c8af91e32d7a4018a0391ad2b0697745049c021d26faf",
       "question": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
-      "volume": "253873.33225900005",
-      "liquidity": "36984.9176",
+      "volume": "260075.03685399998",
+      "liquidity": "36292.8246",
       "end_date": "2026-10-07T01:00:00Z"
     },
     {
-      "id": "0xbc0079f0872035a9eccf8920c3ceb807750685c25a5f5dcd8a8a235a34cd7bb0",
-      "question": "Will Samuel Alito announce his retirement by September 30, 2026?",
-      "volume": "1512365.0902840002",
-      "liquidity": "55524.36163",
-      "end_date": "2026-10-01T03:59:00Z"
+      "id": "0xc28fbee0c6f5a24ec7b9badf29e704a49aa063e1494206e9a78f7a001078910d",
+      "question": "Australia Tour of South Africa ODIs: South Africa vs Australia",
+      "volume": "254666.43142300006",
+      "liquidity": "41838.034",
+      "end_date": "2026-10-07T11:30:00Z"
     },
     {
-      "id": "0x9b1a03b41a1a68c209e9c3caf3d8af3f878420d6dbe8cb8afffd66049e73b114",
-      "question": "Another Fed rate hike in 2026?",
-      "volume": "415781.289821",
-      "liquidity": "99046.4014",
-      "end_date": "2026-12-09T00:00:00Z"
+      "id": "0x3bd9947ca15c9b519284b1ee786d337c06bcaff13d6b8e5ccb858490faf6a071",
+      "question": "Will Bitcoin dip to $82,500 in September?",
+      "volume": "737803.369631",
+      "liquidity": "52292.72109",
+      "end_date": "2026-10-01T04:00:00Z"
+    },
+    {
+      "id": "0xde5d75ab7702875623ba509bc923241e1211da74a113521b3b70ddac930d7316",
+      "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
+      "volume": "2881818.2238739994",
+      "liquidity": "595581.28681",
+      "end_date": "2026-10-29T03:59:00Z"
+    },
+    {
+      "id": "0x9ac8e1685c4c1b397a586934b0b14d9129afd46504d13b4cac2466ebb20148eb",
+      "question": "LoL: The Secret Club Esport vs SU Esports (BO3) - EMEA Masters Swiss Stage",
+      "volume": "208389.20794600004",
+      "liquidity": "36300.6601",
+      "end_date": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "0x45e5628d2dc0905036fbc6149aa830781b3f92eb2b3a436237ce89eef7b17090",
+      "question": "Will Erick Visconde win by KO or TKO?",
+      "volume": "206555.78162800003",
+      "liquidity": "43197.6733",
+      "end_date": "2026-09-30T03:59:59.999Z"
+    },
+    {
+      "id": "0x524ce344b80a160c237d91a33efdd8b82468b0dc0d33f60d500f8bf69b80b8bb",
+      "question": "Israel x Iran ceasefire continues through September 30?",
+      "volume": "3259512.484400003",
+      "liquidity": "166216.35436",
+      "end_date": "2026-09-30T20:29:00Z"
+    },
+    {
+      "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+      "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "volume": "12494329.184238005",
+      "liquidity": "352810.70415",
+      "end_date": "2026-10-05T03:59:00Z"
+    },
+    {
+      "id": "0x14219327c42469dc2b2f9fb45af0106204604b8af364ef3f450b304336c78b06",
+      "question": "Mouilleron-Le-Captif: Lucas Poullain vs Remy Bertola",
+      "volume": "198744.43033899995",
+      "liquidity": "134064.6238",
+      "end_date": "2026-10-07T18:30:00Z"
+    },
+    {
+      "id": "0x690fafd3b7bb8b4919ccf0f219b0014b65334411a1076162e76353e76d7f9bec",
+      "question": "US x Iran ceasefire continues through September 30?",
+      "volume": "2402751.658819999",
+      "liquidity": "151144.33586",
+      "end_date": "2026-09-30T23:59:00Z"
     }
   ]
 }
