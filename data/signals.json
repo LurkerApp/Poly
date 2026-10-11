@@ -1,8 +1,357 @@
 {
-  "last_updated": "2026-10-11T00:41:03.806761+00:00",
+  "last_updated": "2026-10-11T06:48:38.200079+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
+    {
+      "wallet": "0xf7329957bf190bc8e4b2e8910065739d012fbd9f",
+      "name": "0xf7329957BF190bc8e4B2e8910065739d012fbd9f-1791617685827",
+      "score": 59.0,
+      "roi_score": 54.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.0,
+      "volume_score": 71.4,
+      "roi": 32.1,
+      "cash_pnl": 220.34,
+      "realized_pnl": 0.0,
+      "total_usdc": 11687.88,
+      "trade_count": 17,
+      "market_count": 7,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:21:45+00:00",
+      "top_markets": [
+        "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+        "Spurs vs. Suns",
+        "LoL: LOS vs FURIA Esports - Game 4 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+      "name": "alpheclabs",
+      "score": 56.2,
+      "roi_score": 58.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 87.1,
+      "roi": 37.5,
+      "cash_pnl": 5416.05,
+      "realized_pnl": -22.88,
+      "total_usdc": 91409.47,
+      "trade_count": 500,
+      "market_count": 172,
+      "position_count": 101,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:16:45+00:00",
+      "top_markets": [
+        "Will Real Madrid CF win on 2026-10-10?",
+        "T20 World Cup Asia Sub-Regional Qualifier B: Malaysia vs Maldives",
+        "Spurs vs. Suns"
+      ],
+      "signals": [
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.572,
+          "cur_price": 0.385,
+          "usdc_size": 1595.02,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+      "name": "Flaznorp",
+      "score": 55.1,
+      "roi_score": 39.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.4,
+      "volume_score": 78.6,
+      "roi": 8.7,
+      "cash_pnl": 42548.54,
+      "realized_pnl": -1782.79,
+      "total_usdc": 30009.53,
+      "trade_count": 500,
+      "market_count": 148,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:47:30+00:00",
+      "top_markets": [
+        "Will Real Murcia CF win on 2026-10-11?",
+        "JEF United Ichihara Chiba vs. V-Varen Nagasaki: O/U 1.5",
+        "Gwangju FC vs. Ulsan HD FC: O/U 6.5"
+      ],
+      "signals": [
+        {
+          "market": "Will 1. FC K\u00f6ln win on 2026-10-11?",
+          "signal": "LATE",
+          "avg_price": 0.5147,
+          "cur_price": 0.495,
+          "usdc_size": 6777.11,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+          "signal": "LATE",
+          "avg_price": 0.33,
+          "cur_price": 0.32,
+          "usdc_size": 1552.63,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "LATE",
+          "avg_price": 0.3661,
+          "cur_price": 0.385,
+          "usdc_size": 1816.02,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6799,
+          "cur_price": 0.32,
+          "usdc_size": 12026.67,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Everton FC win on 2026-10-11?",
+          "signal": "SKIP",
+          "avg_price": 0.5333,
+          "cur_price": 0.465,
+          "usdc_size": 8992.1,
+          "outcome": "No"
+        },
+        {
+          "market": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.4855,
+          "cur_price": 0.0005,
+          "usdc_size": 5218.19,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+          "signal": "SKIP",
+          "avg_price": 0.6919,
+          "cur_price": 0.855,
+          "usdc_size": 2852.53,
+          "outcome": "Alex de Minaur"
+        },
+        {
+          "market": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+          "signal": "SKIP",
+          "avg_price": 0.2821,
+          "cur_price": 0.855,
+          "usdc_size": 562.78,
+          "outcome": "Rei Sakamoto"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6291,
+          "cur_price": 0.385,
+          "usdc_size": 562.69,
+          "outcome": "No"
+        },
+        {
+          "market": "Wuhan Tennis Open, Qualification: Han Shi vs Kamilla Rakhimova",
+          "signal": "SKIP",
+          "avg_price": 0.2692,
+          "cur_price": 0.9995,
+          "usdc_size": 545.61,
+          "outcome": "Han Shi"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4638702f203aaabc57fe2b9676c5cd9a2a686b0a",
+      "name": "ezMerge",
+      "score": 52.6,
+      "roi_score": 26.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.0,
+      "volume_score": 93.1,
+      "roi": -9.9,
+      "cash_pnl": -3986.93,
+      "realized_pnl": -1.35,
+      "total_usdc": 201780.51,
+      "trade_count": 500,
+      "market_count": 132,
+      "position_count": 28,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:45:17+00:00",
+      "top_markets": [
+        "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+        "LoL: Cupid Esports vs Disguised - Game 3 Winner",
+        "Pistons vs. Wizards"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
+      "score": 52.3,
+      "roi_score": 30.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.4,
+      "volume_score": 76.2,
+      "roi": -4.0,
+      "cash_pnl": -11450.12,
+      "realized_pnl": -4902.15,
+      "total_usdc": 22087.92,
+      "trade_count": 500,
+      "market_count": 206,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:48:20+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - October 11, 1:40AM-1:45AM ET",
+        "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+        "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto"
+      ],
+      "signals": [
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "ENTER",
+          "avg_price": 0.3533,
+          "cur_price": 0.345,
+          "usdc_size": 711.61,
+          "outcome": "Yes"
+        },
+        {
+          "market": "US announces end of Iranian blockade by October 15, 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.8903,
+          "cur_price": 0.045,
+          "usdc_size": 52553.32,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6099,
+          "cur_price": 0.385,
+          "usdc_size": 595.31,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa3ae764341ef84ea0c57df7cf78d259fd34caca3",
+      "name": "",
+      "score": 49.4,
+      "roi_score": 16.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.4,
+      "volume_score": 91.2,
+      "roi": -24.9,
+      "cash_pnl": -238.19,
+      "realized_pnl": 0.0,
+      "total_usdc": 158470.4,
+      "trade_count": 342,
+      "market_count": 112,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:47:50+00:00",
+      "top_markets": [
+        "China Open: Yunchaokete Bu vs Novak Djokovic",
+        "China Open: Donna Vekic vs Iga Swiatek",
+        "Japan Open Tennis Championships: Valentin Vacherot vs Stefanos Tsitsipas"
+      ],
+      "signals": [
+        {
+          "market": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+          "signal": "SKIP",
+          "avg_price": 0.2514,
+          "cur_price": 0.855,
+          "usdc_size": 531.29,
+          "outcome": "Rei Sakamoto"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+      "name": "0xE91171f655bE1568e4c63f29663c0028649e3d4e-1765651946286",
+      "score": 49.1,
+      "roi_score": 19.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 84.8,
+      "volume_score": 80.5,
+      "roi": -20.8,
+      "cash_pnl": -14536.34,
+      "realized_pnl": -696.85,
+      "total_usdc": 38639.83,
+      "trade_count": 500,
+      "market_count": 178,
+      "position_count": 111,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:40:21+00:00",
+      "top_markets": [
+        "UFC Fight Night: Brendan Allen vs. Christian Leroy Duncan (Middleweight, Main Card)",
+        "UFC Fight Night: Jai Herbert vs. Matheus Camilo (Lightweight, Main Card)",
+        "UFC Fight Night: Ketlen Souza vs. Loopy God\u00ednez (Women's Strawweight, Main Card)"
+      ],
+      "signals": [
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6165,
+          "cur_price": 0.385,
+          "usdc_size": 1817.17,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6b60d61e103690243070a68a4c19142ce3882fbb",
+      "name": "Rapinha",
+      "score": 47.1,
+      "roi_score": 29.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 83.2,
+      "roi": -6.0,
+      "cash_pnl": -32.5,
+      "realized_pnl": 0.0,
+      "total_usdc": 55347.35,
+      "trade_count": 500,
+      "market_count": 148,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:38:27+00:00",
+      "top_markets": [
+        "Gwangju FC vs. Ulsan HD FC: O/U 5.5",
+        "Will CA Progreso win on 2026-10-10?",
+        "Will FC Bayern M\u00fcnchen win on 2026-10-10?"
+      ],
+      "signals": []
+    },
     {
       "wallet": "0xc66ab53d0ae32949a32b82ab1c4671519ca0ed6a",
       "name": "drop1234",
@@ -31,188 +380,579 @@
       "signals": []
     },
     {
-      "wallet": "0x448861155279dbf833d041b963e3ac854599e319",
-      "name": "Flipadelphia",
-      "score": 42.7,
-      "roi_score": 34.5,
+      "wallet": "0xc9ccb64f093863a625122ed0dd2ce190c0c359de",
+      "name": "Rakatraka",
+      "score": 46.1,
+      "roi_score": 26.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.5,
-      "roi": 1.8,
-      "cash_pnl": 6221.46,
-      "realized_pnl": 226.61,
-      "total_usdc": 408539.07,
+      "early_entry_score": 50.0,
+      "volume_score": 82.5,
+      "roi": -10.6,
+      "cash_pnl": -42.55,
+      "realized_pnl": 1.58,
+      "total_usdc": 50208.26,
       "trade_count": 500,
-      "market_count": 53,
-      "position_count": 30,
+      "market_count": 133,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:21+00:00",
+      "last_active": "2026-10-11T06:38:21+00:00",
       "top_markets": [
-        "Will the Republican Party control the House after the 2026 Midterm elections?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Iowa vs. Washington"
+        "Will CA Progreso win on 2026-10-10?",
+        "Will Aston Villa FC vs. Brentford FC end in a draw?",
+        "Will Vancouver Whitecaps FC win on 2026-10-10?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+      "name": "Kkunn",
+      "score": 45.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.8,
+      "volume_score": 100.0,
+      "roi": -96.3,
+      "cash_pnl": -641941.08,
+      "realized_pnl": -26407.26,
+      "total_usdc": 763832.98,
+      "trade_count": 500,
+      "market_count": 64,
+      "position_count": 130,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:24:03+00:00",
+      "top_markets": [
+        "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+        "Wuhan Tennis Open, Qualification: Gabriela Ruse vs Yulia Putintseva",
+        "Shanghai Rolex Masters: Miomir Kecmanovic vs Jakub Mensik"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.5399,
-          "cur_price": 0.555,
-          "usdc_size": 4597.76,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.1234,
-          "cur_price": 0.115,
-          "usdc_size": 30914.17,
-          "outcome": "Yes"
-        },
-        {
-          "market": "USC vs. Penn State",
+          "market": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
           "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.565,
-          "usdc_size": 6389.86,
-          "outcome": "Penn State"
+          "avg_price": 0.3099,
+          "cur_price": 0.855,
+          "usdc_size": 3666.78,
+          "outcome": "Rei Sakamoto"
         },
         {
-          "market": "Spread: Alabama (-2.5)",
+          "market": "Wuhan Tennis Open, Qualification: Han Shi vs Kamilla Rakhimova",
           "signal": "SKIP",
-          "avg_price": 0.5199,
-          "cur_price": 0.375,
-          "usdc_size": 866.58,
-          "outcome": "Alabama"
+          "avg_price": 0.26,
+          "cur_price": 0.9995,
+          "usdc_size": 9995.0,
+          "outcome": "Han Shi"
         }
       ]
     },
     {
-      "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-      "name": "Flaznorp",
-      "score": 41.8,
-      "roi_score": 37.1,
+      "wallet": "0xe98c6194374418b1d1b27321f025bd64ac2c8792",
+      "name": "",
+      "score": 45.4,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.3,
-      "roi": 5.6,
-      "cash_pnl": 30664.89,
-      "realized_pnl": 2816.7,
-      "total_usdc": 42983.3,
+      "early_entry_score": 86.4,
+      "volume_score": 99.7,
+      "roi": -99.6,
+      "cash_pnl": -482535.29,
+      "realized_pnl": -10567.12,
+      "total_usdc": 478527.61,
       "trade_count": 500,
-      "market_count": 159,
+      "market_count": 187,
+      "position_count": 374,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:21:06+00:00",
+      "top_markets": [
+        "Set Handicap: Jiri Lehecka (-1.5) vs Zizou Bergs (+1.5)",
+        "Zheng vs. Rybakina: Match O/U 21.5",
+        "University at Albany vs. Buffalo"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 45.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.4,
+      "volume_score": 100.0,
+      "roi": -97.1,
+      "cash_pnl": -9322681.44,
+      "realized_pnl": 162664.11,
+      "total_usdc": 1734838.78,
+      "trade_count": 500,
+      "market_count": 81,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:55+00:00",
+      "last_active": "2026-10-11T06:40:14+00:00",
       "top_markets": [
-        "FC Andorra vs. CD Castell\u00f3n: O/U 3.5",
-        "Will Lusitania FC Lourosa win on 2026-10-11?",
-        "Will Austin FC vs. Nashville SC end in a draw?"
+        "Timberwolves vs. Heat",
+        "UFC Fight Night: Melissa Gatto vs. Ernesta Kareckaite (Women's Flyweight, Prelims)",
+        "Pistons vs. Wizards"
       ],
       "signals": [
         {
           "market": "Will Athletic Club win on 2026-10-10?",
-          "signal": "LATE",
-          "avg_price": 0.3661,
+          "signal": "ENTER",
+          "avg_price": 0.3899,
           "cur_price": 0.385,
-          "usdc_size": 1816.02,
+          "usdc_size": 10216.59,
           "outcome": "Yes"
         },
         {
-          "market": "North Dakota State vs. UNLV",
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "LATE",
-          "avg_price": 0.5109,
-          "cur_price": 0.545,
-          "usdc_size": 891.71,
-          "outcome": "North Dakota State"
+          "avg_price": 0.8579,
+          "cur_price": 0.8795,
+          "usdc_size": 48186.23,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x21801da197fabf39eea52f64f70544574b9508f0",
+      "name": "Luzzzer",
+      "score": 45.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.3,
+      "volume_score": 100.0,
+      "roi": -98.0,
+      "cash_pnl": -360967.34,
+      "realized_pnl": -5195.13,
+      "total_usdc": 1752182.19,
+      "trade_count": 247,
+      "market_count": 94,
+      "position_count": 37,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:42:00+00:00",
+      "top_markets": [
+        "Curitiba: Gustavo Heide vs Pedro Boscardin Dias",
+        "China Open: Elena Rybakina vs Alina Charaeva",
+        "Shanghai Rolex Masters: Mariano Navone vs Pablo Carreno Busta"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb5db6abf19904c4f18daa9bcd753edb99b1f5800",
+      "name": "blket",
+      "score": 45.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.1,
+      "volume_score": 98.1,
+      "roi": -99.9,
+      "cash_pnl": -249.64,
+      "realized_pnl": 0.0,
+      "total_usdc": 390436.93,
+      "trade_count": 500,
+      "market_count": 101,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:25:06+00:00",
+      "top_markets": [
+        "Asian Games Men: India vs Afghanistan",
+        "Golden Knights vs. Sharks",
+        "West Indies Tour of India ODIs: India vs West Indies"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x07cb5671e0ad0ba94db38b7e74661149feed743c",
+      "name": "dapr",
+      "score": 44.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 85.7,
+      "volume_score": 95.8,
+      "roi": -90.6,
+      "cash_pnl": -10687.18,
+      "realized_pnl": -2296.92,
+      "total_usdc": 289339.31,
+      "trade_count": 500,
+      "market_count": 189,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:43:17+00:00",
+      "top_markets": [
+        "Shanghai Rolex Masters: Yi Zhou vs Lorenzo Musetti",
+        "Wuning 3: Keisuke Saitoh vs Akira Santillan",
+        "Wimbledon: Fritz vs. Diallo "
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+      "name": "n1ck10s",
+      "score": 44.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.1,
+      "volume_score": 92.4,
+      "roi": -58.0,
+      "cash_pnl": -2513.8,
+      "realized_pnl": -180.09,
+      "total_usdc": 183776.97,
+      "trade_count": 500,
+      "market_count": 176,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:43:35+00:00",
+      "top_markets": [
+        "Cleveland Guardians vs. Chicago White Sox",
+        "Shanghai Rolex Masters: Arthur Gea vs Ugo Humbert",
+        "Braga: Mackenzie McDonald vs Ryan Nijboer"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "score": 44.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.7,
+      "volume_score": 90.6,
+      "roi": -98.1,
+      "cash_pnl": -4030517.71,
+      "realized_pnl": 1332415.83,
+      "total_usdc": 145469.89,
+      "trade_count": 500,
+      "market_count": 91,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:47:33+00:00",
+      "top_markets": [
+        "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+        "Spread: Arizona State (-11.5)",
+        "JEF United Ichihara Chiba vs. V-Varen Nagasaki: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Wuhan Tennis Open, Qualification: Han Shi vs Kamilla Rakhimova",
+          "signal": "SKIP",
+          "avg_price": 0.6517,
+          "cur_price": 0.9995,
+          "usdc_size": 31822.12,
+          "outcome": "Han Shi"
         },
         {
-          "market": "Will Nashville SC win on 2026-10-10?",
+          "market": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
           "signal": "SKIP",
-          "avg_price": 0.4492,
-          "cur_price": 0.575,
-          "usdc_size": 3501.45,
-          "outcome": "No"
-        },
-        {
-          "market": "Timberwolves vs. Heat",
-          "signal": "SKIP",
-          "avg_price": 0.3979,
-          "cur_price": 0.595,
-          "usdc_size": 770.92,
-          "outcome": "Heat"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4872,
-          "cur_price": 0.565,
-          "usdc_size": 501.81,
-          "outcome": "Penn State"
+          "avg_price": 0.3702,
+          "cur_price": 0.0005,
+          "usdc_size": 21738.14,
+          "outcome": "Arthur Gea"
         },
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.6291,
+          "avg_price": 0.6228,
           "cur_price": 0.385,
-          "usdc_size": 562.69,
+          "usdc_size": 8640.42,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x7a6bbc024ef64654245b881e5c154c35c93e6704",
-      "name": "5zsb4x7j32dx",
-      "score": 41.5,
-      "roi_score": 31.3,
+      "wallet": "0xd6e4ff02559b36ed56c4ff96315e20393b4968be",
+      "name": "",
+      "score": 44.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.7,
-      "roi": -3.1,
-      "cash_pnl": -59.37,
-      "realized_pnl": 0.0,
-      "total_usdc": 322679.34,
-      "trade_count": 264,
-      "market_count": 57,
-      "position_count": 1,
+      "early_entry_score": 90.1,
+      "volume_score": 81.2,
+      "roi": -100.0,
+      "cash_pnl": -14551.58,
+      "realized_pnl": -649.15,
+      "total_usdc": 42213.73,
+      "trade_count": 500,
+      "market_count": 299,
+      "position_count": 256,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:17:58+00:00",
+      "last_active": "2026-10-11T06:45:17+00:00",
       "top_markets": [
-        "Will Wyndham Clark win the 2026 BMW Championship?",
-        "Pittsburgh vs. Virginia Tech",
-        "Will Viktor Hovland win the 2026 TOUR Championship?"
+        "Shanghai Rolex Masters: Karen Khachanov vs Arthur Fery",
+        "Estoril Open: Alexander Blockx vs Luciano Darderi",
+        "Estoril Open: Henrique Rocha vs Pedro Martinez"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0ee52436cfd4c726385fec293d48d99d3b44e798",
+      "name": "bogemika",
+      "score": 44.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.1,
+      "volume_score": 84.6,
+      "roi": -99.9,
+      "cash_pnl": -337274.01,
+      "realized_pnl": -9802.2,
+      "total_usdc": 66002.39,
+      "trade_count": 500,
+      "market_count": 193,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:48:29+00:00",
+      "top_markets": [
+        "Villena: Max Hans Rehberg vs Hynek Barton",
+        "Shanghai Rolex Masters, Qualification: Rigele Te vs Ilia Simakin",
+        "Dota 2: Team Yandex vs BetBoom Team - Game 2 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x33ae5c5d641ebda2f1be68b756694d4da82acf9e",
+      "name": "Vampiro1",
+      "score": 43.0,
+      "roi_score": 16.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 81.2,
+      "roi": -25.5,
+      "cash_pnl": -122.36,
+      "realized_pnl": 13.52,
+      "total_usdc": 42308.19,
+      "trade_count": 500,
+      "market_count": 148,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:37:03+00:00",
+      "top_markets": [
+        "Will Fulham FC win on 2026-10-10?",
+        "FC Augsburg vs. FC Bayern M\u00fcnchen: O/U 3.5",
+        "Will Hamburger SV win on 2026-10-10?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x709e8dcb133555794decc598e07f2c923b8366f5",
+      "name": "0xd4aa6f8e91cfea29b66a48ebff52814",
+      "score": 42.5,
+      "roi_score": 33.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -0.0,
+      "cash_pnl": -80.99,
+      "realized_pnl": 0.0,
+      "total_usdc": 1964117.29,
+      "trade_count": 500,
+      "market_count": 37,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-10T12:01:52+00:00",
+      "top_markets": [
+        "Will SSC Napoli win on 2026-09-09?",
+        "Will Deportivo Alav\u00e9s win on 2026-09-15?",
+        "Will Belgium win on 2026-09-28?"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
+          "market": "Will JD Vance win the 2028 US Presidential Election?",
           "signal": "SKIP",
-          "avg_price": 0.4799,
-          "cur_price": 0.555,
-          "usdc_size": 1840.62,
-          "outcome": "Alabama"
+          "avg_price": 0.5,
+          "cur_price": 0.1685,
+          "usdc_size": 178326.58,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will JD Vance win the 2028 US Presidential Election?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.1685,
+          "usdc_size": 879991.42,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6158,
+          "cur_price": 0.385,
+          "usdc_size": 56110.13,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8",
+      "name": "fRibrenlc",
+      "score": 42.1,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.1,
+      "roi": 0.1,
+      "cash_pnl": 1.99,
+      "realized_pnl": 0.0,
+      "total_usdc": 300069.08,
+      "trade_count": 500,
+      "market_count": 48,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-10T23:49:24+00:00",
+      "top_markets": [
+        "Map Handicap: MOUZ (-1.5) vs FURIA (+1.5)",
+        "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+        "Map Handicap: FaZe (-1.5) vs Sangal (+1.5)"
+      ],
+      "signals": [
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "ENTER",
+          "avg_price": 0.39,
+          "cur_price": 0.385,
+          "usdc_size": 1710.94,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "name": "VeryLucky888",
+      "score": 41.5,
+      "roi_score": 35.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.0,
+      "roi": 3.1,
+      "cash_pnl": 13078.8,
+      "realized_pnl": 10.05,
+      "total_usdc": 60874.99,
+      "trade_count": 500,
+      "market_count": 189,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:47:30+00:00",
+      "top_markets": [
+        "W15 Chisinau: Astrid Wanja Brune Olsen vs Felitsata Dorofeeva-Rybas",
+        "W50 Heraklion: Ipek Oz vs Alisa Oktiabreva",
+        "FK LNZ Cherkasy vs. FK Kudrivka: O/U 2.5"
+      ],
+      "signals": [
+        {
+          "market": "Browns vs. Jets",
+          "signal": "ENTER",
+          "avg_price": 0.43,
+          "cur_price": 0.435,
+          "usdc_size": 7222.86,
+          "outcome": "Browns"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "ENTER",
+          "avg_price": 0.3799,
+          "cur_price": 0.385,
+          "usdc_size": 2887.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will 1. FC K\u00f6ln win on 2026-10-11?",
+          "signal": "LATE",
+          "avg_price": 0.5139,
+          "cur_price": 0.495,
+          "usdc_size": 6590.31,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+          "signal": "LATE",
+          "avg_price": 0.33,
+          "cur_price": 0.32,
+          "usdc_size": 3200.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Browns vs. Jets",
+          "signal": "SKIP",
+          "avg_price": 0.55,
+          "cur_price": 0.435,
+          "usdc_size": 11300.0,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Will Everton FC win on 2026-10-11?",
+          "signal": "SKIP",
+          "avg_price": 0.5316,
+          "cur_price": 0.465,
+          "usdc_size": 10560.19,
+          "outcome": "No"
+        },
+        {
+          "market": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.2725,
+          "cur_price": 0.0005,
+          "usdc_size": 7496.24,
+          "outcome": "Arthur Gea"
+        },
+        {
+          "market": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+          "signal": "SKIP",
+          "avg_price": 0.6923,
+          "cur_price": 0.855,
+          "usdc_size": 4950.01,
+          "outcome": "Alex de Minaur"
         }
       ]
     },
     {
       "wallet": "0xe72bb501df5306c75c89383d48a1e81073fbb0a0",
       "name": "norrisfan",
-      "score": 40.5,
-      "roi_score": 27.3,
+      "score": 40.4,
+      "roi_score": 26.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 98.5,
-      "roi": -9.1,
-      "cash_pnl": -4365.85,
+      "roi": -9.6,
+      "cash_pnl": -4632.55,
       "realized_pnl": -567.81,
       "total_usdc": 409925.35,
       "trade_count": 500,
@@ -239,70 +979,98 @@
       ]
     },
     {
-      "wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-      "name": "dips.",
-      "score": 39.7,
-      "roi_score": 30.8,
+      "wallet": "0xa697d0b3fff7d285a0f92d6ee03a7f97809e59d5",
+      "name": "0xa697d0b3FFf7D285a0F92d6Ee03a7f97809E59d5-1774326306031",
+      "score": 40.3,
+      "roi_score": 32.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 79.5,
-      "roi": -3.8,
-      "cash_pnl": -3232.8,
-      "realized_pnl": 1633.04,
-      "total_usdc": 33977.29,
+      "volume_score": 80.9,
+      "roi": -1.5,
+      "cash_pnl": -356.48,
+      "realized_pnl": -625.19,
+      "total_usdc": 40707.9,
       "trade_count": 500,
-      "market_count": 132,
-      "position_count": 500,
+      "market_count": 187,
+      "position_count": 123,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:42+00:00",
+      "last_active": "2026-10-11T06:45:26+00:00",
       "top_markets": [
-        "Louisiana Team Total: O/U 20.5",
-        "UFC Fight Night: Gerald Meerschaert vs. Julius Walker (Light Heavyweight, Main Card)",
-        "Will Guayaquil City FC win on 2026-10-10?"
+        "Will CA Tigre vs. CA Banfield end in a draw?",
+        "Wild vs. Panthers",
+        "USC vs. Penn State"
       ],
       "signals": [
         {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
           "signal": "ENTER",
-          "avg_price": 0.113,
-          "cur_price": 0.115,
-          "usdc_size": 1827.12,
+          "avg_price": 0.3293,
+          "cur_price": 0.32,
+          "usdc_size": 675.87,
           "outcome": "Yes"
         },
         {
-          "market": "Timberwolves vs. Heat",
+          "market": "Will 1. FC K\u00f6ln win on 2026-10-11?",
           "signal": "LATE",
-          "avg_price": 0.626,
-          "cur_price": 0.595,
-          "usdc_size": 1637.03,
-          "outcome": "Timberwolves"
+          "avg_price": 0.5189,
+          "cur_price": 0.495,
+          "usdc_size": 1136.44,
+          "outcome": "No"
         },
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.6011,
+          "avg_price": 0.6237,
           "cur_price": 0.385,
-          "usdc_size": 6805.03,
+          "usdc_size": 1387.52,
           "outcome": "No"
         },
         {
-          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+          "market": "Will Everton FC win on 2026-10-11?",
           "signal": "SKIP",
-          "avg_price": 0.0799,
-          "cur_price": 0.905,
-          "usdc_size": 528.22,
+          "avg_price": 0.534,
+          "cur_price": 0.465,
+          "usdc_size": 599.76,
           "outcome": "No"
-        },
+        }
+      ]
+    },
+    {
+      "wallet": "0x168fd826a1f30c1752f221b74a7a1316c54f6424",
+      "name": "printmon",
+      "score": 39.5,
+      "roi_score": 23.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -14.8,
+      "cash_pnl": -3087.14,
+      "realized_pnl": -74.32,
+      "total_usdc": 865388.14,
+      "trade_count": 500,
+      "market_count": 162,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T03:54:35+00:00",
+      "top_markets": [
+        "Will Mexico win on 2026-10-03?",
+        "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+        "Will United States win on 2026-09-29?"
+      ],
+      "signals": [
         {
-          "market": "USC vs. Penn State",
+          "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.4799,
-          "cur_price": 0.565,
-          "usdc_size": 1284.15,
-          "outcome": "Penn State"
+          "avg_price": 0.61,
+          "cur_price": 0.385,
+          "usdc_size": 17724.3,
+          "outcome": "No"
         }
       ]
     },
@@ -315,12 +1083,12 @@
       "consistency_score": 50.0,
       "early_entry_score": 50.0,
       "volume_score": 93.6,
-      "roi": -92.2,
-      "cash_pnl": -254890.02,
+      "roi": -92.4,
+      "cash_pnl": -255346.32,
       "realized_pnl": 828.09,
       "total_usdc": 216228.08,
       "trade_count": 500,
-      "market_count": 14,
+      "market_count": 15,
       "position_count": 473,
       "resolved_count": 0,
       "win_rate": 0,
@@ -333,6 +1101,14 @@
       ],
       "signals": [
         {
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+          "signal": "ENTER",
+          "avg_price": 0.32,
+          "cur_price": 0.32,
+          "usdc_size": 2079.92,
+          "outcome": "Yes"
+        },
+        {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
           "avg_price": 0.64,
@@ -343,16 +1119,60 @@
       ]
     },
     {
+      "wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "name": "",
+      "score": 39.2,
+      "roi_score": 25.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.7,
+      "roi": -11.3,
+      "cash_pnl": -672.86,
+      "realized_pnl": 0.0,
+      "total_usdc": 129977.17,
+      "trade_count": 500,
+      "market_count": 113,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T00:20:00+00:00",
+      "top_markets": [
+        "Will Barnsley FC win on 2026-10-10?",
+        "Will Wigan Athletic FC win on 2026-10-10?",
+        "Will Stevenage FC win on 2026-10-10?"
+      ],
+      "signals": [
+        {
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+          "signal": "ENTER",
+          "avg_price": 0.3249,
+          "cur_price": 0.32,
+          "usdc_size": 1366.72,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6125,
+          "cur_price": 0.385,
+          "usdc_size": 2735.52,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
       "wallet": "0xfa12f098624225d5494d57e4cb90b5c192549ff3",
       "name": "wazzzzzap",
-      "score": 38.7,
-      "roi_score": 26.8,
+      "score": 38.8,
+      "roi_score": 26.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 82.0,
       "roi": -9.7,
-      "cash_pnl": -1290.04,
+      "cash_pnl": -1281.68,
       "realized_pnl": 35.44,
       "total_usdc": 46998.03,
       "trade_count": 500,
@@ -379,1010 +1199,206 @@
       ]
     },
     {
-      "wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-      "name": "0xD9E0AACa471f48F91A26E8669A805f2",
-      "score": 37.0,
-      "roi_score": 23.2,
+      "wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+      "name": "dips.",
+      "score": 38.1,
+      "roi_score": 12.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.5,
-      "roi": -15.2,
-      "cash_pnl": -89851.71,
-      "realized_pnl": 29319.71,
-      "total_usdc": 20108.19,
+      "early_entry_score": 23.3,
+      "volume_score": 83.0,
+      "roi": -30.9,
+      "cash_pnl": -18450.54,
+      "realized_pnl": 2310.97,
+      "total_usdc": 53780.23,
       "trade_count": 500,
-      "market_count": 61,
+      "market_count": 135,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:42+00:00",
+      "last_active": "2026-10-11T06:45:56+00:00",
       "top_markets": [
-        "Georgia vs. Alabama",
-        "Will Inter Miami CF win on 2026-10-10?",
-        "Will Quer\u00e9taro FC win on 2026-10-10?"
+        "KBO: KT Wiz vs. Samsung Lions",
+        "Will CD Mineros de Zacatecas vs. Cancun FC end in a draw?",
+        "T20 World Cup Asia Sub-Regional Qualifier B: Hong Kong vs Saudi Arabia"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4526,
-          "cur_price": 0.555,
-          "usdc_size": 3731.91,
-          "outcome": "Georgia"
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "ENTER",
+          "avg_price": 0.113,
+          "cur_price": 0.115,
+          "usdc_size": 1827.12,
+          "outcome": "Yes"
         },
         {
-          "market": "Georgia vs. Alabama",
+          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
           "signal": "SKIP",
-          "avg_price": 0.506,
-          "cur_price": 0.555,
-          "usdc_size": 3111.98,
-          "outcome": "Alabama"
+          "avg_price": 0.0799,
+          "cur_price": 0.905,
+          "usdc_size": 528.22,
+          "outcome": "No"
         },
         {
-          "market": "Minnesota vs. Purdue",
+          "market": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
           "signal": "SKIP",
-          "avg_price": 0.6311,
-          "cur_price": 0.275,
-          "usdc_size": 1402.55,
-          "outcome": "Purdue"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.489,
-          "cur_price": 0.565,
-          "usdc_size": 1036.26,
-          "outcome": "Penn State"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.275,
-          "usdc_size": 507.41,
-          "outcome": "Minnesota"
+          "avg_price": 0.7663,
+          "cur_price": 0.855,
+          "usdc_size": 532.46,
+          "outcome": "Alex de Minaur"
         }
       ]
     },
     {
-      "wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-      "name": "0xE91171f655bE1568e4c63f29663c0028649e3d4e-1765651946286",
-      "score": 36.2,
-      "roi_score": 18.7,
+      "wallet": "0x228b8d11eba89bf1c554f8879a9293b7106daf4c",
+      "name": "0x228B8d11EBa89BF1c554f8879a9293B7106DaF4c-1765442354872",
+      "score": 38.0,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.5,
-      "roi": -21.9,
-      "cash_pnl": -18737.83,
-      "realized_pnl": -951.3,
-      "total_usdc": 38575.71,
+      "early_entry_score": 50.0,
+      "volume_score": 80.2,
+      "roi": -87.7,
+      "cash_pnl": -162501.75,
+      "realized_pnl": 229333.83,
+      "total_usdc": 37415.38,
       "trade_count": 500,
-      "market_count": 138,
-      "position_count": 167,
+      "market_count": 51,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:25+00:00",
+      "last_active": "2026-10-11T04:56:41+00:00",
       "top_markets": [
-        "Will the fight end before Round 3?",
-        "Will Guayaquil City FC win on 2026-10-10?",
-        "UFC Fight Night: Allen Frye Jr. vs. RJ Harris (Heavyweight, Prelims)"
+        "Spurs vs. Suns",
+        "Los Angeles FC vs. Vancouver Whitecaps FC: 1st Half O/U 1.5",
+        "Spurs vs. Suns: O/U 225.5"
+      ],
+      "signals": [
+        {
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6618,
+          "cur_price": 0.32,
+          "usdc_size": 1151.34,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.3266,
+          "cur_price": 0.385,
+          "usdc_size": 527.52,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6b23c73159b753c96d3c1ed94413f113300c04a3",
+      "name": "pauleta23",
+      "score": 37.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 70.8,
+      "roi": -96.2,
+      "cash_pnl": -45570.12,
+      "realized_pnl": -1223.58,
+      "total_usdc": 10874.53,
+      "trade_count": 500,
+      "market_count": 163,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:41:26+00:00",
+      "top_markets": [
+        "LoL: Cupid Esports vs Disguised - Game 3 Winner",
+        "UFC Fight Night: Brendan Allen vs. Christian Leroy Duncan (Middleweight, Main Card)",
+        "Will ADC Juan Pablo II College win on 2026-10-10?"
       ],
       "signals": [
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.6165,
+          "avg_price": 0.6899,
           "cur_price": 0.385,
-          "usdc_size": 1817.17,
+          "usdc_size": 1254.4,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-      "name": "Nooserac",
-      "score": 35.9,
-      "roi_score": 11.3,
+      "wallet": "0x6f0ebea3c2e777699519ee128faaa07a9d0b2ee5",
+      "name": "CongoleseBorat",
+      "score": 32.5,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -33.0,
-      "cash_pnl": -248378.56,
-      "realized_pnl": 132875.07,
-      "total_usdc": 869425.97,
+      "roi": -99.6,
+      "cash_pnl": -723896.16,
+      "realized_pnl": -2951.67,
+      "total_usdc": 833774.52,
       "trade_count": 500,
-      "market_count": 128,
-      "position_count": 418,
+      "market_count": 30,
+      "position_count": 28,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:38:48+00:00",
+      "last_active": "2026-10-11T06:45:27+00:00",
       "top_markets": [
-        "Will Manchester United FC win on 2026-10-10?",
-        "Spread: San Jose State (-4.5)",
-        "Spread: Illinois (-16.5)"
+        "Will Manchester United FC win on 2026-09-06?",
+        "Spread: FC Bayern M\u00fcnchen (-2.5)",
+        "Will Norway win on 2026-10-01?"
       ],
       "signals": [
         {
-          "market": "USC vs. Penn State",
+          "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "ENTER",
-          "avg_price": 0.5499,
-          "cur_price": 0.565,
-          "usdc_size": 1065.74,
-          "outcome": "Penn State"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4436,
-          "cur_price": 0.555,
-          "usdc_size": 24834.88,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.4976,
-          "cur_price": 0.275,
-          "usdc_size": 21892.87,
-          "outcome": "Purdue"
-        },
-        {
-          "market": "North Dakota State vs. UNLV",
-          "signal": "SKIP",
-          "avg_price": 0.4899,
-          "cur_price": 0.545,
-          "usdc_size": 4799.25,
-          "outcome": "UNLV"
+          "avg_price": 0.39,
+          "cur_price": 0.385,
+          "usdc_size": 3112.96,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-      "name": "6512395314597884",
-      "score": 35.9,
-      "roi_score": 15.2,
+      "wallet": "0x0f6f76ced62a911bccef92f50faaff143854d977",
+      "name": "totoro3miyazaki",
+      "score": 32.5,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.4,
-      "roi": -27.2,
-      "cash_pnl": -40273.14,
-      "realized_pnl": -162.33,
-      "total_usdc": 109176.7,
+      "volume_score": 100.0,
+      "roi": -95.5,
+      "cash_pnl": -3353877.63,
+      "realized_pnl": -75933.36,
+      "total_usdc": 11109618.79,
       "trade_count": 500,
-      "market_count": 110,
-      "position_count": 381,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:16+00:00",
-      "top_markets": [
-        "Texas vs. Oklahoma",
-        "Georgia vs. Alabama",
-        "USC vs. Penn State"
-      ],
-      "signals": [
-        {
-          "market": "USC vs. Penn State",
-          "signal": "LATE",
-          "avg_price": 0.5301,
-          "cur_price": 0.565,
-          "usdc_size": 4444.37,
-          "outcome": "USC"
-        },
-        {
-          "market": "Chicago White Sox vs. Cleveland Guardians",
-          "signal": "LATE",
-          "avg_price": 0.4258,
-          "cur_price": 0.455,
-          "usdc_size": 3150.32,
-          "outcome": "Chicago White Sox"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4997,
-          "cur_price": 0.555,
-          "usdc_size": 9362.95,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4954,
-          "cur_price": 0.565,
-          "usdc_size": 8069.05,
-          "outcome": "Penn State"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.5058,
-          "cur_price": 0.275,
-          "usdc_size": 4278.12,
-          "outcome": "Minnesota"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.515,
-          "cur_price": 0.555,
-          "usdc_size": 5017.48,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "North Dakota State vs. UNLV",
-          "signal": "SKIP",
-          "avg_price": 0.4891,
-          "cur_price": 0.545,
-          "usdc_size": 3926.92,
-          "outcome": "North Dakota State"
-        },
-        {
-          "market": "North Dakota State vs. UNLV",
-          "signal": "SKIP",
-          "avg_price": 0.6663,
-          "cur_price": 0.545,
-          "usdc_size": 2781.06,
-          "outcome": "UNLV"
-        },
-        {
-          "market": "Chicago White Sox vs. Cleveland Guardians",
-          "signal": "SKIP",
-          "avg_price": 0.5856,
-          "cur_price": 0.455,
-          "usdc_size": 3535.07,
-          "outcome": "Cleveland Guardians"
-        },
-        {
-          "market": "San Diego State vs. Oregon State",
-          "signal": "SKIP",
-          "avg_price": 0.8661,
-          "cur_price": 0.0005,
-          "usdc_size": 3618.61,
-          "outcome": "Oregon State"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.66,
-          "cur_price": 0.275,
-          "usdc_size": 2210.88,
-          "outcome": "Purdue"
-        },
-        {
-          "market": "LSU vs. Kentucky: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.45,
-          "cur_price": 0.77,
-          "usdc_size": 805.0,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
-      "name": "3648393489047",
-      "score": 34.6,
-      "roi_score": 7.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.5,
-      "roi": -39.0,
-      "cash_pnl": -51632.2,
-      "realized_pnl": -10018.06,
-      "total_usdc": 412679.91,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:27:13+00:00",
-      "top_markets": [
-        "LoL: Maryville University vs Cupid Esports - Game 3 Winner",
-        "LoL: FlyQuest vs RED Canids - Game 1 Winner",
-        "LoL: Disguised vs Maryville University - Game 4 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.5608,
-          "cur_price": 0.555,
-          "usdc_size": 29269.67,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
-      "name": "Thorin.CSGO",
-      "score": 34.5,
-      "roi_score": 7.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.3,
-      "roi": -38.2,
-      "cash_pnl": -9856.34,
-      "realized_pnl": -51.79,
-      "total_usdc": 308603.39,
-      "trade_count": 500,
-      "market_count": 51,
+      "market_count": 18,
       "position_count": 9,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-10T23:50:39+00:00",
+      "last_active": "2026-10-10T12:01:52+00:00",
       "top_markets": [
-        "Ducks vs. Jets",
-        "Dota 2: Team Synapse vs LEGION - Game 2 Winner",
-        "Map Handicap: AUR (-1.5) vs 1WIN (+1.5)"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.54,
-          "cur_price": 0.555,
-          "usdc_size": 5460.0,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7714c16f86bcfdba47bfcb161dc39a2a1ff2b814",
-      "name": "llllllIIIIIIlIllllllIIIIIIlIllllllIIIIIIlI",
-      "score": 34.3,
-      "roi_score": 6.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.3,
-      "roi": -39.6,
-      "cash_pnl": -5966.93,
-      "realized_pnl": -56.9,
-      "total_usdc": 348536.68,
-      "trade_count": 500,
-      "market_count": 94,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-10T23:35:27+00:00",
-      "top_markets": [
-        "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs",
-        "Dota 2: 1win vs OG - Game 1 Winner",
-        "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitational Group Stage"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.55,
-          "cur_price": 0.555,
-          "usdc_size": 9100.0,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x89c914bbf4aa6dcc78541598bd8861e5f2259534",
-      "name": "0x89c914bbf4aa6dcc78541598bd8861e5f225953",
-      "score": 33.1,
-      "roi_score": 7.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.8,
-      "roi": -38.2,
-      "cash_pnl": -3616.21,
-      "realized_pnl": -1.93,
-      "total_usdc": 52305.48,
-      "trade_count": 500,
-      "market_count": 232,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-10T23:50:39+00:00",
-      "top_markets": [
-        "UFC 331: Alonzo Menifield vs. Iwo Baraniewski (Light Heavyweight, Main Card)",
-        "Sharks vs. Stars",
-        "Spread: Vikings (-1.5)"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.54,
-          "cur_price": 0.555,
-          "usdc_size": 5386.51,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-      "name": "mooseborzoii",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -79.8,
-      "cash_pnl": -3072982.45,
-      "realized_pnl": -2701.08,
-      "total_usdc": 617259.68,
-      "trade_count": 500,
-      "market_count": 39,
-      "position_count": 391,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:54+00:00",
-      "top_markets": [
-        "Georgia vs. Alabama",
-        "Texas vs. Oklahoma",
-        "Maple Leafs vs. Avalanche"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "LATE",
-          "avg_price": 0.5367,
-          "cur_price": 0.555,
-          "usdc_size": 310684.59,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.5217,
-          "cur_price": 0.275,
-          "usdc_size": 39172.85,
-          "outcome": "Minnesota"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4435,
-          "cur_price": 0.555,
-          "usdc_size": 40948.49,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "Spread: Alabama (-2.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5046,
-          "cur_price": 0.375,
-          "usdc_size": 15049.68,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "LSU vs. Kentucky: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.4699,
-          "cur_price": 0.77,
-          "usdc_size": 27882.14,
-          "outcome": "Over"
-        },
-        {
-          "market": "Will Athletic Club win on 2026-10-10?",
-          "signal": "SKIP",
-          "avg_price": 0.6116,
-          "cur_price": 0.385,
-          "usdc_size": 17008.96,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Nashville SC win on 2026-10-10?",
-          "signal": "SKIP",
-          "avg_price": 0.42,
-          "cur_price": 0.575,
-          "usdc_size": 10060.96,
-          "outcome": "No"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.667,
-          "cur_price": 0.275,
-          "usdc_size": 15462.02,
-          "outcome": "Purdue"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.5055,
-          "cur_price": 0.565,
-          "usdc_size": 10007.16,
-          "outcome": "Penn State"
-        },
-        {
-          "market": "North Dakota State vs. UNLV",
-          "signal": "SKIP",
-          "avg_price": 0.4845,
-          "cur_price": 0.545,
-          "usdc_size": 6669.73,
-          "outcome": "UNLV"
-        },
-        {
-          "market": "North Dakota State vs. UNLV",
-          "signal": "SKIP",
-          "avg_price": 0.4594,
-          "cur_price": 0.545,
-          "usdc_size": 7423.55,
-          "outcome": "North Dakota State"
-        },
-        {
-          "market": "Georgia vs. Alabama: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.4802,
-          "cur_price": 0.145,
-          "usdc_size": 7974.34,
-          "outcome": "Under"
-        },
-        {
-          "market": "Chicago White Sox vs. Cleveland Guardians",
-          "signal": "SKIP",
-          "avg_price": 0.5647,
-          "cur_price": 0.455,
-          "usdc_size": 4678.65,
-          "outcome": "Cleveland Guardians"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.565,
-          "usdc_size": 3624.91,
-          "outcome": "USC"
-        }
-      ]
-    },
-    {
-      "wallet": "0x418d51e13d019913bb027db22ecc723fe1ad88a3",
-      "name": "0x418D51e13d019913BB027DB22ECc723fe1AD88A3-1720918577961",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -95.4,
-      "cash_pnl": -479275.52,
-      "realized_pnl": -4412.64,
-      "total_usdc": 560896.09,
-      "trade_count": 500,
-      "market_count": 79,
-      "position_count": 165,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:33:43+00:00",
-      "top_markets": [
-        "Purdue vs. UCLA",
-        "Giants vs. Rams",
-        "Spread: Packers (-3.5)"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4995,
-          "cur_price": 0.555,
-          "usdc_size": 10700.0,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4999,
-          "cur_price": 0.565,
-          "usdc_size": 4750.0,
-          "outcome": "USC"
-        },
-        {
-          "market": "Georgia vs. Alabama: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.49,
-          "cur_price": 0.145,
-          "usdc_size": 4200.0,
-          "outcome": "Under"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
-      "name": "primm",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -99.0,
-      "cash_pnl": -7526185.37,
-      "realized_pnl": -1895.61,
-      "total_usdc": 524368.67,
-      "trade_count": 500,
-      "market_count": 145,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:38:48+00:00",
-      "top_markets": [
-        "Spread: Iowa (-13.5)",
-        "Texas vs. Oklahoma",
-        "Spread: Illinois (-4.5)"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.555,
-          "usdc_size": 9630.0,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0xbf1af4eaa64ecc3aafff7a64d32fce6136ba83ea",
-      "name": "BryanOlivera16",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.5,
-      "roi": -85.1,
-      "cash_pnl": -16195.45,
-      "realized_pnl": -2684.16,
-      "total_usdc": 469973.22,
-      "trade_count": 500,
-      "market_count": 180,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:06:30+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - July 30, 3:40PM-3:45PM ET",
-        "Bitcoin Up or Down - July 30, 6:00PM-6:05PM ET",
-        "Bitcoin Up or Down - July 30, 3:35PM-3:40PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "LATE",
-          "avg_price": 0.5899,
-          "cur_price": 0.555,
-          "usdc_size": 2825.53,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -93.1,
-      "cash_pnl": -9124457.46,
-      "realized_pnl": 165820.47,
-      "total_usdc": 1718198.73,
-      "trade_count": 500,
-      "market_count": 87,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:33:49+00:00",
-      "top_markets": [
-        "Will Manchester United FC win on 2026-10-10?",
-        "UFC Fight Night: Melissa Gatto vs. Ernesta Kareckaite (Women's Flyweight, Prelims)",
-        "Manchester United FC vs. Tottenham Hotspur FC: O/U 2.5"
+        "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+        "Will Rayo Vallecano de Madrid win on 2026-09-19?",
+        "Will Brentford FC win on 2026-09-18?"
       ],
       "signals": [
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "ENTER",
-          "avg_price": 0.3899,
+          "avg_price": 0.3862,
           "cur_price": 0.385,
-          "usdc_size": 10216.59,
+          "usdc_size": 157125.68,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8579,
-          "cur_price": 0.8795,
-          "usdc_size": 48186.23,
-          "outcome": "Yes"
-        },
-        {
-          "market": "LSU vs. Kentucky: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.1799,
-          "cur_price": 0.77,
-          "usdc_size": 21215.02,
-          "outcome": "Under"
-        },
-        {
-          "market": "LSU vs. Kentucky: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.77,
-          "usdc_size": 83351.66,
-          "outcome": "Over"
-        },
-        {
-          "market": "San Diego State vs. Oregon State",
-          "signal": "SKIP",
-          "avg_price": 0.85,
-          "cur_price": 0.0005,
-          "usdc_size": 99950.0,
-          "outcome": "Oregon State"
-        },
-        {
-          "market": "Chicago White Sox vs. Cleveland Guardians",
-          "signal": "SKIP",
-          "avg_price": 0.56,
-          "cur_price": 0.455,
-          "usdc_size": 56500.0,
-          "outcome": "Cleveland Guardians"
-        },
-        {
-          "market": "Georgia vs. Alabama: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.5199,
-          "cur_price": 0.145,
-          "usdc_size": 13873.15,
-          "outcome": "Over"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.555,
-          "usdc_size": 22617.69,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.6299,
-          "cur_price": 0.275,
-          "usdc_size": 19162.03,
-          "outcome": "Purdue"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4899,
-          "cur_price": 0.565,
-          "usdc_size": 12068.94,
-          "outcome": "Penn State"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf28e42d20e4826f2b10a24bc952001697947cab2",
-      "name": "ethanaz",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -95.7,
-      "cash_pnl": -3993064.41,
-      "realized_pnl": -19789.49,
-      "total_usdc": 5650324.92,
-      "trade_count": 500,
-      "market_count": 151,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:24:43+00:00",
-      "top_markets": [
-        "Chiefs vs. Raiders",
-        "Commanders vs. Cowboys",
-        "Colts vs. Chiefs"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4929,
-          "cur_price": 0.555,
-          "usdc_size": 88794.59,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.4804,
-          "cur_price": 0.275,
-          "usdc_size": 76952.94,
-          "outcome": "Purdue"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7e3a1f95c558f39a51ff334d789e3e039b553246",
-      "name": "KaneAnalytics",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -97.7,
-      "cash_pnl": -1794353.42,
-      "realized_pnl": -3937.05,
-      "total_usdc": 2298060.85,
-      "trade_count": 500,
-      "market_count": 195,
-      "position_count": 296,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:06:58+00:00",
-      "top_markets": [
-        "Jaguars vs. Bengals",
-        "Spread: Lions (-9.5)",
-        "Spurs vs. Knicks"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.3999,
-          "cur_price": 0.555,
-          "usdc_size": 23957.91,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.275,
-          "usdc_size": 13486.54,
-          "outcome": "Purdue"
-        }
-      ]
-    },
-    {
-      "wallet": "0x50f97e9c24050ca2cd7f0fef900df984e1d0c327",
-      "name": "0x50f97e9C24050cA2cd7f0fEf900Df984e1d0c327-1759622213387",
-      "score": 32.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.9,
-      "roi": -95.4,
-      "cash_pnl": -33730.19,
-      "realized_pnl": -16460.6,
-      "total_usdc": 431924.77,
-      "trade_count": 500,
-      "market_count": 89,
-      "position_count": 82,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:01:21+00:00",
-      "top_markets": [
-        "Spread: Florida (-5.5)",
-        "Panthers vs. Hurricanes",
-        "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.5099,
-          "cur_price": 0.555,
-          "usdc_size": 1619.28,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
-      "name": "omoi0i0",
-      "score": 32.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.7,
-      "roi": -99.8,
-      "cash_pnl": -1217848.47,
-      "realized_pnl": 285956.82,
-      "total_usdc": 420341.59,
-      "trade_count": 500,
-      "market_count": 108,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:20:01+00:00",
-      "top_markets": [
-        "San Jose State vs. Hawai'i",
-        "Missouri State vs. Western Kentucky",
-        "Cleveland Guardians vs. Chicago White Sox"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.5978,
-          "cur_price": 0.555,
-          "usdc_size": 2554.1,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-      "name": "AlphaBetaGamma2357",
-      "score": 32.4,
-      "roi_score": 3.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.1,
-      "roi": -44.1,
-      "cash_pnl": -45541.41,
-      "realized_pnl": -823.49,
-      "total_usdc": 92050.48,
-      "trade_count": 500,
-      "market_count": 39,
-      "position_count": 76,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-10T23:50:39+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "US announces end of Iranian blockade by October 15, 2026?",
-        "US announces end of Iranian blockade by October 31, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "US announces end of Iranian blockade by October 15, 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.1195,
-          "cur_price": 0.045,
-          "usdc_size": 1162.57,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.1296,
-          "cur_price": 0.8795,
-          "usdc_size": 2530.49,
-          "outcome": "No"
         }
       ]
     },
@@ -1395,17 +1411,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 99.1,
-      "roi": -70.9,
-      "cash_pnl": -18868.63,
-      "realized_pnl": -43.07,
-      "total_usdc": 442977.61,
-      "trade_count": 430,
+      "roi": -71.3,
+      "cash_pnl": -18869.7,
+      "realized_pnl": -40.99,
+      "total_usdc": 443109.44,
+      "trade_count": 435,
       "market_count": 48,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-10T22:55:03+00:00",
+      "last_active": "2026-10-11T06:04:12+00:00",
       "top_markets": [
         "Will Athletic Club win on 2026-10-10?",
         "Seattle Mariners vs. Boston Red Sox: O/U 7.5",
@@ -1417,551 +1433,232 @@
           "signal": "SKIP",
           "avg_price": 0.6099,
           "cur_price": 0.385,
-          "usdc_size": 7732.39,
+          "usdc_size": 7601.62,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x2e2609682b85c6c1afd7cc74136058a47f29d96f",
-      "name": "ohcanada123",
-      "score": 32.2,
+      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+      "name": "mooseborzoii",
+      "score": 32.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 97.3,
-      "roi": -76.9,
-      "cash_pnl": -116362.87,
-      "realized_pnl": 1402.11,
-      "total_usdc": 352306.04,
-      "trade_count": 150,
-      "market_count": 13,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-10T23:41:36+00:00",
-      "top_markets": [
-        "San Jose State vs. Hawai'i",
-        "Tampa Bay Rays vs. Boston Red Sox",
-        "France vs. England: Team to Win"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.555,
-          "usdc_size": 34908.99,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0x14494e6733e86a05888610dfabf3c98eeffea618",
-      "name": "SadSquid54333",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.3,
-      "roi": -90.2,
-      "cash_pnl": -53416.41,
-      "realized_pnl": -367.14,
-      "total_usdc": 268710.03,
-      "trade_count": 332,
-      "market_count": 177,
-      "position_count": 61,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:27:27+00:00",
-      "top_markets": [
-        "Raiders Team Total: O/U 13.5",
-        "Will Kai and Speed beat the Minecraft challenge by August 17?",
-        "Will Jynxzi, Ron and Los beat the Minecraft challenge by October 8?"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.5001,
-          "cur_price": 0.555,
-          "usdc_size": 5820.27,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5331121e9f2f206d8c06ae6235761b1a3f8d3672",
-      "name": "dinimami",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.0,
-      "roi": -93.5,
-      "cash_pnl": -30568.71,
-      "realized_pnl": -487.65,
-      "total_usdc": 260785.65,
+      "volume_score": 95.7,
+      "roi": -95.6,
+      "cash_pnl": -3075686.83,
+      "realized_pnl": -3012.08,
+      "total_usdc": 285710.41,
       "trade_count": 500,
-      "market_count": 383,
-      "position_count": 52,
+      "market_count": 27,
+      "position_count": 339,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:00:45+00:00",
+      "last_active": "2026-10-11T06:15:38+00:00",
       "top_markets": [
-        "Spread: Florida (-9.5)",
-        "Minnesota Twins vs. San Francisco Giants",
-        "Miami Marlins vs. Arizona Diamondbacks"
+        "Georgia vs. Alabama",
+        "Boise State vs. Fresno State",
+        "Kings vs. Golden Knights"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
-          "signal": "LATE",
-          "avg_price": 0.5353,
-          "cur_price": 0.555,
-          "usdc_size": 1486.79,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
+          "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.5699,
-          "cur_price": 0.275,
-          "usdc_size": 633.96,
-          "outcome": "Minnesota"
+          "avg_price": 0.6116,
+          "cur_price": 0.385,
+          "usdc_size": 17008.96,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xa9a6bcb86f64c80b4643c71f529ada3df0330009",
-      "name": "gannonallison",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.7,
-      "roi": -97.6,
-      "cash_pnl": -404998.98,
-      "realized_pnl": -3427.95,
-      "total_usdc": 220007.24,
-      "trade_count": 500,
-      "market_count": 106,
-      "position_count": 235,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:24:52+00:00",
-      "top_markets": [
-        "Associa\u00e7\u00e3o Chapecoense de Futebol vs. EC Bahia: O/U 2.5",
-        "Will CD Comerciantes Unidos win on 2026-08-07?",
-        "National Bank Open: Naomi Osaka vs Elena Rybakina"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.49,
-          "cur_price": 0.555,
-          "usdc_size": 3210.0,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
-      "name": "queenmuff",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.1,
-      "roi": -90.7,
-      "cash_pnl": -115196.84,
-      "realized_pnl": -3320.84,
-      "total_usdc": 229669.25,
-      "trade_count": 500,
-      "market_count": 299,
-      "position_count": 291,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:21+00:00",
-      "top_markets": [
-        "Baltimore Orioles vs. New York Yankees",
-        "Spread: Rams (-5.5)",
-        "San Diego State vs. Toledo"
-      ],
-      "signals": [
-        {
-          "market": "Timberwolves vs. Heat",
-          "signal": "SKIP",
-          "avg_price": 0.3299,
-          "cur_price": 0.595,
-          "usdc_size": 1366.95,
-          "outcome": "Heat"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.275,
-          "usdc_size": 2349.76,
-          "outcome": "Purdue"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.5099,
-          "cur_price": 0.555,
-          "usdc_size": 1799.82,
-          "outcome": "Georgia"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfd526e2248e1f8d93e7283481cfd3cf318a6aa25",
-      "name": "TiredOwl",
+      "wallet": "0xa20924e5daa77c491b0700f045eff43a61f7ffbe",
+      "name": "spyGoodLuck77",
       "score": 31.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.2,
-      "roi": -99.6,
-      "cash_pnl": -121487.5,
-      "realized_pnl": -2374.43,
-      "total_usdc": 203567.86,
+      "volume_score": 92.7,
+      "roi": -98.8,
+      "cash_pnl": -213398.63,
+      "realized_pnl": -4142.13,
+      "total_usdc": 191137.72,
       "trade_count": 500,
-      "market_count": 288,
-      "position_count": 452,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-10T23:38:30+00:00",
-      "top_markets": [
-        "Commanders vs. Ravens",
-        "Will Leeds United FC vs. Brentford FC end in a draw?",
-        "Will Arsenal FC win on 2026-09-09?"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.5499,
-          "cur_price": 0.555,
-          "usdc_size": 547.95,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "name": "RN1",
-      "score": 31.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.2,
-      "roi": -99.1,
-      "cash_pnl": -4058858.23,
-      "realized_pnl": 1332435.68,
-      "total_usdc": 138464.17,
-      "trade_count": 500,
-      "market_count": 136,
+      "market_count": 317,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:52+00:00",
+      "last_active": "2026-10-11T06:43:09+00:00",
       "top_markets": [
-        "Texas vs. Oklahoma",
-        "Exact Score: CR Vasco da Gama 0 - 0 Clube do Remo?",
-        "Maple Leafs vs. Avalanche"
+        "Will Palermo FC win on 2026-10-10?",
+        "Will Russia win on 2026-10-06?",
+        "Will FC Bayern M\u00fcnchen win on 2026-10-10?"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.5024,
-          "cur_price": 0.555,
-          "usdc_size": 7819.78,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4675,
-          "cur_price": 0.555,
-          "usdc_size": 8936.98,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4885,
-          "cur_price": 0.565,
-          "usdc_size": 8222.22,
-          "outcome": "Penn State"
-        },
-        {
-          "market": "Minnesota vs. Purdue",
-          "signal": "SKIP",
-          "avg_price": 0.5197,
-          "cur_price": 0.275,
-          "usdc_size": 4503.46,
-          "outcome": "Minnesota"
+          "avg_price": 0.4099,
+          "cur_price": 0.32,
+          "usdc_size": 1170.73,
+          "outcome": "Yes"
         },
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.6228,
+          "avg_price": 0.6899,
           "cur_price": 0.385,
-          "usdc_size": 8640.42,
+          "usdc_size": 1336.96,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x906efa1f54cb367d0de169221a5febaec0eab533",
-      "name": "Keilerbets",
-      "score": 31.3,
+      "wallet": "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9",
+      "name": "0x0x23kjookhaiuohduoayh8c9",
+      "score": 31.7,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 88.1,
-      "roi": -90.9,
-      "cash_pnl": -17135.07,
-      "realized_pnl": 431.04,
-      "total_usdc": 104850.36,
-      "trade_count": 214,
-      "market_count": 134,
-      "position_count": 51,
+      "volume_score": 92.0,
+      "roi": -98.9,
+      "cash_pnl": -1755363.09,
+      "realized_pnl": -1732.86,
+      "total_usdc": 174851.5,
+      "trade_count": 500,
+      "market_count": 63,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-10T23:58:33+00:00",
+      "last_active": "2026-10-11T06:47:51+00:00",
       "top_markets": [
-        "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-        "Set 1 Winner: Holger Rune vs Kyrian Jacquet",
-        "Hangzhou Open: Quentin Halys vs Roman Safiullin"
+        "Will CA Boca Juniors win on 2026-10-09?",
+        "China Open: Iva Jovic vs Iga Swiatek",
+        "Game Handicap: CPD (-1.5) vs Maryville University (+1.5)"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
+          "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.4399,
-          "cur_price": 0.555,
-          "usdc_size": 1202.1,
-          "outcome": "Georgia"
+          "avg_price": 0.61,
+          "cur_price": 0.385,
+          "usdc_size": 6049.17,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x191b9bbd75bba2259eacfbdf8f3378f074d65b67",
-      "name": "insole.morsels",
-      "score": 31.3,
+      "wallet": "0x6d11cd749eb59c8ffa6d38be80ad0ad0a255c449",
+      "name": "1xx2",
+      "score": 31.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.6,
-      "roi": -70.3,
-      "cash_pnl": -9877.4,
-      "realized_pnl": -161.91,
-      "total_usdc": 98437.36,
+      "volume_score": 91.3,
+      "roi": -99.6,
+      "cash_pnl": -1296336.17,
+      "realized_pnl": -46576.21,
+      "total_usdc": 159890.11,
       "trade_count": 500,
-      "market_count": 169,
-      "position_count": 17,
+      "market_count": 29,
+      "position_count": 281,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-10T23:50:39+00:00",
+      "last_active": "2026-10-10T22:37:09+00:00",
       "top_markets": [
-        "LoL: Once Upon A Team vs Dynasty (BO3) - Road Of Legends Regular Season",
-        "Dana White's Contender Series: Ilias Bulaid vs. Erick Visconde (Featherweight, Main Card)",
-        "ITF W15 Tianjin 3 Women: Rinko Matsuda vs Meng Yi Chen"
+        "Will Juventus FC win on 2026-09-20?",
+        "Will AS Monaco FC win on 2026-09-18?",
+        "Will Real Madrid CF win on 2026-10-10?"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.54,
-          "cur_price": 0.555,
-          "usdc_size": 4163.25,
-          "outcome": "Alabama"
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.61,
+          "cur_price": 0.385,
+          "usdc_size": 5589.73,
+          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0x73e5cd209c144497b2fe399ab6698bffb62ce3d8",
       "name": "bgpowerx11",
-      "score": 31.3,
+      "score": 31.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 88.5,
-      "roi": -99.9,
-      "cash_pnl": -117785.87,
+      "roi": -99.0,
+      "cash_pnl": -117824.09,
       "realized_pnl": -94.13,
-      "total_usdc": 109963.98,
+      "total_usdc": 111055.72,
       "trade_count": 500,
-      "market_count": 246,
-      "position_count": 438,
+      "market_count": 247,
+      "position_count": 441,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-10T18:23:57+00:00",
+      "last_active": "2026-10-11T06:41:42+00:00",
       "top_markets": [
         "Will Germany win on 2026-09-27?",
         "Will Portugal win on 2026-10-04?",
         "Will Germany win on 2026-10-04?"
       ],
-      "signals": []
-    },
-    {
-      "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-      "name": "HomeRunHazard",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.9,
-      "roi": -77.1,
-      "cash_pnl": -2197512.27,
-      "realized_pnl": -11428.81,
-      "total_usdc": 89110.84,
-      "trade_count": 500,
-      "market_count": 117,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:01+00:00",
-      "top_markets": [
-        "Hawks vs. Pacers",
-        "76ers vs. Celtics",
-        "Pistons vs. Wizards"
-      ],
       "signals": [
         {
-          "market": "Timberwolves vs. Heat",
-          "signal": "ENTER",
-          "avg_price": 0.6019,
-          "cur_price": 0.595,
-          "usdc_size": 9560.1,
-          "outcome": "Timberwolves"
-        },
-        {
-          "market": "Georgia vs. Alabama: O/U 51.5",
+          "market": "Will Everton FC win on 2026-10-11?",
           "signal": "SKIP",
-          "avg_price": 0.4889,
-          "cur_price": 0.145,
-          "usdc_size": 14951.26,
-          "outcome": "Over"
-        },
-        {
-          "market": "San Diego State vs. Oregon State",
-          "signal": "SKIP",
-          "avg_price": 0.85,
-          "cur_price": 0.0005,
-          "usdc_size": 21664.38,
-          "outcome": "Oregon State"
-        },
-        {
-          "market": "Spread: Alabama (-2.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4996,
-          "cur_price": 0.375,
-          "usdc_size": 13198.77,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "LSU vs. Kentucky: O/U 51.5",
-          "signal": "SKIP",
-          "avg_price": 0.4624,
-          "cur_price": 0.77,
-          "usdc_size": 14994.52,
-          "outcome": "Over"
-        },
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.456,
-          "cur_price": 0.555,
-          "usdc_size": 8432.14,
-          "outcome": "Georgia"
-        },
-        {
-          "market": "Chicago White Sox vs. Cleveland Guardians",
-          "signal": "SKIP",
-          "avg_price": 0.5623,
-          "cur_price": 0.455,
-          "usdc_size": 8488.25,
-          "outcome": "Cleveland Guardians"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4913,
-          "cur_price": 0.565,
-          "usdc_size": 6855.66,
-          "outcome": "Penn State"
-        },
-        {
-          "market": "Timberwolves vs. Heat",
-          "signal": "SKIP",
-          "avg_price": 0.3956,
-          "cur_price": 0.595,
-          "usdc_size": 3683.75,
-          "outcome": "Heat"
+          "avg_price": 0.53,
+          "cur_price": 0.465,
+          "usdc_size": 1070.0,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
-      "name": "0x4f2",
-      "score": 31.2,
+      "wallet": "0xf5a3504ad3a8b079974620b3aa4fcca3f7579e12",
+      "name": "pltrkr111",
+      "score": 31.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.1,
-      "roi": -99.1,
-      "cash_pnl": -3466718.59,
-      "realized_pnl": -139777.33,
-      "total_usdc": 92123.67,
+      "volume_score": 89.1,
+      "roi": -97.4,
+      "cash_pnl": -579092.88,
+      "realized_pnl": 0.0,
+      "total_usdc": 119830.17,
       "trade_count": 500,
-      "market_count": 177,
-      "position_count": 500,
+      "market_count": 83,
+      "position_count": 444,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:40+00:00",
+      "last_active": "2026-10-11T06:47:51+00:00",
       "top_markets": [
-        "Central Michigan vs. Ohio: O/U 39.5",
-        "Syracuse vs. Virginia",
-        "Kings vs. Golden Knights"
+        "Will CA Boca Juniors win on 2026-10-09?",
+        "Games Total: O/U 3.5",
+        "Will Olympique Lyonnais win on 2026-10-09?"
       ],
       "signals": [
         {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.54,
-          "cur_price": 0.555,
-          "usdc_size": 5055.56,
-          "outcome": "Alabama"
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.61,
+          "cur_price": 0.385,
+          "usdc_size": 5040.98,
+          "outcome": "No"
         }
       ]
     },
@@ -1973,18 +1670,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.8,
+      "volume_score": 86.6,
       "roi": -99.9,
-      "cash_pnl": -33454.98,
-      "realized_pnl": -5620.5,
-      "total_usdc": 88555.56,
+      "cash_pnl": -33457.13,
+      "realized_pnl": -5751.23,
+      "total_usdc": 86441.47,
       "trade_count": 500,
-      "market_count": 218,
-      "position_count": 282,
+      "market_count": 216,
+      "position_count": 285,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-10T23:49:12+00:00",
+      "last_active": "2026-10-11T03:56:11+00:00",
       "top_markets": [
         "Will Club Necaxa win on 2026-09-27?",
         "Will Slovenia win on 2026-10-06?",
@@ -1995,298 +1692,130 @@
     {
       "wallet": "0x9b78d30429db0aadbc1f7f7b03acee3bfc12473d",
       "name": "bludd",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.7,
-      "roi": -100.0,
-      "cash_pnl": -109602.25,
-      "realized_pnl": -5778.17,
-      "total_usdc": 87814.31,
-      "trade_count": 500,
-      "market_count": 233,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:35:09+00:00",
-      "top_markets": [
-        "Will Aruba win on 2026-10-04?",
-        "Will Anguilla win on 2026-10-04?",
-        "United States vs. Peru: O/U 3.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
-      "name": "cm2897",
       "score": 31.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.6,
-      "roi": -91.5,
-      "cash_pnl": -95804.65,
-      "realized_pnl": -699.19,
-      "total_usdc": 75231.47,
-      "trade_count": 500,
-      "market_count": 238,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:00+00:00",
-      "top_markets": [
-        "UCLA vs. Oregon",
-        "Spread: BYU (-13.5)",
-        "Spread: BYU (-10.5)"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4356,
-          "cur_price": 0.555,
-          "usdc_size": 2274.19,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4801,
-          "cur_price": 0.565,
-          "usdc_size": 2146.61,
-          "outcome": "Penn State"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-      "name": "ferrariChampions2026",
-      "score": 31.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.2,
+      "volume_score": 86.5,
       "roi": -100.0,
-      "cash_pnl": -24230013.73,
-      "realized_pnl": 1031101.06,
-      "total_usdc": 71387.05,
+      "cash_pnl": -109628.69,
+      "realized_pnl": -5779.06,
+      "total_usdc": 84546.92,
       "trade_count": 500,
-      "market_count": 91,
+      "market_count": 226,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:06+00:00",
+      "last_active": "2026-10-11T06:17:50+00:00",
       "top_markets": [
-        "Clippers vs. Raptors",
-        "Georgia vs. Alabama",
-        "UFC Fight Night: Andre Fili vs. Kai Kamaka III (Featherweight, Main Card)"
+        "Will Columbus Crew win on 2026-10-10?",
+        "Will Aruba win on 2026-10-04?",
+        "Will Anguilla win on 2026-10-04?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x200c889bd5b4a0af96461a866f32672cdff7a466",
-      "name": "",
+      "wallet": "0x224f7ef690d952cf551a471846d5afb4892e514a",
+      "name": "WeBuyHighWeSelllow",
       "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.9,
-      "roi": -91.3,
-      "cash_pnl": -30799.63,
-      "realized_pnl": -622.01,
-      "total_usdc": 69233.06,
-      "trade_count": 65,
-      "market_count": 38,
-      "position_count": 26,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-10T23:41:12+00:00",
-      "top_markets": [
-        "North Carolina vs. Pittsburgh: O/U 47.5",
-        "Flames vs. Kraken",
-        "Bills vs. Texans"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.54,
-          "cur_price": 0.555,
-          "usdc_size": 2441.27,
-          "outcome": "Alabama"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
-      "name": "GoalLineGhost",
-      "score": 30.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 83.6,
-      "roi": -90.1,
-      "cash_pnl": -1435677.28,
-      "realized_pnl": -6310.96,
-      "total_usdc": 57971.7,
+      "volume_score": 85.3,
+      "roi": -100.0,
+      "cash_pnl": -2012176.14,
+      "realized_pnl": 5984.27,
+      "total_usdc": 73032.96,
       "trade_count": 500,
-      "market_count": 143,
+      "market_count": 153,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:55+00:00",
+      "last_active": "2026-10-11T06:42:56+00:00",
       "top_markets": [
-        "Will Inter Miami CF win on 2026-10-10?",
-        "Will Philadelphia Union win on 2026-10-10?",
-        "Will New England Revolution win on 2026-10-10?"
+        "Fight to Go the Distance?",
+        "Will Estudiantes de La Plata win on 2026-10-10?",
+        "Wild vs. Panthers"
       ],
-      "signals": [
-        {
-          "market": "Will Nashville SC win on 2026-10-10?",
-          "signal": "ENTER",
-          "avg_price": 0.5707,
-          "cur_price": 0.575,
-          "usdc_size": 4928.37,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Athletic Club win on 2026-10-10?",
-          "signal": "ENTER",
-          "avg_price": 0.385,
-          "cur_price": 0.385,
-          "usdc_size": 2690.93,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Athletic Club win on 2026-10-10?",
-          "signal": "SKIP",
-          "avg_price": 0.614,
-          "cur_price": 0.385,
-          "usdc_size": 5972.83,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Nashville SC win on 2026-10-10?",
-          "signal": "SKIP",
-          "avg_price": 0.4478,
-          "cur_price": 0.575,
-          "usdc_size": 3763.01,
-          "outcome": "No"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0x710c4447028830ebc66f53780d15907bc20f7795",
-      "name": "S01b07",
+      "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
+      "name": "GC-P",
       "score": 30.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 82.6,
-      "roi": -79.5,
-      "cash_pnl": -10186.05,
-      "realized_pnl": -297.72,
-      "total_usdc": 51298.74,
-      "trade_count": 392,
-      "market_count": 146,
-      "position_count": 60,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-11T00:29:30+00:00",
-      "top_markets": [
-        "Grizzlies vs. Bulls",
-        "Celtics vs. Cavaliers",
-        "Spread: Buccaneers (-4.5)"
-      ],
-      "signals": [
-        {
-          "market": "Georgia vs. Alabama",
-          "signal": "ENTER",
-          "avg_price": 0.5684,
-          "cur_price": 0.555,
-          "usdc_size": 734.04,
-          "outcome": "Alabama"
-        },
-        {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.5253,
-          "cur_price": 0.565,
-          "usdc_size": 648.34,
-          "outcome": "Penn State"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-      "name": "takeormake",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.1,
-      "roi": -98.0,
-      "cash_pnl": -827876.04,
-      "realized_pnl": -2427.89,
-      "total_usdc": 41620.17,
+      "volume_score": 83.3,
+      "roi": -93.2,
+      "cash_pnl": -830151.81,
+      "realized_pnl": 184089.86,
+      "total_usdc": 55883.27,
       "trade_count": 500,
-      "market_count": 69,
+      "market_count": 121,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:39:07+00:00",
+      "last_active": "2026-10-11T06:47:17+00:00",
       "top_markets": [
-        "Golden State Valkyries vs. Las Vegas Aces",
-        "North Dakota State vs. UNLV",
-        "Indiana vs. Nebraska"
+        "Will Liverpool FC win on 2026-10-11?",
+        "China Open: Qinwen Zheng vs Mirra Andreeva",
+        "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea"
       ],
       "signals": [
         {
-          "market": "USC vs. Penn State",
-          "signal": "SKIP",
-          "avg_price": 0.4936,
-          "cur_price": 0.565,
-          "usdc_size": 2056.73,
-          "outcome": "USC"
+          "market": "Browns vs. Jets",
+          "signal": "ENTER",
+          "avg_price": 0.4353,
+          "cur_price": 0.435,
+          "usdc_size": 1430.18,
+          "outcome": "Browns"
         },
         {
-          "market": "Georgia vs. Alabama",
-          "signal": "SKIP",
-          "avg_price": 0.4446,
-          "cur_price": 0.555,
-          "usdc_size": 1383.21,
-          "outcome": "Georgia"
+          "market": "Will 1. FC K\u00f6ln win on 2026-10-11?",
+          "signal": "LATE",
+          "avg_price": 0.525,
+          "cur_price": 0.495,
+          "usdc_size": 1767.5,
+          "outcome": "No"
         },
         {
-          "market": "North Dakota State vs. UNLV",
+          "market": "Will Everton FC win on 2026-10-11?",
           "signal": "SKIP",
-          "avg_price": 0.4424,
-          "cur_price": 0.545,
-          "usdc_size": 1258.52,
-          "outcome": "North Dakota State"
+          "avg_price": 0.5368,
+          "cur_price": 0.465,
+          "usdc_size": 2712.86,
+          "outcome": "No"
         },
         {
-          "market": "USC vs. Penn State",
+          "market": "Browns vs. Jets",
           "signal": "SKIP",
-          "avg_price": 0.4949,
-          "cur_price": 0.565,
-          "usdc_size": 567.0,
-          "outcome": "Penn State"
+          "avg_price": 0.555,
+          "cur_price": 0.435,
+          "usdc_size": 1977.49,
+          "outcome": "Jets"
+        },
+        {
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "SKIP",
+          "avg_price": 0.6131,
+          "cur_price": 0.385,
+          "usdc_size": 2038.74,
+          "outcome": "No"
+        },
+        {
+          "market": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+          "signal": "SKIP",
+          "avg_price": 0.2764,
+          "cur_price": 0.0005,
+          "usdc_size": 2706.97,
+          "outcome": "Arthur Gea"
         }
       ]
     },
@@ -2327,54 +1856,81 @@
       ]
     },
     {
-      "wallet": "0x228b8d11eba89bf1c554f8879a9293b7106daf4c",
-      "name": "0x228B8d11EBa89BF1c554f8879a9293B7106DaF4c-1765442354872",
+      "wallet": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
+      "name": "Cannae",
       "score": 30.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 80.5,
-      "roi": -81.8,
-      "cash_pnl": -159571.06,
-      "realized_pnl": 222547.2,
-      "total_usdc": 38765.34,
+      "volume_score": 81.0,
+      "roi": -100.0,
+      "cash_pnl": -8500939.01,
+      "realized_pnl": -2766.8,
+      "total_usdc": 41283.83,
       "trade_count": 500,
-      "market_count": 83,
+      "market_count": 130,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-11T00:40:54+00:00",
+      "last_active": "2026-10-11T06:47:00+00:00",
       "top_markets": [
-        "Hawks vs. Pacers",
-        "Pistons vs. Wizards",
-        "Clippers vs. Raptors: O/U 216.5"
+        "Will Nashville SC win on 2026-10-10?",
+        "Will CD Guadalajara win on 2026-10-10?",
+        "Will Inter Miami CF win on 2026-10-10?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+      "name": "GoalLineGhost",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.1,
+      "roi": -91.5,
+      "cash_pnl": -1438574.54,
+      "realized_pnl": -6359.49,
+      "total_usdc": 36731.27,
+      "trade_count": 500,
+      "market_count": 178,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-11T06:47:53+00:00",
+      "top_markets": [
+        "Will Sanfrecce Hiroshima win on 2026-10-11?",
+        "Will Real Murcia CF win on 2026-10-11?",
+        "T\u014dky\u014d Verdy vs. Sanfrecce Hiroshima: O/U 4.5"
       ],
       "signals": [
         {
-          "market": "Timberwolves vs. Heat",
-          "signal": "SKIP",
-          "avg_price": 0.3999,
-          "cur_price": 0.595,
-          "usdc_size": 1155.91,
-          "outcome": "Heat"
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "signal": "ENTER",
+          "avg_price": 0.385,
+          "cur_price": 0.385,
+          "usdc_size": 2690.93,
+          "outcome": "Yes"
         },
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.3266,
+          "avg_price": 0.614,
           "cur_price": 0.385,
-          "usdc_size": 527.52,
-          "outcome": "Yes"
+          "usdc_size": 5972.83,
+          "outcome": "No"
         },
         {
-          "market": "Chicago White Sox vs. Cleveland Guardians",
+          "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
           "signal": "SKIP",
-          "avg_price": 0.5599,
-          "cur_price": 0.455,
-          "usdc_size": 580.17,
-          "outcome": "Cleveland Guardians"
+          "avg_price": 0.6721,
+          "cur_price": 0.32,
+          "usdc_size": 3225.4,
+          "outcome": "No"
         }
       ]
     },
@@ -2387,12 +1943,12 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 77.6,
-      "roi": -98.2,
-      "cash_pnl": -3888982.23,
-      "realized_pnl": -80824.18,
+      "roi": -98.7,
+      "cash_pnl": -3885472.33,
+      "realized_pnl": -81059.41,
       "total_usdc": 26304.65,
       "trade_count": 500,
-      "market_count": 221,
+      "market_count": 219,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
@@ -2417,144 +1973,144 @@
   ],
   "markets": [
     {
-      "id": "0xce1e98e4a3a85b8e031de5afa80af228c34346f7f23d0136ddde34422d174a33",
-      "question": "Georgia vs. Alabama",
-      "volume": "1253176.431022",
-      "liquidity": "260392.8387",
-      "end_date": "2026-10-10T23:30:00Z"
-    },
-    {
       "id": "0x3e4d20cb627ab0bcfab0e7fb48753765b3436dd121999befd2596572a6d2dc36",
       "question": "Will Athletic Club win on 2026-10-10?",
-      "volume": "710493.999885",
-      "liquidity": "37500.4483",
+      "volume": "721887.312592",
+      "liquidity": "30740.0706",
       "end_date": "2026-10-10T12:00:00Z"
     },
     {
-      "id": "0x298693f89371cef4c490357990211e28de5f1b94cb844c75e4f1d2014fa99e92",
-      "question": "Chicago White Sox vs. Cleveland Guardians",
-      "volume": "475305.917269",
-      "liquidity": "68855.9605",
-      "end_date": "2026-10-18T00:00:00Z"
+      "id": "0x8370502da1f776c9fc617d28d39ec77e788f08262feb756b7524746a88234750",
+      "question": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+      "volume": "552884.9005789997",
+      "liquidity": "661476.91009",
+      "end_date": "2026-10-19T02:00:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "28799192.985000007",
-      "liquidity": "437748.76822",
+      "volume": "28905433.985",
+      "liquidity": "432889.46442",
       "end_date": "2027-05-30T23:59:00Z"
     },
     {
-      "id": "0xc51bec8000c97e601ac1fe718ce272be0f99c0e53b4e9b7f7e1cca733b9f184d",
-      "question": "USC vs. Penn State",
-      "volume": "338123.1334600001",
-      "liquidity": "134768.0068",
-      "end_date": "2026-10-10T23:30:00Z"
-    },
-    {
-      "id": "0x10764e5997ce0b204c87c80cefe9bbc2b96bb21656248859779feadec74c82ec",
-      "question": "San Diego State vs. Oregon State",
-      "volume": "332548.321637",
-      "liquidity": "206578.46848",
-      "end_date": "2026-10-10T22:00:00Z"
+      "id": "0x8fa86e594d38a051c9bc019a2b58952e62adaa82cd739218da0a4025c70538fe",
+      "question": "Will Everton FC win on 2026-10-11?",
+      "volume": "357809.02470600005",
+      "liquidity": "727700.0118",
+      "end_date": "2026-10-11T13:00:00Z"
     },
     {
       "id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
       "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "volume": "9096235.430564996",
-      "liquidity": "2487315.0757",
+      "volume": "9156065.960296001",
+      "liquidity": "2541845.8606",
       "end_date": "2026-11-04T04:59:00Z"
     },
     {
       "id": "0x334954cfe7d8ae24e350972470c156f5b2cdd4616dcaa5bfb71b4e2b2298d690",
       "question": "US x Iran ceasefire continues through October 12?",
-      "volume": "1161906.2284479996",
-      "liquidity": "228416.2511",
+      "volume": "1224283.5898699998",
+      "liquidity": "196412.03993",
       "end_date": "2026-10-13T03:59:00Z"
-    },
-    {
-      "id": "0x130910eb2181e8d39439659d57bd6dbe294c91bb283a4154e494d632bb238a79",
-      "question": "Minnesota vs. Purdue",
-      "volume": "291323.854159",
-      "liquidity": "156035.4945",
-      "end_date": "2026-10-11T00:00:00Z"
     },
     {
       "id": "0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4",
       "question": "US x Iran ceasefire continues through October 31?",
-      "volume": "2080429.1983170006",
-      "liquidity": "190309.4686",
+      "volume": "2123824.726013999",
+      "liquidity": "302595.1575",
       "end_date": "2026-10-31T23:59:00Z"
-    },
-    {
-      "id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
-      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "volume": "7191617.033257001",
-      "liquidity": "2602649.9048",
-      "end_date": "2026-11-04T04:59:00Z"
-    },
-    {
-      "id": "0x7a203a012e0a152b89dd4df52a79fa933da202787408c4999ad573b4dff827cf",
-      "question": "Will Nashville SC win on 2026-10-10?",
-      "volume": "257580.4206339999",
-      "liquidity": "73121.5",
-      "end_date": "2026-10-11T00:30:00Z"
     },
     {
       "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
       "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "volume": "19393754.749096",
-      "liquidity": "839318.97094",
+      "volume": "19396459.593476005",
+      "liquidity": "851760.78627",
       "end_date": "2026-10-05T03:59:00Z"
     },
     {
-      "id": "0xd82ced191d7d2921843001b6ff2b007a8c528e558b9588ab5ddb7899575926d2",
-      "question": "LSU vs. Kentucky: O/U 51.5",
-      "volume": "284256.93772099994",
-      "liquidity": "32767.0663",
-      "end_date": "2026-10-10T23:00:00Z"
+      "id": "0x4d9d36b806a52d87a234f8da89ea4edf11c30c4c7203c7f70ab747a7221a13cb",
+      "question": "Wuhan Tennis Open, Qualification: Han Shi vs Kamilla Rakhimova",
+      "volume": "221414.84403900002",
+      "liquidity": "666974.93784",
+      "end_date": "2026-10-18T02:00:00Z"
     },
     {
-      "id": "0xe7e82c886c4336c2112713e462f31bcfc4cb03eeee4ac61b6ecd088f41e0ade1",
-      "question": "Timberwolves vs. Heat",
-      "volume": "228461.14880399994",
-      "liquidity": "70059.3184",
-      "end_date": "2026-10-11T00:00:00Z"
+      "id": "0x3e00f01328c99afa810454cb971a795805493afe4a461730e554c91741a610b3",
+      "question": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+      "volume": "218106.1425130001",
+      "liquidity": "136099.0582",
+      "end_date": "2026-10-19T02:00:00Z"
     },
     {
-      "id": "0x17f713019c96667016f27f5e4f5251f68d1fd262e7a6aa98e2da9656b335440f",
-      "question": "Georgia vs. Alabama: O/U 51.5",
-      "volume": "284930.27832800004",
-      "liquidity": "42887.7833",
-      "end_date": "2026-10-10T23:30:00Z"
+      "id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "question": "Will JD Vance win the 2028 US Presidential Election?",
+      "volume": "17069538.48471599",
+      "liquidity": "372998.24592",
+      "end_date": "2028-11-08T04:59:00Z"
     },
     {
-      "id": "0x1674c7a654ad25b68e9df7ac71e3711ecc5c86bde2063ceb8be586ea9c44f028",
-      "question": "US announces end of Iranian blockade by October 15, 2026?",
-      "volume": "2805743.107483997",
-      "liquidity": "289641.2262",
-      "end_date": "2026-10-16T03:59:00Z"
+      "id": "0x405b56fc75f56d7635a94df9836d6cb6f9b9571d1fd33eb165c1e59d1d11801f",
+      "question": "Strait of Hormuz traffic returns to normal by October 31?",
+      "volume": "2198749.20673",
+      "liquidity": "305602.82713",
+      "end_date": "2026-11-01T03:59:00Z"
     },
     {
-      "id": "0x8cf52034770d2054abb448933d559b91ac2696346be5d8edc601823e57de5718",
-      "question": "Spread: Alabama (-2.5)",
-      "volume": "225320.05397100002",
-      "liquidity": "51667.2227",
-      "end_date": "2026-10-10T23:30:00Z"
+      "id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "volume": "7236342.369845002",
+      "liquidity": "2657492.0895",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0xbfb4a383d3a8bdfb1f47a388eaf0534af7f56403e1571d3e1e1f2f074d27838f",
+      "question": "Browns vs. Jets",
+      "volume": "225089.1818200001",
+      "liquidity": "1481027.7869",
+      "end_date": "2026-10-11T17:00:00Z"
     },
     {
       "id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
       "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "volume": "22169391.954816964",
-      "liquidity": "1415004.1864",
+      "volume": "22182502.15759196",
+      "liquidity": "1396956.4075",
       "end_date": "2026-10-05T03:59:00Z"
     },
     {
-      "id": "0xfe86e27da1f41e698c2f6086d2333cd548f6d4d458c195419e8924b2fe575b4e",
-      "question": "North Dakota State vs. UNLV",
-      "volume": "200658.60638499996",
-      "liquidity": "128028.6068",
-      "end_date": "2026-10-10T23:00:00Z"
+      "id": "0xa0996a2e100ea502040335bf116a5ce635fa214d25b8ecd6e8eeb0d1541575de",
+      "question": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
+      "volume": "199502.54572000002",
+      "liquidity": "9815.3134",
+      "end_date": "2026-10-10T12:00:00Z"
+    },
+    {
+      "id": "0x1674c7a654ad25b68e9df7ac71e3711ecc5c86bde2063ceb8be586ea9c44f028",
+      "question": "US announces end of Iranian blockade by October 15, 2026?",
+      "volume": "2829106.812408997",
+      "liquidity": "310035.1932",
+      "end_date": "2026-10-16T03:59:00Z"
+    },
+    {
+      "id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "volume": "6733777.121255999",
+      "liquidity": "421580.6293",
+      "end_date": "2026-10-28T03:59:00Z"
+    },
+    {
+      "id": "0x68a068b487ba3bb5f111ea25d13f34517973e30c51b507550285127133e24294",
+      "question": "Will 1. FC K\u00f6ln win on 2026-10-11?",
+      "volume": "165201.32737500005",
+      "liquidity": "270899.287",
+      "end_date": "2026-10-11T13:30:00Z"
+    },
+    {
+      "id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "volume": "73223209.62845398",
+      "liquidity": "828452.5101",
+      "end_date": "2027-01-01T04:59:00Z"
     }
   ]
 }
