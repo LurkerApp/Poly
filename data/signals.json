@@ -1,1520 +1,374 @@
 {
-  "last_updated": "2026-10-17T16:50:46.039436+00:00",
+  "last_updated": "2026-10-17T19:01:45.101271+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0xc98b99ed7f9748fb3eb8d13d0e4531d023286430",
-      "name": "49023809234904",
-      "score": 57.7,
-      "roi_score": 50.0,
+      "wallet": "0xbba460a0d0fa3205986acf64a70499b3e5e5ef69",
+      "name": "strominion",
+      "score": 62.2,
+      "roi_score": 100.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 77.6,
-      "volume_score": 85.9,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 78912.53,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-16T17:25:15+00:00",
-      "top_markets": [
-        "US x Iran permanent peace deal by June 15, 2026?",
-        "Will Iran close its airspace by June 14?",
-        "Over $32.5M committed to the Credible public sale?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1a2f963689b40c30e24e2e42e720573eddcb24a1",
-      "name": "",
-      "score": 56.0,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 84.6,
-      "volume_score": 58.0,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 2015.13,
-      "trade_count": 4,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T01:19:44+00:00",
-      "top_markets": [
-        "Will the Tesla Roadster's 0-60 time be less than 1 second?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
-      "name": "Mooseborzoiii",
-      "score": 55.4,
-      "roi_score": 32.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.8,
-      "volume_score": 98.2,
-      "roi": -1.0,
-      "cash_pnl": -3779.38,
+      "early_entry_score": 0.0,
+      "volume_score": 96.9,
+      "roi": 112.7,
+      "cash_pnl": 1576.05,
       "realized_pnl": 0.0,
-      "total_usdc": 394533.82,
-      "trade_count": 162,
+      "total_usdc": 330883.94,
+      "trade_count": 342,
+      "market_count": 41,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:27:41+00:00",
+      "top_markets": [
+        "Dolphins vs. 49ers AND Saints vs. Ravens AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will Olympique de Marseille win on 2026-09-20?",
+        "Chiefs vs. Dolphins AND Cardinals vs. 49ers",
+        "Dolphins vs. 49ers AND Saints vs. Ravens AND Will Olympique de Marseille win on 2026-09-20?"
+      ],
+      "signals": [
+        {
+          "market": "Spread: FC Barcelona (-1.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4699,
+          "cur_price": 0.9995,
+          "usdc_size": 2975.0,
+          "outcome": "FC Barcelona"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd2bb94594762beda042e596598800d83f781bd8e",
+      "name": "pnhkyb",
+      "score": 58.2,
+      "roi_score": 46.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.3,
+      "volume_score": 85.1,
+      "roi": 19.6,
+      "cash_pnl": 872.11,
+      "realized_pnl": 1855.71,
+      "total_usdc": 70841.68,
+      "trade_count": 500,
       "market_count": 4,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:53+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "LoL: MVK Esports vs FURIA Esports - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.2793,
+          "cur_price": 0.485,
+          "usdc_size": 665.15,
+          "outcome": "BetBoom Team"
+        },
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.6313,
+          "cur_price": 0.485,
+          "usdc_size": 2031.93,
+          "outcome": "Team Falcons"
+        },
+        {
+          "market": "LoL: MVK Esports vs FURIA Esports - Game 1 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.3513,
+          "cur_price": 0.9995,
+          "usdc_size": 1379.31,
+          "outcome": "MVK Esports"
+        },
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.8804,
+          "cur_price": 0.8125,
+          "usdc_size": 963.34,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0x98a79b835565d6fbc877121d04020e961325b766",
+      "name": "whoneed",
+      "score": 55.8,
+      "roi_score": 36.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.9,
+      "volume_score": 89.5,
+      "roi": 5.0,
+      "cash_pnl": 82.42,
+      "realized_pnl": 0.0,
+      "total_usdc": 126751.69,
+      "trade_count": 500,
+      "market_count": 73,
       "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:05+00:00",
+      "last_active": "2026-10-17T18:49:36+00:00",
       "top_markets": [
-        "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "Counter-Strike: FURIA vs Aurora Gaming - Map 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.2782,
-          "cur_price": 0.715,
-          "usdc_size": 349843.86,
-          "outcome": "BetBoom Team"
-        }
-      ]
-    },
-    {
-      "wallet": "0x751be7122f148fba5aa2021ace98edc2001873fd",
-      "name": "aqzfssqkqzbcbr1994",
-      "score": 55.3,
-      "roi_score": 32.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.8,
-      "volume_score": 96.0,
-      "roi": -0.6,
-      "cash_pnl": -159.97,
-      "realized_pnl": 0.0,
-      "total_usdc": 293874.87,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:50:20+00:00",
-      "top_markets": [
-        "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
-        "LoL: Team WE vs FlyQuest (BO5) - Demacia Cup Global Invitational Playoffs",
-        "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitational Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 21450.0,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
-      "name": "tetrase",
-      "score": 53.9,
-      "roi_score": 32.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 77.3,
-      "volume_score": 100.0,
-      "roi": -0.8,
-      "cash_pnl": -8595.15,
-      "realized_pnl": -53490.32,
-      "total_usdc": 556660.71,
-      "trade_count": 500,
-      "market_count": 70,
-      "position_count": 197,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:37:39+00:00",
-      "top_markets": [
-        "Will the Tesla Roadster's 0-60 time be less than 1 second?",
-        "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
-        "Katie Zacharia out as Press Secretary by October 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdcd669c506a938bae9269a84b8bd2bdb220484cd",
-      "name": "thegreengem",
-      "score": 53.8,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 74.9,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 362.09,
-      "realized_pnl": 0.0,
-      "total_usdc": 3078472.14,
-      "trade_count": 500,
-      "market_count": 17,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-16T18:46:59+00:00",
-      "top_markets": [
-        "Kylian Mbapp\u00e9: 1+ goals",
-        "UFC Fight Night: Ramazan Temirov vs. Steve Erceg (Flyweight, Main Card)",
-        "Will Ronaldo Cry at the World Cup?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
-      "name": "033033033",
-      "score": 53.8,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.1,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 2260.14,
-      "realized_pnl": 0.0,
-      "total_usdc": 6192218.6,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-16T17:02:51+00:00",
-      "top_markets": [
-        "Strait of Hormuz traffic returns to normal by September 30?",
-        "Will Bitcoin reach $1,000,000 by December 31, 2026?",
-        "Will XRP reach $3.00 in September?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xadc2efbf97ce7b25f7a638aabdba196c657cd1c9",
-      "name": "BenzoateOstylezeneBicarbonate",
-      "score": 53.6,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 73.8,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 254.26,
-      "realized_pnl": 0.0,
-      "total_usdc": 3806404.48,
-      "trade_count": 500,
-      "market_count": 15,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:39+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "Will Trump be in the WC Champions Photo?",
-        "Will the Tesla Roadster's 0-60 time be less than 1 second?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd34bf815245d5bcea098cb0ea17df360b5c50004",
-      "name": "Jest55",
-      "score": 52.3,
-      "roi_score": 22.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 94.0,
-      "volume_score": 89.0,
-      "roi": -16.0,
-      "cash_pnl": -19675.81,
-      "realized_pnl": 8383.29,
-      "total_usdc": 118264.5,
-      "trade_count": 500,
-      "market_count": 40,
-      "position_count": 91,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T15:25:45+00:00",
-      "top_markets": [
-        "Katie Zacharia out as Press Secretary by October 31?",
-        "Will China invade Taiwan by end of 2026?",
-        "Bab el-Mandeb Strait effectively closed by October 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xbb299ce4867ea634a83a254e24d1ffc5c148947a",
-      "name": "",
-      "score": 51.9,
-      "roi_score": 20.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 94.9,
-      "volume_score": 90.5,
-      "roi": -19.4,
-      "cash_pnl": -12587.63,
-      "realized_pnl": 28.6,
-      "total_usdc": 144467.75,
-      "trade_count": 500,
-      "market_count": 34,
-      "position_count": 15,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:46:56+00:00",
-      "top_markets": [
-        "Counter-Strike: Legacy vs BetBoom Team - Map 2 Winner",
-        "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
-        "Counter-Strike: Team Falcons vs NIP - Map 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7327,
-          "cur_price": 0.715,
-          "usdc_size": 40542.25,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9c0d4ef65fd21795446baecd12da6b0a32a947e6",
-      "name": "0x9c0D4Ef65Fd21795446bAECD12DA6B0A32a947E6-1771555586618",
-      "score": 51.3,
-      "roi_score": 20.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 93.8,
-      "roi": -19.2,
-      "cash_pnl": -958.07,
-      "realized_pnl": 0.0,
-      "total_usdc": 221034.48,
-      "trade_count": 500,
-      "market_count": 87,
-      "position_count": 16,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:21:56+00:00",
-      "top_markets": [
-        "Counter-Strike: ABT Esports vs 9INE (BO3) - Esports World Cup Open Qualifier Group 7",
-        "Counter-Strike: TheMongolz vs EYEBALLERS - Map 1 Winner",
-        "Counter-Strike: ALGO Esports vs MINLATE (BO3) - NODWIN Clutch Series Group Stage"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 4021.88,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfde17cffbbbeec78f9f89d0df4d08fe7ab1a3690",
-      "name": "mpstire-lutuwar",
-      "score": 51.2,
-      "roi_score": 28.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.3,
-      "volume_score": 90.4,
-      "roi": -7.9,
-      "cash_pnl": -563.83,
-      "realized_pnl": -569.49,
-      "total_usdc": 141277.15,
-      "trade_count": 500,
-      "market_count": 92,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T05:32:49+00:00",
-      "top_markets": [
-        "US x Yemen ceasefire continues through October 31?",
-        "US x Iran diplomatic meeting by September 30, 2026?",
-        "Will Lionel Messi win the 2026 Ballon d'Or?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
-      "name": "Arman2",
-      "score": 50.3,
-      "roi_score": 22.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 82.1,
-      "volume_score": 88.1,
-      "roi": -16.7,
-      "cash_pnl": -2305.16,
-      "realized_pnl": 207.37,
-      "total_usdc": 105356.5,
-      "trade_count": 500,
-      "market_count": 51,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T10:55:00+00:00",
-      "top_markets": [
-        "Saudi Oil Pipeline (East-West) restarts by October 15?",
-        "Perim Island no longer under Houthi control by October 31?",
-        "Iran-Oman Hormuz Agreement by October 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc5f068505983fcd80f20caea1d22dfbf4d7340ec",
-      "name": "Stone1337",
-      "score": 48.6,
-      "roi_score": 12.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 90.0,
-      "roi": -30.9,
-      "cash_pnl": -2397.5,
-      "realized_pnl": 0.0,
-      "total_usdc": 133790.97,
-      "trade_count": 441,
-      "market_count": 72,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:33:24+00:00",
-      "top_markets": [
-        "Bulls vs. Nuggets",
         "Raptors vs. Knicks",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs"
+        "W50 Quebec City: Kajsa Rinaldo Persson vs Sara Saito",
+        "Thunder vs. Hawks"
       ],
       "signals": [
         {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 5362.47,
-          "outcome": "Team Falcons"
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "SKIP",
+          "avg_price": 0.37,
+          "cur_price": 0.625,
+          "usdc_size": 625.0,
+          "outcome": "MVK Esports"
         }
       ]
     },
     {
-      "wallet": "0x4d6ef7033e3e332ba584882d09070b3abe755cfd",
-      "name": "tankfest2027",
-      "score": 46.3,
-      "roi_score": 0.0,
+      "wallet": "0x27653cd5aab78f00563f50a03c12504a9b877ee4",
+      "name": "ColdW",
+      "score": 55.6,
+      "roi_score": 34.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 93.5,
-      "volume_score": 97.7,
-      "roi": -85.8,
-      "cash_pnl": -382079.39,
-      "realized_pnl": -1856.52,
-      "total_usdc": 370493.41,
+      "early_entry_score": 87.5,
+      "volume_score": 95.7,
+      "roi": 2.1,
+      "cash_pnl": 296.0,
+      "realized_pnl": 0.0,
+      "total_usdc": 283166.68,
       "trade_count": 500,
-      "market_count": 35,
-      "position_count": 41,
+      "market_count": 84,
+      "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:35:36+00:00",
+      "last_active": "2026-10-17T17:50:24+00:00",
       "top_markets": [
-        "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-        "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playoffs",
-        "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs"
+        "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+        "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+        "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs"
       ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 57199.97,
-          "outcome": "Team Falcons"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0x047faa21c02b8f28a8eff6aa8283f9e947f3bf3a",
-      "name": "glizzer66",
-      "score": 46.1,
-      "roi_score": 0.0,
+      "wallet": "0x1572157ff12a3737b3823eeba1df5d4972677991",
+      "name": "nushkanna",
+      "score": 54.4,
+      "roi_score": 32.2,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 92.4,
-      "volume_score": 97.5,
-      "roi": -51.5,
-      "cash_pnl": -12183.31,
+      "early_entry_score": 87.4,
+      "volume_score": 91.6,
+      "roi": -1.7,
+      "cash_pnl": -78.05,
       "realized_pnl": 0.0,
-      "total_usdc": 358200.19,
+      "total_usdc": 166226.37,
       "trade_count": 500,
-      "market_count": 114,
+      "market_count": 82,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:21+00:00",
+      "last_active": "2026-10-17T18:13:03+00:00",
       "top_markets": [
-        "Will Atlas FC win on 2026-07-25?",
-        "Counter-Strike: BIG vs G2 (BO3) - FISSURE PLAYGROUND Group A",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 11468.55,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747",
-      "name": "juice-fruit",
-      "score": 45.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.8,
-      "volume_score": 100.0,
-      "roi": -93.3,
-      "cash_pnl": -1452427.4,
-      "realized_pnl": -12028.02,
-      "total_usdc": 2443816.18,
-      "trade_count": 500,
-      "market_count": 33,
-      "position_count": 19,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:35:18+00:00",
-      "top_markets": [
-        "Chelsea FC vs. AFC Bournemouth: O/U 2.5",
-        "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
-        "Will Club Atl\u00e9tico de Madrid win on 2026-10-17?"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7268,
-          "cur_price": 0.715,
-          "usdc_size": 104408.3,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x797255f4701331610041687268d246071343594f",
-      "name": "1337zzz1337",
-      "score": 45.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.1,
-      "volume_score": 100.0,
-      "roi": -74.3,
-      "cash_pnl": -6470.87,
-      "realized_pnl": -7563.24,
-      "total_usdc": 516424.35,
-      "trade_count": 500,
-      "market_count": 207,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:03+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down on October 17?",
-        "Bitcoin Up or Down - September 22, 5PM ET",
-        "Dota 2: LGD Gaming vs GamerLegion (BO3) - BLAST Slam Last Chance Qualifier"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.2799,
-          "cur_price": 0.715,
-          "usdc_size": 2239.29,
-          "outcome": "BetBoom Team"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd4f90db3fe7a658e744d3711779a37773c31f4ad",
-      "name": "Hellinas",
-      "score": 45.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 98.8,
-      "roi": -98.6,
-      "cash_pnl": -105862.16,
-      "realized_pnl": -1836.14,
-      "total_usdc": 428475.75,
-      "trade_count": 500,
-      "market_count": 384,
-      "position_count": 141,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:35:39+00:00",
-      "top_markets": [
-        "LoL: Gen.G vs Hanwha Life Esports (BO5) - LCK Playoffs",
-        "Counter-Strike: FaZe vs Astralis (BO3) - Stake Ranked Episode 4 Playoffs",
-        "Counter-Strike: FURIA vs Spirit - Map 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7199,
-          "cur_price": 0.715,
-          "usdc_size": 1526.03,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x99e079510ac59429c1317848ee68d42420395052",
-      "name": "JBucketz",
-      "score": 45.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 96.5,
-      "roi": -88.9,
-      "cash_pnl": -86115.03,
-      "realized_pnl": -541.11,
-      "total_usdc": 314202.59,
-      "trade_count": 500,
-      "market_count": 40,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:48:33+00:00",
-      "top_markets": [
-        "IR Iran vs. New Zealand: Both Teams to Score",
-        "Will the Cleveland Guardians win the 2026 World Series?",
-        "Will Egypt win on 2026-07-03?"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.2799,
-          "cur_price": 0.715,
-          "usdc_size": 7124.96,
-          "outcome": "BetBoom Team"
-        }
-      ]
-    },
-    {
-      "wallet": "0x389b6d0922a5342f07e5c91e9d962a38823f8d69",
-      "name": "dfdffdfdfd",
-      "score": 45.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 96.4,
-      "roi": -95.1,
-      "cash_pnl": -74728.26,
-      "realized_pnl": -1672.94,
-      "total_usdc": 311680.66,
-      "trade_count": 500,
-      "market_count": 237,
-      "position_count": 98,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:34:44+00:00",
-      "top_markets": [
-        "Will Atalanta BC win on 2026-02-14?",
-        "Bitcoin Up or Down - December 26, 1:30PM-1:45PM ET",
-        "Will the price of Bitcoin be above $88,000 on December 2?"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7199,
-          "cur_price": 0.715,
-          "usdc_size": 3887.68,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5b75c05f0a110ab1afd98cfbafa2592064eaf8fa",
-      "name": "AVGGloser",
-      "score": 45.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 96.9,
-      "roi": -91.6,
-      "cash_pnl": -20996.17,
-      "realized_pnl": -1791.77,
-      "total_usdc": 332237.51,
-      "trade_count": 500,
-      "market_count": 83,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:32:18+00:00",
-      "top_markets": [
-        "Counter-Strike: Team Falcons vs FURIA (BO3) - BLAST Open Rotterdam Group A",
-        "LoL: Bilibili Gaming vs JD Gaming - Game 3 Winner",
-        "Counter-Strike: PARIVISION vs Vitality - Map 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 1928.3,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8adb83cfbfa7095809221a75aeadd1ad48a6e4f6",
-      "name": "nobody2somebody",
-      "score": 45.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.1,
-      "volume_score": 96.3,
-      "roi": -98.3,
-      "cash_pnl": -536746.36,
-      "realized_pnl": -7403.0,
-      "total_usdc": 306832.95,
-      "trade_count": 500,
-      "market_count": 145,
-      "position_count": 399,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:03+00:00",
-      "top_markets": [
-        "Counter-Strike: BBL vs EYEBALLERS (BO3) - PGL Bucharest Closed Qualifier Playoffs",
-        "Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
-        "Counter-Strike: Vitality vs MOUZ - Map 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7199,
-          "cur_price": 0.715,
-          "usdc_size": 7150.0,
-          "outcome": "Team Falcons"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.4868,
-          "cur_price": 0.235,
-          "usdc_size": 1004.09,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x3724379b7192ddf7fb43aadbba6d8bc3895e69b5",
-      "name": "sportteryqq",
-      "score": 45.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 95.4,
-      "roi": -99.5,
-      "cash_pnl": -449680.63,
-      "realized_pnl": -11956.19,
-      "total_usdc": 272562.68,
-      "trade_count": 500,
-      "market_count": 207,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:35:17+00:00",
-      "top_markets": [
-        "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - BLAST Slam Group A",
-        "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-        "LoL: Cloud9 vs Karmine Corp (BO5) - Worlds Play-In"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 2010.94,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfaf12d7eba49daad694ea32ff5f425ccf0de795f",
-      "name": "samo27",
-      "score": 45.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 94.7,
-      "roi": -97.4,
-      "cash_pnl": -180177.74,
-      "realized_pnl": -387.01,
-      "total_usdc": 248819.11,
-      "trade_count": 500,
-      "market_count": 101,
-      "position_count": 97,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:44:54+00:00",
-      "top_markets": [
-        "Counter-Strike: Spirit vs DENDELE CS - Map 2 Winner",
-        "Counter-Strike: Vitality vs MOUZ - Map 2 Winner",
-        "Counter-Strike: Aurora Gaming vs Vitality - Map 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7199,
-          "cur_price": 0.715,
-          "usdc_size": 4834.11,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x3f975d4186c87b3b4a39997cc37e71cc70ca4059",
-      "name": "sdgadgae",
-      "score": 45.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.8,
-      "volume_score": 93.5,
-      "roi": -100.0,
-      "cash_pnl": -8351.18,
-      "realized_pnl": -3047.0,
-      "total_usdc": 213550.13,
-      "trade_count": 500,
-      "market_count": 20,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:28:09+00:00",
-      "top_markets": [
-        "LoL: BNK FEARX vs Team WE - Game 4 Winner",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs"
+        "Counter-Strike: PARIVISION vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
+        "Will the Los Angeles Dodgers win the 2026 World Series?",
+        "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs"
       ],
       "signals": []
     },
     {
-      "wallet": "0xedc35944a67658dc37d4e8de948cea2a7fa3f923",
-      "name": "csgamer11",
-      "score": 45.2,
-      "roi_score": 0.0,
+      "wallet": "0x1f4bae57c20bd96c9ad2a5d366466ea381be5345",
+      "name": "tyoprkg",
+      "score": 53.2,
+      "roi_score": 25.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 94.8,
-      "roi": -55.8,
-      "cash_pnl": -8466.21,
-      "realized_pnl": -276.95,
-      "total_usdc": 251674.17,
+      "early_entry_score": 88.8,
+      "volume_score": 97.2,
+      "roi": -12.0,
+      "cash_pnl": -6514.42,
+      "realized_pnl": 29.85,
+      "total_usdc": 347423.57,
       "trade_count": 500,
-      "market_count": 181,
-      "position_count": 12,
+      "market_count": 21,
+      "position_count": 4,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:39:59+00:00",
+      "last_active": "2026-10-17T18:50:42+00:00",
       "top_markets": [
-        "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
-        "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-        "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs"
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+        "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Group Stage"
       ],
       "signals": [
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7294,
-          "cur_price": 0.715,
-          "usdc_size": 4459.05,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xed55444f05e63c15fa1b6496b7c2f0a16b86566f",
-      "name": "0xed55444f05e63c15fa1b6496b7c2f0a16b86566f-1791977373429",
-      "score": 45.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 92.4,
-      "roi": -65.3,
-      "cash_pnl": -19816.89,
-      "realized_pnl": -451.63,
-      "total_usdc": 184389.93,
-      "trade_count": 42,
-      "market_count": 27,
-      "position_count": 11,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:33:44+00:00",
-      "top_markets": [
-        "Counter-Strike: Team Falcons vs NIP - Map 2 Winner",
-        "Counter-Strike: NIP vs Heroic (BO3) - Stake Pulse Beat III Playoffs",
-        "Counter-Strike: MIBR vs BC.Game Esports - Map 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 10542.23,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xec547d1b3a8fe79762fad95e9bf6244b2742e8c1",
-      "name": "a8999",
-      "score": 45.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 92.9,
-      "roi": -97.1,
-      "cash_pnl": -316377.15,
-      "realized_pnl": -2009.66,
-      "total_usdc": 196687.57,
-      "trade_count": 500,
-      "market_count": 110,
-      "position_count": 326,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:47:45+00:00",
-      "top_markets": [
-        "Valorant: Team Vitality vs 100 Thieves - Map 2 Winner",
-        "LoL: Cloud9 vs Karmine Corp - Game 2 Winner",
-        "Total Kills Over/Under 27.5 in Game 1?"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 2829.02,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf0928232c5ffaf98607b8eae6d621b9861d04eba",
-      "name": "truthtrader",
-      "score": 44.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 89.4,
-      "roi": -66.3,
-      "cash_pnl": -1293.41,
-      "realized_pnl": -16.31,
-      "total_usdc": 124988.61,
-      "trade_count": 500,
-      "market_count": 334,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:30:45+00:00",
-      "top_markets": [
-        "Washington Nationals vs. Detroit Tigers",
-        "Sabres vs. Maple Leafs",
-        "LoL: Movistar KOI vs Team Secret Whales (BO3)"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 658.49,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x880273a012d745b781bb148da8e8ae85a7cef583",
-      "name": "tusike",
-      "score": 44.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.1,
-      "volume_score": 88.8,
-      "roi": -91.6,
-      "cash_pnl": -7439.86,
-      "realized_pnl": -251.57,
-      "total_usdc": 114664.54,
-      "trade_count": 500,
-      "market_count": 313,
-      "position_count": 45,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:39+00:00",
-      "top_markets": [
-        "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
-        "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-        "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 684.31,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc5b0dc7e10fc7479290799f8c9642ca10403180d",
-      "name": "ameamezzz",
-      "score": 44.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 86.6,
-      "roi": -96.9,
-      "cash_pnl": -166519.05,
-      "realized_pnl": -380.9,
-      "total_usdc": 86159.29,
-      "trade_count": 500,
-      "market_count": 115,
-      "position_count": 276,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:24+00:00",
-      "top_markets": [
-        "Counter-Strike: Team Falcons vs Spirit - Map 2 Winner",
-        "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.725,
-          "cur_price": 0.715,
-          "usdc_size": 5070.67,
+          "cur_price": 0.8125,
+          "usdc_size": 13753.33,
           "outcome": "Team Falcons"
         }
       ]
     },
     {
-      "wallet": "0x131142b32b77bb6cbbea899f08dcbdf938bcd450",
-      "name": "czy1999",
-      "score": 44.3,
-      "roi_score": 0.0,
+      "wallet": "0xae2b8bc0283181cce4f07b28bbe237596a419cc3",
+      "name": "weeeskies",
+      "score": 52.0,
+      "roi_score": 23.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 88.2,
-      "volume_score": 85.9,
-      "roi": -99.6,
-      "cash_pnl": -278438.4,
-      "realized_pnl": -515.15,
-      "total_usdc": 79083.6,
+      "volume_score": 91.5,
+      "roi": -14.2,
+      "cash_pnl": -3092.16,
+      "realized_pnl": -326.83,
+      "total_usdc": 163615.57,
       "trade_count": 500,
-      "market_count": 96,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:47:48+00:00",
-      "top_markets": [
-        "Dota 2: Team Synapse vs HULIGANI (BO3) - PARI Universe Closed Qualifier Playoffs",
-        "Game Handicap: KT (-1.5) vs BNK FEARX (+1.5)",
-        "LoL: Cupid Esports vs Disguised - Game 3 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 715.72,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x82a7183f93447d7a8ff5b4bd08eb0d74de266ed8",
-      "name": "Dripx",
-      "score": 43.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 75.0,
-      "volume_score": 100.0,
-      "roi": -83.7,
-      "cash_pnl": -1739971.01,
-      "realized_pnl": -19.2,
-      "total_usdc": 6632868.74,
-      "trade_count": 500,
-      "market_count": 26,
-      "position_count": 12,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-16T17:03:52+00:00",
-      "top_markets": [
-        "Will Trump say \"Iran\" during events with Xi Jinping?",
-        "US x Venezuela military engagement by December 31?",
-        "US forces enter Iran by March 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x3bf2fe6a7d38e592e567f07343ec4e335fefde9d",
-      "name": "plpl020",
-      "score": 43.7,
-      "roi_score": 2.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 72.4,
-      "roi": -46.2,
-      "cash_pnl": -3233.8,
-      "realized_pnl": -101.61,
-      "total_usdc": 13289.25,
-      "trade_count": 41,
-      "market_count": 20,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:50:14+00:00",
-      "top_markets": [
-        "Counter-Strike: Spirit vs Team Falcons - Map 2 Winner",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "Counter-Strike: Natus Vincere vs M80 (BO3) - BLAST Open Porto Group A"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 3771.62,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x11c550d351c8ffcbbbb469282f397e81a5001dc3",
-      "name": "0x11c550d351c8fFcBBbb469282F397E81a5001dC3-1765644964000",
-      "score": 43.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.8,
-      "volume_score": 75.6,
-      "roi": -79.0,
-      "cash_pnl": -2245.68,
-      "realized_pnl": -286.18,
-      "total_usdc": 20410.52,
-      "trade_count": 500,
-      "market_count": 248,
-      "position_count": 250,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:45:29+00:00",
-      "top_markets": [
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "Seahawks vs. Broncos",
-        "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7308,
-          "cur_price": 0.715,
-          "usdc_size": 596.94,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6729024fccc8062f2a78772e092b1d4f529c9060",
-      "name": "THEBEAST222",
-      "score": 43.4,
-      "roi_score": 0.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.3,
-      "volume_score": 74.7,
-      "roi": -49.2,
-      "cash_pnl": -1362.28,
-      "realized_pnl": -45.11,
-      "total_usdc": 17988.3,
-      "trade_count": 49,
-      "market_count": 23,
+      "market_count": 54,
       "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:28:30+00:00",
+      "last_active": "2026-10-17T17:54:33+00:00",
       "top_markets": [
-        "Will Bitcoin reach $87,500 in September?",
-        "NATO x Russia military clash by December 31, 2026?",
-        "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Championship Playoffs"
+        "Counter-Strike: Legacy vs PARIVISION (BO3) - Thunderpick World Championship Group B",
+        "Counter-Strike: Aurora Gaming vs 9z - Map 2 Winner",
+        "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs"
       ],
       "signals": [
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 1405.93,
+          "signal": "LATE",
+          "avg_price": 0.812,
+          "cur_price": 0.8125,
+          "usdc_size": 14030.64,
           "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8bbcd4a858f305070f453934e75df5b2f2912c1c",
-      "name": "pinkmanapipka",
-      "score": 42.5,
-      "roi_score": 4.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 88.2,
-      "volume_score": 54.9,
-      "roi": -43.8,
-      "cash_pnl": -575.79,
-      "realized_pnl": -14.49,
-      "total_usdc": 1340.75,
-      "trade_count": 3,
-      "market_count": 3,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:36:42+00:00",
-      "top_markets": [
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Championship Playoffs",
-        "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B"
-      ],
-      "signals": [
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 740.02,
-          "outcome": "Team Falcons"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2d2e8ad4572ffa76d2ece70ef7e55f3cbe2e0c54",
-      "name": "jsdk3k21k",
-      "score": 41.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 82.7,
-      "volume_score": 70.0,
-      "roi": -78.0,
-      "cash_pnl": -7246.49,
-      "realized_pnl": 0.0,
-      "total_usdc": 9744.6,
-      "trade_count": 59,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-16T17:03:52+00:00",
-      "top_markets": [
-        "Will the Tesla Roadster's 0-60 time be less than 1 second?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Tesla Roadster's 0-60 time be less than 1 second?",
-          "signal": "SKIP",
-          "avg_price": 0.0022,
-          "cur_price": 0.9995,
-          "usdc_size": 2046.61,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
-      "name": "D8D5289c35124b5353f5A10A28B8cC29aEC38935",
-      "score": 41.7,
-      "roi_score": 32.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.0,
-      "roi": -0.9,
-      "cash_pnl": -1655.12,
-      "realized_pnl": 4939.74,
-      "total_usdc": 228795.22,
-      "trade_count": 500,
-      "market_count": 80,
-      "position_count": 370,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:13:17+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-        "Katie Zacharia out as Press Secretary by December 31?"
-      ],
-      "signals": [
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.1179,
-          "cur_price": 0.235,
-          "usdc_size": 2115.0,
-          "outcome": "Yes"
         },
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.8331,
-          "cur_price": 0.7675,
-          "usdc_size": 6906.84,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xdd882a70680633a75516f6ed5fce443e2d96dadb",
-      "name": "MeiGuNiuBi",
-      "score": 40.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 57.3,
-      "volume_score": 91.9,
-      "roi": -99.6,
-      "cash_pnl": -5323656.18,
-      "realized_pnl": -37571.67,
-      "total_usdc": 173057.24,
-      "trade_count": 500,
-      "market_count": 36,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-17T16:47:35+00:00",
-      "top_markets": [
-        "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
-        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs"
-      ],
-      "signals": [
-        {
-          "market": "West Indies Tour of India T20s: India vs West Indies",
-          "signal": "SKIP",
-          "avg_price": 0.3096,
-          "cur_price": 0.505,
-          "usdc_size": 13836.79,
-          "outcome": "West Indies"
-        },
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.26,
-          "cur_price": 0.715,
-          "usdc_size": 4012.75,
+          "avg_price": 0.2537,
+          "cur_price": 0.485,
+          "usdc_size": 1197.19,
           "outcome": "BetBoom Team"
         }
       ]
     },
     {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 40.1,
-      "roi_score": 32.5,
+      "wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+      "name": "bigdihhh888",
+      "score": 50.9,
+      "roi_score": 22.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.3,
-      "roi": -1.2,
-      "cash_pnl": -3201.35,
-      "realized_pnl": -2896.28,
-      "total_usdc": 29019.95,
+      "early_entry_score": 89.2,
+      "volume_score": 84.4,
+      "roi": -17.0,
+      "cash_pnl": -2127.31,
+      "realized_pnl": 21336.13,
+      "total_usdc": 64701.46,
       "trade_count": 500,
-      "market_count": 244,
+      "market_count": 192,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:50:18+00:00",
+      "last_active": "2026-10-17T18:57:59+00:00",
       "top_markets": [
-        "Counter-Strike: Heroic vs 100 Thieves (BO3) - Stake Pulse Beat III Playoffs",
-        "Will Paris Saint-Germain FC win on 2026-10-17?",
-        "Will FC Barcelona win on 2026-10-17?"
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Games Total: O/U 2.5",
+        "Will the next Fable model (5.2+) be released on October 23, 2026?"
       ],
       "signals": [
         {
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "SKIP",
+          "avg_price": 0.4493,
+          "cur_price": 0.625,
+          "usdc_size": 2122.34,
+          "outcome": "FURIA Esports"
+        },
+        {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7204,
-          "cur_price": 0.715,
-          "usdc_size": 2122.45,
+          "signal": "SKIP",
+          "avg_price": 0.7389,
+          "cur_price": 0.8125,
+          "usdc_size": 2710.31,
           "outcome": "Team Falcons"
-        },
+        }
+      ]
+    },
+    {
+      "wallet": "0x758dac51ba3cc9a246a79787da9df11c5f425d9e",
+      "name": "a5533",
+      "score": 50.8,
+      "roi_score": 27.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.0,
+      "volume_score": 70.6,
+      "roi": -9.6,
+      "cash_pnl": -4848.81,
+      "realized_pnl": -11435.69,
+      "total_usdc": 10494.07,
+      "trade_count": 500,
+      "market_count": 111,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:01:15+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - October 17, 2:45PM-3:00PM ET",
+        "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
+        "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner"
+      ],
+      "signals": [
         {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians",
-          "signal": "ENTER",
-          "avg_price": 0.5126,
-          "cur_price": 0.505,
-          "usdc_size": 1090.76,
-          "outcome": "Tampa Bay Rays"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "market": "US x Iran ceasefire continues through October 31?",
           "signal": "LATE",
-          "avg_price": 0.7937,
-          "cur_price": 0.7675,
-          "usdc_size": 8695.09,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-17?",
-          "signal": "SKIP",
-          "avg_price": 0.4226,
-          "cur_price": 0.195,
-          "usdc_size": 2055.82,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will FC Barcelona win on 2026-10-17?",
-          "signal": "SKIP",
-          "avg_price": 0.6844,
-          "cur_price": 0.835,
-          "usdc_size": 993.87,
+          "avg_price": 0.7865,
+          "cur_price": 0.805,
+          "usdc_size": 1859.43,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x8cb7d7321a59a8dcc61891624d0319f3e21066e3",
-      "name": "Detbet",
-      "score": 38.1,
-      "roi_score": 22.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.4,
-      "roi": -16.9,
-      "cash_pnl": -1745.38,
-      "realized_pnl": 38.37,
-      "total_usdc": 124130.23,
-      "trade_count": 390,
-      "market_count": 111,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-16T21:13:56+00:00",
-      "top_markets": [
-        "Iran full airspace closure by September 30?",
-        "Israel x Iran ceasefire continues through October 31?",
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?"
-      ],
-      "signals": []
-    },
-    {
       "wallet": "0x168fd826a1f30c1752f221b74a7a1316c54f6424",
       "name": "printmon",
-      "score": 36.8,
-      "roi_score": 14.3,
+      "score": 49.9,
+      "roi_score": 13.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
+      "early_entry_score": 88.1,
       "volume_score": 100.0,
-      "roi": -28.6,
-      "cash_pnl": -11473.73,
-      "realized_pnl": -50.39,
-      "total_usdc": 520993.36,
+      "roi": -29.2,
+      "cash_pnl": -13033.83,
+      "realized_pnl": -90.53,
+      "total_usdc": 520099.03,
       "trade_count": 500,
-      "market_count": 110,
+      "market_count": 106,
       "position_count": 16,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:43:09+00:00",
+      "last_active": "2026-10-17T18:52:08+00:00",
       "top_markets": [
         "Will Paris Saint-Germain FC win on 2026-10-17?",
         "Villarreal CF vs. Elche CF: O/U 4.5",
@@ -1523,265 +377,1090 @@
       "signals": [
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 1276.99,
-          "outcome": "Team Falcons"
-        },
-        {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-17?",
           "signal": "SKIP",
-          "avg_price": 0.3118,
-          "cur_price": 0.195,
-          "usdc_size": 3661.1,
-          "outcome": "No"
+          "avg_price": 0.7502,
+          "cur_price": 0.8125,
+          "usdc_size": 6998.76,
+          "outcome": "Team Falcons"
         }
       ]
     },
     {
-      "wallet": "0x336bf6f91a4619d54f0711a20fe468adf4d71233",
-      "name": "ArturitoFilito",
-      "score": 34.1,
-      "roi_score": 0.0,
+      "wallet": "0x819fa4f6eef01ae44bc72d36c43efac203cd94b0",
+      "name": "0x1BD22c7Fce7D7cAC28873Cc3Add1156C844aafe7-1730472919982",
+      "score": 49.5,
+      "roi_score": 21.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 10.8,
-      "volume_score": 100.0,
-      "roi": -95.3,
-      "cash_pnl": -1802724.43,
-      "realized_pnl": 33427.14,
-      "total_usdc": 729546.83,
-      "trade_count": 500,
-      "market_count": 40,
-      "position_count": 294,
+      "early_entry_score": 88.5,
+      "volume_score": 72.6,
+      "roi": -17.8,
+      "cash_pnl": -367.16,
+      "realized_pnl": -18.16,
+      "total_usdc": 13769.26,
+      "trade_count": 47,
+      "market_count": 35,
+      "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:46:18+00:00",
+      "last_active": "2026-10-17T17:54:18+00:00",
       "top_markets": [
-        "Will Club Atl\u00e9tico de Madrid win on 2026-10-13?",
-        "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-        "LoL: FlyQuest vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage"
+        "LoL: HANJIN BRION vs Natus Vincere (BO3) - Demacia Cup Global Invitational Group Stage",
+        "Will LYON win Worlds 2026?",
+        "Will Team Vitality win the Demacia Cup Global Invitational 2026?"
       ],
       "signals": [
         {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 47666.19,
-          "outcome": "Team Falcons"
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "SKIP",
+          "avg_price": 0.3599,
+          "cur_price": 0.625,
+          "usdc_size": 694.44,
+          "outcome": "MVK Esports"
+        }
+      ]
+    },
+    {
+      "wallet": "0xdd882a70680633a75516f6ed5fce443e2d96dadb",
+      "name": "MeiGuNiuBi",
+      "score": 46.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 94.8,
+      "volume_score": 92.5,
+      "roi": -99.5,
+      "cash_pnl": -5324917.71,
+      "realized_pnl": -37138.48,
+      "total_usdc": 186417.48,
+      "trade_count": 500,
+      "market_count": 38,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:51:05+00:00",
+      "top_markets": [
+        "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "LATE",
+          "avg_price": 0.5884,
+          "cur_price": 0.625,
+          "usdc_size": 4374.98,
+          "outcome": "MVK Esports"
         },
         {
-          "market": "Florida Atlantic vs. Army",
-          "signal": "SKIP",
-          "avg_price": 0.45,
-          "cur_price": 0.325,
-          "usdc_size": 15833.17,
-          "outcome": "Florida Atlantic"
-        },
-        {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.28,
-          "cur_price": 0.715,
-          "usdc_size": 541.59,
+          "avg_price": 0.26,
+          "cur_price": 0.8125,
+          "usdc_size": 814.99,
           "outcome": "BetBoom Team"
         }
       ]
     },
     {
-      "wallet": "0x79ae097215202b5d01f98e4479fb219102469a4a",
-      "name": "CORGII",
-      "score": 32.5,
-      "roi_score": 0.0,
+      "wallet": "0x2cac35bd6d5a3efaa97e947dc077a93eacf52f4f",
+      "name": "nba2k",
+      "score": 45.9,
+      "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -99.7,
-      "cash_pnl": -5602871.73,
-      "realized_pnl": -118468.34,
-      "total_usdc": 924037.98,
-      "trade_count": 500,
-      "market_count": 56,
-      "position_count": 500,
+      "volume_score": 84.3,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 63309.57,
+      "trade_count": 107,
+      "market_count": 26,
+      "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:49:26+00:00",
+      "last_active": "2026-10-17T18:54:12+00:00",
       "top_markets": [
-        "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-        "Counter-Strike: 9z vs Aurora Gaming (BO3) - Thunderpick World Championship Group A",
-        "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs"
+        "Timberwolves vs. Heat",
+        "Heat vs. Magic",
+        "Will Be\u015fikta\u015f JK win on 2026-10-15?"
       ],
-      "signals": [
-        {
-          "market": "Will Newcastle United FC win on 2026-10-17?",
-          "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.425,
-          "usdc_size": 6315.22,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "SKIP",
-          "avg_price": 0.2799,
-          "cur_price": 0.715,
-          "usdc_size": 3116.94,
-          "outcome": "BetBoom Team"
-        }
-      ]
+      "signals": []
     },
     {
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "score": 32.5,
-      "roi_score": 0.0,
+      "wallet": "0xf96dc0a048da884efe0face85664ff4c6f833a1e",
+      "name": "",
+      "score": 45.9,
+      "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -91.6,
-      "cash_pnl": -10135884.96,
-      "realized_pnl": 256878.71,
-      "total_usdc": 1034886.08,
+      "volume_score": 83.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 59284.66,
       "trade_count": 500,
-      "market_count": 41,
-      "position_count": 500,
+      "market_count": 215,
+      "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:50:09+00:00",
+      "last_active": "2026-10-17T18:31:50+00:00",
+      "top_markets": [
+        "Olympique Lyonnais leading at halftime?",
+        "Will FC Barcelona win on 2026-10-10?",
+        "Newcastle United FC leading at halftime?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x84427a54d5fdb88972ea33c22bd8b1e12fce9df5",
+      "name": "wizwot",
+      "score": 44.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 92.7,
+      "volume_score": 83.7,
+      "roi": -93.6,
+      "cash_pnl": -732.58,
+      "realized_pnl": -250.88,
+      "total_usdc": 59020.94,
+      "trade_count": 500,
+      "market_count": 110,
+      "position_count": 15,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:56+00:00",
+      "top_markets": [
+        "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
+        "Counter-Strike: DENDELE CS vs Imperial - Map 1 Winner",
+        "Counter-Strike: Spirit vs MOUZ - Map 1 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc5f068505983fcd80f20caea1d22dfbf4d7340ec",
+      "name": "Stone1337",
+      "score": 44.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.3,
+      "volume_score": 90.3,
+      "roi": -61.3,
+      "cash_pnl": -2075.8,
+      "realized_pnl": 1161.19,
+      "total_usdc": 140623.89,
+      "trade_count": 459,
+      "market_count": 73,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:34:59+00:00",
       "top_markets": [
         "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-        "Will Aston Villa FC win on 2026-10-17?",
-        "Will Newcastle United FC win on 2026-10-17?"
+        "Bulls vs. Nuggets",
+        "Raptors vs. Knicks"
       ],
       "signals": [
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
+          "signal": "SKIP",
           "avg_price": 0.72,
-          "cur_price": 0.715,
-          "usdc_size": 144999.94,
+          "cur_price": 0.8125,
+          "usdc_size": 1312.44,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0x10c0c286d0ebcd3e338d41e1fc3e7fbbca3e4b97",
+      "name": "protonos",
+      "score": 44.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.8,
+      "volume_score": 89.6,
+      "roi": -100.0,
+      "cash_pnl": -11764.59,
+      "realized_pnl": -425.77,
+      "total_usdc": 126900.7,
+      "trade_count": 305,
+      "market_count": 33,
+      "position_count": 13,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T17:51:00+00:00",
+      "top_markets": [
+        "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
+        "Counter-Strike: PARIVISION vs BetBoom Team - Map 1 Winner",
+        "Counter-Strike: MOUZ vs Spirit - Map 1 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb4bfc90a6f76a9cd2a7bbb12d5a7bf439729fa41",
+      "name": "0xb4bFC90A6f76A9cD2A7BBb12D5a7BF439729fa41-1788881896364",
+      "score": 44.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.8,
+      "volume_score": 89.4,
+      "roi": -80.1,
+      "cash_pnl": -41562.87,
+      "realized_pnl": -375.56,
+      "total_usdc": 124014.44,
+      "trade_count": 293,
+      "market_count": 9,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T17:50:24+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Will Club Atl\u00e9tico de Madrid win on 2026-10-17?",
+        "Counter-Strike: MIBR vs Alliance (BO3) - FISSURE PLAYGROUND Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.212,
+          "cur_price": 0.8125,
+          "usdc_size": 10324.59,
+          "outcome": "BetBoom Team"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5b6af721e4393874390ba1a7e2f2eb72b0957c13",
+      "name": "CCDXiao",
+      "score": 44.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.4,
+      "volume_score": 90.5,
+      "roi": -54.1,
+      "cash_pnl": -12348.67,
+      "realized_pnl": 34.32,
+      "total_usdc": 143017.95,
+      "trade_count": 500,
+      "market_count": 63,
+      "position_count": 43,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:56:33+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs Spirit - Map 2 Winner",
+        "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+        "Valorant: LOUD vs Global Esports (BO3) - VCT Champions Group B"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x3634f580d5563461e340496c0e8a8f4da185fa83",
+      "name": "CripplingHeadshot",
+      "score": 44.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 86.9,
+      "volume_score": 90.9,
+      "roi": -93.1,
+      "cash_pnl": -45144.64,
+      "realized_pnl": -1036.12,
+      "total_usdc": 150745.83,
+      "trade_count": 295,
+      "market_count": 149,
+      "position_count": 62,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:47:17+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - August 13, 1AM ET",
+        "Counter-Strike: Team Falcons vs NIP - Map 1 Winner",
+        "Counter-Strike: 9z vs Aurora Gaming - Map 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.7,
+          "cur_price": 0.8125,
+          "usdc_size": 3368.59,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+      "name": "0x99a093771ad58bcfc3023cd75566415f",
+      "score": 44.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.0,
+      "volume_score": 89.1,
+      "roi": -92.4,
+      "cash_pnl": -122570.73,
+      "realized_pnl": 1802130.94,
+      "total_usdc": 119084.76,
+      "trade_count": 500,
+      "market_count": 2,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:35+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "LATE",
+          "avg_price": 0.8459,
+          "cur_price": 0.8125,
+          "usdc_size": 3047.71,
           "outcome": "Team Falcons"
         },
         {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians",
-          "signal": "ENTER",
-          "avg_price": 0.5099,
-          "cur_price": 0.505,
-          "usdc_size": 23547.96,
-          "outcome": "Tampa Bay Rays"
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.3793,
+          "cur_price": 0.485,
+          "usdc_size": 1889.13,
+          "outcome": "BetBoom Team"
         },
         {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians",
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+          "signal": "SKIP",
+          "avg_price": 0.5833,
+          "cur_price": 0.485,
+          "usdc_size": 5128.9,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0xb35f674af4603c9602dfbf39564087e94897cf4c",
+      "name": "calculate10",
+      "score": 44.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.4,
+      "volume_score": 87.8,
+      "roi": -88.9,
+      "cash_pnl": -74602.23,
+      "realized_pnl": -3874.3,
+      "total_usdc": 101000.77,
+      "trade_count": 500,
+      "market_count": 17,
+      "position_count": 236,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:32+00:00",
+      "top_markets": [
+        "Dota 2: LEGION vs Team Lynx - Game 1 Winner",
+        "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Closed Qualifier Playoffs",
+        "Dota 2: Team Resilience vs Xtreme Gaming - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
           "signal": "LATE",
-          "avg_price": 0.48,
-          "cur_price": 0.505,
-          "usdc_size": 19967.7,
-          "outcome": "Cleveland Guardians"
+          "avg_price": 0.8369,
+          "cur_price": 0.8125,
+          "usdc_size": 1463.05,
+          "outcome": "Team Falcons"
         },
         {
-          "market": "Will Newcastle United FC win on 2026-10-17?",
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
           "signal": "SKIP",
-          "avg_price": 0.566,
-          "cur_price": 0.425,
-          "usdc_size": 217581.41,
-          "outcome": "No"
-        },
+          "avg_price": 0.3372,
+          "cur_price": 0.485,
+          "usdc_size": 6086.93,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0x493e18b71fe2ec6d480f488e774803536323d38b",
+      "name": "Mindblast-",
+      "score": 44.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.4,
+      "volume_score": 86.7,
+      "roi": -61.8,
+      "cash_pnl": -1063.15,
+      "realized_pnl": -336.66,
+      "total_usdc": 87703.19,
+      "trade_count": 500,
+      "market_count": 185,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:43:03+00:00",
+      "top_markets": [
+        "Valorant: 100 Thieves vs G2 Esports - Map 2 Winner",
+        "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+        "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x9fe8e375d1c813270742864e752d16bf53c92026",
+      "name": "Underdog-",
+      "score": 44.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.6,
+      "volume_score": 84.0,
+      "roi": -69.6,
+      "cash_pnl": -5642.61,
+      "realized_pnl": -236.76,
+      "total_usdc": 61136.79,
+      "trade_count": 500,
+      "market_count": 152,
+      "position_count": 74,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:01:08+00:00",
+      "top_markets": [
+        "Counter-Strike: Vitality vs Natus Vincere - Map 2 Winner",
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Counter-Strike: Heroic vs 100 Thieves (BO3) - Stake Pulse Beat III Playoffs"
+      ],
+      "signals": [
         {
-          "market": "Mississippi State vs. LSU",
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.12,
-          "cur_price": 0.0225,
-          "usdc_size": 5185.61,
-          "outcome": "Mississippi State"
-        },
+          "avg_price": 0.7293,
+          "cur_price": 0.8125,
+          "usdc_size": 2460.45,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcd5e7904aa920835e691094c9d01a276a0157b83",
+      "name": "zilijen",
+      "score": 43.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 88.4,
+      "volume_score": 80.5,
+      "roi": -97.8,
+      "cash_pnl": -21074.69,
+      "realized_pnl": -234.79,
+      "total_usdc": 38761.9,
+      "trade_count": 500,
+      "market_count": 181,
+      "position_count": 492,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:47:56+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - October 13, 6:00AM-6:05AM ET",
+        "Bitcoin Up or Down - October 17, 1:40PM-1:45PM ET",
+        "Bitcoin Up or Down - October 10, 2:45PM-2:50PM ET"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xe723349860ece5e2692be442881481e0c15c831c",
+      "name": "1802",
+      "score": 43.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.2,
+      "volume_score": 81.0,
+      "roi": -100.0,
+      "cash_pnl": -915.74,
+      "realized_pnl": -6.85,
+      "total_usdc": 41539.58,
+      "trade_count": 500,
+      "market_count": 154,
+      "position_count": 15,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:52:11+00:00",
+      "top_markets": [
+        "Russia Elections: United Russia Wins Every Region?",
+        "Fresno State vs. Washington State",
+        "Will the highest temperature in Hong Kong be 30\u00b0C on October 14?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x35d4491edf305a20be971bfaff3db05d3fc9d6f6",
+      "name": "ruuuuuslan",
+      "score": 42.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 87.5,
+      "volume_score": 68.9,
+      "roi": -52.9,
+      "cash_pnl": -1033.1,
+      "realized_pnl": -30.78,
+      "total_usdc": 8402.64,
+      "trade_count": 245,
+      "market_count": 137,
+      "position_count": 55,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:52:29+00:00",
+      "top_markets": [
+        "Counter-Strike: INOX Division vs BakS eSports (BO3) - NODWIN Clutch Series Group Stage",
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Counter-Strike: Rush vs RED Canids Academy (BO3) - Gamers Club Liga S\u00e9rie A Playoffs"
+      ],
+      "signals": [
         {
-          "market": "Real Betis Balompi\u00e9 vs. FC Barcelona: O/U 3.5",
-          "signal": "SKIP",
-          "avg_price": 0.36,
-          "cur_price": 0.685,
-          "usdc_size": 66999.97,
-          "outcome": "Under"
-        },
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "LATE",
+          "avg_price": 0.7839,
+          "cur_price": 0.8125,
+          "usdc_size": 921.26,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+      "name": "ameisgoat11",
+      "score": 39.9,
+      "roi_score": 31.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.8,
+      "roi": -2.7,
+      "cash_pnl": -582.75,
+      "realized_pnl": 924.41,
+      "total_usdc": 31102.31,
+      "trade_count": 500,
+      "market_count": 104,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:51+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+        "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Championship Playoffs",
+        "Counter-Strike: NIP vs MIBR (BO3) - Stake Pulse Beat III Playoffs"
+      ],
+      "signals": [
         {
-          "market": "Spread: FC Barcelona (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.635,
-          "usdc_size": 36500.0,
-          "outcome": "Real Betis Balompi\u00e9"
-        },
-        {
-          "market": "Will Aston Villa FC win on 2026-10-17?",
-          "signal": "SKIP",
-          "avg_price": 0.6999,
-          "cur_price": 0.305,
-          "usdc_size": 50205.3,
-          "outcome": "No"
-        },
-        {
-          "market": "Will FC Barcelona win on 2026-10-17?",
-          "signal": "SKIP",
-          "avg_price": 0.2532,
-          "cur_price": 0.835,
-          "usdc_size": 9309.01,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.8579,
-          "cur_price": 0.7675,
-          "usdc_size": 42049.95,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Spread: FC Barcelona (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4599,
-          "cur_price": 0.635,
-          "usdc_size": 31947.65,
-          "outcome": "FC Barcelona"
-        },
-        {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-17?",
-          "signal": "SKIP",
-          "avg_price": 0.5996,
-          "cur_price": 0.195,
-          "usdc_size": 18728.63,
-          "outcome": "Yes"
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "LATE",
+          "avg_price": 0.7833,
+          "cur_price": 0.8125,
+          "usdc_size": 10824.55,
+          "outcome": "Team Falcons"
         },
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
           "signal": "SKIP",
-          "avg_price": 0.27,
-          "cur_price": 0.715,
-          "usdc_size": 10077.73,
+          "avg_price": 0.2365,
+          "cur_price": 0.8125,
+          "usdc_size": 1213.22,
           "outcome": "BetBoom Team"
+        },
+        {
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "SKIP",
+          "avg_price": 0.3915,
+          "cur_price": 0.625,
+          "usdc_size": 4006.88,
+          "outcome": "MVK Esports"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9377c72f6183972ac2f0c41ae720e98cdfca2f06",
+      "name": "",
+      "score": 37.7,
+      "roi_score": 25.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.5,
+      "roi": -11.2,
+      "cash_pnl": -1622.05,
+      "realized_pnl": -6.6,
+      "total_usdc": 17592.43,
+      "trade_count": 112,
+      "market_count": 6,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:58:30+00:00",
+      "top_markets": [
+        "Kharg Island no longer under Iranian control by December 31?",
+        "Kharg Island no longer under Iranian control by October 31?",
+        "Kharg Island no longer under Iranian control by September 30?"
+      ],
+      "signals": [
+        {
+          "market": "Will AS Roma win on 2026-10-17?",
+          "signal": "ENTER",
+          "avg_price": 0.5599,
+          "cur_price": 0.555,
+          "usdc_size": 1461.65,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2eaa693ca8a7bf512f98958db6379855d0a17d1a",
+      "name": "zvon3",
+      "score": 37.1,
+      "roi_score": 18.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.8,
+      "roi": -22.7,
+      "cash_pnl": -21404.99,
+      "realized_pnl": -31488.47,
+      "total_usdc": 150426.29,
+      "trade_count": 500,
+      "market_count": 2,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:32+00:00",
+      "top_markets": [
+        "Will FC Barcelona win on 2026-10-17?",
+        "Will Paris Saint-Germain FC win on 2026-10-17?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x00bb02fbf26cc5f77a1a7a2e40e2c66222fe2383",
+      "name": "VEQOman",
+      "score": 36.8,
+      "roi_score": 23.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 72.6,
+      "roi": -15.1,
+      "cash_pnl": -124.96,
+      "realized_pnl": 0.0,
+      "total_usdc": 13756.36,
+      "trade_count": 47,
+      "market_count": 22,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:28:35+00:00",
+      "top_markets": [
+        "Will Manchester City FC win on 2026-10-17?",
+        "Will FC Barcelona win on 2026-10-17?",
+        "Will FC Bayern M\u00fcnchen win on 2026-10-17?"
+      ],
+      "signals": [
+        {
+          "market": "Will AS Roma win on 2026-10-17?",
+          "signal": "SKIP",
+          "avg_price": 0.6415,
+          "cur_price": 0.555,
+          "usdc_size": 705.04,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x927cf2bb94d15707993f954552e56c74eb6d6633",
+      "name": "jarosbill",
+      "score": 36.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 27.6,
+      "volume_score": 95.5,
+      "roi": -97.6,
+      "cash_pnl": -1614762.49,
+      "realized_pnl": -21398.82,
+      "total_usdc": 275600.59,
+      "trade_count": 500,
+      "market_count": 32,
+      "position_count": 369,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:52:06+00:00",
+      "top_markets": [
+        "Will AC Milan win on 2026-10-11?",
+        "Will Paris Saint-Germain FC win on 2026-10-17?",
+        "Will Liverpool FC win on 2026-10-17?"
+      ],
+      "signals": [
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.7464,
+          "cur_price": 0.8125,
+          "usdc_size": 28092.53,
+          "outcome": "Team Falcons"
+        },
+        {
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "SKIP",
+          "avg_price": 0.3895,
+          "cur_price": 0.625,
+          "usdc_size": 10937.5,
+          "outcome": "MVK Esports"
+        }
+      ]
+    },
+    {
+      "wallet": "0x362fc03a3e1c087fed9d9bc922e46c4a1584fd46",
+      "name": "yekaza123",
+      "score": 35.2,
+      "roi_score": 17.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 73.7,
+      "roi": -23.2,
+      "cash_pnl": -43.47,
+      "realized_pnl": -140.58,
+      "total_usdc": 15924.81,
+      "trade_count": 73,
+      "market_count": 12,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:33:36+00:00",
+      "top_markets": [
+        "Will FC Barcelona win on 2026-10-25?",
+        "France vs. Spain: Team to Advance",
+        "Manchester City FC vs. Paris Saint-Germain FC: O/U 7.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf880add3ab145ec40627abe09217bc7b51bd89c0",
+      "name": "fakeky",
+      "score": 33.9,
+      "roi_score": 5.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.7,
+      "roi": -41.6,
+      "cash_pnl": -7798.02,
+      "realized_pnl": -165.94,
+      "total_usdc": 325692.55,
+      "trade_count": 85,
+      "market_count": 13,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:49:08+00:00",
+      "top_markets": [
+        "Spread: Manchester City FC (-3.5)",
+        "Spread: SC Freiburg (-1.5)",
+        "Spread: Djurgardens IF (-1.5)"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
+      "name": "Woaifacai",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -71.5,
+      "cash_pnl": -158498.39,
+      "realized_pnl": 0.0,
+      "total_usdc": 774687.86,
+      "trade_count": 500,
+      "market_count": 27,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:52:53+00:00",
+      "top_markets": [
+        "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational Playoffs",
+        "Milwaukee Brewers vs. Los Angeles Dodgers",
+        "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+          "signal": "ENTER",
+          "avg_price": 0.6315,
+          "cur_price": 0.625,
+          "usdc_size": 56508.82,
+          "outcome": "MVK Esports"
+        },
+        {
+          "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.7329,
+          "cur_price": 0.8125,
+          "usdc_size": 4416.82,
+          "outcome": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6876472b48f488a144c79e51cba56f9527598dc9",
+      "name": "Magnabelli",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -100.0,
+      "cash_pnl": -258922.18,
+      "realized_pnl": -3308.18,
+      "total_usdc": 1303451.6,
+      "trade_count": 500,
+      "market_count": 245,
+      "position_count": 121,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:29:06+00:00",
+      "top_markets": [
+        "Spread: FC Barcelona (-1.5)",
+        "Shamakhi FK vs. Safa: O/U 1.5",
+        "Everton FC vs. Manchester United FC: O/U 0.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0a26054fe174697bf6be759c4b600fdb830d1851",
+      "name": "FTX2.0",
+      "score": 32.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.5,
+      "roi": -98.5,
+      "cash_pnl": -746704.87,
+      "realized_pnl": -14382.26,
+      "total_usdc": 466468.59,
+      "trade_count": 500,
+      "market_count": 157,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:33:53+00:00",
+      "top_markets": [
+        "Quebec City: Rei Sakamoto vs Luca Van Assche",
+        "Will Bitcoin dip to $77,500 in August?",
+        "Will Los Angeles FC win on 2026-08-22?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x399b81df49fc2fd963d0618156fb701e0bfd765e",
+      "name": "minecraftpickaxe",
+      "score": 32.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.1,
+      "roi": -85.4,
+      "cash_pnl": -2460.04,
+      "realized_pnl": -262.91,
+      "total_usdc": 261658.16,
+      "trade_count": 500,
+      "market_count": 145,
+      "position_count": 17,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:49:45+00:00",
+      "top_markets": [
+        "Will Celta Fortuna win on 2026-10-04?",
+        "Will Real Madrid CF win on 2026-08-30?",
+        "Will FK Austria Wien win on 2026-09-23?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "score": 31.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 3.1,
+      "volume_score": 89.6,
+      "roi": -98.3,
+      "cash_pnl": -24565623.39,
+      "realized_pnl": 1119254.11,
+      "total_usdc": 128542.31,
+      "trade_count": 500,
+      "market_count": 71,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T19:00:56+00:00",
+      "top_markets": [
+        "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+        "Basquet Club Andorra vs. CB Breogan Lugo",
+        "LoL: MVK Esports vs FURIA Esports - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Ohio State vs. Indiana",
+          "signal": "SKIP",
+          "avg_price": 0.603,
+          "cur_price": 0.825,
+          "usdc_size": 328230.14,
+          "outcome": "Ohio State"
         },
         {
           "market": "Florida Atlantic vs. Army",
           "signal": "SKIP",
-          "avg_price": 0.45,
-          "cur_price": 0.325,
-          "usdc_size": 9301.12,
+          "avg_price": 0.3922,
+          "cur_price": 0.004,
+          "usdc_size": 745.22,
           "outcome": "Florida Atlantic"
         },
         {
-          "market": "Will FC Barcelona win on 2026-10-17?",
+          "market": "Florida vs. Texas",
           "signal": "SKIP",
-          "avg_price": 0.6799,
-          "cur_price": 0.835,
-          "usdc_size": 10659.39,
-          "outcome": "Yes"
+          "avg_price": 0.516,
+          "cur_price": 0.8665,
+          "usdc_size": 99902.82,
+          "outcome": "Florida"
         }
       ]
+    },
+    {
+      "wallet": "0xdb06587a02ed4c451107313c7128fafb5165d9ac",
+      "name": "Blaze1995",
+      "score": 31.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.9,
+      "roi": -100.0,
+      "cash_pnl": -13733.43,
+      "realized_pnl": -97.4,
+      "total_usdc": 150495.48,
+      "trade_count": 53,
+      "market_count": 33,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:45:53+00:00",
+      "top_markets": [
+        "Will Real Madrid CF win on 2026-08-30?",
+        "Will FC Barcelona win on 2026-10-17?",
+        "Will Manchester City FC win on 2026-10-17?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0910492121234fd862e0fdfaec7ba73539405884",
+      "name": "roseno",
+      "score": 31.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.0,
+      "roi": -94.1,
+      "cash_pnl": -10868.55,
+      "realized_pnl": -189.01,
+      "total_usdc": 134292.99,
+      "trade_count": 500,
+      "market_count": 127,
+      "position_count": 31,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:54:03+00:00",
+      "top_markets": [
+        "SC Braga vs. Sporting CP: O/U 2.5",
+        "Will FC Zl\u00edn win on 2026-10-09?",
+        "Will Mexico win on 2026-10-05?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x45a29b1d5ff8a4dbbf5e85b13ddafeaa30a111bd",
+      "name": "spinooza",
+      "score": 31.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.3,
+      "roi": -100.0,
+      "cash_pnl": -6675.09,
+      "realized_pnl": -122.2,
+      "total_usdc": 106998.03,
+      "trade_count": 423,
+      "market_count": 233,
+      "position_count": 87,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:35:47+00:00",
+      "top_markets": [
+        "Will Spain win on 2026-06-15?",
+        "Will Brazil win on 2026-06-29?",
+        "Will Canada win on 2026-06-28?"
+      ],
+      "signals": []
     },
     {
       "wallet": "0x074a3a0ffc6e1077a9d7fcbd774029e0cc6ef0e0",
@@ -1791,271 +1470,382 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 86.0,
-      "roi": -90.0,
-      "cash_pnl": -106539.84,
-      "realized_pnl": -2511.71,
-      "total_usdc": 79519.86,
+      "volume_score": 86.4,
+      "roi": -89.3,
+      "cash_pnl": -104914.52,
+      "realized_pnl": -2502.24,
+      "total_usdc": 84217.71,
       "trade_count": 500,
-      "market_count": 26,
+      "market_count": 23,
       "position_count": 110,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:33:45+00:00",
+      "last_active": "2026-10-17T18:58:30+00:00",
       "top_markets": [
+        "Bitcoin Up or Down - October 17, 2:30PM-2:45PM ET",
         "Bitcoin Up or Down - October 17, 6:45AM-7:00AM ET",
-        "Bitcoin Up or Down - October 17, 2:45AM-3:00AM ET",
-        "Bitcoin Up or Down - October 17, 5:20AM-5:25AM ET"
+        "Bitcoin Up or Down - October 17, 2:45PM-3:00PM ET"
       ],
       "signals": [
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 5199.88,
-          "outcome": "Team Falcons"
-        },
-        {
-          "market": "Spread: FC Barcelona (-1.5)",
           "signal": "SKIP",
-          "avg_price": 0.4699,
-          "cur_price": 0.635,
-          "usdc_size": 5052.5,
-          "outcome": "FC Barcelona"
+          "avg_price": 0.7299,
+          "cur_price": 0.8125,
+          "usdc_size": 5903.71,
+          "outcome": "Team Falcons"
         }
       ]
     },
     {
-      "wallet": "0xcf0c70317fd5e4e4429758b3d80a7b7f3762f2bb",
-      "name": "tsy8sting",
+      "wallet": "0x262d40622895dc4f26d8e8f75b278b5c43788efe",
+      "name": "caesarswill",
       "score": 31.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.5,
-      "roi": -77.2,
-      "cash_pnl": -40121.45,
-      "realized_pnl": -1012.89,
-      "total_usdc": 75020.92,
+      "volume_score": 86.1,
+      "roi": -100.0,
+      "cash_pnl": -9381.01,
+      "realized_pnl": -97.84,
+      "total_usdc": 80677.13,
       "trade_count": 500,
-      "market_count": 29,
-      "position_count": 30,
+      "market_count": 121,
+      "position_count": 43,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:33:44+00:00",
+      "last_active": "2026-10-17T18:35:03+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - October 17, 10:45AM-11:00AM ET",
-        "Bitcoin Up or Down - October 17, 10:40AM-10:45AM ET",
-        "Bitcoin Up or Down - October 17, 10:55AM-11:00AM ET"
+        "Bitcoin Up or Down - May 22, 9:45PM-9:50PM ET",
+        "Bitcoin Up or Down - May 17, 8:40PM-8:45PM ET",
+        "Bitcoin Up or Down - May 22, 9:50PM-9:55PM ET"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xefb9a2fdd5e40b8e017262a13e60f6cee7e1cbe9",
+      "name": "0xeFB9a2fdD5e40B8e017262A13E60F6cee7e1cBe9-1760376732529",
+      "score": 31.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.2,
+      "roi": -88.0,
+      "cash_pnl": -11092.4,
+      "realized_pnl": -276.35,
+      "total_usdc": 82147.98,
+      "trade_count": 103,
+      "market_count": 55,
+      "position_count": 26,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:33:57+00:00",
+      "top_markets": [
+        "Will FK Shakhtar Donetsk win on 2026-10-14?",
+        "Will Solana reach $100 in August?",
+        "Will Solana reach $120 in August?"
+      ],
+      "signals": [
+        {
+          "market": "Will AS Roma win on 2026-10-17?",
+          "signal": "SKIP",
+          "avg_price": 0.6271,
+          "cur_price": 0.555,
+          "usdc_size": 1512.05,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa278b41b5afda5d18da683eb7f851a7b2dc13369",
+      "name": "caspar1248",
+      "score": 31.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.7,
+      "roi": -89.6,
+      "cash_pnl": -115275.03,
+      "realized_pnl": -623.18,
+      "total_usdc": 66812.03,
+      "trade_count": 500,
+      "market_count": 265,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:55:36+00:00",
+      "top_markets": [
+        "Will Manchester City FC win on 2026-10-17?",
+        "Manchester City FC vs. Ipswich Town FC: Manchester City FC O/U 2.5",
+        "Exact Score: Manchester City FC 3 - 0 Ipswich Town FC?"
       ],
       "signals": [
         {
           "market": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-          "signal": "ENTER",
-          "avg_price": 0.7299,
-          "cur_price": 0.715,
-          "usdc_size": 5199.88,
+          "signal": "LATE",
+          "avg_price": 0.7833,
+          "cur_price": 0.8125,
+          "usdc_size": 6557.03,
           "outcome": "Team Falcons"
-        },
-        {
-          "market": "Spread: FC Barcelona (-1.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4699,
-          "cur_price": 0.635,
-          "usdc_size": 5052.5,
-          "outcome": "FC Barcelona"
         }
       ]
     },
     {
       "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
       "name": "neutralwave23",
-      "score": 31.0,
+      "score": 30.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.2,
+      "volume_score": 80.7,
       "roi": -79.8,
-      "cash_pnl": -780692.93,
+      "cash_pnl": -780208.0,
       "realized_pnl": -75016.22,
-      "total_usdc": 71689.09,
+      "total_usdc": 39959.65,
       "trade_count": 500,
       "market_count": 199,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-17T16:50:09+00:00",
+      "last_active": "2026-10-17T18:59:27+00:00",
       "top_markets": [
-        "Will Liverpool FC win on 2026-10-17?",
         "Will Paris Saint-Germain FC win on 2026-10-17?",
-        "Bitcoin Up or Down - October 17, 12:00PM-12:15PM ET"
+        "Will FC Barcelona win on 2026-10-17?",
+        "Will FC Internazionale Milano win on 2026-10-17?"
       ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.7811,
-          "cur_price": 0.7675,
-          "usdc_size": 20962.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.4429,
-          "cur_price": 0.235,
-          "usdc_size": 7268.96,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
+    },
+    {
+      "wallet": "0x39e2a98137bccf7501b6df9412d1a9377358fb07",
+      "name": "0x39e2a98137bCcF7501B6Df9412D1a9377358Fb07-1779419613584",
+      "score": 30.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.8,
+      "roi": -95.5,
+      "cash_pnl": -2401.16,
+      "realized_pnl": -56.07,
+      "total_usdc": 27019.54,
+      "trade_count": 81,
+      "market_count": 51,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:38:08+00:00",
+      "top_markets": [
+        "Will FC Barcelona win on 2026-10-17?",
+        "Will Paris Saint-Germain FC win on 2026-10-17?",
+        "Will Al Wahda FC (UAE) win on 2026-10-14?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc89de7e4f42720f99ec9a4315090f43bda11859a",
+      "name": "Grrizzly",
+      "score": 30.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 76.2,
+      "roi": -61.5,
+      "cash_pnl": -2161.46,
+      "realized_pnl": -46.78,
+      "total_usdc": 22143.24,
+      "trade_count": 342,
+      "market_count": 75,
+      "position_count": 11,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:51:50+00:00",
+      "top_markets": [
+        "Will Spain advance to the knockout stages at the 2026 FIFA World Cup?",
+        "Will Fluminense win the FIFA Club World Cup?",
+        "Will Palmeiras win the FIFA Club World Cup?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xede09300f5ea828dab85668cc97b9e41bb79c9a8",
+      "name": "traderomar",
+      "score": 29.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 71.4,
+      "roi": -100.0,
+      "cash_pnl": -170.95,
+      "realized_pnl": -3.42,
+      "total_usdc": 11790.21,
+      "trade_count": 143,
+      "market_count": 51,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-17T18:33:23+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - October 2, 12:05PM-12:10PM ET",
+        "Bitcoin Up or Down - September 27, 4:25PM-4:30PM ET",
+        "Bitcoin Up or Down - September 26, 10:30PM-10:45PM ET"
+      ],
+      "signals": []
     }
   ],
   "markets": [
     {
-      "id": "0xd4634d906b7eb6effdd16645e2cb08734e74af135abd9e4179397bdf3d54bf01",
-      "question": "Will the Tesla Roadster's 0-60 time be less than 1 second?",
-      "volume": "5841865.840217001",
-      "liquidity": "2261600.26276",
-      "end_date": "2026-10-16T03:59:00Z"
-    },
-    {
       "id": "0x9b5ae81c47ae2f34339ade263bfa390ced36dcd03bffcbe110d89cb31ab664cd",
       "question": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-      "volume": "1600814.1150439992",
-      "liquidity": "384629.8546",
+      "volume": "2652434.7109659985",
+      "liquidity": "75925.90552",
       "end_date": "2026-10-17T23:00:00Z"
-    },
-    {
-      "id": "0x537bd7793380051eab764d2b689ebe46ee7a62f335d5c48e07cced1778212664",
-      "question": "Will Newcastle United FC win on 2026-10-17?",
-      "volume": "1057167.4773270003",
-      "liquidity": "235794.778",
-      "end_date": "2026-10-17T16:30:00Z"
     },
     {
       "id": "0x8d37bf0ceabb7a4ad9d11ad533980b1af6fda9ad8e5d1d4f92717cd5759ca90a",
       "question": "Will FC Barcelona win on 2026-10-17?",
-      "volume": "729444.4452819997",
-      "liquidity": "194214.6203",
+      "volume": "2567660.786553999",
+      "liquidity": "560174.64966",
       "end_date": "2026-10-17T16:30:00Z"
     },
     {
-      "id": "0x8deaf6e32806ca3f3ea4f00985db42c0a7240ee152bbfb9f4e671218d28fa85c",
-      "question": "Will Paris Saint-Germain FC win on 2026-10-17?",
-      "volume": "558041.0247189999",
-      "liquidity": "147531.9166",
-      "end_date": "2026-10-17T15:15:00Z"
+      "id": "0x537bd7793380051eab764d2b689ebe46ee7a62f335d5c48e07cced1778212664",
+      "question": "Will Newcastle United FC win on 2026-10-17?",
+      "volume": "1320892.5266200001",
+      "liquidity": "256641.50879",
+      "end_date": "2026-10-17T16:30:00Z"
     },
     {
-      "id": "0x1f5f165979a6a16362e3367dcfe46670dd9799013ea4d68f7218348ae44af1b0",
-      "question": "Mississippi State vs. LSU",
-      "volume": "530167.133403",
-      "liquidity": "64829.77592",
+      "id": "0x73e9f7676d9ee9f03496df1a03c1d42dd3594e70b9b1981a000676a1d21b46f1",
+      "question": "Will AS Roma win on 2026-10-17?",
+      "volume": "1109590.5568000004",
+      "liquidity": "81678.1868",
+      "end_date": "2026-10-17T18:45:00Z"
+    },
+    {
+      "id": "0x4051174e9ccefce81be2b567c53a242be317cbb396ce23a46916a6727ce8453a",
+      "question": "Ohio State vs. Indiana",
+      "volume": "1085438.636838",
+      "liquidity": "285232.3488",
       "end_date": "2026-10-17T16:00:00Z"
+    },
+    {
+      "id": "0x1d94619ba84891ccbe5ceb20dfa4aeba90d6f2ebc1a1d48fde5ce9ec5fb14363",
+      "question": "LoL: MVK Esports vs FURIA Esports - Game 1 Winner",
+      "volume": "939127.1857059995",
+      "liquidity": "600753.0495",
+      "end_date": "2026-10-17T22:00:00Z"
     },
     {
       "id": "0x3efc1d16adfa63f30983f7f43e7309aac01b8529fe130c9ac187e4da0a6e5388",
       "question": "Spread: FC Barcelona (-1.5)",
-      "volume": "524606.1240259997",
-      "liquidity": "52976.1072",
+      "volume": "878150.909769",
+      "liquidity": "229846.98918",
       "end_date": "2026-10-17T16:30:00Z"
+    },
+    {
+      "id": "0x276b505d7bced5a20bf3f91d35dd425d90d3881b3daddbc49433b9f045f101e0",
+      "question": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+      "volume": "723968.3281529996",
+      "liquidity": "138877.1475",
+      "end_date": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "0x5a5dbc8c4fc8920c8e2913eeab3ba32ff245b09fb0cce0697c510890c5b9275f",
+      "question": "Will Aston Villa FC win on 2026-10-17?",
+      "volume": "814728.6515669997",
+      "liquidity": "253072.71672",
+      "end_date": "2026-10-17T16:30:00Z"
+    },
+    {
+      "id": "0x1f5f165979a6a16362e3367dcfe46670dd9799013ea4d68f7218348ae44af1b0",
+      "question": "Mississippi State vs. LSU",
+      "volume": "677063.5549300001",
+      "liquidity": "100238.81955",
+      "end_date": "2026-10-17T16:00:00Z"
+    },
+    {
+      "id": "0x573fda2cfe14d1e8c1963496793110994238e660ab4f246211c10f909ddebd3a",
+      "question": "Will Real Betis Balompi\u00e9 win on 2026-10-17?",
+      "volume": "572323.385945",
+      "liquidity": "231044.10554",
+      "end_date": "2026-10-17T16:30:00Z"
+    },
+    {
+      "id": "0x1adeac1446c60ad8d6350e380eab951f7cdb0a05b2b58bd2bd7ba68412b8f5d2",
+      "question": "Real Betis Balompi\u00e9 vs. FC Barcelona: O/U 3.5",
+      "volume": "558676.6267139998",
+      "liquidity": "130681.92965",
+      "end_date": "2026-10-17T16:30:00Z"
+    },
+    {
+      "id": "0x762dae2996dac75c939f73c0630b9f4f7d76e3ed041d4cf4d64ebfe35c4c2375",
+      "question": "Counter-Strike: Team Falcons vs BetBoom Team - Map 2 Winner",
+      "volume": "533026.642788",
+      "liquidity": "51820.8145",
+      "end_date": "2026-10-17T21:00:00Z"
+    },
+    {
+      "id": "0xe1dd12dc47a6cb4b405ba7101751e90b164467f4797e192e8f7c75ec34c00654",
+      "question": "Will Lille OSC win on 2026-10-17?",
+      "volume": "539874.8872959999",
+      "liquidity": "94091.3525",
+      "end_date": "2026-10-17T18:45:00Z"
+    },
+    {
+      "id": "0xf7caeebd00a73dd86cd239392f1d0475904b551bf7de9cd094cd6e52412d6fa5",
+      "question": "Florida vs. Texas",
+      "volume": "522622.42627100006",
+      "liquidity": "80738.71018",
+      "end_date": "2026-10-17T16:00:00Z"
+    },
+    {
+      "id": "0xf093b6791f0e55f8c6a73c70c4f25ab1aae8b820c2079ba2b3714177866afdf9",
+      "question": "Florida Atlantic vs. Army",
+      "volume": "496693.84382399986",
+      "liquidity": "65038.28859",
+      "end_date": "2026-10-17T16:00:00Z"
     },
     {
       "id": "0x5fccae1a93b98de6e2b55a76ca907b9c5b44a1ac3cd4149b73ad2fc1b1981892",
       "question": "Will Doug Burgum win the 2028 Republican presidential nomination?",
       "volume": "1236223.86",
-      "liquidity": "759081.33173",
+      "liquidity": "759081.53173",
       "end_date": "2028-11-08T04:59:00Z"
+    },
+    {
+      "id": "0xd4634d906b7eb6effdd16645e2cb08734e74af135abd9e4179397bdf3d54bf01",
+      "question": "Will the Tesla Roadster's 0-60 time be less than 1 second?",
+      "volume": "5870575.840217001",
+      "liquidity": "2272389.33636",
+      "end_date": "2026-10-16T03:59:00Z"
     },
     {
       "id": "0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4",
       "question": "US x Iran ceasefire continues through October 31?",
-      "volume": "3765211.4431189997",
-      "liquidity": "365000.9626",
+      "volume": "3784468.1379279965",
+      "liquidity": "373441.4814",
       "end_date": "2026-10-31T23:59:00Z"
-    },
-    {
-      "id": "0x1adeac1446c60ad8d6350e380eab951f7cdb0a05b2b58bd2bd7ba68412b8f5d2",
-      "question": "Real Betis Balompi\u00e9 vs. FC Barcelona: O/U 3.5",
-      "volume": "478512.67313199985",
-      "liquidity": "33398.4421",
-      "end_date": "2026-10-17T16:30:00Z"
-    },
-    {
-      "id": "0xf093b6791f0e55f8c6a73c70c4f25ab1aae8b820c2079ba2b3714177866afdf9",
-      "question": "Florida Atlantic vs. Army",
-      "volume": "427946.712993",
-      "liquidity": "109925.6908",
-      "end_date": "2026-10-17T16:00:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "31625823.493",
-      "liquidity": "479765.86578",
+      "volume": "31665398.492999993",
+      "liquidity": "461208.27068",
       "end_date": "2027-05-30T23:59:00Z"
-    },
-    {
-      "id": "0x5a5dbc8c4fc8920c8e2913eeab3ba32ff245b09fb0cce0697c510890c5b9275f",
-      "question": "Will Aston Villa FC win on 2026-10-17?",
-      "volume": "424003.53726200055",
-      "liquidity": "251650.2477",
-      "end_date": "2026-10-17T16:30:00Z"
-    },
-    {
-      "id": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4",
-      "question": "Tampa Bay Rays vs. Cleveland Guardians",
-      "volume": "466540.31087000004",
-      "liquidity": "165885.696",
-      "end_date": "2026-10-25T00:08:00Z"
-    },
-    {
-      "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
-      "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "volume": "21497295.731975008",
-      "liquidity": "510066.80486",
-      "end_date": "2026-10-05T03:59:00Z"
-    },
-    {
-      "id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
-      "question": "Will the US confirm that aliens exist before 2027?",
-      "volume": "42084238.71147897",
-      "liquidity": "435436.19773",
-      "end_date": "2027-01-01T04:59:00Z"
-    },
-    {
-      "id": "0x03e0fbae113cacf26fe321f8c2afcabc9e546f712934a98693145033eff0e5ed",
-      "question": "West Indies Tour of India T20s: India vs West Indies",
-      "volume": "412466.81842599995",
-      "liquidity": "165430.8973",
-      "end_date": "2026-10-24T13:30:00Z"
-    },
-    {
-      "id": "0xcfa335c71ba0324ec5831981a5401e1f31bd3b6b4071bdfa1469fedf5b374ed5",
-      "question": "Will RB Leipzig win on 2026-10-17?",
-      "volume": "317109.18836900004",
-      "liquidity": "94936.18145",
-      "end_date": "2026-10-17T16:30:00Z"
-    },
-    {
-      "id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
-      "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "volume": "25380949.91884097",
-      "liquidity": "698751.3964",
-      "end_date": "2026-10-05T03:59:00Z"
-    },
-    {
-      "id": "0xce2c3d408a3ffe6e625885b415af3ecf65eeba64f23ffa90fc141d6dda97a386",
-      "question": "US x Iran ceasefire continues through October 17?",
-      "volume": "574326.8906269995",
-      "liquidity": "33835.97141",
-      "end_date": "2026-10-18T03:59:00Z"
     }
   ]
 }
