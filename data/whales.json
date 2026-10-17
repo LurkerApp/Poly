@@ -1,186 +1,165 @@
 {
-  "last_updated": "2026-10-17T21:38:53.123681+00:00",
+  "last_updated": "2026-10-17T23:53:34.588907+00:00",
   "account_count": 50,
   "consensus_count": 5,
   "consensus": [
     {
+      "market": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+      "outcome": "Thiago Seyboth Wild",
+      "cid": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4",
+      "whale_count": 3,
+      "avg_price": 0.6173,
+      "total_capital": 120895.52,
+      "payoff_pct": 62.0,
+      "whales": [
+        {
+          "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "name": "UpTheBlues",
+          "avg_price": 0.6633,
+          "size": 70099.2,
+          "pnl": 23578.02
+        },
+        {
+          "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "name": "HomeRunHazard",
+          "avg_price": 0.6366,
+          "size": 37736.46,
+          "pnl": 13698.95
+        },
+        {
+          "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "name": "omnibus-076daa",
+          "avg_price": 0.5521,
+          "size": 13059.86,
+          "pnl": 5845.15
+        }
+      ]
+    },
+    {
       "market": "Spread: Notre Dame (-10.5)",
       "outcome": "Notre Dame",
       "cid": "0x9ffaaf5cd6b28355faafc7636c900ade4e9d67d2c64c511c197e82bd1a3a1ea9",
-      "whale_count": 4,
-      "avg_price": 0.4912,
-      "total_capital": 67178.74,
-      "payoff_pct": 103.6,
+      "whale_count": 3,
+      "avg_price": 0.4916,
+      "total_capital": 39768.21,
+      "payoff_pct": 103.4,
       "whales": [
         {
           "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
           "name": "HomeRunHazard",
           "avg_price": 0.4865,
-          "size": 12830.07,
-          "pnl": 469.27
-        },
-        {
-          "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-          "name": "mooseborzoii",
-          "avg_price": 0.4899,
-          "size": 8967.31,
-          "pnl": 266.62
+          "size": 8765.1,
+          "pnl": -3595.7
         },
         {
           "wallet": "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
           "name": "alwaysfade",
           "avg_price": 0.49,
-          "size": 25250.0,
-          "pnl": 750.0
+          "size": 17250.0,
+          "pnl": -7250.0
         },
         {
           "wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
           "name": "PEYZ-BIGGEST-FAN",
           "avg_price": 0.4983,
-          "size": 20131.36,
-          "pnl": 263.77
+          "size": 13753.11,
+          "pnl": -6114.48
         }
       ]
     },
     {
-      "market": "Alabama vs. Tennessee",
-      "outcome": "Tennessee",
-      "cid": "0x46af8e81cd7f14ff8cafbcb64a4aa541974ad2f544e31a9b1f291f84d5fef60c",
-      "whale_count": 4,
-      "avg_price": 0.4083,
-      "total_capital": 49184.33,
-      "payoff_pct": 144.9,
-      "whales": [
-        {
-          "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-          "name": "HomeRunHazard",
-          "avg_price": 0.3783,
-          "size": 11901.26,
-          "pnl": -434.21
-        },
-        {
-          "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
-          "name": "omnibus-076daa",
-          "avg_price": 0.473,
-          "size": 22356.04,
-          "pnl": -6615.21
-        },
-        {
-          "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-          "name": "mooseborzoii",
-          "avg_price": 0.3746,
-          "size": 14237.0,
-          "pnl": -377.75
-        },
-        {
-          "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
-          "name": "justaluckydude",
-          "avg_price": 0.4075,
-          "size": 690.03,
-          "pnl": -80.44
-        }
-      ]
-    },
-    {
-      "market": "Arizona State vs. Texas Tech: O/U 49.5",
-      "outcome": "Over",
-      "cid": "0x3829e54d911f765ea59c21b69931ab65af49539c3e06210a5f4a23da155e9f53",
-      "whale_count": 4,
-      "avg_price": 0.508,
-      "total_capital": 43056.68,
-      "payoff_pct": 96.9,
-      "whales": [
-        {
-          "wallet": "0x924379a79c64b77ad5816ad362122a5f6228658e",
-          "name": "Kch-Temp",
-          "avg_price": 0.519,
-          "size": 21130.52,
-          "pnl": 10156.82
-        },
-        {
-          "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-          "name": "mooseborzoii",
-          "avg_price": 0.51,
-          "size": 4190.04,
-          "pnl": 2052.05
-        },
-        {
-          "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
-          "name": "Elaran1993",
-          "avg_price": 0.5029,
-          "size": 17671.23,
-          "pnl": 8778.62
-        },
-        {
-          "wallet": "0x1d1ade627d0bb0205758580b20d808573e720df6",
-          "name": "Pwaddler",
-          "avg_price": 0.5,
-          "size": 64.89,
-          "pnl": 32.43
-        }
-      ]
-    },
-    {
-      "market": "Toledo vs. Eastern Michigan",
-      "outcome": "Toledo",
-      "cid": "0xbf8dd06a23d33bd7bfbc7bab596c9f430c20aa176e3cf2541c4ad629505a4f77",
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "cid": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
       "whale_count": 3,
-      "avg_price": 0.7142,
-      "total_capital": 248940.77,
-      "payoff_pct": 40.0,
+      "avg_price": 0.6,
+      "total_capital": 29333.23,
+      "payoff_pct": 66.7,
       "whales": [
         {
-          "wallet": "0x924379a79c64b77ad5816ad362122a5f6228658e",
-          "name": "Kch-Temp",
-          "avg_price": 0.7126,
-          "size": 236687.78,
-          "pnl": 67241.89
+          "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "name": "BreakTheBank",
+          "avg_price": 0.62,
+          "size": 10927.11,
+          "pnl": 258.12
         },
         {
-          "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-          "name": "HomeRunHazard",
-          "avg_price": 0.7,
-          "size": 9467.2,
-          "pnl": 2810.2
+          "wallet": "0x9ba9dec33838f4ec9f032f7247d7481987e63ce9",
+          "name": "TeamA",
+          "avg_price": 0.6499,
+          "size": 12606.81,
+          "pnl": -297.78
         },
         {
           "wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
           "name": "PEYZ-BIGGEST-FAN",
-          "avg_price": 0.7299,
-          "size": 2785.79,
-          "pnl": 742.98
+          "avg_price": 0.53,
+          "size": 5799.31,
+          "pnl": 958.94
         }
       ]
     },
     {
-      "market": "UNLV vs. Air Force",
-      "outcome": "Air Force",
-      "cid": "0xb0f865d1c6678796cc320dceec9057b3043fb734b153c960204fbc5244a82a83",
+      "market": "2026 Balance of Power: R Senate, R House",
+      "outcome": "Yes",
+      "cid": "0xc5eae79d1ffe716572353962eb926b1e3964c500a4880a7a94f58408218ee76b",
       "whale_count": 3,
-      "avg_price": 0.5336,
-      "total_capital": 111504.28,
-      "payoff_pct": 87.4,
+      "avg_price": 0.1202,
+      "total_capital": 24585.64,
+      "payoff_pct": 732.2,
       "whales": [
         {
-          "wallet": "0x924379a79c64b77ad5816ad362122a5f6228658e",
-          "name": "Kch-Temp",
-          "avg_price": 0.4835,
-          "size": 95512.42,
-          "pnl": 283.36
+          "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "name": "BreakTheBank",
+          "avg_price": 0.0798,
+          "size": 23008.5,
+          "pnl": 1385.45
         },
+        {
+          "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "name": "anoin123",
+          "avg_price": 0.0807,
+          "size": 1391.57,
+          "pnl": 69.12
+        },
+        {
+          "wallet": "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "name": "donthackme",
+          "avg_price": 0.2,
+          "size": 185.57,
+          "pnl": -251.06
+        }
+      ]
+    },
+    {
+      "market": "Spread: Oklahoma (-6.5)",
+      "outcome": "Kentucky",
+      "cid": "0x9cd051a8c7c840eb7cca6d6898c90ecc41cdceb51a275a2c8656b14c9edb674b",
+      "whale_count": 3,
+      "avg_price": 0.4846,
+      "total_capital": 21808.84,
+      "payoff_pct": 106.4,
+      "whales": [
         {
           "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
           "name": "HomeRunHazard",
-          "avg_price": 0.5138,
-          "size": 5939.44,
-          "pnl": -353.62
+          "avg_price": 0.4839,
+          "size": 5683.84,
+          "pnl": 1419.06
+        },
+        {
+          "wallet": "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3",
+          "name": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
+          "avg_price": 0.48,
+          "size": 3225.0,
+          "pnl": 825.0
         },
         {
           "wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
           "name": "PEYZ-BIGGEST-FAN",
-          "avg_price": 0.6034,
-          "size": 10052.42,
-          "pnl": -2455.86
+          "avg_price": 0.4899,
+          "size": 12900.0,
+          "pnl": 3100.01
         }
       ]
     }
@@ -189,15 +168,15 @@
     {
       "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
       "name": "BreakTheBank",
-      "pnl": 5058678.01,
-      "volume": 52077860.1,
+      "pnl": 5056400.34,
+      "volume": 52129255.5,
       "positions": [
         {
           "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
           "outcome": "No",
           "avg_price": 0.089,
-          "size": 79730.91,
-          "pnl": 4984.71
+          "size": 80967.3,
+          "pnl": 5051.99
         },
         {
           "market": "2026 Balance of Power: D Senate, R House",
@@ -224,15 +203,15 @@
           "market": "Will Liverpool win the 2026-27 English Premier League (EPL) Championship?",
           "outcome": "Yes",
           "avg_price": 0.035,
-          "size": 16878.19,
-          "pnl": 1308.54
+          "size": 17544.44,
+          "pnl": 1974.79
         },
         {
           "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
           "outcome": "Yes",
           "avg_price": 0.0308,
-          "size": 254000.0,
-          "pnl": 241652.59
+          "size": 250000.0,
+          "pnl": 237652.59
         },
         {
           "market": "Will Coventry City win the 2026-27 English Premier League (EPL) Championship?",
@@ -307,9 +286,9 @@
         {
           "market": "2026 Balance of Power: R Senate, R House",
           "outcome": "Yes",
-          "avg_price": 0.0799,
-          "size": 22878.37,
-          "pnl": 1366.01
+          "avg_price": 0.0798,
+          "size": 23008.5,
+          "pnl": 1385.45
         },
         {
           "market": "Spread: Jaguars (-2.5)",
@@ -322,8 +301,8 @@
           "market": "Will Brentford win the 2026-27 English Premier League (EPL) Championship?",
           "outcome": "Yes",
           "avg_price": 0.0308,
-          "size": 900.0,
-          "pnl": -5273.72
+          "size": 800.0,
+          "pnl": -5373.72
         },
         {
           "market": "2026 Balance of Power: R Senate, D House",
@@ -378,8 +357,8 @@
           "market": "Will Dan Sullivan win the Alaska Senate race in 2026?",
           "outcome": "Yes",
           "avg_price": 0.2579,
-          "size": 17626.44,
-          "pnl": -203.71
+          "size": 17687.64,
+          "pnl": -202.47
         },
         {
           "market": "Will the Philadelphia Eagles win the 2027 NFL league championship?",
@@ -396,18 +375,18 @@
           "pnl": -226.89
         },
         {
-          "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-          "outcome": "Yes",
-          "avg_price": 0.0701,
-          "size": 14852.56,
-          "pnl": 11085.28
-        },
-        {
           "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
           "outcome": "No",
           "avg_price": 0.26,
-          "size": 14085.9,
-          "pnl": 265.77
+          "size": 14246.72,
+          "pnl": 268.81
+        },
+        {
+          "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+          "outcome": "Yes",
+          "avg_price": 0.0701,
+          "size": 15067.43,
+          "pnl": 11300.14
         },
         {
           "market": "Will the Republican Party hold exactly 51 Senate seats after the 2026 midterm elections?",
@@ -427,8 +406,8 @@
           "market": "Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections?",
           "outcome": "Yes",
           "avg_price": 0.0949,
-          "size": 1325.0,
-          "pnl": -3420.0
+          "size": 1300.0,
+          "pnl": -3445.0
         },
         {
           "market": "Will the Republican Party hold exactly 50 Senate seats after the 2026 midterm elections?",
@@ -448,36 +427,36 @@
           "market": "Will the Republican Party hold exactly 52 Senate seats after the 2026 midterm elections?",
           "outcome": "Yes",
           "avg_price": 0.0949,
-          "size": 3175.0,
-          "pnl": -1570.0
+          "size": 3125.0,
+          "pnl": -1620.0
         },
         {
           "market": "Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections?",
           "outcome": "Yes",
           "avg_price": 0.0949,
-          "size": 19500.0,
-          "pnl": 14755.0
+          "size": 19750.0,
+          "pnl": 15005.0
         },
         {
           "market": "Will the Republican Party hold exactly 55 Senate seats after the 2026 midterm elections?",
           "outcome": "Yes",
           "avg_price": 0.0949,
-          "size": 770.53,
-          "pnl": -3947.11
+          "size": 1019.09,
+          "pnl": -3698.55
         },
         {
           "market": "Will Harry Kane win the 2026 Ballon d'Or?",
           "outcome": "No",
           "avg_price": 0.464,
-          "size": 16378.21,
-          "pnl": -5490.83
+          "size": 16849.53,
+          "pnl": -5019.51
         },
         {
           "market": "Will the Jacksonville Jaguars win the 2027 NFL league championship?",
           "outcome": "Yes",
           "avg_price": 0.0321,
-          "size": 3254.61,
-          "pnl": 1768.89
+          "size": 3208.44,
+          "pnl": 1722.73
         },
         {
           "market": "Will the Republican Party hold exactly 56 Senate seats after the 2026 midterm elections?",
@@ -504,8 +483,8 @@
           "market": "Will Rodri win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0072,
-          "size": 168.24,
-          "pnl": -103.82
+          "size": 149.54,
+          "pnl": -122.51
         },
         {
           "market": "Will Bruno Fernandes win the 2026 Ballon d'Or?",
@@ -581,8 +560,8 @@
           "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0197,
-          "size": 1233.96,
-          "pnl": 547.39
+          "size": 1199.2,
+          "pnl": 512.63
         },
         {
           "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -609,8 +588,8 @@
           "market": "Will the Chicago Bears win the 2027 NFL league championship?",
           "outcome": "No",
           "avg_price": 0.931,
-          "size": 16293.8,
-          "pnl": 483.97
+          "size": 16336.25,
+          "pnl": 526.43
         },
         {
           "market": "Will the Seattle Seahawks win the 2027 NFL league championship?",
@@ -646,8 +625,8 @@
     {
       "wallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
       "name": "e46m3",
-      "pnl": 2891662.23,
-      "volume": 2077851.88,
+      "pnl": 2913922.11,
+      "volume": 2082707.87,
       "positions": [
         {
           "market": "Will Vin\u00edcius J\u00fanior win the 2026 Ballon d'Or?",
@@ -716,57 +695,57 @@
           "market": "Will Authentic Right \u2013 Dr Milo\u0161 Jovanovi\u0107 win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will SDA of Sand\u017eak \u2013 Guardians of Sand\u017eak win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will European Serbia \u2013 Marinika Tepi\u0107, Zdravko Pono\u0161 win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will Russian Party \u2013 Serbia in BRICS \u2013 Slobodan Nikoli\u0107 win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will Alliance of Vojvodina Hungarians \u2013 Dr B\u00e1lint P\u00e1sztor win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will Ivica Da\u010di\u0107 \u2013 Factor of Stability! win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will Usame Zukorli\u0107 Movement for Unification win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will Rasim Ljaji\u0107 \u2013 Humane (SDP \u2013 CDP) win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "Yes",
           "avg_price": 0.027,
-          "size": 11.64,
-          "pnl": -617.56
+          "size": 12.0,
+          "pnl": -636.51
         },
         {
           "market": "Will Alibaba have the best AI model at the end of October 2026?",
@@ -779,15 +758,15 @@
           "market": "Will Yolanda D\u00edaz be the next Prime Minister of Spain?",
           "outcome": "Yes",
           "avg_price": 0.0172,
-          "size": 15.11,
-          "pnl": -158.43
+          "size": 10.07,
+          "pnl": -163.47
         }
       ]
     },
     {
       "wallet": "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
       "name": "Diabolical-Prize",
-      "pnl": 2238518.84,
+      "pnl": 2238518.87,
       "volume": 55196714.58,
       "positions": [
         {
@@ -802,23 +781,9 @@
     {
       "wallet": "0x924379a79c64b77ad5816ad362122a5f6228658e",
       "name": "Kch-Temp",
-      "pnl": 1737310.93,
+      "pnl": 1861417.43,
       "volume": 14771605.97,
       "positions": [
-        {
-          "market": "Toledo vs. Eastern Michigan",
-          "outcome": "Toledo",
-          "avg_price": 0.7126,
-          "size": 236687.78,
-          "pnl": 67241.89
-        },
-        {
-          "market": "UNLV vs. Air Force",
-          "outcome": "Air Force",
-          "avg_price": 0.4835,
-          "size": 95512.42,
-          "pnl": 283.36
-        },
         {
           "market": "Will Rayo Vallecano de Madrid win on 2026-10-10?",
           "outcome": "No",
@@ -827,75 +792,89 @@
           "pnl": 6832.11
         },
         {
-          "market": "Spread: Toledo (-6.5)",
-          "outcome": "Toledo",
-          "avg_price": 0.5319,
-          "size": 71725.85,
-          "pnl": 32349.32
-        },
-        {
           "market": "Kent State vs. South Florida: O/U 45.5",
           "outcome": "Over",
           "avg_price": 0.5189,
-          "size": 18987.81,
-          "pnl": 217.76
-        },
-        {
-          "market": "Arizona State vs. Texas Tech: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.519,
-          "size": 21130.52,
-          "pnl": 10156.82
-        },
-        {
-          "market": "Will St. Louis City SC win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.6099,
-          "size": 1020.89,
-          "pnl": -2871.23
-        },
-        {
-          "market": "Georgia Tech vs. Virginia Tech: O/U 55.5",
-          "outcome": "Under",
-          "avg_price": 0.5099,
-          "size": 1257.2,
-          "pnl": -1657.21
+          "size": 17360.28,
+          "pnl": -1409.76
         }
       ]
     },
     {
-      "wallet": "0x63cf8544631c31e9fcea0b02141dd24d01d6e4d0",
-      "name": "halvanicus",
-      "pnl": 1541520.07,
-      "volume": 14737051.18,
-      "positions": []
-    },
-    {
       "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
       "name": "UpTheBlues",
-      "pnl": 1518032.26,
-      "volume": 137678616.87,
+      "pnl": 1542398.39,
+      "volume": 138269717.61,
       "positions": [
+        {
+          "market": "Notre Dame vs. BYU",
+          "outcome": "BYU",
+          "avg_price": 0.21,
+          "size": 29371.1,
+          "pnl": 11994.87
+        },
+        {
+          "market": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "outcome": "Thiago Seyboth Wild",
+          "avg_price": 0.6633,
+          "size": 70099.2,
+          "pnl": 23578.02
+        },
+        {
+          "market": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "outcome": "Francisco Comesana",
+          "avg_price": 0.3745,
+          "size": 23.42,
+          "pnl": -17520.75
+        },
+        {
+          "market": "Florida State vs. Miami (FL)",
+          "outcome": "Florida State",
+          "avg_price": 0.0899,
+          "size": 5596.71,
+          "pnl": 2122.93
+        },
+        {
+          "market": "Will Houston Dynamo win on 2026-10-17?",
+          "outcome": "No",
+          "avg_price": 0.5399,
+          "size": 17715.29,
+          "pnl": 162.56
+        },
+        {
+          "market": "Will CA Rosario Central win on 2026-10-17?",
+          "outcome": "No",
+          "avg_price": 0.5604,
+          "size": 20927.92,
+          "pnl": 4050.46
+        },
         {
           "market": "Rayo Vallecano de Madrid vs. Athletic Club: O/U 2.5",
           "outcome": "Under",
           "avg_price": 0.5584,
-          "size": 21463.87,
-          "pnl": 4815.73
-        },
-        {
-          "market": "Will Valencia CF vs. Athletic Club end in a draw?",
-          "outcome": "Yes",
-          "avg_price": 0.46,
-          "size": 28634.05,
-          "pnl": 15455.74
+          "size": 21761.98,
+          "pnl": 5113.84
         },
         {
           "market": "Will Athletic Club win on 2026-10-10?",
           "outcome": "No",
           "avg_price": 0.6081,
-          "size": 13396.11,
-          "pnl": -3063.06
+          "size": 12990.16,
+          "pnl": -3469.0
+        },
+        {
+          "market": "Will Vancouver Whitecaps FC win on 2026-10-17?",
+          "outcome": "No",
+          "avg_price": 0.3499,
+          "size": 9081.68,
+          "pnl": 127.94
+        },
+        {
+          "market": "S\u00e3o Paulo FC vs. CR Vasco da Gama: O/U 2.5",
+          "outcome": "Under",
+          "avg_price": 0.5466,
+          "size": 12662.65,
+          "pnl": -276.36
         },
         {
           "market": "Will Athletic Club win on 2026-09-16?",
@@ -912,33 +891,26 @@
           "pnl": -114.43
         },
         {
-          "market": "Spread: Feyenoord Rotterdam (-1.5)",
-          "outcome": "Telstar 1963",
-          "avg_price": 0.4828,
-          "size": 21387.5,
-          "pnl": 11056.07
-        },
-        {
-          "market": "Will SV Ried win on 2026-10-17?",
+          "market": "Will New York Red Bulls win on 2026-10-17?",
           "outcome": "No",
-          "avg_price": 0.581,
-          "size": 10.19,
-          "pnl": -11837.72
-        },
-        {
-          "market": "Will Athletic Club win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.6524,
-          "size": 18010.26,
-          "pnl": 6253.19
+          "avg_price": 0.4303,
+          "size": 11321.54,
+          "pnl": 2698.3
         }
       ]
     },
     {
+      "wallet": "0x63cf8544631c31e9fcea0b02141dd24d01d6e4d0",
+      "name": "halvanicus",
+      "pnl": 1541520.07,
+      "volume": 14737051.18,
+      "positions": []
+    },
+    {
       "wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
       "name": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
-      "pnl": 1377996.64,
-      "volume": 6574420.78,
+      "pnl": 1377768.91,
+      "volume": 6574585.79,
       "positions": [
         {
           "market": "West Indies Tour of India T20s: India vs West Indies",
@@ -951,15 +923,15 @@
           "market": "Will Club Santos Laguna win on 2026-10-17?",
           "outcome": "Yes",
           "avg_price": 0.4189,
-          "size": 1538.29,
-          "pnl": 152.19
+          "size": 2861.55,
+          "pnl": 1475.45
         },
         {
-          "market": "CS Independiente Rivadavia vs. CA Tigre: O/U 1.5",
-          "outcome": "Over",
-          "avg_price": 0.6854,
-          "size": 329.82,
-          "pnl": 103.62
+          "market": "Will Associa\u00e7\u00e3o Chapecoense de Futebol win on 2026-10-17?",
+          "outcome": "No",
+          "avg_price": 0.9663,
+          "size": 140.63,
+          "pnl": 4.67
         },
         {
           "market": "Real Madrid CF vs. Sevilla FC: O/U 3.5",
@@ -969,47 +941,54 @@
           "pnl": 0.45
         },
         {
-          "market": "Will St. Louis City SC win on 2026-10-17?",
-          "outcome": "Yes",
-          "avg_price": 0.3899,
-          "size": 65.43,
-          "pnl": 35.05
-        },
-        {
-          "market": "Will Associa\u00e7\u00e3o Chapecoense de Futebol win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.9599,
-          "size": 49.86,
-          "pnl": -0.08
-        },
-        {
           "market": "Will Cear\u00e1 SC win on 2026-10-17?",
           "outcome": "No",
           "avg_price": 0.9879,
-          "size": 24.14,
-          "pnl": 0.12
+          "size": 24.3,
+          "pnl": 0.28
+        },
+        {
+          "market": "Will CA Paranaense win on 2026-10-17?",
+          "outcome": "No",
+          "avg_price": 0.9639,
+          "size": 21.43,
+          "pnl": -0.66
         }
       ]
     },
     {
+      "wallet": "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+      "name": "Mooseborzoiii",
+      "pnl": 1320865.79,
+      "volume": 3021794.54,
+      "positions": []
+    },
+    {
       "wallet": "0x111f73e91f85b6fe4de1ddec3de2fe32122e355b",
       "name": "Papeasy",
-      "pnl": 1263278.5,
-      "volume": 17936.99,
+      "pnl": 1270744.13,
+      "volume": 18436.23,
       "positions": []
     },
     {
       "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
       "name": "HomeRunHazard",
-      "pnl": 1226309.11,
-      "volume": 114297047.14,
+      "pnl": 1260628.7,
+      "volume": 114688640.34,
       "positions": [
         {
-          "market": "Spread: Golden State Valkyries (-2.5)",
-          "outcome": "Golden State Valkyries",
-          "avg_price": 0.4909,
-          "size": 11108.68,
-          "pnl": -8722.67
+          "market": "Oklahoma State vs. Houston: O/U 63.5",
+          "outcome": "Over",
+          "avg_price": 0.4661,
+          "size": 26947.91,
+          "pnl": -4457.86
+        },
+        {
+          "market": "Oklahoma State vs. Houston: O/U 59.5",
+          "outcome": "Over",
+          "avg_price": 0.56,
+          "size": 26137.93,
+          "pnl": -968.26
         },
         {
           "market": "Spread: Patriots (-7.5)",
@@ -1019,25 +998,32 @@
           "pnl": 191.96
         },
         {
-          "market": "Alabama vs. Tennessee",
-          "outcome": "Tennessee",
-          "avg_price": 0.3783,
-          "size": 11901.26,
-          "pnl": -434.21
+          "market": "Spread: Eagles (-3.5)",
+          "outcome": "Panthers",
+          "avg_price": 0.7466,
+          "size": 28519.9,
+          "pnl": -62.04
         },
         {
-          "market": "Spread: Toledo (-7.5)",
-          "outcome": "Toledo",
-          "avg_price": 0.459,
-          "size": 28888.63,
-          "pnl": 15094.91
+          "market": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "outcome": "Thiago Seyboth Wild",
+          "avg_price": 0.6366,
+          "size": 37736.46,
+          "pnl": 13698.95
+        },
+        {
+          "market": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "outcome": "Francisco Comesana",
+          "avg_price": 0.2464,
+          "size": 18.54,
+          "pnl": -9118.9
         },
         {
           "market": "Spread: Vanderbilt (-5.5)",
           "outcome": "Vanderbilt",
           "avg_price": 0.5016,
-          "size": 14732.48,
-          "pnl": -197.59
+          "size": 18899.24,
+          "pnl": 3969.17
         },
         {
           "market": "Tampa Bay Rays vs. Cleveland Guardians: O/U 6.5",
@@ -1047,18 +1033,18 @@
           "pnl": -148.76
         },
         {
+          "market": "Senators vs. Flyers: O/U 5.5",
+          "outcome": "Over",
+          "avg_price": 0.48,
+          "size": 5893.72,
+          "pnl": -8251.33
+        },
+        {
           "market": "Spread: Notre Dame (-10.5)",
           "outcome": "BYU",
           "avg_price": 0.495,
-          "size": 13581.56,
-          "pnl": -0.96
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "outcome": "Atlanta Dream",
-          "avg_price": 0.5021,
-          "size": 18442.96,
-          "pnl": 4924.07
+          "size": 17971.56,
+          "pnl": 4389.04
         },
         {
           "market": "Commanders vs. 49ers: O/U 50.5",
@@ -1075,6 +1061,13 @@
           "pnl": -119.59
         },
         {
+          "market": "Spread: Browns (-3.5)",
+          "outcome": "Ravens",
+          "avg_price": 0.7495,
+          "size": 19208.53,
+          "pnl": -117.19
+        },
+        {
           "market": "Spread: Colts (-5.5)",
           "outcome": "Titans",
           "avg_price": 0.4399,
@@ -1085,15 +1078,15 @@
           "market": "Spread: Notre Dame (-10.5)",
           "outcome": "Notre Dame",
           "avg_price": 0.4865,
-          "size": 12830.07,
-          "pnl": 469.27
+          "size": 8765.1,
+          "pnl": -3595.7
         },
         {
-          "market": "Arizona State vs. Texas Tech: O/U 49.5",
-          "outcome": "Under",
-          "avg_price": 0.4869,
-          "size": 11.23,
-          "pnl": -10929.07
+          "market": "Kentucky vs. Oklahoma: O/U 43.5",
+          "outcome": "Over",
+          "avg_price": 0.5015,
+          "size": 14440.61,
+          "pnl": 3297.65
         },
         {
           "market": "Spread: Colts (-6.5)",
@@ -1103,32 +1096,18 @@
           "pnl": 105.09
         },
         {
-          "market": "Spread: Toledo (-8.5)",
-          "outcome": "Toledo",
-          "avg_price": 0.4402,
-          "size": 18185.56,
-          "pnl": 9290.63
-        },
-        {
-          "market": "Spread: Toledo (-6.5)",
-          "outcome": "Toledo",
-          "avg_price": 0.5298,
-          "size": 19337.0,
-          "pnl": 8764.24
-        },
-        {
-          "market": "Kentucky vs. Oklahoma: O/U 43.5",
+          "market": "Arkansas State vs. Southern Miss: O/U 61.5",
           "outcome": "Over",
-          "avg_price": 0.4937,
-          "size": 8966.17,
-          "pnl": 370.53
+          "avg_price": 0.5017,
+          "size": 5165.54,
+          "pnl": -3473.01
         },
         {
-          "market": "Spread: Toledo (-6.5)",
-          "outcome": "Eastern Michigan",
-          "avg_price": 0.4637,
-          "size": 515.37,
-          "pnl": -7193.75
+          "market": "Oklahoma State vs. Houston: O/U 61.5",
+          "outcome": "Over",
+          "avg_price": 0.5122,
+          "size": 7697.6,
+          "pnl": -969.02
         },
         {
           "market": "Commanders vs. 49ers: O/U 50.5",
@@ -1141,15 +1120,8 @@
           "market": "Spread: Vanderbilt (-4.5)",
           "outcome": "Vanderbilt",
           "avg_price": 0.5376,
-          "size": 8368.29,
-          "pnl": -41.53
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "outcome": "Golden State Valkyries",
-          "avg_price": 0.4789,
-          "size": 4876.78,
-          "pnl": -2538.82
+          "size": 10088.88,
+          "pnl": 1679.05
         },
         {
           "market": "Spread: Utah (-15.5)",
@@ -1159,13 +1131,6 @@
           "pnl": 379.85
         },
         {
-          "market": "Toledo vs. Eastern Michigan: O/U 53.5",
-          "outcome": "Under",
-          "avg_price": 0.5373,
-          "size": 2548.12,
-          "pnl": -5506.33
-        },
-        {
           "market": "Spread: Titans (-3.5)",
           "outcome": "Colts",
           "avg_price": 0.8331,
@@ -1173,11 +1138,32 @@
           "pnl": 468.69
         },
         {
-          "market": "Spread: Golden State Valkyries (-2.5)",
-          "outcome": "Atlanta Dream",
-          "avg_price": 0.4913,
-          "size": 10274.92,
-          "pnl": 3311.19
+          "market": "Spread: Miami (FL) (-21.5)",
+          "outcome": "Miami (FL)",
+          "avg_price": 0.4445,
+          "size": 4237.93,
+          "pnl": -2148.08
+        },
+        {
+          "market": "Kent State vs. South Florida: O/U 45.5",
+          "outcome": "Under",
+          "avg_price": 0.4722,
+          "size": 7245.65,
+          "pnl": 727.64
+        },
+        {
+          "market": "Bears vs. Falcons: O/U 53.5",
+          "outcome": "Over",
+          "avg_price": 0.4591,
+          "size": 6145.72,
+          "pnl": -56.56
+        },
+        {
+          "market": "Notre Dame vs. BYU",
+          "outcome": "BYU",
+          "avg_price": 0.21,
+          "size": 4740.09,
+          "pnl": 1936.1
         },
         {
           "market": "Titans vs. Colts: O/U 44.5",
@@ -1194,39 +1180,32 @@
           "pnl": -64.81
         },
         {
-          "market": "Spread: Alabama (-7.5)",
-          "outcome": "Tennessee",
-          "avg_price": 0.4999,
-          "size": 9063.3,
-          "pnl": 2590.78
-        },
-        {
           "market": "Spread: Vanderbilt (-7.5)",
           "outcome": "Vanderbilt",
           "avg_price": 0.4067,
-          "size": 5242.28,
-          "pnl": -22.83
+          "size": 6277.79,
+          "pnl": 1012.68
+        },
+        {
+          "market": "Spread: Buccaneers (-3.5)",
+          "outcome": "Steelers",
+          "avg_price": 0.6899,
+          "size": 9120.04,
+          "pnl": 194.06
         },
         {
           "market": "Spread: Vanderbilt (-6.5)",
           "outcome": "Vanderbilt",
           "avg_price": 0.4668,
-          "size": 5999.87,
-          "pnl": -24.02
+          "size": 7419.2,
+          "pnl": 1395.31
         },
         {
-          "market": "Spread: Eagles (-3.5)",
-          "outcome": "Panthers",
-          "avg_price": 0.7399,
-          "size": 9586.97,
-          "pnl": 64.99
-        },
-        {
-          "market": "Kent State vs. South Florida: O/U 45.5",
-          "outcome": "Under",
-          "avg_price": 0.4724,
-          "size": 6036.16,
-          "pnl": 32.1
+          "market": "Spread: Cowboys (-3.5)",
+          "outcome": "Packers",
+          "avg_price": 0.6399,
+          "size": 8262.46,
+          "pnl": 189.23
         },
         {
           "market": "Spread: Giants (-3.5)",
@@ -1243,25 +1222,32 @@
           "pnl": -187.59
         },
         {
-          "market": "North Carolina vs. Duke: O/U 47.5",
-          "outcome": "Over",
-          "avg_price": 0.47,
-          "size": 6324.1,
-          "pnl": 495.36
+          "market": "Kentucky vs. Oklahoma: O/U 43.5",
+          "outcome": "Under",
+          "avg_price": 0.48,
+          "size": 4313.75,
+          "pnl": -1602.25
         },
         {
-          "market": "UNLV vs. Air Force",
-          "outcome": "Air Force",
-          "avg_price": 0.5138,
-          "size": 5939.44,
-          "pnl": -353.62
+          "market": "Washington State vs. Oregon State",
+          "outcome": "Washington State",
+          "avg_price": 0.1,
+          "size": 190.96,
+          "pnl": -1041.04
         },
         {
-          "market": "Toledo vs. Eastern Michigan",
-          "outcome": "Eastern Michigan",
-          "avg_price": 0.2782,
-          "size": 53.77,
-          "pnl": -3270.58
+          "market": "Notre Dame vs. BYU: O/U 47.5",
+          "outcome": "Under",
+          "avg_price": 0.48,
+          "size": 5127.5,
+          "pnl": -732.5
+        },
+        {
+          "market": "Kentucky vs. Oklahoma",
+          "outcome": "Kentucky",
+          "avg_price": 0.3,
+          "size": 5546.45,
+          "pnl": 1889.45
         },
         {
           "market": "Louisiana Tech vs. Louisiana-Monroe: O/U 57.5",
@@ -1271,46 +1257,32 @@
           "pnl": -212.11
         },
         {
-          "market": "Missouri vs. Ole Miss",
-          "outcome": "Missouri",
-          "avg_price": 0.2105,
-          "size": 638.36,
-          "pnl": -1804.88
+          "market": "Spread: Miami (FL) (-20.5)",
+          "outcome": "Miami (FL)",
+          "avg_price": 0.4811,
+          "size": 4110.97,
+          "pnl": -1540.53
         },
         {
           "market": "Spread: Vanderbilt (-5.5)",
           "outcome": "Arkansas",
           "avg_price": 0.508,
-          "size": 5822.63,
-          "pnl": -35.36
+          "size": 4208.44,
+          "pnl": -1649.55
         },
         {
-          "market": "Auburn vs. Georgia: O/U 59.5",
-          "outcome": "Over",
-          "avg_price": 0.4655,
-          "size": 4841.91,
-          "pnl": -339.55
+          "market": "Spread: Arkansas State (-6.5)",
+          "outcome": "Arkansas State",
+          "avg_price": 0.479,
+          "size": 7745.16,
+          "pnl": 2444.28
         },
         {
-          "market": "Missouri vs. Ole Miss",
-          "outcome": "Ole Miss",
-          "avg_price": 0.6811,
-          "size": 10429.46,
-          "pnl": 2911.84
-        },
-        {
-          "market": "Auburn vs. Georgia",
-          "outcome": "Auburn",
-          "avg_price": 0.0665,
-          "size": 3981.0,
-          "pnl": 3257.69
-        },
-        {
-          "market": "Spread: UNLV (-0.5)",
-          "outcome": "UNLV",
-          "avg_price": 0.4896,
-          "size": 5168.18,
-          "pnl": 106.58
+          "market": "Florida State vs. Miami (FL)",
+          "outcome": "Florida State",
+          "avg_price": 0.0899,
+          "size": 1500.18,
+          "pnl": 569.04
         },
         {
           "market": "Panthers vs. Eagles: O/U 40.5",
@@ -1320,39 +1292,18 @@
           "pnl": -441.73
         },
         {
-          "market": "Spread: Georgia (-19.5)",
-          "outcome": "Georgia",
-          "avg_price": 0.4949,
-          "size": 1990.46,
-          "pnl": -3061.38
-        },
-        {
           "market": "Spread: Panthers (-6.5)",
           "outcome": "Eagles",
           "avg_price": 0.5999,
-          "size": 6268.21,
-          "pnl": 202.21
-        },
-        {
-          "market": "Spread: Virginia Tech (-8.5)",
-          "outcome": "Georgia Tech",
-          "avg_price": 0.4899,
-          "size": 4347.73,
-          "pnl": -549.03
+          "size": 6318.76,
+          "pnl": 252.76
         },
         {
           "market": "Spread: Louisiana (-3.5)",
           "outcome": "Louisiana",
           "avg_price": 0.459,
-          "size": 6436.02,
-          "pnl": 1925.42
-        },
-        {
-          "market": "Missouri vs. Ole Miss: O/U 55.5",
-          "outcome": "Under",
-          "avg_price": 0.4728,
-          "size": 6489.98,
-          "pnl": 1943.88
+          "size": 9821.07,
+          "pnl": 5310.47
         },
         {
           "market": "New Mexico vs. Hawai'i: O/U 45.5",
@@ -1362,6 +1313,13 @@
           "pnl": -48.15
         },
         {
+          "market": "Arkansas State vs. Southern Miss",
+          "outcome": "Arkansas State",
+          "avg_price": 0.6699,
+          "size": 8223.76,
+          "pnl": 1816.89
+        },
+        {
           "market": "Louisiana Tech vs. Louisiana-Monroe: O/U 55.5",
           "outcome": "Over",
           "avg_price": 0.4977,
@@ -1369,32 +1327,25 @@
           "pnl": 165.05
         },
         {
-          "market": "Toledo vs. Eastern Michigan",
-          "outcome": "Toledo",
-          "avg_price": 0.7,
-          "size": 9467.2,
-          "pnl": 2810.2
-        },
-        {
           "market": "Kentucky vs. Oklahoma: O/U 45.5",
           "outcome": "Over",
           "avg_price": 0.4349,
-          "size": 4136.75,
-          "pnl": 0.76
+          "size": 5277.93,
+          "pnl": 1141.93
         },
         {
           "market": "TCU vs. Baylor",
           "outcome": "TCU",
           "avg_price": 0.34,
-          "size": 3318.21,
-          "pnl": 140.21
+          "size": 5935.38,
+          "pnl": 2757.38
         },
         {
           "market": "Spread: Vanderbilt (-6.5)",
           "outcome": "Arkansas",
           "avg_price": 0.5399,
-          "size": 4969.56,
-          "pnl": -46.44
+          "size": 3947.78,
+          "pnl": -1068.21
         },
         {
           "market": "Chargers vs. Chiefs: O/U 40.5",
@@ -1413,30 +1364,51 @@
         {
           "market": "Spread: Oklahoma (-6.5)",
           "outcome": "Kentucky",
-          "avg_price": 0.4843,
-          "size": 4149.53,
-          "pnl": 5.25
+          "avg_price": 0.4839,
+          "size": 5683.84,
+          "pnl": 1419.06
+        },
+        {
+          "market": "Islanders vs. Maple Leafs",
+          "outcome": "Maple Leafs",
+          "avg_price": 0.5282,
+          "size": 3095.27,
+          "pnl": -1384.73
+        },
+        {
+          "market": "Arkansas State vs. Southern Miss: O/U 61.5",
+          "outcome": "Under",
+          "avg_price": 0.4999,
+          "size": 5425.03,
+          "pnl": 1550.01
+        },
+        {
+          "market": "Spread: Baylor (-5.5)",
+          "outcome": "TCU",
+          "avg_price": 0.4785,
+          "size": 6128.24,
+          "pnl": 2462.07
         },
         {
           "market": "Sharks vs. Red Wings",
           "outcome": "Red Wings",
           "avg_price": 0.5699,
-          "size": 4273.58,
-          "pnl": 109.59
+          "size": 3981.37,
+          "pnl": -182.62
         },
         {
-          "market": "Penn State vs. Michigan",
-          "outcome": "Michigan",
-          "avg_price": 0.4983,
-          "size": 3245.94,
-          "pnl": -388.89
+          "market": "Stars vs. Blackhawks: O/U 6.5",
+          "outcome": "Under",
+          "avg_price": 0.56,
+          "size": 6129.1,
+          "pnl": 2091.11
         },
         {
-          "market": "Spread: Toledo (-7.5)",
-          "outcome": "Eastern Michigan",
-          "avg_price": 0.51,
-          "size": 274.68,
-          "pnl": -3363.92
+          "market": "Sharks vs. Red Wings",
+          "outcome": "Sharks",
+          "avg_price": 0.4199,
+          "size": 3190.41,
+          "pnl": 245.42
         },
         {
           "market": "Spread: Utah (-14.5)",
@@ -1444,6 +1416,13 @@
           "avg_price": 0.4943,
           "size": 3488.76,
           "pnl": 139.76
+        },
+        {
+          "market": "Spread: Utah (-16.5)",
+          "outcome": "Utah",
+          "avg_price": 0.4654,
+          "size": 3180.28,
+          "pnl": 63.7
         },
         {
           "market": "New Mexico vs. Hawai'i",
@@ -1456,85 +1435,64 @@
           "market": "TCU vs. Baylor: O/U 49.5",
           "outcome": "Over",
           "avg_price": 0.5179,
-          "size": 3388.78,
-          "pnl": 108.15
+          "size": 1963.59,
+          "pnl": -1317.04
         },
         {
-          "market": "Missouri vs. Ole Miss: O/U 59.5",
-          "outcome": "Under",
-          "avg_price": 0.5233,
-          "size": 5210.14,
-          "pnl": 2002.02
+          "market": "Spread: Oklahoma (-7.5)",
+          "outcome": "Oklahoma",
+          "avg_price": 0.4233,
+          "size": 1745.84,
+          "pnl": -802.67
         },
         {
-          "market": "Spread: Baylor (-5.5)",
-          "outcome": "TCU",
-          "avg_price": 0.4647,
-          "size": 3169.68,
-          "pnl": 363.59
-        },
-        {
-          "market": "Arkansas State vs. Southern Miss: O/U 61.5",
-          "outcome": "Over",
-          "avg_price": 0.5049,
-          "size": 2951.85,
-          "pnl": -59.14
+          "market": "Spread: North Dakota State (-13.5)",
+          "outcome": "North Dakota State",
+          "avg_price": 0.5299,
+          "size": 682.23,
+          "pnl": -2461.97
         },
         {
           "market": "Louisiana Tech vs. Louisiana-Monroe: O/U 59.5",
           "outcome": "Over",
           "avg_price": 0.4149,
-          "size": 2239.64,
-          "pnl": -174.35
-        },
-        {
-          "market": "Spread: Golden State Valkyries (-3.5)",
-          "outcome": "Atlanta Dream",
-          "avg_price": 0.52,
-          "size": 4235.74,
-          "pnl": 1258.9
+          "size": 2268.73,
+          "pnl": -145.27
         },
         {
           "market": "Arkansas State vs. Southern Miss: O/U 63.5",
           "outcome": "Over",
           "avg_price": 0.455,
-          "size": 2517.55,
-          "pnl": -57.07
-        },
-        {
-          "market": "Spread: UNLV (-1.5)",
-          "outcome": "Air Force",
-          "avg_price": 0.4896,
-          "size": 2858.4,
-          "pnl": 166.96
-        },
-        {
-          "market": "Spread: Texas Tech (-16.5)",
-          "outcome": "Texas Tech",
-          "avg_price": 0.4996,
-          "size": 5264.32,
-          "pnl": 2534.16
+          "size": 1951.8,
+          "pnl": -622.81
         },
         {
           "market": "Wisconsin vs. UCLA",
           "outcome": "UCLA",
           "avg_price": 0.5345,
-          "size": 2828.1,
-          "pnl": -51.65
+          "size": 3528.39,
+          "pnl": 648.65
+        },
+        {
+          "market": "Spread: Houston (-3.5)",
+          "outcome": "Oklahoma State",
+          "avg_price": 0.4899,
+          "size": 2878.63,
+          "pnl": 242.13
         },
         {
           "market": "Spread: South Florida (-20.5)",
           "outcome": "Kent State",
           "avg_price": 0.4807,
-          "size": 2585.45,
-          "pnl": 22.56
+          "size": 2825.34,
+          "pnl": 262.44
         },
         {
           "market": "Spread: Baylor (-6.5)",
           "outcome": "TCU",
           "avg_price": 0.523,
-          "size": 2951.66,
-          "pnl": 219.08
+          "size": 4231.58,
+          "pnl": 1499.0
         },
         {
           "market": "Texans vs. Jaguars: O/U 42.5",
@@ -1546,125 +1504,68 @@
       ]
     },
     {
-      "wallet": "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
-      "name": "Mooseborzoiii",
-      "pnl": 1152801.05,
-      "volume": 3011121.84,
-      "positions": [
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 4 Winner",
-          "outcome": "MVK Esports",
-          "avg_price": 0.52,
-          "size": 688394.1,
-          "pnl": 330205.33
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 2 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.5427,
-          "size": 96.2,
-          "pnl": -104322.35
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 1 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.6282,
-          "size": 71.47,
-          "pnl": -89726.88
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.6299,
-          "size": 61.89,
-          "pnl": -77913.63
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-          "outcome": "MVK Esports",
-          "avg_price": 0.71,
-          "size": 29985.0,
-          "pnl": 8685.0
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 3 Winner",
-          "outcome": "MVK Esports",
-          "avg_price": 0.5099,
-          "size": 12.99,
-          "pnl": -13234.36
-        }
-      ]
-    },
-    {
       "wallet": "0xb0e74df9430a089aa102e2207af5fde1967439d2",
       "name": "0xb0e74DF9430A089Aa102e2207Af5fde1967439D2-1789545517033",
-      "pnl": 1007721.67,
+      "pnl": 1008561.65,
       "volume": 3000.0,
       "positions": [
         {
           "market": "Will NightSlayer have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 14.94,
-          "pnl": 14.61
+          "size": 13.37,
+          "pnl": 13.04
         },
         {
           "market": "Will Bluffing have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 15.11,
-          "pnl": 14.78
+          "size": 11.81,
+          "pnl": 11.48
         },
         {
           "market": "Will SiuLoong have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 14.76,
-          "pnl": 14.43
+          "size": 11.81,
+          "pnl": 11.48
         },
         {
           "market": "Will Chovy have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 15.11,
-          "pnl": 14.78
+          "size": 12.51,
+          "pnl": 12.18
         },
         {
           "market": "Will Kino have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 14.76,
-          "pnl": 14.43
+          "size": 11.81,
+          "pnl": 11.48
         },
         {
           "market": "Will Dire have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 14.24,
-          "pnl": 13.91
+          "size": 12.33,
+          "pnl": 12.0
         },
         {
           "market": "Will Bie have the most kills at Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.0095,
-          "size": 13.55,
-          "pnl": 13.22
+          "size": 11.99,
+          "pnl": 11.65
         }
       ]
     },
     {
       "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
       "name": "omnibus-076daa",
-      "pnl": 939014.45,
-      "volume": 35211312.8,
+      "pnl": 996958.78,
+      "volume": 35272121.52,
       "positions": [
-        {
-          "market": "Alabama vs. Tennessee",
-          "outcome": "Tennessee",
-          "avg_price": 0.473,
-          "size": 22356.04,
-          "pnl": -6615.21
-        },
         {
           "market": "Will Paris FC win on 2026-10-18?",
           "outcome": "Yes",
@@ -1680,25 +1581,18 @@
           "pnl": -4102.1
         },
         {
-          "market": "UD Las Palmas vs. CD Castell\u00f3n: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.2949,
-          "size": 12743.33,
-          "pnl": 8983.39
-        },
-        {
           "market": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
           "outcome": "Thiago Seyboth Wild",
-          "avg_price": 0.5535,
-          "size": 7037.15,
-          "pnl": 262.76
+          "avg_price": 0.5521,
+          "size": 13059.86,
+          "pnl": 5845.15
         },
         {
-          "market": "Spread: UNLV (-0.5)",
-          "outcome": "Air Force",
-          "avg_price": 0.5099,
-          "size": 5090.98,
-          "pnl": -101.81
+          "market": "UFC Fight Night: Tanner Boser vs. Jhonata Diniz (Heavyweight, Prelims)",
+          "outcome": "Tanner Boser",
+          "avg_price": 0.8297,
+          "size": 9249.93,
+          "pnl": 1418.03
         }
       ]
     },
@@ -1710,10 +1604,32 @@
       "positions": []
     },
     {
+      "wallet": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
+      "name": "primm",
+      "pnl": 738129.61,
+      "volume": 13712703.69,
+      "positions": [
+        {
+          "market": "Florida State vs. Miami (FL): O/U 55.5",
+          "outcome": "Under",
+          "avg_price": 0.6473,
+          "size": 5733.42,
+          "pnl": -1336.21
+        },
+        {
+          "market": "Nevada vs. North Dakota State: O/U 45.5",
+          "outcome": "Under",
+          "avg_price": 0.68,
+          "size": 4218.75,
+          "pnl": -31.25
+        }
+      ]
+    },
+    {
       "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
       "name": "anoin123",
-      "pnl": 718589.09,
-      "volume": 5692288.53,
+      "pnl": 718390.97,
+      "volume": 5694107.39,
       "positions": [
         {
           "market": "US announces end of Iranian blockade by October 31, 2026?",
@@ -1768,8 +1684,8 @@
           "market": "Will the Democrats win the Ohio Senate race in 2026?",
           "outcome": "No",
           "avg_price": 0.4346,
-          "size": 25104.49,
-          "pnl": -6526.37
+          "size": 24376.82,
+          "pnl": -7254.04
         },
         {
           "market": "Netanyahu out by end of 2026?",
@@ -1796,8 +1712,8 @@
           "market": "No one announced as next James Bond?",
           "outcome": "Yes",
           "avg_price": 0.2323,
-          "size": 18571.8,
-          "pnl": 5396.72
+          "size": 19252.29,
+          "pnl": 6077.22
         },
         {
           "market": "Will the Republicans win the Iowa Senate race in 2026?",
@@ -1824,8 +1740,8 @@
           "market": "Will the Republicans win the Ohio Senate race in 2026?",
           "outcome": "Yes",
           "avg_price": 0.437,
-          "size": 14994.45,
-          "pnl": -3463.72
+          "size": 14572.07,
+          "pnl": -3886.1
         },
         {
           "market": "Tyler Robinson convicted of homicide?",
@@ -1838,8 +1754,8 @@
           "market": "Will Anthropic have the best AI model at the end of October 2026?",
           "outcome": "No",
           "avg_price": 0.4455,
-          "size": 30895.47,
-          "pnl": 13578.69
+          "size": 30646.32,
+          "pnl": 13360.47
         },
         {
           "market": "Iran coup attempt by December 31, 2026?",
@@ -1887,8 +1803,8 @@
           "market": "Bank of England increases interest rates by 25 bps after November 2026 meeting?",
           "outcome": "No",
           "avg_price": 0.363,
-          "size": 1666.52,
-          "pnl": -8418.18
+          "size": 1805.4,
+          "pnl": -8279.31
         },
         {
           "market": "Jack Lowden announced as next James Bond?",
@@ -1901,8 +1817,8 @@
           "market": "Will Google have the best AI model at the end of October 2026?",
           "outcome": "Yes",
           "avg_price": 0.6268,
-          "size": 20807.44,
-          "pnl": 4032.17
+          "size": 20732.24,
+          "pnl": 3996.08
         },
         {
           "market": "Iran-Oman Hormuz Agreement by October 31?",
@@ -1929,8 +1845,8 @@
           "market": "Will Israel election happen as scheduled?",
           "outcome": "Yes",
           "avg_price": 0.9089,
-          "size": 20242.12,
-          "pnl": -200.78
+          "size": 19927.24,
+          "pnl": -515.66
         },
         {
           "market": "Will the Republicans win the Kansas Senate race in 2026?",
@@ -1943,15 +1859,15 @@
           "market": "Will the Republicans win the North Carolina Senate race in 2026?",
           "outcome": "Yes",
           "avg_price": 0.0626,
-          "size": 830.76,
-          "pnl": -556.86
+          "size": 852.92,
+          "pnl": -534.7
         },
         {
           "market": "Will the Democrats win the North Carolina Senate race in 2026?",
           "outcome": "No",
           "avg_price": 0.068,
-          "size": 859.48,
-          "pnl": -641.06
+          "size": 870.5,
+          "pnl": -630.04
         },
         {
           "market": "Will the Democrats win the Kansas Senate race in 2026?",
@@ -2055,8 +1971,8 @@
           "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
           "outcome": "No",
           "avg_price": 0.177,
-          "size": 1938.97,
-          "pnl": -701.97
+          "size": 1931.51,
+          "pnl": -709.42
         },
         {
           "market": "Will there be no change in Fed interest rates after the December 2026 meeting?",
@@ -2083,15 +1999,15 @@
           "market": "Will the Democratic Party win the VA-01 House seat?",
           "outcome": "No",
           "avg_price": 0.6151,
-          "size": 6462.25,
-          "pnl": -2086.75
+          "size": 6114.82,
+          "pnl": -2434.18
         },
         {
           "market": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
           "outcome": "No",
           "avg_price": 0.837,
-          "size": 11214.88,
-          "pnl": -88.08
+          "size": 11221.63,
+          "pnl": -81.33
         },
         {
           "market": "Mitch McConnell steps down from Senate before his term ends?",
@@ -2104,15 +2020,15 @@
           "market": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
           "outcome": "No",
           "avg_price": 0.5585,
-          "size": 9029.22,
-          "pnl": 2073.13
+          "size": 8904.67,
+          "pnl": 1948.59
         },
         {
           "market": "Will the Democrats win the Georgia Senate race in 2026?",
           "outcome": "No",
           "avg_price": 0.06,
-          "size": 489.53,
-          "pnl": -218.23
+          "size": 477.74,
+          "pnl": -230.02
         },
         {
           "market": "Will Ricardo Pablo Belmont Cassinelli win the next Lima mayoral elections?",
@@ -2146,8 +2062,8 @@
           "market": "US x Iran ceasefire continues through October 28?",
           "outcome": "Yes",
           "avg_price": 0.7999,
-          "size": 8099.05,
-          "pnl": 339.74
+          "size": 8196.04,
+          "pnl": 436.74
         },
         {
           "market": "Will a 1+ Year Enrichment Moratorium be in a US-Iran deal in 2026?",
@@ -2188,8 +2104,8 @@
           "market": "US x Iran ceasefire continues through October 24?",
           "outcome": "Yes",
           "avg_price": 0.83,
-          "size": 7617.28,
-          "pnl": 432.8
+          "size": 7747.12,
+          "pnl": 562.64
         },
         {
           "market": "Will Reza Pahlavi enter Iran by December 31?",
@@ -2202,8 +2118,8 @@
           "market": "Will Connie Chan win the CA-11 House seat?",
           "outcome": "Yes",
           "avg_price": 0.4,
-          "size": 1757.67,
-          "pnl": -1671.93
+          "size": 1800.54,
+          "pnl": -1629.06
         },
         {
           "market": "Will any Uranium Enrichment % Cap (1+ Year) be in a US-Iran deal in 2026?",
@@ -2223,8 +2139,8 @@
           "market": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "No",
           "avg_price": 0.3716,
-          "size": 3186.57,
-          "pnl": 110.84
+          "size": 3021.03,
+          "pnl": -54.69
         },
         {
           "market": "Will Paul St-Pierre Plamondon be the next Premier of Quebec following the 2026 Quebec general election?",
@@ -2244,15 +2160,15 @@
           "market": "Will the Democratic Party win the AZ-01 House seat?",
           "outcome": "No",
           "avg_price": 0.2893,
-          "size": 1262.65,
-          "pnl": -951.23
+          "size": 1300.91,
+          "pnl": -912.97
         },
         {
           "market": "NATO x Russia military clash by October 31, 2026?",
           "outcome": "No",
           "avg_price": 0.86,
-          "size": 6714.16,
-          "pnl": 226.32
+          "size": 6827.32,
+          "pnl": 339.48
         },
         {
           "market": "Will Anders \u00d6berg be the next Regional Board Chair of Region Norrbotten?",
@@ -2272,8 +2188,8 @@
           "market": "Will the Republican Party win the OH-01 House seat?",
           "outcome": "Yes",
           "avg_price": 0.1491,
-          "size": 385.54,
-          "pnl": -720.3
+          "size": 374.42,
+          "pnl": -731.42
         },
         {
           "market": "Will the next Google Gemini Pro model be released between October 19 and October 25, 2026?",
@@ -2293,15 +2209,15 @@
           "market": "US x Iran ceasefire continues through October 22?",
           "outcome": "Yes",
           "avg_price": 0.84,
-          "size": 6738.98,
-          "pnl": 552.38
+          "size": 6812.62,
+          "pnl": 626.02
         },
         {
           "market": "Will the Republican Party win the MO-05 House seat?",
           "outcome": "Yes",
           "avg_price": 0.0918,
-          "size": 180.41,
-          "pnl": -482.48
+          "size": 191.24,
+          "pnl": -471.65
         },
         {
           "market": "Will the Republicans win the Maine Senate race in 2026?",
@@ -2356,8 +2272,8 @@
           "market": "Next Fable Model (5.2+) released by October 31, 2026?",
           "outcome": "No",
           "avg_price": 0.199,
-          "size": 1354.49,
-          "pnl": 83.06
+          "size": 1364.08,
+          "pnl": 92.64
         },
         {
           "market": "Will the Democratic Party win the CO-04 House seat?",
@@ -2377,8 +2293,8 @@
           "market": "Will Lula win the most votes in the second round of the Brazil presidential election from abroad?",
           "outcome": "No",
           "avg_price": 0.32,
-          "size": 2047.13,
-          "pnl": 120.42
+          "size": 1776.19,
+          "pnl": -150.52
         },
         {
           "market": "Will the Republican Party win the CO-04 House seat?",
@@ -2398,8 +2314,8 @@
           "market": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8\u201312%?",
           "outcome": "No",
           "avg_price": 0.8929,
-          "size": 5387.71,
-          "pnl": 56.71
+          "size": 5459.35,
+          "pnl": 128.35
         },
         {
           "market": "Will the Republican Party win the OH-07 House seat?",
@@ -2412,8 +2328,8 @@
           "market": "Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?",
           "outcome": "Yes",
           "avg_price": 0.71,
-          "size": 5226.22,
-          "pnl": 1038.17
+          "size": 5238.02,
+          "pnl": 1049.96
         },
         {
           "market": "Will the Republican Party win the KY-06 House seat?",
@@ -2433,8 +2349,8 @@
           "market": "Will the AfD be part of a German state government in 2026?",
           "outcome": "No",
           "avg_price": 0.3465,
-          "size": 3274.14,
-          "pnl": 1317.88
+          "size": 3330.59,
+          "pnl": 1374.33
         },
         {
           "market": "US-Canada diplomatic agreement to lower tariffs by December 31?",
@@ -2482,15 +2398,15 @@
           "market": "Will the Republican Party win the VA-01 House seat?",
           "outcome": "Yes",
           "avg_price": 0.6098,
-          "size": 2470.41,
-          "pnl": -769.42
+          "size": 2390.72,
+          "pnl": -849.11
         },
         {
           "market": "Will Mar\u00eda Corina Machado enter Venezuela by October 31?",
           "outcome": "Yes",
           "avg_price": 0.36,
-          "size": 281.65,
-          "pnl": -1561.9
+          "size": 256.05,
+          "pnl": -1587.51
         },
         {
           "market": "Will the Republican Party win the AR-02 House seat?",
@@ -2503,15 +2419,15 @@
           "market": "Will Mai Vang win the CA-07 House seat?",
           "outcome": "Yes",
           "avg_price": 0.47,
-          "size": 1790.15,
-          "pnl": -546.99
+          "size": 1815.02,
+          "pnl": -522.13
         },
         {
           "market": "Lula x Fl\u00e1vio Bolsonaro debate before second round?",
           "outcome": "No",
           "avg_price": 0.1872,
-          "size": 240.38,
-          "pnl": -687.74
+          "size": 213.12,
+          "pnl": -715.0
         },
         {
           "market": "Will the Republicans win the Minnesota Senate race in 2026?",
@@ -2524,8 +2440,8 @@
           "market": "Will the total domestic gross for Resident Evil be between 160m and 170m by October 31?",
           "outcome": "No",
           "avg_price": 0.727,
-          "size": 4385.87,
-          "pnl": 854.83
+          "size": 4398.01,
+          "pnl": 866.97
         },
         {
           "market": "Will the Democratic Party win the AL-02 House seat?",
@@ -2538,8 +2454,8 @@
           "market": "Will oil be below $85 on November 2 and the Republicans win the Senate?",
           "outcome": "Yes",
           "avg_price": 0.077,
-          "size": 105.57,
-          "pnl": -263.93
+          "size": 95.97,
+          "pnl": -273.53
         },
         {
           "market": "Will Democrats win exactly 4 House seats in Minnesota in the 2026 midterm elections?",
@@ -2601,8 +2517,8 @@
           "market": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amap\u00e1?",
           "outcome": "No",
           "avg_price": 0.1599,
-          "size": 1576.99,
-          "pnl": 876.14
+          "size": 1555.08,
+          "pnl": 854.24
         },
         {
           "market": "Will Elif Eralp be the next Governing Mayor of Berlin?",
@@ -2615,8 +2531,8 @@
           "market": "Will no listed leader be out before 2027?",
           "outcome": "Yes",
           "avg_price": 0.3231,
-          "size": 2432.99,
-          "pnl": 1053.63
+          "size": 2411.65,
+          "pnl": 1032.28
         },
         {
           "market": "Will the Democratic Party win the ME-02 House seat?",
@@ -2636,60 +2552,31 @@
           "market": "Will there be no head of state of Venezuela end of 2026?",
           "outcome": "Yes",
           "avg_price": 0.0,
-          "size": 91.02,
-          "pnl": 91.02
-        }
-      ]
-    },
-    {
-      "wallet": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
-      "name": "primm",
-      "pnl": 711826.31,
-      "volume": 13550552.56,
-      "positions": [
-        {
-          "market": "Auburn vs. Georgia: O/U 65.5",
-          "outcome": "Over",
-          "avg_price": 0.24,
-          "size": 3250.0,
-          "pnl": 250.0
-        },
-        {
-          "market": "Northern Illinois vs. Wyoming",
-          "outcome": "Northern Illinois",
-          "avg_price": 0.1366,
-          "size": 660.45,
-          "pnl": -727.66
-        },
-        {
-          "market": "Arizona State vs. Texas Tech: O/U 73.5",
-          "outcome": "Under",
-          "avg_price": 0.6426,
-          "size": 3752.5,
-          "pnl": -2352.49
-        },
-        {
-          "market": "Spread: Georgia (-7.5)",
-          "outcome": "Auburn",
-          "avg_price": 0.6099,
-          "size": 4457.89,
-          "pnl": 627.88
-        },
-        {
-          "market": "Northern Illinois vs. Wyoming: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.4763,
-          "size": 2628.83,
-          "pnl": -35.3
+          "size": 88.95,
+          "pnl": 88.95
         }
       ]
     },
     {
       "wallet": "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3",
       "name": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
-      "pnl": 704244.87,
-      "volume": 23252587.84,
+      "pnl": 710299.83,
+      "volume": 23254715.79,
       "positions": [
+        {
+          "market": "Spread: Browns (-3.5)",
+          "outcome": "Browns",
+          "avg_price": 0.2499,
+          "size": 31527.28,
+          "pnl": 619.61
+        },
+        {
+          "market": "Spread: Eagles (-3.5)",
+          "outcome": "Eagles",
+          "avg_price": 0.2499,
+          "size": 26851.16,
+          "pnl": 527.26
+        },
         {
           "market": "Spread: Chiefs (-3.5)",
           "outcome": "Chargers",
@@ -2712,25 +2599,18 @@
           "pnl": 229.27
         },
         {
-          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.6199,
-          "size": 10.0,
-          "pnl": -12395.61
-        },
-        {
-          "market": "UFC Fight Night: Chelsea Chandler vs. Melissa Croden (Women's Bantamweight, Prelims)",
-          "outcome": "Chelsea Chandler",
-          "avg_price": 0.26,
-          "size": 2350.0,
-          "pnl": -250.0
+          "market": "Spread: Rams (-21.5)",
+          "outcome": "Rams",
+          "avg_price": 0.2099,
+          "size": 4971.11,
+          "pnl": -121.22
         },
         {
           "market": "UFC Fight Night: Louis Jourdain vs. Timmy Cuamba (Bantamweight, Main Card)",
           "outcome": "Timmy Cuamba",
           "avg_price": 0.38,
-          "size": 3773.07,
-          "pnl": 143.28
+          "size": 3964.11,
+          "pnl": 334.32
         },
         {
           "market": "Will a team from LCK (South Korea) win LoL Worlds 2026?",
@@ -2743,44 +2623,44 @@
           "market": "Spread: Oklahoma (-6.5)",
           "outcome": "Kentucky",
           "avg_price": 0.48,
-          "size": 2425.0,
-          "pnl": 25.0
+          "size": 3225.0,
+          "pnl": 825.0
         },
         {
           "market": "Spread: South Florida (-19.5)",
           "outcome": "South Florida",
           "avg_price": 0.53,
-          "size": 2050.01,
-          "pnl": 56.42
+          "size": 1673.86,
+          "pnl": -319.73
         },
         {
           "market": "UFC Fight Night: Tanner Boser vs. Jhonata Diniz (Heavyweight, Prelims)",
           "outcome": "Jhonata Diniz",
           "avg_price": 0.68,
-          "size": 1839.46,
-          "pnl": -99.82
+          "size": 42.78,
+          "pnl": -1896.5
         },
         {
           "market": "Almaty Open, Qualification: Alexander Shevchenko vs Stefanos Sakellaridis",
           "outcome": "Alexander Shevchenko",
           "avg_price": 0.6242,
-          "size": 1764.29,
-          "pnl": 43.45
+          "size": 1750.51,
+          "pnl": 29.67
         },
         {
           "market": "Almaty Open, Qualification: Gabriel Diallo vs Rei Sakamoto",
           "outcome": "Gabriel Diallo",
           "avg_price": 0.42,
-          "size": 50.5,
-          "pnl": 8.5
+          "size": 49.5,
+          "pnl": 7.5
         }
       ]
     },
     {
       "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
       "name": "Bigggggggg",
-      "pnl": 691072.53,
-      "volume": 5110446.3,
+      "pnl": 693030.84,
+      "volume": 5131845.91,
       "positions": [
         {
           "market": "Will Donald Trump be the leader of Venezuela end of 2026?",
@@ -2842,66 +2722,23 @@
           "market": "Will \"Grand Theft Auto VI Launch Trailer\" get at least 140 million views on week 1?",
           "outcome": "Yes",
           "avg_price": 0.131,
-          "size": 12.36,
-          "pnl": -1067.16
+          "size": 12.29,
+          "pnl": -1060.87
         }
       ]
     },
     {
       "wallet": "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc",
       "name": "justwins",
-      "pnl": 567472.28,
-      "volume": 3805652.07,
+      "pnl": 572212.08,
+      "volume": 3805665.79,
       "positions": [
         {
           "market": "Saints vs. Giants",
           "outcome": "Giants",
           "avg_price": 0.4899,
-          "size": 83465.94,
-          "pnl": 845.3
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries: O/U 154.5",
-          "outcome": "Under",
-          "avg_price": 0.5099,
-          "size": 17529.12,
-          "pnl": 7370.34
-        },
-        {
-          "market": "Spread: Wyoming (-7.5)",
-          "outcome": "Northern Illinois",
-          "avg_price": 0.5098,
-          "size": 4679.78,
-          "pnl": -4864.19
-        }
-      ]
-    },
-    {
-      "wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
-      "name": "THEHIGHLIFE",
-      "pnl": 557457.6,
-      "volume": 9332542.4,
-      "positions": [
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 4 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.4436,
-          "size": 51.38,
-          "pnl": -45539.95
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 3 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.4828,
-          "size": 53726.14,
-          "pnl": 27770.75
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 2 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.4057,
-          "size": 16.42,
-          "pnl": -13311.77
+          "size": 83471.77,
+          "pnl": 845.61
         }
       ]
     },
@@ -2913,9 +2750,16 @@
       "positions": []
     },
     {
+      "wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+      "name": "THEHIGHLIFE",
+      "pnl": 530613.12,
+      "volume": 9336683.81,
+      "positions": []
+    },
+    {
       "wallet": "0x9ba9dec33838f4ec9f032f7247d7481987e63ce9",
       "name": "TeamA",
-      "pnl": 504286.14,
+      "pnl": 503272.74,
       "volume": 499760.89,
       "positions": [
         {
@@ -2936,15 +2780,15 @@
           "market": "Will the US confirm that aliens exist before 2027?",
           "outcome": "No",
           "avg_price": 0.82,
-          "size": 143008.78,
-          "pnl": 19764.22
+          "size": 142557.89,
+          "pnl": 19313.33
         },
         {
           "market": "Will JD Vance win the 2028 US Presidential Election?",
           "outcome": "No",
           "avg_price": 0.7976,
-          "size": 61172.42,
-          "pnl": -550.92
+          "size": 61211.11,
+          "pnl": -512.22
         },
         {
           "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -2977,833 +2821,6 @@
       "positions": []
     },
     {
-      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-      "name": "mooseborzoii",
-      "pnl": 484563.86,
-      "volume": 73125091.13,
-      "positions": [
-        {
-          "market": "Alabama vs. Tennessee",
-          "outcome": "Alabama",
-          "avg_price": 0.6003,
-          "size": 130433.2,
-          "pnl": 7108.01
-        },
-        {
-          "market": "Troy vs. Louisiana",
-          "outcome": "Troy",
-          "avg_price": 0.42,
-          "size": 21536.74,
-          "pnl": -19578.86
-        },
-        {
-          "market": "Toledo vs. Eastern Michigan",
-          "outcome": "Eastern Michigan",
-          "avg_price": 0.2928,
-          "size": 384.41,
-          "pnl": -24630.53
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "outcome": "Atlanta Dream",
-          "avg_price": 0.5479,
-          "size": 43932.79,
-          "pnl": 8791.48
-        },
-        {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians",
-          "outcome": "Cleveland Guardians",
-          "avg_price": 0.49,
-          "size": 31329.71,
-          "pnl": 316.46
-        },
-        {
-          "market": "UNLV vs. Air Force",
-          "outcome": "UNLV",
-          "avg_price": 0.4989,
-          "size": 32135.65,
-          "pnl": 999.92
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "outcome": "Golden State Valkyries",
-          "avg_price": 0.4211,
-          "size": 17337.23,
-          "pnl": -5843.69
-        },
-        {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians: O/U 6.5",
-          "outcome": "Over",
-          "avg_price": 0.4882,
-          "size": 26720.97,
-          "pnl": 1387.47
-        },
-        {
-          "market": "Panthers vs. Eagles",
-          "outcome": "Eagles",
-          "avg_price": 0.3799,
-          "size": 19658.84,
-          "pnl": 255.36
-        },
-        {
-          "market": "Northern Illinois vs. Wyoming: O/U 41.5",
-          "outcome": "Under",
-          "avg_price": 0.4845,
-          "size": 9265.64,
-          "pnl": -15001.27
-        },
-        {
-          "market": "Minnesota United FC vs. St. Louis City SC: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.4152,
-          "size": 23943.57,
-          "pnl": 6345.45
-        },
-        {
-          "market": "Alabama vs. Tennessee",
-          "outcome": "Tennessee",
-          "avg_price": 0.3746,
-          "size": 14237.0,
-          "pnl": -377.75
-        },
-        {
-          "market": "Oklahoma State vs. Houston: O/U 61.5",
-          "outcome": "Under",
-          "avg_price": 0.4873,
-          "size": 18978.07,
-          "pnl": 291.9
-        },
-        {
-          "market": "Penn State vs. Michigan",
-          "outcome": "Penn State",
-          "avg_price": 0.3593,
-          "size": 21080.98,
-          "pnl": 7431.66
-        },
-        {
-          "market": "Titans vs. Colts: O/U 44.5",
-          "outcome": "Under",
-          "avg_price": 0.4899,
-          "size": 17393.21,
-          "pnl": 175.72
-        },
-        {
-          "market": "Spread: Golden State Valkyries (-2.5)",
-          "outcome": "Atlanta Dream",
-          "avg_price": 0.4999,
-          "size": 23674.38,
-          "pnl": 7571.52
-        },
-        {
-          "market": "Commanders vs. 49ers: O/U 50.5",
-          "outcome": "Under",
-          "avg_price": 0.48,
-          "size": 12757.55,
-          "pnl": -1650.98
-        },
-        {
-          "market": "Will Athletic Club win on 2026-10-10?",
-          "outcome": "No",
-          "avg_price": 0.6116,
-          "size": 13690.14,
-          "pnl": -3225.79
-        },
-        {
-          "market": "Penguins vs. Golden Knights",
-          "outcome": "Penguins",
-          "avg_price": 0.34,
-          "size": 9086.38,
-          "pnl": -135.62
-        },
-        {
-          "market": "Spread: Bears (-1.5)",
-          "outcome": "Bears",
-          "avg_price": 0.49,
-          "size": 12684.43,
-          "pnl": -400.56
-        },
-        {
-          "market": "Spread: Alabama (-7.5)",
-          "outcome": "Alabama",
-          "avg_price": 0.5074,
-          "size": 7410.83,
-          "pnl": -5124.39
-        },
-        {
-          "market": "Wisconsin vs. UCLA",
-          "outcome": "UCLA",
-          "avg_price": 0.5486,
-          "size": 12750.53,
-          "pnl": -575.43
-        },
-        {
-          "market": "Spread: Vanderbilt (-5.5)",
-          "outcome": "Arkansas",
-          "avg_price": 0.497,
-          "size": 10814.5,
-          "pnl": 171.04
-        },
-        {
-          "market": "North Carolina vs. Duke",
-          "outcome": "North Carolina",
-          "avg_price": 0.4099,
-          "size": 13856.35,
-          "pnl": 5313.36
-        },
-        {
-          "market": "Spread: Alabama (-3.5)",
-          "outcome": "Alabama",
-          "avg_price": 0.4993,
-          "size": 10344.86,
-          "pnl": 114.75
-        },
-        {
-          "market": "Spread: Notre Dame (-10.5)",
-          "outcome": "Notre Dame",
-          "avg_price": 0.4899,
-          "size": 8967.31,
-          "pnl": 266.62
-        },
-        {
-          "market": "Spread: South Florida (-20.5)",
-          "outcome": "Kent State",
-          "avg_price": 0.4845,
-          "size": 7971.18,
-          "pnl": 7.63
-        },
-        {
-          "market": "Kentucky vs. Oklahoma: O/U 43.5",
-          "outcome": "Over",
-          "avg_price": 0.4996,
-          "size": 8411.34,
-          "pnl": 251.05
-        },
-        {
-          "market": "Texans vs. Jaguars: O/U 42.5",
-          "outcome": "Over",
-          "avg_price": 0.4995,
-          "size": 7779.15,
-          "pnl": -71.52
-        },
-        {
-          "market": "Spread: Texas Tech (-15.5)",
-          "outcome": "Arizona State",
-          "avg_price": 0.4697,
-          "size": 7253.46,
-          "pnl": 370.37
-        },
-        {
-          "market": "Spread: Toledo (-6.5)",
-          "outcome": "Eastern Michigan",
-          "avg_price": 0.4602,
-          "size": 389.45,
-          "pnl": -5686.25
-        },
-        {
-          "market": "Spread: Vanderbilt (-6.5)",
-          "outcome": "Arkansas",
-          "avg_price": 0.5299,
-          "size": 6924.95,
-          "pnl": 64.75
-        },
-        {
-          "market": "Spread: Texas Tech (-16.5)",
-          "outcome": "Arizona State",
-          "avg_price": 0.4899,
-          "size": 423.88,
-          "pnl": -5266.37
-        },
-        {
-          "market": "Spread: Wake Forest (-9.5)",
-          "outcome": "California",
-          "avg_price": 0.47,
-          "size": 5384.1,
-          "pnl": -57.89
-        },
-        {
-          "market": "Georgia Tech vs. Virginia Tech",
-          "outcome": "Georgia Tech",
-          "avg_price": 0.1394,
-          "size": 1586.05,
-          "pnl": 11.64
-        },
-        {
-          "market": "Chargers vs. Chiefs",
-          "outcome": "Chargers",
-          "avg_price": 0.22,
-          "size": 2402.13,
-          "pnl": -55.86
-        },
-        {
-          "market": "Kent State vs. South Florida: O/U 45.5",
-          "outcome": "Under",
-          "avg_price": 0.48,
-          "size": 5193.33,
-          "pnl": -54.67
-        },
-        {
-          "market": "Spread: Texas Tech (-15.5)",
-          "outcome": "Texas Tech",
-          "avg_price": 0.51,
-          "size": 5435.99,
-          "pnl": -53.82
-        },
-        {
-          "market": "Notre Dame vs. BYU: O/U 45.5",
-          "outcome": "Over",
-          "avg_price": 0.5399,
-          "size": 5790.36,
-          "pnl": 54.1
-        },
-        {
-          "market": "Spread: Utah (-14.5)",
-          "outcome": "Utah",
-          "avg_price": 0.5,
-          "size": 5356.46,
-          "pnl": 156.01
-        },
-        {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians: O/U 6.5",
-          "outcome": "Under",
-          "avg_price": 0.4758,
-          "size": 5032.21,
-          "pnl": 95.17
-        },
-        {
-          "market": "Spread: UTSA (-6.5)",
-          "outcome": "UTSA",
-          "avg_price": 0.51,
-          "size": 4760.73,
-          "pnl": -47.14
-        },
-        {
-          "market": "Louisiana Tech vs. Louisiana-Monroe: O/U 57.5",
-          "outcome": "Over",
-          "avg_price": 0.44,
-          "size": 4189.62,
-          "pnl": 138.12
-        },
-        {
-          "market": "Penn State vs. Michigan",
-          "outcome": "Michigan",
-          "avg_price": 0.4782,
-          "size": 3753.2,
-          "pnl": -280.78
-        },
-        {
-          "market": "Will Athletic Club win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.59,
-          "size": 8187.7,
-          "pnl": 3354.54
-        },
-        {
-          "market": "Will Minnesota United FC win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.6,
-          "size": 7548.42,
-          "pnl": 2805.96
-        },
-        {
-          "market": "Spread: New Mexico (-14.5)",
-          "outcome": "Hawai'i",
-          "avg_price": 0.51,
-          "size": 3966.61,
-          "pnl": 38.51
-        },
-        {
-          "market": "Spread: Air Force (-1.5)",
-          "outcome": "UNLV",
-          "avg_price": 0.5296,
-          "size": 3783.45,
-          "pnl": -146.08
-        },
-        {
-          "market": "Spread: UNLV (-1.5)",
-          "outcome": "Air Force",
-          "avg_price": 0.509,
-          "size": 3855.55,
-          "pnl": 81.51
-        },
-        {
-          "market": "Atlanta United FC vs. Inter Miami CF: O/U 3.5",
-          "outcome": "Under",
-          "avg_price": 0.46,
-          "size": 3150.85,
-          "pnl": -34.8
-        },
-        {
-          "market": "Bills vs. Raiders",
-          "outcome": "Raiders",
-          "avg_price": 0.32,
-          "size": 2236.41,
-          "pnl": 34.41
-        },
-        {
-          "market": "Spread: South Florida (-21.5)",
-          "outcome": "Kent State",
-          "avg_price": 0.55,
-          "size": 3744.58,
-          "pnl": -34.35
-        },
-        {
-          "market": "Kent State vs. South Florida",
-          "outcome": "Kent State",
-          "avg_price": 0.0899,
-          "size": 578.06,
-          "pnl": -34.0
-        },
-        {
-          "market": "Will New York Red Bulls win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.4322,
-          "size": 2802.68,
-          "pnl": -47.53
-        },
-        {
-          "market": "Arkansas State vs. Southern Miss",
-          "outcome": "Southern Miss",
-          "avg_price": 0.3199,
-          "size": 2005.19,
-          "pnl": 31.08
-        },
-        {
-          "market": "Spread: Ravens (-2.5)",
-          "outcome": "Ravens",
-          "avg_price": 0.5599,
-          "size": 3432.63,
-          "pnl": 30.38
-        },
-        {
-          "market": "TCU vs. Baylor: O/U 49.5",
-          "outcome": "Under",
-          "avg_price": 0.4809,
-          "size": 2706.69,
-          "pnl": -93.04
-        },
-        {
-          "market": "Spread: Ole Miss (-4.5)",
-          "outcome": "Ole Miss",
-          "avg_price": 0.48,
-          "size": 5120.61,
-          "pnl": 2389.62
-        },
-        {
-          "market": "Spread: UCLA (-2.5)",
-          "outcome": "UCLA",
-          "avg_price": 0.4979,
-          "size": 2277.82,
-          "pnl": -110.04
-        },
-        {
-          "market": "Saints vs. Giants",
-          "outcome": "Giants",
-          "avg_price": 0.4799,
-          "size": 2338.56,
-          "pnl": 70.88
-        },
-        {
-          "market": "Hurricanes vs. Jets",
-          "outcome": "Hurricanes",
-          "avg_price": 0.6311,
-          "size": 2671.89,
-          "pnl": -210.58
-        },
-        {
-          "market": "Spread: Utah (-15.5)",
-          "outcome": "Utah",
-          "avg_price": 0.4816,
-          "size": 2173.55,
-          "pnl": 58.66
-        },
-        {
-          "market": "Arizona State vs. Texas Tech: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.51,
-          "size": 4190.04,
-          "pnl": 2052.05
-        },
-        {
-          "market": "Akron vs. Miami (OH): O/U 45.5",
-          "outcome": "Over",
-          "avg_price": 0.5299,
-          "size": 1575.41,
-          "pnl": -512.0
-        },
-        {
-          "market": "UNLV vs. Air Force: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.48,
-          "size": 3076.8,
-          "pnl": 1230.72
-        },
-        {
-          "market": "Spread: Panthers (-3.5)",
-          "outcome": "Eagles",
-          "avg_price": 0.5199,
-          "size": 2025.83,
-          "pnl": 56.8
-        },
-        {
-          "market": "New Mexico vs. Hawai'i: O/U 45.5",
-          "outcome": "Over",
-          "avg_price": 0.463,
-          "size": 1887.59,
-          "pnl": 190.54
-        },
-        {
-          "market": "Spread: Ravens (-3.5)",
-          "outcome": "Ravens",
-          "avg_price": 0.4599,
-          "size": 1662.29,
-          "pnl": 52.5
-        },
-        {
-          "market": "Spread: Oregon State (-18.5)",
-          "outcome": "Washington State",
-          "avg_price": 0.4927,
-          "size": 1562.1,
-          "pnl": -24.96
-        },
-        {
-          "market": "Troy vs. Louisiana: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.49,
-          "size": 1047.66,
-          "pnl": -398.41
-        },
-        {
-          "market": "Spread: Jaguars (-2.5)",
-          "outcome": "Texans",
-          "avg_price": 0.49,
-          "size": 1269.15,
-          "pnl": 12.82
-        },
-        {
-          "market": "Cowboys vs. Packers: O/U 52.5",
-          "outcome": "Under",
-          "avg_price": 0.45,
-          "size": 1132.71,
-          "pnl": 12.45
-        },
-        {
-          "market": "Spread: Alabama (-8.5)",
-          "outcome": "Alabama",
-          "avg_price": 0.4799,
-          "size": 576.98,
-          "pnl": -448.76
-        },
-        {
-          "market": "Will Los Angeles Galaxy win on 2026-10-17?",
-          "outcome": "No",
-          "avg_price": 0.57,
-          "size": 1073.93,
-          "pnl": 9.34
-        },
-        {
-          "market": "Spread: Oregon (-6.5)",
-          "outcome": "Nebraska",
-          "avg_price": 0.47,
-          "size": 776.53,
-          "pnl": 24.02
-        },
-        {
-          "market": "North Carolina vs. Duke: O/U 47.5",
-          "outcome": "Under",
-          "avg_price": 0.5211,
-          "size": 808.66,
-          "pnl": 5.97
-        },
-        {
-          "market": "New Mexico vs. Hawai'i: O/U 45.5",
-          "outcome": "Under",
-          "avg_price": 0.4798,
-          "size": 665.66,
-          "pnl": 7.07
-        },
-        {
-          "market": "Auburn vs. Georgia: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.5199,
-          "size": 1135.2,
-          "pnl": 423.99
-        },
-        {
-          "market": "Spread: Baylor (-6.5)",
-          "outcome": "TCU",
-          "avg_price": 0.5145,
-          "size": 768.5,
-          "pnl": 68.6
-        },
-        {
-          "market": "Nevada vs. North Dakota State: O/U 43.5",
-          "outcome": "Over",
-          "avg_price": 0.4792,
-          "size": 648.86,
-          "pnl": 7.69
-        },
-        {
-          "market": "TCU vs. Baylor: O/U 47.5",
-          "outcome": "Over",
-          "avg_price": 0.5343,
-          "size": 758.84,
-          "pnl": 53.69
-        },
-        {
-          "market": "Spread: Bears (-2.5)",
-          "outcome": "Falcons",
-          "avg_price": 0.5,
-          "size": 668.74,
-          "pnl": 66.27
-        },
-        {
-          "market": "Spread: Ole Miss (-4.5)",
-          "outcome": "Missouri",
-          "avg_price": 0.4899,
-          "size": 118.62,
-          "pnl": -462.61
-        },
-        {
-          "market": "Spread: Ole Miss (-5.5)",
-          "outcome": "Missouri",
-          "avg_price": 0.5186,
-          "size": 135.04,
-          "pnl": -474.05
-        },
-        {
-          "market": "Arkansas vs. Vanderbilt: O/U 49.5",
-          "outcome": "Under",
-          "avg_price": 0.497,
-          "size": 575.06,
-          "pnl": 40.79
-        },
-        {
-          "market": "Louisville vs. Syracuse: O/U 55.5",
-          "outcome": "Under",
-          "avg_price": 0.48,
-          "size": 511.47,
-          "pnl": 5.27
-        },
-        {
-          "market": "Will St. Louis City SC win on 2026-10-17?",
-          "outcome": "Yes",
-          "avg_price": 0.35,
-          "size": 806.69,
-          "pnl": 470.57
-        },
-        {
-          "market": "O/U 2.5 Rounds",
-          "outcome": "Over",
-          "avg_price": 0.45,
-          "size": 427.27,
-          "pnl": 18.18
-        },
-        {
-          "market": "Cardinals vs. Rams: O/U 51.5",
-          "outcome": "Under",
-          "avg_price": 0.5,
-          "size": 458.96,
-          "pnl": 4.54
-        },
-        {
-          "market": "Akron vs. Miami (OH)",
-          "outcome": "Akron",
-          "avg_price": 0.23,
-          "size": 82.73,
-          "pnl": -98.48
-        },
-        {
-          "market": "Wake Forest vs. California",
-          "outcome": "California",
-          "avg_price": 0.23,
-          "size": 166.09,
-          "pnl": -3.69
-        },
-        {
-          "market": "Spread: Houston (-3.5)",
-          "outcome": "Oklahoma State",
-          "avg_price": 0.47,
-          "size": 313.68,
-          "pnl": 3.3
-        },
-        {
-          "market": "Florida State vs. Miami (FL): O/U 57.5",
-          "outcome": "Under",
-          "avg_price": 0.52,
-          "size": 317.91,
-          "pnl": -3.09
-        },
-        {
-          "market": "Louisiana Tech vs. Louisiana-Monroe: O/U 57.5",
-          "outcome": "Under",
-          "avg_price": 0.5308,
-          "size": 294.69,
-          "pnl": 7.66
-        },
-        {
-          "market": "Georgia Tech vs. Virginia Tech",
-          "outcome": "Virginia Tech",
-          "avg_price": 0.9384,
-          "size": 441.83,
-          "pnl": -40.57
-        },
-        {
-          "market": "Spread: Oregon State (-19.5)",
-          "outcome": "Washington State",
-          "avg_price": 0.51,
-          "size": 256.04,
-          "pnl": -2.54
-        },
-        {
-          "market": "Spread: Duke (-3.5)",
-          "outcome": "North Carolina",
-          "avg_price": 0.5344,
-          "size": 356.72,
-          "pnl": 115.38
-        },
-        {
-          "market": "Tulsa vs. Rice: O/U 45.5",
-          "outcome": "Over",
-          "avg_price": 0.5399,
-          "size": 352.42,
-          "pnl": 121.75
-        },
-        {
-          "market": "Spread: Miami (OH) (-9.5)",
-          "outcome": "Akron",
-          "avg_price": 0.4928,
-          "size": 139.8,
-          "pnl": -43.93
-        },
-        {
-          "market": "O/U 2.5 Rounds",
-          "outcome": "Under",
-          "avg_price": 0.39,
-          "size": 136.07,
-          "pnl": 8.2
-        },
-        {
-          "market": "Akron vs. Miami (OH): O/U 47.5",
-          "outcome": "Under",
-          "avg_price": 0.49,
-          "size": 207.19,
-          "pnl": 52.19
-        },
-        {
-          "market": "Tulsa vs. Rice: O/U 47.5",
-          "outcome": "Under",
-          "avg_price": 0.53,
-          "size": 63.53,
-          "pnl": -86.12
-        },
-        {
-          "market": "Will Los Angeles FC win on 2026-05-06?",
-          "outcome": "No",
-          "avg_price": 0.61,
-          "size": 157.12,
-          "pnl": -1.3
-        },
-        {
-          "market": "TCU vs. Baylor: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.4699,
-          "size": 137.72,
-          "pnl": 16.73
-        },
-        {
-          "market": "Spread: Wyoming (-7.5)",
-          "outcome": "Wyoming",
-          "avg_price": 0.47,
-          "size": 192.51,
-          "pnl": 72.67
-        },
-        {
-          "market": "Bills vs. Raiders: O/U 52.5",
-          "outcome": "Over",
-          "avg_price": 0.5299,
-          "size": 133.94,
-          "pnl": 1.25
-        },
-        {
-          "market": "Spread: Georgia (-20.5)",
-          "outcome": "Auburn",
-          "avg_price": 0.4899,
-          "size": 236.4,
-          "pnl": 114.47
-        },
-        {
-          "market": "Will Olympique de Marseille win on 2026-10-18?",
-          "outcome": "Yes",
-          "avg_price": 0.48,
-          "size": 116.64,
-          "pnl": 1.2
-        },
-        {
-          "market": "Utah vs. Colorado",
-          "outcome": "Utah",
-          "avg_price": 0.86,
-          "size": 191.11,
-          "pnl": -1.12
-        },
-        {
-          "market": "Arkansas State vs. Southern Miss: O/U 63.5",
-          "outcome": "Under",
-          "avg_price": 0.5409,
-          "size": 113.5,
-          "pnl": 2.88
-        },
-        {
-          "market": "Commanders vs. 49ers: O/U 53.5",
-          "outcome": "Under",
-          "avg_price": 0.5399,
-          "size": 110.09,
-          "pnl": 1.01
-        },
-        {
-          "market": "Spread: Louisiana (-3.5)",
-          "outcome": "Troy",
-          "avg_price": 0.5193,
-          "size": 65.11,
-          "pnl": -32.91
-        },
-        {
-          "market": "Spread: Miami (FL) (-21.5)",
-          "outcome": "Florida State",
-          "avg_price": 0.5164,
-          "size": 101.9,
-          "pnl": 7.07
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries: O/U 154.5",
-          "outcome": "Under",
-          "avg_price": 0.49,
-          "size": 159.69,
-          "pnl": 70.77
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries: O/U 154.5",
-          "outcome": "Over",
-          "avg_price": 0.47,
-          "size": 20.95,
-          "pnl": -61.1
-        },
-        {
-          "market": "Spread: Ohio (-14.5)",
-          "outcome": "Ohio",
-          "avg_price": 0.5199,
-          "size": 83.92,
-          "pnl": 0.8
-        },
-        {
-          "market": "Spread: Duke (-4.5)",
-          "outcome": "North Carolina",
-          "avg_price": 0.58,
-          "size": 115.17,
-          "pnl": 36.59
-        }
-      ]
-    },
-    {
       "wallet": "0xc9ae00eda811041a059f3eec9356b24067c1b9e0",
       "name": "Ancient-Strike",
       "pnl": 468997.64,
@@ -3811,10 +2828,32 @@
       "positions": []
     },
     {
+      "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+      "name": "Elaran1993",
+      "pnl": 450902.86,
+      "volume": 5022759.83,
+      "positions": [
+        {
+          "market": "Will CA V\u00e9lez Sarsfield win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.5399,
+          "size": 16875.8,
+          "pnl": -2309.24
+        },
+        {
+          "market": "Will SE Palmeiras win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.4199,
+          "size": 2526.29,
+          "pnl": 1174.65
+        }
+      ]
+    },
+    {
       "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
       "name": "ic4cream",
-      "pnl": 448363.93,
-      "volume": 5423836.3,
+      "pnl": 444050.02,
+      "volume": 5439741.3,
       "positions": [
         {
           "market": "Spread: Bears (-1.5)",
@@ -3824,91 +2863,26 @@
           "pnl": -74.77
         },
         {
-          "market": "Spread: Wyoming (-7.5)",
-          "outcome": "Northern Illinois",
-          "avg_price": 0.5199,
-          "size": 3468.5,
-          "pnl": -3745.97
-        },
-        {
           "market": "Panthers vs. Eagles",
           "outcome": "Panthers",
           "avg_price": 0.6067,
           "size": 8465.45,
           "pnl": 113.27
-        }
-      ]
-    },
-    {
-      "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
-      "name": "Elaran1993",
-      "pnl": 445282.53,
-      "volume": 4984013.63,
-      "positions": [
-        {
-          "market": "Will Pisa SC win on 2026-10-17?",
-          "outcome": "Yes",
-          "avg_price": 0.4762,
-          "size": 22306.38,
-          "pnl": 11676.83
         },
         {
-          "market": "Arizona State vs. Texas Tech: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.5029,
-          "size": 17671.23,
-          "pnl": 8778.62
-        },
-        {
-          "market": "Northern Illinois vs. Wyoming: O/U 39.5",
-          "outcome": "Over",
-          "avg_price": 0.5499,
-          "size": 5452.63,
-          "pnl": 1861.24
-        },
-        {
-          "market": "Northern Illinois vs. Wyoming: O/U 41.5",
-          "outcome": "Over",
-          "avg_price": 0.4799,
-          "size": 3564.94,
-          "pnl": 1478.15
-        }
-      ]
-    },
-    {
-      "wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
-      "name": "theowalcott",
-      "pnl": 424788.32,
-      "volume": 5278606.35,
-      "positions": [
-        {
-          "market": "Will Atl\u00e9tico Nacional win on 2026-07-25?",
-          "outcome": "No",
-          "avg_price": 0.4038,
-          "size": 1874.35,
-          "pnl": -36944.6
-        },
-        {
-          "market": "Will New York Red Bulls win on 2026-10-17?",
-          "outcome": "Yes",
-          "avg_price": 0.5617,
-          "size": 29783.97,
-          "pnl": 687.29
-        },
-        {
-          "market": "Minnesota United FC vs. St. Louis City SC: O/U 3.5",
-          "outcome": "Over",
-          "avg_price": 0.448,
-          "size": 19774.97,
-          "pnl": 4093.91
+          "market": "Spread: Ohio (-15.5)",
+          "outcome": "Ohio",
+          "avg_price": 0.52,
+          "size": 6984.18,
+          "pnl": 320.38
         }
       ]
     },
     {
       "wallet": "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
       "name": "alwaysfade",
-      "pnl": 410958.76,
-      "volume": 1811746.68,
+      "pnl": 411719.52,
+      "volume": 1846008.03,
       "positions": [
         {
           "market": "Will Atlanta Hawks win the 2027 NBA Finals?",
@@ -3942,8 +2916,15 @@
           "market": "Spread: Notre Dame (-10.5)",
           "outcome": "Notre Dame",
           "avg_price": 0.49,
-          "size": 25250.0,
-          "pnl": 750.0
+          "size": 17250.0,
+          "pnl": -7250.0
+        },
+        {
+          "market": "Spread: UTSA (-6.5)",
+          "outcome": "Navy",
+          "avg_price": 0.4999,
+          "size": 18329.82,
+          "pnl": 1199.18
         },
         {
           "market": "Will Dallas Mavericks win the 2027 NBA Finals?",
@@ -3970,8 +2951,8 @@
           "market": "Will the Cleveland Guardians win the 2026 World Series?",
           "outcome": "Yes",
           "avg_price": 0.1593,
-          "size": 2242.97,
-          "pnl": 503.95
+          "size": 2133.82,
+          "pnl": 394.8
         },
         {
           "market": "Will the Boston Celtics be the 2027 NBA Eastern Conference Champion?",
@@ -3984,8 +2965,8 @@
           "market": "Cowboys vs. Packers",
           "outcome": "Packers",
           "avg_price": 0.51,
-          "size": 1304.37,
-          "pnl": 12.66
+          "size": 1279.04,
+          "pnl": -12.66
         },
         {
           "market": "Will San Antonio Spurs win the 2027 NBA Finals?",
@@ -4000,6 +2981,70 @@
           "avg_price": 0.525,
           "size": 263.74,
           "pnl": -260.74
+        },
+        {
+          "market": "Tampa Bay Rays vs. Cleveland Guardians: O/U 6.5",
+          "outcome": "Over",
+          "avg_price": 0.51,
+          "size": 85.52,
+          "pnl": 0.83
+        }
+      ]
+    },
+    {
+      "wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+      "name": "theowalcott",
+      "pnl": 408029.12,
+      "volume": 5378225.11,
+      "positions": [
+        {
+          "market": "Will Houston Dynamo win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.454,
+          "size": 54599.97,
+          "pnl": 109.17
+        },
+        {
+          "market": "Will Atl\u00e9tico Nacional win on 2026-07-25?",
+          "outcome": "No",
+          "avg_price": 0.4038,
+          "size": 48.06,
+          "pnl": -38770.89
+        },
+        {
+          "market": "Will New England Revolution win on 2026-10-17?",
+          "outcome": "No",
+          "avg_price": 0.6273,
+          "size": 35173.73,
+          "pnl": 964.71
+        },
+        {
+          "market": "Will New York Red Bulls win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.5617,
+          "size": 22532.22,
+          "pnl": -6564.46
+        },
+        {
+          "market": "Spread: Millonarios FC (-2.5)",
+          "outcome": "Millonarios FC",
+          "avg_price": 0.4144,
+          "size": 19600.0,
+          "pnl": 3023.06
+        },
+        {
+          "market": "Houston Dynamo vs. FC Dallas: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.5499,
+          "size": 3374.02,
+          "pnl": 30.4
+        },
+        {
+          "market": "Spread: Millonarios FC (-1.5)",
+          "outcome": "Millonarios FC",
+          "avg_price": 0.6499,
+          "size": 3426.5,
+          "pnl": -165.77
         }
       ]
     },
@@ -4008,119 +3053,91 @@
       "name": "OhWhenTheReds",
       "pnl": 407588.22,
       "volume": 5204526.32,
-      "positions": []
-    },
-    {
-      "wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
-      "name": "para-Vision",
-      "pnl": 393285.63,
-      "volume": 5010075.54,
       "positions": [
         {
-          "market": "Tampa Bay Rays vs. Cleveland Guardians",
-          "outcome": "Tampa Bay Rays",
-          "avg_price": 0.5099,
-          "size": 45554.69,
-          "pnl": -450.79
+          "market": "Will Vancouver Whitecaps FC win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.6463,
+          "size": 128999.96,
+          "pnl": -275.46
         },
         {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 2 Winner",
-          "outcome": "MVK Esports",
-          "avg_price": 0.5912,
-          "size": 33674.63,
-          "pnl": 13753.42
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 4 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.5162,
-          "size": 16.39,
-          "pnl": -16909.78
-        },
-        {
-          "market": "Will GEN be number 1 on the end of year Global Power Rankings?",
-          "outcome": "No",
-          "avg_price": 0.6481,
-          "size": 3125.9,
-          "pnl": 272.12
-        },
-        {
-          "market": "Kraken vs. Panthers: O/U 6.5",
-          "outcome": "Under",
-          "avg_price": 0.5499,
-          "size": 705.16,
-          "pnl": 6.35
+          "market": "S\u00e3o Paulo FC vs. CR Vasco da Gama: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.4552,
+          "size": 68599.07,
+          "pnl": 1437.37
         }
       ]
     },
     {
       "wallet": "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
       "name": "donthackme",
-      "pnl": 385574.4,
-      "volume": 4937314.87,
+      "pnl": 386074.44,
+      "volume": 4940164.98,
       "positions": [
         {
           "market": "Will Pau Cubarsi win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 36.28,
-          "pnl": -778.96
+          "size": 36.78,
+          "pnl": -789.69
         },
         {
           "market": "Will Bruno Fernandes win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 35.43,
-          "pnl": -760.68
+          "size": 35.93,
+          "pnl": -771.42
         },
         {
           "market": "Will Luis Diaz win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 35.39,
-          "pnl": -759.71
+          "size": 35.89,
+          "pnl": -770.45
         },
         {
           "market": "Will Lautaro Martinez win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 35.34,
-          "pnl": -758.75
+          "size": 35.84,
+          "pnl": -769.48
         },
         {
           "market": "Will Achraf Hakimi win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 35.33,
-          "pnl": -758.47
+          "size": 35.83,
+          "pnl": -769.21
         },
         {
           "market": "Will Vin\u00edcius J\u00fanior win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 35.27,
-          "pnl": -757.27
+          "size": 35.77,
+          "pnl": -768.0
         },
         {
           "market": "Will Declan Rice win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 32.68,
-          "pnl": -701.66
+          "size": 33.18,
+          "pnl": -712.4
         },
         {
           "market": "Will Vitinha win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 28.68,
-          "pnl": -615.61
+          "size": 29.18,
+          "pnl": -626.34
         },
         {
           "market": "Will Jude Bellingham win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 26.81,
-          "pnl": -575.66
+          "size": 27.31,
+          "pnl": -586.39
         },
         {
           "market": "Will Simona Mohamsson be the next Prime Minister of Sweden?",
@@ -4273,8 +3290,8 @@
           "market": "Will Yolanda D\u00edaz be the next Prime Minister of Spain?",
           "outcome": "Yes",
           "avg_price": 0.0172,
-          "size": 15.48,
-          "pnl": -162.41
+          "size": 10.32,
+          "pnl": -167.57
         },
         {
           "market": "Will Carlos Cuerpo be the next Prime Minister of Spain?",
@@ -4294,8 +3311,8 @@
           "market": "Will Rodri win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 42.41,
-          "pnl": -63.47
+          "size": 37.7,
+          "pnl": -68.19
         },
         {
           "market": "Will Fulham win the 2026-27 English Premier League (EPL) Championship?",
@@ -4315,22 +3332,22 @@
           "market": "Will Ebba Busch be the next Prime Minister of Sweden?",
           "outcome": "Yes",
           "avg_price": 0.0277,
-          "size": 284.13,
-          "pnl": 29.55
+          "size": 279.55,
+          "pnl": 24.97
         },
         {
           "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 295.48,
-          "pnl": 201.97
+          "size": 287.15,
+          "pnl": 193.65
         },
         {
           "market": "Will Lionel Messi win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 232.79,
-          "pnl": 141.03
+          "size": 224.62,
+          "pnl": 132.86
         },
         {
           "market": "Will Candace Owens win the 2028 Republican presidential nomination?",
@@ -4385,8 +3402,8 @@
           "market": "Will Apple be the largest company in the world by market cap on December 31?",
           "outcome": "Yes",
           "avg_price": 0.0357,
-          "size": 2085.36,
-          "pnl": 1838.75
+          "size": 2078.45,
+          "pnl": 1831.85
         },
         {
           "market": "Will Lewis Hamilton be the 2026 F1 Drivers' Champion?",
@@ -4406,8 +3423,8 @@
           "market": "Will Alphabet be the largest company in the world by market cap on December 31?",
           "outcome": "Yes",
           "avg_price": 0.0357,
-          "size": 122.52,
-          "pnl": -107.77
+          "size": 125.75,
+          "pnl": -104.55
         },
         {
           "market": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
@@ -4438,11 +3455,18 @@
           "pnl": 158.71
         },
         {
+          "market": "Bank of England decreases interest rates by 25 bps after November 2026 meeting?",
+          "outcome": "Yes",
+          "avg_price": 0.2,
+          "size": 24.63,
+          "pnl": -1070.21
+        },
+        {
           "market": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
           "outcome": "Yes",
           "avg_price": 0.0,
-          "size": 18.71,
-          "pnl": 18.71
+          "size": 21.39,
+          "pnl": 21.39
         },
         {
           "market": "Will Ro Khanna win the 2028 Democratic presidential nomination?",
@@ -4462,8 +3486,8 @@
           "market": "Will Puma Shen win the next Taipei Mayor election?",
           "outcome": "No",
           "avg_price": 0.7029,
-          "size": 3129.99,
-          "pnl": -384.64
+          "size": 3112.49,
+          "pnl": -402.14
         },
         {
           "market": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
@@ -4483,15 +3507,15 @@
           "market": "Will 4 Fed rate cuts happen in 2026?",
           "outcome": "Yes",
           "avg_price": 0.0769,
-          "size": 10.79,
-          "pnl": -321.28
+          "size": 15.11,
+          "pnl": -316.97
         },
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "outcome": "Yes",
           "avg_price": 0.0312,
-          "size": 3286.59,
-          "pnl": 3153.3
+          "size": 3324.98,
+          "pnl": 3191.69
         },
         {
           "market": "Will S\u00e9bastien Lecornu win the 2027 French presidential election?",
@@ -4504,15 +3528,15 @@
           "market": "Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
           "outcome": "Yes",
           "avg_price": 0.0172,
-          "size": 633.07,
-          "pnl": 564.21
+          "size": 621.09,
+          "pnl": 552.23
         },
         {
           "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 1098.83,
-          "pnl": 1054.19
+          "size": 1114.73,
+          "pnl": 1070.08
         },
         {
           "market": "Will the Democrats win the Texas governor race in 2026?",
@@ -4546,15 +3570,15 @@
           "market": "Will Google have the best AI model at the end of October 2026?",
           "outcome": "Yes",
           "avg_price": 0.0312,
-          "size": 2744.8,
-          "pnl": 2634.48
+          "size": 2741.27,
+          "pnl": 2630.95
         },
         {
           "market": "Will the Democratic Progressive Party (DPP) win the most head of local government elections in the 2026 Taiwan local elections?",
           "outcome": "No",
           "avg_price": 0.7347,
-          "size": 2241.49,
-          "pnl": -352.04
+          "size": 2275.02,
+          "pnl": -318.5
         },
         {
           "market": "Will Guillermo Moreno win the 2027 Argentina presidential election?",
@@ -4602,22 +3626,22 @@
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "outcome": "Yes",
           "avg_price": 0.0312,
-          "size": 678.68,
-          "pnl": 588.43
+          "size": 649.8,
+          "pnl": 559.55
         },
         {
           "market": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
           "outcome": "Yes",
           "avg_price": 0.2,
-          "size": 78.88,
-          "pnl": -494.79
+          "size": 80.31,
+          "pnl": -493.35
         },
         {
           "market": "Will Harry Kane win the 2026 Ballon d'Or?",
           "outcome": "Yes",
           "avg_price": 0.0112,
-          "size": 1870.34,
-          "pnl": 1838.14
+          "size": 1841.67,
+          "pnl": 1809.47
         },
         {
           "market": "Will the Republicans win the Minnesota Senate race in 2026?",
@@ -4721,8 +3745,8 @@
           "market": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8\u201312%?",
           "outcome": "Yes",
           "avg_price": 0.1111,
-          "size": 212.8,
-          "pnl": -29.7
+          "size": 186.61,
+          "pnl": -55.9
         },
         {
           "market": "Will China\u2019s 2026 annual GDP growth (Y/Y) be between 4.0% and 5.0%?",
@@ -4735,15 +3759,15 @@
           "market": "Will Naftali Bennett be the next Prime Minister of Israel?",
           "outcome": "Yes",
           "avg_price": 0.0357,
-          "size": 315.34,
-          "pnl": 237.67
+          "size": 293.59,
+          "pnl": 215.92
         },
         {
           "market": "Will Spider-Man: Brand New Day have the best domestic opening week in 2026?",
           "outcome": "No",
           "avg_price": 0.6141,
-          "size": 1432.65,
-          "pnl": 99.53
+          "size": 1421.8,
+          "pnl": 88.68
         },
         {
           "market": "Will the Fed decrease interest rates by 25 bps after the January 2027 meeting?",
@@ -4784,8 +3808,8 @@
           "market": "Will Ferrari be the 2026 F1 Constructors' Champion?",
           "outcome": "Yes",
           "avg_price": 0.0833,
-          "size": 19.54,
-          "pnl": -151.87
+          "size": 18.51,
+          "pnl": -152.9
         },
         {
           "market": "Will the Democrats win the Florida governor race in 2026?",
@@ -4812,15 +3836,15 @@
           "market": "Will the Democrats win the Michigan governor race in 2026?",
           "outcome": "No",
           "avg_price": 0.0477,
-          "size": 127.35,
-          "pnl": 33.74
+          "size": 130.28,
+          "pnl": 36.68
         },
         {
           "market": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
           "outcome": "Yes",
           "avg_price": 0.0357,
-          "size": 1026.82,
-          "pnl": 959.47
+          "size": 1019.27,
+          "pnl": 951.93
         },
         {
           "market": "Will the Republicans win the New Hampshire Senate race in 2026?",
@@ -4875,8 +3899,8 @@
           "market": "Will the Democratic Party win the NC-11 House seat?",
           "outcome": "No",
           "avg_price": 0.2287,
-          "size": 236.17,
-          "pnl": -136.38
+          "size": 244.31,
+          "pnl": -128.24
         },
         {
           "market": "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
@@ -4896,22 +3920,22 @@
           "market": "Will Lula win the most votes in the second round of the Brazil presidential election from Amap\u00e1?",
           "outcome": "No",
           "avg_price": 0.6993,
-          "size": 1005.9,
-          "pnl": -84.71
+          "size": 990.3,
+          "pnl": -100.3
         },
         {
           "market": "Will Rapha\u00ebl Glucksmann win the 2027 French presidential election?",
           "outcome": "Yes",
           "avg_price": 0.0078,
-          "size": 51.27,
-          "pnl": 39.31
+          "size": 65.81,
+          "pnl": 53.85
         },
         {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
           "outcome": "Yes",
           "avg_price": 0.1111,
-          "size": 20.47,
-          "pnl": -148.0
+          "size": 24.26,
+          "pnl": -144.21
         },
         {
           "market": "Will xAI have the best AI model at the end of December 2026?",
@@ -4924,8 +3948,8 @@
           "market": "Callum Turner announced as next James Bond?",
           "outcome": "Yes",
           "avg_price": 0.0204,
-          "size": 279.06,
-          "pnl": 248.52
+          "size": 276.06,
+          "pnl": 245.53
         },
         {
           "market": "Will Mikaela Waltersson be the next Regional Board Chair of Region Halland?",
@@ -4938,8 +3962,8 @@
           "market": "Will Spider-Man: Brand New Day have the best domestic opening weekend in 2026?",
           "outcome": "Yes",
           "avg_price": 0.037,
-          "size": 652.45,
-          "pnl": 597.53
+          "size": 645.04,
+          "pnl": 590.12
         },
         {
           "market": "Will the Republican Party win the MD-01 House seat?",
@@ -4952,8 +3976,8 @@
           "market": "Will Max Verstappen be the 2026 F1 Drivers' Champion?",
           "outcome": "Yes",
           "avg_price": 0.0312,
-          "size": 23.28,
-          "pnl": -20.81
+          "size": 22.58,
+          "pnl": -21.52
         },
         {
           "market": "Jack Barton announced as next James Bond?",
@@ -4966,8 +3990,8 @@
           "market": "Will Xavier Becerra win the California Governor Election in 2026?",
           "outcome": "Yes",
           "avg_price": 0.0222,
-          "size": 1332.49,
-          "pnl": 1301.58
+          "size": 1333.19,
+          "pnl": 1302.27
         },
         {
           "market": "Will the Democratic Party win the MT-01 House seat?",
@@ -4994,8 +4018,8 @@
           "market": "Will Waymo operate in 20-23 cities on December 31 2026?",
           "outcome": "Yes",
           "avg_price": 0.1428,
-          "size": 14.85,
-          "pnl": -177.97
+          "size": 16.2,
+          "pnl": -176.62
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
@@ -5008,15 +4032,15 @@
           "market": "Will Apple be the largest company in the world by market cap on October 31, 2026?",
           "outcome": "No",
           "avg_price": 0.8348,
-          "size": 991.91,
-          "pnl": -50.99
+          "size": 928.82,
+          "pnl": -114.08
         },
         {
           "market": "Will Invictus Gaming win Worlds 2026?",
           "outcome": "Yes",
           "avg_price": 0.05,
-          "size": 40.84,
-          "pnl": -21.04
+          "size": 39.6,
+          "pnl": -22.28
         },
         {
           "market": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
@@ -5029,8 +4053,8 @@
           "market": "Will You Can See Everything win Best Picture at the 99th Academy Awards?",
           "outcome": "Yes",
           "avg_price": 0.0217,
-          "size": 189.75,
-          "pnl": 162.97
+          "size": 192.22,
+          "pnl": 165.43
         },
         {
           "market": "Will 2026 be the hottest year on record?",
@@ -5050,8 +4074,8 @@
           "market": "Will there be no head of state of Venezuela end of 2026?",
           "outcome": "Yes",
           "avg_price": 0.0,
-          "size": 26.16,
-          "pnl": 26.16
+          "size": 25.56,
+          "pnl": 25.56
         },
         {
           "market": "Will T1 win Worlds 2026?",
@@ -5064,22 +4088,22 @@
           "market": "Will the Swiss National Bank increase the SNB policy rate by 25 bps at the December meeting?",
           "outcome": "No",
           "avg_price": 0.8143,
-          "size": 956.62,
-          "pnl": 12.96
+          "size": 960.68,
+          "pnl": 17.01
         },
         {
           "market": "Will FREPASNA win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly election?",
           "outcome": "Yes",
           "avg_price": 0.0,
-          "size": 23.95,
-          "pnl": 23.95
+          "size": 26.23,
+          "pnl": 26.23
         },
         {
           "market": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
           "outcome": "Yes",
           "avg_price": 0.0277,
-          "size": 189.7,
-          "pnl": 158.61
+          "size": 189.14,
+          "pnl": 158.05
         },
         {
           "market": "Will there be a Hormuz agreement and the Republicans win the Senate?",
@@ -5099,8 +4123,8 @@
           "market": "Will AI solve 3 more Millennium Prize Problems in 2026?",
           "outcome": "Yes",
           "avg_price": 0.1666,
-          "size": 25.4,
-          "pnl": -154.72
+          "size": 21.07,
+          "pnl": -159.05
         },
         {
           "market": "Will 1 Fed rate hike happen in 2026?",
@@ -5127,22 +4151,22 @@
           "market": "Will the Rhine River return to normal levels between October 1 and October 31, 2026?",
           "outcome": "No",
           "avg_price": 0.6832,
-          "size": 668.9,
-          "pnl": -62.39
+          "size": 684.96,
+          "pnl": -46.34
         },
         {
           "market": "Will Tampa Bay Rays win the 2026 American League Championship Series?",
           "outcome": "No",
           "avg_price": 0.3437,
-          "size": 653.85,
-          "pnl": 293.11
+          "size": 658.57,
+          "pnl": 297.83
         },
         {
           "market": "No change in Bank of Japan\u2019s interest rates after the October 2026 meeting?",
           "outcome": "Yes",
           "avg_price": 0.2,
-          "size": 1009.07,
-          "pnl": 800.48
+          "size": 1005.94,
+          "pnl": 797.35
         },
         {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?",
@@ -5173,18 +4197,32 @@
           "pnl": -39.49
         },
         {
+          "market": "Will \"Love Is Blind: Boston\" be the #2 US Netflix show this week?",
+          "outcome": "No",
+          "avg_price": 0.0383,
+          "size": 23.72,
+          "pnl": -15.02
+        },
+        {
+          "market": "Will AI solve 2 more Millennium Prize Problems in 2026?",
+          "outcome": "Yes",
+          "avg_price": 0.1666,
+          "size": 35.61,
+          "pnl": -131.57
+        },
+        {
           "market": "Will the Republican Party win the TN-08 House seat?",
           "outcome": "No",
           "avg_price": 0.0976,
-          "size": 34.47,
-          "pnl": -63.06
+          "size": 31.97,
+          "pnl": -65.55
         },
         {
           "market": "Bank of Japan increases interest rates by 25 bps after the October 2026 meeting?",
           "outcome": "No",
-          "avg_price": 0.8414,
-          "size": 965.73,
-          "pnl": 128.44
+          "avg_price": 0.8478,
+          "size": 961.25,
+          "pnl": 117.57
         },
         {
           "market": "Will Hanwha Life Esports win Worlds 2026?",
@@ -5203,16 +4241,9 @@
         {
           "market": "Will Steve Hilton win the California Governor Election in 2026?",
           "outcome": "No",
-          "avg_price": 0.9574,
-          "size": 941.78,
-          "pnl": 2.02
-        },
-        {
-          "market": "Will AI solve 2 more Millennium Prize Problems in 2026?",
-          "outcome": "Yes",
-          "avg_price": 0.1666,
-          "size": 50.04,
-          "pnl": -113.49
+          "avg_price": 0.9577,
+          "size": 941.79,
+          "pnl": 1.72
         },
         {
           "market": "Will there be exactly 1 confirmed VEI 4 or higher volcanic eruption worldwide in 2026?",
@@ -5225,30 +4256,59 @@
           "market": "Will Dune: Part Three win Best Picture at the 99th Academy Awards?",
           "outcome": "Yes",
           "avg_price": 0.0217,
-          "size": 92.78,
-          "pnl": 71.55
+          "size": 83.02,
+          "pnl": 61.78
+        }
+      ]
+    },
+    {
+      "wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
+      "name": "para-Vision",
+      "pnl": 384116.72,
+      "volume": 5011323.3,
+      "positions": [
+        {
+          "market": "Tampa Bay Rays vs. Cleveland Guardians",
+          "outcome": "Tampa Bay Rays",
+          "avg_price": 0.5099,
+          "size": 45554.69,
+          "pnl": -450.79
         },
         {
-          "market": "Will Waymo operate in 12-15 cities on December 31 2026?",
-          "outcome": "Yes",
-          "avg_price": 0.1428,
-          "size": 814.29,
-          "pnl": 675.47
+          "market": "Will GEN be number 1 on the end of year Global Power Rankings?",
+          "outcome": "No",
+          "avg_price": 0.6481,
+          "size": 3125.9,
+          "pnl": 272.12
+        },
+        {
+          "market": "Islanders vs. Maple Leafs",
+          "outcome": "Maple Leafs",
+          "avg_price": 0.53,
+          "size": 445.14,
+          "pnl": -201.23
         }
       ]
     },
     {
       "wallet": "0xb4164e085a0503532989d487c4b4b19f4288dd7b",
       "name": "MKSafe",
-      "pnl": 371502.71,
-      "volume": 329353.25,
+      "pnl": 371476.27,
+      "volume": 330237.2,
       "positions": [
         {
           "market": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
           "outcome": "No",
           "avg_price": 0.3799,
-          "size": 1132.47,
-          "pnl": 14.71
+          "size": 1073.64,
+          "pnl": -44.12
+        },
+        {
+          "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+          "outcome": "No",
+          "avg_price": 0.6099,
+          "size": 561.31,
+          "pnl": 22.1
         },
         {
           "market": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
@@ -5274,25 +4334,33 @@
       "positions": []
     },
     {
-      "wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
-      "name": "PEYZ-BIGGEST-FAN",
-      "pnl": 347668.92,
-      "volume": 5823116.09,
+      "wallet": "0x1e52bbdf389526f57abc62641d518868f4c5eb43",
+      "name": "dsasdaas",
+      "pnl": 349385.46,
+      "volume": 3962604.89,
       "positions": [
         {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 4 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.5049,
-          "size": 50.0,
-          "pnl": -50449.38
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 2 Winner",
-          "outcome": "MVK Esports",
-          "avg_price": 0.4578,
-          "size": 94952.42,
-          "pnl": 51453.38
-        },
+          "market": "Map Handicap: FURIA (-1.5) vs BetBoom Team (+1.5)",
+          "outcome": "BetBoom Team",
+          "avg_price": 0.49,
+          "size": 353.73,
+          "pnl": 3.57
+        }
+      ]
+    },
+    {
+      "wallet": "0x80d5aebbe7a714879177e4dae0014195beb3987e",
+      "name": "0x80d5aebbE7a714879177E4dAE0014195beb3987E-1789159822906",
+      "pnl": 339857.92,
+      "volume": 698702.23,
+      "positions": []
+    },
+    {
+      "wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
+      "name": "PEYZ-BIGGEST-FAN",
+      "pnl": 332806.19,
+      "volume": 5823116.09,
+      "positions": [
         {
           "market": "Will the Republicans win the Nebraska Senate race in 2026?",
           "outcome": "No",
@@ -5304,22 +4372,15 @@
           "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
           "outcome": "No",
           "avg_price": 0.7192,
-          "size": 51254.25,
-          "pnl": 1099.42
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 3 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.4893,
-          "size": 58731.06,
-          "pnl": 29977.86
+          "size": 50556.91,
+          "pnl": 402.08
         },
         {
           "market": "Clarity Act (H.R.3633) signed into law in 2026?",
           "outcome": "Yes",
           "avg_price": 0.15,
-          "size": 2625.0,
-          "pnl": -4875.0
+          "size": 2575.0,
+          "pnl": -4925.0
         },
         {
           "market": "Weed rescheduled by December 31?",
@@ -5329,25 +4390,11 @@
           "pnl": 14946.57
         },
         {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 2 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.2453,
-          "size": 20.79,
-          "pnl": -10179.06
-        },
-        {
           "market": "Spread: Notre Dame (-10.5)",
           "outcome": "Notre Dame",
           "avg_price": 0.4983,
-          "size": 20131.36,
-          "pnl": 263.77
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 3 Winner",
-          "outcome": "MVK Esports",
-          "avg_price": 0.5171,
-          "size": 16.54,
-          "pnl": -17096.97
+          "size": 13753.11,
+          "pnl": -6114.48
         },
         {
           "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
@@ -5357,25 +4404,11 @@
           "pnl": -457.92
         },
         {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 1 Winner",
-          "outcome": "FURIA Esports",
-          "avg_price": 0.62,
-          "size": 15.17,
-          "pnl": -18793.14
-        },
-        {
           "market": "Billionaire one-time wealth tax passes in California election 2026?",
           "outcome": "No",
           "avg_price": 0.5657,
           "size": 20246.37,
           "pnl": 5075.43
-        },
-        {
-          "market": "UNLV vs. Air Force",
-          "outcome": "Air Force",
-          "avg_price": 0.6034,
-          "size": 10052.42,
-          "pnl": -2455.86
         },
         {
           "market": "Will the Minnesota Vikings win the 2027 NFL league championship?",
@@ -5388,22 +4421,22 @@
           "market": "Islanders vs. Maple Leafs",
           "outcome": "Islanders",
           "avg_price": 0.46,
-          "size": 9100.0,
-          "pnl": -100.0
+          "size": 12700.0,
+          "pnl": 3500.0
         },
         {
           "market": "Spread: Oklahoma (-6.5)",
           "outcome": "Kentucky",
           "avg_price": 0.4899,
-          "size": 9700.0,
-          "pnl": -99.99
+          "size": 12900.0,
+          "pnl": 3100.01
         },
         {
           "market": "Stars vs. Blackhawks",
           "outcome": "Blackhawks",
           "avg_price": 0.34,
-          "size": 6700.0,
-          "pnl": -100.0
+          "size": 7500.0,
+          "pnl": 700.0
         },
         {
           "market": "Will the Democrats win the Maine Senate race in 2026?",
@@ -5472,130 +4505,44 @@
           "market": "Will Faker win a Finals MVP Award at an international event in 2026?",
           "outcome": "No",
           "avg_price": 0.9127,
-          "size": 2679.34,
-          "pnl": 101.04
+          "size": 2677.93,
+          "pnl": 99.63
         },
         {
-          "market": "Toledo vs. Eastern Michigan",
-          "outcome": "Toledo",
-          "avg_price": 0.7299,
-          "size": 2785.79,
-          "pnl": 742.98
+          "market": "US strike on Cuba by December 31?",
+          "outcome": "No",
+          "avg_price": 0.5019,
+          "size": 2118.4,
+          "pnl": 916.91
         }
       ]
-    },
-    {
-      "wallet": "0x1e52bbdf389526f57abc62641d518868f4c5eb43",
-      "name": "dsasdaas",
-      "pnl": 346718.4,
-      "volume": 3962604.89,
-      "positions": [
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-          "outcome": "MVK Esports",
-          "avg_price": 0.7,
-          "size": 18368.42,
-          "pnl": 5504.09
-        },
-        {
-          "market": "LoL: MVK Esports vs FURIA Esports - Game 1 Winner",
-          "outcome": "MVK Esports",
-          "avg_price": 0.41,
-          "size": 4604.15,
-          "pnl": 2715.5
-        }
-      ]
-    },
-    {
-      "wallet": "0x80d5aebbe7a714879177e4dae0014195beb3987e",
-      "name": "0x80d5aebbE7a714879177E4dAE0014195beb3987E-1789159822906",
-      "pnl": 339857.92,
-      "volume": 698702.23,
-      "positions": []
-    },
-    {
-      "wallet": "0x1109da04152c38666464f5adb5d7c55618810b2c",
-      "name": "MumiaTriste",
-      "pnl": 327986.24,
-      "volume": 3364967.92,
-      "positions": []
-    },
-    {
-      "wallet": "0x3eb31daa061a19855cbf0a4884c202fb86976a2a",
-      "name": "Dragon-Evolution",
-      "pnl": 326401.03,
-      "volume": 2043481.37,
-      "positions": []
-    },
-    {
-      "wallet": "0x0f6f76ced62a911bccef92f50faaff143854d977",
-      "name": "totoro3miyazaki",
-      "pnl": 309094.73,
-      "volume": 8584509.49,
-      "positions": [
-        {
-          "market": "Will Athletic Club win on 2026-10-10?",
-          "outcome": "Yes",
-          "avg_price": 0.3862,
-          "size": 206099.91,
-          "pnl": 48461.86
-        }
-      ]
-    },
-    {
-      "wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
-      "name": "Kkunn",
-      "pnl": 308034.8,
-      "volume": 10962014.83,
-      "positions": []
-    },
-    {
-      "wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-      "name": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-      "pnl": 298025.82,
-      "volume": 36856581.19,
-      "positions": []
-    },
-    {
-      "wallet": "0xa90429bc88a1d22eb40e4aac9aaf0bcefd29d20c",
-      "name": "liquiditycrisis",
-      "pnl": 297121.53,
-      "volume": 4700605.15,
-      "positions": []
-    },
-    {
-      "wallet": "0xce937f66d91dc6fd78e2b0e405f703a7d208ab2c",
-      "name": "jonjones1993",
-      "pnl": 290752.38,
-      "volume": 1087698.99,
-      "positions": []
     },
     {
       "wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
       "name": "Tokor",
-      "pnl": 288512.49,
-      "volume": 3042199.37,
+      "pnl": 329393.19,
+      "volume": 3045357.57,
       "positions": [
         {
           "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.3397,
-          "size": 484164.64,
-          "pnl": 249144.76
+          "size": 449581.45,
+          "pnl": 214561.57
         },
         {
           "market": "Will Ethereum dip to $2,000 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.2599,
-          "size": 72050.77,
-          "pnl": 16151.73
+          "size": 69900.0,
+          "pnl": 14000.96
         },
         {
           "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.1679,
-          "size": 27871.52,
-          "pnl": 3232.64
+          "size": 27138.06,
+          "pnl": 2499.18
         },
         {
           "market": "Will Bitcoin reach $100,000 by December 31, 2026?",
@@ -5608,8 +4555,8 @@
           "market": "Will Ethereum reach $3,500 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.635,
-          "size": 60021.84,
-          "pnl": 16459.87
+          "size": 59335.88,
+          "pnl": 15773.91
         },
         {
           "market": "Will Microsoft be the largest company in the world by market cap on December 31?",
@@ -5657,15 +4604,15 @@
           "market": "Will Ethereum dip to $2,100 in October?",
           "outcome": "No",
           "avg_price": 0.8466,
-          "size": 21477.82,
-          "pnl": -3262.01
+          "size": 22938.9,
+          "pnl": -1800.93
         },
         {
           "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.1079,
-          "size": 2401.65,
-          "pnl": -562.48
+          "size": 2360.48,
+          "pnl": -603.65
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (LOW) $65 in October?",
@@ -5678,22 +4625,22 @@
           "market": "Will Bitcoin dip to $77,500 in October?",
           "outcome": "Yes",
           "avg_price": 0.4657,
-          "size": 12473.46,
-          "pnl": 494.02
+          "size": 11701.9,
+          "pnl": -277.54
         },
         {
           "market": "Will Bitcoin dip to $80,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.5581,
-          "size": 20179.54,
-          "pnl": 6851.11
+          "size": 18507.86,
+          "pnl": 5179.43
         },
         {
           "market": "Will Bitcoin reach $110,000 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.1299,
-          "size": 1155.33,
-          "pnl": -611.65
+          "size": 1223.29,
+          "pnl": -543.69
         },
         {
           "market": "Will Bitcoin dip to $62,500 in October?",
@@ -5713,15 +4660,15 @@
           "market": "Will Ethereum reach $2,600 in October?",
           "outcome": "No",
           "avg_price": 0.4004,
-          "size": 8305.63,
-          "pnl": 3304.2
+          "size": 7618.7,
+          "pnl": 2617.27
         },
         {
           "market": "Will Bitcoin dip to $65,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.0389,
-          "size": 300.92,
-          "pnl": -141.9
+          "size": 295.24,
+          "pnl": -147.58
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (LOW) $95 in October?",
@@ -5734,22 +4681,22 @@
           "market": "Will WTI Crude Oil (WTI) hit (LOW) $75 in October?",
           "outcome": "Yes",
           "avg_price": 0.2572,
-          "size": 276.54,
-          "pnl": -2357.87
+          "size": 286.79,
+          "pnl": -2347.62
         },
         {
           "market": "Will Bitcoin reach $100,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.0908,
-          "size": 116.33,
-          "pnl": -803.14
+          "size": 121.39,
+          "pnl": -798.09
         },
         {
           "market": "Will Bitcoin dip to $70,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.0799,
-          "size": 960.83,
-          "pnl": 151.72
+          "size": 859.69,
+          "pnl": 50.58
         },
         {
           "market": "Will Bitcoin reach $105,000 in October?",
@@ -5762,15 +4709,15 @@
           "market": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in October?",
           "outcome": "Yes",
           "avg_price": 0.0512,
-          "size": 542.1,
-          "pnl": 139.76
+          "size": 494.96,
+          "pnl": 92.62
         },
         {
           "market": "Will Ethereum dip to $1,900 in October?",
           "outcome": "Yes",
           "avg_price": 0.0477,
-          "size": 627.2,
-          "pnl": 253.12
+          "size": 474.32,
+          "pnl": 100.24
         },
         {
           "market": "Will Ethereum reach $4,500 by December 31, 2026?",
@@ -5797,36 +4744,36 @@
           "market": "Will Bitcoin reach $95,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.1415,
-          "size": 182.94,
-          "pnl": -589.91
+          "size": 199.32,
+          "pnl": -573.53
         },
         {
           "market": "Will Apple be the largest company in the world by market cap on December 31?",
           "outcome": "Yes",
           "avg_price": 0.1424,
-          "size": 1636.91,
-          "pnl": 864.62
+          "size": 1631.49,
+          "pnl": 859.2
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in October?",
           "outcome": "No",
           "avg_price": 0.2561,
-          "size": 719.59,
-          "pnl": -551.76
+          "size": 669.96,
+          "pnl": -601.39
         },
         {
           "market": "Will Bitcoin reach $90,000 October 12-18?",
           "outcome": "No",
           "avg_price": 0.9675,
-          "size": 4230.29,
-          "pnl": 131.23
+          "size": 4234.53,
+          "pnl": 135.47
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (LOW) $90 in October?",
           "outcome": "No",
           "avg_price": 0.4151,
-          "size": 2950.95,
-          "pnl": 1200.75
+          "size": 2972.03,
+          "pnl": 1221.83
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?",
@@ -5839,8 +4786,8 @@
           "market": "Will Bitcoin hit $100k by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.64,
-          "size": 3126.56,
-          "pnl": 625.16
+          "size": 3067.93,
+          "pnl": 566.54
         },
         {
           "market": "Will Ethereum dip to $800 by December 31, 2026?",
@@ -5867,92 +4814,99 @@
           "market": "Will the price of Bitcoin be above $80,000 on October 20?",
           "outcome": "Yes",
           "avg_price": 0.7106,
-          "size": 1782.59,
-          "pnl": -66.72
+          "size": 1964.75,
+          "pnl": 115.44
         },
         {
           "market": "Will Bitcoin dip to $60,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.0154,
-          "size": 30.22,
-          "pnl": -7.17
+          "size": 38.68,
+          "pnl": 1.29
         },
         {
           "market": "Will Bitcoin dip to $78,000 October 12-18?",
           "outcome": "Yes",
           "avg_price": 0.0486,
-          "size": 153.99,
-          "pnl": 49.13
+          "size": 67.84,
+          "pnl": -37.02
         },
         {
           "market": "Will Ethereum dip to $2,300 October 12-18?",
           "outcome": "Yes",
           "avg_price": 0.07,
-          "size": 650.31,
-          "pnl": 502.99
+          "size": 203.09,
+          "pnl": 55.77
+        },
+        {
+          "market": "Will Bitcoin reach $84,000 October 12-18?",
+          "outcome": "No",
+          "avg_price": 0.8538,
+          "size": 1960.23,
+          "pnl": 232.07
         },
         {
           "market": "Will Ethereum dip to $2,000 in October?",
           "outcome": "Yes",
           "avg_price": 0.066,
-          "size": 271.09,
-          "pnl": 142.37
+          "size": 200.88,
+          "pnl": 72.16
         },
         {
           "market": "Will Bitcoin dip to $67,500 in October?",
           "outcome": "Yes",
           "avg_price": 0.0314,
-          "size": 84.19,
-          "pnl": 24.04
+          "size": 75.58,
+          "pnl": 15.43
         },
         {
           "market": "Will Bitcoin dip to $80,000 October 12-18?",
           "outcome": "No",
           "avg_price": 0.7584,
-          "size": 868.62,
-          "pnl": -307.78
+          "size": 1271.9,
+          "pnl": 95.51
         },
         {
           "market": "Will Bitcoin reach $90,000 in October?",
           "outcome": "No",
           "avg_price": 0.7426,
-          "size": 1306.93,
-          "pnl": 171.79
+          "size": 1291.64,
+          "pnl": 156.5
         },
         {
           "market": "Will Ethereum hit $3k by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.3944,
-          "size": 931.08,
-          "pnl": 374.56
+          "size": 938.14,
+          "pnl": 381.62
         },
         {
           "market": "Will the price of Bitcoin be above $80,000 on October 19?",
           "outcome": "Yes",
           "avg_price": 0.7394,
-          "size": 1016.05,
-          "pnl": -20.28
+          "size": 1170.21,
+          "pnl": 133.87
         },
         {
           "market": "Will Ethereum reach $2,500 in October?",
           "outcome": "Yes",
           "avg_price": 0.832,
-          "size": 757.68,
-          "pnl": -388.6
+          "size": 881.66,
+          "pnl": -264.61
         },
         {
           "market": "Will Bitcoin dip to $75,000 in October?",
           "outcome": "No",
           "avg_price": 0.7479,
-          "size": 978.04,
-          "pnl": -45.06
+          "size": 1019.08,
+          "pnl": -4.03
         },
         {
           "market": "Will Ethereum reach $2,600 October 12-18?",
           "outcome": "No",
           "avg_price": 0.9512,
-          "size": 1237.01,
-          "pnl": 31.94
+          "size": 1254.75,
+          "pnl": 49.68
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in October?",
@@ -5972,22 +4926,22 @@
           "market": "Will WTI Crude Oil (WTI) hit (LOW) $80 in October?",
           "outcome": "Yes",
           "avg_price": 0.4576,
-          "size": 37.31,
-          "pnl": -450.64
+          "size": 52.77,
+          "pnl": -435.18
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in October?",
           "outcome": "Yes",
           "avg_price": 0.0145,
-          "size": 24.22,
-          "pnl": 10.09
+          "size": 23.73,
+          "pnl": 9.61
         },
         {
           "market": "Will Ethereum dip to $2,300 in October?",
           "outcome": "Yes",
           "avg_price": 0.15,
-          "size": 739.2,
-          "pnl": 595.2
+          "size": 600.0,
+          "pnl": 456.0
         },
         {
           "market": "Will Ethereum reach $3,300 in October?",
@@ -5997,39 +4951,39 @@
           "pnl": -129.5
         },
         {
-          "market": "Will Bitcoin reach $84,000 October 12-18?",
-          "outcome": "No",
-          "avg_price": 0.7306,
-          "size": 905.85,
-          "pnl": 224.55
-        },
-        {
           "market": "Will Ethereum reach $2,900 in October?",
           "outcome": "Yes",
           "avg_price": 0.2468,
-          "size": 56.29,
-          "pnl": -157.49
+          "size": 64.95,
+          "pnl": -148.83
         },
         {
           "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.9007,
-          "size": 772.37,
-          "pnl": 41.61
+          "size": 769.53,
+          "pnl": 38.77
         },
         {
           "market": "Will the price of Ethereum be above $2,400 on October 18?",
           "outcome": "Yes",
           "avg_price": 0.7107,
-          "size": 202.11,
-          "pnl": -355.76
+          "size": 402.65,
+          "pnl": -155.22
         },
         {
           "market": "Will Bitcoin reach $85,000 in October?",
           "outcome": "No",
           "avg_price": 0.3038,
-          "size": 409.6,
-          "pnl": 181.27
+          "size": 372.02,
+          "pnl": 143.69
+        },
+        {
+          "market": "Will Bitcoin dip to $80,000 on October 17?",
+          "outcome": "No",
+          "avg_price": 0.9021,
+          "size": 713.42,
+          "pnl": 51.23
         },
         {
           "market": "Will Ethereum reach $3,200 in October?",
@@ -6049,57 +5003,64 @@
           "market": "Will Ethereum reach $3,000 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.4299,
-          "size": 458.86,
-          "pnl": 166.55
+          "size": 445.26,
+          "pnl": 152.95
         },
         {
           "market": "Will the price of Bitcoin be above $82,000 on October 20?",
           "outcome": "Yes",
           "avg_price": 0.6839,
-          "size": 210.47,
-          "pnl": -246.52
+          "size": 267.26,
+          "pnl": -189.73
         },
         {
           "market": "Will WTI Crude Oil (WTI) hit (LOW) $85 in October?",
           "outcome": "No",
           "avg_price": 0.83,
-          "size": 594.34,
-          "pnl": 40.02
+          "size": 587.67,
+          "pnl": 33.34
         },
         {
           "market": "Will the price of Bitcoin be above $88,000 on October 22?",
           "outcome": "Yes",
           "avg_price": 0.05,
-          "size": 12.26,
-          "pnl": -20.0
+          "size": 11.61,
+          "pnl": -20.64
+        },
+        {
+          "market": "Will Bitcoin reach $82,000 on October 17?",
+          "outcome": "No",
+          "avg_price": 0.8621,
+          "size": 557.04,
+          "pnl": 11.3
         },
         {
           "market": "Will Bitcoin reach $82,000 October 12-18?",
           "outcome": "Yes",
           "avg_price": 0.7982,
-          "size": 211.21,
-          "pnl": -238.39
+          "size": 309.77,
+          "pnl": -139.82
         },
         {
           "market": "Will Ethereum reach $2,500 October 12-18?",
           "outcome": "No",
           "avg_price": 0.39,
-          "size": 534.1,
-          "pnl": 321.55
+          "size": 520.2,
+          "pnl": 307.65
         },
         {
           "market": "Will Bitcoin reach $92,500 in October?",
           "outcome": "No",
           "avg_price": 0.8625,
-          "size": 492.95,
-          "pnl": 33.3
+          "size": 490.28,
+          "pnl": 30.63
         },
         {
           "market": "Will the price of Bitcoin be above $82,000 on October 18?",
           "outcome": "Yes",
           "avg_price": 0.7036,
-          "size": 53.71,
-          "pnl": -306.24
+          "size": 89.52,
+          "pnl": -270.44
         },
         {
           "market": "Will Bitcoin reach $90,000 by December 31, 2026?",
@@ -6112,50 +5073,50 @@
           "market": "Will the price of Bitcoin be above $80,000 on October 22?",
           "outcome": "Yes",
           "avg_price": 0.6849,
-          "size": 313.53,
-          "pnl": -14.32
+          "size": 335.07,
+          "pnl": 7.22
         },
         {
           "market": "Will the price of Bitcoin be above $90,000 on October 22?",
           "outcome": "No",
           "avg_price": 0.964,
-          "size": 442.57,
-          "pnl": 8.78
+          "size": 444.82,
+          "pnl": 11.03
         },
         {
           "market": "Will the price of Ethereum be above $2,300 on October 18?",
           "outcome": "Yes",
           "avg_price": 0.78,
-          "size": 418.97,
-          "pnl": 71.87
+          "size": 438.99,
+          "pnl": 91.89
         },
         {
           "market": "Will Ethereum reach $2,700 October 12-18?",
           "outcome": "No",
           "avg_price": 0.951,
-          "size": 348.43,
-          "pnl": 15.57
+          "size": 347.9,
+          "pnl": 15.05
         },
         {
           "market": "Will the price of Bitcoin be above $80,000 on October 18?",
           "outcome": "Yes",
           "avg_price": 0.7202,
-          "size": 300.79,
-          "pnl": 51.35
+          "size": 335.59,
+          "pnl": 86.15
         },
         {
           "market": "Will Bitcoin dip to $65,000 by December 31, 2026?",
           "outcome": "Yes",
           "avg_price": 0.3623,
-          "size": 81.93,
-          "pnl": -36.82
+          "size": 77.01,
+          "pnl": -41.74
         },
         {
           "market": "Will the price of Ethereum be above $2,400 on October 19?",
           "outcome": "Yes",
           "avg_price": 0.5696,
-          "size": 105.81,
-          "pnl": -76.84
+          "size": 163.52,
+          "pnl": -19.13
         },
         {
           "market": "Will the price of Bitcoin be above $88,000 on October 18?",
@@ -6168,155 +5129,169 @@
           "market": "Will Hyperliquid reach $100 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.486,
-          "size": 176.93,
-          "pnl": 38.23
+          "size": 186.92,
+          "pnl": 48.22
+        },
+        {
+          "market": "Will Ethereum dip to $2,350 on October 17?",
+          "outcome": "No",
+          "avg_price": 0.8518,
+          "size": 270.27,
+          "pnl": 27.8
         },
         {
           "market": "Will the price of Bitcoin be above $86,000 on October 21?",
           "outcome": "Yes",
           "avg_price": 0.03,
-          "size": 10.17,
-          "pnl": 2.03
+          "size": 10.71,
+          "pnl": 2.58
         },
         {
           "market": "Will the price of Ethereum be above $2,400 on October 21?",
           "outcome": "Yes",
           "avg_price": 0.6,
-          "size": 84.92,
-          "pnl": -44.08
+          "size": 108.58,
+          "pnl": -20.43
         },
         {
           "market": "Will the price of Bitcoin be above $78,000 on October 21?",
           "outcome": "Yes",
           "avg_price": 0.89,
-          "size": 179.0,
-          "pnl": 1.0
+          "size": 182.0,
+          "pnl": 4.0
         },
         {
           "market": "Will the price of Bitcoin be above $78,000 on October 22?",
           "outcome": "Yes",
           "avg_price": 0.92,
-          "size": 164.35,
-          "pnl": -10.45
+          "size": 165.3,
+          "pnl": -9.5
         },
         {
           "market": "Will the price of Bitcoin be above $88,000 on October 21?",
           "outcome": "No",
           "avg_price": 0.954,
-          "size": 176.58,
-          "pnl": 4.86
+          "size": 177.39,
+          "pnl": 5.67
         },
         {
           "market": "Will the price of Bitcoin be above $86,000 on October 19?",
           "outcome": "No",
           "avg_price": 0.9147,
-          "size": 160.98,
-          "pnl": 12.6
+          "size": 160.82,
+          "pnl": 12.44
         },
         {
           "market": "Will the price of Ethereum be above $2,300 on October 21?",
           "outcome": "Yes",
           "avg_price": 0.86,
-          "size": 112.5,
-          "pnl": -16.5
+          "size": 124.5,
+          "pnl": -4.5
         },
         {
           "market": "Will Solana dip to $100 October 12-18?",
           "outcome": "No",
           "avg_price": 0.5456,
-          "size": 60.27,
-          "pnl": -8.96
+          "size": 97.06,
+          "pnl": 27.83
         },
         {
           "market": "Will the price of Bitcoin be above $84,000 on October 18?",
           "outcome": "No",
           "avg_price": 0.931,
-          "size": 125.02,
-          "pnl": 8.22
+          "size": 124.77,
+          "pnl": 7.97
         },
         {
           "market": "Will the price of Bitcoin be above $84,000 on October 22?",
           "outcome": "Yes",
           "avg_price": 0.19,
-          "size": 18.81,
-          "pnl": -5.02
+          "size": 23.82,
+          "pnl": 0.0
         },
         {
           "market": "Will the price of Bitcoin be above $82,000 on October 19?",
           "outcome": "Yes",
           "avg_price": 0.6822,
-          "size": 29.28,
-          "pnl": -44.71
+          "size": 37.96,
+          "pnl": -36.03
         },
         {
           "market": "Will the price of Bitcoin be above $84,000 on October 19?",
           "outcome": "No",
           "avg_price": 0.87,
-          "size": 89.78,
-          "pnl": 7.12
+          "size": 90.72,
+          "pnl": 8.07
         },
         {
           "market": "Will Solana dip to $90 in October?",
           "outcome": "No",
           "avg_price": 0.6493,
-          "size": 61.82,
-          "pnl": 5.28
+          "size": 64.0,
+          "pnl": 7.46
         },
         {
           "market": "Will the price of Solana be above $100 on October 19?",
           "outcome": "Yes",
           "avg_price": 0.8425,
-          "size": 56.0,
-          "pnl": -11.4
+          "size": 67.2,
+          "pnl": -0.2
         },
         {
           "market": "Will the price of Solana be above $100 on October 20?",
           "outcome": "Yes",
           "avg_price": 0.8599,
-          "size": 51.2,
-          "pnl": -17.6
+          "size": 61.6,
+          "pnl": -7.2
         },
         {
           "market": "Will the price of Solana be above $100 on October 18?",
           "outcome": "Yes",
           "avg_price": 0.7394,
-          "size": 61.08,
-          "pnl": 1.92
+          "size": 76.2,
+          "pnl": 17.04
         },
         {
           "market": "Ethereum Up or Down on October 18?",
           "outcome": "Up",
           "avg_price": 0.63,
-          "size": 12.54,
-          "pnl": -36.85
+          "size": 28.23,
+          "pnl": -21.17
         },
         {
           "market": "Will the price of Solana be above $105 on October 18?",
           "outcome": "No",
           "avg_price": 0.6294,
-          "size": 52.9,
-          "pnl": 17.48
+          "size": 45.58,
+          "pnl": 10.16
         },
         {
           "market": "Will the price of Ethereum be above $2,400 on October 20?",
           "outcome": "Yes",
           "avg_price": 0.6669,
-          "size": 19.24,
-          "pnl": -15.44
+          "size": 26.52,
+          "pnl": -8.16
+        },
+        {
+          "market": "Will Solana dip to $100 in October?",
+          "outcome": "No",
+          "avg_price": 0.324,
+          "size": 12.63,
+          "pnl": -3.74
         },
         {
           "market": "Will Solana reach $110 in October?",
           "outcome": "No",
           "avg_price": 0.279,
-          "size": 23.69,
-          "pnl": 10.6
+          "size": 22.28,
+          "pnl": 9.19
         },
         {
           "market": "Will Hyperliquid dip to $64 in October?",
           "outcome": "Yes",
           "avg_price": 0.085,
-          "size": 16.4,
-          "pnl": 13.0
+          "size": 14.4,
+          "pnl": 11.0
         },
         {
           "market": "Will Hyperliquid dip to $70 by December 31, 2026?",
@@ -6329,85 +5304,85 @@
           "market": "Will the price of Solana be above $110 on October 18?",
           "outcome": "No",
           "avg_price": 0.71,
-          "size": 38.6,
-          "pnl": 10.2
+          "size": 39.54,
+          "pnl": 11.14
         },
         {
           "market": "Will the price of Bitcoin be above $82,000 on October 21?",
           "outcome": "Yes",
           "avg_price": 0.477,
-          "size": 14.41,
-          "pnl": -4.17
+          "size": 16.74,
+          "pnl": -1.83
         },
         {
           "market": "Will Solana hit $150 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.751,
-          "size": 29.5,
-          "pnl": 2.31
+          "size": 29.68,
+          "pnl": 2.5
         },
         {
           "market": "Will Ethereum reach $2,800 October 12-18?",
           "outcome": "No",
           "avg_price": 0.89,
-          "size": 35.8,
-          "pnl": 3.92
+          "size": 35.78,
+          "pnl": 3.9
         },
         {
           "market": "Will the price of Bitcoin be above $82,000 on October 18?",
           "outcome": "No",
           "avg_price": 0.79,
-          "size": 21.31,
-          "pnl": 2.5
+          "size": 19.64,
+          "pnl": 0.83
         },
         {
           "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.9364,
-          "size": 20.91,
-          "pnl": 0.65
+          "size": 20.92,
+          "pnl": 0.66
         },
         {
           "market": "Will Solana dip to $80 in October?",
           "outcome": "No",
           "avg_price": 0.905,
-          "size": 18.52,
-          "pnl": 0.42
+          "size": 18.73,
+          "pnl": 0.63
         },
         {
           "market": "Will the price of Solana be above $100 on October 21?",
           "outcome": "Yes",
           "avg_price": 0.73,
-          "size": 12.5,
-          "pnl": -2.1
+          "size": 14.7,
+          "pnl": 0.1
         },
         {
           "market": "Will Solana reach $140 by December 31, 2026?",
           "outcome": "No",
           "avg_price": 0.72,
-          "size": 14.8,
-          "pnl": 0.4
+          "size": 15.0,
+          "pnl": 0.6
         },
         {
           "market": "Will Solana reach $120 in October?",
           "outcome": "No",
           "avg_price": 0.72,
-          "size": 16.2,
-          "pnl": 1.8
+          "size": 16.3,
+          "pnl": 1.9
         },
         {
           "market": "Will the price of Ethereum be above $2,500 on October 21?",
           "outcome": "No",
           "avg_price": 0.79,
-          "size": 17.5,
-          "pnl": 1.7
+          "size": 16.4,
+          "pnl": 0.6
         },
         {
           "market": "Will the price of Solana be above $95 on October 18?",
           "outcome": "Yes",
           "avg_price": 0.902,
-          "size": 19.89,
-          "pnl": 1.85
+          "size": 19.9,
+          "pnl": 1.86
         },
         {
           "market": "Will the price of Ethereum be above $2,700 on October 18?",
@@ -6420,66 +5395,73 @@
           "market": "Will Solana reach $110 October 12-18?",
           "outcome": "No",
           "avg_price": 0.69,
-          "size": 13.27,
-          "pnl": 3.83
+          "size": 13.29,
+          "pnl": 3.85
         }
       ]
     },
     {
-      "wallet": "0x95c6c9a6727ed203e97230dda61ab19a020e1508",
-      "name": "DelidelaDele",
-      "pnl": 276109.23,
-      "volume": 1238589.37,
+      "wallet": "0x1109da04152c38666464f5adb5d7c55618810b2c",
+      "name": "MumiaTriste",
+      "pnl": 328295.84,
+      "volume": 3378184.55,
       "positions": []
     },
     {
-      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
-      "name": "justaluckydude",
-      "pnl": 261789.83,
-      "volume": 11351725.98,
+      "wallet": "0x3eb31daa061a19855cbf0a4884c202fb86976a2a",
+      "name": "Dragon-Evolution",
+      "pnl": 326401.03,
+      "volume": 2043481.37,
+      "positions": []
+    },
+    {
+      "wallet": "0x0f6f76ced62a911bccef92f50faaff143854d977",
+      "name": "totoro3miyazaki",
+      "pnl": 310784.67,
+      "volume": 8584509.49,
       "positions": [
         {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "outcome": "Atlanta Dream",
-          "avg_price": 0.5486,
-          "size": 6429.46,
-          "pnl": 1280.02
-        },
-        {
-          "market": "Alabama vs. Tennessee",
-          "outcome": "Alabama",
-          "avg_price": 0.5943,
-          "size": 2039.81,
-          "pnl": 130.42
-        },
-        {
-          "market": "Auburn vs. Georgia",
-          "outcome": "Auburn",
-          "avg_price": 0.2492,
-          "size": 782.87,
-          "pnl": 206.34
-        },
-        {
-          "market": "Alabama vs. Tennessee",
-          "outcome": "Tennessee",
-          "avg_price": 0.4075,
-          "size": 690.03,
-          "pnl": -80.44
-        },
-        {
-          "market": "Georgia Tech vs. Virginia Tech: O/U 53.5",
-          "outcome": "Over",
-          "avg_price": 0.5338,
-          "size": 1548.29,
-          "pnl": 624.84
+          "market": "Will Athletic Club win on 2026-10-10?",
+          "outcome": "Yes",
+          "avg_price": 0.3862,
+          "size": 212221.69,
+          "pnl": 54583.64
         }
       ]
+    },
+    {
+      "wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+      "name": "Kkunn",
+      "pnl": 308034.8,
+      "volume": 10962014.83,
+      "positions": []
+    },
+    {
+      "wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+      "name": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+      "pnl": 298025.82,
+      "volume": 36856581.19,
+      "positions": []
+    },
+    {
+      "wallet": "0xa90429bc88a1d22eb40e4aac9aaf0bcefd29d20c",
+      "name": "liquiditycrisis",
+      "pnl": 297121.53,
+      "volume": 4700605.15,
+      "positions": []
+    },
+    {
+      "wallet": "0xce937f66d91dc6fd78e2b0e405f703a7d208ab2c",
+      "name": "jonjones1993",
+      "pnl": 290752.38,
+      "volume": 1087698.99,
+      "positions": []
     },
     {
       "wallet": "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223",
       "name": "Jsram",
-      "pnl": 261743.87,
-      "volume": 5434103.26,
+      "pnl": 287214.8,
+      "volume": 5498541.86,
       "positions": [
         {
           "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -6492,8 +5474,8 @@
           "market": "Daniel Dubois vs. Fabio Wardley",
           "outcome": "Daniel Dubois",
           "avg_price": 0.74,
-          "size": 46851.55,
-          "pnl": 314.44
+          "size": 97650.19,
+          "pnl": 25352.9
         },
         {
           "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -6505,10 +5487,61 @@
       ]
     },
     {
+      "wallet": "0x95c6c9a6727ed203e97230dda61ab19a020e1508",
+      "name": "DelidelaDele",
+      "pnl": 272065.5,
+      "volume": 1606064.02,
+      "positions": [
+        {
+          "market": "Will New York Red Bulls win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.58,
+          "size": 77865.0,
+          "pnl": -25955.0
+        },
+        {
+          "market": "Will CA Rosario Central win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.4278,
+          "size": 43004.57,
+          "pnl": -17322.86
+        },
+        {
+          "market": "CA Tucum\u00e1n vs. CA Rosario Central: O/U 2.5",
+          "outcome": "Over",
+          "avg_price": 0.3984,
+          "size": 47452.31,
+          "pnl": 28537.01
+        },
+        {
+          "market": "Will Real Salt Lake win on 2026-10-17?",
+          "outcome": "Yes",
+          "avg_price": 0.4299,
+          "size": 9775.0,
+          "pnl": -114.18
+        }
+      ]
+    },
+    {
+      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+      "name": "justaluckydude",
+      "pnl": 264258.42,
+      "volume": 11440902.29,
+      "positions": [
+        {
+          "market": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+          "outcome": "Team Vitality",
+          "avg_price": 0.4099,
+          "size": 1821.95,
+          "pnl": 21.96
+        }
+      ]
+    },
+    {
       "wallet": "0x1d1ade627d0bb0205758580b20d808573e720df6",
       "name": "Pwaddler",
-      "pnl": 257396.69,
-      "volume": 4240921.55,
+      "pnl": 259468.73,
+      "volume": 4241483.27,
       "positions": [
         {
           "market": "Spread: Jaguars (-2.5)",
@@ -6528,15 +5561,15 @@
           "market": "Spread: Oregon State (-18.5)",
           "outcome": "Oregon State",
           "avg_price": 0.5018,
-          "size": 11066.29,
-          "pnl": 281.62
+          "size": 15686.2,
+          "pnl": 4901.53
         },
         {
           "market": "Spread: Notre Dame (-10.5)",
           "outcome": "BYU",
           "avg_price": 0.4999,
-          "size": 9901.46,
-          "pnl": -99.84
+          "size": 13101.93,
+          "pnl": 3100.63
         },
         {
           "market": "Cowboys vs. Packers: O/U 52.5",
@@ -6574,20 +5607,20 @@
           "pnl": 2.81
         },
         {
-          "market": "Arizona State vs. Texas Tech: O/U 49.5",
-          "outcome": "Over",
-          "avg_price": 0.5,
-          "size": 64.89,
-          "pnl": 32.43
-        },
-        {
           "market": "Notre Dame vs. BYU: O/U 47.5",
           "outcome": "Under",
           "avg_price": 0.51,
-          "size": 18.56,
-          "pnl": 0.18
+          "size": 15.14,
+          "pnl": -3.24
         }
       ]
+    },
+    {
+      "wallet": "0xdb7513a3c54d579d64ee64c948c85d2f27620252",
+      "name": "UnRektCapital",
+      "pnl": 249999.98,
+      "volume": 0.0,
+      "positions": []
     }
   ]
 }
