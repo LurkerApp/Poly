@@ -1,1771 +1,2295 @@
 {
-  "last_updated": "2026-10-20T22:06:45.833615+00:00",
+  "last_updated": "2026-10-21T00:46:02.938463+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
-      "name": "shark142",
+      "wallet": "0x4924c71c054637d76d0a96d6d097a0d95f77f328",
+      "name": "Aussieoioioi",
+      "score": 56.7,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 61.2,
+      "volume_score": 100.0,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 1355062.73,
+      "trade_count": 500,
+      "market_count": 256,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:43:00+00:00",
+      "top_markets": [
+        "Reyer Venezia vs. Derthona Basket",
+        "Bitcoin Up or Down - October 19, 3:00AM-3:05AM ET",
+        "Cavaliers vs. Pistons"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x72d7d09901f00ba306e53b46483dc75ac2d01b97",
+      "name": "Hakunamatatatata",
+      "score": 54.2,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 61.2,
+      "volume_score": 75.6,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 20409.36,
+      "trade_count": 500,
+      "market_count": 54,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-20T23:09:09+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - October 20, 6:20AM-6:25AM ET",
+        "Bitcoin Up or Down - October 20, 7:00AM-7:15AM ET",
+        "Bitcoin Up or Down - October 20, 5:45AM-6:00AM ET"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf9fe29004c5a905c7b78bbb930ac57feea67366b",
+      "name": "CanadianGoose",
       "score": 49.4,
-      "roi_score": 58.6,
+      "roi_score": 26.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 60.4,
+      "volume_score": 100.0,
+      "roi": -11.0,
+      "cash_pnl": -109.9,
+      "realized_pnl": 0.0,
+      "total_usdc": 901177.88,
+      "trade_count": 500,
+      "market_count": 178,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:21:30+00:00",
+      "top_markets": [
+        "Avalanche vs. Wild: O/U 6.5",
+        "Spread: KC (-5.5)",
+        "Canadiens vs. Sabres"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4999,
+          "cur_price": 0.555,
+          "usdc_size": 890.0,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf13dd60c30d95129690fc58e8e3784110167afc3",
+      "name": "EdgeBot1",
+      "score": 47.3,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.5,
+      "volume_score": 97.2,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 346682.21,
+      "trade_count": 306,
+      "market_count": 187,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:15:24+00:00",
+      "top_markets": [
+        "Spurs vs. Thunder",
+        "Thunder vs. Spurs",
+        "Thunder vs. Lakers"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+      "name": "Soarin22",
+      "score": 46.9,
+      "roi_score": 37.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 23.6,
+      "volume_score": 96.2,
+      "roi": 6.2,
+      "cash_pnl": 3543.27,
+      "realized_pnl": 0.0,
+      "total_usdc": 305336.26,
+      "trade_count": 500,
+      "market_count": 14,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:31:39+00:00",
+      "top_markets": [
+        "Cleveland Guardians vs. Tampa Bay Rays",
+        "Seahawks vs. Broncos",
+        "76ers vs. Knicks"
+      ],
+      "signals": [
+        {
+          "market": "Thunder vs. Spurs",
+          "signal": "ENTER",
+          "avg_price": 0.51,
+          "cur_price": 0.505,
+          "usdc_size": 4774.82,
+          "outcome": "Thunder"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "LATE",
+          "avg_price": 0.3248,
+          "cur_price": 0.315,
+          "usdc_size": 8508.27,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6098,
+          "cur_price": 0.315,
+          "usdc_size": 41757.2,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.555,
+          "usdc_size": 5877.28,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+      "name": "suntori",
+      "score": 45.2,
+      "roi_score": 47.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.7,
-      "roi": 38.0,
-      "cash_pnl": 20501.93,
-      "realized_pnl": 0.0,
-      "total_usdc": 192867.29,
+      "volume_score": 83.7,
+      "roi": 21.6,
+      "cash_pnl": 98572.03,
+      "realized_pnl": -24838.51,
+      "total_usdc": 58641.02,
       "trade_count": 500,
-      "market_count": 16,
+      "market_count": 200,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:44:35+00:00",
+      "top_markets": [
+        "76ers vs. Knicks",
+        "Celtics vs. Pistons",
+        "Counter-Strike: Alter Ego vs Morningstar (BO3) - VOID Autumn Cup Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Thunder vs. Spurs",
+          "signal": "ENTER",
+          "avg_price": 0.4931,
+          "cur_price": 0.505,
+          "usdc_size": 2583.17,
+          "outcome": "Spurs"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6087,
+          "cur_price": 0.865,
+          "usdc_size": 388335.24,
+          "outcome": "Yes"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3529,
+          "cur_price": 0.315,
+          "usdc_size": 37125.9,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6827,
+          "cur_price": 0.315,
+          "usdc_size": 1673.42,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6714,
+          "cur_price": 0.135,
+          "usdc_size": 649.73,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x60e30101f81028d16ac06b982728b085bfc457b5",
+      "name": "ojgtubvdt",
+      "score": 43.3,
+      "roi_score": 38.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 1.4,
+      "volume_score": 91.5,
+      "roi": 7.0,
+      "cash_pnl": 280.16,
+      "realized_pnl": 40.0,
+      "total_usdc": 164156.54,
+      "trade_count": 500,
+      "market_count": 31,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:41:06+00:00",
+      "top_markets": [
+        "Counter-Strike: fnatic vs PARIVISION (BO3) - 1win Private Club Playoffs",
+        "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Championship Playoffs",
+        "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.38,
+          "cur_price": 0.315,
+          "usdc_size": 630.04,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0x57db0634b02eff8cca7f6bf46adf4837cb9385ef",
+      "name": "henryttok",
+      "score": 43.0,
+      "roi_score": 37.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.9,
+      "volume_score": 90.5,
+      "roi": 6.7,
+      "cash_pnl": 125.1,
+      "realized_pnl": -191.17,
+      "total_usdc": 143052.18,
+      "trade_count": 500,
+      "market_count": 17,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:29:24+00:00",
+      "top_markets": [
+        "76ers vs. Knicks",
+        "Texans vs. Jaguars",
+        "Celtics vs. Pistons"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "LATE",
+          "avg_price": 0.3049,
+          "cur_price": 0.315,
+          "usdc_size": 631.57,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6326,
+          "cur_price": 0.315,
+          "usdc_size": 1373.4,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9a97759ce181d103b49bb7f77640a83afe3d3c43",
+      "name": "SportsTrading123",
+      "score": 42.3,
+      "roi_score": 41.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 1.1,
+      "volume_score": 71.1,
+      "roi": 12.5,
+      "cash_pnl": 488.92,
+      "realized_pnl": 0.0,
+      "total_usdc": 11251.63,
+      "trade_count": 30,
+      "market_count": 4,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:17:24+00:00",
+      "top_markets": [
+        "Will Paris Saint-Germain FC win on 2026-10-20?",
+        "76ers vs. Knicks",
+        "LoL: FURIA Esports vs Cloud9 - Game 4 Winner"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.2801,
+          "cur_price": 0.315,
+          "usdc_size": 4415.26,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+      "name": "0F62",
+      "score": 42.3,
+      "roi_score": 32.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -1.0,
+      "cash_pnl": -3308.6,
+      "realized_pnl": 624.47,
+      "total_usdc": 775867.74,
+      "trade_count": 500,
+      "market_count": 33,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:33:06+00:00",
+      "top_markets": [
+        "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+        "Spread: Knicks (-19.5)",
+        "Will the Cleveland Guardians win the 2026 World Series?"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3945,
+          "cur_price": 0.315,
+          "usdc_size": 10116.73,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+      "name": "betdge",
+      "score": 42.2,
+      "roi_score": 27.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 11.2,
+      "volume_score": 97.3,
+      "roi": -8.5,
+      "cash_pnl": -3730.58,
+      "realized_pnl": 0.0,
+      "total_usdc": 349350.37,
+      "trade_count": 500,
+      "market_count": 193,
+      "position_count": 29,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:38:47+00:00",
+      "top_markets": [
+        "Celtics vs. Pistons: O/U 224.5",
+        "Celtics vs. Pistons: O/U 220.5",
+        "Celtics vs. Pistons: O/U 221.5"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "ENTER",
+          "avg_price": 0.549,
+          "cur_price": 0.555,
+          "usdc_size": 11430.19,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Spread: Knicks (-5.5)",
+          "signal": "ENTER",
+          "avg_price": 0.4965,
+          "cur_price": 0.505,
+          "usdc_size": 2402.94,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3707,
+          "cur_price": 0.315,
+          "usdc_size": 10423.77,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Missouri State vs. Delaware",
+          "signal": "SKIP",
+          "avg_price": 0.6746,
+          "cur_price": 0.495,
+          "usdc_size": 1378.64,
+          "outcome": "Delaware"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
+      "name": "Woaifacai",
+      "score": 41.9,
+      "roi_score": 16.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 31.0,
+      "volume_score": 100.0,
+      "roi": -26.0,
+      "cash_pnl": -24925.71,
+      "realized_pnl": -488.13,
+      "total_usdc": 944325.95,
+      "trade_count": 500,
+      "market_count": 30,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T21:41:18+00:00",
+      "last_active": "2026-10-21T00:10:24+00:00",
       "top_markets": [
-        "Will Manchester City FC win on 2026-10-20?",
-        "Will FC Barcelona win on 2026-10-20?",
-        "Cardinals vs. Rams"
+        "Bitcoin Up or Down - October 18, 11:35PM-11:40PM ET",
+        "Will Como 1907 win on 2026-10-18?",
+        "76ers vs. Knicks"
       ],
       "signals": [
         {
-          "market": "Will FC Barcelona win on 2026-10-20?",
+          "market": "Spread: Knicks (-4.5)",
           "signal": "SKIP",
-          "avg_price": 0.6547,
-          "cur_price": 0.0005,
-          "usdc_size": 74392.64,
-          "outcome": "No"
+          "avg_price": 0.51,
+          "cur_price": 0.555,
+          "usdc_size": 36613.78,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.55,
+          "cur_price": 0.315,
+          "usdc_size": 34249.92,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98",
+      "name": "keeptheblueflagflyinghigh",
+      "score": 41.8,
+      "roi_score": 20.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 21.1,
+      "volume_score": 100.0,
+      "roi": -19.3,
+      "cash_pnl": -91627.26,
+      "realized_pnl": -2.65,
+      "total_usdc": 584053.62,
+      "trade_count": 500,
+      "market_count": 20,
+      "position_count": 33,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:34:56+00:00",
+      "top_markets": [
+        "76ers vs. Knicks",
+        "Celtics vs. Pistons",
+        "Spread: Knicks (-4.5)"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3848,
+          "cur_price": 0.315,
+          "usdc_size": 217964.47,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.555,
+          "usdc_size": 41529.88,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6877,
+          "cur_price": 0.315,
+          "usdc_size": 62418.06,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4781,
+          "cur_price": 0.555,
+          "usdc_size": 34253.91,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd",
+      "name": "scootergene",
+      "score": 41.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 61.1,
+      "volume_score": 100.0,
+      "roi": -98.5,
+      "cash_pnl": -437577.33,
+      "realized_pnl": -4766.88,
+      "total_usdc": 880924.67,
+      "trade_count": 500,
+      "market_count": 254,
+      "position_count": 209,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:45:42+00:00",
+      "top_markets": [
+        "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
+        "Broncos vs. Chiefs",
+        "Nets vs. Hornets"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.49,
+          "cur_price": 0.555,
+          "usdc_size": 5148.42,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28",
+      "name": "BoggsFromShawshank",
+      "score": 41.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 61.4,
+      "volume_score": 100.0,
+      "roi": -99.7,
+      "cash_pnl": -10907460.66,
+      "realized_pnl": -1028.97,
+      "total_usdc": 1333728.32,
+      "trade_count": 500,
+      "market_count": 146,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-20T23:12:20+00:00",
+      "top_markets": [
+        "Ole Miss vs. Florida",
+        "Spread: Bills (-7.5)",
+        "Spread: Florida (-5.5)"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4931,
+          "cur_price": 0.555,
+          "usdc_size": 35701.82,
+          "outcome": "76ers"
         }
       ]
     },
     {
       "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
       "name": "Flaznorp",
-      "score": 48.1,
-      "roi_score": 34.1,
+      "score": 41.2,
+      "roi_score": 34.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 50.0,
-      "volume_score": 79.1,
-      "roi": 1.1,
-      "cash_pnl": 13376.47,
-      "realized_pnl": -23820.11,
-      "total_usdc": 32355.03,
+      "early_entry_score": 0.0,
+      "volume_score": 82.9,
+      "roi": 1.9,
+      "cash_pnl": 6859.87,
+      "realized_pnl": 1274.23,
+      "total_usdc": 52972.04,
       "trade_count": 500,
-      "market_count": 172,
+      "market_count": 143,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T22:05:54+00:00",
+      "last_active": "2026-10-21T00:45:39+00:00",
       "top_markets": [
-        "Celtics vs. Pistons",
-        "Fort Worth: Andres Martin vs Erik Arutiunian",
-        "Spread: Pistons (-4.5)"
+        "CD Guadalajara vs. Club Necaxa: Club Necaxa O/U 1.5",
+        "Will CA Boca Juniors win on 2026-10-20?",
+        "CD Guadalajara vs. Club Necaxa: Club Necaxa O/U 0.5"
       ],
       "signals": [
         {
-          "market": "Will FC Barcelona win on 2026-10-20?",
+          "market": "76ers vs. Knicks",
           "signal": "SKIP",
-          "avg_price": 0.8104,
-          "cur_price": 0.0005,
-          "usdc_size": 362365.46,
-          "outcome": "No"
+          "avg_price": 0.4393,
+          "cur_price": 0.315,
+          "usdc_size": 2418.61,
+          "outcome": "76ers"
         },
         {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
+          "market": "76ers vs. Knicks",
           "signal": "SKIP",
-          "avg_price": 0.6232,
-          "cur_price": 0.9995,
-          "usdc_size": 275649.92,
-          "outcome": "Yes"
+          "avg_price": 0.5969,
+          "cur_price": 0.315,
+          "usdc_size": 2641.97,
+          "outcome": "Knicks"
         },
         {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 1.5",
+          "market": "Missouri State vs. Delaware",
           "signal": "SKIP",
-          "avg_price": 0.8943,
+          "avg_price": 0.6823,
+          "cur_price": 0.495,
+          "usdc_size": 1759.64,
+          "outcome": "Delaware"
+        },
+        {
+          "market": "Missouri State vs. Delaware",
+          "signal": "SKIP",
+          "avg_price": 0.4592,
+          "cur_price": 0.495,
+          "usdc_size": 1527.34,
+          "outcome": "Missouri State"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4255,
+          "cur_price": 0.555,
+          "usdc_size": 1440.17,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Spread: Knicks (-5.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4716,
+          "cur_price": 0.505,
+          "usdc_size": 1105.03,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Cali: Matias Soto vs Samuel Heredia",
+          "signal": "SKIP",
+          "avg_price": 0.6693,
           "cur_price": 0.9995,
-          "usdc_size": 4637.17,
-          "outcome": "Over"
+          "usdc_size": 1991.04,
+          "outcome": "Matias Soto"
+        },
+        {
+          "market": "Spread: Knicks (-5.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4472,
+          "cur_price": 0.505,
+          "usdc_size": 834.69,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4826,
+          "cur_price": 0.555,
+          "usdc_size": 700.72,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Avalanche vs. Devils",
+          "signal": "SKIP",
+          "avg_price": 0.522,
+          "cur_price": 0.255,
+          "usdc_size": 643.54,
+          "outcome": "Devils"
         }
       ]
     },
     {
-      "wallet": "0x3801bcfa49d07b56aa8f152babb36c14b16d7013",
-      "name": "",
-      "score": 46.9,
-      "roi_score": 50.0,
+      "wallet": "0xa1035e02c546b5aa7c5b28937f1ef03660d21c14",
+      "name": "sofa88888",
+      "score": 41.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.5,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 214252.85,
+      "early_entry_score": 61.1,
+      "volume_score": 94.3,
+      "roi": -99.4,
+      "cash_pnl": -1727413.22,
+      "realized_pnl": -4309.5,
+      "total_usdc": 237427.74,
       "trade_count": 500,
-      "market_count": 117,
-      "position_count": 0,
+      "market_count": 48,
+      "position_count": 395,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T20:50:14+00:00",
+      "last_active": "2026-10-20T23:12:54+00:00",
       "top_markets": [
-        "Will BV Borussia 09 Dortmund win on 2026-10-20?",
-        "Will Sabah FK win on 2026-10-20?",
-        "Will Leeds United FC win on 2026-10-18?"
+        "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
+        "Game Handicap: FUR (-1.5) vs MVK Esports (+1.5)",
+        "LoL: FURIA Esports vs MVK Esports (BO5) - Worlds Play-In"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.51,
+          "cur_price": 0.555,
+          "usdc_size": 6659.98,
+          "outcome": "Knicks"
+        }
+      ]
     },
     {
-      "wallet": "0xcca049c9fb56d679ae107147670b09b2930e8552",
-      "name": "olpy",
-      "score": 46.5,
-      "roi_score": 50.0,
+      "wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+      "name": "Gaditima",
+      "score": 40.6,
+      "roi_score": 31.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.5,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 143652.08,
+      "volume_score": 85.9,
+      "roi": -2.5,
+      "cash_pnl": -5855.59,
+      "realized_pnl": 2152.04,
+      "total_usdc": 78201.27,
       "trade_count": 500,
-      "market_count": 23,
-      "position_count": 0,
+      "market_count": 184,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T20:54:08+00:00",
+      "last_active": "2026-10-21T00:34:33+00:00",
       "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will Real Madrid CF win on 2026-10-18?",
-        "Will Rayo Vallecano de Madrid win on 2026-10-19?"
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Brad Bradford win the 2026 Toronto mayoral election?",
+        "Counter-Strike: Revise vs Privateer Gaming (BO3) - CCT Europe Challengers Series Playoffs"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.7698,
+          "cur_price": 0.8095,
+          "usdc_size": 14257.25,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.3431,
+          "cur_price": 0.865,
+          "usdc_size": 1110.84,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1944,
+          "cur_price": 0.135,
+          "usdc_size": 701.37,
+          "outcome": "Yes"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.69,
+          "cur_price": 0.315,
+          "usdc_size": 2740.0,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.38,
+          "cur_price": 0.315,
+          "usdc_size": 630.0,
+          "outcome": "76ers"
+        }
+      ]
     },
     {
-      "wallet": "0xf5848342fc388908f2d25a9012cc18a0ad193979",
-      "name": "",
-      "score": 45.8,
-      "roi_score": 48.9,
+      "wallet": "0x02911ceb589252dcb7c38e0dfef27632deb7034b",
+      "name": "ianshawny",
+      "score": 40.4,
+      "roi_score": 34.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.2,
-      "roi": 23.4,
-      "cash_pnl": 522.25,
-      "realized_pnl": 0.0,
-      "total_usdc": 81575.45,
-      "trade_count": 500,
-      "market_count": 21,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:53:56+00:00",
-      "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will Rayo Vallecano de Madrid win on 2026-10-19?",
-        "Will Olympique Lyonnais win on 2026-10-18?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xa197d73b644260fe3f18a63fbda8f5b50c90e0c1",
-      "name": "predictor23452",
-      "score": 45.2,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.4,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 25917.92,
-      "trade_count": 14,
-      "market_count": 3,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:16:56+00:00",
-      "top_markets": [
-        "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Liverpool FC win on 2026-10-20?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x437b8749ebbc7dda4d64079d27573b32ab441d11",
-      "name": "",
-      "score": 43.4,
-      "roi_score": 40.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.2,
-      "roi": 10.0,
-      "cash_pnl": 1472.99,
-      "realized_pnl": 26.94,
-      "total_usdc": 121138.65,
-      "trade_count": 298,
-      "market_count": 75,
+      "early_entry_score": 50.0,
+      "volume_score": 0.0,
+      "roi": 1.9,
+      "cash_pnl": 18.28,
+      "realized_pnl": -0.03,
+      "total_usdc": 0.0,
+      "trade_count": 0,
+      "market_count": 1,
       "position_count": 3,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T21:14:18+00:00",
-      "top_markets": [
-        "Will Gavin Newsom win the 2028 US Presidential Election?",
-        "Will Arsenal FC win on 2026-08-16?",
-        "Will Paris Saint-Germain win on 2026-08-16?"
-      ],
+      "last_active": null,
+      "top_markets": [],
       "signals": [
         {
-          "market": "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
+          "market": "76ers vs. Knicks",
           "signal": "SKIP",
-          "avg_price": 0.1309,
-          "cur_price": 0.185,
-          "usdc_size": 7406.66,
-          "outcome": "Yes"
+          "avg_price": 0.6899,
+          "cur_price": 0.315,
+          "usdc_size": 657.51,
+          "outcome": "Knicks"
         }
       ]
     },
     {
-      "wallet": "0x88b21efc4aa4e08cdc125300ad6b3a520811e1d1",
-      "name": "welcometowinnercircle",
-      "score": 42.5,
-      "roi_score": 33.4,
+      "wallet": "0xa85081051cf731c861e3d46ea8906f098047f1ba",
+      "name": "randomdd1",
+      "score": 40.3,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.7,
-      "roi": 0.2,
-      "cash_pnl": 1777.65,
-      "realized_pnl": -16.65,
-      "total_usdc": 482667.01,
-      "trade_count": 500,
-      "market_count": 246,
-      "position_count": 15,
+      "early_entry_score": 61.1,
+      "volume_score": 86.1,
+      "roi": -77.8,
+      "cash_pnl": -26702.8,
+      "realized_pnl": -226.23,
+      "total_usdc": 80208.64,
+      "trade_count": 169,
+      "market_count": 67,
+      "position_count": 38,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T22:04:45+00:00",
+      "last_active": "2026-10-20T23:10:09+00:00",
       "top_markets": [
-        "Auburn vs. Georgia",
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?"
+        "Mexico to score first vs. Ecuador?",
+        "Counter-Strike: The Huns Esports vs Lynn Vision (BO3)",
+        "Switzerland to score first vs. Algeria?"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5099,
+          "cur_price": 0.555,
+          "usdc_size": 7617.65,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x14494e6733e86a05888610dfabf3c98eeffea618",
+      "name": "SadSquid54333",
+      "score": 37.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 30.9,
+      "volume_score": 98.1,
+      "roi": -91.4,
+      "cash_pnl": -74242.29,
+      "realized_pnl": -662.05,
+      "total_usdc": 391946.15,
+      "trade_count": 400,
+      "market_count": 217,
+      "position_count": 75,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-20T23:27:48+00:00",
+      "top_markets": [
+        "Raiders Team Total: O/U 13.5",
+        "Will Kai and Speed beat the Minecraft challenge by August 17?",
+        "Will Jynxzi, Ron and Los beat the Minecraft challenge by October 8?"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "ENTER",
+          "avg_price": 0.5451,
+          "cur_price": 0.555,
+          "usdc_size": 1176.38,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.46,
+          "cur_price": 0.315,
+          "usdc_size": 945.0,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xebbc647722613f42e804a82acba900b67f3629c3",
+      "name": "Merc63",
+      "score": 36.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 31.2,
+      "volume_score": 95.6,
+      "roi": -93.6,
+      "cash_pnl": -53609.76,
+      "realized_pnl": -3503.58,
+      "total_usdc": 279516.7,
+      "trade_count": 484,
+      "market_count": 286,
+      "position_count": 99,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-20T23:01:45+00:00",
+      "top_markets": [
+        "Cleveland Guardians vs. Tampa Bay Rays",
+        "Philadelphia Phillies vs. Atlanta Braves",
+        "Will Boca Juniors de Cali vs. Union Magdalena end in a draw?"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.555,
+          "usdc_size": 2225.0,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3799,
+          "cur_price": 0.315,
+          "usdc_size": 1429.93,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc568ea3938f689e4d4c0a4ec96d88341b7141a8c",
+      "name": "AuraKing",
+      "score": 36.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 31.1,
+      "volume_score": 93.1,
+      "roi": -97.1,
+      "cash_pnl": -150208.74,
+      "realized_pnl": 2318.56,
+      "total_usdc": 202926.89,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 25,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-20T23:19:50+00:00",
+      "top_markets": [
+        "Counter-Strike: Heroic vs Phantom (BO3) - Stake Ranked Episode 3 Playoffs",
+        "Counter-Strike: paiN vs Sharks (BO3) - RES Showdown South America Playoffs",
+        "LoL: Karmine Corp vs Sentinels - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.4983,
+          "cur_price": 0.555,
+          "usdc_size": 2227.33,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6299,
+          "cur_price": 0.315,
+          "usdc_size": 2214.83,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9d1260087333ec7cb1d5cba92fc86c39ac3d7954",
+      "name": "sassy34",
+      "score": 35.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 30.7,
+      "volume_score": 87.0,
+      "roi": -90.2,
+      "cash_pnl": -29095.65,
+      "realized_pnl": -1383.13,
+      "total_usdc": 90665.58,
+      "trade_count": 500,
+      "market_count": 34,
+      "position_count": 19,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:38:26+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - July 15, 2:05AM-2:10AM ET",
+        "Exact Score: France 0 - 2 Spain?",
+        "Norway vs. England: Team to Advance"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.69,
+          "cur_price": 0.315,
+          "usdc_size": 3151.0,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x125a399cc5cb7cf7cbe8f010a05f0ed673374f02",
+      "name": "heyboy800",
+      "score": 35.6,
+      "roi_score": 18.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 0.0,
+      "roi": -22.0,
+      "cash_pnl": -2079.51,
+      "realized_pnl": 0.0,
+      "total_usdc": 0.0,
+      "trade_count": 0,
+      "market_count": 2,
+      "position_count": 7,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": null,
+      "top_markets": [],
+      "signals": [
+        {
+          "market": "Thunder vs. Spurs",
+          "signal": "ENTER",
+          "avg_price": 0.5099,
+          "cur_price": 0.505,
+          "usdc_size": 1869.49,
+          "outcome": "Thunder"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6582,
+          "cur_price": 0.315,
+          "usdc_size": 3612.23,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x51b7db025e762a1446bf24cf1ae2d55cec56df15",
+      "name": "brollfootage",
+      "score": 34.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 31.0,
+      "volume_score": 73.7,
+      "roi": -72.4,
+      "cash_pnl": -5328.82,
+      "realized_pnl": -50.22,
+      "total_usdc": 15813.46,
+      "trade_count": 38,
+      "market_count": 17,
+      "position_count": 12,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-20T23:18:53+00:00",
+      "top_markets": [
+        "Enhanced Games: Men\u2019s 100m Freestyle World Record Broken?",
+        "Gio Reyna: 1+ goals",
+        "US Open ATP: Alexander Zverev vs Ben Shelton"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.5979,
+          "cur_price": 0.315,
+          "usdc_size": 1145.56,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.555,
+          "usdc_size": 888.0,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "name": "HomeRunHazard",
+      "score": 34.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 20.9,
+      "volume_score": 87.8,
+      "roi": -91.4,
+      "cash_pnl": -2668590.42,
+      "realized_pnl": -14750.57,
+      "total_usdc": 100564.36,
+      "trade_count": 500,
+      "market_count": 73,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:42:02+00:00",
+      "top_markets": [
+        "76ers vs. Knicks",
+        "Spread: Knicks (-5.5)",
+        "Spread: Knicks (-4.5)"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-5.5)",
+          "signal": "ENTER",
+          "avg_price": 0.5194,
+          "cur_price": 0.505,
+          "usdc_size": 13956.43,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Thunder vs. Spurs",
+          "signal": "ENTER",
+          "avg_price": 0.499,
+          "cur_price": 0.505,
+          "usdc_size": 12015.17,
+          "outcome": "Thunder"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3626,
+          "cur_price": 0.315,
+          "usdc_size": 28997.41,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.5008,
+          "cur_price": 0.555,
+          "usdc_size": 34798.87,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6616,
+          "cur_price": 0.315,
+          "usdc_size": 21499.5,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Avalanche vs. Devils",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.255,
+          "usdc_size": 2817.24,
+          "outcome": "Avalanche"
+        },
+        {
+          "market": "Avalanche vs. Devils",
+          "signal": "SKIP",
+          "avg_price": 0.5094,
+          "cur_price": 0.255,
+          "usdc_size": 5448.14,
+          "outcome": "Devils"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8ba27b7c9de2b6367f986bff5f9c8049204c1650",
+      "name": "",
+      "score": 34.3,
+      "roi_score": 4.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 2.4,
+      "volume_score": 100.0,
+      "roi": -42.6,
+      "cash_pnl": -10035.83,
+      "realized_pnl": -768.06,
+      "total_usdc": 1086502.55,
+      "trade_count": 493,
+      "market_count": 310,
+      "position_count": 13,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:38:02+00:00",
+      "top_markets": [
+        "Exact Score: Tottenham Hotspur FC 0 - 0 Coventry City FC?",
+        "Exact Score: Fulham FC 0 - 0 Hull City AFC?",
+        "Newcastle United FC vs. Hull City AFC: O/U 0.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xcc2ab838e9224ef13d13b79eb72628c4d5ba9563",
+      "name": "shtnmachine",
+      "score": 34.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 20.7,
+      "volume_score": 85.7,
+      "roi": -98.2,
+      "cash_pnl": -148599.47,
+      "realized_pnl": 13409.64,
+      "total_usdc": 76073.98,
+      "trade_count": 500,
+      "market_count": 230,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:33:14+00:00",
+      "top_markets": [
+        "Celtics vs. Pistons",
+        "Spread: Manchester City FC (-4.5)",
+        "76ers vs. Knicks: O/U 218.5"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.72,
+          "cur_price": 0.315,
+          "usdc_size": 1027.5,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+      "name": "takeormake",
+      "score": 34.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 20.7,
+      "volume_score": 84.3,
+      "roi": -96.9,
+      "cash_pnl": -1039719.66,
+      "realized_pnl": -3207.35,
+      "total_usdc": 63861.48,
+      "trade_count": 500,
+      "market_count": 77,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:42:14+00:00",
+      "top_markets": [
+        "Celtics vs. Pistons",
+        "76ers vs. Knicks",
+        "Spread: Celtics (-1.5)"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3641,
+          "cur_price": 0.315,
+          "usdc_size": 7674.4,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6507,
+          "cur_price": 0.315,
+          "usdc_size": 11651.24,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2bf0a88661bd539f937dba47eb36e288b577728f",
+      "name": "0x2BF0a88661BD539F937Dba47eB36E288b577728F-1772636201252",
+      "score": 32.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.4,
+      "volume_score": 100.0,
+      "roi": -100.0,
+      "cash_pnl": -198580.47,
+      "realized_pnl": -2202.09,
+      "total_usdc": 667699.41,
+      "trade_count": 500,
+      "market_count": 247,
+      "position_count": 202,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:32:24+00:00",
+      "top_markets": [
+        "Bills vs. Rams",
+        "Athletics vs. Seattle Mariners",
+        "Knicks vs. Spurs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x797255f4701331610041687268d246071343594f",
+      "name": "1337zzz1337",
+      "score": 32.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.4,
+      "volume_score": 100.0,
+      "roi": -94.2,
+      "cash_pnl": -54013.54,
+      "realized_pnl": -13458.17,
+      "total_usdc": 586197.11,
+      "trade_count": 500,
+      "market_count": 209,
+      "position_count": 16,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:09:06+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down on October 17?",
+        "Bitcoin Up or Down - September 22, 5PM ET",
+        "Dota 2: LGD Gaming vs GamerLegion (BO3) - BLAST Slam Last Chance Qualifier"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.7299,
+          "cur_price": 0.315,
+          "usdc_size": 3349.25,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd3bc202269d0bbd1a158264be8f7e1e0f9e45bd2",
+      "name": "lhz6002",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.1,
+      "volume_score": 100.0,
+      "roi": -99.7,
+      "cash_pnl": -528760.08,
+      "realized_pnl": -18417.92,
+      "total_usdc": 871607.24,
+      "trade_count": 500,
+      "market_count": 268,
+      "position_count": 342,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:40:30+00:00",
+      "top_markets": [
+        "Counter-Strike: TheMongolz vs BIG - Map 2 Winner",
+        "Dota 2: LGD Gaming vs Xtreme Gaming - Game 2 Winner",
+        "Dota 2: Team Yandex vs Team Spirit - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "ENTER",
+          "avg_price": 0.32,
+          "cur_price": 0.315,
+          "usdc_size": 1518.64,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa62a6c400f7d13c1c0d113e1a0a9700e147df05b",
+      "name": "manxia",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -66.5,
+      "cash_pnl": -13668.28,
+      "realized_pnl": -96.09,
+      "total_usdc": 561445.5,
+      "trade_count": 500,
+      "market_count": 325,
+      "position_count": 18,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:16:02+00:00",
+      "top_markets": [
+        "Beijing Ducks vs. Shanghai Sharks",
+        "Shenzhen Leopards vs. Zhejiang Lions",
+        "Spread: Thunder (-2.5)"
       ],
       "signals": [
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.367,
-          "cur_price": 0.855,
-          "usdc_size": 3416.17,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x996ac56c9e72b6ca38a30ae9f6e85152d9afe3cc",
-      "name": "BunCaCham",
-      "score": 42.5,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 191.0,
-      "realized_pnl": -115.71,
-      "total_usdc": 966348.73,
-      "trade_count": 500,
-      "market_count": 65,
-      "position_count": 15,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:52:47+00:00",
-      "top_markets": [
-        "Nottingham Forest FC vs. Arsenal FC: O/U 2.5",
-        "Paris Saint-Germain FC vs. FC Barcelona: O/U 4.5",
-        "Shanghai Rolex Masters: Alexander Zverev vs Alex de Minaur"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x4d7477c9e16c03709ee930ba95120bcb0d32e462",
-      "name": "bitcoinhold",
-      "score": 42.5,
-      "roi_score": 36.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.8,
-      "roi": 5.2,
-      "cash_pnl": 51.44,
-      "realized_pnl": 0.0,
-      "total_usdc": 130413.62,
-      "trade_count": 500,
-      "market_count": 124,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:46:23+00:00",
-      "top_markets": [
-        "Miguel D\u00edaz-Canel out as President of Cuba by June 30?",
-        "Miguel D\u00edaz-Canel out as leader of Cuba by June 30?",
-        "Miguel D\u00edaz-Canel out as leader of Cuba by December 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc853b675bc673dc708d4b7e7c050efb486ee9d37",
-      "name": "feetNFT",
-      "score": 42.4,
-      "roi_score": 38.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.6,
-      "roi": 7.3,
-      "cash_pnl": 288.15,
-      "realized_pnl": 40.08,
-      "total_usdc": 65905.46,
-      "trade_count": 500,
-      "market_count": 177,
-      "position_count": 27,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T22:00:09+00:00",
-      "top_markets": [
-        "Will Rastislav Mochnack\u00fd win the 2026 Pre\u0161ov mayoral election?",
-        "Will USA reach the Round of 16 at the 2026 FIFA World Cup?",
-        "Will Canada win the 2026 IIHF World Championship?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x869a748bcc95fe56b431f5d41567d06dbc760ac7",
-      "name": "dwdwdwdwwwdaa",
-      "score": 42.3,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.1,
-      "roi": 0.1,
-      "cash_pnl": 11.1,
-      "realized_pnl": 0.0,
-      "total_usdc": 389180.07,
-      "trade_count": 500,
-      "market_count": 39,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:14:18+00:00",
-      "top_markets": [
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Al Ahli Saudi Club win on 2026-10-19?",
-        "Shanghai Rolex Masters: Rafael Jodar vs Casper Ruud"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdb42c28c9cbc06c2c4dd446b7094a256adce0ad9",
-      "name": "SharkVision",
-      "score": 41.1,
-      "roi_score": 32.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.4,
-      "roi": -0.8,
-      "cash_pnl": -10.05,
-      "realized_pnl": -98.53,
-      "total_usdc": 95636.63,
-      "trade_count": 500,
-      "market_count": 40,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:30:24+00:00",
-      "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Getafe CF win on 2026-10-19?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1da1b80f4de1ccd8422dd49aae5c1198058eb5c3",
-      "name": "Bentlix",
-      "score": 40.2,
-      "roi_score": 32.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.1,
-      "roi": -0.9,
-      "cash_pnl": -12.69,
-      "realized_pnl": 0.0,
-      "total_usdc": 32112.76,
-      "trade_count": 51,
-      "market_count": 43,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:54:02+00:00",
-      "top_markets": [
-        "Tampa Bay Rays vs. Cleveland Guardians",
-        "Will Manchester City FC win on 2026-10-14?",
-        "Will FC Barcelona win on 2026-10-20?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xf9af8a471190320c63078b4ffb8626ea6859a4ce",
-      "name": "RISK-OR-RICH",
-      "score": 40.2,
-      "roi_score": 34.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 72.6,
-      "roi": 2.0,
-      "cash_pnl": 49.75,
-      "realized_pnl": 0.0,
-      "total_usdc": 13715.4,
-      "trade_count": 10,
-      "market_count": 6,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:50:36+00:00",
-      "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will Club Atl\u00e9tico de Madrid win on 2026-10-20?",
-        "LoL: Vitality Rising Bees vs G2 HEL - Game 3 Winner"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1f5f815b5ddf4b300ebf079a63f8722c7d98c91d",
-      "name": "CRYPT1C",
-      "score": 39.6,
-      "roi_score": 29.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.7,
-      "roi": -5.4,
-      "cash_pnl": -89.23,
-      "realized_pnl": -32.01,
-      "total_usdc": 45277.89,
-      "trade_count": 500,
-      "market_count": 284,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:12:47+00:00",
-      "top_markets": [
-        "Paris Saint-Germain FC vs. FC Barcelona: Both Teams to Score",
-        "Game Handicap: WE (-2.5) vs HANJIN BRION (+2.5)",
-        "Exact Score: Wolverhampton Wanderers FC 1 - 0 Portsmouth FC?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
-      "name": "Mantzuraj",
-      "score": 39.2,
-      "roi_score": 28.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.4,
-      "roi": -6.9,
-      "cash_pnl": -195.56,
-      "realized_pnl": -17.28,
-      "total_usdc": 38097.74,
-      "trade_count": 500,
-      "market_count": 61,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:56:32+00:00",
-      "top_markets": [
-        "Will the highest temperature in Los Angeles be between 86-87\u00b0F on October 15?",
-        "Will Grand Theft Auto VI win Game of the Year at the 2026 Game Awards?",
-        "Will the Rhine River fail to return to normal levels before November 1, 2026?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdd1cdb2e51b29896fc57030ec5a3e08f274ae2d3",
-      "name": "soylentgoy",
-      "score": 37.6,
-      "roi_score": 19.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.9,
-      "roi": -20.5,
-      "cash_pnl": -572.49,
-      "realized_pnl": -2.22,
-      "total_usdc": 172216.06,
-      "trade_count": 500,
-      "market_count": 331,
-      "position_count": 98,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:51:47+00:00",
-      "top_markets": [
-        "O/U 0.5 Rounds",
-        "Auburn vs. Georgia",
-        "Will the price of Bitcoin be above $86,000 on October 16?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xbc5613462ce3902eea10874a11cf74191f4a8f28",
-      "name": "Saber-greed",
-      "score": 37.5,
-      "roi_score": 22.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.5,
-      "roi": -16.3,
-      "cash_pnl": -1378.03,
-      "realized_pnl": -4.37,
-      "total_usdc": 50585.44,
-      "trade_count": 500,
-      "market_count": 189,
-      "position_count": 36,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:31:38+00:00",
-      "top_markets": [
-        "Al Diraiyah Saudi Club vs. Al Riyadh Saudi Club: O/U 2.5",
-        "Will Tottenham Hotspur FC win on 2026-10-19?",
-        "Will Arsenal FC win on 2026-10-18?"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Barcelona win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.892,
-          "cur_price": 0.0005,
-          "usdc_size": 1680.73,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-      "name": "suitcase6628",
-      "score": 36.0,
-      "roi_score": 15.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.5,
-      "roi": -27.3,
-      "cash_pnl": -3887.69,
-      "realized_pnl": -1993.76,
-      "total_usdc": 126075.96,
-      "trade_count": 500,
-      "market_count": 120,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:29:50+00:00",
-      "top_markets": [
-        "Will CA Sarmiento win on 2026-10-19?",
-        "Will SC Corinthians Paulista win on 2026-10-19?",
-        "England and Sri Lanka Tour of Pakistan ODIs: Pakistan vs England"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7491,
-          "cur_price": 0.0005,
-          "usdc_size": 2749.17,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc757850237e266d3b08d16b8455777a88590ccfc",
-      "name": "tianjiyuyunzhilu",
-      "score": 35.4,
-      "roi_score": 9.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -35.5,
-      "cash_pnl": -1017.76,
-      "realized_pnl": -1897.1,
-      "total_usdc": 696009.5,
-      "trade_count": 500,
-      "market_count": 130,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:52:42+00:00",
-      "top_markets": [
-        "Will Elon Musk post 40-64 tweets from October 1 to October 3, 2026?",
-        "Will Donald Trump post 100-119 Truth Social posts from September 18 to September 25, 2026?",
-        "Will Elon Musk post 300-319 tweets from October 6 to October 13, 2026?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x66d5296705f8f0abcaa8043986c3dc9196aa9e9f",
-      "name": "Denv",
-      "score": 33.1,
-      "roi_score": 4.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.9,
-      "roi": -42.7,
-      "cash_pnl": -97435.4,
-      "realized_pnl": -128.04,
-      "total_usdc": 152068.52,
-      "trade_count": 500,
-      "market_count": 68,
-      "position_count": 22,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:40:42+00:00",
-      "top_markets": [
-        "Dota 2: Team Spirit vs TEAM VISION (BO3) - The International Playoffs",
-        "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
-        "Will Belgium win on 2026-09-28?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x69ddcbd8237d53ed081dc586a184b27464931964",
-      "name": "Poeloep",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -100.0,
-      "cash_pnl": -60268.92,
-      "realized_pnl": -1265.8,
-      "total_usdc": 1084083.5,
-      "trade_count": 500,
-      "market_count": 222,
-      "position_count": 21,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:55:24+00:00",
-      "top_markets": [
-        "Will AFC Ajax win on 2026-09-12?",
-        "Madrid Open: Mirra Andreeva vs Anna Bondar",
-        "Saint-Malo: Yue Yuan vs Anna Blinkova"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x23c8a4c266d10ba5846837eac391fea89ed6f293",
-      "name": "Netrol",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -50.0,
-      "cash_pnl": -29117.94,
-      "realized_pnl": 10446.36,
-      "total_usdc": 775475.33,
-      "trade_count": 500,
-      "market_count": 37,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:51:48+00:00",
-      "top_markets": [
-        "Dota 2: Team Spirit vs PARIVISION - Game 2 Winner",
-        "LoL: MVK Esports vs FURIA Esports - Game 2 Winner",
-        "Will FC Barcelona win on 2026-10-13?"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Barcelona win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.6103,
-          "cur_price": 0.0005,
-          "usdc_size": 28938.08,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2cc8cc54f50dbb45fe346612821ca93b6e93262b",
-      "name": "0x2Cc8Cc54F50DbB45fE346612821CA93B6E93262B-1780571709186",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -70.1,
-      "cash_pnl": -63940.83,
-      "realized_pnl": -23010.85,
-      "total_usdc": 599373.89,
-      "trade_count": 500,
-      "market_count": 27,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T22:05:29+00:00",
-      "top_markets": [
-        "Will Real Madrid CF win on 2026-10-18?",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Trabzonspor win on 2026-10-19?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x300b4292912c123066a380a344b505b0f353f636",
-      "name": "digitalnomad85",
-      "score": 32.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.7,
-      "roi": -98.6,
-      "cash_pnl": -85441.73,
-      "realized_pnl": -1007.89,
-      "total_usdc": 419594.56,
-      "trade_count": 500,
-      "market_count": 170,
-      "position_count": 73,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:49:17+00:00",
-      "top_markets": [
-        "Panthers vs. Falcons",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Real Madrid CF win on 2026-10-14?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-      "name": "olegio",
-      "score": 32.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 98.1,
-      "roi": -94.6,
-      "cash_pnl": -471434.12,
-      "realized_pnl": 10646.87,
-      "total_usdc": 389745.22,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 121,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:53:50+00:00",
-      "top_markets": [
-        "Will Norway win on 2026-09-24?",
-        "Will FC Barcelona win on 2026-10-20?",
-        "Spread: Eagles (-4.5)"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Barcelona win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.6101,
-          "cur_price": 0.0005,
-          "usdc_size": 26723.93,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd27cc742d023d06ef633a4c880cf1ff1836ec081",
-      "name": "madkkee",
-      "score": 32.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.7,
-      "roi": -99.3,
-      "cash_pnl": -971729.48,
-      "realized_pnl": -66349.11,
-      "total_usdc": 371876.13,
-      "trade_count": 500,
-      "market_count": 46,
-      "position_count": 253,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:55:20+00:00",
-      "top_markets": [
-        "Counter-Strike: Fire Flux Esports vs ex-6666 (BO3) - NODWIN Clutch Series Group Stage",
-        "Counter-Strike: 9INE vs UNiTY esports (BO3) - Stake Ranked Episode 6: Closed Qualifier Playoffs",
-        "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Championship Playoffs"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x496121ba250d47b62c2d84b3414a99aeeacade13",
-      "name": "Anon455",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.4,
-      "roi": -55.7,
-      "cash_pnl": -38243.35,
-      "realized_pnl": 5992.93,
-      "total_usdc": 311500.7,
-      "trade_count": 500,
-      "market_count": 38,
-      "position_count": 47,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:52:17+00:00",
-      "top_markets": [
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-        "Will FC Barcelona win on 2026-10-20?"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7622,
-          "cur_price": 0.0005,
-          "usdc_size": 22709.79,
-          "outcome": "No"
-        },
-        {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 3.5",
-          "signal": "SKIP",
-          "avg_price": 0.5044,
-          "cur_price": 0.9995,
-          "usdc_size": 837.0,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9e3ae3f398205723ae2fafbe7522a5de2edbe974",
-      "name": "MinevaJ",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.2,
-      "roi": -86.9,
-      "cash_pnl": -437819.75,
-      "realized_pnl": 384.62,
-      "total_usdc": 267692.12,
-      "trade_count": 500,
-      "market_count": 49,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:56:15+00:00",
-      "top_markets": [
-        "Tottenham Hotspur FC leading at halftime?",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Tottenham Hotspur FC vs. Coventry City FC: Draw at halftime?"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7273,
-          "cur_price": 0.0005,
-          "usdc_size": 25071.1,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc95ed399d2fbaec9461f2abd70e0d96df1921288",
-      "name": "Siddhartha1",
-      "score": 31.9,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.7,
-      "roi": -73.9,
-      "cash_pnl": -845768.55,
-      "realized_pnl": -1128.26,
-      "total_usdc": 219170.49,
-      "trade_count": 500,
-      "market_count": 12,
-      "position_count": 61,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:41:36+00:00",
-      "top_markets": [
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Liverpool FC win on 2026-10-20?",
-        "Will FC Barcelona win on 2026-10-20?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb4f9069e989adfc31eb8d6d551832b1fe1810b71",
-      "name": "0xB4f9069e989adFC31EB8d6d551832B1fE1810b71-1782938207959",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.3,
-      "roi": -100.0,
-      "cash_pnl": -224268.52,
-      "realized_pnl": -9596.65,
-      "total_usdc": 206948.68,
-      "trade_count": 500,
-      "market_count": 163,
-      "position_count": 352,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:47:08+00:00",
-      "top_markets": [
-        "Bitcoin Up or Down - October 13, 2:00AM-2:05AM ET",
-        "Bitcoin Up or Down - October 19, 2:00AM-2:05AM ET",
-        "Bitcoin Up or Down - October 15, 12:40PM-12:45PM ET"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x0f3433d8b7596000bf1046aa822308d93cf67684",
-      "name": "",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.4,
-      "roi": -66.3,
-      "cash_pnl": -30137.95,
-      "realized_pnl": -1546.46,
-      "total_usdc": 210812.17,
-      "trade_count": 500,
-      "market_count": 54,
-      "position_count": 65,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:47:53+00:00",
-      "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will Real Madrid CF win on 2026-10-14?",
-        "Will Udinese Calcio win on 2026-10-18?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x91feec8af2b517f024d91564ee108d707cc0c1c6",
-      "name": "NordhavenCap",
-      "score": 31.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.1,
-      "roi": -86.4,
-      "cash_pnl": -169020.1,
-      "realized_pnl": -4696.78,
-      "total_usdc": 177253.14,
-      "trade_count": 500,
-      "market_count": 261,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:49:09+00:00",
-      "top_markets": [
-        "Rangers vs. Blue Jackets",
-        "Will Liverpool FC win on 2026-10-20?",
-        "Will Liverpool FC vs. Villarreal CF end in a draw?"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Barcelona win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.7661,
-          "cur_price": 0.0005,
-          "usdc_size": 8583.74,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7754,
-          "cur_price": 0.0005,
-          "usdc_size": 8357.62,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.4009,
-          "cur_price": 0.9995,
-          "usdc_size": 5314.69,
+          "signal": "LATE",
+          "avg_price": 0.8699,
+          "cur_price": 0.865,
+          "usdc_size": 2982.76,
           "outcome": "Yes"
         },
         {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 3.5",
+          "market": "76ers vs. Knicks",
           "signal": "SKIP",
-          "avg_price": 0.5532,
-          "cur_price": 0.9995,
-          "usdc_size": 936.95,
-          "outcome": "Over"
+          "avg_price": 0.7292,
+          "cur_price": 0.315,
+          "usdc_size": 939.29,
+          "outcome": "Knicks"
         }
       ]
-    },
-    {
-      "wallet": "0x8850aa62401da0974cb78e0e91026fad036860b1",
-      "name": "1esportpro",
-      "score": 31.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.4,
-      "roi": -92.8,
-      "cash_pnl": -25059.22,
-      "realized_pnl": -774.26,
-      "total_usdc": 184629.42,
-      "trade_count": 500,
-      "market_count": 309,
-      "position_count": 105,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:44:17+00:00",
-      "top_markets": [
-        "Games Total: O/U 3.5",
-        "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitational Playoffs",
-        "Will Al Nassr Saudi Club win on 2026-08-25?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x96020c20842a5175e3e0aeef7843d1dbb7bc4d02",
-      "name": "0010001000001100",
-      "score": 31.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.1,
-      "roi": -97.9,
-      "cash_pnl": -565806.34,
-      "realized_pnl": -81213.42,
-      "total_usdc": 136931.38,
-      "trade_count": 500,
-      "market_count": 19,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:55:24+00:00",
-      "top_markets": [
-        "Will Arsenal FC win on 2026-10-18?",
-        "Will Tottenham Hotspur FC win on 2026-10-19?",
-        "Will FC Barcelona win on 2026-10-20?"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-          "signal": "SKIP",
-          "avg_price": 0.7058,
-          "cur_price": 0.0005,
-          "usdc_size": 866.56,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "name": "RN1",
-      "score": 31.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.8,
-      "roi": -94.9,
-      "cash_pnl": -3979027.9,
-      "realized_pnl": 1309526.69,
-      "total_usdc": 114541.76,
-      "trade_count": 500,
-      "market_count": 57,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T22:05:35+00:00",
-      "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Manchester City FC vs. AEK: O/U 6.5"
-      ],
-      "signals": [
-        {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.4932,
-          "cur_price": 0.9995,
-          "usdc_size": 67563.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will FC Barcelona win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.7049,
-          "cur_price": 0.0005,
-          "usdc_size": 47799.64,
-          "outcome": "No"
-        },
-        {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 3.5",
-          "signal": "SKIP",
-          "avg_price": 0.563,
-          "cur_price": 0.9995,
-          "usdc_size": 45915.15,
-          "outcome": "Over"
-        },
-        {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 4.5",
-          "signal": "SKIP",
-          "avg_price": 0.2577,
-          "cur_price": 0.9995,
-          "usdc_size": 25264.18,
-          "outcome": "Over"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa15e35c70bf9789d7a651522cd366989d25db828",
-      "name": "0x98A163800a312aB89FD1ee43739b637c1DD32384-1773366573513",
-      "score": 31.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.1,
-      "roi": -83.3,
-      "cash_pnl": -12193.83,
-      "realized_pnl": 982.6,
-      "total_usdc": 120107.53,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 48,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:49:44+00:00",
-      "top_markets": [
-        "Will SC Corinthians Paulista win on 2026-10-19?",
-        "Will SC Freiburg win on 2026-10-18?",
-        "Will CA Paranaense win on 2026-10-17?"
-      ],
-      "signals": [
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.3613,
-          "cur_price": 0.205,
-          "usdc_size": 2362.88,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x12f93b2a5cd5d370e2e2772246c3c7ceed7774ba",
-      "name": "0x0x0x0x0x0x0x0x0x0x",
-      "score": 31.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 88.4,
-      "roi": -100.0,
-      "cash_pnl": -36392.77,
-      "realized_pnl": -1134.38,
-      "total_usdc": 108717.56,
-      "trade_count": 500,
-      "market_count": 118,
-      "position_count": 64,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:54:27+00:00",
-      "top_markets": [
-        "Will AS Roma win on 2026-10-14?",
-        "Will Real Madrid CF win on 2026-10-14?",
-        "Will SC Uni\u00e3o Torreense vs. Sunderland AFC end in a draw?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
-      "name": "0x4f2",
-      "score": 31.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.9,
-      "roi": -97.9,
-      "cash_pnl": -3618203.84,
-      "realized_pnl": -139443.15,
-      "total_usdc": 89461.71,
-      "trade_count": 500,
-      "market_count": 48,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T22:05:53+00:00",
-      "top_markets": [
-        "Celtics vs. Pistons",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will FC Barcelona win on 2026-10-20?"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Barcelona win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.6714,
-          "cur_price": 0.0005,
-          "usdc_size": 41890.83,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.4856,
-          "cur_price": 0.9995,
-          "usdc_size": 26209.37,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x85c804daa4410c6c1c3f8f7a66662733c79a15d5",
-      "name": "peods1997",
-      "score": 31.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.0,
-      "roi": -100.0,
-      "cash_pnl": -1077.47,
-      "realized_pnl": 31.34,
-      "total_usdc": 69823.61,
-      "trade_count": 500,
-      "market_count": 79,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:52:42+00:00",
-      "top_markets": [
-        "AA Argentinos Juniors vs. CA Tigre: O/U 3.5",
-        "CA Mineiro vs. Red Bull Bragantino: O/U 1.5",
-        "Cruzeiro EC vs. S\u00e3o Paulo FC: O/U 2.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc7cd3f03265838f841f60910932fc4748af5a2d6",
-      "name": "felixmarket",
-      "score": 31.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.1,
-      "roi": -71.4,
-      "cash_pnl": -2930.91,
-      "realized_pnl": -45.68,
-      "total_usdc": 70497.56,
-      "trade_count": 434,
-      "market_count": 357,
-      "position_count": 32,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:48:02+00:00",
-      "top_markets": [
-        "Shabab Al Ahli Dubai leading at halftime?",
-        "Bitcoin Up or Down - September 14, 7:30AM-7:45AM ET",
-        "Bitcoin Up or Down - September 7, 7:05AM-7:10AM ET"
-      ],
-      "signals": []
     },
     {
       "wallet": "0x228b8d11eba89bf1c554f8879a9293b7106daf4c",
       "name": "0x228B8d11EBa89BF1c554f8879a9293B7106DaF4c-1765442354872",
-      "score": 30.8,
+      "score": 32.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
+      "early_entry_score": 11.2,
       "volume_score": 83.2,
-      "roi": -75.7,
-      "cash_pnl": -166473.46,
-      "realized_pnl": 175324.07,
-      "total_usdc": 55349.28,
+      "roi": -83.0,
+      "cash_pnl": -176854.13,
+      "realized_pnl": 179352.29,
+      "total_usdc": 55059.81,
       "trade_count": 500,
-      "market_count": 58,
+      "market_count": 103,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T21:33:00+00:00",
+      "last_active": "2026-10-21T00:44:54+00:00",
       "top_markets": [
+        "1H Spread: Knicks (-2.5)",
         "Celtics vs. Pistons: O/U 220.5",
-        "Celtics vs. Pistons: O/U 222.5",
-        "Celtics vs. Pistons"
+        "76ers vs. Knicks: O/U 230.5"
       ],
       "signals": [
         {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 4.5",
+          "market": "Spread: Knicks (-4.5)",
           "signal": "SKIP",
-          "avg_price": 0.346,
-          "cur_price": 0.9995,
-          "usdc_size": 1880.21,
-          "outcome": "Over"
-        },
-        {
-          "market": "Paris Saint-Germain FC vs. FC Barcelona: O/U 3.5",
-          "signal": "SKIP",
-          "avg_price": 0.5523,
-          "cur_price": 0.9995,
-          "usdc_size": 1365.39,
-          "outcome": "Over"
+          "avg_price": 0.515,
+          "cur_price": 0.555,
+          "usdc_size": 591.01,
+          "outcome": "76ers"
         }
       ]
     },
     {
-      "wallet": "0x5bd13e4b9b99f8c938f0736fbdebbdc17834c6af",
-      "name": "alfredopastacheeks",
-      "score": 30.7,
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 32.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 82.0,
-      "roi": -99.7,
-      "cash_pnl": -27532.2,
-      "realized_pnl": 4082.84,
-      "total_usdc": 46847.62,
-      "trade_count": 30,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T20:44:23+00:00",
-      "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x5e1fcdf23bf60583de27e777d56c172ea3b27828",
-      "name": "Erann717",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.8,
-      "roi": -97.1,
-      "cash_pnl": -16535.06,
-      "realized_pnl": -1115.55,
-      "total_usdc": 45746.32,
-      "trade_count": 500,
-      "market_count": 134,
-      "position_count": 103,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T21:42:53+00:00",
-      "top_markets": [
-        "Kharg Island no longer under Iranian control by July 31?",
-        "Israel closes its airspace by July 31?",
-        "Iran leadership change by July 31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-      "name": "0xD9E0AACa471f48F91A26E8669A805f2",
-      "score": 30.5,
-      "roi_score": 0.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.8,
-      "roi": -49.1,
-      "cash_pnl": -107359.87,
-      "realized_pnl": 35715.89,
-      "total_usdc": 27029.57,
+      "volume_score": 100.0,
+      "roi": -94.0,
+      "cash_pnl": -10937501.13,
+      "realized_pnl": 258283.91,
+      "total_usdc": 770369.33,
       "trade_count": 500,
       "market_count": 25,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T22:04:35+00:00",
+      "last_active": "2026-10-21T00:25:30+00:00",
       "top_markets": [
         "Celtics vs. Pistons",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
+        "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
         "Will FC Barcelona win on 2026-10-20?"
       ],
       "signals": [
         {
-          "market": "Will FC Barcelona win on 2026-10-20?",
+          "market": "76ers vs. Knicks",
+          "signal": "ENTER",
+          "avg_price": 0.3246,
+          "cur_price": 0.315,
+          "usdc_size": 20396.65,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
           "signal": "SKIP",
-          "avg_price": 0.7757,
-          "cur_price": 0.0005,
-          "usdc_size": 10202.68,
+          "avg_price": 0.4998,
+          "cur_price": 0.555,
+          "usdc_size": 89992.02,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.72,
+          "cur_price": 0.275,
+          "usdc_size": 137067.05,
           "outcome": "No"
         },
         {
-          "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
+          "market": "Missouri State vs. Delaware",
           "signal": "SKIP",
-          "avg_price": 0.4914,
-          "cur_price": 0.9995,
-          "usdc_size": 9336.34,
-          "outcome": "Yes"
+          "avg_price": 0.4128,
+          "cur_price": 0.495,
+          "usdc_size": 49974.98,
+          "outcome": "Missouri State"
         },
         {
-          "market": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
+          "market": "Avalanche vs. Devils",
           "signal": "SKIP",
-          "avg_price": 0.785,
-          "cur_price": 0.0005,
-          "usdc_size": 5589.5,
-          "outcome": "No"
-        },
-        {
-          "market": "Will SSC Napoli win on 2026-10-20?",
-          "signal": "SKIP",
-          "avg_price": 0.7068,
-          "cur_price": 0.9995,
-          "usdc_size": 4163.87,
-          "outcome": "Yes"
+          "avg_price": 0.51,
+          "cur_price": 0.255,
+          "usdc_size": 74500.0,
+          "outcome": "Devils"
         }
       ]
     },
     {
-      "wallet": "0x1e801addb24a36512a0a743721151a696c2b416d",
-      "name": "0x1E801ADDB24a36512A0A743721151A696c2B416d-1780006791520",
-      "score": 30.1,
+      "wallet": "0x5993ba19348ed5f2f265464148ee82f9693033a2",
+      "name": "willylee",
+      "score": 32.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 76.2,
-      "roi": -100.0,
-      "cash_pnl": -1251.68,
-      "realized_pnl": -12.06,
-      "total_usdc": 21948.51,
+      "volume_score": 96.9,
+      "roi": -80.4,
+      "cash_pnl": -2297.34,
+      "realized_pnl": 86.19,
+      "total_usdc": 330906.31,
       "trade_count": 500,
-      "market_count": 285,
-      "position_count": 82,
+      "market_count": 166,
+      "position_count": 7,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T20:58:08+00:00",
+      "last_active": "2026-10-21T00:14:15+00:00",
       "top_markets": [
-        "Baltimore Orioles vs. Boston Red Sox",
-        "Cincinnati Reds vs. San Diego Padres: O/U 7.5",
-        "Modena: Kaitlin Quevedo vs Jeline Vandromme"
+        "Rockets vs. Knicks",
+        "Will Bangladesh Nationalist Party win the most seats in the Bangladesh parliamentary election?",
+        "Nuggets vs. Thunder"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.2899,
+          "cur_price": 0.315,
+          "usdc_size": 559.4,
+          "outcome": "76ers"
+        }
+      ]
     },
     {
-      "wallet": "0x258fdc2ea1cc501a4b433ad55eb033e6dfd1b3a1",
-      "name": "sautomated",
-      "score": 30.0,
+      "wallet": "0x59f4a4b19fcaa99a4df2e7cdda4919aa5afbc1f1",
+      "name": "BaccaratRoulette",
+      "score": 32.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 75.2,
-      "roi": -75.2,
-      "cash_pnl": -1924.21,
-      "realized_pnl": 0.0,
-      "total_usdc": 19343.2,
-      "trade_count": 7,
-      "market_count": 3,
-      "position_count": 2,
+      "early_entry_score": 1.1,
+      "volume_score": 94.1,
+      "roi": -99.8,
+      "cash_pnl": -1269402.86,
+      "realized_pnl": -18983.74,
+      "total_usdc": 229908.4,
+      "trade_count": 500,
+      "market_count": 158,
+      "position_count": 308,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T21:51:20+00:00",
+      "last_active": "2026-10-21T00:42:26+00:00",
       "top_markets": [
-        "Will the US confirm that aliens exist before 2027?",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Will Bayern M\u00fcnchen reach the UEFA Champions League quarter-finals?"
+        "Will Spain win on 2026-09-26?",
+        "Counter-Strike: Heroic vs fnatic (BO3) - Stake Pulse Beat II Playoffs",
+        "Counter-Strike: MOUZ vs Team Falcons (BO3) - BLAST Open Porto Group B"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.3556,
+          "cur_price": 0.315,
+          "usdc_size": 2435.34,
+          "outcome": "76ers"
+        }
+      ]
     },
     {
-      "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-      "name": "curie",
-      "score": 29.9,
+      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+      "name": "mooseborzoii",
+      "score": 32.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 74.0,
-      "roi": -99.7,
-      "cash_pnl": -630725.42,
-      "realized_pnl": 29329.76,
-      "total_usdc": 16396.22,
+      "volume_score": 96.0,
+      "roi": -88.2,
+      "cash_pnl": -5186747.92,
+      "realized_pnl": -3083.32,
+      "total_usdc": 294959.84,
       "trade_count": 500,
-      "market_count": 59,
+      "market_count": 13,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T22:05:53+00:00",
+      "last_active": "2026-10-21T00:44:54+00:00",
       "top_markets": [
-        "Bitcoin Up or Down - October 20, 4:45PM-5:00PM ET",
-        "Bitcoin Up or Down - October 20, 5:15PM-5:30PM ET",
-        "Ethereum Up or Down - October 20, 4:45PM-5:00PM ET"
+        "76ers vs. Knicks",
+        "Thunder vs. Spurs",
+        "Middle Tennessee vs. Florida International"
       ],
       "signals": [
         {
-          "market": "Will FC Barcelona win on 2026-10-20?",
+          "market": "Thunder vs. Spurs",
+          "signal": "ENTER",
+          "avg_price": 0.5,
+          "cur_price": 0.505,
+          "usdc_size": 8301.83,
+          "outcome": "Thunder"
+        },
+        {
+          "market": "Spread: Knicks (-5.5)",
+          "signal": "ENTER",
+          "avg_price": 0.5,
+          "cur_price": 0.505,
+          "usdc_size": 2098.24,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "LATE",
+          "avg_price": 0.3287,
+          "cur_price": 0.315,
+          "usdc_size": 44378.98,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
           "signal": "SKIP",
-          "avg_price": 0.738,
-          "cur_price": 0.0005,
-          "usdc_size": 1969.02,
-          "outcome": "No"
+          "avg_price": 0.6669,
+          "cur_price": 0.315,
+          "usdc_size": 368417.7,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Missouri State vs. Delaware",
+          "signal": "SKIP",
+          "avg_price": 0.3938,
+          "cur_price": 0.495,
+          "usdc_size": 39661.72,
+          "outcome": "Missouri State"
+        },
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.48,
+          "cur_price": 0.555,
+          "usdc_size": 4880.97,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Avalanche vs. Devils",
+          "signal": "SKIP",
+          "avg_price": 0.288,
+          "cur_price": 0.255,
+          "usdc_size": 2374.23,
+          "outcome": "Avalanche"
+        },
+        {
+          "market": "Avalanche vs. Devils",
+          "signal": "SKIP",
+          "avg_price": 0.5662,
+          "cur_price": 0.255,
+          "usdc_size": 4681.78,
+          "outcome": "Devils"
         }
       ]
     },
     {
-      "wallet": "0x8bad3202607aa4d5d59a4fce864e4d938ef4223f",
-      "name": "Barblocks",
-      "score": 28.8,
+      "wallet": "0x161a7f666ca49d592848cf415b42f49a84714103",
+      "name": "torta.tech",
+      "score": 31.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 63.2,
-      "roi": -100.0,
-      "cash_pnl": -269.0,
-      "realized_pnl": -7.14,
-      "total_usdc": 3985.87,
-      "trade_count": 30,
-      "market_count": 11,
-      "position_count": 5,
+      "volume_score": 92.9,
+      "roi": -99.4,
+      "cash_pnl": -1267080.46,
+      "realized_pnl": -34183.11,
+      "total_usdc": 195815.84,
+      "trade_count": 500,
+      "market_count": 234,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-20T21:11:57+00:00",
+      "last_active": "2026-10-21T00:42:03+00:00",
       "top_markets": [
-        "Will Paris Saint-Germain FC win on 2026-04-14?",
-        "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "Brazil vs. Norway: Team to Advance"
+        "Seoul Knights vs. Anyang",
+        "Beijing Royal Fighters vs. Shanghai Sharks",
+        "Jilin Northeast Tigers vs. Sichuan Blue Whales"
       ],
+      "signals": []
+    },
+    {
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "score": 31.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.0,
+      "roi": -99.4,
+      "cash_pnl": -25187857.6,
+      "realized_pnl": 1178205.76,
+      "total_usdc": 153220.29,
+      "trade_count": 500,
+      "market_count": 78,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:45:39+00:00",
+      "top_markets": [
+        "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
+        "W50 Austin: Sloane Stephens vs Ashley Lahey",
+        "Lyon Open: Hamad Medjedovic vs Brandon Nakashima"
+      ],
+      "signals": [
+        {
+          "market": "Spread: Knicks (-4.5)",
+          "signal": "SKIP",
+          "avg_price": 0.506,
+          "cur_price": 0.555,
+          "usdc_size": 41553.18,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x42b7122f6a4635ee76d254eddf752ab27cf077dc",
+      "name": "iceblue-",
+      "score": 31.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.1,
+      "volume_score": 84.4,
+      "roi": -99.3,
+      "cash_pnl": -88576.26,
+      "realized_pnl": -133.04,
+      "total_usdc": 64488.95,
+      "trade_count": 500,
+      "market_count": 37,
+      "position_count": 266,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:41:00+00:00",
+      "top_markets": [
+        "Dota 2: ALOHADANCE Team vs Stariy bog Team (BO3) - 1win Streamers League #3 Playoffs",
+        "Dota 2: Gorgc Team vs Stariy bog Team - Game 4 Winner",
+        "Dota 2: ALOHADANCE Team vs Gorgc Team - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "ENTER",
+          "avg_price": 0.32,
+          "cur_price": 0.315,
+          "usdc_size": 667.17,
+          "outcome": "76ers"
+        }
+      ]
+    },
+    {
+      "wallet": "0xec189684f008a1a216e8a947159862cac47a89eb",
+      "name": "dabe341zz",
+      "score": 31.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 2.3,
+      "volume_score": 81.9,
+      "roi": -93.9,
+      "cash_pnl": -16749.28,
+      "realized_pnl": 481.23,
+      "total_usdc": 46578.7,
+      "trade_count": 500,
+      "market_count": 58,
+      "position_count": 133,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:29:27+00:00",
+      "top_markets": [
+        "Mavericks vs. Rockets",
+        "Games Total: O/U 3.5",
+        "LoL: MVK Esports vs FURIA Esports - Game 3 Winner"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xe502355c88970f7faac56b5a3c84b295812f4924",
+      "name": "GoatofGamblers",
+      "score": 31.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.8,
+      "volume_score": 84.1,
+      "roi": -96.7,
+      "cash_pnl": -74020.61,
+      "realized_pnl": -55.99,
+      "total_usdc": 62318.15,
+      "trade_count": 500,
+      "market_count": 59,
+      "position_count": 103,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:19:06+00:00",
+      "top_markets": [
+        "Dota 2: Team Yandex vs Team Spirit - Game 3 Winner",
+        "LoL: LOS vs FURIA Esports - Game 4 Winner",
+        "Will Manchester United FC win on 2026-10-18?"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.2883,
+          "cur_price": 0.315,
+          "usdc_size": 1224.78,
+          "outcome": "76ers"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.55,
+          "cur_price": 0.315,
+          "usdc_size": 1293.27,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeab78a53a1a4e7ed3db3bd32b7d4bf678568ad23",
+      "name": "0x25efb9fec6710cf719016bcc02e16e9962cd125b",
+      "score": 30.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.5,
+      "volume_score": 82.4,
+      "roi": -100.0,
+      "cash_pnl": -6446.77,
+      "realized_pnl": -42.84,
+      "total_usdc": 49413.39,
+      "trade_count": 162,
+      "market_count": 76,
+      "position_count": 19,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:14:20+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - June 25, 6:45AM-6:50AM ET",
+        "Thunder vs. Spurs",
+        "Will Bitcoin dip to $60,000 June 22-28?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+      "name": "0x7c14bDd7D62B9a7824C220EE39a9b58773F05783-1773587380195",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.3,
+      "roi": -72.9,
+      "cash_pnl": -29330.97,
+      "realized_pnl": -556.27,
+      "total_usdc": 37686.49,
+      "trade_count": 500,
+      "market_count": 207,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:39:48+00:00",
+      "top_markets": [
+        "Will Al Taawoun Saudi Club win on 2026-10-20?",
+        "Will the Democratic Party candidate win the 2026 Texas Lieutenant Governor election?",
+        "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "ENTER",
+          "avg_price": 0.3197,
+          "cur_price": 0.315,
+          "usdc_size": 833.78,
+          "outcome": "76ers"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.7631,
+          "cur_price": 0.8095,
+          "usdc_size": 1623.08,
+          "outcome": "Yes"
+        },
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6789,
+          "cur_price": 0.315,
+          "usdc_size": 2252.1,
+          "outcome": "Knicks"
+        },
+        {
+          "market": "Avalanche vs. Devils",
+          "signal": "SKIP",
+          "avg_price": 0.6503,
+          "cur_price": 0.255,
+          "usdc_size": 1490.01,
+          "outcome": "Devils"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
+      "name": "SnakeBall",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.4,
+      "roi": -100.0,
+      "cash_pnl": -519471.91,
+      "realized_pnl": -653.28,
+      "total_usdc": 38174.7,
+      "trade_count": 500,
+      "market_count": 282,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:44:17+00:00",
+      "top_markets": [
+        "Spread: Knicks (-8.5)",
+        "CD Guadalajara vs. Club Necaxa: 1st Half O/U 2.5",
+        "C\u00facuta Deportivo FC vs. Atl\u00e9tico Nacional: C\u00facuta Deportivo FC O/U 1.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xcb6397371c0b38693827335385b848a501e8b3de",
+      "name": "pegpeg",
+      "score": 30.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.2,
+      "volume_score": 77.0,
+      "roi": -93.1,
+      "cash_pnl": -12052.3,
+      "realized_pnl": -265.58,
+      "total_usdc": 24593.64,
+      "trade_count": 306,
+      "market_count": 60,
+      "position_count": 35,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:32:39+00:00",
+      "top_markets": [
+        "Counter-Strike: Elite Klan vs Royal Foxes Esports (BO3) - European Pro League Regular Group C",
+        "Washington Mystics vs. Las Vegas Aces",
+        "Dallas Wings vs. Golden State Valkyries"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6899,
+          "cur_price": 0.315,
+          "usdc_size": 893.48,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x664a25f165a0150ce687410470f3352f5783fc5f",
+      "name": "itsonlyamatteroftime",
+      "score": 30.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.4,
+      "volume_score": 76.1,
+      "roi": -99.1,
+      "cash_pnl": -1416608.1,
+      "realized_pnl": -36851.47,
+      "total_usdc": 21798.97,
+      "trade_count": 500,
+      "market_count": 16,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T00:39:32+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - October 20, 7:30PM-7:45PM ET",
+        "Bitcoin Up or Down - October 20, 8:00PM-8:15PM ET",
+        "BNB Up or Down - October 20, 8:15PM-8:30PM ET"
+      ],
+      "signals": [
+        {
+          "market": "76ers vs. Knicks",
+          "signal": "SKIP",
+          "avg_price": 0.6734,
+          "cur_price": 0.315,
+          "usdc_size": 13560.71,
+          "outcome": "Knicks"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7ba5b5b21c2d4bab224ca5ad446cc31c776faaf1",
+      "name": "omarlittle",
+      "score": 30.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 0.0,
+      "roi": -93.9,
+      "cash_pnl": -19121.95,
+      "realized_pnl": -1590.11,
+      "total_usdc": 0.0,
+      "trade_count": 0,
+      "market_count": 2,
+      "position_count": 83,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": null,
+      "top_markets": [],
       "signals": []
     }
   ],
   "markets": [
     {
-      "id": "0x130d93a16ff24b39208e549bb9581ff4f7f600248b2dc71fff9a8bed860648cf",
-      "question": "Will FC Barcelona win on 2026-10-20?",
-      "volume": "3323445.6862870003",
-      "liquidity": "1380445.27541",
-      "end_date": "2026-10-20T19:00:00Z"
+      "id": "0xff6a7cad39309b7170cb0f05207d5391c1d7443174842570803d204e674960d9",
+      "question": "76ers vs. Knicks",
+      "volume": "3212485.2789179995",
+      "liquidity": "554113.6422",
+      "end_date": "2026-10-20T23:00:00Z"
     },
     {
-      "id": "0xf4bcfc73a0bc66dfaa13cbe9669a6aed0738e4739698faf079eab69f96eb4fe9",
-      "question": "Will Paris Saint-Germain FC win on 2026-10-20?",
-      "volume": "2716557.7040180005",
-      "liquidity": "1093752.44427",
-      "end_date": "2026-10-20T19:00:00Z"
-    },
-    {
-      "id": "0x45597eef94d5c6e78c9a47f34821721145dd8fc57a92f59f5a9a983f3cd12b44",
-      "question": "Will SSC Napoli win on 2026-10-20?",
-      "volume": "1570920.096812",
-      "liquidity": "459800.06325",
-      "end_date": "2026-10-20T19:00:00Z"
-    },
-    {
-      "id": "0x01a212b3fcf5b8ad357ccc8749044f7f05ddd5c646beb3a100575cd5336fa653",
-      "question": "Paris Saint-Germain FC vs. FC Barcelona: O/U 4.5",
-      "volume": "1448933.6553620005",
-      "liquidity": "450457.04081",
-      "end_date": "2026-10-20T19:00:00Z"
-    },
-    {
-      "id": "0x40b38c5003ee76cabef7162c5e41923eb5fc611dffcae9756461795c2000becd",
-      "question": "Will Paris Saint-Germain FC vs. FC Barcelona end in a draw?",
-      "volume": "881859.059784",
-      "liquidity": "761903.99729",
-      "end_date": "2026-10-20T19:00:00Z"
-    },
-    {
-      "id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
-      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "volume": "14893751.769651",
-      "liquidity": "543094.3245",
-      "end_date": "2026-10-29T03:59:00Z"
+      "id": "0x4c69d114b1864f24f48d821f7cc1c826d0dfcb07c16c81b6698af9b21c302586",
+      "question": "Spread: Knicks (-4.5)",
+      "volume": "1106823.1544320001",
+      "liquidity": "169342.2429",
+      "end_date": "2026-10-20T23:00:00Z"
     },
     {
       "id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
       "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "volume": "27265000.532973",
-      "liquidity": "555695.0337",
+      "volume": "27478304.111344",
+      "liquidity": "580553.5348",
       "end_date": "2026-10-05T03:59:00Z"
-    },
-    {
-      "id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
-      "question": "2026 Balance of Power: R Senate, D House",
-      "volume": "4254983.641507",
-      "liquidity": "2948535.3347",
-      "end_date": "2026-11-04T04:59:00Z"
-    },
-    {
-      "id": "0x04fb634139d4654febf4b62c425b209806e06d9eff93ac2e7c5301ecdaf5e4ca",
-      "question": "US x Iran ceasefire continues through October 22?",
-      "volume": "1383879.5997960002",
-      "liquidity": "130860.19928",
-      "end_date": "2026-10-23T03:59:00Z"
     },
     {
       "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
       "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "volume": "23568515.764158998",
-      "liquidity": "476191.03563",
+      "volume": "23845238.106855996",
+      "liquidity": "431466.12228",
       "end_date": "2026-10-05T03:59:00Z"
     },
     {
-      "id": "0x6238d02f25f32bc822316f6cf3a4ca7487bd3942b35f6c1a541fa14f044e7486",
-      "question": "Paris Saint-Germain FC vs. FC Barcelona: O/U 3.5",
-      "volume": "493007.61548499996",
-      "liquidity": "163372.89704",
-      "end_date": "2026-10-20T19:00:00Z"
+      "id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "volume": "14896543.067646999",
+      "liquidity": "616111.6651",
+      "end_date": "2026-10-29T03:59:00Z"
+    },
+    {
+      "id": "0xc5eae79d1ffe716572353962eb926b1e3964c500a4880a7a94f58408218ee76b",
+      "question": "2026 Balance of Power: R Senate, R House",
+      "volume": "8355758.141867",
+      "liquidity": "3755428.1504",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x856d7a8f3701df6fce91acfd18d4ffc3e4500c747333dfc02772cea75c83d1c5",
+      "question": "Avalanche vs. Devils",
+      "volume": "606494.6564980001",
+      "liquidity": "74229.6693",
+      "end_date": "2026-10-20T23:00:00Z"
+    },
+    {
+      "id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
+      "question": "2026 Balance of Power: R Senate, D House",
+      "volume": "4257868.507222",
+      "liquidity": "2670247.6954",
+      "end_date": "2026-11-04T04:59:00Z"
     },
     {
       "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
       "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "33044634.170306",
-      "liquidity": "482090.54228",
+      "volume": "33093094.170306",
+      "liquidity": "470490.68999",
       "end_date": "2027-05-30T23:59:00Z"
+    },
+    {
+      "id": "0x04fb634139d4654febf4b62c425b209806e06d9eff93ac2e7c5301ecdaf5e4ca",
+      "question": "US x Iran ceasefire continues through October 22?",
+      "volume": "1392028.9984570001",
+      "liquidity": "111765.67088",
+      "end_date": "2026-10-23T03:59:00Z"
+    },
+    {
+      "id": "0xc6cdffda0dba8209124986a24b17bc60cf1280bdf9f631a3bacdaedf127dca92",
+      "question": "Missouri State vs. Delaware",
+      "volume": "423555.30047",
+      "liquidity": "178043.0797",
+      "end_date": "2026-10-20T23:00:00Z"
     },
     {
       "id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
       "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "volume": "9321515.301410003",
-      "liquidity": "682625.9435",
+      "volume": "9328014.436404001",
+      "liquidity": "662259.016",
       "end_date": "2026-10-28T03:59:00Z"
-    },
-    {
-      "id": "0xff6a7cad39309b7170cb0f05207d5391c1d7443174842570803d204e674960d9",
-      "question": "76ers vs. Knicks",
-      "volume": "439967.639644",
-      "liquidity": "1387240.2461",
-      "end_date": "2026-10-20T23:00:00Z"
-    },
-    {
-      "id": "0x3436aab3cd26a9278dd9eb2f17e59532d507a80e477c75060d3ada76c27aad69",
-      "question": "Will FK Bod\u00f8/Glimt win on 2026-10-20?",
-      "volume": "416330.666535",
-      "liquidity": "517710.30145",
-      "end_date": "2026-10-20T19:00:00Z"
     },
     {
       "id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
       "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "volume": "11410620.131716998",
-      "liquidity": "667715.0567",
+      "volume": "11428220.398862999",
+      "liquidity": "801841.8635",
+      "end_date": "2026-10-29T03:59:00Z"
+    },
+    {
+      "id": "0x9cf563d7b55aa9aa876d5d7e55126347eee473f0ae56d799e325fdef2bf25297",
+      "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+      "volume": "8843072.247278001",
+      "liquidity": "1243388.74571",
       "end_date": "2026-10-29T03:59:00Z"
     },
     {
       "id": "0x87091dc5932f015d80c40e71e47cb043c3f8b6098484eb5bc3943cf35ee9afc1",
       "question": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-      "volume": "4655695.397603",
-      "liquidity": "148186.81274",
+      "volume": "4691851.045725999",
+      "liquidity": "155872.36258",
       "end_date": "2027-01-01T04:59:00Z"
     },
     {
       "id": "0xc89266786402aaabe78111eb91c6764d86857bbc4427c82b91d60a5ef69a70d0",
       "question": "Will Erling Haaland win the 2026 Ballon d'Or?",
-      "volume": "3399989.181167",
-      "liquidity": "393856.65298",
+      "volume": "3437640.2611670005",
+      "liquidity": "427212.69995",
       "end_date": "2027-01-01T04:59:00Z"
+    },
+    {
+      "id": "0x738bf4c43717a69335109fc8882915b55be456cb42811cf008d97fdf3a8cb6a8",
+      "question": "Thunder vs. Spurs",
+      "volume": "308302.60733100004",
+      "liquidity": "3005698.4066",
+      "end_date": "2026-10-21T01:30:00Z"
+    },
+    {
+      "id": "0xbcb24ef82509c4680e790c11473817b14017d51a1d0b862b7b151af6e7381a45",
+      "question": "Spread: Knicks (-5.5)",
+      "volume": "288275.57487700006",
+      "liquidity": "151276.6326",
+      "end_date": "2026-10-20T23:00:00Z"
+    },
+    {
+      "id": "0xdabb9a04af14db8439ac73a38a1bc66ac0e96107a49fbd5981cc94a6408d435c",
+      "question": "Cali: Matias Soto vs Samuel Heredia",
+      "volume": "277597.485276",
+      "liquidity": "88492.11827",
+      "end_date": "2026-10-26T15:00:00Z"
     },
     {
       "id": "0x282ce6c97ce923e33bbe05eaa72d64d1fa9179e72f7a6de7cc30840106d5fb39",
       "question": "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
-      "volume": "1075206.0490050002",
-      "liquidity": "361756.3976",
+      "volume": "1076224.155324",
+      "liquidity": "377424.3537",
       "end_date": "2027-05-30T23:59:00Z"
-    },
-    {
-      "id": "0xa008b9859588e56d28fdf776b9e7da39a011c7a587dceb25a2660bb40afaec34",
-      "question": "Paris Saint-Germain FC vs. FC Barcelona: O/U 1.5",
-      "volume": "277890.71509199997",
-      "liquidity": "152735.55499",
-      "end_date": "2026-10-20T19:00:00Z"
     }
   ]
 }
