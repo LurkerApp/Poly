@@ -1,64 +1,151 @@
 {
-  "last_updated": "2026-10-21T05:43:50.535451+00:00",
+  "last_updated": "2026-10-21T11:11:26.996084+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
       "wallet": "0x216050de6080fac3926226b2b8ce3d5544784c78",
       "name": "iWasEnough",
-      "score": 52.1,
-      "roi_score": 33.2,
+      "score": 52.5,
+      "roi_score": 38.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 89.3,
-      "volume_score": 62.7,
-      "roi": -0.1,
-      "cash_pnl": -9.44,
+      "early_entry_score": 81.3,
+      "volume_score": 64.4,
+      "roi": 7.0,
+      "cash_pnl": 823.78,
       "realized_pnl": 0.0,
-      "total_usdc": 3720.16,
+      "total_usdc": 4709.3,
       "trade_count": 500,
-      "market_count": 110,
-      "position_count": 488,
+      "market_count": 129,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:42:59+00:00",
+      "last_active": "2026-10-21T11:11:00+00:00",
       "top_markets": [
-        "Thunder vs. Spurs",
-        "Spread: Hornets (-1.5)",
-        "Spread: Thunder (-11.5)"
+        "Ningbo Open: Leylah Fernandez vs Aliaksandra Sasnovich",
+        "Almaty Open: Mattia Bellucci vs Tomas Etcheverry",
+        "European Open: Martin Damm vs Francisco Cerundolo"
       ],
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.53,
-          "cur_price": 0.455,
-          "usdc_size": 829.31,
+          "cur_price": 0.435,
+          "usdc_size": 859.74,
           "outcome": "No"
+        },
+        {
+          "market": "Counter-Strike: magic vs TheMongolz (BO3) - 1win Private Club Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.5542,
+          "cur_price": 0.0005,
+          "usdc_size": 1435.31,
+          "outcome": "TheMongolz"
+        },
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.5525,
+          "cur_price": 0.485,
+          "usdc_size": 679.25,
+          "outcome": "Andrey Rublev"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "score": 47.5,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 630054.38,
+      "trade_count": 500,
+      "market_count": 16,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:21:00+00:00",
+      "top_markets": [
+        "Thunder vs. Spurs",
+        "Will FC Bayern M\u00fcnchen vs. Arsenal FC end in a draw?",
+        "Almaty Open: Mattia Bellucci vs Tomas Etcheverry"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x994ec8e910b433265f3a46eaf666bfa28b1a6136",
+      "name": "TrippleEX",
+      "score": 46.8,
+      "roi_score": 44.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 7.7,
+      "volume_score": 96.9,
+      "roi": 17.3,
+      "cash_pnl": 4607.2,
+      "realized_pnl": 0.0,
+      "total_usdc": 334584.51,
+      "trade_count": 500,
+      "market_count": 34,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:14:27+00:00",
+      "top_markets": [
+        "Counter-Strike: EYEBALLERS vs Team Nemesis (BO3) - PGL Bucharest Closed Qualifier Playoffs",
+        "Counter-Strike: Legacy vs FURIA (BO3) - Thunderpick World Championship Group B",
+        "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "ENTER",
+          "avg_price": 0.4343,
+          "cur_price": 0.435,
+          "usdc_size": 8700.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Counter-Strike: magic vs TheMongolz (BO3) - 1win Private Club Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.5199,
+          "cur_price": 0.0005,
+          "usdc_size": 9994.99,
+          "outcome": "TheMongolz"
         }
       ]
     },
     {
       "wallet": "0x9030cd617fd95307d5121d065c9d37864119cf12",
       "name": "skembinator",
-      "score": 50.6,
-      "roi_score": 63.3,
+      "score": 43.2,
+      "roi_score": 38.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 91.3,
-      "roi": 44.9,
-      "cash_pnl": 820.21,
-      "realized_pnl": 0.0,
-      "total_usdc": 159791.41,
+      "roi": 8.0,
+      "cash_pnl": 73.77,
+      "realized_pnl": -0.99,
+      "total_usdc": 159779.1,
       "trade_count": 500,
       "market_count": 277,
-      "position_count": 6,
+      "position_count": 5,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:36:27+00:00",
+      "last_active": "2026-10-21T07:22:53+00:00",
       "top_markets": [
         "Will Charlotte FC vs. FC Dallas end in a draw?",
         "Spread: Kennesaw State (-3.5)",
@@ -67,317 +154,38 @@
       "signals": []
     },
     {
-      "wallet": "0x33e27ac64a453337cfcea8345c705a407c573a1b",
-      "name": "themagicofcinema",
-      "score": 47.5,
-      "roi_score": 51.5,
+      "wallet": "0xca6465345246f543b7cb3152d5f5f54096f84f43",
+      "name": "afraz",
+      "score": 42.7,
+      "roi_score": 34.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 95.7,
-      "roi": 27.2,
-      "cash_pnl": 4633.53,
-      "realized_pnl": -164.88,
-      "total_usdc": 286097.51,
-      "trade_count": 500,
-      "market_count": 65,
-      "position_count": 34,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:06:51+00:00",
-      "top_markets": [
-        "Will the Tesla Roadster fly for 1s+?",
-        "Will oil be at least $85 on November 2 and the Republicans win the Senate?",
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc7514b2009080efd4b4e18a0b0b2b65e2e3d2e1c",
-      "name": "hpccamargo",
-      "score": 44.4,
-      "roi_score": 49.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.4,
-      "roi": 24.1,
-      "cash_pnl": 2460.45,
+      "volume_score": 100.0,
+      "roi": 1.2,
+      "cash_pnl": 58.25,
       "realized_pnl": 0.0,
-      "total_usdc": 10270.19,
-      "trade_count": 22,
-      "market_count": 1,
+      "total_usdc": 533601.8,
+      "trade_count": 500,
+      "market_count": 73,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T00:19:18+00:00",
+      "last_active": "2026-10-21T10:23:18+00:00",
       "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.644,
-          "cur_price": 0.7995,
-          "usdc_size": 12658.24,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xedbbdd8110aff4e77421df3bd1d7c5c8d4cc63b8",
-      "name": "FaroeseNationalist",
-      "score": 44.2,
-      "roi_score": 41.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.3,
-      "roi": 12.2,
-      "cash_pnl": 4586.34,
-      "realized_pnl": 2925.89,
-      "total_usdc": 182665.26,
-      "trade_count": 500,
-      "market_count": 69,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:27:26+00:00",
-      "top_markets": [
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Spread: Oregon (-6.5)"
-      ],
-      "signals": [
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.189,
-          "cur_price": 0.205,
-          "usdc_size": 35875.12,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.197,
-          "cur_price": 0.7995,
-          "usdc_size": 2121.75,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2f9da73ca8430dc4bdbd75f9c76d91592ca5deb3",
-      "name": "themain",
-      "score": 43.3,
-      "roi_score": 37.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.4,
-      "roi": 6.9,
-      "cash_pnl": 13257.27,
-      "realized_pnl": -279.8,
-      "total_usdc": 240745.68,
-      "trade_count": 410,
-      "market_count": 55,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:19:57+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Guilherme Derrite win the most votes in the 2026 S\u00e3o Paulo Senate election?",
-        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.703,
-          "cur_price": 0.7995,
-          "usdc_size": 148262.73,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7857,
-          "cur_price": 0.205,
-          "usdc_size": 35543.79,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xad89f899f1524533adfd1e6a07da692fcd92f6e1",
-      "name": "Do-Not-Redeem",
-      "score": 42.5,
-      "roi_score": 34.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.9,
-      "roi": 1.0,
-      "cash_pnl": 3214.14,
-      "realized_pnl": 8702.79,
-      "total_usdc": 377487.41,
-      "trade_count": 500,
-      "market_count": 55,
-      "position_count": 19,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T04:29:48+00:00",
-      "top_markets": [
-        "Will the Democrats win the Ohio Senate race in 2026?",
-        "Will the Democrats win the Michigan Senate race in 2026?",
-        "Will the Democrats win the Texas Senate race in 2026?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x2e7bf3e7b8ba0351b737897197fd5cc34fbfbd8c",
-      "name": "eventalpha26",
-      "score": 42.0,
-      "roi_score": 32.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.5,
-      "roi": -1.4,
-      "cash_pnl": -3654.9,
-      "realized_pnl": -46172.9,
-      "total_usdc": 358381.46,
-      "trade_count": 500,
-      "market_count": 2,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T00:50:36+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2116,
-          "cur_price": 0.7995,
-          "usdc_size": 195158.39,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.1784,
-          "cur_price": 0.205,
-          "usdc_size": 55308.48,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xbc5613462ce3902eea10874a11cf74191f4a8f28",
-      "name": "Saber-greed",
-      "score": 41.8,
-      "roi_score": 37.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.1,
-      "roi": 5.4,
-      "cash_pnl": 178.72,
-      "realized_pnl": 4.32,
-      "total_usdc": 47675.02,
-      "trade_count": 500,
-      "market_count": 189,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:42:03+00:00",
-      "top_markets": [
-        "Al Diraiyah Saudi Club vs. Al Riyadh Saudi Club: O/U 2.5",
-        "Will Tottenham Hotspur FC win on 2026-10-19?",
-        "Almaty Open: Mikhail Kukushkin vs Stefanos Sakellaridis"
+        "Will Spain win on 2026-10-06?",
+        "Will France win on 2026-10-05?",
+        "Will Paris Saint-Germain FC win on 2026-10-17?"
       ],
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "SKIP",
-          "avg_price": 0.5299,
-          "cur_price": 0.455,
-          "usdc_size": 1634.99,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc682d7943aad07c246986a7aa2989cfcb17817bb",
-      "name": "zthunderfury",
-      "score": 41.8,
-      "roi_score": 35.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.5,
-      "roi": 2.5,
-      "cash_pnl": 6588.5,
-      "realized_pnl": 5663.55,
-      "total_usdc": 96410.31,
-      "trade_count": 500,
-      "market_count": 19,
-      "position_count": 41,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:42:30+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Bab el-Mandeb Strait effectively closed by October 31?",
-        "US x Iran ceasefire continues through October 22?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-          "signal": "LATE",
-          "avg_price": 0.8932,
-          "cur_price": 0.915,
-          "usdc_size": 35581.25,
+          "signal": "ENTER",
+          "avg_price": 0.43,
+          "cur_price": 0.435,
+          "usdc_size": 5067.75,
           "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8011,
-          "cur_price": 0.7995,
-          "usdc_size": 5060.2,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "LATE",
-          "avg_price": 0.8699,
-          "cur_price": 0.875,
-          "usdc_size": 1670.99,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US announces end of Iranian blockade by October 31, 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.8633,
-          "cur_price": 0.09,
-          "usdc_size": 11279.33,
-          "outcome": "No"
         }
       ]
     },
@@ -389,39 +197,139 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.3,
-      "roi": 0.4,
-      "cash_pnl": 248.05,
-      "realized_pnl": -89908.96,
-      "total_usdc": 139132.4,
+      "volume_score": 90.7,
+      "roi": 0.3,
+      "cash_pnl": 125.42,
+      "realized_pnl": -16690.27,
+      "total_usdc": 148239.29,
       "trade_count": 500,
-      "market_count": 11,
-      "position_count": 39,
+      "market_count": 13,
+      "position_count": 44,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T04:00:20+00:00",
+      "last_active": "2026-10-21T11:09:03+00:00",
       "top_markets": [
         "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-        "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will the Republican Party control the Senate after the 2026 Midterm elections?"
       ],
       "signals": [
         {
-          "market": "2026 Balance of Power: R Senate, D House",
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.72,
-          "cur_price": 0.275,
-          "usdc_size": 13049.24,
+          "avg_price": 0.57,
+          "cur_price": 0.435,
+          "usdc_size": 1300.08,
           "outcome": "No"
         },
         {
-          "market": "2026 Balance of Power: D Senate, D House",
+          "market": "Will Como 1907 win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.37,
-          "cur_price": 0.635,
-          "usdc_size": 1741.65,
+          "avg_price": 0.58,
+          "cur_price": 0.415,
+          "usdc_size": 1283.53,
           "outcome": "No"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.7,
+          "cur_price": 0.315,
+          "usdc_size": 1425.41,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+      "name": "Flaznorp",
+      "score": 41.5,
+      "roi_score": 36.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 81.4,
+      "roi": 4.5,
+      "cash_pnl": 22385.88,
+      "realized_pnl": -747.23,
+      "total_usdc": 43386.66,
+      "trade_count": 500,
+      "market_count": 198,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T11:10:35+00:00",
+      "top_markets": [
+        "European Open: Dino Prizmic vs Damir Dzumhur",
+        "European Open: Martin Damm vs Francisco Cerundolo",
+        "Will Sanfrecce Hiroshima win on 2026-10-21?"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen vs. Arsenal FC end in a draw?",
+          "signal": "ENTER",
+          "avg_price": 0.2499,
+          "cur_price": 0.255,
+          "usdc_size": 23383.54,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.4498,
+          "cur_price": 0.435,
+          "usdc_size": 2808.79,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.4299,
+          "cur_price": 0.415,
+          "usdc_size": 1018.18,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.6992,
+          "cur_price": 0.315,
+          "usdc_size": 6253.44,
+          "outcome": "No"
+        },
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.6068,
+          "cur_price": 0.485,
+          "usdc_size": 3835.63,
+          "outcome": "Andrey Rublev"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5325,
+          "cur_price": 0.435,
+          "usdc_size": 2733.49,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5695,
+          "cur_price": 0.415,
+          "usdc_size": 2362.74,
+          "outcome": "No"
+        },
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.3975,
+          "cur_price": 0.485,
+          "usdc_size": 1331.08,
+          "outcome": "Adrian Mannarino"
         }
       ]
     },
@@ -429,118 +337,181 @@
       "wallet": "0xd3a72382f2c459af33a839866b3f2852e4723362",
       "name": "Pol.1",
       "score": 41.5,
-      "roi_score": 33.2,
+      "roi_score": 33.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.5,
-      "roi": -0.1,
-      "cash_pnl": -17.24,
-      "realized_pnl": -4123.55,
-      "total_usdc": 143635.87,
+      "volume_score": 88.8,
+      "roi": 0.7,
+      "cash_pnl": 58.07,
+      "realized_pnl": -5409.87,
+      "total_usdc": 114414.35,
       "trade_count": 500,
-      "market_count": 11,
+      "market_count": 13,
       "position_count": 12,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:38:29+00:00",
+      "last_active": "2026-10-21T11:10:48+00:00",
       "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "Will the Republicans win the Texas Senate race in 2026?"
       ],
       "signals": [
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8068,
-          "cur_price": 0.7995,
-          "usdc_size": 799.5,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.8,
-          "cur_price": 0.205,
-          "usdc_size": 3180.0,
-          "outcome": "No"
-        },
-        {
-          "market": "2026 Balance of Power: D Senate, D House",
-          "signal": "SKIP",
-          "avg_price": 0.3799,
-          "cur_price": 0.635,
-          "usdc_size": 730.0,
-          "outcome": "No"
-        },
-        {
-          "market": "2026 Balance of Power: R Senate, D House",
-          "signal": "SKIP",
-          "avg_price": 0.7199,
-          "cur_price": 0.275,
-          "usdc_size": 1087.5,
-          "outcome": "No"
+          "signal": "LATE",
+          "avg_price": 0.2012,
+          "cur_price": 0.195,
+          "usdc_size": 780.0,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "name": "VeryLucky888",
-      "score": 40.8,
-      "roi_score": 33.7,
+      "wallet": "0xbc5613462ce3902eea10874a11cf74191f4a8f28",
+      "name": "Saber-greed",
+      "score": 41.2,
+      "roi_score": 35.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 82.3,
-      "roi": 0.5,
-      "cash_pnl": 1119.19,
-      "realized_pnl": 168.06,
-      "total_usdc": 49138.33,
+      "volume_score": 80.6,
+      "roi": 3.3,
+      "cash_pnl": 246.18,
+      "realized_pnl": 0.0,
+      "total_usdc": 39370.89,
       "trade_count": 500,
-      "market_count": 163,
-      "position_count": 500,
+      "market_count": 165,
+      "position_count": 19,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:43:05+00:00",
+      "last_active": "2026-10-21T11:10:21+00:00",
       "top_markets": [
-        "Hornets vs. Nets",
-        "Spread: Nets (-3.5)",
-        "Timberwolves vs. Heat"
+        "Al Diraiyah Saudi Club vs. Al Riyadh Saudi Club: O/U 2.5",
+        "Solana Up or Down - October 21, 2:30AM-2:45AM ET",
+        "Solana Up or Down - October 21, 6:15AM-6:30AM ET"
       ],
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "ENTER",
-          "avg_price": 0.4584,
-          "cur_price": 0.455,
-          "usdc_size": 3987.9,
-          "outcome": "Yes"
+          "signal": "SKIP",
+          "avg_price": 0.5299,
+          "cur_price": 0.435,
+          "usdc_size": 1694.99,
+          "outcome": "No"
+        },
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.5499,
+          "cur_price": 0.485,
+          "usdc_size": 1221.64,
+          "outcome": "Andrey Rublev"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9a5d6661a517f12c7164fc52e8616a38754d4261",
+      "name": "Constancefung",
+      "score": 41.2,
+      "roi_score": 33.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.5,
+      "roi": 0.8,
+      "cash_pnl": 110.24,
+      "realized_pnl": 45.18,
+      "total_usdc": 74632.07,
+      "trade_count": 500,
+      "market_count": 153,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:42:39+00:00",
+      "top_markets": [
+        "Will Enzo Fernandez join Real Madrid?",
+        "Will no Fed rate cuts happen in 2026?",
+        "LoL: Chinese Taipei vs South Korea (BO5) - Asian Games Playoffs"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "name": "VeryLucky888",
+      "score": 40.9,
+      "roi_score": 34.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.8,
+      "roi": 2.3,
+      "cash_pnl": 5598.13,
+      "realized_pnl": -17.41,
+      "total_usdc": 35193.24,
+      "trade_count": 500,
+      "market_count": 195,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T11:09:47+00:00",
+      "top_markets": [
+        "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+        "Will Real Betis Balompi\u00e9 win on 2026-10-21?",
+        "FC Bayern M\u00fcnchen vs. Arsenal FC: O/U 3.5"
+      ],
+      "signals": [
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.6999,
+          "cur_price": 0.315,
+          "usdc_size": 5137.51,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5699,
+          "cur_price": 0.415,
+          "usdc_size": 2279.51,
+          "outcome": "No"
+        },
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.24,
+          "cur_price": 0.485,
+          "usdc_size": 1265.6,
+          "outcome": "Adrian Mannarino"
         }
       ]
     },
     {
       "wallet": "0x8adc5aceb4718b2972e34dfffa45d58b56b5bafc",
       "name": "binkybarnes55",
-      "score": 40.6,
-      "roi_score": 31.9,
+      "score": 40.8,
+      "roi_score": 32.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.8,
-      "roi": -2.2,
-      "cash_pnl": -398.62,
+      "volume_score": 85.0,
+      "roi": -1.2,
+      "cash_pnl": -226.15,
       "realized_pnl": 0.0,
-      "total_usdc": 77411.54,
+      "total_usdc": 70231.9,
       "trade_count": 500,
-      "market_count": 40,
-      "position_count": 7,
+      "market_count": 36,
+      "position_count": 8,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:41:18+00:00",
+      "last_active": "2026-10-21T10:09:11+00:00",
       "top_markets": [
         "Will Manchester City FC win on 2026-10-24?",
         "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
@@ -551,268 +522,28 @@
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.52,
-          "cur_price": 0.455,
-          "usdc_size": 2861.05,
+          "cur_price": 0.435,
+          "usdc_size": 2966.04,
           "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 40.1,
-      "roi_score": 30.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 5.8,
-      "volume_score": 75.3,
-      "roi": -3.9,
-      "cash_pnl": -9761.99,
-      "realized_pnl": -5432.58,
-      "total_usdc": 19555.81,
-      "trade_count": 500,
-      "market_count": 214,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:43:17+00:00",
-      "top_markets": [
-        "Thunder vs. Spurs",
-        "Ethereum Up or Down - October 20, 11:45PM-12:00AM ET",
-        "Cali: Federico Coria vs Nicolas Mejia"
-      ],
-      "signals": [
-        {
-          "market": "2026 Balance of Power: D Senate, D House",
-          "signal": "ENTER",
-          "avg_price": 0.6299,
-          "cur_price": 0.635,
-          "usdc_size": 12366.58,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.793,
-          "cur_price": 0.7995,
-          "usdc_size": 17780.79,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.6731,
-          "cur_price": 0.875,
-          "usdc_size": 8860.44,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.1471,
-          "cur_price": 0.875,
-          "usdc_size": 917.86,
-          "outcome": "No"
-        },
-        {
-          "market": "US announces end of Iranian blockade by October 31, 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.8201,
-          "cur_price": 0.09,
-          "usdc_size": 5349.31,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x843d3865c81b26eb06832e542f26e16eb1390d9e",
-      "name": "tucunreh",
-      "score": 39.3,
-      "roi_score": 32.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.1,
-      "roi": -1.0,
-      "cash_pnl": -101.98,
-      "realized_pnl": 0.0,
-      "total_usdc": 9890.0,
-      "trade_count": 2,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T23:39:45+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8078,
-          "cur_price": 0.7995,
-          "usdc_size": 9788.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x317cae388fff2b8c5029a55fe568093739a0da75",
-      "name": "toss-up",
-      "score": 39.2,
-      "roi_score": 33.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 67.5,
-      "roi": -0.4,
-      "cash_pnl": -28.76,
-      "realized_pnl": 0.0,
-      "total_usdc": 7065.58,
-      "trade_count": 16,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:38:29+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8027,
-          "cur_price": 0.7995,
-          "usdc_size": 7036.8,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa6e88556ccac8ce579f8d3fdfac772dd328349ab",
-      "name": "jctfo",
-      "score": 38.7,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 62.2,
-      "roi": -0.1,
-      "cash_pnl": -4.97,
-      "realized_pnl": 0.0,
-      "total_usdc": 3509.0,
-      "trade_count": 1,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-20T23:34:06+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8006,
-          "cur_price": 0.7995,
-          "usdc_size": 3504.02,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5ee13656f6091c79ffb4f1a8c04562d9fd421294",
-      "name": "OneLiquidOne",
-      "score": 38.6,
-      "roi_score": 33.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 61.7,
-      "roi": -0.2,
-      "cash_pnl": -1.53,
-      "realized_pnl": 0.0,
-      "total_usdc": 3279.09,
-      "trade_count": 15,
-      "market_count": 9,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T02:58:50+00:00",
-      "top_markets": [
-        "No change in the Selic rate after Bank of Brazil's January 2026 meeting?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8007,
-          "cur_price": 0.7995,
-          "usdc_size": 959.47,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7b0b3f3fa5da0f32faa10c189b0c55a9ca169e49",
-      "name": "nnlll",
-      "score": 38.4,
-      "roi_score": 32.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 61.2,
-      "roi": -1.1,
-      "cash_pnl": -34.8,
-      "realized_pnl": 0.0,
-      "total_usdc": 3055.0,
-      "trade_count": 1,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:22:08+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8087,
-          "cur_price": 0.7995,
-          "usdc_size": 3020.19,
-          "outcome": "Yes"
         }
       ]
     },
     {
       "wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
       "name": "nigiri99",
-      "score": 38.3,
-      "roi_score": 23.7,
+      "score": 40.7,
+      "roi_score": 32.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 86.3,
-      "roi": -14.4,
-      "cash_pnl": -43172.26,
-      "realized_pnl": -4.66,
+      "roi": -2.1,
+      "cash_pnl": -5333.55,
+      "realized_pnl": 1120.91,
       "total_usdc": 82922.6,
       "trade_count": 500,
-      "market_count": 98,
-      "position_count": 265,
+      "market_count": 97,
+      "position_count": 228,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
@@ -832,43 +563,43 @@
           "outcome": "Yes"
         },
         {
-          "market": "Will the Republicans win the Texas Senate race in 2026?",
-          "signal": "LATE",
-          "avg_price": 0.3829,
-          "cur_price": 0.365,
-          "usdc_size": 16402.37,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "LATE",
           "avg_price": 0.8634,
           "cur_price": 0.875,
-          "usdc_size": 1278.38,
+          "usdc_size": 1292.98,
           "outcome": "Yes"
         },
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.5299,
-          "cur_price": 0.455,
-          "usdc_size": 38702.08,
+          "cur_price": 0.435,
+          "usdc_size": 40122.35,
           "outcome": "No"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.3829,
+          "cur_price": 0.355,
+          "usdc_size": 15952.99,
+          "outcome": "Yes"
         },
         {
           "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.2284,
           "cur_price": 0.875,
-          "usdc_size": 4156.63,
+          "usdc_size": 3824.1,
           "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.725,
-          "cur_price": 0.125,
-          "usdc_size": 26610.04,
+          "cur_price": 0.115,
+          "usdc_size": 26914.16,
           "outcome": "No"
         },
         {
@@ -898,73 +629,35 @@
       ]
     },
     {
-      "wallet": "0x0af4aae99b519b675b38eb39afc7ffe3ff0a89b4",
-      "name": "Xzibit69",
-      "score": 34.9,
-      "roi_score": 12.8,
+      "wallet": "0x0cef9d1026ee7854971c71c08f98c665dab945c7",
+      "name": "bigphillystyle",
+      "score": 40.2,
+      "roi_score": 36.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.2,
-      "roi": -30.8,
-      "cash_pnl": -4045.51,
-      "realized_pnl": -903.36,
-      "total_usdc": 72140.47,
-      "trade_count": 500,
-      "market_count": 78,
-      "position_count": 46,
+      "volume_score": 68.0,
+      "roi": 4.4,
+      "cash_pnl": 324.06,
+      "realized_pnl": 0.0,
+      "total_usdc": 7487.14,
+      "trade_count": 7,
+      "market_count": 1,
+      "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T00:33:53+00:00",
+      "last_active": "2026-10-21T10:52:17+00:00",
       "top_markets": [
-        "Will Thomas Massie win the 2028 Republican presidential nomination?",
-        "Will Ted Cruz win the 2028 Republican presidential nomination?",
-        "Katie Zacharia out as Press Secretary by December 31?"
+        "2026 Balance of Power: R Senate, R House"
       ],
       "signals": [
         {
-          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-          "signal": "SKIP",
-          "avg_price": 0.687,
-          "cur_price": 0.275,
-          "usdc_size": 1957.5,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x01785bad4fdd1d55e17279c3612fa6516a5598e2",
-      "name": "Asfalto",
-      "score": 33.9,
-      "roi_score": 15.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 69.6,
-      "roi": -27.6,
-      "cash_pnl": -2456.85,
-      "realized_pnl": -241.19,
-      "total_usdc": 9222.21,
-      "trade_count": 21,
-      "market_count": 4,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:09:12+00:00",
-      "top_markets": [
-        "Will any presidential candidate win outright in the first round of the Brazil election?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will the price of Bitcoin be between $90,000 and $92,000 on October 3?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "market": "2026 Balance of Power: R Senate, R House",
           "signal": "LATE",
-          "avg_price": 0.8019,
-          "cur_price": 0.7995,
-          "usdc_size": 6003.59,
+          "avg_price": 0.0814,
+          "cur_price": 0.085,
+          "usdc_size": 7723.03,
           "outcome": "Yes"
         }
       ]
@@ -972,23 +665,23 @@
     {
       "wallet": "0x8ba27b7c9de2b6367f986bff5f9c8049204c1650",
       "name": "",
-      "score": 33.7,
-      "roi_score": 3.9,
+      "score": 36.0,
+      "roi_score": 11.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -44.2,
-      "cash_pnl": -10400.51,
+      "roi": -32.7,
+      "cash_pnl": -10984.57,
       "realized_pnl": -768.06,
-      "total_usdc": 1086502.55,
-      "trade_count": 493,
+      "total_usdc": 1097226.93,
+      "trade_count": 495,
       "market_count": 310,
       "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T00:38:02+00:00",
+      "last_active": "2026-10-21T07:02:14+00:00",
       "top_markets": [
         "Exact Score: Tottenham Hotspur FC 0 - 0 Coventry City FC?",
         "Exact Score: Fulham FC 0 - 0 Hull City AFC?",
@@ -997,55 +690,11 @@
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "LATE",
-          "avg_price": 0.4799,
-          "cur_price": 0.455,
-          "usdc_size": 9503.81,
+          "signal": "SKIP",
+          "avg_price": 0.4697,
+          "cur_price": 0.435,
+          "usdc_size": 18542.58,
           "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-      "score": 33.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 6.2,
-      "volume_score": 100.0,
-      "roi": -95.4,
-      "cash_pnl": -11151621.45,
-      "realized_pnl": 257838.09,
-      "total_usdc": 805105.06,
-      "trade_count": 500,
-      "market_count": 21,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:41:35+00:00",
-      "top_markets": [
-        "Thunder vs. Spurs",
-        "76ers vs. Knicks",
-        "76ers vs. Knicks: O/U 231.5"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "SKIP",
-          "avg_price": 0.5299,
-          "cur_price": 0.455,
-          "usdc_size": 113826.49,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-          "signal": "SKIP",
-          "avg_price": 0.72,
-          "cur_price": 0.275,
-          "usdc_size": 137067.05,
-          "outcome": "No"
         }
       ]
     },
@@ -1053,42 +702,58 @@
       "wallet": "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1",
       "name": "debased",
       "score": 33.3,
-      "roi_score": 5.2,
+      "roi_score": 5.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.5,
-      "roi": -42.2,
-      "cash_pnl": -512655.69,
-      "realized_pnl": 763520.33,
-      "total_usdc": 185731.11,
+      "volume_score": 92.6,
+      "roi": -42.4,
+      "cash_pnl": -512268.4,
+      "realized_pnl": 773148.68,
+      "total_usdc": 190519.04,
       "trade_count": 500,
-      "market_count": 34,
-      "position_count": 316,
+      "market_count": 35,
+      "position_count": 314,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T04:45:57+00:00",
+      "last_active": "2026-10-21T10:02:39+00:00",
       "top_markets": [
         "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
         "Will Rodri win the 2026 Ballon d'Or?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+        "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?"
       ],
       "signals": [
         {
           "market": "2026 Balance of Power: R Senate, R House",
-          "signal": "ENTER",
-          "avg_price": 0.0848,
+          "signal": "LATE",
+          "avg_price": 0.0817,
           "cur_price": 0.085,
-          "usdc_size": 1106.74,
+          "usdc_size": 2995.61,
           "outcome": "Yes"
         },
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "LATE",
           "avg_price": 0.797,
-          "cur_price": 0.7995,
-          "usdc_size": 16362.79,
+          "cur_price": 0.8015,
+          "usdc_size": 16403.72,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.1843,
+          "cur_price": 0.195,
+          "usdc_size": 2725.39,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "LATE",
+          "avg_price": 0.2635,
+          "cur_price": 0.275,
+          "usdc_size": 3365.26,
           "outcome": "Yes"
         },
         {
@@ -1096,7 +761,7 @@
           "signal": "LATE",
           "avg_price": 0.8699,
           "cur_price": 0.875,
-          "usdc_size": 7777.0,
+          "usdc_size": 7865.88,
           "outcome": "Yes"
         },
         {
@@ -1112,7 +777,7 @@
           "signal": "SKIP",
           "avg_price": 0.1013,
           "cur_price": 0.915,
-          "usdc_size": 8887.97,
+          "usdc_size": 7943.54,
           "outcome": "No"
         },
         {
@@ -1127,16 +792,8 @@
           "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
           "signal": "SKIP",
           "avg_price": 0.0575,
-          "cur_price": 0.0425,
-          "usdc_size": 640.84,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.1843,
-          "cur_price": 0.205,
-          "usdc_size": 2865.16,
+          "cur_price": 0.0405,
+          "usdc_size": 588.74,
           "outcome": "Yes"
         },
         {
@@ -1151,78 +808,161 @@
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
           "avg_price": 0.7999,
-          "cur_price": 0.205,
-          "usdc_size": 1766.49,
+          "cur_price": 0.195,
+          "usdc_size": 1788.71,
           "outcome": "No"
         },
         {
           "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
           "signal": "SKIP",
           "avg_price": 0.8799,
-          "cur_price": 0.125,
-          "usdc_size": 1345.05,
+          "cur_price": 0.115,
+          "usdc_size": 1360.43,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xb36cfbf83a716c55507a81ace255480b9ed31077",
-      "name": "20260601",
-      "score": 32.9,
-      "roi_score": 2.3,
+      "wallet": "0x543f6fdd37ca39efd4ee7a98f8b7efeeb8c68323",
+      "name": "24440",
+      "score": 33.1,
+      "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.1,
-      "roi": -46.6,
-      "cash_pnl": -18240.41,
-      "realized_pnl": -8222.57,
-      "total_usdc": 341557.07,
-      "trade_count": 500,
-      "market_count": 68,
-      "position_count": 46,
+      "early_entry_score": 4.7,
+      "volume_score": 99.2,
+      "roi": -74.2,
+      "cash_pnl": -14065.82,
+      "realized_pnl": -9909.22,
+      "total_usdc": 450091.73,
+      "trade_count": 150,
+      "market_count": 53,
+      "position_count": 6,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:42:48+00:00",
+      "last_active": "2026-10-21T11:01:06+00:00",
       "top_markets": [
-        "Will Russia and Ukraine hold any diplomatic meeting by October 31, 2026?",
-        "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "Will there be no change in Fed interest rates after the October 2026 meeting?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x2ed35b0a635ba3a9dbfde7ee9fc7cd3560804589",
-      "name": "porkylover",
-      "score": 32.7,
-      "roi_score": 2.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.7,
-      "roi": -45.6,
-      "cash_pnl": -2817.25,
-      "realized_pnl": -535.32,
-      "total_usdc": 191677.4,
-      "trade_count": 500,
-      "market_count": 1,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:38:33+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+        "Nuggets vs. Clippers",
+        "Tampa Bay Rays vs. Cleveland Guardians",
+        "Counter-Strike: PARIVISION vs BetBoom Team (BO3) - Thunderpick World Championship Group B"
       ],
       "signals": [
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8048,
-          "cur_price": 0.7995,
-          "usdc_size": 3348.24,
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "ENTER",
+          "avg_price": 0.4399,
+          "cur_price": 0.435,
+          "usdc_size": 4887.07,
           "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x86376670b6218cdaba6964bdc0e79d833ee90c86",
+      "name": "Minas74",
+      "score": 32.5,
+      "roi_score": 4.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.3,
+      "roi": -42.7,
+      "cash_pnl": -376.87,
+      "realized_pnl": -2.71,
+      "total_usdc": 72343.36,
+      "trade_count": 500,
+      "market_count": 359,
+      "position_count": 5,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:46:23+00:00",
+      "top_markets": [
+        "Will Gen.G Esports win the LCK 2026 season playoffs?",
+        "Dota 2: Natus Vincere vs LGD Gaming (BO3) - PGL Wallachia Playoffs",
+        "LoL: T1 Academy vs KT Rolster Challengers (BO5) - Asia Masters Playoffs"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "ENTER",
+          "avg_price": 0.4299,
+          "cur_price": 0.435,
+          "usdc_size": 505.81,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe885f33c65fc6c244a297e9df9361b35975995b7",
+      "name": "Bloodygoodrep1",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -98.6,
+      "cash_pnl": -1128056.06,
+      "realized_pnl": -17485.29,
+      "total_usdc": 735381.95,
+      "trade_count": 500,
+      "market_count": 18,
+      "position_count": 39,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T11:09:35+00:00",
+      "top_markets": [
+        "Spread: Sport Lisboa e Benfica (-2.5)",
+        "Will Real Madrid CF win on 2026-10-14?",
+        "Will SSC Napoli win on 2026-10-17?"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5599,
+          "cur_price": 0.435,
+          "usdc_size": 16384.19,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xde3131239a358be036397ee2c152e256e6b3df79",
+      "name": "crisp1973",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.6,
+      "roi": -97.3,
+      "cash_pnl": -1751318.82,
+      "realized_pnl": -23572.33,
+      "total_usdc": 475252.96,
+      "trade_count": 500,
+      "market_count": 19,
+      "position_count": 70,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:04:03+00:00",
+      "top_markets": [
+        "Will FC Nordsj\u00e6lland win on 2026-10-18?",
+        "Spread: SC Freiburg (-1.5)",
+        "Will Br\u00f8ndby IF win on 2026-10-11?"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5499,
+          "cur_price": 0.435,
+          "usdc_size": 49050.55,
+          "outcome": "No"
         }
       ]
     },
@@ -1235,29 +975,29 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -93.6,
-      "cash_pnl": -8236798.04,
+      "roi": -94.0,
+      "cash_pnl": -8273430.36,
       "realized_pnl": -13969.38,
-      "total_usdc": 725838.62,
+      "total_usdc": 715736.0,
       "trade_count": 500,
       "market_count": 10,
       "position_count": 153,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:12:14+00:00",
+      "last_active": "2026-10-21T10:42:41+00:00",
       "top_markets": [
-        "Will FC Barcelona win on 2026-10-20?",
+        "Will Brighton & Hove Albion FC win on 2026-10-25?",
         "Manchester City FC vs. AEK: O/U 4.5",
-        "Will FC Bayern M\u00fcnchen win on 2026-10-21?"
+        "Will FC Barcelona win on 2026-10-20?"
       ],
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.4699,
-          "cur_price": 0.455,
-          "usdc_size": 300463.34,
+          "cur_price": 0.435,
+          "usdc_size": 287256.16,
           "outcome": "Yes"
         }
       ]
@@ -1271,8 +1011,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": -79.2,
-      "cash_pnl": -672497.32,
+      "roi": -78.5,
+      "cash_pnl": -666503.94,
       "realized_pnl": -12064.78,
       "total_usdc": 1759247.79,
       "trade_count": 500,
@@ -1292,116 +1032,369 @@
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.5299,
-          "cur_price": 0.455,
-          "usdc_size": 163319.58,
+          "cur_price": 0.435,
+          "usdc_size": 169312.96,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x9703676286b93c2eca71ca96e8757104519a69c2",
-      "name": "AnonymousUsername",
-      "score": 32.3,
+      "wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
+      "name": "Reformedx",
+      "score": 32.4,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 7.8,
-      "volume_score": 86.2,
-      "roi": -97.8,
-      "cash_pnl": -6458883.92,
-      "realized_pnl": 2457464.61,
-      "total_usdc": 82146.96,
+      "early_entry_score": 8.1,
+      "volume_score": 86.4,
+      "roi": -95.5,
+      "cash_pnl": -706664.94,
+      "realized_pnl": -6088.06,
+      "total_usdc": 84184.83,
       "trade_count": 500,
-      "market_count": 76,
+      "market_count": 54,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:43:08+00:00",
+      "last_active": "2026-10-21T11:01:35+00:00",
       "top_markets": [
-        "Will Real Madrid CF win on 2026-10-21?",
-        "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-        "Will Aston Villa FC win on 2026-10-21?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xd31dbdd92ba14cf25d5756ab04c1c07a302c4567",
-      "name": "chiefphi",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 6.0,
-      "volume_score": 86.2,
-      "roi": -83.9,
-      "cash_pnl": -16248.55,
-      "realized_pnl": -287.99,
-      "total_usdc": 81525.27,
-      "trade_count": 247,
-      "market_count": 90,
-      "position_count": 35,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:18:27+00:00",
-      "top_markets": [
-        "76ers vs. Knicks",
-        "Spread: Bills (-3.5)",
-        "Will SSC Napoli win on 2026-10-17?"
+        "European Open: Botic van de Zandschulp vs Clement Chidekh",
+        "LoL: Team Liquid vs CTBC Flying Oyster (BO1) - Worlds Group Stage",
+        "Will Top Esports win Worlds 2026?"
       ],
       "signals": [
         {
-          "market": "Japan Women's Open: Tereza Valentova vs Lilli Tagger",
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.5399,
-          "cur_price": 0.0385,
-          "usdc_size": 1930.55,
-          "outcome": "Lilli Tagger"
+          "avg_price": 0.52,
+          "cur_price": 0.435,
+          "usdc_size": 2825.0,
+          "outcome": "No"
         },
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.5499,
-          "cur_price": 0.455,
-          "usdc_size": 544.99,
-          "outcome": "No"
+          "avg_price": 0.48,
+          "cur_price": 0.435,
+          "usdc_size": 2175.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Counter-Strike: magic vs TheMongolz (BO3) - 1win Private Club Playoffs",
+          "signal": "SKIP",
+          "avg_price": 0.73,
+          "cur_price": 0.0005,
+          "usdc_size": 1999.0,
+          "outcome": "TheMongolz"
+        }
+      ]
+    },
+    {
+      "wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
+      "name": "timetowander",
+      "score": 32.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.3,
+      "roi": -99.8,
+      "cash_pnl": -2064886.42,
+      "realized_pnl": -4239793.37,
+      "total_usdc": 457090.08,
+      "trade_count": 500,
+      "market_count": 14,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T11:10:33+00:00",
+      "top_markets": [
+        "2026 Balance of Power: D Senate, D House",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "2026 Balance of Power: Other"
+      ],
+      "signals": [
+        {
+          "market": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.1999,
+          "cur_price": 0.0035,
+          "usdc_size": 876.84,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x389b6d0922a5342f07e5c91e9d962a38823f8d69",
+      "name": "dfdffdfdfd",
+      "score": 32.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.8,
+      "roi": -89.0,
+      "cash_pnl": -83330.89,
+      "realized_pnl": -1799.57,
+      "total_usdc": 374054.63,
+      "trade_count": 500,
+      "market_count": 243,
+      "position_count": 104,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T09:50:45+00:00",
+      "top_markets": [
+        "Will Atalanta BC win on 2026-02-14?",
+        "Bitcoin Up or Down - December 26, 1:30PM-1:45PM ET",
+        "Bitcoin Up or Down - December 26, 2:00PM-2:15PM ET"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.4499,
+          "cur_price": 0.435,
+          "usdc_size": 1359.26,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x73bcd24d510ff4e4d5feac6aec763c5511e246ce",
+      "name": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
+      "score": 32.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.7,
+      "roi": -97.1,
+      "cash_pnl": -1580166.33,
+      "realized_pnl": -3135.0,
+      "total_usdc": 326037.48,
+      "trade_count": 500,
+      "market_count": 32,
+      "position_count": 304,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:21:14+00:00",
+      "top_markets": [
+        "Will Club Atl\u00e9tico de Madrid win on 2026-10-20?",
+        "Spread: Fenerbah\u00e7e SK (-1.5)",
+        "Will Como 1907 win on 2026-10-18?"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.45,
+          "cur_price": 0.435,
+          "usdc_size": 23446.5,
+          "outcome": "Yes"
         }
       ]
     },
     {
       "wallet": "0xd29312e2446a746bbd94408e1c475f1ec6d7d683",
       "name": "Kyn008",
-      "score": 31.9,
+      "score": 32.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 94.1,
-      "roi": -90.4,
-      "cash_pnl": -746881.84,
+      "volume_score": 94.9,
+      "roi": -85.3,
+      "cash_pnl": -745474.7,
       "realized_pnl": -0.12,
-      "total_usdc": 229834.59,
+      "total_usdc": 257342.08,
       "trade_count": 500,
-      "market_count": 44,
-      "position_count": 149,
+      "market_count": 49,
+      "position_count": 164,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:36:54+00:00",
+      "last_active": "2026-10-21T10:13:20+00:00",
       "top_markets": [
         "Will FC Barcelona win on 2026-10-20?",
-        "Will FK Bod\u00f8/Glimt win on 2026-10-20?",
-        "Will CA Boca Juniors win on 2026-10-20?"
+        "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+        "Will FK Bod\u00f8/Glimt win on 2026-10-20?"
+      ],
+      "signals": [
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.57,
+          "cur_price": 0.415,
+          "usdc_size": 33703.74,
+          "outcome": "No"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5377,
+          "cur_price": 0.435,
+          "usdc_size": 17402.9,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf1ef8705e9f63c790c6fffd6329aea7011718cd6",
+      "name": "Outsid3rTrading",
+      "score": 32.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.7,
+      "roi": -68.7,
+      "cash_pnl": -668404.92,
+      "realized_pnl": 4068.29,
+      "total_usdc": 249496.87,
+      "trade_count": 500,
+      "market_count": 70,
+      "position_count": 270,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T08:58:29+00:00",
+      "top_markets": [
+        "Spread: East Carolina (-4.5)",
+        "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+        "Will Toulouse FC win on 2026-10-16?"
+      ],
+      "signals": [
+        {
+          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+          "signal": "ENTER",
+          "avg_price": 0.0416,
+          "cur_price": 0.0405,
+          "usdc_size": 647.98,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.8266,
+          "cur_price": 0.915,
+          "usdc_size": 27449.99,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.5644,
+          "cur_price": 0.8015,
+          "usdc_size": 18434.14,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.5707,
+          "cur_price": 0.195,
+          "usdc_size": 3509.95,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.43,
+          "cur_price": 0.635,
+          "usdc_size": 4813.44,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.54,
+          "cur_price": 0.435,
+          "usdc_size": 3954.9,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x853212cd809da6acc458021c106af749b7aa738b",
+      "name": "Mr.Kirk",
+      "score": 32.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.2,
+      "roi": -82.9,
+      "cash_pnl": -117515.74,
+      "realized_pnl": -2908.56,
+      "total_usdc": 266295.6,
+      "trade_count": 500,
+      "market_count": 309,
+      "position_count": 274,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T06:01:51+00:00",
+      "top_markets": [
+        "Lions Team Total: O/U 27.5",
+        "Lions vs. Panthers",
+        "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 3.5"
       ],
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.5343,
-          "cur_price": 0.455,
-          "usdc_size": 6638.07,
+          "avg_price": 0.55,
+          "cur_price": 0.435,
+          "usdc_size": 678.0,
           "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+      "name": "omnibus-076daa",
+      "score": 31.9,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.2,
+      "roi": -96.3,
+      "cash_pnl": -3790054.88,
+      "realized_pnl": -81165.11,
+      "total_usdc": 234247.14,
+      "trade_count": 500,
+      "market_count": 264,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T11:10:53+00:00",
+      "top_markets": [
+        "W35 Loule: Madelief Hageman vs Weronika Falkowska",
+        "Ningbo Open: Leylah Fernandez vs Aliaksandra Sasnovich",
+        "Bruins vs. Stars"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.53,
+          "cur_price": 0.435,
+          "usdc_size": 35487.97,
+          "outcome": "No"
+        },
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.5492,
+          "cur_price": 0.485,
+          "usdc_size": 21949.8,
+          "outcome": "Andrey Rublev"
         }
       ]
     },
@@ -1414,17 +1407,17 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 91.8,
-      "roi": -96.1,
-      "cash_pnl": -48601.31,
+      "roi": -94.8,
+      "cash_pnl": -48663.38,
       "realized_pnl": -1021.24,
-      "total_usdc": 171366.7,
+      "total_usdc": 169696.72,
       "trade_count": 500,
       "market_count": 242,
-      "position_count": 74,
+      "position_count": 76,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:01:15+00:00",
+      "last_active": "2026-10-21T09:18:30+00:00",
       "top_markets": [
         "KBO: LG Twins vs. Hanwha Eagles",
         "San Diego Padres vs. New York Mets",
@@ -1432,116 +1425,20 @@
       ],
       "signals": [
         {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.4399,
+          "cur_price": 0.415,
+          "usdc_size": 628.16,
+          "outcome": "Yes"
+        },
+        {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "ENTER",
+          "signal": "LATE",
           "avg_price": 0.4599,
-          "cur_price": 0.455,
-          "usdc_size": 658.76,
+          "cur_price": 0.435,
+          "usdc_size": 629.8,
           "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
-      "name": "anoin123",
-      "score": 31.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.2,
-      "roi": -65.4,
-      "cash_pnl": -2802082.95,
-      "realized_pnl": 805390.6,
-      "total_usdc": 180397.17,
-      "trade_count": 500,
-      "market_count": 67,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:39:00+00:00",
-      "top_markets": [
-        "Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?",
-        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?",
-        "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?"
-      ],
-      "signals": [
-        {
-          "market": "2026 Balance of Power: R Senate, R House",
-          "signal": "LATE",
-          "avg_price": 0.0807,
-          "cur_price": 0.085,
-          "usdc_size": 1391.57,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.7989,
-          "cur_price": 0.7995,
-          "usdc_size": 6095.65,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US announces end of Iranian blockade by October 31, 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.6834,
-          "cur_price": 0.09,
-          "usdc_size": 207713.42,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2529,
-          "cur_price": 0.7995,
-          "usdc_size": 2493.28,
-          "outcome": "No"
-        },
-        {
-          "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-          "signal": "SKIP",
-          "avg_price": 0.6448,
-          "cur_price": 0.125,
-          "usdc_size": 5421.49,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
-      "name": "omnibus-076daa",
-      "score": 31.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.0,
-      "roi": -98.5,
-      "cash_pnl": -3823455.14,
-      "realized_pnl": -81486.16,
-      "total_usdc": 153580.91,
-      "trade_count": 500,
-      "market_count": 207,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:37:02+00:00",
-      "top_markets": [
-        "Cali: Matias Soto vs Samuel Heredia",
-        "Will Harrogate Town AFC vs. Bury FC end in a draw?",
-        "Cali: Rodrigo Pacheco vs Santiago Rodriguez Taverna"
-      ],
-      "signals": [
-        {
-          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.455,
-          "usdc_size": 34231.76,
-          "outcome": "No"
         }
       ]
     },
@@ -1554,8 +1451,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 90.9,
-      "roi": -96.7,
-      "cash_pnl": -25549.36,
+      "roi": -96.9,
+      "cash_pnl": -25587.59,
       "realized_pnl": -657.9,
       "total_usdc": 150667.94,
       "trade_count": 168,
@@ -1573,10 +1470,10 @@
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.4799,
-          "cur_price": 0.455,
-          "usdc_size": 869.71,
+          "cur_price": 0.435,
+          "usdc_size": 831.48,
           "outcome": "Yes"
         }
       ]
@@ -1590,8 +1487,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 90.3,
-      "roi": -71.0,
-      "cash_pnl": -3155.03,
+      "roi": -72.3,
+      "cash_pnl": -3213.05,
       "realized_pnl": -95.17,
       "total_usdc": 139300.03,
       "trade_count": 372,
@@ -1609,46 +1506,10 @@
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.4699,
-          "cur_price": 0.455,
-          "usdc_size": 1012.62,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9d3baac25cd4d9e9e774aca22c41d141ee46b1e2",
-      "name": "saffa012s5",
-      "score": 31.5,
-      "roi_score": 10.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 60.1,
-      "roi": -34.9,
-      "cash_pnl": -1130.96,
-      "realized_pnl": -43.24,
-      "total_usdc": 2677.51,
-      "trade_count": 500,
-      "market_count": 151,
-      "position_count": 353,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T00:31:33+00:00",
-      "top_markets": [
-        "Al Hilal Saudi Club vs. Al Hazem SC: 1st Half O/U 1.5",
-        "Counter-Strike: fnatic vs Liquid (BO3) - 1win Private Club #2 Playoffs",
-        "Counter-Strike: fnatic vs Liquid - Map 2 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8099,
-          "cur_price": 0.7995,
-          "usdc_size": 2107.32,
+          "cur_price": 0.435,
+          "usdc_size": 968.11,
           "outcome": "Yes"
         }
       ]
@@ -1661,18 +1522,18 @@
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 89.4,
-      "roi": -98.5,
-      "cash_pnl": -1133767.65,
-      "realized_pnl": -24889.96,
-      "total_usdc": 124628.04,
+      "volume_score": 89.3,
+      "roi": -99.1,
+      "cash_pnl": -1137023.04,
+      "realized_pnl": -24893.82,
+      "total_usdc": 122856.47,
       "trade_count": 500,
-      "market_count": 279,
+      "market_count": 278,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:26:38+00:00",
+      "last_active": "2026-10-21T10:11:56+00:00",
       "top_markets": [
         "Leones Negros UDEG vs. Alebrijes de Oaxaca FC: O/U 3.5",
         "Will Club Atletico Los Andes win on 2026-10-17?",
@@ -1683,8 +1544,140 @@
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.5392,
-          "cur_price": 0.455,
-          "usdc_size": 9570.61,
+          "cur_price": 0.435,
+          "usdc_size": 9921.83,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7f2de588e3d990d66fef63bf2378dacc87a139a8",
+      "name": "QQQ777",
+      "score": 31.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.4,
+      "roi": -79.6,
+      "cash_pnl": -397559.4,
+      "realized_pnl": -624247.01,
+      "total_usdc": 123612.97,
+      "trade_count": 500,
+      "market_count": 13,
+      "position_count": 58,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:53:02+00:00",
+      "top_markets": [
+        "Will Biden finish his term?",
+        "Will the Democratic Party control the House after the 2026 Midterm elections?",
+        "Will the Republican Party control the House after the 2026 Midterm elections?"
+      ],
+      "signals": [
+        {
+          "market": "2026 Balance of Power: R Senate, R House",
+          "signal": "ENTER",
+          "avg_price": 0.0873,
+          "cur_price": 0.085,
+          "usdc_size": 3426.53,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.0946,
+          "cur_price": 0.915,
+          "usdc_size": 74433.05,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x08caa55639d19468f24d79a55d892591a0e97895",
+      "name": "SapporoAsahi",
+      "score": 31.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.9,
+      "roi": -95.1,
+      "cash_pnl": -272575.1,
+      "realized_pnl": -995.78,
+      "total_usdc": 101831.48,
+      "trade_count": 500,
+      "market_count": 34,
+      "position_count": 168,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:11:26+00:00",
+      "top_markets": [
+        "Will France win on 2026-10-05?",
+        "Will Manchester City FC win on 2026-10-14?",
+        "Will Newcastle United FC win on 2026-10-12?"
+      ],
+      "signals": [
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.7,
+          "cur_price": 0.315,
+          "usdc_size": 9316.0,
+          "outcome": "No"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5699,
+          "cur_price": 0.435,
+          "usdc_size": 4757.09,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc9228fb6f7ea5da331a879e372b48db824452618",
+      "name": "Wagienomics",
+      "score": 31.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.3,
+      "roi": -98.8,
+      "cash_pnl": -613582.36,
+      "realized_pnl": 139.07,
+      "total_usdc": 108303.82,
+      "trade_count": 500,
+      "market_count": 67,
+      "position_count": 384,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:57:17+00:00",
+      "top_markets": [
+        "Counter-Strike: Aurora Gaming vs Team Falcons - Map 2 Winner",
+        "Will Club Atl\u00e9tico de Madrid win on 2026-10-20?",
+        "Will Atalanta BC win on 2026-10-12?"
+      ],
+      "signals": [
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.45,
+          "cur_price": 0.435,
+          "usdc_size": 1305.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.7,
+          "cur_price": 0.315,
+          "usdc_size": 2055.0,
           "outcome": "No"
         }
       ]
@@ -1698,8 +1691,8 @@
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 87.2,
-      "roi": -78.6,
-      "cash_pnl": -3712.49,
+      "roi": -79.6,
+      "cash_pnl": -3756.79,
       "realized_pnl": 148.16,
       "total_usdc": 93673.16,
       "trade_count": 500,
@@ -1717,46 +1710,98 @@
       "signals": [
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "LATE",
+          "signal": "SKIP",
           "avg_price": 0.4699,
-          "cur_price": 0.455,
-          "usdc_size": 1007.83,
+          "cur_price": 0.435,
+          "usdc_size": 963.52,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
-      "name": "NM-P",
-      "score": 31.2,
+      "wallet": "0x9703676286b93c2eca71ca96e8757104519a69c2",
+      "name": "AnonymousUsername",
+      "score": 31.1,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 6.4,
-      "volume_score": 77.7,
-      "roi": -96.9,
-      "cash_pnl": -871729.31,
-      "realized_pnl": 25251.0,
-      "total_usdc": 26754.03,
+      "early_entry_score": 0.0,
+      "volume_score": 85.8,
+      "roi": -96.6,
+      "cash_pnl": -6413675.61,
+      "realized_pnl": 2458565.8,
+      "total_usdc": 77784.27,
       "trade_count": 500,
-      "market_count": 114,
+      "market_count": 47,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:43:05+00:00",
+      "last_active": "2026-10-21T11:10:33+00:00",
       "top_markets": [
-        "Spread: Hornets (-1.5)",
-        "Will Como 1907 win on 2026-10-21?",
-        "Thunder vs. Spurs: O/U 231.5"
+        "Will Real Madrid CF win on 2026-10-21?",
+        "Will FC Internazionale Milano win on 2026-10-21?",
+        "Will Manchester United FC win on 2026-10-21?"
       ],
       "signals": [
         {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.7,
+          "cur_price": 0.315,
+          "usdc_size": 19392.88,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.63,
+          "cur_price": 0.355,
+          "usdc_size": 16125.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd31dbdd92ba14cf25d5756ab04c1c07a302c4567",
+      "name": "chiefphi",
+      "score": 31.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 86.2,
+      "roi": -92.2,
+      "cash_pnl": -16854.14,
+      "realized_pnl": -287.99,
+      "total_usdc": 81554.8,
+      "trade_count": 249,
+      "market_count": 90,
+      "position_count": 34,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T07:27:26+00:00",
+      "top_markets": [
+        "76ers vs. Knicks",
+        "Spread: Bills (-3.5)",
+        "Will SSC Napoli win on 2026-10-17?"
+      ],
+      "signals": [
+        {
+          "market": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+          "signal": "SKIP",
+          "avg_price": 0.25,
+          "cur_price": 0.485,
+          "usdc_size": 690.0,
+          "outcome": "Adrian Mannarino"
+        },
+        {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.5233,
-          "cur_price": 0.455,
-          "usdc_size": 2861.25,
+          "avg_price": 0.5499,
+          "cur_price": 0.435,
+          "usdc_size": 564.99,
           "outcome": "No"
         }
       ]
@@ -1771,7 +1816,7 @@
       "early_entry_score": 0.0,
       "volume_score": 85.6,
       "roi": -96.6,
-      "cash_pnl": -67558.45,
+      "cash_pnl": -67526.45,
       "realized_pnl": 53.71,
       "total_usdc": 75107.53,
       "trade_count": 500,
@@ -1791,116 +1836,141 @@
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.52,
-          "cur_price": 0.455,
-          "usdc_size": 545.0,
+          "cur_price": 0.435,
+          "usdc_size": 565.0,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
-      "name": "Reformedx",
-      "score": 31.1,
+      "wallet": "0x4d91ed30d51b755e6eac5f302b407fa2f1c016ab",
+      "name": "nozarocz",
+      "score": 31.0,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.6,
-      "roi": -97.2,
-      "cash_pnl": -712272.39,
-      "realized_pnl": -6088.71,
-      "total_usdc": 75177.25,
+      "volume_score": 85.4,
+      "roi": -96.0,
+      "cash_pnl": -51294.19,
+      "realized_pnl": -1305.82,
+      "total_usdc": 73640.57,
       "trade_count": 500,
-      "market_count": 47,
+      "market_count": 141,
+      "position_count": 122,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T09:42:36+00:00",
+      "top_markets": [
+        "LoL: Natus Vincere vs JD Gaming - Game 2 Winner",
+        "Tampa Bay Rays vs. New York Yankees",
+        "LoL: Maryville University vs Cupid Esports - Game 2 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.1499,
+          "cur_price": 0.195,
+          "usdc_size": 527.35,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xaacac528e8af87ca25809824b384e169b558f5d5",
+      "name": "testyeagles",
+      "score": 30.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.3,
+      "roi": -99.1,
+      "cash_pnl": -285057.92,
+      "realized_pnl": 3064.54,
+      "total_usdc": 49131.7,
+      "trade_count": 500,
+      "market_count": 189,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:40:56+00:00",
+      "last_active": "2026-10-21T11:07:57+00:00",
       "top_markets": [
-        "European Open: Botic van de Zandschulp vs Clement Chidekh",
-        "LoL: Team Liquid vs CTBC Flying Oyster (BO1) - Worlds Group Stage",
-        "Will Top Esports win Worlds 2026?"
+        "Will Sanfrecce Hiroshima win on 2026-10-21?",
+        "Hornets vs. Nets",
+        "Thunder vs. Spurs"
       ],
       "signals": [
         {
-          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-          "signal": "LATE",
-          "avg_price": 0.48,
-          "cur_price": 0.455,
-          "usdc_size": 2275.0,
+          "market": "Will FC Bayern M\u00fcnchen vs. Arsenal FC end in a draw?",
+          "signal": "SKIP",
+          "avg_price": 0.35,
+          "cur_price": 0.255,
+          "usdc_size": 930.83,
           "outcome": "Yes"
         },
         {
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
-          "avg_price": 0.52,
-          "cur_price": 0.455,
-          "usdc_size": 2725.0,
-          "outcome": "No"
+          "avg_price": 0.35,
+          "cur_price": 0.435,
+          "usdc_size": 1073.02,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x4868c31e81040e002b41984842b84bae8923a1c1",
-      "name": "alex20011",
-      "score": 30.9,
+      "wallet": "0xcf7379b4b891c06d88807f6f70efa75378120215",
+      "name": "NM-P",
+      "score": 30.6,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.9,
-      "roi": -99.6,
-      "cash_pnl": -61741.97,
-      "realized_pnl": -9580.84,
-      "total_usdc": 60185.46,
+      "volume_score": 81.2,
+      "roi": -95.2,
+      "cash_pnl": -863913.31,
+      "realized_pnl": 15711.78,
+      "total_usdc": 42183.07,
       "trade_count": 500,
-      "market_count": 341,
+      "market_count": 102,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:38:29+00:00",
+      "last_active": "2026-10-21T11:10:26+00:00",
       "top_markets": [
-        "Will Chiang Wan-an win the next Taipei Mayor election?",
-        "Will Puma Shen win the next Taipei Mayor election?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xbf29346de292da53f8ff121dff886bef82f03f46",
-      "name": "petersohn",
-      "score": 30.9,
-      "roi_score": 1.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.6,
-      "roi": -48.5,
-      "cash_pnl": -1730.89,
-      "realized_pnl": -183.83,
-      "total_usdc": 39259.53,
-      "trade_count": 500,
-      "market_count": 123,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-21T05:27:26+00:00",
-      "top_markets": [
-        "Will Core PCE YoY be 3.4% in August?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Neymar play in the World Cup?"
+        "Hornets vs. Nets",
+        "Real Betis Balompi\u00e9 vs. Feyenoord Rotterdam: O/U 3.5",
+        "Will Aston Villa FC win on 2026-10-21?"
       ],
       "signals": [
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.8049,
-          "cur_price": 0.7995,
-          "usdc_size": 1829.55,
-          "outcome": "Yes"
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5383,
+          "cur_price": 0.435,
+          "usdc_size": 4378.75,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5594,
+          "cur_price": 0.415,
+          "usdc_size": 4398.98,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.7079,
+          "cur_price": 0.315,
+          "usdc_size": 2979.33,
+          "outcome": "No"
         }
       ]
     },
@@ -1914,7 +1984,7 @@
       "early_entry_score": 0.0,
       "volume_score": 81.1,
       "roi": -68.5,
-      "cash_pnl": -12978.52,
+      "cash_pnl": -12971.65,
       "realized_pnl": -12.82,
       "total_usdc": 41639.82,
       "trade_count": 23,
@@ -1934,71 +2004,183 @@
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.5299,
-          "cur_price": 0.455,
-          "usdc_size": 514.15,
+          "cur_price": 0.435,
+          "usdc_size": 533.02,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
-      "name": "Cannae",
-      "score": 30.6,
+      "wallet": "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add",
+      "name": "GC-P",
+      "score": 30.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.0,
-      "roi": -100.0,
-      "cash_pnl": -8488016.4,
-      "realized_pnl": -2766.8,
-      "total_usdc": 41372.79,
+      "volume_score": 80.2,
+      "roi": -94.5,
+      "cash_pnl": -888996.44,
+      "realized_pnl": 136299.98,
+      "total_usdc": 36968.87,
       "trade_count": 500,
-      "market_count": 102,
+      "market_count": 95,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:43:05+00:00",
+      "last_active": "2026-10-21T11:10:26+00:00",
       "top_markets": [
-        "Will Arsenal FC win on 2026-10-21?",
-        "Will Real Madrid CF win on 2026-10-25?",
-        "Will CD Guadalajara win on 2026-10-20?"
+        "Will FC Bayern M\u00fcnchen vs. Arsenal FC end in a draw?",
+        "Real Betis Balompi\u00e9 vs. Feyenoord Rotterdam: O/U 3.5",
+        "Aston Villa FC vs. Viking FK: O/U 3.5"
       ],
-      "signals": []
+      "signals": [
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.43,
+          "cur_price": 0.415,
+          "usdc_size": 3429.72,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "LATE",
+          "avg_price": 0.4551,
+          "cur_price": 0.435,
+          "usdc_size": 1468.12,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5454,
+          "cur_price": 0.435,
+          "usdc_size": 5658.75,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Como 1907 win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.5636,
+          "cur_price": 0.415,
+          "usdc_size": 5111.47,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Arsenal FC win on 2026-10-21?",
+          "signal": "SKIP",
+          "avg_price": 0.7008,
+          "cur_price": 0.315,
+          "usdc_size": 4992.98,
+          "outcome": "No"
+        }
+      ]
     },
     {
-      "wallet": "0x4aefed77846f1b884bcbfb9e63acb351c2be9337",
-      "name": "P1kaso",
-      "score": 30.3,
+      "wallet": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
+      "name": "SnakeBall",
+      "score": 30.5,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.9,
-      "roi": -51.9,
-      "cash_pnl": -68090.22,
-      "realized_pnl": 15946.58,
-      "total_usdc": 27590.98,
+      "volume_score": 80.1,
+      "roi": -97.9,
+      "cash_pnl": -519842.32,
+      "realized_pnl": -653.28,
+      "total_usdc": 36827.53,
       "trade_count": 500,
-      "market_count": 30,
-      "position_count": 234,
+      "market_count": 264,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T05:39:03+00:00",
+      "last_active": "2026-10-21T11:10:39+00:00",
       "top_markets": [
-        "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-        "Paris Saint-Germain FC vs. FC Barcelona: Both Teams to Score",
-        "Will Real Madrid CF win on 2026-10-25?"
+        "Khankendi FK vs. Energetik Mingechevir: Energetik Mingechevir O/U 0.5",
+        "Qingdao Eagles vs. Liaoning Flying Leopards",
+        "Ryukyu Golden Kings vs. Altiri Chiba"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+      "name": "donthackme",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.0,
+      "roi": -52.3,
+      "cash_pnl": -73914.98,
+      "realized_pnl": 566726.43,
+      "total_usdc": 36190.04,
+      "trade_count": 500,
+      "market_count": 280,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T11:10:51+00:00",
+      "top_markets": [
+        "Will the highest temperature in San Francisco be between 66-67\u00b0F on October 22?",
+        "Will the highest temperature in Hong Kong be 31\u00b0C on October 22?",
+        "Will the highest temperature in San Francisco be between 70-71\u00b0F on October 22?"
       ],
       "signals": [
         {
-          "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.53,
-          "cur_price": 0.455,
-          "usdc_size": 807.68,
+          "avg_price": 0.0312,
+          "cur_price": 0.8015,
+          "usdc_size": 2200.49,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3d7d0ba6c4cb6608e9b2ae9a7c6b4d822c6510fc",
+      "name": "poposub",
+      "score": 30.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": -85.6,
+      "cash_pnl": -33318.58,
+      "realized_pnl": 15652.46,
+      "total_usdc": 30166.59,
+      "trade_count": 500,
+      "market_count": 266,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-21T10:48:42+00:00",
+      "top_markets": [
+        "Will Levante UD win on 2026-10-12?",
+        "Will FC Augsburg win on 2026-10-10?",
+        "Will FC Bayern M\u00fcnchen win on 2026-10-10?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.8099,
+          "cur_price": 0.195,
+          "usdc_size": 1610.0,
+          "outcome": "No"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.7199,
+          "cur_price": 0.275,
+          "usdc_size": 651.77,
           "outcome": "No"
         }
       ]
@@ -2006,23 +2188,23 @@
     {
       "wallet": "0xf65e5c379c826e8bbe3f6f4922907b9a643ec9ba",
       "name": "roadtoscars",
-      "score": 29.7,
+      "score": 29.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 71.7,
-      "roi": -76.1,
-      "cash_pnl": -3268.14,
+      "volume_score": 72.7,
+      "roi": -53.6,
+      "cash_pnl": -3240.98,
       "realized_pnl": -73.93,
-      "total_usdc": 12135.37,
-      "trade_count": 92,
-      "market_count": 38,
-      "position_count": 10,
+      "total_usdc": 13931.9,
+      "trade_count": 98,
+      "market_count": 41,
+      "position_count": 13,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-21T01:45:29+00:00",
+      "last_active": "2026-10-21T10:17:39+00:00",
       "top_markets": [
         "Will CA San Telmo vs. CA Defensores de Belgrano end in a draw?",
         "Will Paris FC win on 2026-10-18?",
@@ -2033,8 +2215,8 @@
           "market": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
           "signal": "SKIP",
           "avg_price": 0.5299,
-          "cur_price": 0.455,
-          "usdc_size": 1028.3,
+          "cur_price": 0.435,
+          "usdc_size": 1066.04,
           "outcome": "No"
         }
       ]
@@ -2044,142 +2226,142 @@
     {
       "id": "0x6c99b60b726fcb7e4fdeecc1b4fbbd467fef8e984dfc6642abd0b675629a7eb3",
       "question": "Will FC Bayern M\u00fcnchen win on 2026-10-21?",
-      "volume": "747432.4191249998",
-      "liquidity": "400414.9936",
+      "volume": "936673.3481489999",
+      "liquidity": "545039.2165",
       "end_date": "2026-10-21T19:00:00Z"
-    },
-    {
-      "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
-      "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "volume": "23926830.330259",
-      "liquidity": "512979.46761",
-      "end_date": "2026-10-05T03:59:00Z"
     },
     {
       "id": "0xc5eae79d1ffe716572353962eb926b1e3964c500a4880a7a94f58408218ee76b",
       "question": "2026 Balance of Power: R Senate, R House",
-      "volume": "8369091.072984",
-      "liquidity": "3801485.9348",
+      "volume": "8574739.63989",
+      "liquidity": "3831567.5412",
       "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
+      "question": "2026 Balance of Power: R Senate, D House",
+      "volume": "4659104.699049999",
+      "liquidity": "2682905.7582",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+      "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "volume": "23975418.858345997",
+      "liquidity": "631204.85374",
+      "end_date": "2026-10-05T03:59:00Z"
     },
     {
       "id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
       "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "volume": "27570723.368006997",
-      "liquidity": "542028.0372",
+      "volume": "27643563.700650997",
+      "liquidity": "591735.7073",
       "end_date": "2026-10-05T03:59:00Z"
     },
     {
       "id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
       "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "volume": "14908749.464837002",
-      "liquidity": "774622.1822",
+      "volume": "15021526.772935001",
+      "liquidity": "695727.8125",
       "end_date": "2026-10-29T03:59:00Z"
     },
     {
-      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
-      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-      "volume": "33181139.170306",
-      "liquidity": "457217.65858",
-      "end_date": "2027-05-30T23:59:00Z"
+      "id": "0x43bb68fc1b7e002559026c871d07b4d7e93d03beec11a986abdd950a0f4eaf1c",
+      "question": "Will Arsenal FC win on 2026-10-21?",
+      "volume": "573384.3573820001",
+      "liquidity": "463893.8378",
+      "end_date": "2026-10-21T19:00:00Z"
     },
     {
       "id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
       "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "volume": "9329966.152181001",
-      "liquidity": "659379.867",
+      "volume": "9510629.937709",
+      "liquidity": "709386.4277",
       "end_date": "2026-10-28T03:59:00Z"
-    },
-    {
-      "id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
-      "question": "2026 Balance of Power: R Senate, D House",
-      "volume": "4368742.900965",
-      "liquidity": "2576633.8038",
-      "end_date": "2026-11-04T04:59:00Z"
     },
     {
       "id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
       "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "volume": "11469480.558863001",
-      "liquidity": "949699.9003",
+      "volume": "11560220.557085998",
+      "liquidity": "803234.9258",
       "end_date": "2026-10-29T03:59:00Z"
     },
     {
-      "id": "0x9cf563d7b55aa9aa876d5d7e55126347eee473f0ae56d799e325fdef2bf25297",
-      "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
-      "volume": "8878817.497278001",
-      "liquidity": "1249456.21979",
-      "end_date": "2026-10-29T03:59:00Z"
+      "id": "0xb4d88924fa5c7ad311444e584ff46da4f0f4c0fa50cc6446c3f543e6b0798436",
+      "question": "Will Como 1907 win on 2026-10-21?",
+      "volume": "439512.61417000013",
+      "liquidity": "393571.3791",
+      "end_date": "2026-10-21T16:45:00Z"
     },
     {
-      "id": "0x3e6fa8fa9e83f55660ccbcbc605d4c4aef574c0cd97a5163fe8f2dbf439ec177",
-      "question": "Japan Women's Open: Tereza Valentova vs Lilli Tagger",
-      "volume": "346075.20900399995",
-      "liquidity": "269332.36259",
-      "end_date": "2026-10-28T04:00:00Z"
+      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
+      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+      "volume": "33280302.441306002",
+      "liquidity": "472232.12241",
+      "end_date": "2027-05-30T23:59:00Z"
     },
     {
-      "id": "0x87091dc5932f015d80c40e71e47cb043c3f8b6098484eb5bc3943cf35ee9afc1",
-      "question": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-      "volume": "4731867.43529",
-      "liquidity": "144929.39863",
-      "end_date": "2027-01-01T04:59:00Z"
+      "id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+      "question": "2026 Balance of Power: D Senate, D House",
+      "volume": "6341069.648094",
+      "liquidity": "3453722.6426",
+      "end_date": "2026-11-04T04:59:00Z"
     },
     {
       "id": "0x94521176f57d2ce81dde01e0b7699ca4279423042d37ed53908f0c8bfefe7e14",
       "question": "Will the Republicans win the Texas Senate race in 2026?",
-      "volume": "2605566.3140390003",
-      "liquidity": "520196.8076",
+      "volume": "2702566.5220800014",
+      "liquidity": "455445.3331",
       "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0xea1bb1f400b69709adf725538d8d5d96b374cef9c247d7e70795cc8fc5afd4ca",
+      "question": "Counter-Strike: magic vs TheMongolz (BO3) - 1win Private Club Playoffs",
+      "volume": "374991.465729",
+      "liquidity": "826890.78119",
+      "end_date": "2026-10-21T15:10:00Z"
+    },
+    {
+      "id": "0x9cf563d7b55aa9aa876d5d7e55126347eee473f0ae56d799e325fdef2bf25297",
+      "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+      "volume": "8947979.737944",
+      "liquidity": "1253533.88034",
+      "end_date": "2026-10-29T03:59:00Z"
+    },
+    {
+      "id": "0xed632f125120288fd153f59a4424a2357814ee95f01d36016a7ccbd28b8bd7fd",
+      "question": "Will FC Bayern M\u00fcnchen vs. Arsenal FC end in a draw?",
+      "volume": "312555.12078700005",
+      "liquidity": "860653.3689",
+      "end_date": "2026-10-21T19:00:00Z"
+    },
+    {
+      "id": "0x87091dc5932f015d80c40e71e47cb043c3f8b6098484eb5bc3943cf35ee9afc1",
+      "question": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+      "volume": "4794610.394029001",
+      "liquidity": "141599.39234",
+      "end_date": "2027-01-01T04:59:00Z"
     },
     {
       "id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
       "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "volume": "11111705.450399004",
-      "liquidity": "3143279.8948",
+      "volume": "11153018.526543004",
+      "liquidity": "3406520.2579",
       "end_date": "2026-11-04T04:59:00Z"
     },
     {
       "id": "0x282ce6c97ce923e33bbe05eaa72d64d1fa9179e72f7a6de7cc30840106d5fb39",
       "question": "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
-      "volume": "1076984.739396",
-      "liquidity": "359128.5508",
+      "volume": "1081114.742297",
+      "liquidity": "347315.1821",
       "end_date": "2027-05-30T23:59:00Z"
     },
     {
-      "id": "0x04fb634139d4654febf4b62c425b209806e06d9eff93ac2e7c5301ecdaf5e4ca",
-      "question": "US x Iran ceasefire continues through October 22?",
-      "volume": "1405574.822045",
-      "liquidity": "107974.54201",
-      "end_date": "2026-10-23T03:59:00Z"
-    },
-    {
-      "id": "0x047636a384908c0453899b8510cd3f48cd8edf575e89fc135aad31be722ecb3a",
-      "question": "Will Club Brugge win the 2026-27 UEFA Champions League Championship?",
-      "volume": "690985.192419",
-      "liquidity": "194036.07248",
-      "end_date": "2027-06-20T03:59:00Z"
-    },
-    {
-      "id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
-      "question": "2026 Balance of Power: D Senate, D House",
-      "volume": "6138377.597206",
-      "liquidity": "3155726.1568",
-      "end_date": "2026-11-04T04:59:00Z"
-    },
-    {
-      "id": "0xc89266786402aaabe78111eb91c6764d86857bbc4427c82b91d60a5ef69a70d0",
-      "question": "Will Erling Haaland win the 2026 Ballon d'Or?",
-      "volume": "3510988.0681670005",
-      "liquidity": "440027.10722",
-      "end_date": "2027-01-01T04:59:00Z"
-    },
-    {
-      "id": "0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271",
-      "question": "US announces end of Iranian blockade by October 31, 2026?",
-      "volume": "5590079.61436",
-      "liquidity": "83541.0483",
-      "end_date": "2026-11-01T03:59:00Z"
+      "id": "0xbadf0d9449844f65408e9b7aefd4090fb78ff0795529165bb32ed55d6bd12b7b",
+      "question": "Almaty Open: Adrian Mannarino vs Andrey Rublev",
+      "volume": "228745.99223499995",
+      "liquidity": "157532.0805",
+      "end_date": "2026-10-28T06:00:00Z"
     }
   ]
 }
