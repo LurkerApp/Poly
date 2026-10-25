@@ -1,671 +1,381 @@
 {
-  "last_updated": "2026-10-25T21:04:47.671304+00:00",
+  "last_updated": "2026-10-25T23:27:18.371156+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x8c277fca9897652a0d7b5ea3794fc86d72699d9b",
-      "name": "Arbsilva",
-      "score": 45.1,
-      "roi_score": 50.0,
+      "wallet": "0x2e7bf3e7b8ba0351b737897197fd5cc34fbfbd8c",
+      "name": "eventalpha26",
+      "score": 62.5,
+      "roi_score": 100.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 76.3,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 22221.96,
-      "trade_count": 24,
+      "volume_score": 100.0,
+      "roi": 178.7,
+      "cash_pnl": 8134.29,
+      "realized_pnl": 751000.44,
+      "total_usdc": 1357623.45,
+      "trade_count": 500,
       "market_count": 2,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:55:29+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Romeu Zema win the 2026 Brazilian presidential election?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xc8b9a30184244d427169cf62485dde6041b2b836",
-      "name": "SnowLover7",
-      "score": 44.9,
-      "roi_score": 44.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.4,
-      "roi": 16.7,
-      "cash_pnl": 56100.96,
-      "realized_pnl": 3636.72,
-      "total_usdc": 142538.88,
-      "trade_count": 500,
-      "market_count": 48,
-      "position_count": 126,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:32+00:00",
-      "top_markets": [
-        "Will Iliana Iotova win the 2026 Bulgarian presidential first round by less than 10%?",
-        "Will Iliana Iotova win the 2026 Bulgarian presidential first round by at least 40%?",
-        "Will Andrey Gyurov win the 2026 Bulgarian presidential first round by 20%-30%?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.333,
-          "cur_price": 0.6605,
-          "usdc_size": 5002.5,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x4b906854312130e0a5bb5d72b7877676841ed4b4",
-      "name": "Mendiguin",
-      "score": 43.5,
-      "roi_score": 50.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 60.3,
-      "roi": null,
-      "cash_pnl": 0,
-      "realized_pnl": 0,
-      "total_usdc": 2739.42,
-      "trade_count": 14,
-      "market_count": 1,
-      "position_count": 0,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:55:05+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
-      "name": "mr.ozi",
-      "score": 43.3,
-      "roi_score": 38.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.6,
-      "roi": 7.1,
-      "cash_pnl": 32173.7,
-      "realized_pnl": 8070.24,
-      "total_usdc": 217312.77,
-      "trade_count": 500,
-      "market_count": 19,
-      "position_count": 25,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:48+00:00",
-      "top_markets": [
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
-        "Will Benjamin Netanyahu be the next Prime Minister of Israel?"
-      ],
-      "signals": [
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2709,
-          "cur_price": 0.345,
-          "usdc_size": 17913.81,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.3152,
-          "cur_price": 0.6605,
-          "usdc_size": 10425.01,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6640bd87f6e4b6e8d62457448bd1b3a4711a2202",
-      "name": "Jellow2",
-      "score": 42.7,
-      "roi_score": 35.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 96.5,
-      "roi": 2.6,
-      "cash_pnl": 2959.96,
-      "realized_pnl": -69.12,
-      "total_usdc": 313959.07,
-      "trade_count": 500,
-      "market_count": 42,
-      "position_count": 23,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:00:29+00:00",
-      "top_markets": [
-        "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-        "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2413,
-          "cur_price": 0.6605,
-          "usdc_size": 2744.51,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2094,
-          "cur_price": 0.345,
-          "usdc_size": 1300.65,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x3c918a8ef8c379304f744592120cbb4d76149af7",
-      "name": "Vilgefortz",
-      "score": 42.6,
-      "roi_score": 33.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.6,
-      "cash_pnl": 1978.36,
-      "realized_pnl": 6699.11,
-      "total_usdc": 1377092.13,
-      "trade_count": 500,
-      "market_count": 13,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:59:32+00:00",
-      "top_markets": [
-        "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "Will the U.S. invade Iran before 2027?",
-        "Will the Republicans win the Texas governor race in 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.8053,
-          "cur_price": 0.6605,
-          "usdc_size": 16010.24,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xd86d87914387111b47355e87aca7c032dbe5648d",
-      "name": "balerinacapuchina",
-      "score": 41.7,
-      "roi_score": 32.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.2,
-      "roi": -0.7,
-      "cash_pnl": -1102.77,
-      "realized_pnl": 581.38,
-      "total_usdc": 204809.68,
-      "trade_count": 500,
-      "market_count": 91,
-      "position_count": 104,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:02:54+00:00",
-      "top_markets": [
-        "Will Thomas Massie be the Republican nominee for KY-04?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Cori Bush be the Democratic nominee for MO-01?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2382,
-          "cur_price": 0.6605,
-          "usdc_size": 7055.85,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2192,
-          "cur_price": 0.345,
-          "usdc_size": 1736.65,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc7285a98c485b4350ce50fa0b67f067693de3e5b",
-      "name": "0xc7285A98C485b4350cE50fA0B67f067693dE3E5b-1768074690253",
-      "score": 41.6,
-      "roi_score": 30.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -4.7,
-      "cash_pnl": -2191.58,
-      "realized_pnl": 3154.26,
-      "total_usdc": 1198166.75,
-      "trade_count": 273,
-      "market_count": 121,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:32+00:00",
-      "top_markets": [
-        "2026 Balance of Power: D Senate, D House",
-        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.669,
-          "cur_price": 0.6605,
-          "usdc_size": 14653.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
-      "name": "Gaditima",
-      "score": 40.6,
-      "roi_score": 32.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 83.0,
-      "roi": -1.2,
-      "cash_pnl": -4069.8,
-      "realized_pnl": -26923.02,
-      "total_usdc": 53463.72,
-      "trade_count": 500,
-      "market_count": 61,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:04:06+00:00",
-      "top_markets": [
-        "Will Real Madrid CF win on 2026-10-25?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7193,
-          "cur_price": 0.6605,
-          "usdc_size": 13674.39,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Real Madrid CF win on 2026-10-25?",
-          "signal": "SKIP",
-          "avg_price": 0.2273,
-          "cur_price": 0.425,
-          "usdc_size": 5494.94,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2584,
-          "cur_price": 0.345,
-          "usdc_size": 3357.68,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will FC Barcelona win on 2026-10-25?",
-          "signal": "SKIP",
-          "avg_price": 0.6392,
-          "cur_price": 0.325,
-          "usdc_size": 1890.27,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-          "signal": "SKIP",
-          "avg_price": 0.8327,
-          "cur_price": 0.1325,
-          "usdc_size": 4776.15,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x58f108ed361733f3c871172b7d2b67ce4a16abdd",
-      "name": "",
-      "score": 40.4,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.4,
-      "roi": 0.1,
-      "cash_pnl": 3.29,
-      "realized_pnl": 0.0,
-      "total_usdc": 29516.94,
-      "trade_count": 21,
-      "market_count": 3,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:00:05+00:00",
-      "top_markets": [
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Fl\u00e1vio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6662,
-          "cur_price": 0.6605,
-          "usdc_size": 3034.4,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2c45f2be0c74bf01580a4b558bb26979d6e64790",
-      "name": "0x2C45f2bE0c74bf01580A4b558bb26979D6e64790-1758033737214",
-      "score": 40.4,
-      "roi_score": 33.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.0,
-      "roi": 0.5,
-      "cash_pnl": 3.96,
-      "realized_pnl": 0.0,
-      "total_usdc": 27703.77,
-      "trade_count": 500,
-      "market_count": 382,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:57:27+00:00",
-      "top_markets": [
-        "Newcastle United Jets FC vs. Central Coast Mariners FC: O/U 2.5",
-        "Will the highest temperature in Seoul be 20\u00b0C or higher on April 26?",
-        "Will the lowest temperature in Seoul be 10\u00b0C on April 27?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6638,
-          "cur_price": 0.6605,
-          "usdc_size": 854.06,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2affb40d5228558ce1c35a832687b8c46e22411f",
-      "name": "potro",
-      "score": 40.4,
-      "roi_score": 35.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 72.8,
-      "roi": 3.3,
-      "cash_pnl": 345.75,
-      "realized_pnl": 0.0,
-      "total_usdc": 14111.55,
-      "trade_count": 62,
-      "market_count": 11,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:56:08+00:00",
+      "last_active": "2026-10-25T23:26:14+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
-        "European Open: Holger Rune vs Raphael Collignon"
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.5932,
-          "cur_price": 0.6605,
-          "usdc_size": 9785.98,
+          "avg_price": 0.3345,
+          "cur_price": 0.0995,
+          "usdc_size": 12685.94,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc3e54913a8e448ef7bfad37db4fbeac13429ae72",
+      "name": "Cheesik",
+      "score": 53.4,
+      "roi_score": 77.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.0,
+      "roi": 66.1,
+      "cash_pnl": 1765.73,
+      "realized_pnl": 240.67,
+      "total_usdc": 24423.85,
+      "trade_count": 63,
+      "market_count": 13,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:45+00:00",
+      "top_markets": [
+        "France vs. Spain: Team to Advance",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Argentina win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.5682,
+          "cur_price": 0.9025,
+          "usdc_size": 3441.38,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
-      "name": "0x39AaEd185b92e99a78249610cc14A589B764583C-1759470981616",
-      "score": 40.3,
-      "roi_score": 31.4,
+      "wallet": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+      "name": "lava-lava",
+      "score": 51.4,
+      "roi_score": 64.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.3,
-      "roi": -2.9,
-      "cash_pnl": -3460.58,
-      "realized_pnl": -8596.41,
-      "total_usdc": 63921.04,
+      "volume_score": 95.6,
+      "roi": 46.7,
+      "cash_pnl": 179918.88,
+      "realized_pnl": 11449.96,
+      "total_usdc": 280963.31,
       "trade_count": 500,
-      "market_count": 29,
-      "position_count": 141,
+      "market_count": 14,
+      "position_count": 196,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:32+00:00",
+      "last_active": "2026-10-25T23:25:51+00:00",
       "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?"
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by 2\u20134%?"
       ],
       "signals": [
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6488,
-          "cur_price": 0.6605,
-          "usdc_size": 1153.44,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.3428,
-          "cur_price": 0.345,
-          "usdc_size": 577.15,
-          "outcome": "Yes"
-        },
-        {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.6591,
-          "cur_price": 0.345,
-          "usdc_size": 2613.04,
+          "avg_price": 0.6373,
+          "cur_price": 0.9025,
+          "usdc_size": 251074.27,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.6393,
+          "cur_price": 0.0995,
+          "usdc_size": 188419.18,
           "outcome": "No"
         },
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "market": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
           "signal": "SKIP",
-          "avg_price": 0.3348,
-          "cur_price": 0.6605,
-          "usdc_size": 1307.36,
+          "avg_price": 0.4699,
+          "cur_price": 0.004,
+          "usdc_size": 2213.1,
           "outcome": "No"
         },
         {
           "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
           "signal": "SKIP",
-          "avg_price": 0.5192,
-          "cur_price": 0.9895,
-          "usdc_size": 1756.52,
+          "avg_price": 0.4799,
+          "cur_price": 0.9835,
+          "usdc_size": 1314.92,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-      "name": "nigiri99",
-      "score": 39.9,
-      "roi_score": 27.0,
+      "wallet": "0x40b959d8f1823a3f01b1d6fdf144594918f5a596",
+      "name": "maxiplayer",
+      "score": 46.6,
+      "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 92.6,
-      "roi": -9.5,
-      "cash_pnl": -95735.4,
-      "realized_pnl": 14040.29,
-      "total_usdc": 190454.05,
+      "volume_score": 90.8,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 148953.49,
       "trade_count": 500,
-      "market_count": 96,
-      "position_count": 423,
+      "market_count": 38,
+      "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:44+00:00",
+      "last_active": "2026-10-25T23:26:11+00:00",
       "top_markets": [
-        "Spread: Chiefs (-14.5)",
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Spread: Grizzlies (-9.5)"
+        "FC Barcelona vs. Real Madrid CF: O/U 3.5",
+        "Club Atl\u00e9tico de Madrid vs. RC Deportivo A Coru\u00f1a: O/U 1.5"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x4ed6beff60963f893e471d59df723176b547242c",
+      "name": "0x2369d9d29F05F0c3115049aD508553721922949B-1722440841170",
+      "score": 44.8,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 72.7,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 13945.84,
+      "trade_count": 30,
+      "market_count": 2,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:00+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf99017559977a2ed5757912cce86573d8b6eb232",
+      "name": "0xF99017559977a2Ed5757912cce86573d8B6EB232-1780429698135",
+      "score": 44.6,
+      "roi_score": 50.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 71.1,
+      "roi": null,
+      "cash_pnl": 0,
+      "realized_pnl": 0,
+      "total_usdc": 11254.46,
+      "trade_count": 16,
+      "market_count": 3,
+      "position_count": 0,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:50+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+        "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card) AND O/U 1.5 Rounds AND Fight to Go the Distance?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "name": "CoffeeDespiser",
+      "score": 44.1,
+      "roi_score": 38.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": 8.2,
+      "cash_pnl": 3398.45,
+      "realized_pnl": -102370.46,
+      "total_usdc": 886664.58,
+      "trade_count": 500,
+      "market_count": 2,
+      "position_count": 105,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:18+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xd7f2594d3c66ce728cbbab0285a08089884cd2e0",
+      "name": "jpceia",
+      "score": 43.7,
+      "roi_score": 41.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.8,
+      "roi": 11.9,
+      "cash_pnl": 2071.2,
+      "realized_pnl": 3057.56,
+      "total_usdc": 101303.84,
+      "trade_count": 307,
+      "market_count": 39,
+      "position_count": 19,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:15+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Lula win the most votes in the second round of the Brazil presidential election from Amazonas?",
+        "Will Luiz In\u00e1cio Lula da Silva qualify for Brazil's presidential runoff?"
       ],
       "signals": [
         {
-          "market": "Lakers vs. Jazz",
-          "signal": "ENTER",
-          "avg_price": 0.68,
-          "cur_price": 0.685,
-          "usdc_size": 15833.77,
-          "outcome": "Lakers"
-        },
-        {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6526,
-          "cur_price": 0.6605,
-          "usdc_size": 8260.13,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.3368,
-          "cur_price": 0.345,
-          "usdc_size": 956.14,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Real Madrid CF win on 2026-10-25?",
           "signal": "SKIP",
-          "avg_price": 0.2492,
-          "cur_price": 0.425,
-          "usdc_size": 100168.36,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will FC Barcelona win on 2026-10-25?",
-          "signal": "SKIP",
-          "avg_price": 0.6351,
-          "cur_price": 0.325,
-          "usdc_size": 9765.6,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Spread: Broncos (-4.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5016,
-          "cur_price": 0.545,
-          "usdc_size": 14848.15,
-          "outcome": "Broncos"
-        },
-        {
-          "market": "Rams vs. Raiders",
-          "signal": "SKIP",
-          "avg_price": 0.34,
-          "cur_price": 0.735,
-          "usdc_size": 3841.7,
-          "outcome": "Raiders"
-        },
-        {
-          "market": "FC Barcelona vs. Real Madrid CF: O/U 4.5",
-          "signal": "SKIP",
-          "avg_price": 0.5567,
-          "cur_price": 0.255,
-          "usdc_size": 5171.79,
-          "outcome": "Under"
+          "avg_price": 0.7427,
+          "cur_price": 0.0995,
+          "usdc_size": 6442.01,
+          "outcome": "No"
         },
         {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.6594,
-          "cur_price": 0.345,
-          "usdc_size": 4466.22,
-          "outcome": "No"
-        },
+          "avg_price": 0.7316,
+          "cur_price": 0.9025,
+          "usdc_size": 1070.24,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x9c2617462567859fcf5764e03b9a687ebca274bc",
+      "name": "Tigerofthehood",
+      "score": 43.3,
+      "roi_score": 36.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": 4.0,
+      "cash_pnl": 21242.35,
+      "realized_pnl": -2526.59,
+      "total_usdc": 799015.91,
+      "trade_count": 500,
+      "market_count": 30,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:20+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Clarity Act (H.R.3633) signed into law in 2026?",
+        "Will the Republicans win the Texas Senate race in 2026?"
+      ],
+      "signals": [
         {
-          "market": "Will Real Madrid CF win on 2026-10-25?",
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.7699,
-          "cur_price": 0.425,
-          "usdc_size": 3166.53,
-          "outcome": "No"
+          "avg_price": 0.6148,
+          "cur_price": 0.9025,
+          "usdc_size": 83184.92,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4d0121458bb2f96c6440c0f3835d675ad3ce1645",
+      "name": "knrad",
+      "score": 42.9,
+      "roi_score": 37.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.3,
+      "roi": 6.6,
+      "cash_pnl": 5961.19,
+      "realized_pnl": 2473.45,
+      "total_usdc": 158837.85,
+      "trade_count": 500,
+      "market_count": 82,
+      "position_count": 95,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:39+00:00",
+      "top_markets": [
+        "Pedro S\u00e1nchez out as PM of Spain by December 31, 2026?",
+        "Spain snap election called in 2026?",
+        "Spain snap election called by October 31?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.6101,
+          "cur_price": 0.9025,
+          "usdc_size": 17513.27,
+          "outcome": "Yes"
         }
       ]
     },
     {
       "wallet": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
       "name": "Ryxon21",
-      "score": 39.9,
-      "roi_score": 27.2,
+      "score": 42.7,
+      "roi_score": 36.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.0,
-      "roi": -9.3,
-      "cash_pnl": -22173.33,
-      "realized_pnl": 15698.21,
-      "total_usdc": 198890.11,
+      "volume_score": 94.1,
+      "roi": 3.9,
+      "cash_pnl": 10033.89,
+      "realized_pnl": 18269.8,
+      "total_usdc": 230847.03,
       "trade_count": 500,
-      "market_count": 116,
-      "position_count": 231,
+      "market_count": 114,
+      "position_count": 233,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:59:32+00:00",
+      "last_active": "2026-10-25T23:24:45+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "Will Renan Santos finish in third place in the first round of the 2026 Brazilian presidential election?",
@@ -675,630 +385,529 @@
         {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.2399,
-          "cur_price": 0.345,
-          "usdc_size": 9236.26,
+          "avg_price": 0.3757,
+          "cur_price": 0.9025,
+          "usdc_size": 48190.24,
           "outcome": "Yes"
         },
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.794,
-          "cur_price": 0.6605,
-          "usdc_size": 13340.21,
+          "avg_price": 0.8332,
+          "cur_price": 0.0995,
+          "usdc_size": 20146.35,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
+      "name": "D8D5289c35124b5353f5A10A28B8cC29aEC38935",
+      "score": 42.5,
+      "roi_score": 36.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.5,
+      "roi": 5.3,
+      "cash_pnl": 10800.77,
+      "realized_pnl": 6705.03,
+      "total_usdc": 126363.99,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 390,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:33+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.7679,
+          "cur_price": 0.0995,
+          "usdc_size": 31298.12,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.7044,
+          "cur_price": 0.9025,
+          "usdc_size": 15773.54,
           "outcome": "Yes"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.7576,
+          "cur_price": 0.935,
+          "usdc_size": 6090.33,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xcca049c9fb56d679ae107147670b09b2930e8552",
+      "name": "olpy",
+      "score": 42.3,
+      "roi_score": 34.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.2,
+      "roi": 1.9,
+      "cash_pnl": 429.28,
+      "realized_pnl": -22877.44,
+      "total_usdc": 232808.93,
+      "trade_count": 500,
+      "market_count": 8,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:29+00:00",
+      "top_markets": [
+        "Will Real Madrid CF win on 2026-10-25?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will FC Barcelona win on 2026-10-25?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x8ebfdc251c6c378d4a3a54a8f15cebfa4b9183ce",
+      "name": "Ordon",
+      "score": 42.2,
+      "roi_score": 33.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.5,
+      "roi": 0.1,
+      "cash_pnl": 100.92,
+      "realized_pnl": 217.26,
+      "total_usdc": 316336.7,
+      "trade_count": 500,
+      "market_count": 212,
+      "position_count": 27,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:33+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down on October 5?",
+        "Will Google have the best AI model at the end of December 2026?",
+        "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
+      "name": "JJo",
+      "score": 41.8,
+      "roi_score": 32.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.9,
+      "roi": -1.6,
+      "cash_pnl": -3796.56,
+      "realized_pnl": 12141.62,
+      "total_usdc": 292328.08,
+      "trade_count": 500,
+      "market_count": 24,
+      "position_count": 42,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:41+00:00",
+      "top_markets": [
+        "2026 Balance of Power: D Senate, D House",
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "Will the Republicans win the Texas Senate race in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.867,
+          "cur_price": 0.9025,
+          "usdc_size": 4670.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.8971,
+          "cur_price": 0.0995,
+          "usdc_size": 15755.03,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x56d8d5f6585716a1a900282192dd21a4261e1cce",
+      "name": "xxyx0xx",
+      "score": 41.8,
+      "roi_score": 33.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.4,
+      "roi": 0.8,
+      "cash_pnl": 26.15,
+      "realized_pnl": -20283.03,
+      "total_usdc": 160894.84,
+      "trade_count": 500,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:11+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x0ab1c1f7f8de728dc291f9cb4788dc2a8c517df3",
+      "name": "MettaWorldPeace00",
+      "score": 41.4,
+      "roi_score": 31.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 94.2,
+      "roi": -2.6,
+      "cash_pnl": -138.75,
+      "realized_pnl": 0.0,
+      "total_usdc": 233333.64,
+      "trade_count": 500,
+      "market_count": 176,
+      "position_count": 4,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:54+00:00",
+      "top_markets": [
+        "Set Handicap: Sinner (-2.5) vs Mochizuki (+2.5)",
+        "Wimbledon ATP: Jannik Sinner vs Shintaro Mochizuki",
+        "Will Spain win Group H in the 2026 FIFA World Cup?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x592ada07228827dee3c2ababc50b2e08efe4800f",
+      "name": "0x592ada07228827dEE3c2abAbc50b2e08EfE4800f-1791170792717",
+      "score": 41.3,
+      "roi_score": 36.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.0,
+      "roi": 4.0,
+      "cash_pnl": 46.02,
+      "realized_pnl": 0.0,
+      "total_usdc": 36209.01,
+      "trade_count": 500,
+      "market_count": 150,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:17+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Lamine Yamal win the 2026 Ballon d'Or?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x9f83f83bdfc209c6fade8a2c77ea9667e9176cd9",
+      "name": "Naropoly",
+      "score": 41.1,
+      "roi_score": 31.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.4,
+      "roi": -2.8,
+      "cash_pnl": -1990.26,
+      "realized_pnl": 1074.57,
+      "total_usdc": 162633.9,
+      "trade_count": 500,
+      "market_count": 105,
+      "position_count": 55,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:15+00:00",
+      "top_markets": [
+        "Will Andr\u00e1s Baka be the next President of Hungary?",
+        "Tamas Sulyok out as President of Hungary by July 31?",
+        "Viktor Orb\u00e1n arrested by...?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.8243,
+          "cur_price": 0.9025,
+          "usdc_size": 11406.27,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.7972,
+          "cur_price": 0.0995,
+          "usdc_size": 8019.62,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe54fac49d0fa4a47517d5a190554c3d6fcac94f0",
+      "name": "TheArtOfTACO",
+      "score": 41.1,
+      "roi_score": 31.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.6,
+      "roi": -2.3,
+      "cash_pnl": -694.63,
+      "realized_pnl": 834.42,
+      "total_usdc": 146049.42,
+      "trade_count": 500,
+      "market_count": 49,
+      "position_count": 23,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:29+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will James Fishback be the Republican nominee for Florida Governor?",
+        "Will Donald Trump win the Nobel Peace Prize in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.8267,
+          "cur_price": 0.9025,
+          "usdc_size": 1866.98,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+      "name": "Tenebrus7",
+      "score": 40.6,
+      "roi_score": 30.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 89.2,
+      "roi": -4.2,
+      "cash_pnl": -14178.45,
+      "realized_pnl": -25962.37,
+      "total_usdc": 121926.57,
+      "trade_count": 500,
+      "market_count": 49,
+      "position_count": 419,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:30+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Harry Kane win the 2026 Ballon d'Or?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.8354,
+          "cur_price": 0.9025,
+          "usdc_size": 13968.56,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+          "signal": "SKIP",
+          "avg_price": 0.8589,
+          "cur_price": 0.1735,
+          "usdc_size": 1239.76,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x76dbc01caffa54d0010368ff8d3226d8017f6987",
+      "name": "gambler925",
+      "score": 40.6,
+      "roi_score": 33.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.8,
+      "roi": -0.1,
+      "cash_pnl": -51.43,
+      "realized_pnl": 3204.02,
+      "total_usdc": 40014.62,
+      "trade_count": 500,
+      "market_count": 39,
+      "position_count": 74,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:50+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8\u201312%?",
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.8972,
+          "cur_price": 0.0995,
+          "usdc_size": 7592.8,
+          "outcome": "No"
         }
       ]
     },
     {
       "wallet": "0xc7d02944a76b9f83b199e9090ecc92c82d241f8a",
       "name": "0xc7D02944A76B9F83B199e9090ECC92C82d241F8a-1776944395495",
-      "score": 39.5,
-      "roi_score": 28.9,
+      "score": 39.4,
+      "roi_score": 27.3,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 83.3,
-      "roi": -6.7,
-      "cash_pnl": -11109.31,
-      "realized_pnl": 9108.0,
-      "total_usdc": 55830.59,
+      "volume_score": 87.1,
+      "roi": -9.1,
+      "cash_pnl": -15581.69,
+      "realized_pnl": 16919.53,
+      "total_usdc": 91569.09,
       "trade_count": 500,
-      "market_count": 95,
+      "market_count": 29,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:04:20+00:00",
+      "last_active": "2026-10-25T23:26:06+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-        "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?"
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
+        "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by 4\u20138%?"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6656,
-          "cur_price": 0.6605,
-          "usdc_size": 917.22,
+          "signal": "SKIP",
+          "avg_price": 0.8777,
+          "cur_price": 0.0995,
+          "usdc_size": 6133.01,
+          "outcome": "No"
+        },
+        {
+          "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "signal": "SKIP",
+          "avg_price": 0.6859,
+          "cur_price": 0.935,
+          "usdc_size": 3893.81,
           "outcome": "Yes"
         },
         {
           "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
           "signal": "SKIP",
-          "avg_price": 0.8402,
-          "cur_price": 0.1325,
-          "usdc_size": 3374.72,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2992,
-          "cur_price": 0.6605,
-          "usdc_size": 802.26,
+          "avg_price": 0.822,
+          "cur_price": 0.1735,
+          "usdc_size": 1239.75,
           "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
-      "name": "BiDiFakePolls",
-      "score": 39.0,
-      "roi_score": 25.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.0,
-      "roi": -11.9,
-      "cash_pnl": -18472.55,
-      "realized_pnl": -3446.15,
-      "total_usdc": 118054.41,
-      "trade_count": 500,
-      "market_count": 55,
-      "position_count": 151,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:32+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
-        "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.2438,
-          "cur_price": 0.6605,
-          "usdc_size": 8056.63,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
-          "signal": "SKIP",
-          "avg_price": 0.58,
-          "cur_price": 0.0105,
-          "usdc_size": 1984.0,
-          "outcome": "No"
-        },
-        {
-          "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
-          "signal": "SKIP",
-          "avg_price": 0.56,
-          "cur_price": 0.9895,
-          "usdc_size": 1541.31,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x33b1e49db9a9a54aa21f298185798c04e650af25",
+      "wallet": "0xbeb4390876c592a7653ad42bd6a82f6b227128cc",
       "name": "",
-      "score": 38.9,
-      "roi_score": 24.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 89.6,
-      "roi": -12.9,
-      "cash_pnl": -7236.81,
-      "realized_pnl": 0.0,
-      "total_usdc": 127912.16,
-      "trade_count": 178,
-      "market_count": 29,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:01:20+00:00",
-      "top_markets": [
-        "Will Bitcoin dip to $62,500 in July?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Bitcoin dip to $60,000 in July?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7657,
-          "cur_price": 0.6605,
-          "usdc_size": 48898.62,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6dea22220ac67e60397a257d43f07400b2603e4e",
-      "name": "",
-      "score": 38.7,
-      "roi_score": 26.9,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.2,
-      "roi": -9.6,
-      "cash_pnl": -1904.03,
-      "realized_pnl": 3062.42,
-      "total_usdc": 42183.33,
-      "trade_count": 31,
-      "market_count": 3,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:01:42+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "Will there be no change in Fed interest rates after the July 2026 meeting?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7377,
-          "cur_price": 0.6605,
-          "usdc_size": 17952.49,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x330f19a76ec7f2aacee7a3edd0841a13caf834f4",
-      "name": "OddsSensei",
-      "score": 38.6,
-      "roi_score": 23.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.6,
-      "roi": -14.6,
-      "cash_pnl": -7572.8,
-      "realized_pnl": 0.0,
-      "total_usdc": 145329.52,
-      "trade_count": 120,
-      "market_count": 5,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:02:03+00:00",
-      "top_markets": [
-        "Will Renan Santos finish in second place in the first round of the 2026 Brazilian presidential election?",
-        "Will Lula win the most votes in the next Brazil presidential election from Rio de Janeiro?",
-        "Will Renan Santos win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7808,
-          "cur_price": 0.6605,
-          "usdc_size": 44357.75,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x80f1f634ae8f8c9b197279bfa66d5db296f73ccd",
-      "name": "Specksalam",
-      "score": 38.2,
+      "score": 37.1,
       "roi_score": 21.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 93.9,
-      "roi": -18.3,
-      "cash_pnl": -25830.12,
-      "realized_pnl": 1166.02,
-      "total_usdc": 224845.94,
-      "trade_count": 500,
-      "market_count": 35,
-      "position_count": 48,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:58:29+00:00",
-      "top_markets": [
-        "Will Iliana Iotova win the next Bulgarian presidential election?",
-        "Will Harry Kane win the 2026 Ballon d'Or?",
-        "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?"
-      ],
-      "signals": [
-        {
-          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-          "signal": "SKIP",
-          "avg_price": 0.0488,
-          "cur_price": 0.1325,
-          "usdc_size": 2284.09,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7398,
-          "cur_price": 0.6605,
-          "usdc_size": 4530.71,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x340799a80e861ece53fdf2a7dbe59e9223c0c3eb",
-      "name": "Dude2137",
-      "score": 38.1,
-      "roi_score": 20.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.8,
-      "roi": -19.8,
-      "cash_pnl": -3308.23,
-      "realized_pnl": -4907.78,
-      "total_usdc": 288237.82,
-      "trade_count": 500,
-      "market_count": 75,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:04:21+00:00",
-      "top_markets": [
-        "Will Argentina win the 2026 FIFA World Cup?",
-        "Iran closes its airspace by June 30?",
-        "Will Crude Oil (CL) hit (HIGH) $130 by end of June?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.501,
-          "cur_price": 0.6605,
-          "usdc_size": 4002.18,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9c1cd727bed863fe686c5e53c851db7da5c02f4f",
-      "name": "Lokodasul2026",
-      "score": 38.1,
-      "roi_score": 30.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 64.4,
-      "roi": -4.2,
-      "cash_pnl": -173.38,
-      "realized_pnl": 2.75,
-      "total_usdc": 4660.33,
-      "trade_count": 59,
-      "market_count": 29,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:59:57+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
-        "Bitcoin Up or Down - October 9, 10:45PM-10:50PM ET",
-        "Bitcoin Up or Down - October 11, 10:10PM-10:15PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6529,
-          "cur_price": 0.6605,
-          "usdc_size": 2661.93,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7ea7bcd658a253bfa78618a8e127cc73b54879ac",
-      "name": "Monopoly_Money",
-      "score": 38.1,
-      "roi_score": 21.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.8,
-      "roi": -18.0,
-      "cash_pnl": -62643.74,
-      "realized_pnl": -19336.94,
-      "total_usdc": 171215.92,
-      "trade_count": 500,
-      "market_count": 27,
-      "position_count": 86,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:54:42+00:00",
-      "top_markets": [
-        "2026 Balance of Power: D Senate, D House",
-        "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-        "Friedrich Merz out as Chancellor of Germany before December 31, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.637,
-          "cur_price": 0.6605,
-          "usdc_size": 725.32,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x22d3f8a94992261392eed316429b466d72895e3a",
-      "name": "tiburon",
-      "score": 37.6,
-      "roi_score": 20.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.7,
-      "roi": -19.9,
-      "cash_pnl": -24089.88,
-      "realized_pnl": -8.1,
-      "total_usdc": 147454.4,
-      "trade_count": 500,
-      "market_count": 23,
-      "position_count": 9,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:54+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-        "Will Lamine Yamal win the 2026 Ballon d'Or?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7516,
-          "cur_price": 0.6605,
-          "usdc_size": 78391.11,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-          "signal": "SKIP",
-          "avg_price": 0.1681,
-          "cur_price": 0.1325,
-          "usdc_size": 3499.84,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x592ada07228827dee3c2ababc50b2e08efe4800f",
-      "name": "0x592ada07228827dEE3c2abAbc50b2e08EfE4800f-1791170792717",
-      "score": 37.2,
-      "roi_score": 23.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 76.4,
-      "roi": -14.6,
-      "cash_pnl": -1.24,
+      "volume_score": 82.8,
+      "roi": -18.4,
+      "cash_pnl": -12.62,
       "realized_pnl": 0.0,
-      "total_usdc": 22486.09,
-      "trade_count": 500,
-      "market_count": 244,
+      "total_usdc": 52342.72,
+      "trade_count": 84,
+      "market_count": 6,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:04:18+00:00",
+      "last_active": "2026-10-25T23:25:48+00:00",
       "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Elon Musk post 360-379 tweets from October 20 to October 27, 2026?",
-        "Will Lamine Yamal win the 2026 Ballon d'Or?"
+        "Will Argentina win the 2026 FIFA World Cup?",
+        "Will Spain win the 2026 FIFA World Cup?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x2b2d6066f5eeb2c11a66520f8052044471be45d1",
-      "name": "Guizin22bolsonaro",
-      "score": 37.1,
-      "roi_score": 25.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 68.8,
-      "roi": -11.4,
-      "cash_pnl": -950.41,
-      "realized_pnl": 0.0,
-      "total_usdc": 8370.0,
-      "trade_count": 3,
-      "market_count": 1,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:00:29+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7524,
-          "cur_price": 0.6605,
-          "usdc_size": 7419.57,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8a54ad9cbfdf8fd6a74a274615571ad8698e89a5",
-      "name": "OlavoVive",
+      "wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+      "name": "0xa7517ed74c6b07843946e0e69cad10a9fa94e05",
       "score": 37.0,
-      "roi_score": 23.6,
+      "roi_score": 16.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 73.9,
-      "roi": -14.7,
-      "cash_pnl": -183.71,
-      "realized_pnl": 86.61,
-      "total_usdc": 16184.98,
-      "trade_count": 133,
-      "market_count": 46,
-      "position_count": 3,
+      "volume_score": 96.2,
+      "roi": -25.4,
+      "cash_pnl": -77179.31,
+      "realized_pnl": 35468.92,
+      "total_usdc": 301943.31,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 363,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:57:27+00:00",
+      "last_active": "2026-10-25T23:25:27+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Luiz In\u00e1cio Lula da Silva qualify for Brazil's presidential runoff?",
+        "Will Harry Kane win the 2026 Ballon d'Or?",
         "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.7441,
-          "cur_price": 0.6605,
-          "usdc_size": 1069.29,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xe9a08b407948f1de6eda8777d12ed1e46ef6ee83",
-      "name": "W44G",
-      "score": 36.9,
-      "roi_score": 29.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 54.3,
-      "roi": -5.4,
-      "cash_pnl": -57.33,
-      "realized_pnl": 1.35,
-      "total_usdc": 1244.72,
-      "trade_count": 32,
-      "market_count": 15,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:57:17+00:00",
-      "top_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on May 3?",
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 23?",
-        "Will the price of Bitcoin be between $74,000 and $76,000 on April 17?"
-      ],
-      "signals": [
+          "avg_price": 0.8259,
+          "cur_price": 0.0995,
+          "usdc_size": 50094.85,
+          "outcome": "No"
+        },
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6633,
-          "cur_price": 0.6605,
-          "usdc_size": 1007.71,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x18494fff52402f8416c497a430df53405cf1eb1a",
-      "name": "Tinto",
-      "score": 35.2,
-      "roi_score": 16.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 77.5,
-      "roi": -25.1,
-      "cash_pnl": -3814.42,
-      "realized_pnl": -32.95,
-      "total_usdc": 26142.2,
-      "trade_count": 26,
-      "market_count": 13,
-      "position_count": 8,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:58:38+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Saudi Arabia strike Iran by April 30?",
-        "Will Saudi Arabia strike Iran by March 31?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.7587,
-          "cur_price": 0.6605,
-          "usdc_size": 11375.53,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2e59d80af5f829fb5bfa1f1bfa0bf7155e7ef95d",
-      "name": "Betoreagan",
-      "score": 35.1,
-      "roi_score": 18.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 70.6,
-      "roi": -22.2,
-      "cash_pnl": -1097.76,
-      "realized_pnl": 686.67,
-      "total_usdc": 10588.28,
-      "trade_count": 43,
-      "market_count": 28,
-      "position_count": 18,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:59:47+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will JD Vance win the 2028 US Presidential Election?",
-        "Alexandre de Moraes out as Brazil Supreme Court Justice?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.3902,
-          "cur_price": 0.6605,
-          "usdc_size": 2119.04,
+          "avg_price": 0.6069,
+          "cur_price": 0.9025,
+          "usdc_size": 32173.53,
           "outcome": "Yes"
         }
       ]
@@ -1306,213 +915,194 @@
     {
       "wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
       "name": "Cb94C437EA5e6f088c6c0C143c592ab8EFBed",
-      "score": 34.6,
-      "roi_score": 12.0,
+      "score": 35.5,
+      "roi_score": 13.1,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.5,
-      "roi": -32.0,
-      "cash_pnl": -35573.73,
-      "realized_pnl": -32219.76,
-      "total_usdc": 65668.69,
+      "volume_score": 90.7,
+      "roi": -30.4,
+      "cash_pnl": -34893.62,
+      "realized_pnl": -32735.44,
+      "total_usdc": 147138.54,
       "trade_count": 500,
-      "market_count": 68,
+      "market_count": 44,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:04:23+00:00",
+      "last_active": "2026-10-25T23:26:38+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
-        "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?"
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x4924c71c054637d76d0a96d6d097a0d95f77f328",
-      "name": "Grecco",
-      "score": 32.5,
-      "roi_score": 0.1,
+      "wallet": "0x3147a3849fb13ebef6a47a44034cc648ed27aeee",
+      "name": "Shasco",
+      "score": 34.3,
+      "roi_score": 12.5,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -49.8,
-      "cash_pnl": -3452.03,
-      "realized_pnl": 0.0,
-      "total_usdc": 1371308.64,
+      "volume_score": 80.7,
+      "roi": -31.2,
+      "cash_pnl": -1222.91,
+      "realized_pnl": -463.22,
+      "total_usdc": 39560.41,
       "trade_count": 500,
-      "market_count": 252,
+      "market_count": 70,
       "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:56:32+00:00",
+      "last_active": "2026-10-25T23:26:06+00:00",
       "top_markets": [
-        "Reyer Venezia vs. Derthona Basket",
-        "Bitcoin Up or Down - October 19, 3:00AM-3:05AM ET",
-        "Virtus Bologna vs. Aquila Basket Trento"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.666,
-          "cur_price": 0.6605,
-          "usdc_size": 3478.97,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x8806a6f1a847ba4360599ce0f54ce96167712e83",
-      "name": "spendingmoney",
-      "score": 31.9,
-      "roi_score": 0.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.9,
-      "roi": -49.3,
-      "cash_pnl": -41621.99,
-      "realized_pnl": 1678.57,
-      "total_usdc": 197301.66,
-      "trade_count": 500,
-      "market_count": 63,
-      "position_count": 47,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:02:54+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will CR Flamengo win on 2026-10-22?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7413,
-          "cur_price": 0.6605,
-          "usdc_size": 36276.18,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6f40bd79f70ca03c59d7318dfebe22e65b55eb64",
-      "name": "Fuentes31",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 93.4,
-      "roi": -72.7,
-      "cash_pnl": -89568.9,
-      "realized_pnl": -4773.91,
-      "total_usdc": 211523.97,
-      "trade_count": 500,
-      "market_count": 231,
-      "position_count": 136,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:58:39+00:00",
-      "top_markets": [
-        "Will \u00c9douard Philippe win the 2027 French presidential election?",
-        "Friedrich Merz out as Chancellor of Germany before December 31, 2026?",
-        "Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.666,
-          "cur_price": 0.6605,
-          "usdc_size": 1001.42,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will FC Barcelona win on 2026-10-25?",
-          "signal": "SKIP",
-          "avg_price": 0.4795,
-          "cur_price": 0.325,
-          "usdc_size": 1016.62,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x7809521c05ba2724429e2ce924399eecad0c196a",
-      "name": "Antitrust002",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.6,
-      "roi": -100.0,
-      "cash_pnl": -1.0,
-      "realized_pnl": -0.04,
-      "total_usdc": 190166.85,
-      "trade_count": 500,
-      "market_count": 32,
-      "position_count": 1,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:54:42+00:00",
-      "top_markets": [
-        "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
-        "Will Roberto S\u00e1nchez Palomino win the 2026 Peruvian presidential election?",
-        "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9ba7ae7ae11df2477c567d6a5aeb5b3bc9cf00ef",
-      "name": "8DDD",
-      "score": 31.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.1,
-      "roi": -89.8,
-      "cash_pnl": -134103.03,
-      "realized_pnl": 13500.0,
-      "total_usdc": 155773.71,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 55,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:02:23+00:00",
-      "top_markets": [
-        "Will the Republican Party control the House after the 2026 Midterm elections?",
         "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Real Sociedad de F\u00fatbol win on 2026-10-22?"
       ],
       "signals": [
         {
           "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.8862,
+          "cur_price": 0.9025,
+          "usdc_size": 2332.88,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xeb490d0534bb68b4c2ce139b219a728cd2c3693e",
+      "name": "MissaoComFlavio",
+      "score": 33.2,
+      "roi_score": 2.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -46.7,
+      "cash_pnl": -202387.03,
+      "realized_pnl": -27181.26,
+      "total_usdc": 976972.42,
+      "trade_count": 500,
+      "market_count": 77,
+      "position_count": 49,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:12+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Israel x Iran ceasefire continues through September 30?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.1179,
-          "cur_price": 0.345,
-          "usdc_size": 13340.0,
+          "avg_price": 0.7861,
+          "cur_price": 0.0995,
+          "usdc_size": 211187.58,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1",
+      "name": "debased",
+      "score": 32.7,
+      "roi_score": 3.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.9,
+      "roi": -45.2,
+      "cash_pnl": -546441.01,
+      "realized_pnl": 918782.52,
+      "total_usdc": 197311.59,
+      "trade_count": 500,
+      "market_count": 13,
+      "position_count": 364,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:48+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by 4\u20138%?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.8635,
+          "cur_price": 0.9025,
+          "usdc_size": 12192.36,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+          "signal": "SKIP",
+          "avg_price": 0.0803,
+          "cur_price": 0.1735,
+          "usdc_size": 4656.03,
           "outcome": "Yes"
         },
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
           "signal": "SKIP",
-          "avg_price": 0.3409,
-          "cur_price": 0.6605,
-          "usdc_size": 1665.0,
+          "avg_price": 0.0719,
+          "cur_price": 0.0995,
+          "usdc_size": 744.44,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x7523cafcee7bcf2db9a79d80e0d79b88a9a54c4c",
+      "name": "DonaldinhoTrumpito",
+      "score": 32.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
+      "roi": -58.1,
+      "cash_pnl": -430092.03,
+      "realized_pnl": -48944.9,
+      "total_usdc": 840289.91,
+      "trade_count": 500,
+      "market_count": 15,
+      "position_count": 44,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:54+00:00",
+      "top_markets": [
+        "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+        "US Open ATP: Francisco Cerundolo vs Alexander Blockx",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.8502,
+          "cur_price": 0.9025,
+          "usdc_size": 127955.09,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.6799,
+          "cur_price": 0.0995,
+          "usdc_size": 46868.46,
           "outcome": "No"
         }
       ]
@@ -1520,471 +1110,662 @@
     {
       "wallet": "0x2ed35b0a635ba3a9dbfde7ee9fc7cd3560804589",
       "name": "porkylover",
-      "score": 31.5,
-      "roi_score": 0.0,
+      "score": 32.4,
+      "roi_score": 4.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 90.1,
-      "roi": -64.2,
-      "cash_pnl": -2783.61,
-      "realized_pnl": -943.63,
-      "total_usdc": 135675.39,
+      "volume_score": 85.6,
+      "roi": -43.4,
+      "cash_pnl": -3399.25,
+      "realized_pnl": 1123.23,
+      "total_usdc": 75960.9,
       "trade_count": 500,
       "market_count": 1,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:45+00:00",
+      "last_active": "2026-10-25T23:26:23+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6597,
-          "cur_price": 0.6605,
-          "usdc_size": 1540.36,
+          "signal": "SKIP",
+          "avg_price": 0.0742,
+          "cur_price": 0.0995,
+          "usdc_size": 4434.33,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xa4868318419c2ad01da122ccf6b8b30d704a995d",
-      "name": "DonVincero",
+      "wallet": "0x6a7447d219a409806db7b49cdaca57534395ae4b",
+      "name": "Marcos.vher",
+      "score": 32.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 99.1,
+      "roi": -99.5,
+      "cash_pnl": -100947.43,
+      "realized_pnl": -22380.05,
+      "total_usdc": 446757.23,
+      "trade_count": 500,
+      "market_count": 116,
+      "position_count": 70,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:42+00:00",
+      "top_markets": [
+        "North Dakota State vs. New Mexico",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Sparta Rotterdam win on 2026-10-25?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.3342,
+          "cur_price": 0.0995,
+          "usdc_size": 502.97,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xddfd2b17e78a6f1e252446d7337cc6ee304dfbb1",
+      "name": "secretbr",
+      "score": 32.1,
+      "roi_score": 8.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 71.6,
+      "roi": -37.9,
+      "cash_pnl": -4557.02,
+      "realized_pnl": 0.0,
+      "total_usdc": 12019.69,
+      "trade_count": 12,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:26+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "LATE",
+          "avg_price": 0.1054,
+          "cur_price": 0.0995,
+          "usdc_size": 7462.31,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
+      "name": "0x39AaEd185b92e99a78249610cc14A589B764583C-1759470981616",
+      "score": 32.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.7,
+      "roi": -78.0,
+      "cash_pnl": -363608.1,
+      "realized_pnl": 663670.8,
+      "total_usdc": 285144.67,
+      "trade_count": 500,
+      "market_count": 2,
+      "position_count": 134,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:30+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.0932,
+          "cur_price": 0.9025,
+          "usdc_size": 747.44,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+          "signal": "SKIP",
+          "avg_price": 0.5192,
+          "cur_price": 0.9835,
+          "usdc_size": 1749.41,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8806a6f1a847ba4360599ce0f54ce96167712e83",
+      "name": "spendingmoney",
+      "score": 31.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.1,
+      "roi": -67.2,
+      "cash_pnl": -43911.35,
+      "realized_pnl": -5102.1,
+      "total_usdc": 201230.41,
+      "trade_count": 500,
+      "market_count": 7,
+      "position_count": 48,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:44+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8\u201312%?",
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4\u20138%?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xef2684030d14a67c2a30a3e4fc00eed7a99505ba",
+      "name": "PROBABILITYTRADER",
+      "score": 31.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.8,
+      "roi": -99.5,
+      "cash_pnl": -793885.98,
+      "realized_pnl": -17264.66,
+      "total_usdc": 148577.66,
+      "trade_count": 500,
+      "market_count": 21,
+      "position_count": 289,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:26:18+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "LoL: Top Esports vs G2 Esports (BO1) - Worlds Group Stage",
+        "LoL: Gen.G vs LYON - Game 1 Winner"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.2595,
+          "cur_price": 0.0995,
+          "usdc_size": 4350.55,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x2fc0c5d5a3a1468abbbf848ca8c4aff229a32305",
+      "name": "",
+      "score": 31.4,
+      "roi_score": 8.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 64.2,
+      "roi": -37.4,
+      "cash_pnl": -817.87,
+      "realized_pnl": 0.0,
+      "total_usdc": 4536.29,
+      "trade_count": 18,
+      "market_count": 11,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:24:53+00:00",
+      "top_markets": [
+        "Will the U.S. invade Cuba in 2026?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Portugal win the 2026 FIFA World Cup?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "ENTER",
+          "avg_price": 0.0982,
+          "cur_price": 0.0995,
+          "usdc_size": 1367.05,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027",
+      "name": "0xfBd8C9C22cA76B3662d0e53A4f79719FDC684027-1779347618060",
       "score": 31.3,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 87.9,
-      "roi": -90.2,
-      "cash_pnl": -32099.03,
-      "realized_pnl": -539.78,
-      "total_usdc": 102667.85,
+      "volume_score": 88.2,
+      "roi": -99.2,
+      "cash_pnl": -40223.26,
+      "realized_pnl": 2086.03,
+      "total_usdc": 106651.97,
       "trade_count": 500,
-      "market_count": 243,
-      "position_count": 157,
+      "market_count": 40,
+      "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:55:33+00:00",
-      "top_markets": [
-        "Will CSD Rangers win on 2026-10-16?",
-        "Will Al Hilal Saudi Club win on 2026-10-23?",
-        "Dota 2: Amaru Gaming vs Skyreavers - Game 1 Winner"
-      ],
-      "signals": [
-        {
-          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.36,
-          "cur_price": 0.345,
-          "usdc_size": 511.71,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.366,
-          "cur_price": 0.6605,
-          "usdc_size": 512.32,
-          "outcome": "No"
-        }
-      ]
-    },
-    {
-      "wallet": "0x586f56654ac95e8f0bcccc51464200548c69b928",
-      "name": "DTF26",
-      "score": 31.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 85.8,
-      "roi": -52.1,
-      "cash_pnl": -3800.57,
-      "realized_pnl": 2082.48,
-      "total_usdc": 77243.28,
-      "trade_count": 500,
-      "market_count": 69,
-      "position_count": 24,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:01:00+00:00",
+      "last_active": "2026-10-25T23:26:36+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Michelle Bolsonaro win the 2026 Brazilian presidential election?",
-        "Alexandre de Moraes out as Brazil Supreme Court Justice?"
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Lamine Yamal win the 2026 Ballon d'Or?"
       ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "SKIP",
-          "avg_price": 0.7292,
-          "cur_price": 0.6605,
-          "usdc_size": 3478.71,
-          "outcome": "Yes"
-        }
-      ]
+      "signals": []
     },
     {
       "wallet": "0x9aff4f423dc5ee4eaf0ecb1a16bf6cc1012fb136",
       "name": "pol2131",
-      "score": 31.0,
+      "score": 31.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 85.4,
-      "roi": -98.2,
-      "cash_pnl": -147814.64,
-      "realized_pnl": 1968.32,
-      "total_usdc": 73828.44,
+      "volume_score": 86.5,
+      "roi": -97.2,
+      "cash_pnl": -159890.85,
+      "realized_pnl": 1966.79,
+      "total_usdc": 85275.08,
       "trade_count": 500,
-      "market_count": 77,
-      "position_count": 445,
+      "market_count": 70,
+      "position_count": 446,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:54:42+00:00",
+      "last_active": "2026-10-25T23:25:42+00:00",
       "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "Game Handicap: TS (-1.5) vs LEGION (+1.5)",
-        "Dota 2: Dawn Bulls vs CyberHero - Game 1 Winner",
         "Game Handicap: TY (-1.5) vs 1win (+1.5)"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6587,
-          "cur_price": 0.6605,
-          "usdc_size": 2673.99,
+          "signal": "SKIP",
+          "avg_price": 0.2184,
+          "cur_price": 0.0995,
+          "usdc_size": 4640.38,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x6eea4370af8f223b0f14deab0dbdff9cf2fccb72",
-      "name": "bobo75008",
-      "score": 30.7,
+      "wallet": "0x2b5920274740ca61745eeb077587bf5bb4ff9db6",
+      "name": "aHjCz",
+      "score": 31.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 81.6,
-      "roi": -56.4,
-      "cash_pnl": -24931.62,
-      "realized_pnl": -248.72,
-      "total_usdc": 44492.99,
-      "trade_count": 414,
-      "market_count": 5,
-      "position_count": 5,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:59:32+00:00",
-      "top_markets": [
-        "Will the Republican Party control the House after the 2026 Midterm elections?",
-        "2026 Balance of Power: R Senate, R House",
-        "Markwayne Mullin confirmed as DHS Secretary by March 31, 2026?"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.664,
-          "cur_price": 0.6605,
-          "usdc_size": 8004.0,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "name": "purplegatto",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.0,
-      "roi": -89.8,
-      "cash_pnl": -3926742.09,
-      "realized_pnl": -4069.67,
-      "total_usdc": 47005.73,
+      "volume_score": 87.0,
+      "roi": -96.0,
+      "cash_pnl": -35442.64,
+      "realized_pnl": -100151.03,
+      "total_usdc": 91127.85,
       "trade_count": 500,
-      "market_count": 46,
+      "market_count": 79,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T21:04:02+00:00",
+      "last_active": "2026-10-25T23:26:32+00:00",
       "top_markets": [
-        "Will Real Madrid CF win on 2026-10-25?",
-        "Spread: Lions (-3.5)",
-        "Broncos vs. Cardinals"
-      ],
-      "signals": [
-        {
-          "market": "Will Real Madrid CF win on 2026-10-25?",
-          "signal": "SKIP",
-          "avg_price": 0.245,
-          "cur_price": 0.425,
-          "usdc_size": 43946.47,
-          "outcome": "Yes"
-        },
-        {
-          "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-          "signal": "SKIP",
-          "avg_price": 0.1108,
-          "cur_price": 0.1325,
-          "usdc_size": 2413.34,
-          "outcome": "Yes"
-        },
-        {
-          "market": "US x Iran ceasefire continues through October 31?",
-          "signal": "SKIP",
-          "avg_price": 0.7743,
-          "cur_price": 0.845,
-          "usdc_size": 12511.39,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1387d145aaf01f6e33b66525dda6e1f51f6955f8",
-      "name": "Lucerys",
-      "score": 30.6,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.1,
-      "roi": -94.2,
-      "cash_pnl": -51019.46,
-      "realized_pnl": -39098.18,
-      "total_usdc": 41734.78,
-      "trade_count": 500,
-      "market_count": 189,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:32+00:00",
-      "top_markets": [
-        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Iliana Iotova win the 2026 Bulgarian presidential first round by at least 40%?"
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x1ceaabf230a848b4f41b721a2fef98bc597f181d",
-      "name": "Bruno.delcol",
-      "score": 30.4,
+      "wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+      "name": "balthazar",
+      "score": 30.8,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 79.3,
-      "roi": -66.2,
-      "cash_pnl": -7283.3,
-      "realized_pnl": -53.23,
-      "total_usdc": 32896.88,
-      "trade_count": 209,
-      "market_count": 191,
-      "position_count": 52,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T21:03:48+00:00",
-      "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Vin\u00edcius J\u00fanior: 1+ goals",
-        "Neymar Jr: 1+ goals"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.6314,
-          "cur_price": 0.6605,
-          "usdc_size": 2677.25,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0x9b6f3c9860324557d51b320f5202d24d0eba9e19",
-      "name": "Jhyylle",
-      "score": 30.4,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 79.4,
-      "roi": -56.6,
-      "cash_pnl": -6056.15,
-      "realized_pnl": -106.44,
-      "total_usdc": 33514.4,
+      "volume_score": 83.1,
+      "roi": -80.7,
+      "cash_pnl": -846314.34,
+      "realized_pnl": 456087.79,
+      "total_usdc": 54744.48,
       "trade_count": 500,
-      "market_count": 290,
-      "position_count": 157,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-10-25T20:55:42+00:00",
-      "top_markets": [
-        "Will FC Bayern M\u00fcnchen win on 2026-10-13?",
-        "Bitcoin Up or Down - October 10, 5:55PM-6:00PM ET",
-        "Bitcoin Up or Down - October 10, 5:40PM-5:45PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6469,
-          "cur_price": 0.6605,
-          "usdc_size": 4133.26,
-          "outcome": "Yes"
-        }
-      ]
-    },
-    {
-      "wallet": "0xec5723df1ef786d95b05b2941c89b45dcb560fa7",
-      "name": "IIIllllllIIIIIIIllllllllIIIIIIIIIIIllllll",
-      "score": 30.3,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 78.2,
-      "roi": -87.3,
-      "cash_pnl": -17858.8,
-      "realized_pnl": 2856.12,
-      "total_usdc": 28642.68,
-      "trade_count": 500,
-      "market_count": 64,
+      "market_count": 94,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:55:29+00:00",
+      "last_active": "2026-10-25T23:26:57+00:00",
       "top_markets": [
-        "Al Ahli Saudi Club vs. Al Khaleej Saudi Club: O/U 3.5",
-        "Will DSC Arminia Bielefeld win on 2026-10-24?",
-        "Will VfB Stuttgart win on 2026-10-23?"
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by at least 12%?"
       ],
       "signals": [
         {
-          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "ENTER",
-          "avg_price": 0.6616,
-          "cur_price": 0.6605,
-          "usdc_size": 2591.29,
-          "outcome": "Yes"
+          "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.2842,
+          "cur_price": 0.9025,
+          "usdc_size": 4752.98,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x63eb4b0aaf4c864a85c5e1a58c200b3af0244455",
-      "name": "Noblesing",
+      "wallet": "0xc800fda72cd8720073e3cacd9a50a01a28cc522e",
+      "name": "Eficaznegocios",
       "score": 30.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.2,
-      "roi": -73.1,
-      "cash_pnl": -4062.21,
-      "realized_pnl": 97.71,
-      "total_usdc": 25163.58,
-      "trade_count": 145,
-      "market_count": 50,
-      "position_count": 25,
+      "volume_score": 77.1,
+      "roi": -61.0,
+      "cash_pnl": -15033.16,
+      "realized_pnl": 0.0,
+      "total_usdc": 24643.46,
+      "trade_count": 10,
+      "market_count": 1,
+      "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:55:59+00:00",
+      "last_active": "2026-10-25T23:26:06+00:00",
       "top_markets": [
-        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Bitcoin Up or Down - October 16, 9:30AM-9:35AM ET",
-        "Bitcoin Up or Down - October 16, 9:50AM-9:55AM ET"
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.6903,
-          "cur_price": 0.6605,
-          "usdc_size": 1498.37,
+          "signal": "SKIP",
+          "avg_price": 0.1705,
+          "cur_price": 0.0995,
+          "usdc_size": 9609.96,
           "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x340bc9f854d0556f8453d385f4db81f8ecc5ec07",
-      "name": "jackkkkks",
+      "wallet": "0xdc270ef51b45b02f3cda12a094d157d407220dba",
+      "name": "0xdC270Ef51b45b02F3CdA12A094d157D407220DBa-1728779507536",
+      "score": 30.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.3,
+      "roi": -65.3,
+      "cash_pnl": -6578.0,
+      "realized_pnl": 0.0,
+      "total_usdc": 25459.51,
+      "trade_count": 57,
+      "market_count": 9,
+      "position_count": 6,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:27+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Bitcoin Up or Down - September 21, 8:05PM-8:10PM ET",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.1784,
+          "cur_price": 0.0995,
+          "usdc_size": 3464.14,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x90c220bd56468d9fc8f8669abc4fa0eeb541a924",
+      "name": "arvoreazul",
+      "score": 30.2,
+      "roi_score": 9.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 49.1,
+      "roi": -35.9,
+      "cash_pnl": -226.41,
+      "realized_pnl": 0.0,
+      "total_usdc": 630.0,
+      "trade_count": 1,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:12+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x2fde05d483c7a77e11b5a3937d295fe522f04ce2",
+      "name": "bolsonarowin",
+      "score": 30.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 74.6,
+      "roi": -60.3,
+      "cash_pnl": -10707.5,
+      "realized_pnl": 0.0,
+      "total_usdc": 17754.0,
+      "trade_count": 2,
+      "market_count": 1,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:41+00:00",
+      "top_markets": [
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.1637,
+          "cur_price": 0.0995,
+          "usdc_size": 7046.4,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6b8189148b3dc80cc44ef5adf92da37b1717adc3",
+      "name": "fredgoldner",
       "score": 29.9,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 74.3,
+      "volume_score": 73.7,
       "roi": -100.0,
-      "cash_pnl": -586.89,
-      "realized_pnl": -18.09,
-      "total_usdc": 17235.08,
-      "trade_count": 105,
-      "market_count": 57,
-      "position_count": 18,
+      "cash_pnl": -50.0,
+      "realized_pnl": -1.83,
+      "total_usdc": 15881.24,
+      "trade_count": 22,
+      "market_count": 5,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:57:33+00:00",
+      "last_active": "2026-10-25T23:25:54+00:00",
       "top_markets": [
         "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-        "Will Jos\u00e9 Antonio Kast win the Chilean presidential election?",
-        "Will Jeannette Jara win the Chilean presidential election?"
+        "Will CR Flamengo win on 2026-07-22?",
+        "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x7b66c0a9949df7b57faf7fa2668ba1cd2bdc9282",
-      "name": "THEPOKERGUY",
-      "score": 29.3,
-      "roi_score": 2.9,
+      "wallet": "0x3f17046f994af5670ac23bba731252fa296e27cf",
+      "name": "SUPER-BRUNO",
+      "score": 29.5,
+      "roi_score": 4.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 59.8,
-      "roi": -45.7,
-      "cash_pnl": -459.18,
-      "realized_pnl": -1.63,
-      "total_usdc": 2559.38,
-      "trade_count": 31,
-      "market_count": 24,
-      "position_count": 9,
+      "volume_score": 56.4,
+      "roi": -43.4,
+      "cash_pnl": -497.12,
+      "realized_pnl": -1.54,
+      "total_usdc": 1640.23,
+      "trade_count": 28,
+      "market_count": 22,
+      "position_count": 16,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-10-25T20:54:42+00:00",
+      "last_active": "2026-10-25T23:25:45+00:00",
       "top_markets": [
-        "Map 1 Rounds Handicap: BC.Game Esports (-6.5) vs FaZe (+6.5)",
-        "Counter-Strike: Liquid vs magic - Map 2 Winner",
-        "Will GEN be number 1 on the end of year Global Power Rankings?"
+        "Will Fernando Haddad win the 2026 Brazilian presidential election?",
+        "Will Michelle Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will Bayern Munich win the 2025\u201326 Champions League?"
       ],
       "signals": [
         {
           "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "signal": "LATE",
-          "avg_price": 0.64,
-          "cur_price": 0.6605,
-          "usdc_size": 535.2,
+          "signal": "SKIP",
+          "avg_price": 0.0879,
+          "cur_price": 0.0995,
+          "usdc_size": 647.53,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x67c483c6dab545e0e8e214e98e485416dcca4622",
+      "name": "Itskide",
+      "score": 29.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 69.6,
+      "roi": -57.6,
+      "cash_pnl": -2481.82,
+      "realized_pnl": -0.03,
+      "total_usdc": 9229.2,
+      "trade_count": 272,
+      "market_count": 62,
+      "position_count": 2,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:24:48+00:00",
+      "top_markets": [
+        "Will Ahmad Khatami be the next Supreme Leader of Iran?",
+        "Will global temperature increase by less than 1.05\u00baC in February 2026?",
+        "Will Elon Musk post 580+ tweets from March 6 to March 13, 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.1449,
+          "cur_price": 0.0995,
+          "usdc_size": 1829.14,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa8ec178f1e6969264db090db14338cf538977df8",
+      "name": "synyster-gates",
+      "score": 28.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 58.3,
+      "roi": -100.0,
+      "cash_pnl": -200.0,
+      "realized_pnl": 0.0,
+      "total_usdc": 2092.96,
+      "trade_count": 12,
+      "market_count": 8,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:59+00:00",
+      "top_markets": [
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "Thunder vs. Timberwolves",
+        "OKC breaks NBA single-season wins record?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb26e97f1d353bd2bb84425a00573142f560bab11",
+      "name": "0xb26E97f1d353bd2bB84425A00573142f560Bab11-1773351557115",
+      "score": 28.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 56.8,
+      "roi": -51.3,
+      "cash_pnl": -762.36,
+      "realized_pnl": -19.25,
+      "total_usdc": 1721.56,
+      "trade_count": 9,
+      "market_count": 5,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-10-25T23:25:51+00:00",
+      "top_markets": [
+        "Bitcoin Up or Down - March 12, 5:45PM-5:50PM ET",
+        "Will Bitcoin reach $85,000 in March?",
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "signal": "SKIP",
+          "avg_price": 0.0899,
+          "cur_price": 0.0995,
+          "usdc_size": 723.0,
           "outcome": "Yes"
         }
       ]
@@ -1994,142 +1775,142 @@
     {
       "id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
       "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "volume": "30551483.703576997",
-      "liquidity": "183427.94178",
+      "volume": "44685447.94013099",
+      "liquidity": "944660.15173",
       "end_date": "2026-10-26T03:59:00Z"
-    },
-    {
-      "id": "0x9df86fd67b044c2cae1fe48e9ce1eae6ee9294979cba61c8fbb52ad879f7a0b5",
-      "question": "LoL: Dplus KIA vs Movistar KOI - Game 1 Winner",
-      "volume": "3055806.003536",
-      "liquidity": "942134.7839",
-      "end_date": "2026-10-26T01:10:00Z"
-    },
-    {
-      "id": "0x77706c139c0596bfe18973e428c1dc22a3f08bbf6a6cbe1d41a6e7aac5eb63c1",
-      "question": "Will Real Madrid CF win on 2026-10-25?",
-      "volume": "3011561.22359",
-      "liquidity": "474254.889",
-      "end_date": "2026-10-25T20:00:00Z"
-    },
-    {
-      "id": "0x793815e8628516f29709620fcafb8d79da6f8b9eccdbc3a81980eba46cf608d1",
-      "question": "Will FC Barcelona win on 2026-10-25?",
-      "volume": "2433951.022407",
-      "liquidity": "503685.6743",
-      "end_date": "2026-10-25T20:00:00Z"
     },
     {
       "id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
       "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "volume": "32229714.397397004",
-      "liquidity": "195792.5221",
+      "volume": "39001229.813430004",
+      "liquidity": "705126.04433",
       "end_date": "2026-10-26T03:59:00Z"
+    },
+    {
+      "id": "0x88533cb35e3b9e14e16dfd4f3d37afb1d600a7a2a07c6b9d6a3c9d9901cc8294",
+      "question": "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
+      "volume": "4529921.712495",
+      "liquidity": "2853578.18578",
+      "end_date": "2026-10-26T02:55:00Z"
+    },
+    {
+      "id": "0x4d3b279606d656c8cd73a837293acdf65fe675ddf910daab34e4acce7e39000a",
+      "question": "Raptors vs. Timberwolves",
+      "volume": "2632785.0279700006",
+      "liquidity": "280078.8832",
+      "end_date": "2026-10-25T23:00:00Z"
+    },
+    {
+      "id": "0x88b7e613ec70694ceca726fc74705903ca62548f4920ece7ea4ee5697e8ce988",
+      "question": "Lakers vs. Jazz",
+      "volume": "2577895.1392620006",
+      "liquidity": "48588.7662",
+      "end_date": "2026-10-25T21:00:00Z"
     },
     {
       "id": "0xda4a7d85a3c1abaf52bb4dd561d45c1cb33e7f76f76a21069a0d10d4668aefa6",
       "question": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
-      "volume": "3978639.978957",
-      "liquidity": "84959.07466",
+      "volume": "4330854.899998",
+      "liquidity": "92782.35689",
       "end_date": "2026-10-25T23:59:00Z"
     },
     {
-      "id": "0x77857649362a43a3954b8441931040ce9117becc3512574d741597cb3bc212d3",
-      "question": "LoL: Dplus KIA vs Movistar KOI (BO3) - Worlds Group Stage",
-      "volume": "1842155.3642720003",
-      "liquidity": "1212568.86818",
-      "end_date": "2026-10-26T01:10:00Z"
-    },
-    {
-      "id": "0x22b25d373b8e47ea61a820c6a0df788ebac14cc4b03a4ff2850d24afd2d78853",
-      "question": "LoL: Dplus KIA vs Movistar KOI - Game 2 Winner",
-      "volume": "1631104.2904589998",
-      "liquidity": "1342682.09329",
-      "end_date": "2026-10-26T01:10:00Z"
-    },
-    {
-      "id": "0xf66e46bcd3f2cdb83b1a03b90cf8282a694673c9c79d79a22658de832123ede6",
-      "question": "Will FC Barcelona vs. Real Madrid CF end in a draw?",
-      "volume": "1562748.6467210003",
-      "liquidity": "674760.1579",
-      "end_date": "2026-10-25T20:00:00Z"
-    },
-    {
-      "id": "0x88a786bf629ab8d95fadec85460dfa68f959cb4c622d634a976004439c2b63d2",
-      "question": "FC Barcelona vs. Real Madrid CF: O/U 4.5",
-      "volume": "1420748.42033",
-      "liquidity": "123182.1598",
-      "end_date": "2026-10-25T20:00:00Z"
+      "id": "0xee382461657355b417a3ba3f75e6de8f898a2a633157641e18d70262fc12b6f8",
+      "question": "LoL: Gen.G vs LYON - Game 1 Winner",
+      "volume": "2157864.6163620003",
+      "liquidity": "994679.52251",
+      "end_date": "2026-10-26T02:55:00Z"
     },
     {
       "id": "0xc8c3c2b216d26a649da337893e368ca02053d5f3122c569ac03febedf99978dc",
       "question": "Rams vs. Raiders",
-      "volume": "1295055.5121670002",
-      "liquidity": "385912.9002",
+      "volume": "2246053.9829800003",
+      "liquidity": "74266.43351",
       "end_date": "2026-10-25T20:25:00Z"
     },
     {
-      "id": "0x258ff19b4baff0ed24bc28f58e83c8be6f2f91d9134700703e0aa51810c51a63",
-      "question": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
-      "volume": "5429171.67055",
-      "liquidity": "205995.55561",
-      "end_date": "2026-10-25T23:59:00Z"
+      "id": "0xc1a04d21908de94e4a0cf3e3118f68b18a8ee2cfd8e9d778f289bbbe7efc764c",
+      "question": "Spread: Thunder (-16.5)",
+      "volume": "1891741.5453520003",
+      "liquidity": "64686.8858",
+      "end_date": "2026-10-25T23:00:00Z"
     },
     {
-      "id": "0x0044b4a36b67a4f89f24cfc13f13990abd354c836ec113ee5b9822abb3aa5500",
-      "question": "Spread: FC Barcelona (-3.5)",
-      "volume": "1065337.8152400001",
-      "liquidity": "34249.85455",
-      "end_date": "2026-10-25T20:00:00Z"
+      "id": "0x9023d2dd1a57817e294a000c3f7bf489c113851b17b45d78740c4d5e7d301411",
+      "question": "Spread: Pacers (-6.5)",
+      "volume": "1750028.181199",
+      "liquidity": "53675.2157",
+      "end_date": "2026-10-25T22:00:00Z"
+    },
+    {
+      "id": "0x2c5d30455890fae3deaf528488e86939f9ff1ce0e936bfe97b446808092977ce",
+      "question": "Pacers vs. Nets",
+      "volume": "1485103.900675",
+      "liquidity": "301979.285",
+      "end_date": "2026-10-25T22:00:00Z"
     },
     {
       "id": "0x2345fcf9acc0308ed06ce53dfe765176643720d74b1f4a3f6d2f638d99a65e0b",
       "question": "Packers vs. Lions",
-      "volume": "1208363.9341369998",
-      "liquidity": "213561.693",
+      "volume": "2198242.868667",
+      "liquidity": "415097.2704",
       "end_date": "2026-10-25T20:25:00Z"
     },
     {
       "id": "0x776e643bfc12ad924f07eca0f9b288aa3f4b334e5f8fcc37101d63b821aef988",
       "question": "Broncos vs. Cardinals",
-      "volume": "700045.9090659999",
-      "liquidity": "622824.0135",
+      "volume": "1441839.0421000002",
+      "liquidity": "82444.64517",
       "end_date": "2026-10-25T20:05:00Z"
+    },
+    {
+      "id": "0x4b82c0dd6196c7325a465b74b30c50c5df0acebf44a0ea756155e5053fa14bcf",
+      "question": "LoL: Gen.G vs LYON - Game 2 Winner",
+      "volume": "1385276.251836",
+      "liquidity": "1000737.58069",
+      "end_date": "2026-10-26T02:55:00Z"
+    },
+    {
+      "id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "volume": "19781933.252683003",
+      "liquidity": "1481761.1823",
+      "end_date": "2026-10-29T03:59:00Z"
+    },
+    {
+      "id": "0x9ea47f0acf34fc1b7bc61575546656775c34341d48e85a4da180b679e5a8bd73",
+      "question": "Pistons vs. 76ers",
+      "volume": "1223647.131412",
+      "liquidity": "1941522.1681",
+      "end_date": "2026-10-25T23:30:00Z"
+    },
+    {
+      "id": "0x258ff19b4baff0ed24bc28f58e83c8be6f2f91d9134700703e0aa51810c51a63",
+      "question": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+      "volume": "5957086.061768001",
+      "liquidity": "84085.47596",
+      "end_date": "2026-10-25T23:59:00Z"
+    },
+    {
+      "id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "volume": "15360619.155601",
+      "liquidity": "1004640.0285",
+      "end_date": "2026-10-29T03:59:00Z"
     },
     {
       "id": "0x01203a2014dd063b46d1390121086741d74a9aa54f1176340999c6f5129019e2",
       "question": "Spread: Broncos (-4.5)",
-      "volume": "689898.598277",
-      "liquidity": "130223.0576",
+      "volume": "728197.5326750001",
+      "liquidity": "42859.07758",
       "end_date": "2026-10-25T20:05:00Z"
-    },
-    {
-      "id": "0x88b7e613ec70694ceca726fc74705903ca62548f4920ece7ea4ee5697e8ce988",
-      "question": "Lakers vs. Jazz",
-      "volume": "642898.532447",
-      "liquidity": "1391940.7188",
-      "end_date": "2026-10-25T21:00:00Z"
     },
     {
       "id": "0x87091dc5932f015d80c40e71e47cb043c3f8b6098484eb5bc3943cf35ee9afc1",
       "question": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-      "volume": "6928146.832265999",
-      "liquidity": "160900.77934",
+      "volume": "7089994.730144002",
+      "liquidity": "148407.66114",
       "end_date": "2026-10-27T03:59:00Z"
-    },
-    {
-      "id": "0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4",
-      "question": "US x Iran ceasefire continues through October 31?",
-      "volume": "6594730.718758999",
-      "liquidity": "102670.9513",
-      "end_date": "2026-10-31T23:59:00Z"
-    },
-    {
-      "id": "0x9cf563d7b55aa9aa876d5d7e55126347eee473f0ae56d799e325fdef2bf25297",
-      "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
-      "volume": "11155030.975279",
-      "liquidity": "1334026.22139",
-      "end_date": "2026-10-29T03:59:00Z"
     }
   ]
 }
