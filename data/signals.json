@@ -1,2344 +1,2131 @@
 {
-  "last_updated": "2026-11-01T01:51:16.052154+00:00",
+  "last_updated": "2026-11-01T08:42:32.612141+00:00",
   "whale_count": 50,
   "market_count": 20,
   "whales": [
     {
-      "wallet": "0x228b8d11eba89bf1c554f8879a9293b7106daf4c",
-      "name": "0x228B8d11EBa89BF1c554f8879a9293B7106DaF4c-1765442354872",
-      "score": 48.8,
+      "wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
+      "name": "SnapElectionAvoider",
+      "score": 47.6,
+      "roi_score": 40.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 54.0,
+      "roi": 11.1,
+      "cash_pnl": 24929.7,
+      "realized_pnl": 16187.53,
+      "total_usdc": 1191.52,
+      "trade_count": 500,
+      "market_count": 99,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:31:49+00:00",
+      "top_markets": [
+        "Will Republicans win Michigan, Ohio, and Texas, and lose Alaska, Iowa, Kansas, and Maine?",
+        "Will Republicans win Alaska, Maine, and Ohio, and lose Iowa, Kansas, Michigan, and Texas?",
+        "Will Republicans win Alaska, Maine, Michigan, and Texas, and lose Iowa, Kansas, and Ohio?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans win Alaska, Iowa, Kansas, Michigan, and Texas, and lose Maine and Ohio?",
+          "signal": "SKIP",
+          "avg_price": 0.0058,
+          "cur_price": 0.0025,
+          "usdc_size": 2878.06,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x55b4af6a1cff148a307cad8ad098206a028e80ea",
+      "name": "StarryPath",
+      "score": 47.5,
       "roi_score": 50.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 19.8,
-      "volume_score": 83.1,
+      "early_entry_score": 0.0,
+      "volume_score": 100.0,
       "roi": null,
       "cash_pnl": 0,
       "realized_pnl": 0,
-      "total_usdc": 54282.99,
+      "total_usdc": 1881030.92,
       "trade_count": 500,
-      "market_count": 113,
+      "market_count": 83,
       "position_count": 0,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:06+00:00",
+      "last_active": "2026-11-01T03:56:25+00:00",
       "top_markets": [
-        "Kings vs. Grizzlies: O/U 214.5",
-        "Atlanta Dream vs. Golden State Valkyries",
-        "Kings vs. Grizzlies: O/U 234.5"
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "Will the Republicans win the Michigan Senate race in 2026?",
+        "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-      "name": "",
-      "score": 46.1,
-      "roi_score": 32.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 42.3,
-      "volume_score": 74.4,
-      "roi": -0.9,
-      "cash_pnl": -1275.32,
-      "realized_pnl": -6002.52,
-      "total_usdc": 17423.6,
-      "trade_count": 500,
-      "market_count": 59,
-      "position_count": 315,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:06+00:00",
-      "top_markets": [
-        "Timberwolves vs. Spurs",
-        "Kings vs. Grizzlies: O/U 234.5",
-        "Spread: Grizzlies (-18.5)"
-      ],
-      "signals": [
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.7968,
-          "cur_price": 0.235,
-          "usdc_size": 13519.83,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.828,
-          "cur_price": 0.215,
-          "usdc_size": 10162.5,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Kings vs. Grizzlies: O/U 228.5",
-          "signal": "SKIP",
-          "avg_price": 0.5531,
-          "cur_price": 0.805,
-          "usdc_size": 922.72,
-          "outcome": "Under"
-        },
-        {
-          "market": "Spread: Rockets (-2.5)",
-          "signal": "SKIP",
-          "avg_price": 0.3801,
-          "cur_price": 0.74,
-          "usdc_size": 919.17,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.6531,
-          "cur_price": 0.0005,
-          "usdc_size": 2293.62,
-          "outcome": "Pelicans"
-        }
-      ]
-    },
-    {
-      "wallet": "0x72638c8d939fd0205925025b1183d8db4a360851",
-      "name": "alpheclabs2",
-      "score": 43.7,
-      "roi_score": 40.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 91.9,
-      "roi": 10.1,
-      "cash_pnl": 2645.33,
-      "realized_pnl": 63.24,
-      "total_usdc": 172214.76,
-      "trade_count": 500,
-      "market_count": 269,
-      "position_count": 50,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:49:57+00:00",
-      "top_markets": [
-        "76ers vs. Hornets",
-        "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
-        "Thunder vs. Rockets"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.8,
-          "cur_price": 0.215,
-          "usdc_size": 14692.37,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.5405,
-          "cur_price": 0.305,
-          "usdc_size": 1528.15,
-          "outcome": "Atlanta Dream"
-        }
-      ]
-    },
-    {
-      "wallet": "0x951634357346bb291df117f9ac410100feea2104",
-      "name": "AppleTiiime",
-      "score": 42.8,
-      "roi_score": 35.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 97.7,
-      "roi": 2.5,
-      "cash_pnl": 56.22,
-      "realized_pnl": 0.0,
-      "total_usdc": 368283.18,
-      "trade_count": 500,
-      "market_count": 44,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:43:06+00:00",
-      "top_markets": [
-        "Will Cruzeiro EC win on 2026-10-29?",
-        "Hornets vs. Wizards: O/U 219.5",
-        "Lakers vs. Warriors"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "ENTER",
-          "avg_price": 0.21,
-          "cur_price": 0.215,
-          "usdc_size": 2150.0,
-          "outcome": "Thunder"
-        }
-      ]
-    },
-    {
-      "wallet": "0x85e5669beee6b80d887493e724987dabc5f56056",
-      "name": "winner877",
-      "score": 42.7,
-      "roi_score": 33.8,
+      "wallet": "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+      "name": "ndb1",
+      "score": 47.2,
+      "roi_score": 49.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
       "volume_score": 100.0,
-      "roi": 0.8,
-      "cash_pnl": 244.11,
-      "realized_pnl": 0.0,
-      "total_usdc": 868984.02,
+      "roi": 23.4,
+      "cash_pnl": 1044538.85,
+      "realized_pnl": -466531.09,
+      "total_usdc": 932008.27,
       "trade_count": 500,
-      "market_count": 29,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:22:00+00:00",
-      "top_markets": [
-        "76ers vs. Pacers",
-        "Suns vs. Thunder",
-        "Bulls vs. Celtics"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.86,
-          "cur_price": 0.215,
-          "usdc_size": 3925.0,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
-      "name": "sleepy-panda",
-      "score": 42.6,
-      "roi_score": 33.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.5,
-      "cash_pnl": 1334.99,
-      "realized_pnl": 10185.75,
-      "total_usdc": 1030435.41,
-      "trade_count": 500,
-      "market_count": 48,
-      "position_count": 62,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:39:06+00:00",
-      "top_markets": [
-        "Stanford vs. Louisville",
-        "Will Como 1907 win on 2026-10-21?",
-        "UFC 333: Nikita Krylov vs. Abdul-Rakhman Yakhyaev (Light Heavyweight, Prelims)"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-      "name": "Flaznorp",
-      "score": 42.6,
-      "roi_score": 34.1,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 12.2,
-      "volume_score": 80.3,
-      "roi": 1.1,
-      "cash_pnl": 6479.96,
-      "realized_pnl": -5978.4,
-      "total_usdc": 37539.1,
-      "trade_count": 500,
-      "market_count": 180,
+      "market_count": 22,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:01+00:00",
+      "last_active": "2026-11-01T08:36:22+00:00",
       "top_markets": [
-        "Kings vs. Grizzlies: O/U 214.5",
-        "CF Monterrey vs. Club Tijuana: O/U 7.5",
-        "Timberwolves vs. Spurs: O/U 242.5"
+        "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "Will the Democratic Party control the House after the 2026 Midterm elections?",
+        "2026 Balance of Power: Other"
       ],
       "signals": [
         {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.8351,
-          "cur_price": 0.0005,
-          "usdc_size": 33198.4,
-          "outcome": "Pelicans"
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "ENTER",
+          "avg_price": 0.231,
+          "cur_price": 0.225,
+          "usdc_size": 633057.83,
+          "outcome": "Yes"
         },
         {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.8277,
-          "cur_price": 0.235,
-          "usdc_size": 12608.94,
-          "outcome": "Spurs"
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "LATE",
+          "avg_price": 0.2361,
+          "cur_price": 0.245,
+          "usdc_size": 279155.55,
+          "outcome": "Yes"
         },
         {
-          "market": "Spread: Rockets (-2.5)",
+          "market": "2026 Balance of Power: D Senate, D House",
           "signal": "SKIP",
-          "avg_price": 0.4332,
-          "cur_price": 0.74,
-          "usdc_size": 2746.33,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Kings vs. Grizzlies: O/U 228.5",
-          "signal": "SKIP",
-          "avg_price": 0.4786,
-          "cur_price": 0.805,
-          "usdc_size": 1998.76,
-          "outcome": "Under"
-        },
-        {
-          "market": "Ohio State vs. USC",
-          "signal": "SKIP",
-          "avg_price": 0.4417,
-          "cur_price": 0.255,
-          "usdc_size": 1164.21,
-          "outcome": "Ohio State"
-        },
-        {
-          "market": "Spread: Cavaliers (-9.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5746,
-          "cur_price": 0.99,
-          "usdc_size": 6662.72,
-          "outcome": "Cavaliers"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.5308,
-          "cur_price": 0.305,
-          "usdc_size": 2985.24,
-          "outcome": "Golden State Valkyries"
-        },
-        {
-          "market": "Ohio State vs. USC",
-          "signal": "SKIP",
-          "avg_price": 0.6258,
-          "cur_price": 0.255,
-          "usdc_size": 3507.9,
-          "outcome": "USC"
-        },
-        {
-          "market": "Kings vs. Grizzlies: O/U 228.5",
-          "signal": "SKIP",
-          "avg_price": 0.3959,
-          "cur_price": 0.805,
-          "usdc_size": 3117.75,
-          "outcome": "Over"
-        },
-        {
-          "market": "Spread: Hawks (-4.5)",
-          "signal": "SKIP",
-          "avg_price": 0.7935,
-          "cur_price": 0.0005,
-          "usdc_size": 3877.74,
-          "outcome": "Pelicans"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.5308,
-          "cur_price": 0.305,
-          "usdc_size": 1085.72,
-          "outcome": "Atlanta Dream"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.3928,
-          "cur_price": 0.215,
-          "usdc_size": 625.04,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.8545,
-          "cur_price": 0.9975,
-          "usdc_size": 2070.72,
-          "outcome": "Cavaliers"
+          "avg_price": 0.3015,
+          "cur_price": 0.715,
+          "usdc_size": 2613766.59,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x93cc64dceb9b1929f98d469501e0aa35d0ed6ffc",
-      "name": "WhenYouFindMe",
-      "score": 42.5,
-      "roi_score": 33.4,
+      "wallet": "0x68b67b9578d5eab17663414f6919772882ea7cd7",
+      "name": "democraticbroom",
+      "score": 45.5,
+      "roi_score": 37.7,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 99.8,
-      "roi": 0.1,
-      "cash_pnl": 26.02,
+      "early_entry_score": 27.7,
+      "volume_score": 75.5,
+      "roi": 6.5,
+      "cash_pnl": 1304.43,
       "realized_pnl": 0.0,
-      "total_usdc": 487652.48,
-      "trade_count": 500,
-      "market_count": 192,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:49:12+00:00",
-      "top_markets": [
-        "Exact Score: Argentina 2 - 2 Cabo Verde?",
-        "Trump out as President by July 31?",
-        "Switzerland to score first vs. Algeria?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x731a241767938bb23d1b2fac4c9cd2f3cea9033f",
-      "name": "CoinTrick",
-      "score": 42.5,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 70.43,
-      "realized_pnl": 0.0,
-      "total_usdc": 553239.41,
-      "trade_count": 500,
-      "market_count": 173,
+      "total_usdc": 20000.0,
+      "trade_count": 1,
+      "market_count": 1,
       "position_count": 1,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:48:03+00:00",
+      "last_active": "2026-10-31T23:44:15+00:00",
       "top_markets": [
-        "LoL: Karmine Corp vs Movistar KOI - Game 1 Winner",
-        "LoL: LOS vs LYON - Game 1 Winner",
-        "Chelsea FC vs. Manchester United FC: O/U 1.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xfc25f141ed27bb1787338d2c4e7f51e3a15e1f7f",
-      "name": "Malfunction.",
-      "score": 42.5,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 340.26,
-      "realized_pnl": -11.18,
-      "total_usdc": 1974797.97,
-      "trade_count": 500,
-      "market_count": 52,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:45:43+00:00",
-      "top_markets": [
-        "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
-        "Will Real Betis Balompi\u00e9 win on 2026-10-31?",
-        "Hawks vs. Pelicans"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xa16a1302ca05463f30faebeb5c045767fde233a1",
-      "name": "zxc368",
-      "score": 42.5,
-      "roi_score": 33.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.0,
-      "cash_pnl": 3.88,
-      "realized_pnl": -57.24,
-      "total_usdc": 982762.89,
-      "trade_count": 500,
-      "market_count": 48,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:49:12+00:00",
-      "top_markets": [
-        "Hawks vs. Pelicans",
-        "LoL: Hanwha Life Esports vs Bilibili Gaming - Game 2 Winner",
-        "76ers vs. Hornets"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x1ede425ac39b1286e42174e8f97dfa0ea76b46e8",
-      "name": "67BrainRot",
-      "score": 42.5,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": 0.1,
-      "cash_pnl": 107.93,
-      "realized_pnl": 0.0,
-      "total_usdc": 630334.22,
-      "trade_count": 500,
-      "market_count": 70,
-      "position_count": 2,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:34:18+00:00",
-      "top_markets": [
-        "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
-        "Pacers vs. Bucks",
-        "Spurs vs. Jazz"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xb3ba8a8b66f068b81fa809ee24f23578bf35f84e",
-      "name": "",
-      "score": 42.3,
-      "roi_score": 35.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.3,
-      "roi": 3.1,
-      "cash_pnl": 248.23,
-      "realized_pnl": 0.0,
-      "total_usdc": 181102.01,
-      "trade_count": 500,
-      "market_count": 219,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:44:00+00:00",
-      "top_markets": [
-        "Will Bilibili Gaming win Worlds 2026?",
-        "Maple Leafs vs. Kraken",
-        "Juventus FC vs. Stade Rennais FC 1901: O/U 4.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x6a88c5ecd262e2c42e78bad8e6db7ab3c4e4b859",
-      "name": "pelik",
-      "score": 41.9,
-      "roi_score": 33.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.3,
-      "roi": -0.5,
-      "cash_pnl": -748.7,
-      "realized_pnl": 0.0,
-      "total_usdc": 269123.22,
-      "trade_count": 500,
-      "market_count": 314,
-      "position_count": 20,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:16+00:00",
-      "top_markets": [
-        "Will Sanfrecce Hiroshima win on 2026-10-31?",
-        "Will Aston Villa FC win on 2026-10-31?",
-        "Hawks vs. Pelicans"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x57db0634b02eff8cca7f6bf46adf4837cb9385ef",
-      "name": "henryttok",
-      "score": 41.9,
-      "roi_score": 34.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.4,
-      "volume_score": 90.3,
-      "roi": 1.4,
-      "cash_pnl": 357.34,
-      "realized_pnl": 824.65,
-      "total_usdc": 139127.2,
-      "trade_count": 500,
-      "market_count": 8,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:49:21+00:00",
-      "top_markets": [
-        "76ers vs. Hornets",
-        "Timberwolves vs. Spurs",
-        "Thunder vs. Rockets"
+        "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?"
       ],
       "signals": [
         {
-          "market": "Timberwolves vs. Spurs",
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
           "signal": "LATE",
-          "avg_price": 0.2423,
-          "cur_price": 0.235,
-          "usdc_size": 861.12,
-          "outcome": "Timberwolves"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.3544,
-          "cur_price": 0.215,
-          "usdc_size": 1572.04,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7878,
-          "cur_price": 0.215,
-          "usdc_size": 5739.77,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.808,
-          "cur_price": 0.235,
-          "usdc_size": 6027.84,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.4634,
-          "cur_price": 0.0005,
-          "usdc_size": 5120.07,
-          "outcome": "Pelicans"
-        },
-        {
-          "market": "Kings vs. Grizzlies",
-          "signal": "SKIP",
-          "avg_price": 0.6375,
-          "cur_price": 0.0185,
-          "usdc_size": 4915.74,
-          "outcome": "Grizzlies"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.8336,
-          "cur_price": 0.9975,
-          "usdc_size": 705.19,
-          "outcome": "Cavaliers"
+          "avg_price": 0.2299,
+          "cur_price": 0.245,
+          "usdc_size": 21304.35,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0x569ad121a7653e42ca2e5d16a8ca9fdfb2a78ca5",
-      "name": "meiyitinghuouma",
-      "score": 41.7,
-      "roi_score": 33.2,
+      "wallet": "0x90049495fbc7ade5572b4f4e50d8c77b7448ce4b",
+      "name": "aabda1",
+      "score": 44.0,
+      "roi_score": 35.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.2,
-      "roi": -0.2,
-      "cash_pnl": -11.8,
+      "early_entry_score": 29.8,
+      "volume_score": 62.5,
+      "roi": 3.7,
+      "cash_pnl": 134.47,
       "realized_pnl": 0.0,
-      "total_usdc": 180400.67,
-      "trade_count": 500,
-      "market_count": 333,
-      "position_count": 6,
+      "total_usdc": 3642.31,
+      "trade_count": 2,
+      "market_count": 2,
+      "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:46:46+00:00",
+      "last_active": "2026-10-31T20:18:46+00:00",
       "top_markets": [
-        "Blackhawks vs. Bruins",
-        "Guangzhou Open: Maria Timofeeva vs Xinran Sun",
-        "Will Stoke City FC win on 2026-10-31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x006608d41f0083473aef36b385d45ed526fab477",
-      "name": "bluemangopie",
-      "score": 41.2,
-      "roi_score": 33.4,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 86.4,
-      "roi": 0.1,
-      "cash_pnl": 0.74,
-      "realized_pnl": 0.0,
-      "total_usdc": 83992.31,
-      "trade_count": 500,
-      "market_count": 173,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:43:55+00:00",
-      "top_markets": [
-        "UFC 333: Abubakar Vagaev vs. Jacob Malkoun (Middleweight, Early Prelims)",
-        "Counter-Strike: 6yuBoJlbl vs mellren (BO3) - CCT Europe Series #12 Group Stage",
-        "Counter-Strike: TTG Esports vs Revise (BO3) - Exort Fiesta Closed Qualifier: Series #3 Play-In"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x66ca7fee3d820d801c319a7aede56a9d53c08078",
-      "name": "looppau",
-      "score": 40.7,
-      "roi_score": 32.3,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.9,
-      "roi": -1.6,
-      "cash_pnl": -103.98,
-      "realized_pnl": -0.0,
-      "total_usdc": 68678.5,
-      "trade_count": 500,
-      "market_count": 334,
-      "position_count": 33,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:46:34+00:00",
-      "top_markets": [
-        "Counter-Strike: Fluxo vs BARCA (BO3) - FiReSPORTS Last Chance Playoffs",
-        "Counter-Strike: Low Cortisol vs Turma do Pagode (BO3) - Gamers Club Masters Group A",
-        "Will Llaneros FC win on 2026-10-31?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-      "name": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-      "score": 40.2,
-      "roi_score": 31.7,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 81.7,
-      "roi": -2.4,
-      "cash_pnl": -6675.48,
-      "realized_pnl": 6401.46,
-      "total_usdc": 45142.63,
-      "trade_count": 500,
-      "market_count": 270,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:27+00:00",
-      "top_markets": [
-        "Atlanta Dream vs. Golden State Valkyries",
-        "Thunder vs. Rockets",
-        "Timberwolves vs. Spurs"
+        "Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?",
+        "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?"
       ],
       "signals": [
         {
-          "market": "Thunder vs. Rockets",
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "LATE",
+          "avg_price": 0.2299,
+          "cur_price": 0.245,
+          "usdc_size": 2716.3,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x477f156a229f1a174fdf945c778b7362dd2b19aa",
+      "name": "TradeDeficitArchitect",
+      "score": 43.1,
+      "roi_score": 40.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 85.2,
+      "roi": 10.5,
+      "cash_pnl": 10116.7,
+      "realized_pnl": 2942.04,
+      "total_usdc": 71610.5,
+      "trade_count": 500,
+      "market_count": 53,
+      "position_count": 116,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T06:13:27+00:00",
+      "top_markets": [
+        "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+        "Will the Republicans win the Georgia governor race in 2026?",
+        "Will Donald Trump win the 2028 US Presidential Election?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
           "signal": "ENTER",
-          "avg_price": 0.2139,
-          "cur_price": 0.215,
-          "usdc_size": 11120.83,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.2088,
-          "cur_price": 0.235,
-          "usdc_size": 4915.3,
-          "outcome": "Timberwolves"
-        },
-        {
-          "market": "2026 Balance of Power: D Senate, D House",
-          "signal": "SKIP",
-          "avg_price": 0.6315,
-          "cur_price": 0.715,
-          "usdc_size": 14455.0,
+          "avg_price": 0.24,
+          "cur_price": 0.245,
+          "usdc_size": 4899.99,
           "outcome": "Yes"
         },
         {
-          "market": "2026 Balance of Power: D Senate, D House",
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
           "signal": "SKIP",
-          "avg_price": 0.2999,
-          "cur_price": 0.715,
-          "usdc_size": 2856.41,
-          "outcome": "No"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.4911,
-          "cur_price": 0.305,
-          "usdc_size": 3214.01,
-          "outcome": "Atlanta Dream"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.5029,
-          "cur_price": 0.305,
-          "usdc_size": 2877.91,
-          "outcome": "Golden State Valkyries"
-        },
-        {
-          "market": "Spread: Rockets (-2.5)",
-          "signal": "SKIP",
-          "avg_price": 0.6143,
-          "cur_price": 0.74,
-          "usdc_size": 2616.02,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.6328,
-          "cur_price": 0.215,
-          "usdc_size": 525.33,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0xffff6537da5efd428cc09187f90cbd2e726d4413",
-      "name": "0xfFFF6537",
-      "score": 39.8,
-      "roi_score": 31.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 80.3,
-      "roi": -3.5,
-      "cash_pnl": -552.49,
-      "realized_pnl": 10814.65,
-      "total_usdc": 37492.47,
-      "trade_count": 500,
-      "market_count": 20,
-      "position_count": 57,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:39+00:00",
-      "top_markets": [
-        "76ers vs. Hornets",
-        "Thunder vs. Rockets",
-        "Timberwolves vs. Spurs"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "LATE",
-          "avg_price": 0.2238,
-          "cur_price": 0.215,
-          "usdc_size": 867.34,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7561,
-          "cur_price": 0.215,
-          "usdc_size": 3230.79,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.7498,
-          "cur_price": 0.235,
-          "usdc_size": 3121.39,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Kings vs. Grizzlies",
-          "signal": "SKIP",
-          "avg_price": 0.8985,
-          "cur_price": 0.0185,
-          "usdc_size": 567.0,
-          "outcome": "Grizzlies"
-        }
-      ]
-    },
-    {
-      "wallet": "0x6510c97e4d3c6d7d3bab835e824fbf9d8447ea95",
-      "name": "tbyck",
-      "score": 38.9,
-      "roi_score": 25.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 87.0,
-      "roi": -11.3,
-      "cash_pnl": -746.5,
-      "realized_pnl": 0.0,
-      "total_usdc": 90656.05,
-      "trade_count": 500,
-      "market_count": 354,
-      "position_count": 13,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:34:31+00:00",
-      "top_markets": [
-        "Will Trump say \"Democrat\" 5+ times during his Midterm Rally in Florida?",
-        "Will the PQ win 60-64 seats in the National Assembly of Quebec in this election?",
-        "Will Kristina Loewen win the next Kelowna Centre British Columbia Legislative Assembly election?"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
-      "name": "Woaifacai",
-      "score": 38.7,
-      "roi_score": 20.5,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.2,
-      "volume_score": 100.0,
-      "roi": -19.3,
-      "cash_pnl": -158579.29,
-      "realized_pnl": -453.44,
-      "total_usdc": 1540030.67,
-      "trade_count": 500,
-      "market_count": 10,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:40:25+00:00",
-      "top_markets": [
-        "Nuggets vs. Suns",
-        "Thunder vs. Rockets",
-        "Rockets vs. Mavericks"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.6031,
-          "cur_price": 0.215,
-          "usdc_size": 660982.14,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.2,
-          "cur_price": 0.215,
-          "usdc_size": 2580.0,
-          "outcome": "Thunder"
-        }
-      ]
-    },
-    {
-      "wallet": "0x2320f3ac1db8dc31791af2c92d476b2031e5e996",
-      "name": "whypredictionissohard",
-      "score": 38.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 46.8,
-      "volume_score": 86.0,
-      "roi": -85.0,
-      "cash_pnl": -5684.93,
-      "realized_pnl": -42.99,
-      "total_usdc": 79302.88,
-      "trade_count": 500,
-      "market_count": 388,
-      "position_count": 23,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:27:52+00:00",
-      "top_markets": [
-        "Will Eintracht Frankfurt win on 2026-10-16?",
-        "Will FC Bayern M\u00fcnchen vs. Arsenal FC end in a draw?",
-        "Will Manchester City FC win on 2026-10-17?"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.8228,
-          "cur_price": 0.215,
-          "usdc_size": 574.74,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-      "name": "suitcase6628",
-      "score": 36.6,
-      "roi_score": 17.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 2.2,
-      "volume_score": 85.0,
-      "roi": -23.6,
-      "cash_pnl": -3912.68,
-      "realized_pnl": -1540.64,
-      "total_usdc": 69872.54,
-      "trade_count": 500,
-      "market_count": 140,
-      "position_count": 88,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:57+00:00",
-      "top_markets": [
-        "76ers vs. Hornets",
-        "UFC Fight Night: Dakota Hope vs. Francis Marshall (Featherweight, Main Card)",
-        "UFC Fight Night: Ode' Osbourne vs. Cody Durden (Flyweight, Main Card)"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.344,
-          "cur_price": 0.215,
-          "usdc_size": 4045.11,
-          "outcome": "Thunder"
-        }
-      ]
-    },
-    {
-      "wallet": "0x48f04d3164ef060cb69d297097123061955e4463",
-      "name": "mianbaoxiaoziuma",
-      "score": 36.4,
-      "roi_score": 14.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.8,
-      "roi": -28.1,
-      "cash_pnl": -5013.86,
-      "realized_pnl": -0.35,
-      "total_usdc": 252213.43,
-      "trade_count": 500,
-      "market_count": 273,
-      "position_count": 6,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:42:36+00:00",
-      "top_markets": [
-        "Lakers vs. Warriors",
-        "Rolex Paris Masters, Qualification: Juan Manuel Cerundolo vs Aleksandar Kovacevic",
-        "Courmayeur: Lucrezia Stefanini vs Ayla Aksu"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xe5781ccb4227556d53566750d7e35d188479aaad",
-      "name": "ffvife",
-      "score": 35.7,
-      "roi_score": 22.2,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 65.8,
-      "roi": -16.8,
-      "cash_pnl": -234.62,
-      "realized_pnl": 76.06,
-      "total_usdc": 5635.12,
-      "trade_count": 34,
-      "market_count": 12,
-      "position_count": 4,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:49:54+00:00",
-      "top_markets": [
-        "LoL: LOS vs LYON (BO3) - Worlds Group Stage",
-        "LoL: LOS vs LYON - Game 2 Winner",
-        "Game Handicap: LY (-1.5) vs LOS (+1.5)"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7899,
-          "cur_price": 0.215,
-          "usdc_size": 966.84,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0x204e14f11a08a465479e437b0e37b7e9e0358d08",
-      "name": "Jackenxand",
-      "score": 35.2,
-      "roi_score": 9.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -36.4,
-      "cash_pnl": -27443.83,
-      "realized_pnl": 682.28,
-      "total_usdc": 506279.92,
-      "trade_count": 500,
-      "market_count": 95,
-      "position_count": 39,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:31:01+00:00",
-      "top_markets": [
-        "LoL: Hanwha Life Esports vs Bilibili Gaming - Game 1 Winner",
-        "Pacers vs. Heat",
-        "Cear\u00e1 SC vs. Goi\u00e1s EC: O/U 0.5"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xcfc5c9b7635990ced27735fd90f8e01db1967921",
-      "name": "laolumanjuuma",
-      "score": 34.8,
-      "roi_score": 9.6,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 94.5,
-      "roi": -35.6,
-      "cash_pnl": -5016.37,
-      "realized_pnl": -0.35,
-      "total_usdc": 242487.06,
-      "trade_count": 500,
-      "market_count": 299,
-      "position_count": 7,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:46:46+00:00",
-      "top_markets": [
-        "Will Sheffield United FC win on 2026-10-30?",
-        "Guayaquil: Emilio Camacho vs Joao Lucas Da Silva",
-        "Guangzhou Open: Maria Timofeeva vs Xinran Sun"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xa85b3359d5e0bdcb925f6a2b94ddfbf6d403eb0e",
-      "name": "0xa85B3359D5e0BDCB925F6A2B94ddfBF6d403eb0",
-      "score": 34.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 36.6,
-      "volume_score": 67.7,
-      "roi": -89.1,
-      "cash_pnl": -268639.62,
-      "realized_pnl": 26170.8,
-      "total_usdc": 7167.81,
-      "trade_count": 500,
-      "market_count": 129,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:06+00:00",
-      "top_markets": [
-        "Timberwolves vs. Spurs",
-        "Timberwolves vs. Spurs: O/U 238.5",
-        "Kings vs. Grizzlies: O/U 214.5"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.3902,
-          "cur_price": 0.215,
-          "usdc_size": 13512.32,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Spread: Rockets (-2.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4761,
-          "cur_price": 0.74,
-          "usdc_size": 898.59,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.7731,
-          "cur_price": 0.235,
-          "usdc_size": 2823.17,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.8524,
-          "cur_price": 0.9975,
-          "usdc_size": 1660.29,
-          "outcome": "Cavaliers"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1bc32be106439240f59aa25668e613831a5cdc6e",
-      "name": "",
-      "score": 34.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 24.5,
-      "volume_score": 79.3,
-      "roi": -86.5,
-      "cash_pnl": -233307.16,
-      "realized_pnl": 11121.61,
-      "total_usdc": 33058.95,
-      "trade_count": 500,
-      "market_count": 123,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:57+00:00",
-      "top_markets": [
-        "UFC Fight Night: Ode' Osbourne vs. Cody Durden (Flyweight, Main Card)",
-        "Bitcoin Up or Down - October 31, 9:15PM-9:30PM ET",
-        "Bitcoin Up or Down - October 31, 9:00PM-9:15PM ET"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.3353,
-          "cur_price": 0.215,
-          "usdc_size": 7992.27,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.2678,
-          "cur_price": 0.235,
-          "usdc_size": 583.89,
-          "outcome": "Timberwolves"
-        }
-      ]
-    },
-    {
-      "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-      "name": "NS13",
-      "score": 33.4,
-      "roi_score": 4.8,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 1.4,
-      "volume_score": 92.6,
-      "roi": -42.8,
-      "cash_pnl": -47011.42,
-      "realized_pnl": 0.0,
-      "total_usdc": 189644.18,
-      "trade_count": 500,
-      "market_count": 9,
-      "position_count": 10,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:46:30+00:00",
-      "top_markets": [
-        "Hawks vs. Pelicans",
-        "Counter-Strike: Nemiga vs FURIA (BO5) - PGL Masters Bucharest Playoffs",
-        "76ers vs. Hornets"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.2339,
-          "cur_price": 0.215,
-          "usdc_size": 21569.97,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Kings vs. Grizzlies",
-          "signal": "SKIP",
-          "avg_price": 0.7267,
-          "cur_price": 0.0185,
-          "usdc_size": 31544.56,
-          "outcome": "Grizzlies"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.7,
-          "cur_price": 0.9975,
-          "usdc_size": 6246.88,
-          "outcome": "Cavaliers"
-        }
-      ]
-    },
-    {
-      "wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-      "name": "dips.",
-      "score": 33.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 17.1,
-      "volume_score": 79.5,
-      "roi": -65.1,
-      "cash_pnl": -107558.91,
-      "realized_pnl": 504.64,
-      "total_usdc": 34137.08,
-      "trade_count": 500,
-      "market_count": 159,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:01+00:00",
-      "top_markets": [
-        "2026 Balance of Power: R Senate, D House",
-        "UFC Fight Night: Yana Santos vs. Luana Santos (Women's Bantamweight, Main Card)",
-        "Fight to Go the Distance?"
-      ],
-      "signals": [
-        {
-          "market": "Will the Democrats win the Michigan Senate race in 2026?",
-          "signal": "SKIP",
-          "avg_price": 0.2451,
-          "cur_price": 0.785,
-          "usdc_size": 4961.65,
-          "outcome": "No"
+          "avg_price": 0.4999,
+          "cur_price": 0.705,
+          "usdc_size": 5264.96,
+          "outcome": "Yes"
         },
         {
           "market": "Will the Republicans win the Michigan Senate race in 2026?",
           "signal": "SKIP",
-          "avg_price": 0.2259,
-          "cur_price": 0.205,
-          "usdc_size": 3238.53,
-          "outcome": "Yes"
+          "avg_price": 0.7318,
+          "cur_price": 0.195,
+          "usdc_size": 4216.58,
+          "outcome": "No"
         },
         {
-          "market": "Thunder vs. Rockets",
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
           "signal": "SKIP",
-          "avg_price": 0.2942,
-          "cur_price": 0.215,
-          "usdc_size": 752.93,
-          "outcome": "Thunder"
+          "avg_price": 0.6245,
+          "cur_price": 0.375,
+          "usdc_size": 687.47,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.5,
+          "cur_price": 0.295,
+          "usdc_size": 705.0,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-      "name": "ferrariChampions2026",
-      "score": 32.5,
-      "roi_score": 0.0,
+      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
+      "name": "033033033",
+      "score": 42.5,
+      "roi_score": 33.4,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 99.9,
-      "roi": -99.4,
-      "cash_pnl": -26757280.96,
-      "realized_pnl": 1159421.06,
-      "total_usdc": 490460.29,
-      "trade_count": 500,
-      "market_count": 66,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:40+00:00",
-      "top_markets": [
-        "Thunder vs. Rockets",
-        "76ers vs. Hornets",
-        "Atlanta Dream vs. Golden State Valkyries"
-      ],
-      "signals": [
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.4484,
-          "cur_price": 0.305,
-          "usdc_size": 166502.64,
-          "outcome": "Golden State Valkyries"
-        }
-      ]
-    },
-    {
-      "wallet": "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9",
-      "name": "kkookkoo",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.1,
       "volume_score": 100.0,
-      "roi": -99.9,
-      "cash_pnl": -5488141.57,
-      "realized_pnl": -185373.1,
-      "total_usdc": 3601367.94,
+      "roi": 0.1,
+      "cash_pnl": 1234.02,
+      "realized_pnl": 0.0,
+      "total_usdc": 3787952.19,
       "trade_count": 500,
-      "market_count": 168,
-      "position_count": 500,
+      "market_count": 31,
+      "position_count": 10,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:41:40+00:00",
+      "last_active": "2026-11-01T08:37:24+00:00",
       "top_markets": [
-        "W50 Austin: Thea Frodin vs Adriana Reami",
-        "M25 Sheffield: Marcus Walters vs Leonardo Rossi",
-        "Swiss Indoors Basel: Holger Rune vs Valentin Vacherot"
+        "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "Will XRP reach $4.00 in October?",
+        "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xbfd40a4fcb43d80eb4fb425f75d4fa090c61526f",
-      "name": "big8betz",
-      "score": 32.5,
-      "roi_score": 0.0,
+      "wallet": "0xdbf16bcffa41bd95faec2640daa2c95ab2bd86b5",
+      "name": "UnderperformingForALiving",
+      "score": 42.0,
+      "roi_score": 32.6,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.2,
-      "volume_score": 100.0,
-      "roi": -67.6,
-      "cash_pnl": -2948.11,
-      "realized_pnl": 0.21,
-      "total_usdc": 677423.75,
+      "early_entry_score": 0.0,
+      "volume_score": 97.1,
+      "roi": -1.1,
+      "cash_pnl": -2649.35,
+      "realized_pnl": -4587.92,
+      "total_usdc": 342713.1,
       "trade_count": 500,
-      "market_count": 49,
+      "market_count": 7,
+      "position_count": 17,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:36:51+00:00",
+      "top_markets": [
+        "Will the Republicans win the Michigan Senate race in 2026?",
+        "Will the Democrats win the Michigan Senate race in 2026?",
+        "2026 Balance of Power: R Senate, R House"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "SKIP",
+          "avg_price": 0.76,
+          "cur_price": 0.245,
+          "usdc_size": 225669.5,
+          "outcome": "No"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, R House",
+          "signal": "SKIP",
+          "avg_price": 0.06,
+          "cur_price": 0.045,
+          "usdc_size": 3462.63,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
+      "name": "JJo",
+      "score": 41.9,
+      "roi_score": 33.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.3,
+      "roi": 0.5,
+      "cash_pnl": 788.69,
+      "realized_pnl": 16586.28,
+      "total_usdc": 206424.51,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 44,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:30:22+00:00",
+      "top_markets": [
+        "Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?",
+        "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+        "2026 Balance of Power: D Senate, D House"
+      ],
+      "signals": [
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "ENTER",
+          "avg_price": 0.6961,
+          "cur_price": 0.715,
+          "usdc_size": 15015.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, R House",
+          "signal": "SKIP",
+          "avg_price": 0.04,
+          "cur_price": 0.045,
+          "usdc_size": 1936.5,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.6882,
+          "cur_price": 0.295,
+          "usdc_size": 17804.1,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.5797,
+          "cur_price": 0.375,
+          "usdc_size": 2815.96,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "SKIP",
+          "avg_price": 0.2282,
+          "cur_price": 0.245,
+          "usdc_size": 1044.27,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x3a797bf43ee2f8896086d7806e3b09a999a471cf",
+      "name": "skydodo",
+      "score": 41.7,
+      "roi_score": 31.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 95.8,
+      "roi": -2.1,
+      "cash_pnl": -26.36,
+      "realized_pnl": -0.0,
+      "total_usdc": 287528.63,
+      "trade_count": 500,
+      "market_count": 94,
       "position_count": 2,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:48:42+00:00",
+      "last_active": "2026-11-01T08:08:51+00:00",
       "top_markets": [
-        "Pistons vs. 76ers",
-        "Spread: 76ers (-3.5)",
-        "Thunder vs. Rockets"
-      ],
-      "signals": [
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "LATE",
-          "avg_price": 0.2498,
-          "cur_price": 0.235,
-          "usdc_size": 1412.71,
-          "outcome": "Timberwolves"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
-      "name": "analdesutructor",
-      "score": 32.5,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 100.0,
-      "roi": -97.3,
-      "cash_pnl": -614543.29,
-      "realized_pnl": -7236.69,
-      "total_usdc": 703939.41,
-      "trade_count": 500,
-      "market_count": 158,
-      "position_count": 158,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:01+00:00",
-      "top_markets": [
-        "Hawai'i vs. Wyoming",
-        "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
-        "Missouri vs. Mississippi State"
-      ],
-      "signals": [
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.829,
-          "cur_price": 0.235,
-          "usdc_size": 14182.33,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.8885,
-          "cur_price": 0.215,
-          "usdc_size": 1632.02,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a",
-      "name": "Greedo",
-      "score": 32.1,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.6,
-      "roi": -89.3,
-      "cash_pnl": -19202.89,
-      "realized_pnl": 0.0,
-      "total_usdc": 280947.06,
-      "trade_count": 500,
-      "market_count": 33,
-      "position_count": 3,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:46:52+00:00",
-      "top_markets": [
-        "Bulls vs. Celtics",
-        "Will the price of Bitcoin be above $80,000 on October 30?",
-        "Lakers vs. Jazz"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "ENTER",
-          "avg_price": 0.22,
-          "cur_price": 0.215,
-          "usdc_size": 2150.0,
-          "outcome": "Thunder"
-        }
-      ]
-    },
-    {
-      "wallet": "0x354b58f4d0401462cb9dcb1e240ccd90f4284744",
-      "name": "SigorJabson",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.4,
-      "roi": -74.8,
-      "cash_pnl": -14542.25,
-      "realized_pnl": 524.44,
-      "total_usdc": 274839.39,
-      "trade_count": 500,
-      "market_count": 321,
-      "position_count": 24,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:37:09+00:00",
-      "top_markets": [
-        "Roland Garros ATP: Frances Tiafoe vs Matteo Arnaldi",
-        "Knicks vs. Spurs",
-        "Los Angeles Dodgers vs. Arizona Diamondbacks"
-      ],
-      "signals": [
-        {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.3689,
-          "cur_price": 0.0005,
-          "usdc_size": 2796.8,
-          "outcome": "Pelicans"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.6291,
-          "cur_price": 0.305,
-          "usdc_size": 1580.9,
-          "outcome": "Golden State Valkyries"
-        }
-      ]
-    },
-    {
-      "wallet": "0xf828681ac93e8e54f8fa1e8f7b020e8d17fc6129",
-      "name": "lhetorar",
-      "score": 32.0,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 95.1,
-      "roi": -96.1,
-      "cash_pnl": -96799.62,
-      "realized_pnl": -7641.01,
-      "total_usdc": 261385.07,
-      "trade_count": 500,
-      "market_count": 62,
-      "position_count": 42,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:47:42+00:00",
-      "top_markets": [
-        "Will Paris Saint-Germain FC win on 2026-10-30?",
-        "Will Crici\u00fama EC win on 2026-10-30?",
-        "Hawks vs. Pelicans"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7899,
-          "cur_price": 0.215,
-          "usdc_size": 3974.67,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98",
-      "name": "keeptheblueflagflyinghigh",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 92.7,
-      "roi": -53.7,
-      "cash_pnl": -546549.39,
-      "realized_pnl": -4505.97,
-      "total_usdc": 192018.09,
-      "trade_count": 500,
-      "market_count": 55,
-      "position_count": 500,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:21+00:00",
-      "top_markets": [
-        "Thunder vs. Rockets",
-        "Timberwolves vs. Spurs",
-        "Kings vs. Grizzlies"
-      ],
-      "signals": [
-        {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.8087,
-          "cur_price": 0.0005,
-          "usdc_size": 182299.29,
-          "outcome": "Pelicans"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7639,
-          "cur_price": 0.215,
-          "usdc_size": 57510.02,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.7885,
-          "cur_price": 0.9975,
-          "usdc_size": 37112.07,
-          "outcome": "Cavaliers"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.2947,
-          "cur_price": 0.215,
-          "usdc_size": 3098.53,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.772,
-          "cur_price": 0.235,
-          "usdc_size": 9800.66,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.1658,
-          "cur_price": 0.235,
-          "usdc_size": 771.81,
-          "outcome": "Timberwolves"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.5184,
-          "cur_price": 0.305,
-          "usdc_size": 1656.72,
-          "outcome": "Atlanta Dream"
-        },
-        {
-          "market": "Kings vs. Grizzlies: O/U 228.5",
-          "signal": "SKIP",
-          "avg_price": 0.44,
-          "cur_price": 0.805,
-          "usdc_size": 3087.19,
-          "outcome": "Over"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.523,
-          "cur_price": 0.305,
-          "usdc_size": 1051.34,
-          "outcome": "Golden State Valkyries"
-        },
-        {
-          "market": "Kings vs. Grizzlies",
-          "signal": "SKIP",
-          "avg_price": 0.6592,
-          "cur_price": 0.0185,
-          "usdc_size": 1146.17,
-          "outcome": "Grizzlies"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb4516f9562b5f5bbd25959009cf774818eb1d7b3",
-      "name": "a17367162806",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.7,
-      "volume_score": 92.1,
-      "roi": -69.4,
-      "cash_pnl": -463599.31,
-      "realized_pnl": -2617.7,
-      "total_usdc": 177720.43,
-      "trade_count": 500,
-      "market_count": 131,
-      "position_count": 380,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:50:49+00:00",
-      "top_markets": [
-        "Thunder vs. Rockets",
-        "Hawks vs. Pelicans",
-        "Atlanta Dream vs. Golden State Valkyries"
-      ],
-      "signals": [
-        {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.5847,
-          "cur_price": 0.0005,
-          "usdc_size": 36187.52,
-          "outcome": "Pelicans"
-        },
-        {
-          "market": "Spread: Rockets (-2.5)",
-          "signal": "SKIP",
-          "avg_price": 0.4694,
-          "cur_price": 0.74,
-          "usdc_size": 7881.91,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7325,
-          "cur_price": 0.215,
-          "usdc_size": 17981.79,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Ohio State vs. USC",
-          "signal": "SKIP",
-          "avg_price": 0.491,
-          "cur_price": 0.255,
-          "usdc_size": 19043.34,
-          "outcome": "USC"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.3844,
-          "cur_price": 0.215,
-          "usdc_size": 3413.32,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.5962,
-          "cur_price": 0.305,
-          "usdc_size": 4384.39,
-          "outcome": "Atlanta Dream"
-        },
-        {
-          "market": "Kings vs. Grizzlies: O/U 228.5",
-          "signal": "SKIP",
-          "avg_price": 0.4837,
-          "cur_price": 0.805,
-          "usdc_size": 1617.45,
-          "outcome": "Under"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.7738,
-          "cur_price": 0.235,
-          "usdc_size": 5686.59,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.6899,
-          "cur_price": 0.305,
-          "usdc_size": 1109.52,
-          "outcome": "Golden State Valkyries"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.6666,
-          "cur_price": 0.9975,
-          "usdc_size": 1634.29,
-          "outcome": "Cavaliers"
-        },
-        {
-          "market": "Spread: Hawks (-4.5)",
-          "signal": "SKIP",
-          "avg_price": 0.5,
-          "cur_price": 0.0005,
-          "usdc_size": 889.55,
-          "outcome": "Pelicans"
-        }
-      ]
-    },
-    {
-      "wallet": "0xb3cd372ade50de8703d8920105f525c0958cb044",
-      "name": "zbhgvc",
-      "score": 31.8,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.4,
-      "volume_score": 92.5,
-      "roi": -87.9,
-      "cash_pnl": -107.54,
-      "realized_pnl": 683.15,
-      "total_usdc": 186403.04,
-      "trade_count": 500,
-      "market_count": 28,
-      "position_count": 17,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:49:31+00:00",
-      "top_markets": [
-        "Lakers vs. Warriors",
-        "Timberwolves vs. Spurs",
-        "Hawks vs. Pelicans"
+        "Will the Democrats win the Texas governor race in 2026?",
+        "Will the Democratic Party win the NJ-02 House seat?",
+        "Will the Republicans win the Kansas governor race in 2026?"
       ],
       "signals": []
     },
     {
-      "wallet": "0x62231a505e70d73d62ac1e9bcae723b5f7f5eb5b",
-      "name": "0x62231a505e70D73D62aC1e9BCaE723b5F7F5Eb5b-1791858169468",
-      "score": 31.5,
-      "roi_score": 0.0,
+      "wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
+      "name": "Mantzuraj",
+      "score": 41.4,
+      "roi_score": 19.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 90.4,
-      "roi": -76.9,
-      "cash_pnl": -2388.7,
-      "realized_pnl": -34.49,
-      "total_usdc": 142109.57,
-      "trade_count": 477,
-      "market_count": 240,
-      "position_count": 6,
+      "early_entry_score": 27.4,
+      "volume_score": 87.7,
+      "roi": -20.1,
+      "cash_pnl": -2062.52,
+      "realized_pnl": -83.27,
+      "total_usdc": 99722.29,
+      "trade_count": 500,
+      "market_count": 61,
+      "position_count": 40,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:20:43+00:00",
+      "last_active": "2026-11-01T02:58:16+00:00",
       "top_markets": [
-        "Thunder vs. Spurs",
-        "Set Handicap: Diana Shnaider (-1.5) vs Mia Pohankova (+1.5)",
-        "Ningbo Open: Jelena Ostapenko vs Belinda Bencic"
+        "Will the match end in a draw?",
+        "Will New Zealand A win?",
+        "FCI Levadia Tallinn vs. Tartu JK Tammeka: O/U 1.5"
       ],
       "signals": [
         {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.86,
-          "cur_price": 0.215,
-          "usdc_size": 706.5,
-          "outcome": "Rockets"
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "LATE",
+          "avg_price": 0.23,
+          "cur_price": 0.245,
+          "usdc_size": 2450.0,
+          "outcome": "Yes"
         }
       ]
     },
     {
-      "wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-      "name": "takeormake",
-      "score": 31.0,
-      "roi_score": 0.0,
+      "wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+      "name": "title1",
+      "score": 41.4,
+      "roi_score": 37.9,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 84.9,
-      "roi": -85.1,
-      "cash_pnl": -1600844.65,
-      "realized_pnl": -2892.25,
-      "total_usdc": 69064.92,
-      "trade_count": 500,
-      "market_count": 102,
+      "early_entry_score": 50.0,
+      "volume_score": 0.0,
+      "roi": 6.8,
+      "cash_pnl": 3069.97,
+      "realized_pnl": 3750.4,
+      "total_usdc": 0.0,
+      "trade_count": 0,
+      "market_count": 2,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:03+00:00",
-      "top_markets": [
-        "Thunder vs. Rockets",
-        "UFC Fight Night: Ode' Osbourne vs. Cody Durden (Flyweight, Main Card)",
-        "Ohio State vs. USC"
-      ],
-      "signals": [
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "ENTER",
-          "avg_price": 0.2328,
-          "cur_price": 0.235,
-          "usdc_size": 3095.85,
-          "outcome": "Timberwolves"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.3806,
-          "cur_price": 0.215,
-          "usdc_size": 42874.68,
-          "outcome": "Thunder"
-        },
-        {
-          "market": "Ohio State vs. USC",
-          "signal": "SKIP",
-          "avg_price": 0.4406,
-          "cur_price": 0.255,
-          "usdc_size": 5889.6,
-          "outcome": "Ohio State"
-        },
-        {
-          "market": "Ohio State vs. USC",
-          "signal": "SKIP",
-          "avg_price": 0.5443,
-          "cur_price": 0.255,
-          "usdc_size": 31836.52,
-          "outcome": "USC"
-        },
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.6966,
-          "cur_price": 0.215,
-          "usdc_size": 25718.95,
-          "outcome": "Rockets"
-        },
-        {
-          "market": "Kings vs. Grizzlies",
-          "signal": "SKIP",
-          "avg_price": 0.8029,
-          "cur_price": 0.0185,
-          "usdc_size": 31376.68,
-          "outcome": "Grizzlies"
-        },
-        {
-          "market": "Hawks vs. Pelicans",
-          "signal": "SKIP",
-          "avg_price": 0.4692,
-          "cur_price": 0.0005,
-          "usdc_size": 26169.93,
-          "outcome": "Pelicans"
-        },
-        {
-          "market": "Cavaliers vs. Bucks",
-          "signal": "SKIP",
-          "avg_price": 0.7856,
-          "cur_price": 0.9975,
-          "usdc_size": 11744.77,
-          "outcome": "Cavaliers"
-        },
-        {
-          "market": "Timberwolves vs. Spurs",
-          "signal": "SKIP",
-          "avg_price": 0.7807,
-          "cur_price": 0.235,
-          "usdc_size": 9460.6,
-          "outcome": "Spurs"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.3949,
-          "cur_price": 0.305,
-          "usdc_size": 6578.01,
-          "outcome": "Golden State Valkyries"
-        },
-        {
-          "market": "Atlanta Dream vs. Golden State Valkyries",
-          "signal": "SKIP",
-          "avg_price": 0.499,
-          "cur_price": 0.305,
-          "usdc_size": 509.77,
-          "outcome": "Atlanta Dream"
-        }
-      ]
+      "last_active": null,
+      "top_markets": [],
+      "signals": []
     },
     {
-      "wallet": "0xc7413b78904aa4ab1066a0aa8d615327eccfa270",
-      "name": "0xc7413b78904aa4ab1066A0Aa8d615327ECcFA270-1775642107458",
-      "score": 30.9,
-      "roi_score": 0.0,
+      "wallet": "0xb24c85036d25b16557272b40a6481eb81a5aeefe",
+      "name": "Beyonddream",
+      "score": 41.2,
+      "roi_score": 32.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 84.5,
-      "roi": -94.4,
-      "cash_pnl": -24765.2,
-      "realized_pnl": -444.22,
-      "total_usdc": 65307.15,
-      "trade_count": 94,
-      "market_count": 47,
-      "position_count": 17,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:47:22+00:00",
-      "top_markets": [
-        "Cavaliers vs. Knicks",
-        "Timberwolves vs. Spurs",
-        "Spurs vs. Timberwolves"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "ENTER",
-          "avg_price": 0.2105,
-          "cur_price": 0.215,
-          "usdc_size": 1467.07,
-          "outcome": "Thunder"
-        }
-      ]
-    },
-    {
-      "wallet": "0xfac123be698da568d609a06eae4f197df0a2ba11",
-      "name": "shibaijiaoyiyuan",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.2,
-      "roi": -79.5,
-      "cash_pnl": -8197.85,
-      "realized_pnl": -206.72,
-      "total_usdc": 48099.86,
-      "trade_count": 61,
-      "market_count": 34,
-      "position_count": 14,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:37:27+00:00",
-      "top_markets": [
-        "LoL: LOS vs LYON - Game 2 Winner",
-        "Valorant: T1 vs JD Gaming - Map 1 Winner",
-        "Spread: Hornets (-2.5)"
-      ],
-      "signals": [
-        {
-          "market": "Thunder vs. Rockets",
-          "signal": "SKIP",
-          "avg_price": 0.7837,
-          "cur_price": 0.215,
-          "usdc_size": 1010.55,
-          "outcome": "Rockets"
-        }
-      ]
-    },
-    {
-      "wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
-      "name": "neutralwave23",
-      "score": 30.7,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.0,
-      "volume_score": 82.1,
-      "roi": -76.7,
-      "cash_pnl": -757524.39,
-      "realized_pnl": -65735.25,
-      "total_usdc": 47705.62,
+      "volume_score": 89.0,
+      "roi": -0.8,
+      "cash_pnl": -1073.79,
+      "realized_pnl": 2483.51,
+      "total_usdc": 118748.72,
       "trade_count": 500,
-      "market_count": 224,
-      "position_count": 500,
+      "market_count": 92,
+      "position_count": 118,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:51:15+00:00",
+      "last_active": "2026-11-01T03:57:25+00:00",
       "top_markets": [
-        "Thunder vs. Rockets",
-        "76ers vs. Hornets",
-        "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage"
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "Ethereum Up or Down - October 12, 10:45PM-11:00PM ET",
+        "Will Bitcoin dip to $75,000 in October?"
       ],
       "signals": [
         {
-          "market": "Thunder vs. Rockets",
+          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
           "signal": "SKIP",
-          "avg_price": 0.6219,
-          "cur_price": 0.215,
-          "usdc_size": 16451.52,
-          "outcome": "Rockets"
+          "avg_price": 0.8503,
+          "cur_price": 0.945,
+          "usdc_size": 14175.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.6199,
+          "cur_price": 0.705,
+          "usdc_size": 1410.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.63,
+          "cur_price": 0.295,
+          "usdc_size": 705.0,
+          "outcome": "No"
         }
       ]
     },
     {
-      "wallet": "0x104171232971a6db8cf938f76fdbebbb81c5f452",
-      "name": "aapang",
-      "score": 30.2,
-      "roi_score": 0.0,
+      "wallet": "0x9d736920e486176e7df7a76fa218f1ebd853216b",
+      "name": "AlAhmeda",
+      "score": 40.7,
+      "roi_score": 31.8,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.2,
-      "roi": -98.5,
-      "cash_pnl": -329327.48,
-      "realized_pnl": -41090.31,
-      "total_usdc": 25175.86,
+      "volume_score": 86.1,
+      "roi": -2.3,
+      "cash_pnl": -5140.95,
+      "realized_pnl": 2853.91,
+      "total_usdc": 80628.68,
+      "trade_count": 500,
+      "market_count": 63,
+      "position_count": 213,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:41:03+00:00",
+      "top_markets": [
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "Will Iliana Iotova win the next Bulgarian presidential election?",
+        "Will the Republican Party control the Senate after the 2026 Midterm elections?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "ENTER",
+          "avg_price": 0.7041,
+          "cur_price": 0.705,
+          "usdc_size": 846.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "LATE",
+          "avg_price": 0.39,
+          "cur_price": 0.375,
+          "usdc_size": 3750.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.2599,
+          "cur_price": 0.225,
+          "usdc_size": 2250.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
+          "signal": "SKIP",
+          "avg_price": 0.88,
+          "cur_price": 0.115,
+          "usdc_size": 2655.0,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf44076b9299b390a1f4bd5979d926ce989aeb009",
+      "name": "pieped",
+      "score": 40.4,
+      "roi_score": 28.4,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 93.5,
+      "roi": -7.3,
+      "cash_pnl": -7665.06,
+      "realized_pnl": 5461.91,
+      "total_usdc": 213666.95,
+      "trade_count": 500,
+      "market_count": 65,
+      "position_count": 145,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T06:37:45+00:00",
+      "top_markets": [
+        "Will the Republicans win the Texas Senate race in 2026?",
+        "Will the Democrats win the Kansas Senate race in 2026?",
+        "Will the Republicans win the Ohio governor race in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.24,
+          "cur_price": 0.245,
+          "usdc_size": 1225.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.6999,
+          "cur_price": 0.295,
+          "usdc_size": 7050.01,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4ddc9fa3055fc42411d95f4fb03267102c64c06f",
+      "name": "heyranos",
+      "score": 40.2,
+      "roi_score": 29.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.1,
+      "roi": -5.1,
+      "cash_pnl": -70.87,
+      "realized_pnl": 191.4,
+      "total_usdc": 91725.83,
+      "trade_count": 500,
+      "market_count": 91,
+      "position_count": 3,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:07:34+00:00",
+      "top_markets": [
+        "OpenAI announces it has achieved AGI before 2027?",
+        "Will the Democrats win the Kansas Senate race in 2026?",
+        "Will the Republicans win the Michigan Senate race in 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x7e30e0d7e58061953247e08293fe08d5fe02e8f5",
+      "name": "0x7e30e0D7E58061953247e08293fe08D5fE02E8f5-1772852632088",
+      "score": 39.9,
+      "roi_score": 33.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 0.0,
+      "roi": -0.5,
+      "cash_pnl": -73.78,
+      "realized_pnl": 44.44,
+      "total_usdc": 0.0,
+      "trade_count": 0,
+      "market_count": 2,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": null,
+      "top_markets": [],
+      "signals": []
+    },
+    {
+      "wallet": "0xf7aa193b1d7c880db7f8e2bde9177c4559a8ddd6",
+      "name": "IngressDefender",
+      "score": 39.4,
+      "roi_score": 16.6,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 28.6,
+      "volume_score": 76.8,
+      "roi": -25.1,
+      "cash_pnl": -487.52,
+      "realized_pnl": 1785.14,
+      "total_usdc": 23675.54,
+      "trade_count": 500,
+      "market_count": 126,
+      "position_count": 117,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T07:49:36+00:00",
+      "top_markets": [
+        "Will the highest temperature in Wellington be 18\u00b0C on October 20?",
+        "Will the highest temperature in Tokyo be 28\u00b0C on October 14?",
+        "Will the highest temperature in Warsaw be 13\u00b0C on October 20?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.25,
+          "cur_price": 0.245,
+          "usdc_size": 953.96,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x600e42758bfc14e431c43d71c96e9bca6c147aac",
+      "name": "HD45",
+      "score": 38.5,
+      "roi_score": 23.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.1,
+      "roi": -14.1,
+      "cash_pnl": -5068.78,
+      "realized_pnl": -4073.67,
+      "total_usdc": 104377.56,
+      "trade_count": 500,
+      "market_count": 25,
+      "position_count": 20,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T06:35:43+00:00",
+      "top_markets": [
+        "Will the Republicans win the Kansas Senate race in 2026?",
+        "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+        "Will the Republicans win the Iowa Senate race in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.25,
+          "cur_price": 0.245,
+          "usdc_size": 1715.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xa89c53d1794961210c040e8edcb0b38eee741410",
+      "name": "ZhouCD",
+      "score": 38.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 40.0,
+      "volume_score": 97.2,
+      "roi": -58.0,
+      "cash_pnl": -21359.32,
+      "realized_pnl": 447.32,
+      "total_usdc": 344460.94,
       "trade_count": 500,
       "market_count": 157,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:48:42+00:00",
+      "last_active": "2026-11-01T05:48:16+00:00",
       "top_markets": [
-        "Will the highest temperature in Hong Kong be 28\u00b0C on October 31?",
-        "Will the highest temperature in Hong Kong be 33\u00b0C on September 24?",
-        "Will the highest temperature in Hong Kong be 32\u00b0C on October 20?"
+        "Will Republicans win Alaska, Kansas, Maine, and Michigan, and lose Iowa, Ohio, and Texas?",
+        "Games Total: O/U 2.5",
+        "Will Republicans win Kansas, and lose Alaska, Iowa, Maine, Michigan, Ohio, and Texas?"
       ],
       "signals": []
     },
     {
-      "wallet": "0xf6204b373f769058f2619141fd0fa978e2374a33",
-      "name": "amituofu",
+      "wallet": "0x6fbbc363b0c84fd2c12fa0d67bb8ccb18a97a41a",
+      "name": "sansui1",
+      "score": 36.9,
+      "roi_score": 17.8,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.7,
+      "roi": -23.3,
+      "cash_pnl": -7867.9,
+      "realized_pnl": -1715.48,
+      "total_usdc": 148043.84,
+      "trade_count": 500,
+      "market_count": 28,
+      "position_count": 36,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T06:59:37+00:00",
+      "top_markets": [
+        "US x Iran ceasefire continues through November 8?",
+        "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+        "Will Likud win the most seats in the 2026 Israeli legislative election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
+      "name": "qwen300.fund",
+      "score": 36.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 50.0,
+      "volume_score": 68.3,
+      "roi": -98.7,
+      "cash_pnl": -43652.55,
+      "realized_pnl": -8095.0,
+      "total_usdc": 7809.64,
+      "trade_count": 500,
+      "market_count": 344,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:41:36+00:00",
+      "top_markets": [
+        "Will the highest temperature in Seoul (Incheon) be 12\u00b0C on November 1?",
+        "Will MrBeast's next video get between 35 and 40 million views on day 1?",
+        "Will the highest temperature in Seoul (Incheon) be 13\u00b0C on November 1?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+      "name": "BreakTheBank",
+      "score": 36.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 26.7,
+      "volume_score": 100.0,
+      "roi": -94.2,
+      "cash_pnl": -52952263.1,
+      "realized_pnl": 243726.53,
+      "total_usdc": 898578.25,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:25:36+00:00",
+      "top_markets": [
+        "Spread: Rockets (-2.5)",
+        "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+        "Spread: Rockets (-5.5)"
+      ],
+      "signals": [
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "LATE",
+          "avg_price": 0.3059,
+          "cur_price": 0.295,
+          "usdc_size": 36874.93,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.068,
+          "cur_price": 0.945,
+          "usdc_size": 202298.58,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.0618,
+          "cur_price": 0.055,
+          "usdc_size": 85079.96,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
+          "signal": "SKIP",
+          "avg_price": 0.0061,
+          "cur_price": 0.115,
+          "usdc_size": 53412.17,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Republicans win Alaska, Iowa, Kansas, Michigan, and Texas, and lose Maine and Ohio?",
+          "signal": "SKIP",
+          "avg_price": 0.0059,
+          "cur_price": 0.0025,
+          "usdc_size": 943.9,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.7086,
+          "cur_price": 0.225,
+          "usdc_size": 253422.29,
+          "outcome": "No"
+        },
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.6585,
+          "cur_price": 0.715,
+          "usdc_size": 172185.84,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.3045,
+          "cur_price": 0.705,
+          "usdc_size": 35399.8,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
+      "name": "sdhyky",
+      "score": 36.0,
+      "roi_score": 4.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 28.3,
+      "volume_score": 79.4,
+      "roi": -43.5,
+      "cash_pnl": -43748.19,
+      "realized_pnl": -2504.36,
+      "total_usdc": 33577.71,
+      "trade_count": 500,
+      "market_count": 84,
+      "position_count": 230,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T07:45:25+00:00",
+      "top_markets": [
+        "Will Republicans win Iowa, Kansas, Michigan, and Ohio, and lose Alaska, Maine, and Texas?",
+        "Will Republicans win Alaska, Iowa, Kansas, Maine, and Michigan, and lose Ohio and Texas?",
+        "Will Republicans win Alaska, Kansas, Maine, Michigan, and Texas, and lose Iowa and Ohio?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.62,
+          "cur_price": 0.705,
+          "usdc_size": 704.99,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe102b1da4367d827b48c47ea91fadf6997ff71df",
+      "name": "hfv",
+      "score": 35.2,
+      "roi_score": 16.2,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.6,
+      "roi": -25.7,
+      "cash_pnl": -10689.34,
+      "realized_pnl": 1016.18,
+      "total_usdc": 30299.28,
+      "trade_count": 500,
+      "market_count": 289,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:42:12+00:00",
+      "top_markets": [
+        "Liverpool FC vs. Arsenal FC: Both Teams to Score",
+        "Will Ted Cruz post 200+ posts from October 30 to November 6, 2026?",
+        "Will Elon Musk post 140-164 tweets from November 2 to November 4, 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc03fd7f514a6d52fe0b8291846717724f6c1249d",
+      "name": "pogb",
+      "score": 35.0,
+      "roi_score": 14.9,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 80.0,
+      "roi": -27.7,
+      "cash_pnl": -619.5,
+      "realized_pnl": -1062.23,
+      "total_usdc": 36186.38,
+      "trade_count": 500,
+      "market_count": 100,
+      "position_count": 94,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:33:31+00:00",
+      "top_markets": [
+        "Will the Democrats win the Michigan Senate race in 2026?",
+        "Will the Republicans win the Nebraska Senate race in 2026?",
+        "Will the Republicans win the Texas governor race in 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
+      "name": "AlphaBetaGamma2357",
+      "score": 34.7,
+      "roi_score": 11.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 88.6,
+      "roi": -33.5,
+      "cash_pnl": -42319.51,
+      "realized_pnl": -3868.89,
+      "total_usdc": 111377.49,
+      "trade_count": 500,
+      "market_count": 36,
+      "position_count": 87,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T03:57:25+00:00",
+      "top_markets": [
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "Will the Democrats win the Texas Senate race in 2026?",
+        "2026 Balance of Power: D Senate, D House"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.2461,
+          "cur_price": 0.245,
+          "usdc_size": 795.14,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "ENTER",
+          "avg_price": 0.7039,
+          "cur_price": 0.705,
+          "usdc_size": 1762.53,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "LATE",
+          "avg_price": 0.6749,
+          "cur_price": 0.715,
+          "usdc_size": 24309.96,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.4879,
+          "cur_price": 0.375,
+          "usdc_size": 3124.99,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4867293b553c91c8f35a8fd811660d23c353a6f8",
+      "name": "GidGud",
+      "score": 34.2,
+      "roi_score": 10.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.9,
+      "roi": -34.0,
+      "cash_pnl": -603.03,
+      "realized_pnl": -59.43,
+      "total_usdc": 68693.78,
+      "trade_count": 500,
+      "market_count": 66,
+      "position_count": 13,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:24:16+00:00",
+      "top_markets": [
+        "US x Iran ceasefire continues through November 8?",
+        "Will Benjamin Netanyahu receive the first mandate to form a government after the 2026 Israeli election?",
+        "Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x14a1783e71d1d001a62c01fb2ad29aec8dbb9912",
+      "name": "",
+      "score": 34.0,
+      "roi_score": 11.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 81.2,
+      "roi": -33.0,
+      "cash_pnl": -2896.54,
+      "realized_pnl": -831.08,
+      "total_usdc": 42331.68,
+      "trade_count": 500,
+      "market_count": 136,
+      "position_count": 99,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:41:36+00:00",
+      "top_markets": [
+        "Will the Republican Party hold between 200 and 204 House seats after the 2026 midterm elections?",
+        "Will the Republicans win the Texas governor race in 2026?",
+        "Will Puma Shen win the next Taipei Mayor election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
+      "name": "Cb94C437EA5e6f088c6c0C143c592ab8EFBed",
+      "score": 33.6,
+      "roi_score": 11.3,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.2,
+      "roi": -33.1,
+      "cash_pnl": -39753.98,
+      "realized_pnl": -31450.13,
+      "total_usdc": 25228.68,
+      "trade_count": 500,
+      "market_count": 169,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:41:51+00:00",
+      "top_markets": [
+        "US announces end of Iranian blockade by December 31, 2026?",
+        "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+        "Will the highest temperature in Shanghai be 28\u00b0C on November 1?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xdf0e455ca4896232ba935a8176e5e8cfbb38c02b",
+      "name": "SPLPB",
+      "score": 33.3,
+      "roi_score": 10.1,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.4,
+      "roi": -34.9,
+      "cash_pnl": -3948.02,
+      "realized_pnl": 232.8,
+      "total_usdc": 25896.17,
+      "trade_count": 500,
+      "market_count": 111,
+      "position_count": 360,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:37:07+00:00",
+      "top_markets": [
+        "Will the Republicans win the Michigan Senate race in 2026?",
+        "Will Republicans win Kansas, and lose Alaska, Iowa, Maine, Michigan, Ohio, and Texas?",
+        "Will Vivek Ramaswamy pull the Amy Acton mother ad?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "SKIP",
+          "avg_price": 0.76,
+          "cur_price": 0.245,
+          "usdc_size": 3678.36,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x6139c42e48cf190e67a0a85d492413b499336b7a",
+      "name": "RememberAmalek",
+      "score": 32.9,
+      "roi_score": 4.5,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.8,
+      "roi": -43.2,
+      "cash_pnl": -358265.91,
+      "realized_pnl": 161090.69,
+      "total_usdc": 150453.67,
+      "trade_count": 500,
+      "market_count": 80,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:10:21+00:00",
+      "top_markets": [
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "Will Likud win the most seats in the 2026 Israeli legislative election?",
+        "Will the Republicans win the Iowa Senate race in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "SKIP",
+          "avg_price": 0.2276,
+          "cur_price": 0.245,
+          "usdc_size": 57814.67,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.357,
+          "cur_price": 0.715,
+          "usdc_size": 51678.04,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.2844,
+          "cur_price": 0.375,
+          "usdc_size": 2989.05,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.87,
+          "cur_price": 0.055,
+          "usdc_size": 2362.5,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xc078c4c2519f9cb92eccf2a7f73858416cba1a70",
+      "name": "0xC078c4C2519f9CB92eCCf2A7F73858416CbA1a70-1785946181648",
+      "score": 32.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 97.9,
+      "roi": -100.0,
+      "cash_pnl": -12.0,
+      "realized_pnl": 0.0,
+      "total_usdc": 378135.83,
+      "trade_count": 500,
+      "market_count": 75,
+      "position_count": 1,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T01:00:28+00:00",
+      "top_markets": [
+        "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "Will Naftali Bennett be the next Prime Minister of Israel?",
+        "Will the U.S. invade Iran before 2027?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+      "name": "yen4u",
+      "score": 32.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 96.6,
+      "roi": -56.8,
+      "cash_pnl": -334519.63,
+      "realized_pnl": 22784.95,
+      "total_usdc": 321908.92,
+      "trade_count": 500,
+      "market_count": 155,
+      "position_count": 217,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:38:25+00:00",
+      "top_markets": [
+        "Will Mary Peltola win the Alaska Senate race in 2026?",
+        "Will Trump say \"Two Percent\" during his Midterm Rally in Lubbock, Texas?",
+        "Will there be no change in Fed interest rates after the October 2026 meeting?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x8ed852d9a5af43a38c658b5de9d7a371ba647c2f",
+      "name": "Joseph88",
+      "score": 31.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.9,
+      "roi": -72.0,
+      "cash_pnl": -60308.68,
+      "realized_pnl": -11244.95,
+      "total_usdc": 173744.3,
+      "trade_count": 500,
+      "market_count": 259,
+      "position_count": 260,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T04:02:48+00:00",
+      "top_markets": [
+        "Exact Score: Argentina 3 - 0 Switzerland?",
+        "Will the Republicans win the Florida governor race in 2026?",
+        "Will the Republicans win the Texas governor race in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.4755,
+          "cur_price": 0.375,
+          "usdc_size": 1610.15,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "SKIP",
+          "avg_price": 0.7499,
+          "cur_price": 0.245,
+          "usdc_size": 1097.27,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+      "name": "0xa7517ed74c6b07843946e0e69cad10a9fa94e05",
+      "score": 31.7,
+      "roi_score": 1.7,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 87.4,
+      "roi": -47.4,
+      "cash_pnl": -143754.12,
+      "realized_pnl": -10108.12,
+      "total_usdc": 95444.69,
+      "trade_count": 500,
+      "market_count": 23,
+      "position_count": 387,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T07:25:58+00:00",
+      "top_markets": [
+        "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
+        "Will the Republicans win the Texas Senate race in 2026?",
+        "Will the Republicans win the Florida governor race in 2026?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
+          "signal": "ENTER",
+          "avg_price": 0.118,
+          "cur_price": 0.115,
+          "usdc_size": 3623.68,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "LATE",
+          "avg_price": 0.23,
+          "cur_price": 0.245,
+          "usdc_size": 26950.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.6999,
+          "cur_price": 0.295,
+          "usdc_size": 28418.3,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x33e27ac64a453337cfcea8345c705a407c573a1b",
+      "name": "themagicofcinema",
+      "score": 31.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 91.6,
+      "roi": -77.0,
+      "cash_pnl": -2286.65,
+      "realized_pnl": 33827.33,
+      "total_usdc": 165015.29,
+      "trade_count": 500,
+      "market_count": 19,
+      "position_count": 35,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T01:47:43+00:00",
+      "top_markets": [
+        "Will Republicans win Alaska, and lose Iowa, Kansas, Maine, Michigan, Ohio, and Texas?",
+        "Will the Democrats win the Ohio Senate race in 2026?",
+        "Will Republicans win Kansas, and lose Alaska, Iowa, Maine, Michigan, Ohio, and Texas?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x79d4baa7ae8542bb617bc673f0ac2101db986d24",
+      "name": "Infringe",
+      "score": 31.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 92.0,
+      "roi": -70.4,
+      "cash_pnl": -11020.91,
+      "realized_pnl": 5248.62,
+      "total_usdc": 174160.63,
+      "trade_count": 500,
+      "market_count": 59,
+      "position_count": 9,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T04:02:09+00:00",
+      "top_markets": [
+        "Will Trump talk to Xi Jinping in March?",
+        "BitBoy convicted?",
+        "Will Trump be in the WC Champions Photo?"
+      ],
+      "signals": [
+        {
+          "market": "Will 1win launch a token by October 31, 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.2571,
+          "cur_price": 0.9995,
+          "usdc_size": 2974.91,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0xf1ef8705e9f63c790c6fffd6329aea7011718cd6",
+      "name": "Outsid3rTrading",
+      "score": 31.6,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 90.9,
+      "roi": -71.8,
+      "cash_pnl": -779355.89,
+      "realized_pnl": 6478.04,
+      "total_usdc": 150688.13,
+      "trade_count": 500,
+      "market_count": 39,
+      "position_count": 291,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:24:30+00:00",
+      "top_markets": [
+        "Ballon d'Or 2026: Kylian Mbapp\u00e9 or Lamine Yamal to finish higher?",
+        "Will San Antonio Spurs win the 2027 NBA Finals?",
+        "Will Benjamin Netanyahu be the next Prime Minister of Israel?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.25,
+          "cur_price": 0.245,
+          "usdc_size": 2450.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.8599,
+          "cur_price": 0.055,
+          "usdc_size": 28350.01,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+          "signal": "SKIP",
+          "avg_price": 0.8266,
+          "cur_price": 0.945,
+          "usdc_size": 28349.99,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.43,
+          "cur_price": 0.715,
+          "usdc_size": 5419.86,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.73,
+          "cur_price": 0.375,
+          "usdc_size": 4375.01,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4a2be7a7e6e3b41dc2de00706b4c09660ca9af20",
+      "name": "troim",
+      "score": 31.0,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 84.8,
+      "roi": -82.7,
+      "cash_pnl": -409275.4,
+      "realized_pnl": -957.14,
+      "total_usdc": 68075.66,
+      "trade_count": 500,
+      "market_count": 52,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T07:23:51+00:00",
+      "top_markets": [
+        "Will the Republicans win the Texas governor race in 2026?",
+        "Will there be no change in Fed interest rates after the December 2026 meeting?",
+        "Will NVIDIA be the largest company in the world by market cap on December 31?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.25,
+          "cur_price": 0.245,
+          "usdc_size": 1225.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Michigan Senate race in 2026?",
+          "signal": "ENTER",
+          "avg_price": 0.19,
+          "cur_price": 0.195,
+          "usdc_size": 975.0,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.6313,
+          "cur_price": 0.295,
+          "usdc_size": 5687.84,
+          "outcome": "No"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.7249,
+          "cur_price": 0.375,
+          "usdc_size": 3749.97,
+          "outcome": "No"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.2724,
+          "cur_price": 0.225,
+          "usdc_size": 1125.0,
+          "outcome": "Yes"
+        }
+      ]
+    },
+    {
+      "wallet": "0x227f7ba7fcc35b7f8fc08aa6b075f5220da2a574",
+      "name": "Likaseent",
+      "score": 30.8,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 83.5,
+      "roi": -99.9,
+      "cash_pnl": -46668.01,
+      "realized_pnl": -6660.96,
+      "total_usdc": 57056.8,
+      "trade_count": 500,
+      "market_count": 281,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:08:51+00:00",
+      "top_markets": [
+        "Will Chiang Wan-an win the next Taipei Mayor election?",
+        "Will the Democrats win the Michigan Senate race in 2026?",
+        "Will the Republicans win the Michigan Senate race in 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
+      "name": "881112",
+      "score": 30.7,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 82.2,
+      "roi": -80.3,
+      "cash_pnl": -379141.43,
+      "realized_pnl": 59964.64,
+      "total_usdc": 48300.16,
+      "trade_count": 500,
+      "market_count": 59,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T06:09:00+00:00",
+      "top_markets": [
+        "US x Iran ceasefire continues through October 31?",
+        "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+        "US x Iran ceasefire continues through November 15?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Republicans win the Michigan Senate race in 2026?",
+          "signal": "ENTER",
+          "avg_price": 0.2,
+          "cur_price": 0.195,
+          "usdc_size": 1299.87,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.4857,
+          "cur_price": 0.295,
+          "usdc_size": 1374.07,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "signal": "SKIP",
+          "avg_price": 0.2335,
+          "cur_price": 0.375,
+          "usdc_size": 1315.8,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "SKIP",
+          "avg_price": 0.7628,
+          "cur_price": 0.245,
+          "usdc_size": 2218.19,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.4523,
+          "cur_price": 0.705,
+          "usdc_size": 852.88,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x4868c31e81040e002b41984842b84bae8923a1c1",
+      "name": "alex20011",
+      "score": 30.5,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.7,
+      "roi": -99.9,
+      "cash_pnl": -104210.05,
+      "realized_pnl": -20881.07,
+      "total_usdc": 35022.11,
+      "trade_count": 500,
+      "market_count": 242,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:08:51+00:00",
+      "top_markets": [
+        "Will the highest temperature in Amsterdam be 9\u00b0C on October 31?",
+        "Will the lowest temperature in Amsterdam be 4\u00b0C on November 1?",
+        "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc1b5f266564e6d4907cf84bdf5a8f91621ef5d85",
+      "name": "kaxel78",
+      "score": 30.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.3,
+      "roi": -99.9,
+      "cash_pnl": -65306.3,
+      "realized_pnl": -8463.97,
+      "total_usdc": 33078.81,
+      "trade_count": 500,
+      "market_count": 247,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T07:31:18+00:00",
+      "top_markets": [
+        "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?",
+        "Will the Republican Party win the NC-13 House seat?",
+        "Will Puma Shen win the next Taipei Mayor election?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xc04eba3d4fb1729de321db9c4e1c90f55790c1f9",
+      "name": "klli27",
+      "score": 30.4,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 79.3,
+      "roi": -99.8,
+      "cash_pnl": -35406.77,
+      "realized_pnl": -4077.24,
+      "total_usdc": 32860.76,
+      "trade_count": 500,
+      "market_count": 233,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:08:51+00:00",
+      "top_markets": [
+        "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?",
+        "Will Dune: Messiah have the 2nd best domestic opening weekend in 2026?",
+        "Will the median home value in Los Angeles Metro be at least $1,168,000 on December 31?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0x72487021e3339827c476592585c15ae7f0fa7e72",
+      "name": "pollo07",
+      "score": 30.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 78.5,
+      "roi": -99.9,
+      "cash_pnl": -55162.8,
+      "realized_pnl": -6630.24,
+      "total_usdc": 29755.41,
+      "trade_count": 500,
+      "market_count": 247,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:08:51+00:00",
+      "top_markets": [
+        "Will the median home value in Los Angeles Metro be at least $1,168,000 on December 31?",
+        "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?",
+        "Will a team from LCK (South Korea) win LoL Worlds 2026?"
+      ],
+      "signals": []
+    },
+    {
+      "wallet": "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+      "name": "WarriorH",
+      "score": 30.3,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.9,
+      "roi": -77.0,
+      "cash_pnl": -25103.85,
+      "realized_pnl": 52011.08,
+      "total_usdc": 27419.28,
+      "trade_count": 500,
+      "market_count": 254,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:41:46+00:00",
+      "top_markets": [
+        "Will the Republicans win the Iowa Senate race in 2026?",
+        "Will the US confirm that aliens exist before 2027?",
+        "Will the Democratic Party win the CO-03 House seat?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
+          "signal": "SKIP",
+          "avg_price": 0.8899,
+          "cur_price": 0.115,
+          "usdc_size": 1489.82,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x8bac34bb7b51b4d63b128eb711d76706efdc35ca",
+      "name": "akroll",
       "score": 30.2,
       "roi_score": 0.0,
       "calibration_score": 50.0,
       "consistency_score": 50.0,
       "early_entry_score": 0.0,
-      "volume_score": 77.5,
-      "roi": -56.9,
-      "cash_pnl": -2715.27,
-      "realized_pnl": -625.49,
-      "total_usdc": 25990.96,
+      "volume_score": 77.1,
+      "roi": -99.9,
+      "cash_pnl": -58635.56,
+      "realized_pnl": -8341.71,
+      "total_usdc": 24752.67,
       "trade_count": 500,
-      "market_count": 33,
-      "position_count": 47,
-      "resolved_count": 0,
-      "win_rate": 0,
-      "z_score": 0.0,
-      "last_active": "2026-11-01T01:48:39+00:00",
-      "top_markets": [
-        "Hornets vs. Wizards",
-        "Kings vs. Grizzlies",
-        "Pacers vs. Heat"
-      ],
-      "signals": []
-    },
-    {
-      "wallet": "0xdb83e85ffd22faa4009273034770f96ffc5b1e50",
-      "name": "sentrio",
-      "score": 30.2,
-      "roi_score": 0.0,
-      "calibration_score": 50.0,
-      "consistency_score": 50.0,
-      "early_entry_score": 0.8,
-      "volume_score": 75.7,
-      "roi": -100.0,
-      "cash_pnl": -1374593.19,
-      "realized_pnl": -3713.61,
-      "total_usdc": 20482.75,
-      "trade_count": 500,
-      "market_count": 58,
+      "market_count": 243,
       "position_count": 500,
       "resolved_count": 0,
       "win_rate": 0,
       "z_score": 0.0,
-      "last_active": "2026-11-01T01:46:30+00:00",
+      "last_active": "2026-11-01T08:08:51+00:00",
       "top_markets": [
-        "Penguins vs. Canadiens",
-        "Rockets vs. Mavericks",
-        "Lakers vs. Warriors"
+        "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?",
+        "Will Republicans win Kansas and Ohio, and lose Alaska, Iowa, Maine, Michigan, and Texas?",
+        "Will Republicans win Alaska, and lose Iowa, Kansas, Maine, Michigan, Ohio, and Texas?"
       ],
       "signals": []
+    },
+    {
+      "wallet": "0x1f5f9fa318fbda8350ac143b4df657287df850fa",
+      "name": "lpgb",
+      "score": 30.2,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 77.0,
+      "roi": -77.3,
+      "cash_pnl": -11475.51,
+      "realized_pnl": 23707.53,
+      "total_usdc": 24488.95,
+      "trade_count": 500,
+      "market_count": 271,
+      "position_count": 500,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T08:41:34+00:00",
+      "top_markets": [
+        "Will the Democrats win the Michigan Senate race in 2026?",
+        "Will Core CPI YoY be 2.2% or less in October?",
+        "Will the Democratic Party candidate win the 2026 New Hampshire Senate election by 18% or more?"
+      ],
+      "signals": [
+        {
+          "market": "Will the Democrats win the Michigan Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.1999,
+          "cur_price": 0.815,
+          "usdc_size": 1238.63,
+          "outcome": "No"
+        }
+      ]
+    },
+    {
+      "wallet": "0x78048aa26ac1967566b8ed11910b529e5f2d7025",
+      "name": "HorribleWork",
+      "score": 30.1,
+      "roi_score": 0.0,
+      "calibration_score": 50.0,
+      "consistency_score": 50.0,
+      "early_entry_score": 0.0,
+      "volume_score": 75.8,
+      "roi": -84.8,
+      "cash_pnl": -580855.71,
+      "realized_pnl": 38109.62,
+      "total_usdc": 20983.09,
+      "trade_count": 500,
+      "market_count": 5,
+      "position_count": 177,
+      "resolved_count": 0,
+      "win_rate": 0,
+      "z_score": 0.0,
+      "last_active": "2026-11-01T02:00:30+00:00",
+      "top_markets": [
+        "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+        "2026 Balance of Power: R Senate, R House",
+        "Will Anna Kelly be the next White House Press Secretary?"
+      ],
+      "signals": [
+        {
+          "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+          "signal": "ENTER",
+          "avg_price": 0.2451,
+          "cur_price": 0.245,
+          "usdc_size": 53650.77,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, D House",
+          "signal": "LATE",
+          "avg_price": 0.2379,
+          "cur_price": 0.225,
+          "usdc_size": 14106.73,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: R Senate, R House",
+          "signal": "SKIP",
+          "avg_price": 0.0691,
+          "cur_price": 0.045,
+          "usdc_size": 7221.8,
+          "outcome": "Yes"
+        },
+        {
+          "market": "2026 Balance of Power: D Senate, D House",
+          "signal": "SKIP",
+          "avg_price": 0.3436,
+          "cur_price": 0.715,
+          "usdc_size": 2888.89,
+          "outcome": "No"
+        },
+        {
+          "market": "Will the Republicans win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.3998,
+          "cur_price": 0.295,
+          "usdc_size": 997.69,
+          "outcome": "Yes"
+        },
+        {
+          "market": "Will the Democrats win the Texas Senate race in 2026?",
+          "signal": "SKIP",
+          "avg_price": 0.3899,
+          "cur_price": 0.705,
+          "usdc_size": 650.77,
+          "outcome": "No"
+        }
+      ]
     }
   ],
   "markets": [
     {
-      "id": "0xcff6a1dd39c19b6c0a68202dd44b3386e61df40acd588e7e5634f249422ab0e8",
-      "question": "Hawks vs. Pelicans",
-      "volume": "2225047.558151",
-      "liquidity": "35605.54097",
-      "end_date": "2026-10-31T23:00:00Z"
-    },
-    {
-      "id": "0xd0c4ae292f951b5ced1fabbe2e6d1e3de6fe51be96f50092647fd13fa2c7ec6a",
-      "question": "Thunder vs. Rockets",
-      "volume": "2483582.934156001",
-      "liquidity": "312470.1898",
-      "end_date": "2026-11-01T00:30:00Z"
-    },
-    {
       "id": "0xa32317ba83c3c83dc43ef260c3744c22ed8000db53d30bc09372c45cff5fb07a",
       "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-      "volume": "2107021.729574",
-      "liquidity": "1438280.0691",
+      "volume": "2242022.870387",
+      "liquidity": "1358032.7692",
       "end_date": "2026-11-03T23:59:00Z"
-    },
-    {
-      "id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
-      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "volume": "19268444.839783996",
-      "liquidity": "7900243.6067",
-      "end_date": "2026-11-04T04:59:00Z"
-    },
-    {
-      "id": "0x8780b8cea695eb132b39e41468f28a4afe7785ff80f1206b4f3b32f69ce11687",
-      "question": "Atlanta Dream vs. Golden State Valkyries",
-      "volume": "811054.712065",
-      "liquidity": "69583.3752",
-      "end_date": "2026-11-01T00:00:00Z"
     },
     {
       "id": "0x8b8a3795365dec42e1e0377d3f912e682bfc657c2533e8b5870ec441e967b4dc",
       "question": "Will 1win launch a token by October 31, 2026?",
-      "volume": "1140107.4973880001",
-      "liquidity": "1694603.0151",
+      "volume": "1734650.7673880002",
+      "liquidity": "1900314.6978",
       "end_date": "2026-11-01T03:59:00Z"
     },
     {
-      "id": "0xe4f278387ed07dde6c6c7a9f0786f077dcbaac5fd85a799210450e4cc7009df4",
-      "question": "Spread: Rockets (-2.5)",
-      "volume": "1294876.829871",
-      "liquidity": "49944.2642",
-      "end_date": "2026-11-01T00:30:00Z"
+      "id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "volume": "19406595.94662",
+      "liquidity": "7735194.418",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x65e1d1497621c251f84ce9c9e714e4b17804ed49cf8aa81840c0fc2846ad1828",
+      "question": "Will Fred VanVleet play for the Houston Rockets in 2026-27?",
+      "volume": "1138161.457318",
+      "liquidity": "446764.89211",
+      "end_date": "2026-11-01T03:59:00Z"
     },
     {
       "id": "0x120807abdb5f63394def7597b0420b6b55f4ca13c5cb06049e73af82517c23c1",
       "question": "Will Republicans win Alaska, Iowa, Kansas, Michigan, and Texas, and lose Maine and Ohio?",
-      "volume": "1158169.780975",
-      "liquidity": "1222948.67208",
+      "volume": "1160436.104309",
+      "liquidity": "1229778.48578",
       "end_date": "2026-11-03T23:59:00Z"
-    },
-    {
-      "id": "0xc766e009b91cd7f566828fbefeb5094970d6f787a1ff4337133a2ce91ad1991f",
-      "question": "Timberwolves vs. Spurs",
-      "volume": "959424.1423569999",
-      "liquidity": "143395.494",
-      "end_date": "2026-11-01T00:00:00Z"
-    },
-    {
-      "id": "0xab18e4c8b308de364d1fb6458957b5ac7dd9ced448ef12b2b198c59acaf08e9d",
-      "question": "Spread: Cavaliers (-9.5)",
-      "volume": "963859.596073",
-      "liquidity": "55139.22586",
-      "end_date": "2026-11-01T00:00:00Z"
-    },
-    {
-      "id": "0xbfeb6d4cf3eab6071e204219b0647c8224d63a12778df467311b5f2a4b3a5bd4",
-      "question": "Will the Democrats win the Michigan Senate race in 2026?",
-      "volume": "2983441.068789",
-      "liquidity": "584678.0502",
-      "end_date": "2026-11-04T04:59:00Z"
-    },
-    {
-      "id": "0x3fd189cac9280dfc49a07115581e8d4c9e0b7e1c1e8580a44e9ff3d74e39cf2d",
-      "question": "Will the Republicans win the Michigan Senate race in 2026?",
-      "volume": "2546424.631682",
-      "liquidity": "674580.35",
-      "end_date": "2026-11-04T04:59:00Z"
-    },
-    {
-      "id": "0xba448d0b35568ae68b638447fc7a89565e73158bd7e258860c7fc3d355b5e317",
-      "question": "Cavaliers vs. Bucks",
-      "volume": "838895.6451709999",
-      "liquidity": "130189.26524",
-      "end_date": "2026-11-01T00:00:00Z"
-    },
-    {
-      "id": "0x5eac94183c6bd2b0d62a16a67fd9572ad9d041ea50a8049b608b205e6d973fda",
-      "question": "Kings vs. Grizzlies: O/U 228.5",
-      "volume": "810787.7744660001",
-      "liquidity": "49873.7526",
-      "end_date": "2026-11-01T00:00:00Z"
-    },
-    {
-      "id": "0x7bb6a24c932a69a04ea2b88edee11ffe904765e459ff7862ebb6355961ec0b42",
-      "question": "Will Bournemouth win the 2026-27 English Premier League (EPL) Championship?",
-      "volume": "1789512.423333",
-      "liquidity": "929109.53814",
-      "end_date": "2027-05-30T23:59:00Z"
     },
     {
       "id": "0x564959d4c61eeb7c568d6f8e4f5a0dcf3622434d4f264d418d9674102e5a7a88",
       "question": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
-      "volume": "1455604.3735950002",
-      "liquidity": "1235501.9516",
+      "volume": "1592245.3208519998",
+      "liquidity": "1063864.9463",
       "end_date": "2026-11-03T23:59:00Z"
+    },
+    {
+      "id": "0x7bb6a24c932a69a04ea2b88edee11ffe904765e459ff7862ebb6355961ec0b42",
+      "question": "Will Bournemouth win the 2026-27 English Premier League (EPL) Championship?",
+      "volume": "1789936.6423330002",
+      "liquidity": "928723.54767",
+      "end_date": "2027-05-30T23:59:00Z"
+    },
+    {
+      "id": "0x3fd189cac9280dfc49a07115581e8d4c9e0b7e1c1e8580a44e9ff3d74e39cf2d",
+      "question": "Will the Republicans win the Michigan Senate race in 2026?",
+      "volume": "2566496.223594",
+      "liquidity": "672770.0129",
+      "end_date": "2026-11-04T04:59:00Z"
     },
     {
       "id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
       "question": "2026 Balance of Power: D Senate, D House",
-      "volume": "11625995.624837",
-      "liquidity": "5351195.33",
+      "volume": "11809762.902600002",
+      "liquidity": "5439423.1133",
       "end_date": "2026-11-04T04:59:00Z"
     },
     {
-      "id": "0xb58c1695c03c0541f694686a8a77763bcfa694a5232a7326ba094c0b7efc9ef1",
-      "question": "Kings vs. Grizzlies",
-      "volume": "627189.838618",
-      "liquidity": "222291.69536",
-      "end_date": "2026-11-01T00:00:00Z"
+      "id": "0x18495e53923101270dccf18240bd6f55eb344cbf11df6703b23e9f670fa6a979",
+      "question": "Ningbo: Petr Bar Biryukov vs Yaroslav Demin",
+      "volume": "435038.8399650001",
+      "liquidity": "228707.9432",
+      "end_date": "2026-11-08T06:00:00Z"
     },
     {
-      "id": "0x4fb8dbb7de9fb4c04f36e08f0bb9d169bd9c75165dd109c6621b1dbcd8f08b81",
-      "question": "Spread: Hawks (-4.5)",
-      "volume": "583143.8919049999",
-      "liquidity": "22936.58945",
-      "end_date": "2026-10-31T23:00:00Z"
+      "id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "volume": "30907873.205738995",
+      "liquidity": "400217.4728",
+      "end_date": "2026-10-28T03:59:00Z"
     },
     {
-      "id": "0x479704635969a632fde4506a6d5c0cf6f9cb7b8a64287c8cba8431c5def6ccd5",
-      "question": "Ohio State vs. USC",
-      "volume": "483493.84577799996",
-      "liquidity": "291791.6051",
-      "end_date": "2026-10-31T23:30:00Z"
+      "id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
+      "question": "2026 Balance of Power: R Senate, D House",
+      "volume": "7076345.887791999",
+      "liquidity": "2331026.7983",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0xefa17dee3af09f69f9ddf245b969aa4efbe7c71cdf06ee49d694408bc33e2ed2",
+      "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+      "volume": "38216516.881306",
+      "liquidity": "146385.97762",
+      "end_date": "2027-05-30T23:59:00Z"
+    },
+    {
+      "id": "0x94521176f57d2ce81dde01e0b7699ca4279423042d37ed53908f0c8bfefe7e14",
+      "question": "Will the Republicans win the Texas Senate race in 2026?",
+      "volume": "5585159.816083999",
+      "liquidity": "1340939.0093",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0xbfeb6d4cf3eab6071e204219b0647c8224d63a12778df467311b5f2a4b3a5bd4",
+      "question": "Will the Democrats win the Michigan Senate race in 2026?",
+      "volume": "3030926.439515999",
+      "liquidity": "620735.6729",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417",
+      "question": "Will the Democrats win the Texas Senate race in 2026?",
+      "volume": "3923376.026683",
+      "liquidity": "1168625.9661",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x450810ae738a0ff820d3248f2b24937f63fb8c8cf422ed2a915125adb4d9d3c8",
+      "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+      "volume": "49262869.40289",
+      "liquidity": "2284632.54828",
+      "end_date": "2028-11-08T04:59:00Z"
+    },
+    {
+      "id": "0xc5eae79d1ffe716572353962eb926b1e3964c500a4880a7a94f58408218ee76b",
+      "question": "2026 Balance of Power: R Senate, R House",
+      "volume": "15215534.237285003",
+      "liquidity": "3562950.1156",
+      "end_date": "2026-11-04T04:59:00Z"
+    },
+    {
+      "id": "0x822e61527476cabf98927e3aad385c5ecdae7086f945535f2c1fd9ae8dbfa46e",
+      "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
+      "volume": "43763706.72923299",
+      "liquidity": "2388254.06534",
+      "end_date": "2028-11-08T04:59:00Z"
+    },
+    {
+      "id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "volume": "15714162.815360004",
+      "liquidity": "5690185.2901",
+      "end_date": "2026-11-04T04:59:00Z"
     }
   ]
 }
